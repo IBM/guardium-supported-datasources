@@ -1,0 +1,695 @@
+{
+    "versions": ["3.1.0", "3.0.0", "2.5.0", "2.0.0"],
+    "supported_databases": [
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Amazon Aurora MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["1.2+", "2.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Amazon Aurora PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["10.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon DynamoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["2019.11.21"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon RDS for MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.7+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "Amazon RDS for Oracle",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["12c", "19c"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon RDS for PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["10.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "Amazon S3",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cassandra",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos Gremlin",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos Table",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Google Cloud PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Google Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["13.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Google Cloud SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Google Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["8.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "HDFS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["3.1+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MongoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["4.2","4.4"]
+                        },
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["4.2","4.4"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MySQL Percona",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.7.31-34"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "MSSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Google Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Neo4j",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Oracle Unified Audit",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS RDS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["18", "19"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "SAP HANA",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["2.00.033.00.1535711040"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Snowflake",
+            "environments_supported": [
+              {
+                  "environment_name": "AWS (Database as a Service)",
+                  "methods_supported": [
+                      {
+                          "method_key":"Universal Connector",
+                          "supported_versions": ["5.0+"]
+                      }
+                  ]
+              },
+              {
+                  "environment_name": "Azure (Database as a Service)",
+                  "methods_supported": [
+                      {
+                          "method_key":"Universal Connector",
+                          "supported_versions": ["5.0+"]
+                      }
+                  ]
+              },
+              {
+                  "environment_name": "Google Cloud (Database as a Service)",
+                  "methods_supported": [
+                      {
+                          "method_key":"Universal Connector",
+                          "supported_versions": ["5.0+"]
+                      }
+                  ]
+              }
+            ]
+        }
+    ],
+    "methods": {
+        "Amazon Kinesis": {
+            "method_name": "Amazon Kinesis",
+            "method_info": [
+                {
+                    "accordian_title": "Skill Level",
+                    "type": "string",
+                    "content": "Beginner"
+                },
+                {
+                    "accordian_title": "Benefits",
+                    "type": "ordered",
+                    "content": [
+                        "Simple to implement",
+                        "Eliminates technical and administrative burdens of agent-based monitoring."
+                    ]
+                },
+                {
+                    "accordian_title": "Considerations",
+                    "type": "unordered",
+                    "content": [
+                        "Lack of segregation of duties: database administrators can disable native audit logging.",
+                        "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+                        "Limited visibility: native audit logging is normally limited to access and exception events. It does not capture data points such as result sets (what is returned from the server back to the client) and local sessions.",
+                        "Lack of proactive protections, such as no inline blocking or redaction."
+                    ]
+                },
+                {
+                    "accordian_title": "How it works",
+                    "type": "unordered",
+                    "content": [
+                        "Enable native audit logging on the database that you want to monitor. Native audit logs are pushed as a database activity stream over Amazon Kinesis. Guardium uses intermittent API polling to fetch the Amazon Kinesis data activity stream."
+                    ]
+                },
+                {
+                    "accordian_title": "Information you will need",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "Authentication",
+                            "content": [
+                                {
+                                    "title": "Using security-credentials:",
+                                    "content": [
+                                        "AWS access key ID",
+                                        "AWS Secret access key"
+                                    ]
+                                },
+                                {
+                                    "title": "Using IAM-Role:",
+                                    "content": [
+                                        "AWS access key ID",
+                                        "AWS Secret access key",
+                                        "Role ARN"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Configuration",
+                            "content": [
+                                "Stream Name",
+                                "Region",
+                                "Cluster Resource ID",
+                                "Cluster Group Name",
+                                "Database DNS Endpoint",
+                                "Database Type"
+                            ]
+                        },
+                        {
+                            "title": "Optional (if using Blocking response action with Guardium Insights)",
+                            "content": [
+                                "Database",
+                                "Username",
+                                "Password"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "accordian_title": "Setup Instructions",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "[Enabling native audit logging on AWS databases]",
+                            "link": "https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs"
+                        }
+                    ]
+                }
+            ]
+        },
+        "STAP": {
+            "method_name": "Agent (S-TAP)",
+            "method_info": [
+                {
+                    "accordian_title": "Skill Level",
+                    "type": "string",
+                    "content": "Advanced"
+                },
+                {
+                    "accordian_title": "Benefits",
+                    "type": "ordered",
+                    "content": [
+                        "Comprehensive visibility - including local database sessions.",
+                        "Enforces separation of duties.",
+                        "Supports in-line blocking and redaction.",
+                        "Viewing encrypted sessions does not require access to certificates and connections termination."
+                    ]
+                },
+                {
+                    "accordian_title": "Considerations",
+                    "type": "unordered",
+                    "content": [
+                        "Installing and maintaining agents requires coordination with other teams and owners including: database server administrators, database administrators, and application owners.",
+                        "Agent-based infrastructure is sensitive to changes in the underlying database and operating system.  The agent and inspection engines must be kept up-to-date to deal with these changes.",
+                        "S-TAPs can be managed standalone or with Guardium Installation Manager (GIM)."
+                    ]
+                },
+                {
+                    "accordian_title": "How it works",
+                    "type": "unordered",
+                    "content": [
+                        "A lightweight agent (an S-TAP) is installed at the operating system level. The agent observes all session traffic to and from the database and makes a copy of that session traffic - sending it either to a Guardium collector or directly to Guardium Insights for processing and analytics.",
+                        {
+                            "title": "[View more information]",
+                            "link": "https://www.ibm.com/docs/en/guardium/11.3?topic=windows-s-tap-users-guide"
+                        }
+                    ]
+                },
+                {
+                    "accordian_title": "Information you will need",
+                    "type": "unordered",
+                    "content": [
+                        "Knowledge of the operating system on the database server (Windows, AIX, Solaris, HP-UX, Linux, etc).",
+                        "Knowledge of the database type and version."
+                    ]
+                },
+                {
+                    "accordian_title": "Setup Instructions",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "[Linux-Unix S-TAP Guide]",
+                            "link": "https://www.ibm.com/docs/en/guardium/11.3?topic=linux-unix-s-tap-users-guide"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Azure Event Hubs": {
+            "method_name": "Azure Event Hubs",
+            "method_info": [
+                {
+                    "accordian_title": "Skill Level",
+                    "type": "string",
+                    "content": "Beginner"
+                },
+                {
+                    "accordian_title": "Benefits",
+                    "type": "ordered",
+                    "content": [
+                        "Simple to implement.",
+                        "Eliminates technical and administrative burdens of agent-based monitoring."
+                    ]
+                },
+                {
+                    "accordian_title": "Considerations",
+                    "type": "unordered",
+                    "content": [
+                        "Lack of segregation of duties: database administrators can disable native audit logging.",
+                        "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+                        "Limited visibility: native audit logging is normally limited to access and exception events. It does not capture data points such as result sets (what is returned from the server back to the client) and local sessions.",
+                        "Lack of proactive protections: no in-line blocking, redaction and more."
+                    ]
+                },
+                {
+                    "accordian_title": "How it works",
+                    "type": "unordered",
+                    "content": [
+                        "Enable native audit logging on the database that you want to monitor. Native audit logs are pushed as an Event Hub stream over Azure Event Hubs. Guardium uses intermittent API polling to fetch the Event Hub stream."
+                    ]
+                },
+                {
+                    "accordian_title": "Information you will need",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "Authentication",
+                            "content": [
+                                "Shared access policy name",
+                                "Shared access policy key"
+                            ]
+                        },
+                        {
+                            "title": "Configuration",
+                            "content": [
+                                "Event Hub Name",
+                                "Namespace",
+                                "Database Type",
+                                "Port",
+                                "Cluster Resource ID",
+                                "Cluster Group Name",
+                                "Database DNS Endpoint",
+                                "Storage Connection String"
+                            ]
+                        },
+                        {
+                            "title": "Optional (if using Blocking response action with Guardium Insights)",
+                            "content": [
+                                "Database",
+                                "Username",
+                                "Password"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "accordian_title": "Setup Instructions",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "[Enabling native audit logging on Azure databases]",
+                            "link": "https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Universal Connector": {
+            "method_name": "Universal Connector",
+            "method_info": [
+                {
+                    "accordian_title": "Skill Level",
+                    "type": "string",
+                    "content": "Intermediate"
+                },
+                {
+                    "accordian_title": "Benefits",
+                    "type": "ordered",
+                    "content": [
+                        "Eliminates technical and administrative burdens of agent-based monitoring.",
+                        "Extremely flexible - can be used to monitor a variety of data sources - including structured and unstructured data."
+                    ]
+                },
+                {
+                    "accordian_title": "Considerations",
+                    "type": "unordered",
+                    "content": [
+                        "May require some familiarity with data ingestion components like Elastic Filebeat and Input/Filter plugins.",
+                        "Lack of segregation of duties: database administrators can disable native audit logging.",
+                        "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+                        "Limited visibility: Native audit logging is normally limited to access and exception events and does not capture data points like result sets (what is returned from the server back to the client) and local sessions.",
+                        "Lack of proactive protections: no in-line blocking, redaction and more."
+                    ]
+                },
+                {
+                    "accordian_title": "How it works",
+                    "type": "unordered",
+                    "content": [
+                        "Data source events are either pushed or pulled into Guardium by using a Universal Connector pipeline. The Universal Connector pipeline maps the events into a format that Guardium understands."
+                    ]
+                },
+                {
+                    "accordian_title": "Information you will need",
+                    "type": "unordered",
+                    "content": [
+                        "Knowledge of what methods will be used for accessing the data source events (pulling via APIs, JDBC; pushing via Filebeat).",
+                        "Authentication and configuration settings for the data ingestion method you will use."
+                    ]
+                },
+                {
+                    "accordian_title": "Setup Instructions",
+                    "type": "unordered",
+                    "content": [
+                        {
+                            "title": "[Learn More]",
+                            "link": "https://github.com/IBM/universal-connectors#available-universal-connector-plug-ins"
+                        },
+                        {
+                            "title": "[Download]",
+                            "link": "https://github.com/IBM/universal-connectors/releases"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
