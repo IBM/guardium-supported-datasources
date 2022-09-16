@@ -1,0 +1,132 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+
+@mixin component ($block) {
+    .#{$block} {
+        @content;
+    }
+}
+
+@include component('connections-doc') {
+    .exp--action-set__action-button--ghost {
+        max-width: none;
+    }
+
+    .bx--col-lg-2 {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    &__open.bx--btn--ghost {
+        max-width: none;
+    }
+
+    &__main-content {
+        padding: 2rem;
+    }
+
+    &__category_title {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        font-size: carbon--type-scale(2);
+    }
+
+    &__search {
+        flex-shrink: 0;
+        padding-bottom: 0.25rem;
+    }
+
+    &__divider {
+        margin: 0;
+        padding: 0;
+        border-color: $inverse-02;
+    }
+
+    &__data-source-container {
+        margin-top: 1rem;
+    }
+
+    &__data-source-card {
+        background-color: $ui-01;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        margin-bottom: 1rem;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+            background-color: $hover-ui;
+        }
+    }
+
+    &__data-source-card--disabled {
+        background-color: $ui-03;
+        &:hover {
+            cursor: not-allowed;
+            background-color: $ui-03;
+        }
+    }
+
+    &__data-source-card-title {
+        margin-left: 1rem;
+        font-size: carbon--type-scale(3);
+    }
+
+    &__data-source-card-version {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .exp--action-set {
+        display: flex !important;
+    }
+
+    button.exp--action-set__action-button.bx--btn.bx--btn--xl.bx--btn--primary.bx--btn--disabled.bx--btn--expressive {
+        margin-left: auto !important;
+    }
+
+    button.exp--action-set__action-button.bx--btn.bx--btn--xl.bx--btn--primary.bx--btn--expressive {
+        margin-left: auto !important;
+    }
+
+    &__data_sources_panel {
+        height: 80vh;
+        display: flex;
+        margin: 1rem;
+        .bx--accordion {
+            overflow: auto;
+        }
+    }
+
+    &__header-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__version-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__version-dropdown-box {
+        min-width: 100px;
+        margin: 0.5rem 0 0.5rem 0.5rem;
+
+    }
+
+    &__raw-data-link {
+        position: absolute;
+        right: 2rem;
+        top: 0.5rem;
+        color: $text-02;
+        &:hover {
+            color: $text-01;
+        }
+    }
+}
