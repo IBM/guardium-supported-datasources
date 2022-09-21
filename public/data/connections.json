@@ -1,5 +1,5 @@
 {
-    "versions": ["3.1.0", "3.0.0", "2.5.0", "2.0.0"],
+    "versions": ["3.2.0", "3.1.0", "3.0.0", "2.5.0", "2.0.0"],
     "supported_databases": [
         {
             "supported_since": "2.0.0",
@@ -203,38 +203,6 @@
         },
         {
             "supported_since": "3.1.0",
-            "database_name": "Google Cloud PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "Google Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["13.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
-            "database_name": "Google Cloud SQL",
-            "environments_supported": [
-                {
-                    "environment_name": "Google Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["8.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
             "database_name": "HDFS",
             "environments_supported": [
                 {
@@ -308,95 +276,6 @@
         },
         {
             "supported_since": "3.1.0",
-            "database_name": "MSSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Google Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
-            "database_name": "Neo4j",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
-            "database_name": "Oracle Unified Audit",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["14.0+"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS RDS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key":"Universal Connector",
-                            "supported_versions": ["18", "19"],
-                            "download_url":"https://github.com/IBM/universal-connectors/releases"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
             "database_name": "SAP HANA",
             "environments_supported": [
                 {
@@ -409,78 +288,6 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
-            "database_name": "Snowflake",
-            "environments_supported": [
-              {
-                  "environment_name": "AWS (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["5.0+"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              },
-              {
-                  "environment_name": "Azure (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["5.0+"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              },
-              {
-                  "environment_name": "Google Cloud (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["5.0+"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              }
-            ]
-        },
-        {
-            "supported_since": "3.1.0",
-            "database_name": "Teradata",
-            "environments_supported": [
-              {
-                  "environment_name": "AWS (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["16.20", "17.5"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              },
-              {
-                  "environment_name": "Azure (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["16.20", "17.5"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              },
-              {
-                  "environment_name": "Google Cloud (Database as a Service)",
-                  "methods_supported": [
-                      {
-                          "method_key":"Universal Connector",
-                          "supported_versions": ["16.20", "17.5"],
-                          "download_url":"https://github.com/IBM/universal-connectors/releases"
-                      }
-                  ]
-              }
             ]
         }
     ],

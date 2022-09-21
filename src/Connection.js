@@ -236,9 +236,6 @@ export default function Connection() {
           onKeyPress={isGreaterThanVersion ? () => setSelectedDataSource(dataSource) : null}
           tabIndex={0}>
           <div className={`${BLOCK_CLASS}__data-source-card-title`}>{dataSource.database_name}</div>
-          <div className={`${BLOCK_CLASS}__data-source-card-version`}>
-            v{dataSource.supported_since}+
-          </div>
         </div>
       </div>
     );
@@ -268,7 +265,7 @@ export default function Connection() {
         {dataSourceSearchInput()}
         <div className={`${BLOCK_CLASS}__header-box`}>
           <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
-            Data sources available in version {selectedVersion}
+            Data sources directly monitored by Guardium Insights (not requiring a Guardium Data Protection Collector)
           </div>
           <div className={`${BLOCK_CLASS}__version-box`}>
             <div className={`${BLOCK_CLASS}__version-title`}>
