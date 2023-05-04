@@ -9,29 +9,373 @@
       "notes": "Classification via ISDC",
       "environments_supported": [
         {
-          "environment_name": "AWS (Database as a Service)",
-          "methods_supported": [
-            {
-              "method_key": "Amazon Kinesis",
-              "supported_versions": [
-                "5.7.mysql_aurora.2.07.2"
-              ]
-            },
-            {
-              "method_key": "Universal Connector",
-              "supported_versions": [
-                "2.0+"
-              ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
-              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
-            },
-            {
-              "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
-            }
-          ]
+            "supported_since": "2.0.0",
+            "database_name": "Amazon Aurora MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["1.2+", "2.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Amazon Aurora PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["10.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon DynamoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["2019.11.21"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon RDS for MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.7+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "Amazon RDS for Oracle",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Amazon Kinesis",
+                            "supported_versions": ["12c", "19c"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Amazon RDS for PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["10.0+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "Amazon S3",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["latest"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cassandra",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos Gremlin",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "2.0.0",
+            "database_name": "Azure Cosmos Table",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["latest"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "Couchbase",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["6.6.2-9600"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchbasedbOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.2.0",
+            "database_name": "CouchDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["3.2.2"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchdbOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.2.0",
+            "database_name": "DocumentDB",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["4.0+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.2.0",
+            "database_name": "Greenplum",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["6.21.0+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/GreenplumdbOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "HDFS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["3.1+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.2.0",
+            "database_name": "MariaDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["10.6+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MariaDBOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MongoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["4.2","4.4"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Azure Event Hubs",
+                            "supported_versions": ["14.0+"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.0+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.0.0",
+            "database_name": "MySQL Percona",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["5.7.31-34"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlPerconaOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.2.0",
+            "database_name": "Neptune",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["1.1+"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "supported_since": "3.1.0",
+            "database_name": "SAP HANA",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key":"Universal Connector",
+                            "supported_versions": ["2.00.033.00.1535711040"],
+                            "download_url":"https://github.com/IBM/universal-connectors/releases/download/v1.2.0/SaphanaOverFilebeatPackage.zip"
+                        }
+                    ]
+                }
+            ]
         }
       ]
     },
