@@ -1,6 +1,6 @@
 {
-  "short_name": "DataSources",
-  "name": "Guardium Supported DataSources",
+  "short_name": "Data Sources",
+  "name": "Guardium Supported Data Sources",
   "icons": [
     {
       "src": "favicon.ico",
