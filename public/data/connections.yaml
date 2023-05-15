@@ -14,8 +14,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.0+
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -30,16 +28,11 @@ supported_databases:
     methods_supported:
     - method_key: Amazon Kinesis
       supported_versions:
-      - 13.x
+      - 11.9
     - method_key: External STAP
       supported_versions:
       - All versions
-    - method_key: Universal Connector
-      supported_versions:
-      - 2.0+
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
-- database_name: DynamoDB
+- database_name: Amazon DynamoDB
   supported_since: 3.1.0
   gdp_supported_since: 11.0.0
   saas_supported: true
@@ -50,7 +43,6 @@ supported_databases:
       supported_versions:
       - 2019.11.21
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -75,8 +67,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0.40182
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -94,7 +85,6 @@ supported_databases:
       supported_versions:
       - 5.7+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
     - method_key: External STAP
       supported_versions:
       - 5.6
@@ -125,8 +115,6 @@ supported_databases:
       supported_versions:
       - 18
       - 19
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 - database_name: Amazon RDS for MariaDB
   supported_since: 3.2.0
   gdp_supported_since: 11.0.0
@@ -144,12 +132,9 @@ supported_databases:
       - 10.6
       - 10.7
       - 10.8
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
 - database_name: Amazon RDS for PostgreSQL
   supported_since: 3.1.0
   gdp_supported_since: 11.0.0
-  saas_supported: true
   va_supported: true
   classification_supported: true
   notes: Classification via GDP
@@ -166,7 +151,6 @@ supported_databases:
       supported_versions:
       - 10.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
 - database_name: Amazon RDS for Microsoft SQL Server
   supported_since: Planned for 3.3
   saas_supported: true
@@ -184,9 +168,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 14.0.x
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md
-- database_name: S3
+- database_name: Amazon S3
   supported_since: 3.0.0
   saas_supported: true
   gdp_supported_since: 11.3.0
@@ -202,8 +184,7 @@ supported_databases:
       supported_versions:
       - latest
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
-- database_name: Cassandra Apache
+- database_name: Apache Cassandra
   supported_since: Planned for 3.3
   gdp_supported_since: 11.0.0
   saas_supported: true
@@ -238,8 +219,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 4.0.1
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-cassandra-guardium/CassandraOverFilebeatPackage/Cassandra/cassandra-offline-plugins-7.5.2.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md
 - database_name: Aster
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -286,8 +265,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.6.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/AzureSolr/guardium_logstash-offline-plugin-apache-solr-azure.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/README.md
 - database_name: Azure Cassandra
   supported_since: 2.0.0
   saas_supported: true
@@ -338,12 +315,10 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 11.0+
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.0/AzurePostgresqlOverAzureEventHub.zip
 - database_name: Azure SQL
   supported_since: 2.0.0
   gdp_supported_since: 11.0.0
-  saas_supported: true
   va_supported: true
   classification_supported: true
   notes: Classification via GDP
@@ -357,11 +332,6 @@ supported_databases:
     - method_key: Azure Event Hubs
       supported_versions:
       - latest
-    - method_key: Universal Connector
-      supported_versions:
-      - 12.0.2000.8+
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
 - database_name: Azure Synapse Analytics
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -382,6 +352,9 @@ supported_databases:
   environments_supported:
   - environment_name: On-premise or IaaS
     methods_supported:
+    - method_key: Universal Connector
+      supported_versions:
+      - 4.0.1
     - method_key: STAP
       supported_versions:
       - Cloudera 2.6
@@ -433,7 +406,7 @@ supported_databases:
     - method_key: External STAP
       supported_versions:
       - 20.1.1
-- database_name: Couch
+- database_name: CouchDB
   supported_since: 3.2.0
   saas_supported: true
   gdp_supported_since: 11.0.0
@@ -444,7 +417,6 @@ supported_databases:
       supported_versions:
       - 3.2.2
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchdbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Couch 2.1
@@ -485,7 +457,6 @@ supported_databases:
       supported_versions:
       - 6.6.2-9600
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchbasedbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Couchbase 6
@@ -516,7 +487,6 @@ supported_databases:
       supported_versions:
       - 4.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
 - database_name: Elasticsearch
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -539,7 +509,7 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
+      - Suse 11 - 32-bit, 64-bit
   - environment_name: AWS (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -551,7 +521,7 @@ supported_databases:
       supported_versions:
       - All versions
 - database_name: Google Cloud Apache Solr
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0.0
   environments_supported:
   - environment_name: GCP (Database as a Service)
@@ -559,10 +529,8 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.6.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md
 - database_name: Google Cloud BigQuery
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0.0
   environments_supported:
   - environment_name: GCP (Database as a Service)
@@ -570,13 +538,11 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md
     - method_key: External STAP
       supported_versions:
       - All versions
 - database_name: Google Cloud Firestore
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0.0
   environments_supported:
   - environment_name: GCP (Database as a Service)
@@ -584,10 +550,8 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md
 - database_name: Google Cloud PostgreSQL
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0.0
   classification_supported: true
   notes: Classification via ISDC
@@ -604,10 +568,8 @@ supported_databases:
       supported_versions:
       - 13.0
       - 14.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md
 - database_name: Google Cloud MySQL
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   classification_supported: true
   notes: Classification via ISDC
   gdp_supported_since: 11.0.0
@@ -617,10 +579,8 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium-3.0.3.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md
 - database_name: Google Cloud Spanner
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0
   environments_supported:
   - environment_name: GCP (Database as a Service)
@@ -628,10 +588,8 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0.39300
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md
 - database_name: Google Cloud SQL
-  supported_since: 0.0.0
+  supported_since: 3.2.0
   gdp_supported_since: 11.0.0
   classification_supported: true
   notes: Classification via ISDC
@@ -662,7 +620,6 @@ supported_databases:
       supported_versions:
       - 6.21.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/GreenplumdbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Greenplum 4.3
@@ -702,7 +659,6 @@ supported_databases:
       supported_versions:
       - 3.1+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md
 - database_name: Hortonworks
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -747,7 +703,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: Datasets for z/OS
+- database_name: IBM Datasets for z/OS
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -764,7 +720,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: IBM DB2
+- database_name: IBM Db2
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   va_supported: true
@@ -785,14 +741,14 @@ supported_databases:
     methods_supported:
     - method_key: STAP
       supported_versions:
-      - DB2 10.1
-      - DB2 10.5
-      - DB2 11.1
-      - DB2 11.5
-      - DB2 7.1
-      - DB2 7.2
-      - DB2 7.3
-      - DB2 9.7
+      - Db2 10.1
+      - Db2 10.5
+      - Db2 11.1
+      - Db2 11.5
+      - Db2 7.1
+      - Db2 7.2
+      - Db2 7.3
+      - Db2 9.7
       supported_operating_systems:
       - AIX 6.1
       - AIX 7.1
@@ -830,9 +786,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -855,9 +811,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 (32 bit & 64 bit)
-      - Zlinux Suse 12 (64 bit)
-      - Zlinux Suse 15 (64 bit)
+      - Zlinux Suse 11 - 32-bit, 64-bit
+      - Zlinux Suse 12 - 64-bit
+      - Zlinux Suse 15 - 64-bit
       - Zlinux Ubuntu 18.0
     - method_key: External STAP
       supported_versions:
@@ -866,7 +822,7 @@ supported_databases:
       - 10.5
       - 11.1
       - 11.5
-- database_name: IBM DB2 Warehouse
+- database_name: IBM Db2 Warehouse
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -890,7 +846,7 @@ supported_databases:
       - 11.1
       - 11.5
       notes: Native encryption (DATA_ENCRYPT) not supported.
-- database_name: DB2 Purescale
+- database_name: IBM Db2 Purescale
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -903,12 +859,12 @@ supported_databases:
       - DB2 Purescale 11
       - DB2 Purescale 9.7
       - DB2 Purescale 9.8
-      - DB2 Purescale 10.1
-      - DB2 Purescale 10.5
-      - DB2 Purescale 11
-      - DB2 Purescale 11.5
-      - DB2 Purescale 9.7
-      - DB2 Purescale 9.8
+      - Db2 Purescale 10.1
+      - Db2 Purescale 10.5
+      - Db2 Purescale 11
+      - Db2 Purescale 11.5
+      - Db2 Purescale 9.7
+      - Db2 Purescale 9.8
       supported_operating_systems:
       - AIX 6.1
       - AIX 7.1
@@ -941,9 +897,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -966,9 +922,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 (32 bit & 64 bit)
-      - Zlinux Suse 12 (64 bit)
-      - Zlinux Suse 15 (64 bit)
+      - Zlinux Suse 11 - 32-bit, 64-bit
+      - Zlinux Suse 12 - 64-bit
+      - Zlinux Suse 15 - 64-bit
       - Zlinux Ubuntu 18.0
 - database_name: IBM IMS for z/OS
   supported_since: 0.0.0
@@ -986,7 +942,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: Informix
+- database_name: IBM Informix
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   va_supported: true
@@ -1032,9 +988,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -1058,12 +1014,12 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 (32 bit & 64 bit)
-      - Zlinux Suse 12 (64 bit)
-      - Zlinux Suse 15 (64 bit)
+      - Zlinux Suse 11 - 32-bit, 64-bit
+      - Zlinux Suse 12 - 64-bit
+      - Zlinux Suse 15 - 64-bit
       - Zlinux Ubuntu 18.0
       - Zlinux Ubuntu 18.04
-- database_name: Netezza
+- database_name: IBM Netezza
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   classification_supported: true
@@ -1097,9 +1053,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
 - database_name: MariaDB
   supported_since: 3.2.0
   saas_supported: true
@@ -1114,7 +1070,6 @@ supported_databases:
       supported_versions:
       - 10.6+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MariaDBOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md
     - method_key: External STAP
       supported_versions:
       - 10.4
@@ -1146,14 +1101,14 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
       - Windows Server 2019
-- database_name: MS SQL Server
+- database_name: Microsoft SQL Server
   supported_since: Planned for 3.3
   saas_supported: true
   gdp_supported_since: 11.0.0
@@ -1170,8 +1125,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 14.0.x
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md
     - method_key: STAP
       supported_versions:
       - MS SQL Server 2012
@@ -1205,7 +1158,6 @@ supported_databases:
       - '4.2'
       - '4.4'
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
     - method_key: STAP
       supported_versions:
       - MongoDB 3.2
@@ -1230,9 +1182,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1245,7 +1197,6 @@ supported_databases:
 - database_name: MongoDB Atlas
   supported_since: 3.0.0
   gdp_supported_since: 11.0.0
-  saas_supported: true
   environments_supported:
   - environment_name: Azure (Database as a Service)
     methods_supported:
@@ -1255,12 +1206,6 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
-    - method_key: Universal Connector
-      supported_versions:
-      - '4.2'
-      - '4.4'
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
   - environment_name: AWS (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1269,13 +1214,7 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
-    - method_key: Universal Connector
-      supported_versions:
-      - '4.2'
-      - '4.4'
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
-  - environment_name: GCP (Database as a Service)
+  - environment_name: Azure (Database as a Service)
     methods_supported:
     - method_key: External STAP
       supported_versions:
@@ -1283,12 +1222,6 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
-    - method_key: Universal Connector
-      supported_versions:
-      - '4.2'
-      - '4.4'
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
   - environment_name: IBM Cloud (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1297,12 +1230,6 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
-    - method_key: Universal Connector
-      supported_versions:
-      - '4.2'
-      - '4.4'
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
 - database_name: MySQL
   supported_since: 3.0.0
   saas_supported: true
@@ -1321,7 +1248,6 @@ supported_databases:
       supported_versions:
       - 5.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md
     - method_key: STAP
       supported_versions:
       - MySQL 5.7
@@ -1346,9 +1272,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -1369,7 +1295,6 @@ supported_databases:
       supported_versions:
       - 5.7.31-34
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlPerconaOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md
 - database_name: Neo4j
   supported_since: Planned for 3.3
   saas_supported: true
@@ -1381,8 +1306,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 4.4.3
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-neo4j-guardium/NeodbOverFilebeatPackage/Neo4jDB/neo4j-logstash-offline-plugins-7.16.3.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Neo4j 3.5
@@ -1412,7 +1335,6 @@ supported_databases:
       supported_versions:
       - 1.1+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 - database_name: Oracle
   supported_since: Planned for future release
   gdp_supported_since: 11.0.0
@@ -1432,8 +1354,6 @@ supported_databases:
       supported_versions:
       - 18
       - 19
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Oracle 11gR2
@@ -1470,9 +1390,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1491,9 +1411,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 (32 bit & 64 bit)
-      - Zlinux Suse 12 (64 bit)
-      - Zlinux Suse 15 (64 bit)
+      - Zlinux Suse 11 - 32-bit, 64-bit
+      - Zlinux Suse 12 - 64-bit
+      - Zlinux Suse 15 - 64-bit
 - database_name: Oracle Autonomous Database
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1549,9 +1469,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1594,9 +1514,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1621,8 +1541,7 @@ supported_databases:
       - EDB 12
       - EDB 14
       - FEP 14
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/PostgreFB/postgres-offline-plugins-7.5.2.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.0/PostgresOverFilebeatPackage.zip
     - method_key: STAP
 - database_name: Progress
   supported_since: Planned for future release
@@ -1633,8 +1552,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 12.6
-      download_url: https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md
 - database_name: Redis
   supported_since: 0.0.0
   gdp_supported_since: 11.1
@@ -1662,7 +1579,7 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
+      - Suse 11 - 32-bit, 64-bit
 - database_name: SAP HANA
   supported_since: 3.1.0
   saas_supported: true
@@ -1680,7 +1597,6 @@ supported_databases:
       supported_versions:
       - 2.00.033.00.1535711040
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/SaphanaOverFilebeatPackage.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-saphana-guardium/README.md
     - method_key: STAP
       supported_versions:
       - SAP HANA 1
@@ -1705,10 +1621,21 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
-- database_name: MemSQL
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
+- database_name: Sailfish
+  supported_since: 0.0.0
+  gdp_supported_since: 11.0.0
+  environments_supported:
+  - environment_name: On-premise or IaaS
+    methods_supported:
+    - method_key: STAP
+      supported_versions:
+      - Sailfish 1.0
+      supported_operating_systems:
+      - Red Hat 7.6 PPC64LE
+- database_name: SingleStore (MemSQL)
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -1745,7 +1672,7 @@ supported_databases:
       - Red Hat 7.9
       - Red Hat 8
 - database_name: Snowflake
-  supported_since: 3.2.6
+  supported_since: Planned for 3.3
   saas_supported: true
   gdp_supported_since: 11.0.0
   va_supported: true
@@ -1758,8 +1685,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
-      readme_url: https://github.com/infoinsights/guardium-snowflake-uc-filter
   - environment_name: Azure (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1768,8 +1693,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
-      readme_url: https://github.com/infoinsights/guardium-snowflake-uc-filter
   - environment_name: GCP (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1778,8 +1701,6 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
-      readme_url: https://github.com/infoinsights/guardium-snowflake-uc-filter
 - database_name: Sybase ASE
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1828,9 +1749,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1873,9 +1794,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
 - database_name: Teradata
   supported_since: Planned for future release
   gdp_supported_since: 11.0.0
@@ -1889,8 +1810,6 @@ supported_databases:
       supported_versions:
       - 16.20
       - 17.5
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/Teradata-Offline-Plugin.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Teradata 15
@@ -1899,9 +1818,9 @@ supported_databases:
       - Teradata 16.2
       - Teradata 17.0
       supported_operating_systems:
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
 - database_name: Yugabyte
   supported_since: Planned for 3.3
   saas_supported: true
@@ -1912,10 +1831,8 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.14
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-yugabyte-guardium/YugabytedbOverFilebeatPackage/YugabyteDB/yugabytedb-logstash-offline-plugins-1.0.0.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md
 - database_name: Vertica
-  supported_since: 0.0.0
+  supported_since: 3.1.0
   gdp_supported_since: 11.0.0
   environments_supported:
   - environment_name: On-premise or IaaS
@@ -1948,9 +1865,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 (32 bit & 64 bit)
-      - Suse 12 (64 bit)
-      - Suse 15 (64 bit)
+      - Suse 11 - 32-bit, 64-bit
+      - Suse 12 - 64-bit
+      - Suse 15 - 64-bit
 methods:
   Amazon Kinesis:
     method_name: Amazon Kinesis
@@ -1959,12 +1876,12 @@ methods:
       type: string
       content: Beginner
     - accordian_title: Benefits
-      type: string
+      type: ordered
       content:
       - Simple to implement
       - Eliminates technical and administrative burdens of agent-based monitoring.
     - accordian_title: Considerations
-      type: string
+      type: unordered
       content:
       - 'Lack of segregation of duties: database administrators can disable native
         audit logging.'
@@ -1975,13 +1892,13 @@ methods:
         is returned from the server back to the client) and local sessions.'
       - Lack of proactive protections, such as no inline blocking or redaction.
     - accordian_title: How it works
-      type: string
+      type: unordered
       content:
       - Enable native audit logging on the database that you want to monitor. Native
         audit logs are pushed as a database activity stream over Amazon Kinesis. Guardium
         uses intermittent API polling to fetch the Amazon Kinesis data activity stream.
     - accordian_title: Information you will need
-      type: orderedlist
+      type: unordered
       content:
       - title: Authentication
         content:
@@ -2008,23 +1925,18 @@ methods:
         - Username
         - Password
     - accordian_title: Setup Instructions
-      type: string
+      type: unordered
       content:
       - title: '[Enabling native audit logging on AWS databases]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-amazon-aws-setup
+        link: https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs
   External STAP:
     method_name: External S-TAP
     method_info:
-    - accordian_title: Detailed support information
-      type: string
-      content:
-      - title: '[IBM Support: IBM Guardium System Requirements and Supported Platforms]'
-        link: https://www.ibm.com/support/pages/ibm-guardium-system-requirements-and-supported-platforms
     - accordian_title: Skill Level
       type: string
       content: Advanced
     - accordian_title: Benefits
-      type: string
+      type: ordered
       content:
       - Comprehensive visibility - including local database sessions.
       - Enforces separation of duties.
@@ -2032,43 +1944,38 @@ methods:
       - Viewing encrypted sessions does not require access to certificates and connections
         termination.
     - accordian_title: Considerations
-      type: string
+      type: unordered
       content:
       - 'Installing and maintaining External S-TAPs requires coordination with other teams
         and owners including: database server administrators, database administrators,
         and application owners.'
     - accordian_title: How it works
-      type: string
+      type: unordered
       content:
       - External S-TAP is a component of Guardium that can intercept traffic for cloud and
         on-premises database services without installing an inspection agent on the database server.
         The External S-TAP observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it to a Guardium collector for processing and analytics.
-      title: '[View more information]'
-      link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
+      - title: '[View more information]'
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
     - accordian_title: Information you will need
-      type: orderedlist
+      type: unordered
       content:
       - Knowledge of the database type and version.
       - Knowledge of Docker and/or Kubernetes.
     - accordian_title: Setup Instructions
-      type: string
+      type: unordered
       content:
       - title: '[External S-TAP Guide]'
         link: https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements
   STAP:
     method_name: Agent (S-TAP)
     method_info:
-    - accordian_title: Detailed support information
-      type: string
-      content:
-      - title: '[Security Learning Academy: Supported Platforms for Guardium]'
-        link: https://www.securitylearningacademy.com/course/view.php?id=4013
     - accordian_title: Skill Level
       type: string
       content: Advanced
     - accordian_title: Benefits
-      type: string
+      type: ordered
       content:
       - Comprehensive visibility - including local database sessions.
       - Enforces separation of duties.
@@ -2076,7 +1983,7 @@ methods:
       - Viewing encrypted sessions does not require access to certificates and connections
           termination.
     - accordian_title: Considerations
-      type: string
+      type: unordered
       content:
       - 'Installing and maintaining agents requires coordination with other teams
         and owners including: database server administrators, database administrators,
@@ -2086,27 +1993,25 @@ methods:
         to deal with these changes.
       - S-TAPs can be managed standalone or with Guardium Installation Manager (GIM).
     - accordian_title: How it works
-      type: string
+      type: unordered
       content:
       - A lightweight agent (an S-TAP) is installed at the operating system level.
         The agent observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it either to a Guardium collector
         or directly to Guardium Insights for processing and analytics.
-      title: '[View more information]'
+      - title: '[View more information]'
       link: https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide
     - accordian_title: Information you will need
-      type: orderedlist
+      type: unordered
       content:
       - Knowledge of the operating system on the database server (Windows, AIX, Solaris,
         HP-UX, Linux, etc).
       - Knowledge of the database type and version.
     - accordian_title: Setup Instructions
-      type: string
+      type: unordered
       content:
       - title: '[Linux-Unix S-TAP Guide]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide
-      - title: '[Windows S-TAP Guide]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=windows-s-tap-users-guide
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=lustug-linux-unix-installing-upgrading-uninstalling-s-tap-agents
   Azure Event Hubs:
     method_name: Azure Event Hubs
     method_info:
@@ -2114,12 +2019,12 @@ methods:
       type: string
       content: Beginner
     - accordian_title: Benefits
-      type: string
+      type: ordered
       content:
       - Simple to implement.
       - Eliminates technical and administrative burdens of agent-based monitoring.
     - accordian_title: Considerations
-      type: string
+      type: unordered
       content:
       - 'Lack of segregation of duties: database administrators can disable native
         audit logging.'
@@ -2130,13 +2035,13 @@ methods:
         is returned from the server back to the client) and local sessions.'
       - 'Lack of proactive protections: no in-line blocking, redaction and more.'
     - accordian_title: How it works
-      type: string
+      type: unordered
       content:
       - Enable native audit logging on the database that you want to monitor. Native
         audit logs are pushed as an Event Hub stream over Azure Event Hubs. Guardium
         uses intermittent API polling to fetch the Event Hub stream.
     - accordian_title: Information you will need
-      type: orderedlist
+      type: unordered
       content:
       - title: Authentication
         content:
@@ -2158,10 +2063,10 @@ methods:
         - Username
         - Password
     - accordian_title: Setup Instructions
-      type: string
+      type: unordered
       content:
       - title: '[Enabling native audit logging on Azure databases]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-azure-setup
+        link: https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs
   Universal Connector:
     method_name: Universal Connector
     method_info:
@@ -2169,13 +2074,13 @@ methods:
       type: string
       content: Intermediate
     - accordian_title: Benefits
-      type: string
+      type: ordered
       content:
       - Eliminates technical and administrative burdens of agent-based monitoring.
-      - Extremely flexible - can be used to monitor a variety of DataSources - including
+      - Extremely flexible - can be used to monitor a variety of data sources - including
         structured and unstructured data.
     - accordian_title: Considerations
-      type: string
+      type: unordered
       content:
       - May require some familiarity with data ingestion components like Elastic Filebeat
         and Input/Filter plugins.
@@ -2188,27 +2093,28 @@ methods:
         returned from the server back to the client) and local sessions.'
       - 'Lack of proactive protections: no in-line blocking, redaction and more.'
     - accordian_title: How it works
-      type: string
+      type: unordered
       content:
-      - DataSource events are either pushed or pulled into Guardium by using a Universal
+      - Data source events are either pushed or pulled into Guardium by using a Universal
         Connector pipeline. The Universal Connector pipeline maps the events into
         a format that Guardium understands.
     - accordian_title: Information you will need
-      type: orderedlist
+      type: unordered
       content:
-      - Knowledge of what methods will be used for accessing the DataSource events
+      - Knowledge of what methods will be used for accessing the data source events
         (pulling via APIs, JDBC; pushing via Filebeat).
       - Authentication and configuration settings for the data ingestion method you
         will use.
     - accordian_title: Setup Instructions
-      type: string
+      type: unordered
       content:
       - title: '[Learn More]'
         link: https://github.com/IBM/universal-connectors#available-universal-connector-plug-ins
       - title: '[Download]'
         link: https://github.com/IBM/universal-connectors/releases
-products:
-- All
-- Guardium Data Protection
-- Guardium Insights (Software)
-- Guardium Insights SaaS
+versions:
+- 3.2.0
+- 3.1.0
+- 3.0.0
+- 2.5.0
+- 2.0.0

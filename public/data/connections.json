@@ -293,6 +293,7 @@
         {
             "database_name": "Amazon S3",
             "supported_since": "3.0.0",
+            "saas_supported": true,
             "gdp_supported_since": "11.3.0",
             "classification_supported": true,
             "notes": "Classification via ISDC",
