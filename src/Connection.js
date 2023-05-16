@@ -134,30 +134,17 @@ const listGDPSuppVersion = (dataSource) => {
   )
 };
 
-// const listGISuppVersion = (dataSource) => {
-//   return (
-//
-//     // GI SaaS supported?
-//     // GI Software doesn't equal 0.0.0
-//     if (dataSource.supported_since != '0.0.0' || dataSource.saas_supported) {
-//       //Only display GI support info if it's not zero or supported by SaaS
-//       dataSource.supported_since != '0.0.0' && (
-//
-//         <div className={`${BLOCK_CLASS}__list-item-title`}>
-//           Guardium Insights support:
-//           <div className={`${BLOCK_CLASS}__list-item-text`}>
-//             Version: {dataSource.supported_since}+
-//           </div>
-//         </div>
-//       )
-//     }
-//   )
-// };
-
-const listGISuppVersion = (dataSource) => {
+const listGISuppVersion = (dataSource, selectedMethod) => {
   //Only display GI support info if it's not zero or supported by SaaS
-  // Software AND SaaS are both supported
-  if (dataSource.supported_since != '0.0.0' && dataSource.saas_supported) {
+
+  if (selectedMethod != null) {
+    var selectedMethodName = selectedMethod.method_name;
+  }
+  // Software AND SaaS are both supported - exlude STAPs E-STAPs
+  if (selectedMethodName != ENVIRONMENT.ESTAP &&
+    selectedMethodName != ENVIRONMENT.STAP &&
+    dataSource.supported_since != '0.0.0' &&
+    dataSource.saas_supported) {
     return (
       <div className={`${BLOCK_CLASS}__list-item-title`}>
         Guardium Insights support:
@@ -167,12 +154,27 @@ const listGISuppVersion = (dataSource) => {
       </div>
     )
     // SaaS is supported but software is not
-  } else if (dataSource.saas_supported && dataSource.supported_since === '0.0.0') {
+  } else if (selectedMethodName != ENVIRONMENT.ESTAP &&
+    selectedMethodName != ENVIRONMENT.STAP &&
+    dataSource.saas_supported &&
+    dataSource.supported_since === '0.0.0') {
     return (
       <div className={`${BLOCK_CLASS}__list-item-title`}>
         Guardium Insights support:
         <div className={`${BLOCK_CLASS}__list-item-text`}>
           Version: SaaS
+        </div>
+      </div>
+    )
+    // Software is supported but SaaS is not - this shouldn't happen
+  } else if (selectedMethodName != ENVIRONMENT.ESTAP &&
+    selectedMethodName != ENVIRONMENT.STAP &&
+    dataSource.supported_since != '0.0.0') {
+    return (
+      <div className={`${BLOCK_CLASS}__list-item-title`}>
+        Guardium Insights support:
+        <div className={`${BLOCK_CLASS}__list-item-text`}>
+          {dataSource.supported_since}+
         </div>
       </div>
     )
@@ -228,34 +230,11 @@ export default function Connection() {
   //displayDataSources - data sources filtered by version and search value
   const [displayDataSources, setDisplayDataSources] = useState(null);
 
-  //selectedVersion - selected version
-  const [selectedVersion, setSelectedVersion] = useState(null);
-
   // selectedProduct - selected product for filtering datasources
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const isLoaded = () => {
-    return (connectionData && displayDataSources && selectedVersion)
-  }
-
-
-  //Function to sort and check versions
-  const versionIsLess = (v1, v2) => {
-    var v1 = v1.split(".");
-    var v2 = v2.split(".");
-
-    var len = Math.min(v1.length, v2.length);
-
-    for (var i = 0; i < len; i++) {
-      if (parseInt(v1[i]) > parseInt(v2[i])) {
-        return -1;
-      }
-
-      if (parseInt(v1[i]) < parseInt(v2[i])) {
-        return 1;
-      }
-    }
-    return 0;
+    return (connectionData && displayDataSources)
   }
 
   // Filter to only SaaS
@@ -301,7 +280,6 @@ export default function Connection() {
 
     setConnectionData(ret);
     setDisplayDataSources(ret.supported_databases);
-    setSelectedVersion(ret.versions[0]);
 
   }
 
@@ -324,15 +302,12 @@ export default function Connection() {
           return database
         }
       )
-      res.versions.sort(versionIsLess)
 
       if (res) {
         // Set constant full data to lookback when filtering
         setFullData(res)
         setConnectionData(res)
         setDisplayDataSources(res.supported_databases)
-
-        setSelectedVersion(res.versions[0])
       }
     }
   }, []);
@@ -340,7 +315,7 @@ export default function Connection() {
   useEffect(() => {
     if (isLoaded())
       handleSearchChange(searchValue);
-  }, [searchValue, selectedVersion]);
+  }, [searchValue]);
 
   const handleSearchChange = (value = '') => {
 
@@ -535,7 +510,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
           listGDPSuppVersion(selectedDataSource)
         }
         {
-          listGISuppVersion(selectedDataSource)
+          listGISuppVersion(selectedDataSource, selectedMethod)
         }
         {
           checkIfVaSupported(selectedDataSource)
