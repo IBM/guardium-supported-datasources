@@ -112,10 +112,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        min-width: 300px;
     }
 
     &__version-dropdown-box {
-        min-width: 100px;
+        min-width: 250px;
         margin: 0.5rem 0 0.5rem 0.5rem;
 
     }
