@@ -136,6 +136,7 @@
             "database_name": "Amazon RDS for MySQL",
             "supported_since": "3.1.0",
             "gdp_supported_since": "11.0.0",
+            "saas_supported": true,
             "va_supported": true,
             "classification_supported": true,
             "notes": "Classification via GDP",
@@ -204,8 +205,9 @@
         },
         {
             "database_name": "Amazon RDS for MariaDB",
-            "supported_since": "Planned for 3.3",
+            "supported_since": "3.2.0",
             "gdp_supported_since": "11.0.0",
+            "saas_supported": true,
             "environments_supported": [
                 {
                     "environment_name": "AWS (Database as a Service)",
@@ -322,6 +324,7 @@
             "database_name": "Apache Cassandra",
             "supported_since": "Planned for 3.3",
             "gdp_supported_since": "11.0.0",
+            "saas_supported": true,
             "va_supported": true,
             "environments_supported": [
                 {
@@ -848,7 +851,7 @@
         },
         {
             "database_name": "Google Cloud Apache Solr",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "environments_supported": [
                 {
@@ -866,7 +869,7 @@
         },
         {
             "database_name": "Google Cloud BigQuery",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "environments_supported": [
                 {
@@ -890,7 +893,7 @@
         },
         {
             "database_name": "Google Cloud Firestore",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "environments_supported": [
                 {
@@ -908,7 +911,7 @@
         },
         {
             "database_name": "Google Cloud PostgreSQL",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "classification_supported": true,
             "notes": "Classification via ISDC",
@@ -938,7 +941,7 @@
         },
         {
             "database_name": "Google Cloud MySQL",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "classification_supported": true,
             "notes": "Classification via ISDC",
             "gdp_supported_since": "11.0.0",
@@ -958,7 +961,7 @@
         },
         {
             "database_name": "Google Cloud Spanner",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": 11.0,
             "environments_supported": [
                 {
@@ -976,7 +979,7 @@
         },
         {
             "database_name": "Google Cloud SQL",
-            "supported_since": "3.2.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "classification_supported": true,
             "notes": "Classification via ISDC",
@@ -2692,7 +2695,7 @@
         },
         {
             "database_name": "Vertica",
-            "supported_since": "3.1.0",
+            "supported_since": "0.0.0",
             "gdp_supported_since": "11.0.0",
             "environments_supported": [
                 {
@@ -3090,5 +3093,11 @@
         "3.0.0",
         "2.5.0",
         "2.0.0"
+    ],
+    "products": [
+        "All",
+        "Guardium Data Protection",
+        "Guardium Insights (Software)",
+        "Guardium Insights SaaS"
     ]
 }
