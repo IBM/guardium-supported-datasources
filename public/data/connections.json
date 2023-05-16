@@ -236,6 +236,7 @@
             "database_name": "Amazon RDS for PostgreSQL",
             "supported_since": "3.1.0",
             "gdp_supported_since": "11.0.0",
+            "saas_supported": true,
             "va_supported": true,
             "classification_supported": true,
             "notes": "Classification via GDP",
@@ -3087,13 +3088,6 @@
             ]
         }
     },
-    "versions": [
-        "3.2.0",
-        "3.1.0",
-        "3.0.0",
-        "2.5.0",
-        "2.0.0"
-    ],
     "products": [
         "All",
         "Guardium Data Protection",
