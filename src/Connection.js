@@ -13,6 +13,11 @@ export const ENVIRONMENT = {
   ONPREMISE: 'on-premise',
 };
 
+export const PRODUCTS = ['All',
+  'Guardium Data Protection',
+  'Guardium Insights (Software)',
+  'Guardium Insights SaaS']
+
 const getMethodOptions = (method) => {
   if (method === ENVIRONMENT.AWS) {
     return ['MANUALLY', 'DISCOVERY'];
@@ -205,7 +210,10 @@ const fuzzySearchV2 = (term, list, keys, otherOptions) => {
 // Main Connections Component
 export default function Connection() {
 
-  //connectionData - Data loaded from json
+  // fullData - complete unfiltered data loaded from URL
+  const [fullData, setFullData] = useState(null);
+
+  //connectionData - Data loaded from json for current display
   const [connectionData, setConnectionData] = useState(null)
 
   //open - Open variable for modal when clicking a data source
@@ -222,6 +230,9 @@ export default function Connection() {
 
   //selectedVersion - selected version
   const [selectedVersion, setSelectedVersion] = useState(null);
+
+  // selectedProduct - selected product for filtering datasources
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const isLoaded = () => {
     return (connectionData && displayDataSources && selectedVersion)
@@ -247,6 +258,54 @@ export default function Connection() {
     return 0;
   }
 
+  // Filter to only SaaS
+  const filterSaaS = (res) => {
+    // If property "saas_supported" exists
+    res.supported_databases = res.supported_databases.filter((elem) =>  elem.saas_supported !== undefined)
+    return res
+
+  }
+
+  //Filter to only Insights Software (On-Prem)
+  const filterInsights = (res) => {
+    // If property "supported_since" != "0.0.0" and property "supported_since" does not include "Planned for"
+    res.supported_databases = res.supported_databases.filter((elem) => elem.supported_since != "0.0.0" && !elem.supported_since.includes("Planned for"))
+    return res
+  }
+
+  // Filter to only Guardium Data Protection
+  const filterGDP = (res) => {
+    // If propery "gdp_supported_since" exists
+    res.supported_databases = res.supported_databases.filter((elem) => elem.gdp_supported_since != undefined)
+    return res
+  }
+
+  // Apply filter based on option chosen from Dropdown
+  const filterLogic = (selected) => {
+    var ret = JSON.parse(JSON.stringify(fullData));
+    switch (selected) {
+      case 'All':
+        break;
+      case 'Guardium Data Protection':
+        ret = filterGDP(ret);
+        break;
+      case 'Guardium Insights (Software)':
+        ret = filterInsights(ret);
+        break;
+      case  'Guardium Insights SaaS':
+        ret = filterSaaS(ret);
+        break;
+      default:
+        break;
+    }
+
+    setConnectionData(ret);
+    setDisplayDataSources(ret.supported_databases);
+    setSelectedVersion(ret.versions[0]);
+
+  }
+
+
   //Used to load data from json. This is because connections.json is hosted in public folder for public access, hence unable to import directly
   useEffect(async () => {
     if (!isLoaded()) {
@@ -268,6 +327,8 @@ export default function Connection() {
       res.versions.sort(versionIsLess)
 
       if (res) {
+        // Set constant full data to lookback when filtering
+        setFullData(res)
         setConnectionData(res)
         setDisplayDataSources(res.supported_databases)
 
@@ -346,6 +407,22 @@ export default function Connection() {
         <div className={`${BLOCK_CLASS}__header-box`}>
           <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
             Data sources supported by Guardium
+          </div>
+          <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
+            <Dropdown
+                  ariaLabel="Products Dropdown"
+                  id="products-dropdown"
+                  selectedItem={undefined}
+                  items={PRODUCTS}
+                  itemToString={(env) => (env)}
+                  label="Select a product"
+                  //titleText="Filter based on product"
+                  onChange={
+                    (item) => {
+                      filterLogic(item.selectedItem)
+                    }
+                  }
+                />
           </div>
         </div>
 
