@@ -1215,7 +1215,7 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
-  - environment_name: Azure (Database as a Service)
+  - environment_name: GCP (Database as a Service)
     methods_supported:
     - method_key: External STAP
       supported_versions:
