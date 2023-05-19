@@ -9,7 +9,7 @@ export const ENVIRONMENT = {
   AZURE: 'AZURE',
   UC: 'UC',
   ESTAP: 'External S-TAP',
-  STAP: 'STAP',
+  STAP: 'Agent (S-TAP)',
   ONPREMISE: 'on-premise',
 };
 
@@ -17,13 +17,6 @@ export const PRODUCTS = ['All',
   'Guardium Data Protection',
   'Guardium Insights (Software)',
   'Guardium Insights SaaS']
-
-const getMethodOptions = (method) => {
-  if (method === ENVIRONMENT.AWS) {
-    return ['MANUALLY', 'DISCOVERY'];
-  }
-  return [];
-};
 
 const generateItem = (item) => {
   if (typeof item === "string")
@@ -128,7 +121,7 @@ const listGDPSuppVersion = (dataSource) => {
     <div className={`${BLOCK_CLASS}__list-item-title`}>
       Guardium Data Protection support:
       <div className={`${BLOCK_CLASS}__list-item-text`}>
-        Version: {dataSource.gdp_supported_since}+
+        Version:&nbsp;&nbsp;{dataSource.gdp_supported_since}+
       </div>
     </div>
   )
@@ -137,44 +130,44 @@ const listGDPSuppVersion = (dataSource) => {
 const listGISuppVersion = (dataSource, selectedMethod) => {
   //Only display GI support info if it's not zero or supported by SaaS
 
-  if (selectedMethod != null) {
+  if (selectedMethod !== null) {
     var selectedMethodName = selectedMethod.method_name;
   }
   // Software AND SaaS are both supported - exlude STAPs E-STAPs
-  if (selectedMethodName != ENVIRONMENT.ESTAP &&
-    selectedMethodName != ENVIRONMENT.STAP &&
-    dataSource.supported_since != '0.0.0' &&
+  if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
+    dataSource.supported_since !== '0.0.0' &&
     dataSource.saas_supported) {
     return (
       <div className={`${BLOCK_CLASS}__list-item-title`}>
         Guardium Insights support:
         <div className={`${BLOCK_CLASS}__list-item-text`}>
-          Version: SaaS, {dataSource.supported_since}+
+          Version:&nbsp;&nbsp;SaaS,&nbsp;&nbsp;{dataSource.supported_since}+
         </div>
       </div>
     )
     // SaaS is supported but software is not
-  } else if (selectedMethodName != ENVIRONMENT.ESTAP &&
-    selectedMethodName != ENVIRONMENT.STAP &&
+  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
     dataSource.saas_supported &&
     dataSource.supported_since === '0.0.0') {
     return (
       <div className={`${BLOCK_CLASS}__list-item-title`}>
         Guardium Insights support:
         <div className={`${BLOCK_CLASS}__list-item-text`}>
-          Version: SaaS
+          Version:&nbsp;&nbsp;SaaS
         </div>
       </div>
     )
     // Software is supported but SaaS is not - this shouldn't happen
-  } else if (selectedMethodName != ENVIRONMENT.ESTAP &&
-    selectedMethodName != ENVIRONMENT.STAP &&
-    dataSource.supported_since != '0.0.0') {
+  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
+    dataSource.supported_since !== '0.0.0') {
     return (
       <div className={`${BLOCK_CLASS}__list-item-title`}>
         Guardium Insights support:
         <div className={`${BLOCK_CLASS}__list-item-text`}>
-          {dataSource.supported_since}+
+          Version:&nbsp;&nbsp;{dataSource.supported_since}+
         </div>
       </div>
     )
@@ -247,15 +240,15 @@ export default function Connection() {
 
   //Filter to only Insights Software (On-Prem)
   const filterInsights = (res) => {
-    // If property "supported_since" != "0.0.0" and property "supported_since" does not include "Planned for"
-    res.supported_databases = res.supported_databases.filter((elem) => elem.supported_since != "0.0.0" && !elem.supported_since.includes("Planned for"))
+    // If property "supported_since" !== "0.0.0" and property "supported_since" does not include "Planned for"
+    res.supported_databases = res.supported_databases.filter((elem) => elem.supported_since !== "0.0.0" && !elem.supported_since.includes("Planned for"))
     return res
   }
 
   // Filter to only Guardium Data Protection
   const filterGDP = (res) => {
     // If propery "gdp_supported_since" exists
-    res.supported_databases = res.supported_databases.filter((elem) => elem.gdp_supported_since != undefined)
+    res.supported_databases = res.supported_databases.filter((elem) => elem.gdp_supported_since !== undefined)
     return res
   }
 
@@ -394,7 +387,8 @@ export default function Connection() {
                   //titleText="Filter based on product"
                   onChange={
                     (item) => {
-                      filterLogic(item.selectedItem)
+                      setSelectedProduct(item.selectedItem)
+                      filterLogic(selectedProduct)
                     }
                   }
                 />
@@ -525,7 +519,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
           <Accordion>
             {selectedMethod.supported_versions && (
               <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
-                <div>{selectedMethod.supported_versions.join(', ')}</div>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_versions.join("\r\n")}</div>
               </AccordionItem>
             )}
             {selectedMethod.download_url && (
@@ -535,7 +529,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
             )}
             {selectedMethod.supported_operating_systems && (
               <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
-                <div>{selectedMethod.supported_operating_systems.join(', ')}</div>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_operating_systems.join("\r\n")}</div>
               </AccordionItem>
             )}
             {

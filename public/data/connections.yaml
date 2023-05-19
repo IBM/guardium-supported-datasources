@@ -1933,6 +1933,11 @@ methods:
   External STAP:
     method_name: External S-TAP
     method_info:
+    - accordian_title: Detailed support information
+      type: unordered
+      content:
+      - title: '[IBM Support: IBM Guardium System Requirements and Supported Platforms]'
+        link: https://www.ibm.com/support/pages/ibm-guardium-system-requirements-and-supported-platforms
     - accordian_title: Skill Level
       type: string
       content: Advanced
@@ -1958,7 +1963,7 @@ methods:
         The External S-TAP observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it to a Guardium collector for processing and analytics.
       - title: '[View more information]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
+        link: https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html
     - accordian_title: Information you will need
       type: unordered
       content:
@@ -1968,10 +1973,15 @@ methods:
       type: unordered
       content:
       - title: '[External S-TAP Guide]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements
+        link: https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html
   STAP:
     method_name: Agent (S-TAP)
     method_info:
+    - accordian_title: Detailed support information
+      type: unordered
+      content:
+      - title: '[Security Learning Academy: Supported Platforms for Guardium]'
+        link: https://www.securitylearningacademy.com/course/view.php?id=4013
     - accordian_title: Skill Level
       type: string
       content: Advanced
