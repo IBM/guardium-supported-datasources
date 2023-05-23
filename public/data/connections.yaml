@@ -14,6 +14,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.0+
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -67,7 +68,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0.40182
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -115,6 +116,7 @@ supported_databases:
       supported_versions:
       - 18
       - 19
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
 - database_name: Amazon RDS for MariaDB
   supported_since: 3.2.0
   gdp_supported_since: 11.0.0
@@ -169,6 +171,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 14.0.x
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip
 - database_name: Amazon S3
   supported_since: 3.0.0
   saas_supported: true
@@ -220,6 +223,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 4.0.1
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-cassandra-guardium/CassandraOverFilebeatPackage/Cassandra/cassandra-offline-plugins-7.5.2.zip
 - database_name: Aster
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -266,6 +270,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.6.0
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/guardium_logstash-offline-plugin-apache-solr-azure.zip
 - database_name: Azure Cassandra
   supported_since: 2.0.0
   saas_supported: true
@@ -316,7 +321,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 11.0+
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.0/AzurePostgresqlOverAzureEventHub.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip
 - database_name: Azure SQL
   supported_since: 2.0.0
   gdp_supported_since: 11.0.0
@@ -333,6 +338,10 @@ supported_databases:
     - method_key: Azure Event Hubs
       supported_versions:
       - latest
+    - method_key: Universal Connector
+      supported_versions:
+      - 12.0.2000.8+
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip
 - database_name: Azure Synapse Analytics
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -530,6 +539,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.6.0
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip
 - database_name: Google Cloud BigQuery
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -539,6 +549,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.0
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip
     - method_key: External STAP
       supported_versions:
       - All versions
@@ -551,6 +562,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip
 - database_name: Google Cloud PostgreSQL
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -569,6 +581,7 @@ supported_databases:
       supported_versions:
       - 13.0
       - 14.0
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip
 - database_name: Google Cloud MySQL
   supported_since: 0.0.0
   classification_supported: true
@@ -580,6 +593,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.0
+      download_url: https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium.zip
 - database_name: Google Cloud Spanner
   supported_since: 0.0.0
   gdp_supported_since: 11.0
@@ -589,6 +603,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0.39300
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip
 - database_name: Google Cloud SQL
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1307,6 +1322,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 4.4.3
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-neo4j-guardium/NeodbOverFilebeatPackage/Neo4jDB/neo4j-logstash-offline-plugins-7.16.3.zip
     - method_key: STAP
       supported_versions:
       - Neo4j 3.5
@@ -1355,6 +1371,7 @@ supported_databases:
       supported_versions:
       - 18
       - 19
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
     - method_key: STAP
       supported_versions:
       - Oracle 11gR2
@@ -1542,7 +1559,7 @@ supported_databases:
       - EDB 12
       - EDB 14
       - FEP 14
-      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.0/PostgresOverFilebeatPackage.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip
     - method_key: STAP
 - database_name: Progress
   supported_since: Planned for future release
@@ -1553,6 +1570,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 12.6
+      download_url: https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip
 - database_name: Redis
   supported_since: 0.0.0
   gdp_supported_since: 11.1
@@ -1686,6 +1704,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
   - environment_name: Azure (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1694,6 +1713,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
   - environment_name: GCP (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1702,6 +1722,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 1.0+
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
 - database_name: Sybase ASE
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1811,6 +1832,7 @@ supported_databases:
       supported_versions:
       - 16.20
       - 17.5
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/Teradata-Offline-Plugin.zip
     - method_key: STAP
       supported_versions:
       - Teradata 15
@@ -1832,6 +1854,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 2.14
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-yugabyte-guardium/YugabytedbOverFilebeatPackage/YugabyteDB/yugabytedb-logstash-offline-plugins-1.0.0.zip
 - database_name: Vertica
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
