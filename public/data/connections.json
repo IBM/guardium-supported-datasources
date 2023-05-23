@@ -21,7 +21,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "2.0+"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip"
             },
             {
               "method_key": "External STAP",
@@ -120,7 +121,7 @@
               "supported_versions": [
                 "1.0.40182"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip"
             },
             {
               "method_key": "External STAP",
@@ -197,7 +198,8 @@
               "supported_versions": [
                 18,
                 19
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip"
             }
           ]
         }
@@ -287,7 +289,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "14.0.x"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip"
             }
           ]
         }
@@ -363,7 +366,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "4.0.1"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-cassandra-guardium/CassandraOverFilebeatPackage/Cassandra/cassandra-offline-plugins-7.5.2.zip"
             }
           ]
         }
@@ -437,7 +441,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "8.6.0"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/guardium_logstash-offline-plugin-apache-solr-azure.zip"
             }
           ]
         }
@@ -533,7 +538,7 @@
               "supported_versions": [
                 "11.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.0/AzurePostgresqlOverAzureEventHub.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip"
             }
           ]
         }
@@ -562,6 +567,13 @@
               "supported_versions": [
                 "latest"
               ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "12.0.2000.8+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip"
             }
           ]
         }
@@ -862,7 +874,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "8.6.0"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip"
             }
           ]
         }
@@ -880,7 +893,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 2
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip"
             },
             {
               "method_key": "External STAP",
@@ -904,7 +918,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 1
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip"
             }
           ]
         }
@@ -934,7 +949,8 @@
               "supported_versions": [
                 13,
                 14
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip"
             }
           ]
         }
@@ -954,7 +970,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 8
-              ]
+              ],
+              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium.zip"
             }
           ]
         }
@@ -972,7 +989,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "1.0.39300"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip"
             }
           ]
         }
@@ -1819,7 +1837,7 @@
           ]
         },
         {
-          "environment_name": "Azure (Database as a Service)",
+          "environment_name": "GCP (Database as a Service)",
           "methods_supported": [
             {
               "method_key": "External STAP",
@@ -1952,7 +1970,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "4.4.3"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-neo4j-guardium/NeodbOverFilebeatPackage/Neo4jDB/neo4j-logstash-offline-plugins-7.16.3.zip"
             },
             {
               "method_key": "STAP",
@@ -2025,7 +2044,8 @@
               "supported_versions": [
                 18,
                 19
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip"
             },
             {
               "method_key": "STAP",
@@ -2258,7 +2278,7 @@
                 "EDB 14",
                 "FEP 14"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.0/PostgresOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip"
             },
             {
               "method_key": "STAP"
@@ -2279,7 +2299,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 12.6
-              ]
+              ],
+              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip"
             }
           ]
         }
@@ -2476,7 +2497,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "1.0+"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip"
             }
           ]
         },
@@ -2493,7 +2515,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "1.0+"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip"
             }
           ]
         },
@@ -2510,7 +2533,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "1.0+"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip"
             }
           ]
         }
@@ -2654,7 +2678,8 @@
               "supported_versions": [
                 16.2,
                 17.5
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/Teradata-Offline-Plugin.zip"
             },
             {
               "method_key": "STAP",
@@ -2688,7 +2713,8 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 2.14
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-yugabyte-guardium/YugabytedbOverFilebeatPackage/YugabyteDB/yugabytedb-logstash-offline-plugins-1.0.0.zip"
             }
           ]
         }
@@ -2830,7 +2856,7 @@
           "content": [
             {
               "title": "[Enabling native audit logging on AWS databases]",
-              "link": "https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs"
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-amazon-aws-setup"
             }
           ]
         }
@@ -2878,7 +2904,7 @@
             "External S-TAP is a component of Guardium that can intercept traffic for cloud and on-premises database services without installing an inspection agent on the database server. The External S-TAP observes all session traffic to and from the database and makes a copy of that session traffic - sending it to a Guardium collector for processing and analytics.",
             {
               "title": "[View more information]",
-              "link": "https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html"
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap"
             }
           ]
         },
@@ -2896,7 +2922,7 @@
           "content": [
             {
               "title": "[External S-TAP Guide]",
-              "link": "https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html"
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements"
             }
           ]
         }
@@ -2964,7 +2990,11 @@
           "content": [
             {
               "title": "[Linux-Unix S-TAP Guide]",
-              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=lustug-linux-unix-installing-upgrading-uninstalling-s-tap-agents"
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide"
+            },
+            {
+              "title": "[Windows S-TAP Guide]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=windows-s-tap-users-guide"
             }
           ]
         }
@@ -3043,7 +3073,7 @@
           "content": [
             {
               "title": "[Enabling native audit logging on Azure databases]",
-              "link": "https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs"
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-azure-setup"
             }
           ]
         }
