@@ -22,7 +22,8 @@
               "supported_versions": [
                 "2.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -48,7 +49,7 @@
             {
               "method_key": "Amazon Kinesis",
               "supported_versions": [
-                11.9
+                "13.x"
               ]
             },
             {
@@ -56,6 +57,14 @@
               "supported_versions": [
                 "All versions"
               ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "2.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
             }
           ]
         }
@@ -75,7 +84,8 @@
               "supported_versions": [
                 "2019.11.21"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -121,7 +131,8 @@
               "supported_versions": [
                 "1.0.40182"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -150,7 +161,8 @@
               "supported_versions": [
                 "5.7+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -199,7 +211,8 @@
                 18,
                 19
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md"
             }
           ]
         }
@@ -228,7 +241,9 @@
                 10.6,
                 10.7,
                 10.8
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/AWSMariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
             }
           ]
         }
@@ -260,7 +275,8 @@
               "supported_versions": [
                 "10.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
             }
           ]
         }
@@ -290,7 +306,8 @@
               "supported_versions": [
                 "14.0.x"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
             }
           ]
         }
@@ -318,7 +335,8 @@
               "supported_versions": [
                 "latest"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
             }
           ]
         }
@@ -367,7 +385,8 @@
               "supported_versions": [
                 "4.0.1"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-cassandra-guardium/CassandraOverFilebeatPackage/Cassandra/cassandra-offline-plugins-7.5.2.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-cassandra-guardium/CassandraOverFilebeatPackage/Cassandra/cassandra-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
             }
           ]
         }
@@ -442,7 +461,8 @@
               "supported_versions": [
                 "8.6.0"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/guardium_logstash-offline-plugin-apache-solr-azure.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/guardium_logstash-offline-plugin-apache-solr-azure.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/README.md"
             }
           ]
         }
@@ -538,7 +558,8 @@
               "supported_versions": [
                 "11.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
             }
           ]
         }
@@ -573,7 +594,8 @@
               "supported_versions": [
                 "12.0.2000.8+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
             }
           ]
         }
@@ -705,7 +727,8 @@
               "supported_versions": [
                 "3.2.2"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchdbOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchdbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -758,7 +781,8 @@
               "supported_versions": [
                 "6.6.2-9600"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchbasedbOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/CouchbasedbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -801,7 +825,8 @@
               "supported_versions": [
                 "4.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
             }
           ]
         }
@@ -875,7 +900,8 @@
               "supported_versions": [
                 "8.6.0"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
             }
           ]
         }
@@ -894,7 +920,8 @@
               "supported_versions": [
                 2
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -919,7 +946,8 @@
               "supported_versions": [
                 1
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
             }
           ]
         }
@@ -950,7 +978,8 @@
                 13,
                 14
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
             }
           ]
         }
@@ -971,7 +1000,8 @@
               "supported_versions": [
                 8
               ],
-              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium.zip"
+              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
             }
           ]
         }
@@ -990,7 +1020,8 @@
               "supported_versions": [
                 "1.0.39300"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
             }
           ]
         }
@@ -1049,7 +1080,8 @@
               "supported_versions": [
                 "6.21.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/GreenplumdbOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/GreenplumdbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -1101,7 +1133,8 @@
               "supported_versions": [
                 "3.1+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
             }
           ]
         }
@@ -1628,7 +1661,8 @@
               "supported_versions": [
                 "10.6+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MariaDBOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MariaDBOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
             },
             {
               "method_key": "External STAP",
@@ -1702,7 +1736,9 @@
               "method_key": "Universal Connector",
               "supported_versions": [
                 "14.0.x"
-              ]
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -1751,7 +1787,8 @@
                 "4.2",
                 "4.4"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -1890,7 +1927,8 @@
               "supported_versions": [
                 "5.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -1950,7 +1988,8 @@
               "supported_versions": [
                 "5.7.31-34"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlPerconaOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlPerconaOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
             }
           ]
         }
@@ -1971,7 +2010,8 @@
               "supported_versions": [
                 "4.4.3"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-neo4j-guardium/NeodbOverFilebeatPackage/Neo4jDB/neo4j-logstash-offline-plugins-7.16.3.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-neo4j-guardium/NeodbOverFilebeatPackage/Neo4jDB/neo4j-logstash-offline-plugins-7.16.3.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -2013,7 +2053,8 @@
               "supported_versions": [
                 "1.1+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md"
             }
           ]
         }
@@ -2045,7 +2086,8 @@
                 18,
                 19
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -2278,7 +2320,8 @@
                 "EDB 14",
                 "FEP 14"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md"
             },
             {
               "method_key": "STAP"
@@ -2300,7 +2343,8 @@
               "supported_versions": [
                 12.6
               ],
-              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip"
+              "download_url": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md"
             }
           ]
         }
@@ -2370,7 +2414,8 @@
               "supported_versions": [
                 "2.00.033.00.1535711040"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/SaphanaOverFilebeatPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/SaphanaOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-saphana-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -2498,7 +2543,8 @@
               "supported_versions": [
                 "1.0+"
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+              "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
             }
           ]
         },
@@ -2679,7 +2725,8 @@
                 16.2,
                 17.5
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/Teradata-Offline-Plugin.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/Teradata-Offline-Plugin.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md"
             },
             {
               "method_key": "STAP",
@@ -2714,7 +2761,8 @@
               "supported_versions": [
                 2.14
               ],
-              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-yugabyte-guardium/YugabytedbOverFilebeatPackage/YugabyteDB/yugabytedb-logstash-offline-plugins-1.0.0.zip"
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-yugabyte-guardium/YugabytedbOverFilebeatPackage/YugabyteDB/yugabytedb-logstash-offline-plugins-1.0.0.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
             }
           ]
         }

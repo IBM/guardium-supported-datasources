@@ -526,6 +526,11 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
                 <div>{selectedMethod?.download_url && (<Link href={selectedMethod.download_url}>[Download]</Link>)}</div>
               </AccordionItem>
             )}
+            {selectedMethod.readme_url && (
+              <AccordionItem open={true} key={"Plugin readme"} title={"Plugin readme"}>
+                <div>{selectedMethod?.readme_url && (<Link href={selectedMethod.readme_url} target="_blank" rel="noopener noreferrer">[Readme]</Link>)}</div>
+              </AccordionItem>
+            )}
             {selectedMethod.supported_operating_systems && (
               <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
                 <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_operating_systems.join("\r\n")}</div>
