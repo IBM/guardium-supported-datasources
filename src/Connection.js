@@ -22,7 +22,7 @@ const generateItem = (item) => {
   if (typeof item === "string")
     return <ListItem>{item}</ListItem>
   else if (item.link)
-    return <ListItem><Link href={item.link}>{item.title}</Link></ListItem>
+    return <ListItem><Link href={item.link} target="_blank" rel="noopener">{item.title}</Link></ListItem>
   return null
 }
 
@@ -387,8 +387,7 @@ export default function Connection() {
                   //titleText="Filter based on product"
                   onChange={
                     (item) => {
-                      setSelectedProduct(item.selectedItem)
-                      filterLogic(selectedProduct)
+                      filterLogic(item.selectedItem)
                     }
                   }
                 />
