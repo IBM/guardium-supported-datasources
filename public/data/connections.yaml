@@ -1929,7 +1929,7 @@ methods:
       type: unordered
       content:
       - title: '[Enabling native audit logging on AWS databases]'
-        link: https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-amazon-aws-setup
   External STAP:
     method_name: External S-TAP
     method_info:
@@ -1963,7 +1963,7 @@ methods:
         The External S-TAP observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it to a Guardium collector for processing and analytics.
       - title: '[View more information]'
-        link: https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
     - accordian_title: Information you will need
       type: unordered
       content:
@@ -1973,7 +1973,7 @@ methods:
       type: unordered
       content:
       - title: '[External S-TAP Guide]'
-        link: https://www.ibm.com/docs/SSMPHH_latest/com.ibm.guardium.doc.stap/proxy/proxy_overview.html
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements
   STAP:
     method_name: Agent (S-TAP)
     method_info:
@@ -2022,7 +2022,9 @@ methods:
       type: unordered
       content:
       - title: '[Linux-Unix S-TAP Guide]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=lustug-linux-unix-installing-upgrading-uninstalling-s-tap-agents
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide
+      - title: '[Windows S-TAP Guide]'
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=windows-s-tap-users-guide
   Azure Event Hubs:
     method_name: Azure Event Hubs
     method_info:
@@ -2077,7 +2079,7 @@ methods:
       type: unordered
       content:
       - title: '[Enabling native audit logging on Azure databases]'
-        link: https://www.ibm.com/docs/en/guardium/11.2?topic=setup-monitor-azure-event-hubs
+        link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-azure-setup
   Universal Connector:
     method_name: Universal Connector
     method_info:
