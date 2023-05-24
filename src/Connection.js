@@ -1,6 +1,7 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
+import { AccordionItem, Dropdown, Accordion,DataTable, OrderedList,TableContainer, ListItem,Table,TableRow,TableCell,TableBody, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
+import { Tank } from '@carbon/icons-react';
 
 const BLOCK_CLASS = `connections-doc`;
 
@@ -422,11 +423,14 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
 
   useEffect(() => {
     setSelectedEnvironment(null)
+    getRows(selectedDataSource)
   }, [selectedDataSource]);
 
   const [selectedEnvironment, _setSelectedEnvironment] = useState(null)
 
   const [selectedMethod, _setSelectedMethod] = useState(null)
+
+  const [tableRows, setTableRows] =  useState([]);
 
   // const [selectedOtherMethod, setOtherSelectedMethod] = useState(null)
 
@@ -440,7 +444,38 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
     // setOtherSelectedMethod(null);
   }
 
+  const titleCase = (s) =>
+  s.replace(/^_*(.)|_+(.)/g, (s, c, d) => c ? c.toUpperCase() : ' ' + d.toUpperCase())
+
+  const getRows = (selectedDataSource) => {
+    const headers = ["network_traffic","local_traffic","encrypted_traffic","shared_memory","kerberos","blocking","redaction","uid_chain","compression","query_rewrite","instance_discovery","protocol","notes2"]
+
+    
+    // var rows = {
+    //   "database_name": JSON.stringify(selectedDataSource["database_name"])
+    // }
+    var rows = []
+    for (const header of headers) {
+      console.log("the val:" + header + "===" + JSON.stringify(selectedDataSource[header]))
+      if (selectedDataSource[header] !== undefined) {
+        rows.push(
+          {
+            key:titleCase(header),
+            value:selectedDataSource[header],
+          },
+        )
+      }
+    }
+
+    console.log("this is the row: " + JSON.stringify(rows))
+    setTableRows(rows)
+    console.log("donezo bozo")
+
+  }
+
   useEffect(() => {
+    console.log("this is the selected datasource: " + JSON.stringify(selectedDataSource))
+
     if (selectedDataSource.environments_supported.length !== 1) return
     const firstEnvironment = selectedDataSource.environments_supported[0]
     setSelectedEnvironment(firstEnvironment);
@@ -541,6 +576,36 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
                 )
               })
             }
+            <AccordionItem open={false} key={"Specifics"} title="Specifics">
+
+            <DataTable rows={tableRows} 
+            headers = {[]}
+            render={({rows,header,getHeaderProps,getTableProps}) => {
+            return (
+              <TableContainer>
+                <Table {...getTableProps()}>
+                <TableBody>
+                {tableRows.map(row => {
+                  return (
+                    <TableRow>
+                      <TableCell>
+                        <p style={{fontWeight:"bold"}}>{row.key}</p>
+                      </TableCell>
+                      <TableCell>
+                        {row.value}
+                      </TableCell>
+                    </TableRow>
+                  )
+                  
+                })}
+                </TableBody>
+                </Table>
+              </TableContainer>
+            )
+            }}>
+            
+          </DataTable>
+            </AccordionItem>
           </Accordion>
 
         )
