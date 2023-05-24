@@ -1,22 +1,14 @@
 # Guardium Insights Data Sources Documentation
 
-Data source documentation Proof of Concept
+Data source documentation
 
-## Edit documentation
+## To make changes to the data sources
 
-Basic documentation changes can be made on seperate branch on [/public/data/connections.json](/public/data/connections.json)
+- Start a separate branch and make changes in [connections.yaml](/public/data/connections.yaml) file.\
+Note: Changes to connections.yaml will automatically be converted to JSON format ([connections.json](/public/data/connections.json)) as part of the `npm start` script
 
-Make pull request to master branch
+- In the project directory, run `npm start` in a command line.\
+This runs the app in the development mode and will automatically open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+Note: The page will reload when you make changes. You may also see any lint errors in the console.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+- After changes have been validated, make pull request to master branch

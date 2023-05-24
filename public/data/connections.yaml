@@ -144,7 +144,7 @@ supported_databases:
       - 10.6
       - 10.7
       - 10.8
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/AWSMariaDB/logstash-filter-awsmariadb_guardium_filter.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
 - database_name: Amazon RDS for PostgreSQL
   supported_since: 3.1.0
@@ -286,7 +286,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.6.0
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/guardium_logstash-offline-plugin-apache-solr-azure.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/ApacheSolrOverFilebeatPackage/AzureSolr/guardium_logstash-offline-plugin-apache-solr-azure.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-apachesolr-guardium/README.md
 - database_name: Azure Cassandra
   supported_since: 2.0.0
@@ -381,9 +381,6 @@ supported_databases:
   environments_supported:
   - environment_name: On-premise or IaaS
     methods_supported:
-    - method_key: Universal Connector
-      supported_versions:
-      - 4.0.1
     - method_key: STAP
       supported_versions:
       - Cloudera 2.6
@@ -619,7 +616,7 @@ supported_databases:
     - method_key: Universal Connector
       supported_versions:
       - 8.0
-      download_url: https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium-3.0.3.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md
 - database_name: Google Cloud Spanner
   supported_since: 0.0.0
@@ -1410,7 +1407,7 @@ supported_databases:
       - 18
       - 19
       download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
     - method_key: STAP
       supported_versions:
       - Oracle 11gR2
@@ -1598,7 +1595,7 @@ supported_databases:
       - EDB 12
       - EDB 14
       - FEP 14
-      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/PostgreFB/postgres-offline-plugins-7.5.2.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md
     - method_key: STAP
 - database_name: Progress
@@ -1757,6 +1754,7 @@ supported_databases:
       supported_versions:
       - 1.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
+      readme_url: https://github.com/infoinsights/guardium-snowflake-uc-filter
   - environment_name: GCP (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1766,6 +1764,7 @@ supported_databases:
       supported_versions:
       - 1.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip
+      readme_url: https://github.com/infoinsights/guardium-snowflake-uc-filter
 - database_name: Sybase ASE
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
