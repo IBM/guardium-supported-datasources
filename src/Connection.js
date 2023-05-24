@@ -1,7 +1,6 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading } from '@carbon/ibm-security';
+import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
-
 
 const BLOCK_CLASS = `connections-doc`;
 
@@ -9,22 +8,21 @@ export const ENVIRONMENT = {
   AWS: 'AWS',
   AZURE: 'AZURE',
   UC: 'UC',
-  STAP: 'STAP',
+  ESTAP: 'External S-TAP',
+  STAP: 'Agent (S-TAP)',
   ONPREMISE: 'on-premise',
 };
 
-const getMethodOptions = (method) => {
-  if (method === ENVIRONMENT.AWS) {
-    return ['MANUALLY', 'DISCOVERY'];
-  }
-  return [];
-};
+export const PRODUCTS = ['All',
+  'Guardium Data Protection',
+  'Guardium Insights (Software)',
+  'Guardium Insights SaaS']
 
 const generateItem = (item) => {
   if (typeof item === "string")
     return <ListItem>{item}</ListItem>
   else if (item.link)
-    return <ListItem><Link href={item.link}>{item.title}</Link></ListItem>
+    return <ListItem><Link href={item.link} target="_blank" rel="noopener">{item.title}</Link></ListItem>
   return null
 }
 
@@ -96,6 +94,88 @@ const generateAccordianItem = (item) => {
   }
 }
 
+const checkIfVaSupported = (dataSource) => {
+  if (dataSource.va_supported === true) {
+    return (
+      <div div className={`${BLOCK_CLASS}__list-item-tag`}>
+        <Tag>Vulnerability Assessment supported</Tag>
+      </div>
+    )
+  }
+  return [];
+};
+
+const checkIfClassificationSupported = (dataSource) => {
+  if (dataSource.classification_supported === true) {
+    return (
+      <div div className={`${BLOCK_CLASS}__list-item-tag`}>
+        <Tag>Discovery & Classification supported</Tag>
+      </div>
+    )
+  }
+  return [];
+};
+
+const listGDPSuppVersion = (dataSource) => {
+  return (
+    <div className={`${BLOCK_CLASS}__list-item-title`}>
+      Guardium Data Protection support:
+      <div className={`${BLOCK_CLASS}__list-item-text`}>
+        Version:&nbsp;&nbsp;{dataSource.gdp_supported_since}+
+      </div>
+    </div>
+  )
+};
+
+const listGISuppVersion = (dataSource, selectedMethod) => {
+  //Only display GI support info if it's not zero or supported by SaaS
+
+  if (selectedMethod !== null) {
+    var selectedMethodName = selectedMethod.method_name;
+  }
+  // Software AND SaaS are both supported - exlude STAPs E-STAPs
+  if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
+    dataSource.supported_since !== '0.0.0' &&
+    dataSource.saas_supported) {
+    return (
+      <div className={`${BLOCK_CLASS}__list-item-title`}>
+        Guardium Insights support:
+        <div className={`${BLOCK_CLASS}__list-item-text`}>
+          Version:&nbsp;&nbsp;SaaS,&nbsp;&nbsp;{dataSource.supported_since}+
+        </div>
+      </div>
+    )
+    // SaaS is supported but software is not
+  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
+    dataSource.saas_supported &&
+    dataSource.supported_since === '0.0.0') {
+    return (
+      <div className={`${BLOCK_CLASS}__list-item-title`}>
+        Guardium Insights support:
+        <div className={`${BLOCK_CLASS}__list-item-text`}>
+          Version:&nbsp;&nbsp;SaaS
+        </div>
+      </div>
+    )
+    // Software is supported but SaaS is not - this shouldn't happen
+  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
+    selectedMethodName !== ENVIRONMENT.STAP &&
+    dataSource.supported_since !== '0.0.0') {
+    return (
+      <div className={`${BLOCK_CLASS}__list-item-title`}>
+        Guardium Insights support:
+        <div className={`${BLOCK_CLASS}__list-item-text`}>
+          Version:&nbsp;&nbsp;{dataSource.supported_since}+
+        </div>
+      </div>
+    )
+  } else {
+    // do nothing
+  }
+};
+
 const fuzzySearchV2 = (term, list, keys, otherOptions) => {
   const options = {
     threshold: 0.5,
@@ -125,7 +205,10 @@ const fuzzySearchV2 = (term, list, keys, otherOptions) => {
 // Main Connections Component
 export default function Connection() {
 
-  //connectionData - Data loaded from json
+  // fullData - complete unfiltered data loaded from URL
+  const [fullData, setFullData] = useState(null);
+
+  //connectionData - Data loaded from json for current display
   const [connectionData, setConnectionData] = useState(null)
 
   //open - Open variable for modal when clicking a data source
@@ -140,32 +223,59 @@ export default function Connection() {
   //displayDataSources - data sources filtered by version and search value
   const [displayDataSources, setDisplayDataSources] = useState(null);
 
-  //selectedVersion - selected version
-  const [selectedVersion, setSelectedVersion] = useState(null);
+  // selectedProduct - selected product for filtering datasources
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const isLoaded = () => {
-    return (connectionData && displayDataSources && selectedVersion)
+    return (connectionData && displayDataSources)
   }
 
+  // Filter to only SaaS
+  const filterSaaS = (res) => {
+    // If property "saas_supported" exists
+    res.supported_databases = res.supported_databases.filter((elem) =>  elem.saas_supported !== undefined)
+    return res
 
-  //Function to sort and check versions
-  const versionIsLess = (v1, v2) => {
-    var v1 = v1.split(".");
-    var v2 = v2.split(".");
+  }
 
-    var len = Math.min(v1.length, v2.length);
+  //Filter to only Insights Software (On-Prem)
+  const filterInsights = (res) => {
+    // If property "supported_since" !== "0.0.0" and property "supported_since" does not include "Planned for"
+    res.supported_databases = res.supported_databases.filter((elem) => elem.supported_since !== "0.0.0" && !elem.supported_since.includes("Planned for"))
+    return res
+  }
 
-    for (var i = 0; i < len; i++) {
-      if (parseInt(v1[i]) > parseInt(v2[i])) {
-        return -1;
-      }
+  // Filter to only Guardium Data Protection
+  const filterGDP = (res) => {
+    // If propery "gdp_supported_since" exists
+    res.supported_databases = res.supported_databases.filter((elem) => elem.gdp_supported_since !== undefined)
+    return res
+  }
 
-      if (parseInt(v1[i]) < parseInt(v2[i])) {
-        return 1;
-      }
+  // Apply filter based on option chosen from Dropdown
+  const filterLogic = (selected) => {
+    var ret = JSON.parse(JSON.stringify(fullData));
+    switch (selected) {
+      case 'All':
+        break;
+      case 'Guardium Data Protection':
+        ret = filterGDP(ret);
+        break;
+      case 'Guardium Insights (Software)':
+        ret = filterInsights(ret);
+        break;
+      case  'Guardium Insights SaaS':
+        ret = filterSaaS(ret);
+        break;
+      default:
+        break;
     }
-    return 0;
+
+    setConnectionData(ret);
+    setDisplayDataSources(ret.supported_databases);
+
   }
+
 
   //Used to load data from json. This is because connections.json is hosted in public folder for public access, hence unable to import directly
   useEffect(async () => {
@@ -185,13 +295,12 @@ export default function Connection() {
           return database
         }
       )
-      res.versions.sort(versionIsLess)
 
       if (res) {
+        // Set constant full data to lookback when filtering
+        setFullData(res)
         setConnectionData(res)
         setDisplayDataSources(res.supported_databases)
-
-        setSelectedVersion(res.versions[0])
       }
     }
   }, []);
@@ -199,7 +308,7 @@ export default function Connection() {
   useEffect(() => {
     if (isLoaded())
       handleSearchChange(searchValue);
-  }, [searchValue, selectedVersion]);
+  }, [searchValue]);
 
   const handleSearchChange = (value = '') => {
 
@@ -220,20 +329,20 @@ export default function Connection() {
     _setSelectedDataSource(dataSource);
   }
 
-  const renderDataSourceCards = (isGreaterThanVersion) => {
-    return displayDataSources.filter((dataSource) => (isGreaterThanVersion ? versionIsLess(dataSource.supported_since, selectedVersion) >= 0 : versionIsLess(dataSource.supported_since, selectedVersion) < 0)).map(dataSource => {
-      return dataSourceCard(dataSource, isGreaterThanVersion);
+  const renderDataSourceCards = () => {
+    return displayDataSources.map(dataSource => {
+      return dataSourceCard(dataSource);
     });
   };
 
-  const dataSourceCard = (dataSource, isGreaterThanVersion) => {
+  const dataSourceCard = (dataSource) => {
     return (
       <div className={`bx--col-lg-2`}>
         <div
-          className={`${BLOCK_CLASS}__data-source-card ` + (!isGreaterThanVersion ? `${BLOCK_CLASS}__data-source-card--disabled` : ``)}
+          className={`${BLOCK_CLASS}__data-source-card`}
           role="button"
-          onClick={isGreaterThanVersion ? () => setSelectedDataSource(dataSource) : null}
-          onKeyPress={isGreaterThanVersion ? () => setSelectedDataSource(dataSource) : null}
+          onClick={true ? () => setSelectedDataSource(dataSource) : null}
+          onKeyPress={true ? () => setSelectedDataSource(dataSource) : null}
           tabIndex={0}>
           <div className={`${BLOCK_CLASS}__data-source-card-title`}>{dataSource.database_name}</div>
         </div>
@@ -265,43 +374,30 @@ export default function Connection() {
         {dataSourceSearchInput()}
         <div className={`${BLOCK_CLASS}__header-box`}>
           <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
-            Data sources directly monitored by Guardium Insights (not requiring a Guardium Data Protection Collector)
+            Data sources supported by Guardium
           </div>
-          <div className={`${BLOCK_CLASS}__version-box`}>
-            <div className={`${BLOCK_CLASS}__version-title`}>
-              Guardium Insights version:
-            </div>
-            <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
-              <Dropdown
-                ariaLabel="Version Dropdown"
-                id="version-dropdown"
-                selectedItem={selectedVersion}
-                items={connectionData.versions}
-                label="Choose Version"
-                onChange={
-                  (item) => {
-                    setSelectedVersion(item.selectedItem)
+          <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
+            <Dropdown
+                  ariaLabel="Products Dropdown"
+                  id="products-dropdown"
+                  selectedItem={undefined}
+                  items={PRODUCTS}
+                  itemToString={(env) => (env)}
+                  label="Select a product"
+                  //titleText="Filter based on product"
+                  onChange={
+                    (item) => {
+                      filterLogic(item.selectedItem)
+                    }
                   }
-                }
-              />
-            </div>
-
+                />
           </div>
         </div>
 
         <hr className={`${BLOCK_CLASS}__divider`} />
         <div className={`${BLOCK_CLASS}__data-source-container`}>
-          <div className="bx--row">{renderDataSourceCards(true)}</div>
+          <div className="bx--row">{renderDataSourceCards()}</div>
         </div>
-        {selectedVersion !== connectionData.versions[0] && <>
-          <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
-            Data sources available in latest release (version {connectionData.versions[0]})
-          </div>
-          <hr className={`${BLOCK_CLASS}__divider`} />
-          <div className={`${BLOCK_CLASS}__data-source-container`}>
-            <div className="bx--row">{renderDataSourceCards(false)}</div>
-          </div>
-        </>}
         <a className={`${BLOCK_CLASS}__raw-data-link`} href={`${process.env.PUBLIC_URL}/data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
         {selectedDataSource && <Modal
           size={'lg'}
@@ -399,46 +495,56 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
           )
         }
         {
-          selectedMethod?.download_url && (
-            <Link href={selectedMethod.download_url}>[Download]</Link>
-          )
+          // selectedMethod?.download_url && (
+          //   <Link href={selectedMethod.download_url}>[Download]</Link>
+          // )
         }
-        {/* {
-          selectedMethod && getMethodOptions(selectedMethod).length > 0 && (
-            <Dropdown
-              ariaLabel="Other Methods Dropdown"
-              id="other-methods-dropdown"
-              selectedItem={selectedOtherMethod}
-              items={getMethodOptions(selectedMethod)}
-              label="Choose Other Method"
-              titleText="Other Method"
-              onChange={
-                (item) => {
-                  setOtherSelectedMethod(item.selectedItem)
-                }
-              }
-            />
-          )
-        } */}
+        {
+          listGDPSuppVersion(selectedDataSource)
+        }
+        {
+          listGISuppVersion(selectedDataSource, selectedMethod)
+        }
+        {
+          checkIfVaSupported(selectedDataSource)
+        }
+        {
+          checkIfClassificationSupported(selectedDataSource)
+        }
+
       </div>
 
-      {
-        selectedMethod && (
+        {selectedMethod && (
           <Accordion>
+            {selectedMethod.supported_versions && (
+              <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_versions.join("\r\n")}</div>
+              </AccordionItem>
+            )}
+            {selectedMethod.download_url && (
+              <AccordionItem open={true} key={"Plugin download"} title={"Plugin download"}>
+                <div>{selectedMethod?.download_url && (<Link href={selectedMethod.download_url}>[Download]</Link>)}</div>
+              </AccordionItem>
+            )}
+            {selectedMethod.readme_url && (
+              <AccordionItem open={true} key={"Plugin readme"} title={"Plugin readme"}>
+                <div>{selectedMethod?.readme_url && (<Link href={selectedMethod.readme_url} target="_blank" rel="noopener noreferrer">[Readme]</Link>)}</div>
+              </AccordionItem>
+            )}
+            {selectedMethod.supported_operating_systems && (
+              <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_operating_systems.join("\r\n")}</div>
+              </AccordionItem>
+            )}
             {
               selectedMethod.method_info.map((section) => {
                 return (
-                  <AccordionItem open={true} key={section.accordian_title} title={section.accordian_title}>
+                  <AccordionItem open={false} key={section.accordian_title} title={section.accordian_title}>
                     {generateAccordianItem(section)}
                   </AccordionItem>
                 )
               })
             }
-            {selectedMethod.supported_versions && (
-              <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
-                <div>{selectedMethod.supported_versions.join(', ')}</div>
-              </AccordionItem>
-            )}
           </Accordion>
 
         )
