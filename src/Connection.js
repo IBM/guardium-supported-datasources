@@ -448,7 +448,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
   s.replace(/^_*(.)|_+(.)/g, (s, c, d) => c ? c.toUpperCase() : ' ' + d.toUpperCase())
 
   const getRows = (selectedDataSource) => {
-    const headers = ["network_traffic","local_traffic","encrypted_traffic","shared_memory","kerberos","blocking","redaction","uid_chain","compression","query_rewrite","instance_discovery","protocol","notes2"]
+    const headers = ["network_traffic","local_traffic","encrypted_traffic","shared_memory","kerberos","blocking","redaction","uid_chain","compression","query_rewrite","instance_discovery","protocol","info"]
 
     
     var rows = []
@@ -457,7 +457,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
         rows.push(
           {
             key:titleCase(header),
-            value:selectedDataSource[header],
+            value:selectedDataSource[header]!= null ? selectedDataSource[header] : '-' ,
           },
         )
       }

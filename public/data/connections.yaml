@@ -1145,6 +1145,19 @@ supported_databases:
   va_supported: true
   classification_supported: true
   notes: Classification via GDP and ISDC
+  network_traffic: K-TAP
+  local_traffic: K-TAP
+  encrypted_traffic: A-TAP
+  shared_memory: 
+  kerberos:
+  blocking: K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)
+  redaction: K-TAP
+  uid_chain: K-TAP, A-TAP (A-TAP only when configured for real IPs)
+  compression: K-TAP,
+  query_rewrite:
+  instance_discovery:
+  protocol: N/A
+  info: supported MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)
   environments_supported:
   - environment_name: On-premise or IaaS
     methods_supported:
