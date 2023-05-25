@@ -451,12 +451,8 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
     const headers = ["network_traffic","local_traffic","encrypted_traffic","shared_memory","kerberos","blocking","redaction","uid_chain","compression","query_rewrite","instance_discovery","protocol","notes2"]
 
     
-    // var rows = {
-    //   "database_name": JSON.stringify(selectedDataSource["database_name"])
-    // }
     var rows = []
     for (const header of headers) {
-      console.log("the val:" + header + "===" + JSON.stringify(selectedDataSource[header]))
       if (selectedDataSource[header] !== undefined) {
         rows.push(
           {
@@ -467,15 +463,11 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
       }
     }
 
-    console.log("this is the row: " + JSON.stringify(rows))
     setTableRows(rows)
-    console.log("donezo bozo")
 
   }
 
   useEffect(() => {
-    console.log("this is the selected datasource: " + JSON.stringify(selectedDataSource))
-
     if (selectedDataSource.environments_supported.length !== 1) return
     const firstEnvironment = selectedDataSource.environments_supported[0]
     setSelectedEnvironment(firstEnvironment);
