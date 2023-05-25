@@ -568,7 +568,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
                 )
               })
             }
-            <AccordionItem open={false} key={"Specifics"} title="Specifics">
+            <AccordionItem open={false} key={"Supported features"} title="Supported features">
 
             <DataTable rows={tableRows} 
             headers = {[]}
