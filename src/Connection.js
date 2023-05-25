@@ -440,6 +440,22 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
     // setOtherSelectedMethod(null);
   }
 
+  const createTags = (methodVersions) => {
+    const tags = [];
+    var charCount = 0;
+    for (let i = 0; i < methodVersions.length; i++) {
+      tags.push(<Tag key={i}> {methodVersions[i]} </Tag>)
+      charCount += methodVersions[i].length+4
+      if (charCount > 100){
+        // Add a newline when over 100 chars
+        tags.push(<p></p>)
+        charCount = 0;
+      }
+      
+    }
+    return tags
+  }
+
   useEffect(() => {
     if (selectedDataSource.environments_supported.length !== 1) return
     const firstEnvironment = selectedDataSource.environments_supported[0]
@@ -519,7 +535,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
           <Accordion>
             {selectedMethod.supported_versions && (
               <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
-                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_versions.join("\r\n")}</div>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{createTags(selectedMethod.supported_versions)}</div>
               </AccordionItem>
             )}
             {selectedMethod.download_url && (
@@ -534,7 +550,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
             )}
             {selectedMethod.supported_operating_systems && (
               <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
-                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_operating_systems.join("\r\n")}</div>
+                <div className={`${BLOCK_CLASS}__os-list-item`}>{createTags(selectedMethod.supported_operating_systems)}</div>
               </AccordionItem>
             )}
             {
