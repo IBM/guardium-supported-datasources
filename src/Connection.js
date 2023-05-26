@@ -1,6 +1,7 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
+import { AccordionItem, Dropdown, Accordion,DataTable, OrderedList,TableContainer, ListItem,Table,TableRow,TableCell,TableBody, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
+import { Tank } from '@carbon/icons-react';
 
 const BLOCK_CLASS = `connections-doc`;
 
@@ -422,11 +423,14 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
 
   useEffect(() => {
     setSelectedEnvironment(null)
+    getRows(selectedDataSource)
   }, [selectedDataSource]);
 
   const [selectedEnvironment, _setSelectedEnvironment] = useState(null)
 
   const [selectedMethod, _setSelectedMethod] = useState(null)
+
+  const [tableRows, setTableRows] =  useState([]);
 
   // const [selectedOtherMethod, setOtherSelectedMethod] = useState(null)
 
@@ -438,6 +442,29 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
   const setSelectedMethod = (method) => {
     _setSelectedMethod(method)
     // setOtherSelectedMethod(null);
+  }
+
+  const titleCase = (s) =>
+  s.replace(/^_*(.)|_+(.)/g, (s, c, d) => c ? c.toUpperCase() : ' ' + d.toUpperCase())
+
+  const getRows = (selectedDataSource) => {
+    const headers = ["network_traffic","local_traffic","encrypted_traffic","shared_memory","kerberos","blocking","redaction","uid_chain","compression","query_rewrite","instance_discovery","protocol","info"]
+
+    
+    var rows = []
+    for (const header of headers) {
+      if (selectedDataSource[header] !== undefined) {
+        rows.push(
+          {
+            key:titleCase(header),
+            value:selectedDataSource[header]!= null ? selectedDataSource[header] : '-' ,
+          },
+        )
+      }
+    }
+
+    setTableRows(rows)
+
   }
 
   useEffect(() => {
@@ -546,6 +573,36 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
                 )
               })
             }
+            <AccordionItem open={false} key={"Supported features"} title="Supported features">
+
+            <DataTable rows={tableRows} 
+            headers = {[]}
+            render={({rows,header,getHeaderProps,getTableProps}) => {
+            return (
+              <TableContainer>
+                <Table {...getTableProps()}>
+                <TableBody>
+                {tableRows.map(row => {
+                  return (
+                    <TableRow>
+                      <TableCell>
+                        <p style={{fontWeight:"bold"}}>{row.key}</p>
+                      </TableCell>
+                      <TableCell>
+                        {row.value}
+                      </TableCell>
+                    </TableRow>
+                  )
+                  
+                })}
+                </TableBody>
+                </Table>
+              </TableContainer>
+            )
+            }}>
+            
+          </DataTable>
+            </AccordionItem>
           </Accordion>
 
         )
