@@ -224,7 +224,7 @@ export default function Connection() {
   const [displayDataSources, setDisplayDataSources] = useState(null);
 
   // selectedProduct - selected product for filtering datasources
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState('All');
 
   const isLoaded = () => {
     return (connectionData && displayDataSources)
@@ -380,13 +380,14 @@ export default function Connection() {
             <Dropdown
                   ariaLabel="Products Dropdown"
                   id="products-dropdown"
-                  selectedItem={undefined}
+                  selectedItem={selectedProduct}
                   items={PRODUCTS}
                   itemToString={(env) => (env)}
                   label="Select a product"
                   //titleText="Filter based on product"
                   onChange={
                     (item) => {
+                      setSelectedProduct(item.selectedItem)
                       filterLogic(item.selectedItem)
                     }
                   }
@@ -408,7 +409,7 @@ export default function Connection() {
             setOpen(false)
           }}
         >
-          <DatasourceModal selectedDataSource={selectedDataSource} connectionData={connectionData} />
+          <DatasourceModal selectedDataSource={selectedDataSource} connectionData={connectionData} selectedProduct={selectedProduct} />
         </Modal>}
       </div>
     </> : <Loading />
@@ -417,7 +418,7 @@ export default function Connection() {
 }
 
 //DatasourceModal - Component used in modal for info of datasource
-export function DatasourceModal({ selectedDataSource, connectionData }) {
+export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
 
   useEffect(() => {
     setSelectedEnvironment(null)
@@ -482,7 +483,7 @@ export function DatasourceModal({ selectedDataSource, connectionData }) {
               ariaLabel="Methods Dropdown"
               id="methods-dropdown"
               selectedItem={selectedMethod}
-              items={selectedEnvironment.methods_supported}
+              items={selectedProduct === "Guardium Insights SaaS" || selectedProduct === 'Guardium Insights (Software)' ? selectedEnvironment.methods_supported.filter(function(e) {return e.method_key !== 'External STAP' && e.method_key !== 'STAP' }) : selectedEnvironment.methods_supported}
               itemToString={(env) => (env.method_name)}
               label="Choose Method"
               titleText="Method"
