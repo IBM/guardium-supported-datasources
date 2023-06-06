@@ -343,6 +343,7 @@ supported_databases:
 - database_name: Azure SQL
   supported_since: 2.0.0
   gdp_supported_since: 11.0.0
+  saas_supported: true
   va_supported: true
   classification_supported: true
   notes: Classification via GDP
@@ -1244,6 +1245,7 @@ supported_databases:
 - database_name: MongoDB Atlas
   supported_since: 3.0.0
   gdp_supported_since: 11.0.0
+  saas_supported: true
   environments_supported:
   - environment_name: Azure (Database as a Service)
     methods_supported:
@@ -1253,6 +1255,12 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
+    - method_key: Universal Connector
+      supported_versions:
+      - '4.2'
+      - '4.4'
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
   - environment_name: AWS (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1261,6 +1269,12 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
+    - method_key: Universal Connector
+      supported_versions:
+      - '4.2'
+      - '4.4'
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
   - environment_name: GCP (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1269,6 +1283,12 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
+    - method_key: Universal Connector
+      supported_versions:
+      - '4.2'
+      - '4.4'
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
   - environment_name: IBM Cloud (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -1277,6 +1297,12 @@ supported_databases:
       - 4.4
       - 5.0
       - 6.0
+    - method_key: Universal Connector
+      supported_versions:
+      - '4.2'
+      - '4.4'
+      download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
 - database_name: MySQL
   supported_since: 3.0.0
   saas_supported: true
