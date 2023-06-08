@@ -440,6 +440,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
     // setOtherSelectedMethod(null);
   }
 
+
   useEffect(() => {
     if (selectedDataSource.environments_supported.length !== 1) return
     const firstEnvironment = selectedDataSource.environments_supported[0]
@@ -519,7 +520,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
           <Accordion>
             {selectedMethod.supported_versions && (
               <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
-                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_versions.join("\r\n")}</div>
+                <div>{selectedMethod.supported_versions.map(x => <Tag key={x}> {x}</Tag>)}</div>
               </AccordionItem>
             )}
             {selectedMethod.download_url && (
@@ -534,7 +535,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
             )}
             {selectedMethod.supported_operating_systems && (
               <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
-                <div className={`${BLOCK_CLASS}__os-list-item`}>{selectedMethod.supported_operating_systems.join("\r\n")}</div>
+                <div>{selectedMethod.supported_operating_systems.map(x => <Tag key={x}> {x}</Tag>)}</div>
               </AccordionItem>
             )}
             {
