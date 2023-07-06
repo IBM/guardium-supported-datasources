@@ -126,7 +126,7 @@ supported_databases:
       - 18
       - 19
       download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip
-      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 - database_name: Amazon RDS for MariaDB
   supported_since: 3.2.0
   gdp_supported_since: 11.0.0
@@ -1756,7 +1756,7 @@ supported_databases:
       - Red Hat 7.9
       - Red Hat 8
 - database_name: Snowflake
-  supported_since: Planned for 3.3
+  supported_since: 3.2.6
   saas_supported: true
   gdp_supported_since: 11.0.0
   va_supported: true
