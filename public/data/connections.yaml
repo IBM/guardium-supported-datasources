@@ -340,7 +340,29 @@ supported_databases:
       - 11.0+
       download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md
-- database_name: Azure SQL
+- database_name: Azure SQL Database
+  supported_since: 2.0.0
+  gdp_supported_since: 11.0.0
+  saas_supported: true
+  va_supported: true
+  classification_supported: true
+  notes: Classification via GDP
+  environments_supported:
+  - environment_name: Azure (Database as a Service)
+    methods_supported:
+    - method_key: External STAP
+      supported_versions:
+      - All versions
+      notes: SSL-enabled encrypted connections are supported (including Force Protocol Encryption).
+    - method_key: Azure Event Hubs
+      supported_versions:
+      - latest
+    - method_key: Universal Connector
+      supported_versions:
+      - 12.0.2000.8+
+      download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip
+      readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
+- database_name: Azure SQL Managed Instance
   supported_since: 2.0.0
   gdp_supported_since: 11.0.0
   saas_supported: true
