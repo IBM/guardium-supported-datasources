@@ -1,6 +1,8 @@
 import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
+import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from '@carbon/ibm-security';
+import { headerData } from './sampleData';
 
 const BLOCK_CLASS = `connections-doc`;
 
@@ -417,8 +419,49 @@ export default function Connection() {
   )
 }
 
+function CompatMatrix(rowData, headerData) {
+  if (rowData == null) {
+    return null
+  }
+  return (
+    <AccordionItem open={false} key={"compatMatrix"} title={"compatMatrix"}>
+              <DataTable rows={rowData} headers={headerData}>
+                      {({ rows, headers}) => (
+                        <TableContainer title="DataTable">
+                          <Table>
+                            <TableHead>
+                              <TableRow>
+                                {headers.map((header) => (
+                                  <TableHeader>
+                                    {header.header}
+                                  </TableHeader>
+                                ))}
+                              </TableRow>
+                            </TableHead>
+                            <TableBody>
+                              {rows.map((row) => (
+                                <div>
+                                  {row.cells.map((cell) => (
+                                    <TableCell >{cell.value}</TableCell>
+                                  ))}
+                                </div>
+                              ))}
+                            </TableBody>
+                          </Table>
+                        </TableContainer>
+                      )}
+                </DataTable>
+              </AccordionItem>
+
+  )
+
+}
+
 //DatasourceModal - Component used in modal for info of datasource
 export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
+  const sample = require('./supported_dbs.json');
+  const rowData = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
+  
 
   useEffect(() => {
     setSelectedEnvironment(null)
@@ -547,8 +590,8 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
                 )
               })
             }
+            { CompatMatrix(rowData,headerData)}
           </Accordion>
-
         )
       }
     </div>
