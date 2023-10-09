@@ -215,6 +215,7 @@ supported_databases:
       supported_versions:
       - Cassandra / Datastax 6.0
       - Cassandra / Datastax 6.8
+      - Cassandra / Datastax 6.8.20
       - Cassandra 3.0
       - Cassandra 3.11
       - Cassandra 3.5
@@ -491,6 +492,7 @@ supported_databases:
       - Couchbase 6
       - Couchbase 6.5
       - Couchbase 6.6
+      - Couchbase 7.1
       supported_operating_systems:
       - CentOS 6x
       - CentOS 7x
@@ -526,6 +528,7 @@ supported_databases:
     - method_key: STAP
       supported_versions:
       - Elasticsearch 7.3
+      - Elasticsearch 8.6
       supported_operating_systems:
       - Red Hat 6
       - Red Hat 7
@@ -1179,11 +1182,13 @@ supported_databases:
       - MS SQL Server 2016
       - MS SQL Server 2017
       - MS SQL Server 2019
+      - MS SQL Server 2022
       supported_operating_systems:
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
       - Windows Server 2019
+      - Windows Server 2022
 - database_name: MongoDB
   supported_since: 3.0.0
   saas_supported: true
@@ -1215,6 +1220,7 @@ supported_databases:
       - MongoDB 4.1
       - MongoDB 4.2
       - MongoDB 4.4
+      - MongoDB 6.0
       supported_operating_systems:
       - CentOS 6x
       - CentOS 7x
@@ -1237,6 +1243,7 @@ supported_databases:
       - Windows Server 2012 R2
       - Windows Server 2016
       - Windows Server 2019
+      - Windows Server 2022
   - environment_name: Azure (Database as a Service)
     methods_supported:
     - method_key: Azure Event Hubs
@@ -1387,6 +1394,7 @@ supported_databases:
       supported_versions:
       - Neo4j 3.5
       - Neo4j 4.0
+      - Neo4j 5.6
       supported_operating_systems:
       - CentOS 6x
       - CentOS 7x
@@ -1606,6 +1614,7 @@ supported_databases:
   saas_supported: true
   gdp_supported_since: 11.0.0
   classification_supported: true
+  va_supported: true
   notes: Classification via GDP and ISDC
   environments_supported:
   - environment_name: On-premise or IaaS
@@ -1620,6 +1629,7 @@ supported_databases:
       supported_versions:
       - EDB 12
       - EDB 14
+      - EDB 15.2
       - FEP 14
       download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/PostgreFB/postgres-offline-plugins-7.5.2.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md
@@ -1649,6 +1659,7 @@ supported_databases:
       supported_versions:
       - Redis 5.0
       - Redis 6.0
+      - Redis 7.0
       supported_operating_systems:
       - Red Hat 6
       - Red Hat 7
@@ -1909,6 +1920,7 @@ supported_databases:
       - Teradata 16.1
       - Teradata 16.2
       - Teradata 17.0
+      - Teradata 17.2
       supported_operating_systems:
       - Suse 11 - 32-bit, 64-bit
       - Suse 12 - 64-bit
@@ -1943,6 +1955,7 @@ supported_databases:
       - Vertica 9
       - Vertica 9.2
       - Vertica 9.3
+      - Vertica 12.0
       supported_operating_systems:
       - CentOS 6x
       - CentOS 7x
