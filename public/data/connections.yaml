@@ -39,7 +39,7 @@ supported_databases:
       - 2.0+
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
-- database_name: Amazon DynamoDB
+- database_name: DynamoDB
   supported_since: 3.1.0
   gdp_supported_since: 11.0.0
   saas_supported: true
@@ -186,7 +186,7 @@ supported_databases:
       - 14.0.x
       download_url: https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md
-- database_name: Amazon S3
+- database_name: S3
   supported_since: 3.0.0
   saas_supported: true
   gdp_supported_since: 11.3.0
@@ -203,7 +203,7 @@ supported_databases:
       - latest
       download_url: https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip
       readme_url: https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
-- database_name: Apache Cassandra
+- database_name: Cassandra Apache
   supported_since: Planned for 3.3
   gdp_supported_since: 11.0.0
   saas_supported: true
@@ -433,7 +433,7 @@ supported_databases:
     - method_key: External STAP
       supported_versions:
       - 20.1.1
-- database_name: CouchDB
+- database_name: Couch
   supported_since: 3.2.0
   saas_supported: true
   gdp_supported_since: 11.0.0
@@ -747,7 +747,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: IBM Datasets for z/OS
+- database_name: Datasets for z/OS
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -890,7 +890,7 @@ supported_databases:
       - 11.1
       - 11.5
       notes: Native encryption (DATA_ENCRYPT) not supported.
-- database_name: IBM Db2 Purescale
+- database_name: Db2 Purescale
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -986,7 +986,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: IBM Informix
+- database_name: Informix
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   va_supported: true
@@ -1063,7 +1063,7 @@ supported_databases:
       - Zlinux Suse 15 - 64-bit
       - Zlinux Ubuntu 18.0
       - Zlinux Ubuntu 18.04
-- database_name: IBM Netezza
+- database_name: Netezza
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   classification_supported: true
@@ -1153,7 +1153,7 @@ supported_databases:
       - Windows Server 2012 R2
       - Windows Server 2016
       - Windows Server 2019
-- database_name: Microsoft SQL Server
+- database_name: MS SQL Server
   supported_since: Planned for 3.3
   saas_supported: true
   gdp_supported_since: 11.0.0
@@ -1719,7 +1719,7 @@ supported_databases:
       - Sailfish 1.0
       supported_operating_systems:
       - Red Hat 7.6 PPC64LE
-- database_name: SingleStore (MemSQL)
+- database_name: MemSQL
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -1970,12 +1970,12 @@ methods:
       type: string
       content: Beginner
     - accordian_title: Benefits
-      type: ordered
+      type: string
       content:
       - Simple to implement
       - Eliminates technical and administrative burdens of agent-based monitoring.
     - accordian_title: Considerations
-      type: unordered
+      type: string
       content:
       - 'Lack of segregation of duties: database administrators can disable native
         audit logging.'
@@ -1986,13 +1986,13 @@ methods:
         is returned from the server back to the client) and local sessions.'
       - Lack of proactive protections, such as no inline blocking or redaction.
     - accordian_title: How it works
-      type: unordered
+      type: string
       content:
       - Enable native audit logging on the database that you want to monitor. Native
         audit logs are pushed as a database activity stream over Amazon Kinesis. Guardium
         uses intermittent API polling to fetch the Amazon Kinesis data activity stream.
     - accordian_title: Information you will need
-      type: unordered
+      type: orderedlist
       content:
       - title: Authentication
         content:
@@ -2019,7 +2019,7 @@ methods:
         - Username
         - Password
     - accordian_title: Setup Instructions
-      type: unordered
+      type: string
       content:
       - title: '[Enabling native audit logging on AWS databases]'
         link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-amazon-aws-setup
@@ -2027,7 +2027,7 @@ methods:
     method_name: External S-TAP
     method_info:
     - accordian_title: Detailed support information
-      type: unordered
+      type: string
       content:
       - title: '[IBM Support: IBM Guardium System Requirements and Supported Platforms]'
         link: https://www.ibm.com/support/pages/ibm-guardium-system-requirements-and-supported-platforms
@@ -2035,7 +2035,7 @@ methods:
       type: string
       content: Advanced
     - accordian_title: Benefits
-      type: ordered
+      type: string
       content:
       - Comprehensive visibility - including local database sessions.
       - Enforces separation of duties.
@@ -2043,27 +2043,27 @@ methods:
       - Viewing encrypted sessions does not require access to certificates and connections
         termination.
     - accordian_title: Considerations
-      type: unordered
+      type: string
       content:
       - 'Installing and maintaining External S-TAPs requires coordination with other teams
         and owners including: database server administrators, database administrators,
         and application owners.'
     - accordian_title: How it works
-      type: unordered
+      type: string
       content:
       - External S-TAP is a component of Guardium that can intercept traffic for cloud and
         on-premises database services without installing an inspection agent on the database server.
         The External S-TAP observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it to a Guardium collector for processing and analytics.
-      - title: '[View more information]'
-        link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
+      title: '[View more information]'
+      link: https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap
     - accordian_title: Information you will need
-      type: unordered
+      type: orderedlist
       content:
       - Knowledge of the database type and version.
       - Knowledge of Docker and/or Kubernetes.
     - accordian_title: Setup Instructions
-      type: unordered
+      type: string
       content:
       - title: '[External S-TAP Guide]'
         link: https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements
@@ -2071,7 +2071,7 @@ methods:
     method_name: Agent (S-TAP)
     method_info:
     - accordian_title: Detailed support information
-      type: unordered
+      type: string
       content:
       - title: '[Security Learning Academy: Supported Platforms for Guardium]'
         link: https://www.securitylearningacademy.com/course/view.php?id=4013
@@ -2079,7 +2079,7 @@ methods:
       type: string
       content: Advanced
     - accordian_title: Benefits
-      type: ordered
+      type: string
       content:
       - Comprehensive visibility - including local database sessions.
       - Enforces separation of duties.
@@ -2087,7 +2087,7 @@ methods:
       - Viewing encrypted sessions does not require access to certificates and connections
           termination.
     - accordian_title: Considerations
-      type: unordered
+      type: string
       content:
       - 'Installing and maintaining agents requires coordination with other teams
         and owners including: database server administrators, database administrators,
@@ -2097,22 +2097,22 @@ methods:
         to deal with these changes.
       - S-TAPs can be managed standalone or with Guardium Installation Manager (GIM).
     - accordian_title: How it works
-      type: unordered
+      type: string
       content:
       - A lightweight agent (an S-TAP) is installed at the operating system level.
         The agent observes all session traffic to and from the database and makes
         a copy of that session traffic - sending it either to a Guardium collector
         or directly to Guardium Insights for processing and analytics.
-      - title: '[View more information]'
+      title: '[View more information]'
       link: https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide
     - accordian_title: Information you will need
-      type: unordered
+      type: orderedlist
       content:
       - Knowledge of the operating system on the database server (Windows, AIX, Solaris,
         HP-UX, Linux, etc).
       - Knowledge of the database type and version.
     - accordian_title: Setup Instructions
-      type: unordered
+      type: string
       content:
       - title: '[Linux-Unix S-TAP Guide]'
         link: https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide
@@ -2125,12 +2125,12 @@ methods:
       type: string
       content: Beginner
     - accordian_title: Benefits
-      type: ordered
+      type: string
       content:
       - Simple to implement.
       - Eliminates technical and administrative burdens of agent-based monitoring.
     - accordian_title: Considerations
-      type: unordered
+      type: string
       content:
       - 'Lack of segregation of duties: database administrators can disable native
         audit logging.'
@@ -2141,13 +2141,13 @@ methods:
         is returned from the server back to the client) and local sessions.'
       - 'Lack of proactive protections: no in-line blocking, redaction and more.'
     - accordian_title: How it works
-      type: unordered
+      type: string
       content:
       - Enable native audit logging on the database that you want to monitor. Native
         audit logs are pushed as an Event Hub stream over Azure Event Hubs. Guardium
         uses intermittent API polling to fetch the Event Hub stream.
     - accordian_title: Information you will need
-      type: unordered
+      type: orderedlist
       content:
       - title: Authentication
         content:
@@ -2169,7 +2169,7 @@ methods:
         - Username
         - Password
     - accordian_title: Setup Instructions
-      type: unordered
+      type: string
       content:
       - title: '[Enabling native audit logging on Azure databases]'
         link: https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-azure-setup
@@ -2180,13 +2180,13 @@ methods:
       type: string
       content: Intermediate
     - accordian_title: Benefits
-      type: ordered
+      type: string
       content:
       - Eliminates technical and administrative burdens of agent-based monitoring.
       - Extremely flexible - can be used to monitor a variety of data sources - including
         structured and unstructured data.
     - accordian_title: Considerations
-      type: unordered
+      type: string
       content:
       - May require some familiarity with data ingestion components like Elastic Filebeat
         and Input/Filter plugins.
@@ -2199,20 +2199,20 @@ methods:
         returned from the server back to the client) and local sessions.'
       - 'Lack of proactive protections: no in-line blocking, redaction and more.'
     - accordian_title: How it works
-      type: unordered
+      type: string
       content:
       - Data source events are either pushed or pulled into Guardium by using a Universal
         Connector pipeline. The Universal Connector pipeline maps the events into
         a format that Guardium understands.
     - accordian_title: Information you will need
-      type: unordered
+      type: orderedlist
       content:
       - Knowledge of what methods will be used for accessing the data source events
         (pulling via APIs, JDBC; pushing via Filebeat).
       - Authentication and configuration settings for the data ingestion method you
         will use.
     - accordian_title: Setup Instructions
-      type: unordered
+      type: string
       content:
       - title: '[Learn More]'
         link: https://github.com/IBM/universal-connectors#available-universal-connector-plug-ins
