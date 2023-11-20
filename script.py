@@ -6,12 +6,12 @@ import json
 
 # Constants
 FEATURE_KEY=["Network traffic","Local traffic","Encrypted traffic","Shared Memory","Kerberos","Blocking","Redaction","UID Chain","Compression","Query Rewrite","Instance Discovery","Protocol"]
-GUARDIUM_VERSIONS=["11.0","11.1","11.2","11.3","11.4"]
+GUARDIUM_VERSIONS=["11","11.1","11.2","11.3","11.4"]
 
 # Extracts numbers from a list of strings (representing different versions) and returns sorted
 # Example: getRange(["MongoDB 3.2,MongoDB 4.224,MongoDB 4.3.2,MongoDB 5.3.2,MongoDB 3.5.2,"],"MongoDB") = 3.2,4.224,4.3.2,5.3.2,3.5.2
 def getRange(dbvs,dbName):
-    REMOVE_LIST = [("64-bit","sixtyfourbit"),("32-bit","thirtytwobit"),(",","+"),(dbName,"")]
+    REMOVE_LIST = [(",","+")]
     dbvRet = []
     for dbv in dbvs:
         dbvStr = dbv.replace(dbName,"").strip()
@@ -20,12 +20,72 @@ def getRange(dbvs,dbName):
         
         dbvRet.append(dbvStr)
     
-    dbvRet.sort(key=LooseVersion)
-    ret = ",".join(dbvRet)
+    dbvRet = [ x+"987654321" if (str.isalpha(x) or x=='') else x for x in dbvRet ]
+    # print(f"dbvRet:{dbvRet}" )
+    dbvRet = sorted(dbvRet, key=LooseVersion)
+    dbvRet = [ x.replace("987654321","") for x in dbvRet ]
+    ret = ", ".join(dbvRet)
     
     return ret
 
-# Returns consolidated feature information for a given DB for a given Guardium Version
+
+def GetFullOSDictForGVDB(gvToMatch,dbToMatch):
+    # Keep Dict of all OS/OS versions for a given GV and DB
+    fullOSDictForGVDBInitial = {}
+    
+    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs_clean.csv") as f:
+        reader = csv.DictReader(f)
+        # Iterate through each row 
+        for row in reader:
+        
+            rowDB = row["Database/DBaaS"].strip()
+            rowGV = row["Guardium Version"].strip()
+
+            # Continue only if row's database name and guardium version match
+            if rowGV == gvToMatch and rowDB==dbToMatch:
+                
+                # Initialize all version information for this row
+                rowOS = row["OS/Platform"].strip()
+                rowDBV = row["Database/DBaaS version"].strip()
+                rowOSV = row["OS/Platform version"].strip().replace("-","")
+                
+                # Check if row's os does not have a prev key
+                if rowOS not in fullOSDictForGVDBInitial:
+                    fullOSDictForGVDBInitial[rowOS] = []
+                    
+                if rowOSV not in fullOSDictForGVDBInitial[rowOS]:
+                    fullOSDictForGVDBInitial[rowOS].append(rowOSV)
+                    
+        
+    fullOSDictForGVDBFinal = copy.deepcopy(fullOSDictForGVDBInitial)
+    for os in fullOSDictForGVDBFinal:
+        if len(fullOSDictForGVDBInitial[os]) > 1:
+            fullOSDictForGVDBFinal[os] = getRange(fullOSDictForGVDBInitial[os],os)
+        
+    return fullOSDictForGVDBFinal
+                
+
+
+# Returns consolidated feature information for a given (DB, GUARDIUM_VERSION)
+# Structure Returned:
+'''
+{
+{
+    DBNAME: {
+        FEATUREKEY[0]: {
+            LISTOFDBVERSIONS(string): {
+                OSNAME[0]: {
+                   LISTOFOSVERSIONS(string) 
+                }
+                
+                
+            }
+        }
+    }
+}
+}
+
+'''
 # Example: 
 '''
 {
@@ -42,130 +102,219 @@ def getRange(dbvs,dbName):
             {'3.6,4,4.1,4.2': 
             {'Windows Server': '2012,2012R2,2016,2019'}
     }}
-'''
-def getComboDict(gv,db):
-    comboDict = {}
-    comboDict2 = {}
+'''    
+def getJSONForGVDB(gvToMatch,dbToMatch):
+    initialJSON = {}
+    initialJSON[dbToMatch] = {}
+    finalJSON = {}
+    
+    
+    
 
-    # Iterate through each row
-    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs.csv") as f:
+    
+    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs_clean.csv") as f:
         reader = csv.DictReader(f)
+        # Iterate through each row 
         for row in reader:
         
-            rowCombo = ""
-            for key in FEATURE_KEY:
-                rowCombo += f'{row[key].strip()} | '
-
             rowDB = row["Database/DBaaS"].strip()
-            rowOS = row["OS/Platform"].strip()
-            rowDBV = row["Database/DBaaS version"].strip()
-            rowOSV = row["OS/Platform version"].strip()
             rowGV = row["Guardium Version"].strip()
 
-            if rowGV == gv and rowDB==db:
+            # Continue only if row's database name and guardium version match
+            if rowGV == gvToMatch and rowDB==dbToMatch:
                 
-                if rowDB not in comboDict:
-                    comboDict[rowDB] = {}
+                # Initialize all version information for this row
+                rowOS = row["OS/Platform"].strip()
+                rowDBV = row["Database/DBaaS version"].strip()
+                rowOSV = row["OS/Platform version"].strip().replace("-","")
                 
-                if rowCombo not in comboDict[rowDB]:
-                    comboDict[rowDB][rowCombo] = {}
+            
+        
+                # Create row feature information string (eg. 'K-TAP | K-TAP | A-TAP |  |  | K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only) | K-TAP | K-TAP, A-TAP (A-TAP only when configured for real IPs) | K-TAP |  |  | N/A | ')
+                rowFeatureInfo = ""
+                for key in FEATURE_KEY:
+                    rowFeatureInfo += f'{row[key].strip()} | '
 
-                if rowOS not in comboDict[rowDB][rowCombo]:
-                    comboDict[rowDB][rowCombo][rowOS] = {}
+                # Check if row's featureinfo does not have a prev key
+                if rowFeatureInfo not in initialJSON[rowDB]:
+                    initialJSON[rowDB][rowFeatureInfo] = {}
+
+                # Check if row's os does not have a prev key
+                if rowOS not in initialJSON[rowDB][rowFeatureInfo]:
+                    initialJSON[rowDB][rowFeatureInfo][rowOS] = {}
+                
+                # Check if row's os version does not have a prev key
+                if rowOSV not in initialJSON[rowDB][rowFeatureInfo][rowOS]:
+                    initialJSON[rowDB][rowFeatureInfo][rowOS][rowOSV] = []
+
+                # Check if row's db version is not in list
+                if rowDBV not in initialJSON[rowDB][rowFeatureInfo][rowOS][rowOSV]:
+                    initialJSON[rowDB][rowFeatureInfo][rowOS][rowOSV].append(rowDBV)
+
+                
+                # Turn list of db versions into a comma seperated string depicting sorted dbversions
+                initialJSONCopy = copy.deepcopy(initialJSON)
+                for dbName in initialJSONCopy:
+                    for featureInfo in initialJSONCopy[dbName]:
+                        for os in initialJSONCopy[dbName][featureInfo]:
+                            for osv in initialJSONCopy[dbName][featureInfo][os]:
+                                initialJSONCopy[dbName][featureInfo][os][osv] = getRange(initialJSON[dbName][featureInfo][os][osv],dbName)
+                                
+                
+                # Reverse Hierarchy from (DBNAME -> COMBO -> OS -> OSV -> DBV) to (DBNAME -> COMBO -> DBV -> OS -> OSV)
+                finalJSON = {}
+                for dbName in initialJSONCopy:
                     
-                if rowOSV not in comboDict[rowDB][rowCombo][rowOS]:
-                    comboDict[rowDB][rowCombo][rowOS][rowOSV] = []
-
-                if rowDBV not in comboDict[rowDB][rowCombo][rowOS][rowOSV]:
-                    comboDict[rowDB][rowCombo][rowOS][rowOSV].append(rowDBV)
-
-                
-                # Turn into range
-                comboDict1 = copy.deepcopy(comboDict)
-                for db in comboDict1:
-                    for combo in comboDict1[db]:
-                        for os in comboDict1[db][combo]:
-                            for osv in comboDict1[db][combo][os]:
-                                comboDict1[db][combo][os][osv] = getRange(comboDict[db][combo][os][osv],db)
+                    # Just repopulate initial hierarchy
+                    if dbName not in finalJSON:
+                        finalJSON[dbName] = {}
+                    for featureInfo in initialJSONCopy[dbName]:
+                        if featureInfo not in finalJSON[dbName]:
+                            finalJSON[dbName][featureInfo] = {}
+                            
+                        # Iterate thru each OSV for a particular featureInfo
+                        for os in initialJSONCopy[dbName][featureInfo]:
+                            for osv in initialJSONCopy[dbName][featureInfo][os]:
                                 
-                
-                # Reverse
-                comboDict2 = {}
-                for db in comboDict1:
-                    if db not in comboDict2:
-                        comboDict2[db] = {}
-                    for combo in comboDict1[db]:
-                        if combo not in comboDict2[db]:
-                            comboDict2[db][combo] = {}
-                        for os in comboDict1[db][combo]:
-                            for osv in comboDict1[db][combo][os]:
-                                dbvStr = comboDict1[db][combo][os][osv]
-                                if dbvStr not in comboDict2[db][combo]:
-                                    comboDict2[db][combo][dbvStr] = {}
+                                # Create key for a unique DBVersion string
+                                dbvStr = initialJSONCopy[dbName][featureInfo][os][osv]
+                                if dbvStr not in finalJSON[dbName][featureInfo]:
+                                    finalJSON[dbName][featureInfo][dbvStr] = {}
                                     
-                                if os not in comboDict2[db][combo][dbvStr]:
-                                    comboDict2[db][combo][dbvStr][os] = []
+                                # Create key for a unique/new OS under DB version string
+                                if os not in finalJSON[dbName][featureInfo][dbvStr]:
+                                    finalJSON[dbName][featureInfo][dbvStr][os] = []
                                     
-                                if osv not in comboDict2[db][combo][dbvStr][os]:
-                                    comboDict2[db][combo][dbvStr][os].append(osv)
-                        # Convert to range
-                        for dbvStr in comboDict2[db][combo]:
-                            for os in comboDict2[db][combo][dbvStr]:
-                                comboDict2[db][combo][dbvStr][os] = getRange(comboDict2[db][combo][dbvStr][os],os)
+                                # Append unique/new OS version to a list under its OS
+                                if osv not in finalJSON[dbName][featureInfo][dbvStr][os]:
+                                    finalJSON[dbName][featureInfo][dbvStr][os].append(osv)
+                                    
+                        # Turn list of os versions into a comma seperated string depicting sorted os versions
+                        for dbvStr in finalJSON[dbName][featureInfo]:
+                            for os in finalJSON[dbName][featureInfo][dbvStr]:
+                                finalJSON[dbName][featureInfo][dbvStr][os] = getRange(finalJSON[dbName][featureInfo][dbvStr][os],os)
                                 
                                 
-                                
-    return comboDict2
+    # if finalJSON == {}: #?                   
+    return finalJSON
 
 # Create ComboDict for all DBs for all Guardium Versions
-def bigComboDict():
-    bigComboDict = {}
+def GetFullJSON(testing=False):
+    fullJSON = {}
+    
+    # Get list of allDBs
     allDBs = []
-    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs.csv") as f:
+    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs_clean.csv") as f:
         reader = csv.DictReader(f)
         for row in reader:
             rowDB = row["Database/DBaaS"]
             if rowDB not in allDBs:
                 allDBs.append(rowDB)
+                
+                
+    #Iterate thru list of all DBs
     for db in allDBs:
         
+        fullJSON[db] = {}
         
-        bigComboDict[db] = {}
-        sameDict = {}
-        # Consolidate if feature information is same for different guardium versions
-        try:
-            for i,gv in enumerate(GUARDIUM_VERSIONS):
-                breakIt = False
-                for key in sameDict:
-                    if gv in sameDict[key]:
-                        breakIt = True
-                        continue
-                    
-                if breakIt: continue
-                sameDict[gv] = [gv]
-                
-                
-                for j,gv2 in enumerate(GUARDIUM_VERSIONS[i+1:]):
-                    if getComboDict(gv,db) == getComboDict(gv2,db):
-                        sameDict[gv].append(gv2)
-            
-            
-            sameDict2 = {}
-            
-            for gv in sameDict:
-                if len(sameDict[gv]) > 1:
-                    sameDict2[gv] = sameDict[gv]
-            
-            for gv in sameDict:
-                bigComboDict[db][",".join(sameDict[gv])] = getComboDict(gv,db)[db]
-                    
-        except:
-            print(f"FAILED: {db}")
+        
+        # Consolidate if feature information for a DB is exact same for different guardium versions
+        
+        sameGVDict = {}
+        # Iterate thru list of all Guardium Versions
+        for i,gv in enumerate(GUARDIUM_VERSIONS):
     
-    return bigComboDict
+            if getJSONForGVDB(gv,db) == {}:
+                # No DB Support for this Guardium Version
+                continue
+            
+            
+            breakIt = False
+            for key in sameGVDict:
+                if gv in sameGVDict[key]: # Feature Information for current Guardium Version is same as a prev Guardium Version
+                    breakIt = True
+                    continue
+                
+            if breakIt: continue
+            sameGVDict[gv] = [gv] # Set Feature Information for current Guardium Version is same as current Guardium Version
+            
+            
+            # Loop thru all remaining Guardium Versions (gb)
+            for j,gv2 in enumerate(GUARDIUM_VERSIONS[i+1:]):
+        
+                if getJSONForGVDB(gv,db) == getJSONForGVDB(gv2,db):
+                    sameGVDict[gv].append(gv2)
+        
+        
+        # sameDict2 = {}
+        
+        # for gv in sameGVDict:
+        #     if len(sameGVDict[gv]) > 1:
+        #         sameDict2[gv] = sameGVDict[gv]
+        
+        for gv in sameGVDict:
+            JSONForGVDB = getJSONForGVDB(gv,db)[db]
+            JSONForGVDBCopy = copy.deepcopy(JSONForGVDB)
+            if testing == False:
+                fullOSDict = GetFullOSDictForGVDB(gv,db)
+                for featureInfo in JSONForGVDBCopy:
+                    for dbv in JSONForGVDBCopy[featureInfo]:
+                        for os in JSONForGVDBCopy[featureInfo][dbv]:
+                            osvString = JSONForGVDBCopy[featureInfo][dbv][os]
+                            if osvString in fullOSDict[os] and "," in osvString:
+                                JSONForGVDBCopy[featureInfo][dbv][os] = f'{osvString.split(",")[0]}-{osvString.split(",")[-1].strip()}'
+            fullJSON[db][", ".join(sameGVDict[gv])] = JSONForGVDBCopy
+            
+        # except:
+        #     print(f"FAILED: {db}")
+        #     #THROWERROR
+    
+    return fullJSON
             
 # Convert bigComboDict to readable yaml
-def writeReadableYAML(bigComboDict):
+def makeReadable(bigComboDict):
+    readableDict = {}
+    
+    for db in bigComboDict:
+        readableDict[db] = []
+        count = 0
+        for gv in bigComboDict[db]:
+            for combo in bigComboDict[db][gv]:
+                for dbv in bigComboDict[db][gv][combo]:
+                    osStringFull = []
+                    for os in bigComboDict[db][gv][combo][dbv]:
+                        osString = f'{os}: {bigComboDict[db][gv][combo][dbv][os].replace("thirtytwobit","32bit").replace(" sixtyfourbit","64bit").replace("sixtyfourbit","64bit")}'
+                        osStringFull.append(osString)
+                    
+                    dictToAppend = {}
+                    dictToAppend["id"] = count
+                    
+                    dictToAppend["OS_VERSIONS"] = osStringFull
+                    
+                    gvStr = gv
+                    if gv in "11, 11.1, 11.2, 11.3, 11.4, 11.5" and "," in gv:
+                        gvStr = f'{gv.split(",")[0].strip()}-{gv.split(",")[-1].strip()}'
+                    dictToAppend["GUARDIUM_VERSION"] = gvStr
+                    
+                    
+                    dbvStr = dbv
+                    if dbv in getListOfDBVs(db) and "," in dbv:
+                        dbvStr = f'{dbv.split(",")[0].strip()}-{dbv.split(",")[-1].strip()}'
+                    dictToAppend["DB_VERSIONS"] = dbvStr
+                    
+                    comboArr = combo.split("|")
+                    for i,key in enumerate(FEATURE_KEY):
+                        dictToAppend[key] = comboArr[i].strip()
+                        
+                        
+                    
+                    readableDict[db].append(dictToAppend)
+                    count += 1
+                     
+    return readableDict
+
+# Convert bigComboDict to readable yaml
+def writeReadableYAML2(bigComboDict):
     yamlDict = {}
     
     for db in bigComboDict:
@@ -181,14 +330,14 @@ def writeReadableYAML(bigComboDict):
                     
                     dictToAppend = {}
                     dictToAppend["id"] = count
-                    # dictToAppend["FEATURE_KEY"] = combo
+                    dictToAppend["FEATURE_KEY"] = combo
                     dictToAppend["GUARDIUM_VERSION"] = gv
                     dictToAppend["DB_VERSIONS"] = dbv
                     dictToAppend["OS_VERSIONS"] = osStringFull
                     
-                    comboArr = combo.split("|")
-                    for i,key in enumerate(FEATURE_KEY):
-                        dictToAppend[key] = comboArr[i].strip()
+                    # comboArr = combo.split("|")
+                    # for i,key in enumerate(FEATURE_KEY):
+                    #     dictToAppend[key] = comboArr[i].strip()
                         
                         
                     
@@ -197,11 +346,11 @@ def writeReadableYAML(bigComboDict):
                      
     return yamlDict
 
-def getCombo(db,os,dbv,osv,gv):
-    f = open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs.json")
+def getComboFromGeneratedJSON(filepath,db,os,dbv,osv,gv):
+    f = open(filepath)
     data = json.load(f)
     
-    REMOVE_LIST = [("64-bit","sixtyfourbit"),("32-bit","thirtytwobit"),(",","+"),(db,""),(os,"")]
+    REMOVE_LIST = [(",","+"),(db,""),(os,"")]
     
 
     for item in REMOVE_LIST:
@@ -218,10 +367,14 @@ def getCombo(db,os,dbv,osv,gv):
         if dbv not in combo["DB_VERSIONS"].split(","):
             continue
         
+        
+        
             
         jsonOSVs = combo["OS_VERSIONS"]
         correct = False
         for jsonOSV in jsonOSVs:
+            jsonOSV = jsonOSV.replace("(","")
+            jsonOSV = jsonOSV.replace(")","")
             jsonOSName = jsonOSV.split(":")[0]
             
             jsonOSVersionNumber = jsonOSV.split(":")[1].strip().split(",")
@@ -231,15 +384,14 @@ def getCombo(db,os,dbv,osv,gv):
         
         if not correct: continue
             
+        
         rowCombo = ""
         for key in FEATURE_KEY:
             rowCombo += f'{combo[key]} | '
         
         ans.append(rowCombo)
     
-    if len(ans) == 1:
-        return ans[0]
-    return ans
+    return ans[0]
         
         
             
@@ -248,11 +400,13 @@ def getCombo(db,os,dbv,osv,gv):
     
                 
 
-def testCorrectness():
-    failureDict = {}
+def testCorrectness(filePathCSV,filePathJSON):
+    failDBList = []
     success = 0
     fail = 0
-    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs.csv") as f:
+    
+    # Loop thru each row
+    with open(filePathCSV) as f:
         reader = csv.DictReader(f)
         for row in reader:
             rowCombo = ""
@@ -264,42 +418,45 @@ def testCorrectness():
             rowDBV = row["Database/DBaaS version"].strip()
             rowOSV = row["OS/Platform version"].strip()
             rowGV = row["Guardium Version"].strip()
+        
             try:
-                assert(getCombo(rowDB,rowOS,rowDBV,rowOSV,rowGV) == rowCombo)
+                assert(getComboFromGeneratedJSON(filePathJSON,rowDB,rowOS,rowDBV,rowOSV,rowGV) == rowCombo)
                 success += 1
+                # print(f"PASS:{rowOSV,rowDBV}  {rowDB,rowOS,rowGV}")
+                    
             except:
-                if rowDB not in ["CockroachDB","Couch","DynamoDB","Elasticsearch","HDFS","Hortonworks","Oracle Exadata","Oracle RAC","PostgreSQL","Redis","Snowflake","Sybase ASE","Db2 Purescale","S3"]:
-                    print(f"FAILTURE:{rowOSV,rowDBV}  {rowDB,rowOS,rowGV}")
-                    print(f"GETCOMBO: {getCombo(rowDB,rowOS,rowDBV,rowOSV,rowGV)}")
-                    print(f"ROWCOMBO: {rowCombo}")
-                    print("")
-                    print("")
-                    fail += 1
+                # print(f"FAILTURE:{rowOSV,rowDBV}  {rowDB,rowOS,rowGV}")
+                # print(f"GETCOMBO: {getComboFromGeneratedJSON(rowDB,rowOS,rowDBV,rowOSV,rowGV)}")
+                # print(f"ROWCOMBO: {rowCombo}")
+                # print("")
+                # print("")
+                if rowDB not in failDBList: failDBList.append(rowDB)
+                
+                fail += 1
                 
             
     print(f"TOTAL:{success + fail} \n Fail:{fail}")
+    print(f'List of failing DBS: {failDBList}')
+            
+def getListOfDBVs(dbName):
+    dbvs = []
+    
+    with open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs_clean.csv") as f:
+        reader = csv.DictReader(f)
+        # Iterate through each row 
+        for row in reader:
+            
+            if row["Database/DBaaS"].strip() == dbName:
+                if row["Database/DBaaS version"].strip() not in dbvs:
+                    dbvs.append(row["Database/DBaaS version"].strip())
+                    
+    dbvsString = getRange(dbvs,dbName)
+    return dbvsString
             
     
     
-# print(bigComboDict()["MongoDB"])
-# print("DONZO")
-# print(getComboDict("11.0","MongoDB")["MongoDB"])
-
-# for x in writeReadableYAML(bigComboDict=bigComboDict())["MongoDB"]:
-#     print(x)
-#     print("")
-
 file=open("/Users/ahmedmujtaba/Desktop/workspace/github.ibm.com/IBM/guardium-supported-datasources/supported_dbs.json","w")
-json.dump(writeReadableYAML(bigComboDict=bigComboDict()),file, indent=4, sort_keys=True)
+json.dump(makeReadable(bigComboDict=GetFullJSON(testing=False)),file, indent=4, sort_keys=True)
 file.close()
 print("YAML file saved.")
 
-# print(getRange(["MongoDB 3.2,MongoDB 4.224,MongoDB 4.3.2,MongoDB 5.3.2,MongoDB 3.5.2,"],"MongoDB"))
-# print(getComboDict("11.1","MongoDB"))
-# print(getCombo("MongoDB","Windows Server","MongoDB 4.2","Windows Server 2012 R2","11.0"))
-testCorrectness()
-
-# for gv in "16.1".split(","):
-#     print(gv)
-
-# print(getCombo("Teradata","Suse","Teradata 17.0",'Suse 11 - 32-bit, 64-bit',"11.4"))
