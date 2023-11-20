@@ -1,0 +1,178 @@
+
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 100%;
+    }
+
+    .middle {
+        background-color: blueviolet;
+    width: 100%;
+    }
+    
+    .right {
+    width: 100%;
+    }
+    
+    .row {
+        background-color: aqua;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    #specifics {
+        border-collapse:collapse;
+        table-layout:fixed;
+        width: 100%;
+        height: min-content;
+        border: 0.1px solid #ddd;
+        padding-top:5px;
+        background-color: red;
+        text-align-last: left;
+        
+        
+        
+        
+    }
+
+    #specifics tr{
+        padding-left: 20px;
+        padding-right: 20px; 
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border: 0.1px solid #ddd;
+        font-size: x-small;
+        height: min-content;
+        
+        
+        
+        
+    }
+    #specifics td{
+        background-color: #E3E3E3;
+        color: #555555;
+        
+        border: 0px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-top: 0.1px solid #e0e0e0;
+        /* overflow: hidden;
+        white-space: nowrap; */
+        /* width: 100% */
+    }
+
+    #heading {
+        overflow: hidden;
+        white-space: nowrap;
+        font-weight: bold;
+        padding-left: 0px;
+        
+    }
+
+    
+    td#heading.top{
+        padding-top: 10px; 
+        
+    }
+    td.top{
+        padding-top: 10px !important;
+    }
+
+    td#heading.bottom{
+        padding-bottom: 10px; 
+    }
+
+    td.bottom{
+        padding-bottom: 10px !important;
+    }
+
+    td.uk-background-muted {
+        background-color: #E3E3E3 !important;
+    }
+
+    #rotatetrue {
+        transform: rotate(180deg);
+    }
+
+
+    
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+        cursor: pointer;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: visible;
+        background-color: #F4F4F4;
+        
+        text-align: left;
+        border-radius: 3px;
+        padding: 20px;
+        padding-top: 10px;
+        min-width: 500px;
+        border: 0.2px gray solid;
+        box-shadow: black;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 2;
+      }
+
+    
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+
+      .matrixheader {
+        background-color: #DFDFDF;
+        text-align: center;
+
+      }
+
+      .datacell {
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        vertical-align: middle;
+      }
+
+      .dataheadercell{
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: bold;
+      }
+
+      .expandable {
+        text-align-last: center;
+      }
+
+      .tablerow {
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        
+      }
+
+      .tablerow:hover {
+        background-color: #DFDFDF;
+        cursor: pointer;
+      }
+
+      .oslist {
+        white-space: nowrap;
+      }
+
+      #specifics-container {
+        padding-left: 12%;
+
+      }
