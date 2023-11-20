@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
 import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from '@carbon/ibm-security';
 import { headerData } from './sampleData';
+import ExpandingTableRow from './ExpandingTableRow';
 
 const BLOCK_CLASS = `connections-doc`;
 
@@ -20,59 +21,71 @@ export const PRODUCTS = ['All',
   'Guardium Insights (Software)',
   'Guardium Insights SaaS']
 
-const generateItem = (item) => {
-  if (typeof item === "string")
-    return <ListItem>{item}</ListItem>
-  else if (item.link)
-    return <ListItem><Link href={item.link} target="_blank" rel="noopener">{item.title}</Link></ListItem>
-  return null
-}
-
 const generateOrderListItem = (item) => {
-  const generatedItem = generateItem(item);
-  if (generatedItem !== null)
-    return generatedItem
-  else if (item.title && item.content && item.content instanceof Array)
-    return (
-      <ListItem>
-        <OrderedList nested>
-          {
-            item.map((nestedItem) => (
-              generateOrderListItem(nestedItem)
-            ))
-          }
-        </OrderedList>
-      </ListItem>
-    )
-  else
-    return null
-}
+  
+  if (item.title && item.content && Array.isArray(item.content)){
 
-const generateUnorderListItem = (item) => {
-  const generatedItem = generateItem(item);
-  if (generatedItem !== null)
-    return generatedItem
-  else if (item.title && item.content && item.content instanceof Array)
     return (
+      
       <ListItem>
         {item.title}
-        <UnorderedList nested>
-          {item.content.map((nestedItem) => (
-            generateUnorderListItem(nestedItem)
-          ))}
-        </UnorderedList>
+      <UnorderedList nested>
+            {item.content.map((nestedItem) => (          
+              generateOrderListItem(nestedItem)
+                
+            ))}
+      </UnorderedList>     
       </ListItem>
     )
-  else
+  }
+
+  if (item){
+    return (<ListItem>{item}</ListItem>)
+
+  }
+  else {
     return null
+  }
 }
+
+
 
 
 const generateAccordianItem = (item) => {
   switch (item.type.toLowerCase()) {
     case "string":
+      if ( Array.isArray(item.content)){
+        
+        return (
+          <div class="generatedAccordionItem">
+            <ul>
+
+            {item.content.map((cntnt) => {
+              
+              return (<li>
+              {cntnt}
+            <br></br>
+              </li>)
+
+            })}
+            </ul>
+        </div>
+        )
+
+
+      }
+
       return <div>{item.content}</div>
-    case "ordered":
+    case "orderedlist":
+      return (
+        <UnorderedList>
+          {item.content.map((nestedItem) =>
+          (
+            generateOrderListItem(nestedItem)
+          ))}
+        </UnorderedList>
+      )
+    case "unordered":
       return (
         <OrderedList>
           {item.content.map((nestedItem) =>
@@ -80,14 +93,6 @@ const generateAccordianItem = (item) => {
             generateOrderListItem(nestedItem)
           ))}
         </OrderedList>
-      )
-    case "unordered":
-      return (
-        <UnorderedList>
-          {item.content.map((nestedItem) => (
-            generateUnorderListItem(nestedItem)
-          ))}
-        </UnorderedList>
       )
     case "link":
       return <Link href={item.content.link}>{item.content.title}</Link>
@@ -305,7 +310,7 @@ export default function Connection() {
         setDisplayDataSources(res.supported_databases)
       }
     }
-  }, []);
+  });
 
   useEffect(() => {
     if (isLoaded())
@@ -424,33 +429,31 @@ function CompatMatrix(rowData, headerData) {
     return null
   }
   return (
-    <AccordionItem open={false} key={"compatMatrix"} title={"compatMatrix"}>
-              <DataTable rows={rowData} headers={headerData}>
-                      {({ rows, headers}) => (
-                        <TableContainer title="DataTable">
-                          <Table>
-                            <TableHead>
-                              <TableRow>
-                                {headers.map((header) => (
-                                  <TableHeader>
+    <AccordionItem open={true} key={"Detailed Support Information"} title={"Detailed Support Information"}>
+              
+                        
+                          <table>
+                            <thead class='matrixheader'>
+                              <tr>
+                              <th className="uk-table-shrink"></th >
+                                {headerData.map((header) => (
+                                  <th class="dataheadercell">
                                     {header.header}
-                                  </TableHeader>
+                                  </th>
                                 ))}
-                              </TableRow>
-                            </TableHead>
-                            <TableBody>
-                              {rows.map((row) => (
-                                <div>
-                                  {row.cells.map((cell) => (
-                                    <TableCell >{cell.value}</TableCell>
-                                  ))}
-                                </div>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {rowData.map((row,index) => (
+                                
+                                <ExpandingTableRow key={index} index={index + 1} user={row} opened={false}/>
+                                
+                                
                               ))}
-                            </TableBody>
-                          </Table>
-                        </TableContainer>
-                      )}
-                </DataTable>
+                            </tbody>
+                          </table>
+                        
+                      
               </AccordionItem>
 
   )
@@ -465,11 +468,17 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
 
   useEffect(() => {
     setSelectedEnvironment(null)
+    
   }, [selectedDataSource]);
 
   const [selectedEnvironment, _setSelectedEnvironment] = useState(null)
 
   const [selectedMethod, _setSelectedMethod] = useState(null)
+
+  const [count, setCount] = useState(0); 
+
+
+  const [toolTipOpen,setToolTipOpen] = useState([false,false,false]);
 
   // const [selectedOtherMethod, setOtherSelectedMethod] = useState(null)
 
@@ -483,21 +492,6 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
     // setOtherSelectedMethod(null);
   }
 
-
-  useEffect(() => {
-    if (selectedDataSource.environments_supported.length !== 1) return
-    const firstEnvironment = selectedDataSource.environments_supported[0]
-    setSelectedEnvironment(firstEnvironment);
-
-    if (firstEnvironment.methods_supported.length !== 1) return
-    const firstMethod = firstEnvironment.methods_supported[0]
-    setSelectedMethod(firstMethod);
-
-    // const otherOptions = getMethodOptions(firstMethod)
-    // if (otherOptions.length !== 1) return
-    // setOtherSelectedMethod(otherOptions[0]);
-
-  }, [selectedDataSource])
 
   return (
     <div className={`${BLOCK_CLASS}__data_sources_panel`}>
@@ -539,57 +533,69 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
             />
           )
         }
-        {
-          // selectedMethod?.download_url && (
-          //   <Link href={selectedMethod.download_url}>[Download]</Link>
-          // )
-        }
-        {
-          listGDPSuppVersion(selectedDataSource)
-        }
-        {
-          listGISuppVersion(selectedDataSource, selectedMethod)
-        }
-        {
-          checkIfVaSupported(selectedDataSource)
-        }
-        {
-          checkIfClassificationSupported(selectedDataSource)
-        }
+        
+        
+        { selectedMethod && (
+          <div>
+            <br></br>
+            <h6> About {selectedMethod.method_name}</h6>
+            <ul>
+              
+              <li onClick={() => setToolTipOpen([!toolTipOpen[0],toolTipOpen[1],toolTipOpen[2]])}  class="tooltip"> How it works
+              {toolTipOpen[0] && <span class="tooltiptext">{
+              generateAccordianItem(selectedMethod.method_info.filter((section) => (section.accordian_title == "How it works" && section.content[0] != null))[0])} 
+              </span>
+              }
+              </li>
+              <br></br>
+
+              <li onClick={() => setToolTipOpen([toolTipOpen[0],!toolTipOpen[1],toolTipOpen[2]])}   class="tooltip"> Benefits and Considerations
+              {toolTipOpen[1] && (
+              <span class="tooltiptext">
+              <h6>Skill Level:</h6> <div> {
+              generateAccordianItem(selectedMethod.method_info.filter((section) => (section.accordian_title == "Skill Level" && section.content != null))[0])} 
+              <br></br>
+              </div>
+              
+
+              <div><h6>Benefits: </h6> {
+              generateAccordianItem(selectedMethod.method_info.filter((section) => (section.accordian_title == "Benefits"))[0])} 
+              <br></br>
+              </div>
+
+              <h6>Considerations: </h6> {
+              generateAccordianItem(selectedMethod.method_info.filter((section) => (section.accordian_title == "Considerations"))[0])} 
+              <br></br>
+
+
+
+
+              </span>)}
+
+                </li>
+                <br></br>
+                <li class="tooltip" onClick={() => setToolTipOpen([toolTipOpen[0],toolTipOpen[1],!toolTipOpen[2]])} > Getting Started
+                {toolTipOpen[2] && ( <span class="tooltiptext">
+                  
+                  <h6>Information you will need: </h6>
+                  <div>
+                  {  
+                  generateAccordianItem(selectedMethod.method_info.filter((section) => (section.accordian_title == "Information you will need" && section.content[0] != null))[0])} 
+                  </div>
+                  </span>
+                )}
+                </li>
+
+            </ul>
+          </div>
+        )}
+        
 
       </div>
 
         {selectedMethod && (
           <Accordion>
-            {selectedMethod.supported_versions && (
-              <AccordionItem open={true} key={"Data source versions supported"} title={"Data source versions supported"}>
-                <div>{selectedMethod.supported_versions.map(x => <Tag key={x}> {x}</Tag>)}</div>
-              </AccordionItem>
-            )}
-            {selectedMethod.download_url && (
-              <AccordionItem open={true} key={"Plugin download"} title={"Plugin download"}>
-                <div>{selectedMethod?.download_url && (<Link href={selectedMethod.download_url}>[Download]</Link>)}</div>
-              </AccordionItem>
-            )}
-            {selectedMethod.readme_url && (
-              <AccordionItem open={true} key={"Plugin readme"} title={"Plugin readme"}>
-                <div>{selectedMethod?.readme_url && (<Link href={selectedMethod.readme_url} target="_blank" rel="noopener noreferrer">[Readme]</Link>)}</div>
-              </AccordionItem>
-            )}
-            {selectedMethod.supported_operating_systems && (
-              <AccordionItem open={true} key={"Operating systems supported"} title={"Operating systems supported"}>
-                <div>{selectedMethod.supported_operating_systems.map(x => <Tag key={x}> {x}</Tag>)}</div>
-              </AccordionItem>
-            )}
-            {
-              selectedMethod.method_info.map((section) => {
-                return (
-                  <AccordionItem open={false} key={section.accordian_title} title={section.accordian_title}>
-                    {generateAccordianItem(section)}
-                  </AccordionItem>
-                )
-              })
-            }
+
             { CompatMatrix(rowData,headerData)}
           </Accordion>
         )

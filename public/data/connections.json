@@ -2506,7 +2506,7 @@
       ]
     },
     {
-      "database_name": "SingleStore (MemSQL)",
+      "database_name": "MemSQL",
       "supported_since": "0.0.0",
       "gdp_supported_since": "11.0.0",
       "environments_supported": [

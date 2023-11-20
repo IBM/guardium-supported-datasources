@@ -232,58 +232,58 @@ export const rowData = [
       key: 'OS_VERSIONS',
       header: 'OS Version',
     },
-    {
-      key: "Network traffic",
-      header: "Network traffic",
-    },
-    {
-      key: 'Local traffic',
-      header: 'Local traffic',
-    },
-    {
-      key: 'Encrypted traffic',
-      header: 'Encrypted traffic',
-    },
-    {
-        key: 'Shared Memory',
-        header: 'Shared Memory',
-    },
-    {
-        key: 'Kerberos',
-        header: 'Kerberos',
-    },
-    {
-        key: 'Encrypted traffic',
-        header: 'Encrypted traffic',
-    },
-    {
-        key: 'Blocking',
-        header: 'Blocking',
-    },
-    {
-        key: 'Redaction',
-        header: 'Redaction',
-    },
-    {
-        key: 'UID Chain',
-        header: 'UID Chain',
-    },
-    {
-        key: 'Compression',
-        header: 'Compression',
-    },
-    {
-        key: 'Query Rewrite',
-        header: 'Query Rewrite',
-    },
-    {
-        key: 'Instance Discovery',
-        header: 'Instance Discovery',
-    },
-    {
-        key: 'Protocol',
-        header: 'Protocol',
-    },
+    // {
+    //   key: "Network traffic",
+    //   header: "Network traffic",
+    // },
+    // {
+    //   key: 'Local traffic',
+    //   header: 'Local traffic',
+    // },
+    // {
+    //   key: 'Encrypted traffic',
+    //   header: 'Encrypted traffic',
+    // },
+    // {
+    //     key: 'Shared Memory',
+    //     header: 'Shared Memory',
+    // },
+    // {
+    //     key: 'Kerberos',
+    //     header: 'Kerberos',
+    // },
+    // {
+    //     key: 'Encrypted traffic',
+    //     header: 'Encrypted traffic',
+    // },
+    // {
+    //     key: 'Blocking',
+    //     header: 'Blocking',
+    // },
+    // {
+    //     key: 'Redaction',
+    //     header: 'Redaction',
+    // },
+    // {
+    //     key: 'UID Chain',
+    //     header: 'UID Chain',
+    // },
+    // {
+    //     key: 'Compression',
+    //     header: 'Compression',
+    // },
+    // {
+    //     key: 'Query Rewrite',
+    //     header: 'Query Rewrite',
+    // },
+    // {
+    //     key: 'Instance Discovery',
+    //     header: 'Instance Discovery',
+    // },
+    // {
+    //     key: 'Protocol',
+    //     header: 'Protocol',
+    // },
 
   ];
   
