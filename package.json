@@ -1,6 +1,6 @@
 {
-  "name": "guardium-supported-datasources",
-  "homepage": "https://ibm.github.io/guardium-supported-datasources/",
+  "name": "guardium-supported-datasources-v2",
+  "homepage": "https://ibm.github.io/guardium-supported-datasources-v2/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
