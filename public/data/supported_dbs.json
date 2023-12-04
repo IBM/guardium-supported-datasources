@@ -1140,8 +1140,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 12 64bit"
+                "Suse: 11-12",
+                "Zlinux: Suse 11-Suse 12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -1161,8 +1161,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit",
-                "Zlinux: Suse 15 64bit"
+                "Suse: 15",
+                "Zlinux: Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -1490,8 +1490,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 12 64bit"
+                "Suse: 11-12",
+                "Zlinux: Suse 11-Suse 12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -1511,8 +1511,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit",
-                "Zlinux: Suse 15 64bit"
+                "Suse: 15",
+                "Zlinux: Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -1574,8 +1574,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 12 64bit"
+                "Suse: 11-12",
+                "Zlinux: Suse 11-Suse 12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -1819,8 +1819,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -2227,8 +2227,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -2615,8 +2615,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -2842,7 +2842,7 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -2862,8 +2862,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit",
-                "Zlinux: Suse 15 64bit"
+                "Suse: 15",
+                "Zlinux: Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3065,7 +3065,7 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3085,8 +3085,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit",
-                "Zlinux: Suse 15 64bit"
+                "Suse: 15",
+                "Zlinux: Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3208,8 +3208,8 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 12 64bit"
+                "Suse: 11-12",
+                "Zlinux: Suse 11-Suse 12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3310,7 +3310,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3413,7 +3413,7 @@
             "Local traffic": "Teradata Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3553,7 +3553,7 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3675,8 +3675,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3837,7 +3837,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -3940,7 +3940,7 @@
             "Local traffic": "Teradata Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4080,7 +4080,7 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4202,8 +4202,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4364,7 +4364,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4467,7 +4467,7 @@
             "Local traffic": "Teradata Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4587,7 +4587,7 @@
             "Local traffic": "",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4709,8 +4709,8 @@
             "Local traffic": "DB2 Exit, K-TAP",
             "Network traffic": "DB2 Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Suse: 11-15",
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -4833,7 +4833,7 @@
             "Local traffic": "",
             "Network traffic": "UC",
             "OS_VERSIONS": [
-                "AWS: "
+                "AWS "
             ],
             "Protocol": "",
             "Query Rewrite": "",
@@ -4856,7 +4856,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5440,9 +5440,9 @@
             "Network traffic": "Informix Exit, K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-12 64bit",
+                "Suse: 11-12",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 4-Suse 12 64bit"
+                "Zlinux: Red Hat 4-Suse 12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5462,8 +5462,8 @@
             "Local traffic": "Informix Exit, K-TAP",
             "Network traffic": "Informix Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit",
-                "Zlinux: Suse 15 64bit"
+                "Suse: 15",
+                "Zlinux: Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5484,9 +5484,9 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 4-Suse 15 64bit"
+                "Zlinux: Red Hat 4-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5570,9 +5570,9 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 4-Suse 15 64bit"
+                "Zlinux: Red Hat 4-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5657,9 +5657,9 @@
             "OS_VERSIONS": [
                 "Red Hat: 4-8",
                 "Ubuntu: 14.04-16.04",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 4-Suse 15 64bit"
+                "Zlinux: Red Hat 4-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5723,9 +5723,9 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 5-Suse 15 64bit"
+                "Zlinux: Red Hat 5-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5811,10 +5811,10 @@
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
                 "Ubuntu: 14.04-16.04",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10",
-                "Zlinux: Red Hat 5-Suse 15 64bit"
+                "Zlinux: Red Hat 5-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5899,9 +5899,9 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 5-Suse 15 64bit"
+                "Zlinux: Red Hat 5-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -5987,10 +5987,10 @@
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
                 "Ubuntu: 14.04-16.04",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10",
-                "Zlinux: Red Hat 5-Suse 15 64bit"
+                "Zlinux: Red Hat 5-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -6075,9 +6075,9 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Red Hat 6-Suse 15 64bit"
+                "Zlinux: Red Hat 6-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -6163,10 +6163,10 @@
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
                 "Ubuntu: 14.04-16.04",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10",
-                "Zlinux: Red Hat 6-Suse 15 64bit"
+                "Zlinux: Red Hat 6-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -6472,7 +6472,7 @@
             "Local traffic": "",
             "Network traffic": "UC",
             "OS_VERSIONS": [
-                "AWS: "
+                "AWS "
             ],
             "Protocol": "",
             "Query Rewrite": "",
@@ -6619,7 +6619,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6641,7 +6641,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6663,7 +6663,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6685,7 +6685,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6816,7 +6816,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Red Hat: 6-7.9",
                 "CentOS: 6x-7x"
             ],
@@ -6879,7 +6879,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6941,7 +6941,7 @@
             "Network traffic": "K-TAP, UC",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -6983,7 +6983,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -7027,7 +7027,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-18.0",
                 "CentOS: 6x-7x"
             ],
@@ -7070,7 +7070,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-18.0",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10"
@@ -7114,7 +7114,7 @@
             "Network traffic": "K-TAP, UC",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-20.04",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10"
@@ -7138,7 +7138,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-20.04",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10"
@@ -7182,7 +7182,7 @@
             "Network traffic": "K-TAP, UC",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-20.04",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10"
@@ -7206,7 +7206,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "Ubuntu: 14.04-20.04",
                 "CentOS: 6x-7x",
                 "Debian: 9.3-10"
@@ -7317,7 +7317,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -7339,7 +7339,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -7361,7 +7361,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -7384,9 +7384,9 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -7551,9 +7551,9 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -7718,9 +7718,9 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -7885,9 +7885,9 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "K-TAP",
@@ -7949,9 +7949,9 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x",
-                "Zlinux: Suse 11  32bit+64bit-Suse 15 64bit"
+                "Zlinux: Suse 11-Suse 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -8117,7 +8117,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-7.9",
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -8239,7 +8239,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -8361,7 +8361,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -8483,7 +8483,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -8607,7 +8607,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -8730,7 +8730,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -8853,7 +8853,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -8936,7 +8936,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 7-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9061,7 +9061,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 12 64bit-15 64bit",
+                "Suse: 12-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9082,7 +9082,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9184,7 +9184,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 12 64bit-15 64bit",
+                "Suse: 12-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9205,7 +9205,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9307,7 +9307,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 12 64bit-15 64bit",
+                "Suse: 12-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9328,7 +9328,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9430,7 +9430,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 12 64bit-15 64bit",
+                "Suse: 12-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9451,7 +9451,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9511,7 +9511,7 @@
             "Local traffic": "",
             "Network traffic": "UC",
             "OS_VERSIONS": [
-                "AWS: "
+                "AWS "
             ],
             "Protocol": "",
             "Query Rewrite": "",
@@ -9534,7 +9534,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-7.9",
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9555,7 +9555,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9576,7 +9576,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit"
+                "Suse: 11"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -9598,7 +9598,7 @@
             "Local traffic": "",
             "Network traffic": "UC",
             "OS_VERSIONS": [
-                "AWS: "
+                "AWS "
             ],
             "Protocol": "",
             "Query Rewrite": "",
@@ -9621,7 +9621,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9643,7 +9643,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9665,7 +9665,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9710,7 +9710,7 @@
             "Local traffic": "",
             "Network traffic": "UC",
             "OS_VERSIONS": [
-                "AWS: "
+                "AWS "
             ],
             "Protocol": "",
             "Query Rewrite": "",
@@ -9753,7 +9753,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 4-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9875,7 +9875,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -9997,7 +9997,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10100,7 +10100,7 @@
             "Local traffic": "",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "AIX: 6.1-7.2",
                 "Red Hat: 4-7.9"
             ],
@@ -10142,7 +10142,7 @@
             "Local traffic": "",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "AIX: 6.1-7.2",
                 "Red Hat: 5-8"
             ],
@@ -10184,7 +10184,7 @@
             "Local traffic": "",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "AIX: 7.1-7.2",
                 "Red Hat: 6-8"
             ],
@@ -10228,7 +10228,7 @@
             "Local traffic": "",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10248,7 +10248,7 @@
             "Local traffic": "",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-15 64bit"
+                "Suse: 11-15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10268,7 +10268,7 @@
             "Local traffic": "",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit"
+                "Suse: 11-12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10288,7 +10288,7 @@
             "Local traffic": "",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit"
+                "Suse: 11-12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10308,7 +10308,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit"
+                "Suse: 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10328,7 +10328,7 @@
             "Local traffic": "Teradata Exit, K-TAP",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit"
+                "Suse: 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10348,7 +10348,7 @@
             "Local traffic": "",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit"
+                "Suse: 11-12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10368,7 +10368,7 @@
             "Local traffic": "",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 11  32bit+64bit-12 64bit"
+                "Suse: 11-12"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10388,7 +10388,7 @@
             "Local traffic": "K-TAP",
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit"
+                "Suse: 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10408,7 +10408,7 @@
             "Local traffic": "Teradata Exit, K-TAP",
             "Network traffic": "Teradata Exit, K-TAP",
             "OS_VERSIONS": [
-                "Suse: 15 64bit"
+                "Suse: 15"
             ],
             "Protocol": "N/A",
             "Query Rewrite": "",
@@ -10431,7 +10431,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10453,7 +10453,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-7.9",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10475,7 +10475,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10497,7 +10497,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 5-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10519,7 +10519,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",
@@ -10541,7 +10541,7 @@
             "Network traffic": "K-TAP",
             "OS_VERSIONS": [
                 "Red Hat: 6-8",
-                "Suse: 11  32bit+64bit-15 64bit",
+                "Suse: 11-15",
                 "CentOS: 6x-7x"
             ],
             "Protocol": "N/A",

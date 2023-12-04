@@ -26,7 +26,7 @@ class ExpandingTableRow extends React.Component {
     const { user } = this.props;
     const { opened } = this.props;
     
-    console.log("This is it nosw:"+ JSON.stringify(user))
+    
     
     
 
