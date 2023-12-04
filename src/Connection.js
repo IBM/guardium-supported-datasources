@@ -2,11 +2,11 @@ import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedLis
 import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
 import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from '@carbon/ibm-security';
-import { headerData } from './sampleData';
+import { headerData } from './index';
 import ExpandingTableRow from './ExpandingTableRow';
 
 const BLOCK_CLASS = `connections-doc`;
-
+const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'Db2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'Db2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
 export const ENVIRONMENT = {
   AWS: 'AWS',
   AZURE: 'AZURE',
@@ -303,11 +303,15 @@ export default function Connection() {
         }
       )
 
-      if (res) {
+      let resCopy = {}
+      resCopy.supported_databases = res.supported_databases.filter((database) => DATABASE_LIST_V2.includes(database.database_name))
+
+      if (resCopy) {
+
         // Set constant full data to lookback when filtering
-        setFullData(res)
-        setConnectionData(res)
-        setDisplayDataSources(res.supported_databases)
+        setFullData(resCopy)
+        setConnectionData(resCopy)
+        setDisplayDataSources(resCopy.supported_databases)
       }
     }
   });
@@ -406,7 +410,7 @@ export default function Connection() {
         <div className={`${BLOCK_CLASS}__data-source-container`}>
           <div className="bx--row">{renderDataSourceCards()}</div>
         </div>
-        <a className={`${BLOCK_CLASS}__raw-data-link`} href={`${process.env.PUBLIC_URL}/data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
+        <a className={`${BLOCK_CLASS}__raw-data-link`} href={`./data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
         {selectedDataSource && <Modal
           size={'lg'}
           open={open}
@@ -462,7 +466,9 @@ function CompatMatrix(rowData, headerData) {
 
 //DatasourceModal - Component used in modal for info of datasource
 export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
-  const sample = require('./supported_dbs.json');
+  console.log("This si the URL"+`./data/supported_dbs.json`);
+  const sample = require(`./data/supported_dbs.json`);
+  
   const rowData = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
   
 
