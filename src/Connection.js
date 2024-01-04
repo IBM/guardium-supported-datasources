@@ -1,9 +1,12 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading, Tag} from '@carbon/ibm-security';
-import { useEffect, useState } from 'react';
+import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading} from '@carbon/ibm-security';
+import { useEffect, useState, useCallback } from 'react';
 import Fuse from 'fuse.js';
-import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from '@carbon/ibm-security';
-import { headerData } from './index';
 import ExpandingTableRow from './ExpandingTableRow';
+
+import React from 'react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import './styles/styles.css'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const BLOCK_CLASS = `connections-doc`;
 const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'Db2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'Db2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
@@ -100,88 +103,6 @@ const generateAccordianItem = (item) => {
       return null
   }
 }
-
-const checkIfVaSupported = (dataSource) => {
-  if (dataSource.va_supported === true) {
-    return (
-      <div div className={`${BLOCK_CLASS}__list-item-tag`}>
-        <Tag>Vulnerability Assessment supported</Tag>
-      </div>
-    )
-  }
-  return [];
-};
-
-const checkIfClassificationSupported = (dataSource) => {
-  if (dataSource.classification_supported === true) {
-    return (
-      <div div className={`${BLOCK_CLASS}__list-item-tag`}>
-        <Tag>Discovery & Classification supported</Tag>
-      </div>
-    )
-  }
-  return [];
-};
-
-const listGDPSuppVersion = (dataSource) => {
-  return (
-    <div className={`${BLOCK_CLASS}__list-item-title`}>
-      Guardium Data Protection support:
-      <div className={`${BLOCK_CLASS}__list-item-text`}>
-        Version:&nbsp;&nbsp;{dataSource.gdp_supported_since}+
-      </div>
-    </div>
-  )
-};
-
-const listGISuppVersion = (dataSource, selectedMethod) => {
-  //Only display GI support info if it's not zero or supported by SaaS
-
-  if (selectedMethod !== null) {
-    var selectedMethodName = selectedMethod.method_name;
-  }
-  // Software AND SaaS are both supported - exlude STAPs E-STAPs
-  if (selectedMethodName !== ENVIRONMENT.ESTAP &&
-    selectedMethodName !== ENVIRONMENT.STAP &&
-    dataSource.supported_since !== '0.0.0' &&
-    dataSource.saas_supported) {
-    return (
-      <div className={`${BLOCK_CLASS}__list-item-title`}>
-        Guardium Insights support:
-        <div className={`${BLOCK_CLASS}__list-item-text`}>
-          Version:&nbsp;&nbsp;SaaS,&nbsp;&nbsp;{dataSource.supported_since}+
-        </div>
-      </div>
-    )
-    // SaaS is supported but software is not
-  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
-    selectedMethodName !== ENVIRONMENT.STAP &&
-    dataSource.saas_supported &&
-    dataSource.supported_since === '0.0.0') {
-    return (
-      <div className={`${BLOCK_CLASS}__list-item-title`}>
-        Guardium Insights support:
-        <div className={`${BLOCK_CLASS}__list-item-text`}>
-          Version:&nbsp;&nbsp;SaaS
-        </div>
-      </div>
-    )
-    // Software is supported but SaaS is not - this shouldn't happen
-  } else if (selectedMethodName !== ENVIRONMENT.ESTAP &&
-    selectedMethodName !== ENVIRONMENT.STAP &&
-    dataSource.supported_since !== '0.0.0') {
-    return (
-      <div className={`${BLOCK_CLASS}__list-item-title`}>
-        Guardium Insights support:
-        <div className={`${BLOCK_CLASS}__list-item-text`}>
-          Version:&nbsp;&nbsp;{dataSource.supported_since}+
-        </div>
-      </div>
-    )
-  } else {
-    // do nothing
-  }
-};
 
 const fuzzySearchV2 = (term, list, keys, otherOptions) => {
   const options = {
@@ -428,31 +349,120 @@ export default function Connection() {
   )
 }
 
-function CompatMatrix(rowData, headerData) {
-  if (rowData == null) {
-    return null
+function CompatMatrix({rowData}) {
+
+  
+
+  const [currentRowData, setCurrentRowData] = useState(rowData);
+  const [currentSortedDB, setCurrentSortedDB] = useState(-1)
+  const [currentSortedGuardium, setCurrentSortedGuardium] = useState(-1)
+  const [currentSortedOS, setCurrentSortedOS] = useState(-1)
+
+  
+
+  useEffect(() => {
+  },[JSON.stringify(currentRowData),currentRowData[0]]);
+  
+  
+  const sortByOSVersion = () => {
+    let newData = []
+    
+    newData = [...currentRowData].sort(compareByOSVersions)
+    setCurrentRowData([...newData])
+
+    if (currentSortedOS == -1) {
+      setCurrentSortedOS(1)
+    } else {
+      setCurrentSortedOS(-1)
+    }
+    
   }
+
+  const sortByGuardiumVersion = () => {
+    let newData = []
+    
+    newData = [...currentRowData].sort(compareByGuardiumVersion)
+    setCurrentRowData([...newData])
+
+    if (currentSortedGuardium == -1) {
+      setCurrentSortedGuardium(1)
+    } else {
+      setCurrentSortedGuardium(-1)
+    }
+    
+  }
+  
+  
+  const sortByDBVersion = () => {
+    let newData = []
+
+    if (currentSortedDB == -1) {
+      newData = [...currentRowData].sort((a, b) => Number(a.DB_VERSIONS.toString().split("-")[0]) - Number(b.DB_VERSIONS.toString().split("-")[0]))
+      setCurrentRowData([...newData])
+      setCurrentSortedDB(1)
+    } else {
+      newData = [...currentRowData].sort((b, a) => Number(a.DB_VERSIONS.toString().split("-")[0]) - Number(b.DB_VERSIONS.toString().split("-")[0]))
+      setCurrentRowData([...newData])
+      setCurrentSortedDB(-1)
+    }
+    
+  }
+
+
+  function compareByOSVersions(a, b) {
+    if (currentSortedOS == -1) {
+    return a.OS_VERSIONS.toString().localeCompare(b.OS_VERSIONS.toString());
+  } else {
+    return b.OS_VERSIONS.toString().localeCompare(a.OS_VERSIONS.toString());
+  }
+}
+
+function compareByGuardiumVersion(a, b) {
+  
+  if (currentSortedGuardium == -1) {
+    return a.GUARDIUM_VERSION.toString().localeCompare(b.GUARDIUM_VERSION.toString());
+  } else {
+    return b.GUARDIUM_VERSION.toString().localeCompare(a.GUARDIUM_VERSION.toString());
+  }
+}
+
+function compareByDBVersion(a, b) {
+  
+  if (currentSortedDB == -1) {
+    return a.DB_VERSIONS.toString().split("-")[0].localeCompare(b.DB_VERSIONS.toString().split("-")[0]);
+  } else {
+    return b.DB_VERSIONS.toString().split("-")[0].localeCompare(a.DB_VERSIONS.toString().split("-")[0]);
+  }
+}
+  
   return (
+
     <AccordionItem open={true} key={"Detailed Support Information"} title={"Detailed Support Information"}>
               
                         
-                          <table>
+                          <table >
                             <thead class='matrixheader'>
                               <tr>
                               <th className="uk-table-shrink"></th >
-                                {headerData.map((header) => (
-                                  <th class="dataheadercell">
-                                    {header.header}
+                                
+                                <th class="dataheadercell" onClick={sortByDBVersion}>
+                                        Database<br/>Version<br/><ArrowDropDownIcon id={"rotate"+(currentSortedDB!=1)} />
+                                    
                                   </th>
-                                ))}
+                                  <th class="dataheadercell" onClick={sortByGuardiumVersion}>
+                                    Guardium <br/>Version<br/><ArrowDropDownIcon id={"rotate"+(currentSortedGuardium!=1)} />
+                                  </th>
+                                  <th class="dataheadercell" onClick={sortByOSVersion} style={{whiteSpace:"pre-wrap"}}>
+                                    OS<br/>Version<br/><ArrowDropDownIcon id={"rotate"+(currentSortedOS!=1)} />
+                                  </th>
                               </tr>
                             </thead>
                             <tbody>
-                              {rowData.map((row,index) => (
+                              {currentRowData.map((row) => (
                                 
-                                <ExpandingTableRow key={index} index={index + 1} user={row} opened={false}/>
+                                <ExpandingTableRow user={row} opened={false}/>
                                 
-                                
+                      
                               ))}
                             </tbody>
                           </table>
@@ -460,16 +470,16 @@ function CompatMatrix(rowData, headerData) {
                       
               </AccordionItem>
 
+                              
   )
 
 }
 
 //DatasourceModal - Component used in modal for info of datasource
 export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
-  console.log("This si the URL"+`./data/supported_dbs.json`);
   const sample = require(`./data/supported_dbs.json`);
   
-  const rowData = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
+  var rowData = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
   
 
   useEffect(() => {
@@ -602,7 +612,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
         {selectedMethod && (
           <Accordion>
 
-            { CompatMatrix(rowData,headerData)}
+            { <CompatMatrix rowData={rowData}/>}
           </Accordion>
         )
       }
