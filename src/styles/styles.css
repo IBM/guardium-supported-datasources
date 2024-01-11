@@ -177,3 +177,6 @@
         padding-left: 12%;
 
       }
+      .bx--accordion__title {
+        font-weight: bold !important;
+      }

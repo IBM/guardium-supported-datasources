@@ -1,7 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
-import Expand from "react-expand-animated";
-import { DataTable, TableContainer, Table, TableHead, TableRow, TableHeader, TableBody, TableCell } from '@carbon/ibm-security';
 import './styles/styles.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
@@ -109,65 +106,10 @@ class ExpandingTableRow extends React.Component {
   </tr>
 
   </table>
-                
-                {/* <p>
-                  Network Traffic: {user["Network traffic"]}                  
-                </p>
-                
-                <p>
-                  Local Traffic: {user["Local traffic"]}                  
-                </p>
-                
-                <p>
-                  Encrypted Traffic: {user["Encrypted traffic"]}                  
-                </p>
-                
-                <p>
-                  Shared Memory: {user["Shared Memory"]}                  
-                </p>
-                
-                <p>
-                  Kerberos: {user["Kerberos"]}                  
-                </p>
-                
-                <p>
-                  Blocking: {user["Blocking"]}                  
-                </p> */}
-                
-                
-              </div>
-            </div>
-          </td>
-
-          
-          {/* <td className="uk-background-muted" colSpan={2}>
-          
-          <p>
-                  Redaction: {user["Redaction"]}                  
-                </p>
-                
-                <p>
-                  UID Chain: {user["UID Chain"]}                  
-                </p>
-                
-                <p>
-                  Compression: {user["Compression"]}                  
-                </p>
-                
-                <p>
-                  Query Rewrite: {user["Query Rewrite"]}                  
-                </p>
-                
-                <p>
-                  Instance Discovery: {user["Instance Discovery"]}                  
-                </p>
-                
-                <p>
-                  Protocol: {user["Protocol"]}                  
-                </p>
-
-          </td> */}
-        </tr>
+  </div>
+  </div>
+  </td>
+  </tr>
           
  
       )
