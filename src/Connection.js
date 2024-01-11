@@ -2,11 +2,12 @@ import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedLis
 import { useEffect, useState, useCallback } from 'react';
 import Fuse from 'fuse.js';
 import ExpandingTableRow from './ExpandingTableRow';
-
 import React from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import './styles/styles.css'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Slider from '@mui/material/Slider';
+
+
 
 const BLOCK_CLASS = `connections-doc`;
 const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'Db2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'Db2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
@@ -353,10 +354,88 @@ function CompatMatrix({rowData}) {
 
   
 
+  
+  
+  const [GVSliderValue, setGVSliderValue] = React.useState([11.0, 11.4]);
   const [currentRowData, setCurrentRowData] = useState(rowData);
   const [currentSortedDB, setCurrentSortedDB] = useState(-1)
   const [currentSortedGuardium, setCurrentSortedGuardium] = useState(-1)
   const [currentSortedOS, setCurrentSortedOS] = useState(-1)
+  const [selectedOS, setSelectedOS] = useState('All');
+  
+
+
+  const getOSNames = (rowDataCurr) => {
+    var OSNames = ['All']
+
+    for (let row in rowData) {
+      for (let os in rowData[row].OS_VERSIONS) {
+        let OSName = rowData[row].OS_VERSIONS[os].split(":")[0]
+        if (OSNames.includes(OSName)){
+        } else {
+          OSNames.push(OSName)
+        }
+      }
+    }
+    return OSNames
+  }
+
+  
+  const handleFilters = (event,newValue,newOSValue) => {
+    
+
+    
+    
+    const lowerBound = newValue[0]
+    const upperBound = newValue[1]
+    const newChangedValue = newValue[0] == GVSliderValue[0] ? newValue[1] : newValue[0]
+    setGVSliderValue(newValue);
+    if (typeof(newOSValue) !== 'number') {
+      console.log("we here?" + typeof(newOSValue))
+      setSelectedOS(newOSValue);
+    }
+  
+    
+    
+
+    const rowDataNew = rowData.filter(function(n,i){
+      
+      var gv = typeof(n.GUARDIUM_VERSION) != undefined ? n.GUARDIUM_VERSION : ""
+      
+      if ((gv.split("-").length) > 1) {
+        const currentLower = gv.split("-")[0]
+        const currentUpper = gv.split("-")[1]
+        return (Number(currentLower) >= Number(lowerBound) && Number(currentLower) <= Number(upperBound)) || (Number(currentUpper) <= Number(upperBound) && Number(currentUpper) >= Number(lowerBound)) 
+      }
+      
+      return Number(gv) >= Number(lowerBound) && Number(gv) <= Number(upperBound)
+
+    })
+
+    
+      
+      // Filter based on OS
+      if (newOSValue == "All"){
+        setCurrentRowData(rowDataNew)
+      } else if (typeof(newOSValue) === 'number') {
+        // OS Dropdown was not changed
+        handleFilters(null,newValue,selectedOS)
+      } else {
+
+        const rowDataNewFinal = rowDataNew.filter(function(n,i){
+
+          var rowOS = typeof(n.OS_VERSIONS) != undefined ? n.OS_VERSIONS.toString() : ""
+          return rowOS.includes(newOSValue)
+
+        })
+
+        setCurrentRowData(rowDataNewFinal)
+      }
+    
+
+  }
+
+  
 
   
 
@@ -424,20 +503,63 @@ function compareByGuardiumVersion(a, b) {
   } else {
     return b.GUARDIUM_VERSION.toString().localeCompare(a.GUARDIUM_VERSION.toString());
   }
-}
-
-function compareByDBVersion(a, b) {
-  
-  if (currentSortedDB == -1) {
-    return a.DB_VERSIONS.toString().split("-")[0].localeCompare(b.DB_VERSIONS.toString().split("-")[0]);
-  } else {
-    return b.DB_VERSIONS.toString().split("-")[0].localeCompare(a.DB_VERSIONS.toString().split("-")[0]);
-  }
-}
-  
+}  
   return (
 
-    <AccordionItem open={true} key={"Detailed Support Information"} title={"Detailed Support Information"}>
+    <AccordionItem
+     open={true}
+      key={"Detailed Support Information"}
+      title={"Detailed Support Information"} size="lg"
+      style={{display:"inline-block"}} >
+
+        <br></br>
+        
+        <div style={{display:"flex"}}>
+        Guardium Version: 
+        <br></br>
+        <Slider
+              label="Guardium Version Change"
+              size='small'
+              value={GVSliderValue}
+              max={11.4}
+              min={11.0}
+              step={0.1}
+              onChange={handleFilters}
+              valueLabelDisplay='on'
+              title="Guardium Version Change"
+              ticks
+            
+              
+
+          />
+          </div>
+
+          <br></br>
+          
+          
+          <div style={{display:"flex",justifyContent:"space-between"}}>
+            Operating
+            <br></br>
+             System: 
+                <Dropdown
+                style={{minWidth:"150px",justifyContent:"center"}}
+                  ariaLabel="OS Dropdown"
+                  id="os-dropdown"
+                  selectedItem={selectedOS}
+                  items={getOSNames(currentRowData)}
+                  label="Select an OS"
+                  
+                  onChange={
+                    (item) => {
+                      setSelectedOS(item.selectedItem)
+                      handleFilters(null,GVSliderValue,item.selectedItem)
+                    }
+                  }
+                />
+
+            </div>
+
+            <br></br>
               
                         
                           <table >
@@ -478,13 +600,12 @@ function compareByDBVersion(a, b) {
 //DatasourceModal - Component used in modal for info of datasource
 export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
   const sample = require(`./data/supported_dbs.json`);
-  
-  var rowData = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
+  const [rowData, setRowData] = React.useState(sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null)
   
 
   useEffect(() => {
     setSelectedEnvironment(null)
-    
+    setRowData(sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null)
   }, [selectedDataSource]);
 
   const [selectedEnvironment, _setSelectedEnvironment] = useState(null)
@@ -609,7 +730,7 @@ export function DatasourceModal({ selectedDataSource, connectionData, selectedPr
 
       </div>
 
-        {selectedMethod && (
+        {selectedMethod && (      
           <Accordion>
 
             { <CompatMatrix rowData={rowData}/>}
