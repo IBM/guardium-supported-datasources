@@ -1,5 +1,5 @@
 import './styles/connection_doc.scss';
-import Connection from './Connection';
+import MainPage from './MainPage';
 import './styles/globals.scss';
 import React from 'react';
 
@@ -11,7 +11,7 @@ class App extends React.Component {
 
     return (
       <main>
-        <Connection/>
+        <MainPage/>
       </main>
     )
   };
