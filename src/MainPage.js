@@ -1,15 +1,12 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading} from '@carbon/ibm-security';
+import { Dropdown, Search, Modal, Loading} from '@carbon/ibm-security';
 import { useEffect, useState, useCallback } from 'react';
 import Fuse from 'fuse.js';
-import ExpandingTableRow from './components/ExpandingTableRow';
 import React from 'react';
 import './styles/styles.css'
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Slider from '@mui/material/Slider';
 import { DatasourceModal } from './components/DatasourceModal';
 
 
-
+// CONSTANTS
 const BLOCK_CLASS = `connections-doc`;
 const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'Db2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'Db2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
 export const ENVIRONMENT = {
