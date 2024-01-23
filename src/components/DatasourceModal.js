@@ -1,4 +1,4 @@
-import { AccordionItem, Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link, Search, Modal, Loading} from '@carbon/ibm-security';
+import { Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
 import React from 'react';
 import '../styles/styles.css'
