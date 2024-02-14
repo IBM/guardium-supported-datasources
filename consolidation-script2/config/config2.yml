@@ -1,0 +1,23 @@
+full_csv_path: data/input/supported_dbs_uniq.csv
+output_csv_path: data/output/supported_dbs_uniq_consolidated.csv
+compat_header:
+  - GuardiumVersion
+  - OSName
+  - OSVersion
+  - DatabaseName
+  - DatabaseVersion
+feature_header:
+  -  Network traffic
+  -  Local traffic
+  -  Encrypted traffic
+  -  Shared Memory
+  -  Kerberos
+  -  Blocking
+  -  Redaction
+  -  UID Chain
+  -  Compression
+  -  Query Rewrite
+  -  Instance Discovery
+  -  Protocol
+  -  Notes
+partition_header: 3

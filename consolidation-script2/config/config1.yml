@@ -1,0 +1,30 @@
+output_csv_path: data/output/gsds_expanded.csv
+full_csv_path: data/input/gsds_expanded.csv
+compat_header:
+  -  GDP version
+  -  GI version
+  -  Data source
+  -  Data source version
+feature_header:
+  -  Method
+  -  VA supported
+  -  Classification supported
+  -  Notes
+  -  Download URL
+  -  Readme URL
+partition_header: 2
+
+
+  # OUTPUT_CSV_PATH="/Users/ahmedmujtaba/Desktop/workspace/guardium-supported-datasources-v2/consolidation-script2/output/supported_dbs_uniq_consolidated.csv"
+# FULL_CSV_PATH="/Users/ahmedmujtaba/Desktop/workspace/guardium-supported-datasources-v2/consolidation-script2/data/input/supported_dbs_uniq.csv"
+# HEADER_KEY = ['GuardiumVersion',
+#         'OSName',
+#         'OSVersion',
+#         'DatabaseName',
+#         'DatabaseVersion']
+
+# FEATURE_KEY = ["Network traffic","Local traffic","Encrypted traffic","Shared Memory","Kerberos","Blocking",
+#                "Redaction","UID Chain","Compression","Query Rewrite","Instance Discovery","Protocol","Notes"]
+# FULL_KEY = HEADER_KEY + FEATURE_KEY
+
+# DB_HEADER_NUMBER = 3
