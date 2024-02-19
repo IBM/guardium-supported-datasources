@@ -1,6 +1,6 @@
 full_csv_path: data/input/supported_dbs_uniq.csv
-output_csv_path: data/output/supported_dbs_uniq_consolidated.csv
-output_json_path: data/output/supported_dbs_uniq_consolidated.json
+output_csv_path: data/output/supported_dbs_uniq_test.csv
+output_json_path: data/output/supported_dbs_uniq_test.json
 compat_header:
   - GuardiumVersion
   - OSName

@@ -1,4 +1,5 @@
 output_csv_path: data/output/gsds_expanded.csv
+output_json_path: data/output/gsds_expanded.json
 full_csv_path: data/input/gsds_expanded.csv
 compat_header:
   -  GDP version

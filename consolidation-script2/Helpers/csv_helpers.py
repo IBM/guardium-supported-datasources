@@ -12,7 +12,7 @@ def read_csv_file(file_path) -> List[List[str]]:
             data.append(row)
     return data
 
-def read_csv_for_db(file_path:str,db_name:str,header_number:int) -> List[List[str]]:
+def read_csv_for_uniq_val(file_path:str,db_name:str,header_number:int) -> List[List[str]]:
     """ Reads CSV file given path, 
     will only return rows with a certain value in a certain column """
     data = []
@@ -24,13 +24,18 @@ def read_csv_for_db(file_path:str,db_name:str,header_number:int) -> List[List[st
                 data.append(row)
     return data
 
-def read_csv_get_unique_db_names(file_path:str,header_number:int) -> List[str]: #TODO: Generalize this
-    """ Gets all unique values from a certain column from csv file """
+def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[str]: #TODO: Generalize this
+    """ Gets all unique values from a certain column from csv file without the header"""
+    is_header = True
     dbs = set()
     with open(file_path,encoding="utf-8") as f:
         reader = csv.reader(f)
         # Iterate through each row
         for row in reader:
+            if is_header:
+                is_header = False
+                continue
+            
             if row[header_number].strip not in dbs:
                 dbs.add(row[header_number])
     return list(dbs)
@@ -44,3 +49,7 @@ def write_csv_to_file(file_path:str,data:List[List[str]]):
 
         # Write the 2D list to the CSV file
         writer.writerows(data)
+
+# def convert_csv_to_json(csv_file_path:str,json_file_path):
+    
+#     for rows in data:

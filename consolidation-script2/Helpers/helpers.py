@@ -1,7 +1,7 @@
 """ Just a collection of helper functions """
 from itertools import product
 from typing import List,Callable,Dict,Any
-
+import json
 
 def subtract_lists(list_a:List[List[str]], list_b:List[List[str]]) -> List[List[str]]:
     """ Return A - B, if all elements of B are in A """
@@ -52,7 +52,7 @@ def find_ranges(ordered_list):
     return ranges
 
 
-def format_feature_a(key_,original_data):
+def get_uniq_vals_for_each_column(key_,original_data):
     for i in original_data:
         if(len(key_) != len(i)):
             raise(TypeError(f"{i} must be same length as {key_} "))
@@ -100,6 +100,27 @@ def has_duplicates_lst(lst:List[str]) -> bool:
     """
     return len(lst) != len(set(lst))
 
+def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
+    """
+    Remove duplicates from a 2D list.
+
+    Args:
+        input_list (list of list of int): The 2D list from which to remove duplicates.
+
+    Returns:
+        list of list of int: The 2D list without duplicates.
+    """
+    unique_list = []
+    seen = set()
+    for sublist in input_list:
+        # Convert the inner list to a tuple for hashability
+        tuple_version = tuple(sublist)
+        if tuple_version not in seen:
+            seen.add(tuple_version)
+            unique_list.append(sublist)
+
+    return unique_list
+
 def group_data_by_feature(data:List[List[str]],get_feature:Callable[[List[str]],str],get_compat:Callable[[List[str]],List[str]]) -> Dict[str,List[str]]:
     """
         Splits a row into compat values and feature values.
@@ -113,4 +134,34 @@ def group_data_by_feature(data:List[List[str]],get_feature:Callable[[List[str]],
 
     return ret
 
-        
+def write_dict_to_json_file(file_path,data_dict):
+    """
+    Write a dictionary to a JSON file.
+
+    Args:
+        data_dict (dict): The dictionary to write.
+        file_path (str): The path to the file where the JSON data will be written.
+    """
+    with open(file_path, 'w', encoding='utf-8') as file:
+        json.dump(data_dict, file, ensure_ascii=False, indent=4)
+
+
+
+def concatenate_first_last_elements(input_lst: List[List[str]]) -> List[str]:
+    """
+    Concatenates the first and last elements of each sublist in A. If a sublist
+    has only one element, it converts that element to a string.
+
+    Args:
+        A (List[List[Any]]): A list of lists.
+
+    Returns:
+        List[str]: A list of strings, each being either the concatenation of the
+                   first and last elements of each sublist in A or the string representation
+                   of the single element in sublists of length 1.
+    """
+    output_lst = [
+        str(sublist[0]) if len(sublist) == 1 else str(sublist[0]) + " - " + str(sublist[-1])
+        for sublist in input_lst if sublist
+    ]
+    return output_lst
