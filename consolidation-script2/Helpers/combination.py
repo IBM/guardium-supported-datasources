@@ -39,7 +39,7 @@ class Combination:
     def __init__(self, key: List[List[str]]) -> None:
         if (has_duplicates_2d_lst([lst for lst in key if (lst != [''] and lst != ['null'])])
         or any([(has_duplicates_lst(lst)) for lst in key])):
-            raise TypeError(f"keys must be a a unique list of \
+            raise TypeError(f"keys must be a unique list of \
                             lists of strings, instead we got:{key}")
 
         self.key = key
