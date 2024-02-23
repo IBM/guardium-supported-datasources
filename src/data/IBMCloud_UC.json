@@ -1,0 +1,37 @@
+{
+    "MongoDB Atlas": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "null",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 4.4",
+            "VA supported": "null",
+            "Classification supported": "null",
+            "Notes": "null",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        },
+        {
+            "GDP version": "null",
+            "GI version": "3.2.0 - 3.3.0",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 4.4",
+            "VA supported": "null",
+            "Classification supported": "null",
+            "Notes": "null",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        },
+        {
+            "GDP version": "null",
+            "GI version": "saas",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 4.4",
+            "VA supported": "null",
+            "Classification supported": "null",
+            "Notes": "null",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        }
+    ]
+}

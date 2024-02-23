@@ -1,0 +1,15 @@
+{
+    "Oracle Autonomous Database": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Oracle Autonomous Database",
+            "Data source version": "12.1 - 21c",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "Oracle ASO (native network encryption) is not supported.",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ]
+}
