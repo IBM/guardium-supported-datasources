@@ -1,0 +1,15 @@
+full_csv_path: data/input/OnPrem_UC.csv
+output_csv_path: data/output/csv/OnPrem_UC.csv
+output_json_path: data/output/json/OnPrem_UC.json
+compat_header:
+  - Guardium Version
+  - OS/Platform
+  - OS/Platform Version
+  - Database/DBaaS
+  - Database/DBaaS Version
+feature_header:
+  -  Network traffic
+  -  Instance Discovery
+  -  Protocol
+  -  Notes
+partition_header: 3

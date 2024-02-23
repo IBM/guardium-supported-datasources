@@ -127,10 +127,9 @@ export default function MainPage() {
   }
 
 
-  //Used to load data from json. This is because connections.json is hosted in public folder for public access, hence unable to import directly
   useEffect(async () => {
     if (!isLoaded()) {
-      let res = await (await fetch(`${process.env.PUBLIC_URL}/data/connections.json`)).json();
+      let res = require(`./data/connections.json`);
 
       //Join method by key. Allows for search by method name in turn for a little of performance
       res.supported_databases = res.supported_databases.map(
@@ -156,14 +155,12 @@ export default function MainPage() {
         setConnectionData(resCopy)
         setDisplayDataSources(resCopy.supported_databases)
       }
-    }
-  });
-
-  // Handles search value change
-  useEffect(() => {
-    if (isLoaded())
+    } else {
       handleSearchChange(searchValue);
+    }
   }, [searchValue]);
+
+
   const handleSearchChange = (value = '') => {
 
     const fuzzyOptionsOverride = {

@@ -89,7 +89,7 @@ def has_duplicates_2d_lst(list_of_lists:List[List[str]]) -> bool:
     seen = set()
     for sublist in list_of_lists:
         for item in sublist:
-            if item in seen:
+            if item in seen and (item != "null" and item != ""):
                 return True
             seen.add(item)
     return False

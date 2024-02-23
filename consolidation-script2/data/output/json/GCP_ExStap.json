@@ -1,0 +1,89 @@
+{
+    "Google Cloud PostgreSQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud PostgreSQL",
+            "Data source version": "10 - 9",
+            "VA supported": "",
+            "Classification supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Google Cloud BigQuery": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud BigQuery",
+            "Data source version": "All versions",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Snowflake",
+            "Data source version": "All versions",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.6 - saas",
+            "Data source": "Snowflake",
+            "Data source version": "All versions",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Google Cloud SQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud SQL",
+            "Data source version": "All versions",
+            "VA supported": "",
+            "Classification supported": "yes",
+            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "MongoDB Atlas": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 6",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 6",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ]
+}

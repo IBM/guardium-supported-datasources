@@ -1,0 +1,8 @@
+GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('Azure Synapse Analytics'),('all versions'),,,SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('Azure SQL'),('all versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+(''),"('3.2.0', '3.3.0', 'saas')",('Azure SQL'),('all versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+(''),"('3.2.0', '3.3.0', 'saas')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('Snowflake'),('All versions'),yes,,,,
+(''),"('3.2.6', '3.3.0', 'saas')",('Snowflake'),('All versions'),yes,,,,

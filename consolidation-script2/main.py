@@ -13,7 +13,6 @@ args = parser.parse_args()
 path_to_csv = f"{os.getcwd()}/{args.config_file}"
 # Load the YAML configuration file based on the provided path
 with open(path_to_csv, 'r',encoding='utf-8') as config_file:
-    
     config = yaml.safe_load(config_file)
 
 

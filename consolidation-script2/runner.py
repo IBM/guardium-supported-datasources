@@ -99,6 +99,9 @@ def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, ful
         for ikey,_ in grouped_data.items():
             feature_list = ikey.split('+') # Convert back into list
             #TODO: Need a lot asserting here
+            print(f"feature_list:{feature_list}={len(feature_list)}")
+            print(f"full_key:{full_key}={len(full_key)}")
+            print(f"header_key:{header_key}={len(header_key)}")
             assert(len(feature_list) == (len(full_key)-len(header_key)))
             
             xss = consolidate_per_feature(grouped_data[ikey],header_key)
