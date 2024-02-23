@@ -1,0 +1,6 @@
+GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+(''),"('3.2.0', '3.3.0', 'saas')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('Elasticsearch'),('All versions'),,,,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('IBM Db2'),"('10.1', '10.5', '11.1', '11.5', '9.7')",Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.,,
+"('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('IBM Db2 Warehouse'),"('10.1', '10.5', '11.1', '11.5', '9.7')",,,Native encryption (DATA_ENCRYPT) not supported.,,

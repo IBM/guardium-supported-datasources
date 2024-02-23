@@ -1,0 +1,13 @@
+﻿GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+11.3.0,,Oracle Autonomous Database,12.1,,,Oracle ASO (native network encryption) is not supported.,,
+11.3.0,,Oracle Autonomous Database,19c,,,Oracle ASO (native network encryption) is not supported.,,
+11.3.0,,Oracle Autonomous Database,21c,,,Oracle ASO (native network encryption) is not supported.,,
+11.4.0,,Oracle Autonomous Database,12.1,,,Oracle ASO (native network encryption) is not supported.,,
+11.4.0,,Oracle Autonomous Database,19c,,,Oracle ASO (native network encryption) is not supported.,,
+11.4.0,,Oracle Autonomous Database,21c,,,Oracle ASO (native network encryption) is not supported.,,
+11.5.0,,Oracle Autonomous Database,12.1,,,Oracle ASO (native network encryption) is not supported.,,
+11.5.0,,Oracle Autonomous Database,19c,,,Oracle ASO (native network encryption) is not supported.,,
+11.5.0,,Oracle Autonomous Database,21c,,,Oracle ASO (native network encryption) is not supported.,,
+12.0.0,,Oracle Autonomous Database,12.1,,,Oracle ASO (native network encryption) is not supported.,,
+12.0.0,,Oracle Autonomous Database,19c,,,Oracle ASO (native network encryption) is not supported.,,
+12.0.0,,Oracle Autonomous Database,21c,,,Oracle ASO (native network encryption) is not supported.,,

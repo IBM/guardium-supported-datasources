@@ -91,6 +91,9 @@ const generateOrderListItem = (item) => {
 export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
     const sample = require(`../data/supported_dbs.json`);
     const [rowData, setRowData] = React.useState(sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null)
+
+    let res = require(`../data/convertcsv.json`)
+    console.log(res)
     
   
     useEffect(() => {

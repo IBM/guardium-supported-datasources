@@ -1,0 +1,159 @@
+{
+    "Azure Cosmos SQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Cosmos SQL",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure Cosmos SQL",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure Cosmos Gremlin": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Cosmos Gremlin",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure Cosmos Gremlin",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure Cosmos Table": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Cosmos Table",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure Cosmos Table",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "MongoDB": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "MongoDB",
+            "Data source version": "14.0+",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP and ISDC",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "MongoDB",
+            "Data source version": "14.0+",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP and ISDC",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure Cassandra": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Cassandra",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure Cassandra",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure SQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure SQL",
+            "Data source version": "latest",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure SQL",
+            "Data source version": "latest",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure Synapse Analytics": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Synapse Analytics",
+            "Data source version": "latest",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ]
+}

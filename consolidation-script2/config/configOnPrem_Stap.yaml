@@ -1,0 +1,24 @@
+full_csv_path: data/input/OnPrem_Stap.csv
+output_csv_path: data/output/csv/OnPrem_Stap.csv
+output_json_path: data/output/json/OnPrem_Stap.json
+compat_header:
+  - GuardiumVersion
+  - OSName
+  - OSVersion
+  - DatabaseName
+  - DatabaseVersion
+feature_header:
+  -  Network traffic
+  -  Local traffic
+  -  Encrypted traffic
+  -  Shared Memory
+  -  Kerberos
+  -  Blocking
+  -  Redaction
+  -  UID Chain
+  -  Compression
+  -  Query Rewrite
+  -  Instance Discovery
+  -  Protocol
+  -  Notes
+partition_header: 3
