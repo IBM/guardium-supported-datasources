@@ -1,0 +1,87 @@
+{
+    "Azure Synapse Analytics": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure Synapse Analytics",
+            "Data source version": "all versions",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Azure SQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Azure SQL",
+            "Data source version": "all versions",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "Azure SQL",
+            "Data source version": "all versions",
+            "VA supported": "yes",
+            "Classification supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "MongoDB Atlas": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 6",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 6",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Snowflake",
+            "Data source version": "All versions",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.6 - saas",
+            "Data source": "Snowflake",
+            "Data source version": "All versions",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "",
+            "Readme URL": ""
+        }
+    ]
+}

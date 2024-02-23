@@ -1,0 +1,128 @@
+{
+    "Google Cloud Spanner": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud Spanner",
+            "Data source version": "1.0.39300",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
+        }
+    ],
+    "Google Cloud Firestore": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud Firestore",
+            "Data source version": "1",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+        }
+    ],
+    "Google Cloud PostgreSQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud PostgreSQL",
+            "Data source version": "13 - 14",
+            "VA supported": "",
+            "Classification supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
+        }
+    ],
+    "Google Cloud MySQL": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud MySQL",
+            "Data source version": "8",
+            "VA supported": "",
+            "Classification supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium-3.0.3.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+        }
+    ],
+    "MongoDB Atlas": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 4.4",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.0 - saas",
+            "Data source": "MongoDB Atlas",
+            "Data source version": "4.2 - 4.4",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        }
+    ],
+    "Google Cloud Apache Solr": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud Apache Solr",
+            "Data source version": "8.6.0",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+        }
+    ],
+    "Google Cloud BigQuery": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Google Cloud BigQuery",
+            "Data source version": "2",
+            "VA supported": "",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip",
+            "Readme URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP version": "11.3.0 - 12.0.0",
+            "GI version": "",
+            "Data source": "Snowflake",
+            "Data source version": "1.0+",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme URL": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+        },
+        {
+            "GDP version": "",
+            "GI version": "3.2.6 - saas",
+            "Data source": "Snowflake",
+            "Data source version": "1.0+",
+            "VA supported": "yes",
+            "Classification supported": "",
+            "Notes": "",
+            "Download URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme URL": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+        }
+    ]
+}
