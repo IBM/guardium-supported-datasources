@@ -64,6 +64,9 @@
         padding-top: 2px;
         padding-bottom: 2px;
         border-top: 0.1px solid #e0e0e0;
+        padding-left: 30px;
+        padding-right: 0px;
+  
         /* overflow: hidden;
         white-space: nowrap; */
         /* width: 100% */
@@ -84,6 +87,9 @@
     }
     td.top{
         padding-top: 10px !important;
+        overflow: hidden;
+        
+
     }
 
     td#heading.bottom{

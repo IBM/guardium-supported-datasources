@@ -1,4 +1,4 @@
-﻿GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+﻿GDP_Version,GI_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 11.3.0,,Azure SQL,all versions,yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
 11.3.0,,Azure Synapse Analytics,all versions,,,SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
 11.3.0,,MongoDB Atlas,4.2,,,,,

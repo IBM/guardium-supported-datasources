@@ -1,4 +1,4 @@
-﻿GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+﻿GDP_Version,GI_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 11.3.0,,Amazon Aurora MySQL,2.0+,,yes,Classification via ISDC,https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 11.3.0,,Amazon Aurora PostgreSQL,2.0+,,yes,Classification via ISDC,https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip,https://github.com/infoinsights/guardium-snowflake-uc-filter
 11.3.0,,Amazon DynamoDB,2019.11.21,,,,https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip,

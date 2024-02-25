@@ -1,4 +1,4 @@
-Guardium Version,OS/Platform,OS/Platform version,Database/DBaaS,Database/DBaaS version,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol
+GuardiumVersion,OSName,OSVersion,Database,DatabaseVersion,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol
 11,Red Hat,Red Hat 7.6,SAP HANA,SAP HANA 2.0 SPS 03,K-TAP,K-TAP,,,,K-TAP,K-TAP,K-TAP,,,,N/A
 11,Red Hat,Red Hat 7.5,SAP HANA,SAP HANA 2.0 SPS 03,K-TAP,K-TAP,,,,K-TAP,K-TAP,K-TAP,,,,N/A
 11,Red Hat,Red Hat 7.4,SAP HANA,SAP HANA 2.0 SPS 03,K-TAP,K-TAP,,,,K-TAP,K-TAP,K-TAP,,,,N/A

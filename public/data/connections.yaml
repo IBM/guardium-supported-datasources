@@ -539,7 +539,7 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
+      - Suse 11 (32 bit & 64 bit)
   - environment_name: AWS (Database as a Service)
     methods_supported:
     - method_key: External STAP
@@ -764,7 +764,7 @@ supported_databases:
       - z/OS 2.2
       - z/OS 2.3
       - z/OS 2.4
-- database_name: IBM Db2
+- database_name: IBM DB2
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   va_supported: true
@@ -785,14 +785,14 @@ supported_databases:
     methods_supported:
     - method_key: STAP
       supported_versions:
-      - Db2 10.1
-      - Db2 10.5
-      - Db2 11.1
-      - Db2 11.5
-      - Db2 7.1
-      - Db2 7.2
-      - Db2 7.3
-      - Db2 9.7
+      - DB2 10.1
+      - DB2 10.5
+      - DB2 11.1
+      - DB2 11.5
+      - DB2 7.1
+      - DB2 7.2
+      - DB2 7.3
+      - DB2 9.7
       supported_operating_systems:
       - AIX 6.1
       - AIX 7.1
@@ -830,9 +830,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -855,9 +855,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 - 32-bit, 64-bit
-      - Zlinux Suse 12 - 64-bit
-      - Zlinux Suse 15 - 64-bit
+      - Zlinux Suse 11 (32 bit & 64 bit)
+      - Zlinux Suse 12 (64 bit)
+      - Zlinux Suse 15 (64 bit)
       - Zlinux Ubuntu 18.0
     - method_key: External STAP
       supported_versions:
@@ -866,7 +866,7 @@ supported_databases:
       - 10.5
       - 11.1
       - 11.5
-- database_name: IBM Db2 Warehouse
+- database_name: IBM DB2 Warehouse
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -890,7 +890,7 @@ supported_databases:
       - 11.1
       - 11.5
       notes: Native encryption (DATA_ENCRYPT) not supported.
-- database_name: Db2 Purescale
+- database_name: DB2 Purescale
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
   environments_supported:
@@ -903,12 +903,12 @@ supported_databases:
       - DB2 Purescale 11
       - DB2 Purescale 9.7
       - DB2 Purescale 9.8
-      - Db2 Purescale 10.1
-      - Db2 Purescale 10.5
-      - Db2 Purescale 11
-      - Db2 Purescale 11.5
-      - Db2 Purescale 9.7
-      - Db2 Purescale 9.8
+      - DB2 Purescale 10.1
+      - DB2 Purescale 10.5
+      - DB2 Purescale 11
+      - DB2 Purescale 11.5
+      - DB2 Purescale 9.7
+      - DB2 Purescale 9.8
       supported_operating_systems:
       - AIX 6.1
       - AIX 7.1
@@ -941,9 +941,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -966,9 +966,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 - 32-bit, 64-bit
-      - Zlinux Suse 12 - 64-bit
-      - Zlinux Suse 15 - 64-bit
+      - Zlinux Suse 11 (32 bit & 64 bit)
+      - Zlinux Suse 12 (64 bit)
+      - Zlinux Suse 15 (64 bit)
       - Zlinux Ubuntu 18.0
 - database_name: IBM IMS for z/OS
   supported_since: 0.0.0
@@ -1032,9 +1032,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -1058,9 +1058,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 - 32-bit, 64-bit
-      - Zlinux Suse 12 - 64-bit
-      - Zlinux Suse 15 - 64-bit
+      - Zlinux Suse 11 (32 bit & 64 bit)
+      - Zlinux Suse 12 (64 bit)
+      - Zlinux Suse 15 (64 bit)
       - Zlinux Ubuntu 18.0
       - Zlinux Ubuntu 18.04
 - database_name: Netezza
@@ -1097,9 +1097,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
 - database_name: MariaDB
   supported_since: 3.2.0
   saas_supported: true
@@ -1146,9 +1146,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1230,9 +1230,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1346,9 +1346,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Ubuntu 14.04
       - Ubuntu 16.04
       - Ubuntu 18.0
@@ -1470,9 +1470,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1491,9 +1491,9 @@ supported_databases:
       - Zlinux Red Hat 7.8
       - Zlinux Red Hat 7.9
       - Zlinux Red Hat 8
-      - Zlinux Suse 11 - 32-bit, 64-bit
-      - Zlinux Suse 12 - 64-bit
-      - Zlinux Suse 15 - 64-bit
+      - Zlinux Suse 11 (32 bit & 64 bit)
+      - Zlinux Suse 12 (64 bit)
+      - Zlinux Suse 15 (64 bit)
 - database_name: Oracle Autonomous Database
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1549,9 +1549,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1594,9 +1594,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1662,7 +1662,7 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
+      - Suse 11 (32 bit & 64 bit)
 - database_name: SAP HANA
   supported_since: 3.1.0
   saas_supported: true
@@ -1705,9 +1705,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
 - database_name: Sailfish
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0
@@ -1839,9 +1839,9 @@ supported_databases:
       - Solaris 11.2
       - Solaris 11.3
       - Solaris 11.4
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
       - Windows Server 2012
       - Windows Server 2012 R2
       - Windows Server 2016
@@ -1884,9 +1884,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
 - database_name: Teradata
   supported_since: Planned for future release
   gdp_supported_since: 11.0.0
@@ -1910,9 +1910,9 @@ supported_databases:
       - Teradata 16.2
       - Teradata 17.0
       supported_operating_systems:
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
 - database_name: Yugabyte
   supported_since: Planned for 3.3
   saas_supported: true
@@ -1959,9 +1959,9 @@ supported_databases:
       - Red Hat 7.8
       - Red Hat 7.9
       - Red Hat 8
-      - Suse 11 - 32-bit, 64-bit
-      - Suse 12 - 64-bit
-      - Suse 15 - 64-bit
+      - Suse 11 (32 bit & 64 bit)
+      - Suse 12 (64 bit)
+      - Suse 15 (64 bit)
 methods:
   Amazon Kinesis:
     method_name: Amazon Kinesis
@@ -2183,7 +2183,7 @@ methods:
       type: string
       content:
       - Eliminates technical and administrative burdens of agent-based monitoring.
-      - Extremely flexible - can be used to monitor a variety of data sources - including
+      - Extremely flexible - can be used to monitor a variety of DataSources - including
         structured and unstructured data.
     - accordian_title: Considerations
       type: string
@@ -2201,13 +2201,13 @@ methods:
     - accordian_title: How it works
       type: string
       content:
-      - Data source events are either pushed or pulled into Guardium by using a Universal
+      - DataSource events are either pushed or pulled into Guardium by using a Universal
         Connector pipeline. The Universal Connector pipeline maps the events into
         a format that Guardium understands.
     - accordian_title: Information you will need
       type: orderedlist
       content:
-      - Knowledge of what methods will be used for accessing the data source events
+      - Knowledge of what methods will be used for accessing the DataSource events
         (pulling via APIs, JDBC; pushing via Filebeat).
       - Authentication and configuration settings for the data ingestion method you
         will use.
