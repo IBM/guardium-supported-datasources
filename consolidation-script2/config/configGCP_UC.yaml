@@ -2,14 +2,14 @@ output_csv_path: data/output/csv/GCP_UC.csv
 output_json_path: data/output/json/GCP_UC.json
 full_csv_path: data/input/GCP_UC.csv
 compat_header:
-  -  GDP version
-  -  GI version
-  -  Data source
-  -  Data source version
+  -  GDP_Version
+  -  GI_Version
+  -  DataSource
+  -  DataSource_Version
 feature_header:
-  -  VA supported
-  -  Classification supported
+  -  VA_supported
+  -  Classification_supported
   -  Notes
-  -  Download URL
-  -  Readme URL
+  -  Download_URL
+  -  Readme_URL
 partition_header: 2

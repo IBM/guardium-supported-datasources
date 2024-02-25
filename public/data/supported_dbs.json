@@ -1128,7 +1128,7 @@
             "id": 3
         }
     ],
-    "Db2": [
+    "DB2": [
         {
             "Blocking": "DB2 Exit, K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
             "Compression": "K-TAP",
@@ -2830,7 +2830,7 @@
             "id": 82
         }
     ],
-    "Db2 Purescale": [
+    "DB2 Purescale": [
         {
             "Blocking": "DB2 Exit, K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
             "Compression": "K-TAP",
@@ -9586,7 +9586,7 @@
             "id": 2
         }
     ],
-    "S3": [
+    "Amazon S3": [
         {
             "Blocking": "",
             "Compression": "",

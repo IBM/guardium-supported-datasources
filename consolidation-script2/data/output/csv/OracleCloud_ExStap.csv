@@ -1,2 +1,2 @@
-GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+GDP_Version,GI_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 "('11.3.0', '11.4.0', '11.5.0', '12.0.0')",(''),('Oracle Autonomous Database'),"('12.1', '19c', '21c')",,,Oracle ASO (native network encryption) is not supported.,,

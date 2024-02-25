@@ -2,14 +2,14 @@ full_csv_path: data/input/OracleCloud_ExStap.csv
 output_csv_path: data/output/csv/OracleCloud_ExStap.csv
 output_json_path: data/output/json/OracleCloud_ExStap.json
 compat_header:
-  -  GDP version
-  -  GI version
-  -  Data source
-  -  Data source version
+  -  GDP_Version
+  -  GI_Version
+  -  DataSource
+  -  DataSource_Version
 feature_header:
-  -  VA supported
-  -  Classification supported
+  -  VA_supported
+  -  Classification_supported
   -  Notes
-  -  Download URL
-  -  Readme URL
+  -  Download_URL
+  -  Readme_URL
 partition_header: 2

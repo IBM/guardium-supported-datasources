@@ -1,4 +1,4 @@
-﻿GDP version,GI version,Data source,Data source version,VA supported,Classification supported,Notes,Download URL,Readme URL
+﻿GDP_Version,GI_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 11.3.0,,Amazon Aurora MySQL,All versions,,yes,Classification via ISDC,,
 11.3.0,,Amazon Aurora PostgreSQL,All versions,,yes,Classification via ISDC,,
 11.3.0,,Amazon DynamoDB,All versions,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md

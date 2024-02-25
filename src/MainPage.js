@@ -8,7 +8,7 @@ import { DatasourceModal } from './components/DatasourceModal';
 
 // CONSTANTS
 const BLOCK_CLASS = `connections-doc`;
-const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'Db2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'Db2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
+const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'DB2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'DB2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
 export const ENVIRONMENT = {
   AWS: 'AWS',
   AZURE: 'AZURE',
@@ -60,16 +60,16 @@ export default function MainPage() {
   //connectionData - Data loaded from json for current display
   const [connectionData, setConnectionData] = useState(null)
 
-  //open - Open variable for modal when clicking a data source
+  //open - Open variable for modal when clicking a DataSource
   const [open, setOpen] = useState(false);
 
-  //selectedDataSource - data source selected for modal
+  //selectedDataSource - DataSource selected for modal
   const [selectedDataSource, _setSelectedDataSource] = useState(null)
 
   //searchValue - value of searchbar
   const [searchValue, setSearchValue] = useState('');
 
-  //displayDataSources - data sources filtered by version and search value
+  //displayDataSources - DataSources filtered by version and search value
   const [displayDataSources, setDisplayDataSources] = useState(null);
 
   // selectedProduct - selected product for filtering datasources
@@ -146,7 +146,7 @@ export default function MainPage() {
       )
 
       let resCopy = {}
-      resCopy.supported_databases = res.supported_databases.filter((database) => DATABASE_LIST_V2.includes(database.database_name))
+      resCopy.supported_databases = res.supported_databases//.filter((database) => DATABASE_LIST_V2.includes(database.database_name))
 
       if (resCopy) {
 
@@ -203,7 +203,7 @@ export default function MainPage() {
     );
   };
 
-  // Data source search inputbox component
+  // DataSource search inputbox component
   const dataSourceSearchInput = () => {
     const searchColumnProps = () => ({
       id: 'search-columns',
@@ -211,8 +211,8 @@ export default function MainPage() {
       light: false,
       name: 'search-columns',
       defaultValue: '',
-      labelText: "Find a data source",
-      placeholder: "Find a data source",
+      labelText: "Find a DataSource",
+      placeholder: "Find a DataSource",
       value: searchValue,
       onChange: event => setSearchValue((event.target && event.target.value) || event.value),
     });
@@ -227,7 +227,7 @@ export default function MainPage() {
         {dataSourceSearchInput()}
         <div className={`${BLOCK_CLASS}__header-box`}>
           <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
-            Data sources supported by Guardium
+            DataSources supported by Guardium
           </div>
           <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
             <Dropdown
