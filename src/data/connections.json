@@ -1205,7 +1205,7 @@
       ]
     },
     {
-      "database_name": "IBM DB2",
+      "database_name": "DB2",
       "supported_since": "0.0.0",
       "gdp_supported_since": "11.0.0",
       "va_supported": true,

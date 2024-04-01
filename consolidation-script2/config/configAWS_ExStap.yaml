@@ -2,8 +2,8 @@ output_csv_path: data/output/csv/AWS_ExStap.csv
 output_json_path: data/output/json/AWS_ExStap.json
 full_csv_path: data/input/AWS_ExStap.csv
 compat_header:
-  -  GDP_Version
-  -  GI_Version
+  -  GDP_Type
+  -  Guardium_Version
   -  DataSource
   -  DataSource_Version
 feature_header:

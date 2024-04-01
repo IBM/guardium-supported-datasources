@@ -1,14 +1,14 @@
 {
     "Oracle Autonomous Database": [
         {
-            "GDP_Version": [
-                "11.3.0",
-                "11.4.0",
-                "11.5.0",
-                "12.0.0"
+            "GDP_Type": [
+                "GDP"
             ],
-            "GI_Version": [
-                ""
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
             ],
             "DataSource": [
                 "Oracle Autonomous Database"

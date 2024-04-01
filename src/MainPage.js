@@ -98,6 +98,7 @@ export default function MainPage() {
         break;
     }
 
+    // Change Main Page Data based on Filter results
     setConnectionData(ret);
     setDisplayDataSources(ret.supported_databases);
 
