@@ -2,8 +2,8 @@ output_csv_path: data/output/csv/Azure_AzEvHub.csv
 output_json_path: data/output/json/Azure_AzEvHub.json
 full_csv_path: data/input/Azure_AzEvHub.csv
 compat_header:
-  -  GDP_Version
-  -  GI_Version
+  -  GDP_Type
+  -  Guardium_Version
   -  DataSource
   -  DataSource_Version
 feature_header:

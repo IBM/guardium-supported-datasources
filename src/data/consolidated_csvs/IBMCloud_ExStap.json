@@ -1,110 +1,14 @@
 {
-    ".config": {
-        "compat_header": [
-          "GDP_Version",
-          "GI_Version",
-          "DataSource",
-          "DataSource_Version"
-        ],
-        "feature_header": [
-          "VA_supported",
-          "Classification_supported",
-          "Notes",
-          "Download_URL",
-          "Readme_URL"
-        ],
-        "partition_header": 2
-      },
-      
-    "MongoDB Atlas": [
-        {
-            "GDP_Version": [
-                "11.3.0",
-                "11.4.0",
-                "11.5.0",
-                "12.0.0"
-            ],
-            "GI_Version": [
-                ""
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.2",
-                "4.4",
-                "5",
-                "6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Version": [
-                ""
-            ],
-            "GI_Version": [
-                "3.2.0",
-                "3.3.0",
-                "saas"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.2",
-                "4.4",
-                "5",
-                "6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "IBM DB2": [
-        {
-            "GDP_Version": [
-                "11.3.0",
-                "11.4.0",
-                "11.5.0",
-                "12.0.0"
-            ],
-            "GI_Version": [
-                ""
-            ],
-            "DataSource": [
-                "IBM DB2"
-            ],
-            "DataSource_Version": [
-                "10.1",
-                "10.5",
-                "11.1",
-                "11.5",
-                "9.7"
-            ],
-            "VA_supported": "Yes",
-            "Classification_supported": "Yes",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "Elasticsearch": [
         {
-            "GDP_Version": [
-                "11.3.0",
-                "11.4.0",
-                "11.5.0",
-                "12.0.0"
+            "GDP_Type": [
+                "GDP"
             ],
-            "GI_Version": [
-                ""
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
             ],
             "DataSource": [
                 "Elasticsearch"
@@ -114,21 +18,19 @@
             ],
             "VA_supported": "",
             "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
+            "Notes": ""
         }
     ],
     "IBM DB2 Warehouse": [
         {
-            "GDP_Version": [
-                "11.3.0",
-                "11.4.0",
-                "11.5.0",
-                "12.0.0"
+            "GDP_Type": [
+                "GDP"
             ],
-            "GI_Version": [
-                ""
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
             ],
             "DataSource": [
                 "IBM DB2 Warehouse"
@@ -142,9 +44,80 @@
             ],
             "VA_supported": "",
             "Classification_supported": "",
-            "Notes": "Native encryption (DATA_ENCRYPT) not supported.",
-            "Download_URL": "",
-            "Readme_URL": ""
+            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
+        }
+    ],
+    "MongoDB Atlas": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.2",
+                "4.4",
+                "5",
+                "6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0",
+                "GI 3.3.0",
+                "GI saas"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.2",
+                "4.4",
+                "5",
+                "6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ],
+    "DB2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "DB2"
+            ],
+            "DataSource_Version": [
+                "10.1",
+                "10.5",
+                "11.1",
+                "11.5",
+                "9.7"
+            ],
+            "VA_supported": "Yes",
+            "Classification_supported": "Yes",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
         }
     ]
 }

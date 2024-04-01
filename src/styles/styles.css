@@ -35,7 +35,6 @@
         height: min-content;
         border: 0.1px solid #ddd;
         padding-top:5px;
-        background-color: red;
         text-align-last: left;
         
         
@@ -108,6 +107,15 @@
         transform: rotate(180deg);
     }
 
+    #rotatefalse {
+      transform: rotate(0deg);
+    }
+
+    #rotatemed {
+      transform: rotate(270deg);
+    }
+
+
 
     
 
@@ -147,8 +155,8 @@
 
       .datacell {
         padding: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         vertical-align: middle;
       }
 
@@ -165,7 +173,7 @@
       }
 
       .tablerow {
-        border-bottom: 1px solid lightgray;
+        border-top: 0.5px solid gray;
         text-align: center;
         
       }
@@ -186,3 +194,16 @@
       .bx--accordion__title {
         font-weight: bold !important;
       }
+
+
+.maintable{
+  width: 100%
+}
+
+.mainTableWrapper {
+  padding-left: 20px;
+  width: min-content;
+  display: flex;
+  align-content: stretch;
+}
+

@@ -36,8 +36,8 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
                 is_header = False
                 continue
             
-            if row[header_number].strip not in dbs:
-                dbs.add(row[header_number])
+            if row[header_number].strip() not in dbs:
+                dbs.add(row[header_number].strip())
     return list(dbs)
 
 def write_csv_to_file(file_path:str,data:List[List[str]]):
@@ -50,6 +50,20 @@ def write_csv_to_file(file_path:str,data:List[List[str]]):
         # Write the 2D list to the CSV file
         writer.writerows(data)
 
-# def convert_csv_to_json(csv_file_path:str,json_file_path):
-    
-#     for rows in data:
+def append_as_csv(full_key, output_csv, feature_list, xss):
+    for xs in xss:
+        xs_str = [f"{str(x).replace('[','(').replace(']',')')}" for x in xs]
+        full_line = xs_str + feature_list
+        assert(len(full_line) == len(full_key))
+            
+        output_csv.append(full_line)
+
+def append_as_json(full_key, output_json, uniq_val, feature_list, xss):
+    for xs in xss:
+        full_line = xs + feature_list
+        assert(len(full_line) == len(full_key))
+        
+        xss_json = {}
+        for i,val in enumerate(full_key):
+            xss_json[val] = full_line[i]
+        output_json[uniq_val].append(xss_json)
