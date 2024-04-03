@@ -56,7 +56,7 @@ export function splitStringsCompare(lstStr1,lstStr2) {
 
 export function splitStrings(str1) {
   // Define the regular expression to match spaces, dots, or hyphens
-  const regex = /[ .-]+/;
+  const regex = /[ -]+/;
 
   // Split the strings using the regex
   const list1 = str1.split(regex);
