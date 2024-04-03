@@ -184,7 +184,7 @@ export default function CompatMatrix({initialData,tableType}) {
     
 
         
-    },[initialData,sortKey,GVSliderValue,selectedOS,displayData]);
+    },[initialData,sortKey,GVSliderValue,selectedOS]);
 
     const handleFilters = (event,newGVValue,newOSValue) => {
 
@@ -201,6 +201,8 @@ export default function CompatMatrix({initialData,tableType}) {
     function renderTable(){
         return (
           <div style={{ width: "min-content" }}>
+            <h5>Detailed Support Information</h5>
+            <br></br>
             <br></br>
 
             {/* <div style={{ display: "flex", justifyContent: "space-between" }}>

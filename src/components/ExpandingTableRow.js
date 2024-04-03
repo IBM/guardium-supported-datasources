@@ -10,7 +10,7 @@ function splitIntoPairs(list) {
   return Array.from({ length: adjustedList.length / 2 }, (_, i) => [adjustedList[i * 2], adjustedList[i * 2 + 1]]);
 }
 
-export default function ExpandingTableRow({key,data,opened,tableType,maxHeight,maxWidth,maxTableWidth}) {
+export default function ExpandingTableRow({key,data,opened,tableType}) {
   const [expanded, setExpanded] = useState(false);
   const [currentData, setCurrentData] = useState(data);
 
@@ -23,7 +23,7 @@ export default function ExpandingTableRow({key,data,opened,tableType,maxHeight,m
                       {" "}
                       {featureName}
                     </td>
-          <td class="top" >{ <a target="_blank" href={featureValue}>Link</a>}</td>
+          <td class="top" >{ <a style={{"color":'blue',"textDecoration":'underline'}} target="_blank" href={featureValue}>Link</a>}</td>
           </>
         )
       case "Readme_URL":
@@ -33,7 +33,7 @@ export default function ExpandingTableRow({key,data,opened,tableType,maxHeight,m
                       {" "}
                       {featureName}
                     </td>
-          <td class="top" >{<a target="_blank" href={featureValue}>Link</a>}</td>
+          <td class="top" >{<a style={{"color":'blue',"textDecoration":'underline'}}  target="_blank" href={featureValue}>Link</a>}</td>
           </>
         )
       default:
