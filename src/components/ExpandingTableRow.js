@@ -19,7 +19,7 @@ export default function ExpandingTableRow({key,data,opened,tableType}) {
       case "Download_URL":
         return (
           <>
-          <td id="heading" class="top" >
+          <td id="heading" class="top" style={{"whiteSpace":"normal"}}>
                       {" "}
                       {featureName}
                     </td>
@@ -29,7 +29,7 @@ export default function ExpandingTableRow({key,data,opened,tableType}) {
       case "Readme_URL":
         return (
           <>
-          <td id="heading" class="top" >
+          <td id="heading" class="top" style={{"whiteSpace":"normal"}}>
                       {" "}
                       {featureName}
                     </td>
