@@ -1,3 +1,7 @@
+// Main/Landing Page of the application. Displays list of available of data sources in a grid. 
+// Clicking on a datasource will open up a modal with compatibility information
+// for that datasource
+
 import { Dropdown, Search, Modal, Loading} from '@carbon/ibm-security';
 import { useEffect, useState, useCallback } from 'react';
 import Fuse from 'fuse.js';
@@ -8,15 +12,6 @@ import { DatasourceModal } from './components/DatasourceModal';
 
 // CONSTANTS
 const BLOCK_CLASS = `connections-doc`;
-const DATABASE_LIST_V2 = ['SAP HANA', 'MySQL', 'Netezza', 'Oracle Exadata', ' sixtyfour-bit', 'Oracle RAC', 'Sybase IQ', 'MariaDB', 'Oracle', 'Sybase ASE', 'Informix', 'Aster', 'Cloudera', 'Couch', 'DB2', 'Greenplum', 'Hortonworks', 'MemSQL', 'Vertica', 'Cassandra', 'Cassandra / Datastax', 'PostgreSQL', 'Teradata', 'DB2 Purescale', 'MongoDB', 'Sailfish', 'Cassandra Apache', 'Couchbase', 'Neo4j', 'MS SQL Server', 'Datasets for z/OS', 'IBM DB2 for z/OS', 'IMS for z/OS', 'DB2 Purescale', 'Redis', 'Elasticsearch', 'MS SQL Server Cluster', 'MS SQL Server Always On', 'CockroachDB', 'S3', 'HDFS', 'DynamoDB', 'Snowflake']
-export const ENVIRONMENT = {
-  AWS: 'AWS',
-  AZURE: 'AZURE',
-  UC: 'UC',
-  ESTAP: 'External S-TAP',
-  STAP: 'Agent (S-TAP)',
-  ONPREMISE: 'on-premise',
-};
 
 export const PRODUCTS = ['All',
   'Guardium Data Protection',
@@ -195,8 +190,7 @@ export default function MainPage() {
         <div
           className={`${BLOCK_CLASS}__data-source-card`}
           role="button"
-          onClick={true ? () => setSelectedDataSource(dataSource) : null}
-          onKeyPress={true ? () => setSelectedDataSource(dataSource) : null}
+          onClick={() => setSelectedDataSource(dataSource)}
           tabIndex={0}>
           <div className={`${BLOCK_CLASS}__data-source-card-title`}>{dataSource.database_name}</div>
         </div>
@@ -220,40 +214,53 @@ export default function MainPage() {
     return <Search className={`${BLOCK_CLASS}__search`} {...searchColumnProps()} />;
   };
 
+// DataSource filter dropdown component
+  function DataSourcesFilterDropdown() {
+    return <div className={`${BLOCK_CLASS}__header-box`}>
+      <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
+        DataSources supported by Guardium
+      </div>
+      <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
+        <Dropdown
+          ariaLabel="Products Dropdown"
+          id="products-dropdown"
+          selectedItem={selectedProduct}
+          items={PRODUCTS}
+          itemToString={(env) => (env)}
+          label="Select a product"
+          //titleText="Filter based on product"
+          onChange={(item) => {
+            setSelectedProduct(item.selectedItem);
+            filterLogic(item.selectedItem);
+          } } />
+      </div>
+    </div>;
+  }
+
   return (
     (isLoaded()) ? <>
+    {/* Main Container when Loaded */}
       <div
         className={`${BLOCK_CLASS}__main-content`}
         id="add-datasource-tearsheet-content">
+          {/* Search Box */}
         {dataSourceSearchInput()}
-        <div className={`${BLOCK_CLASS}__header-box`}>
-          <div className={`${BLOCK_CLASS}__category_title bx--type-semibold`}>
-            DataSources supported by Guardium
-          </div>
-          <div className={`${BLOCK_CLASS}__version-dropdown-box`}>
-            <Dropdown
-                  ariaLabel="Products Dropdown"
-                  id="products-dropdown"
-                  selectedItem={selectedProduct}
-                  items={PRODUCTS}
-                  itemToString={(env) => (env)}
-                  label="Select a product"
-                  //titleText="Filter based on product"
-                  onChange={
-                    (item) => {
-                      setSelectedProduct(item.selectedItem)
-                      filterLogic(item.selectedItem)
-                    }
-                  }
-                />
-          </div>
-        </div>
 
+        {/* Filter DropDown */}
+        {DataSourcesFilterDropdown()}
+
+        {/* Divider */}
         <hr className={`${BLOCK_CLASS}__divider`} />
+
+        {/* All DataSource Cards within Container */}
         <div className={`${BLOCK_CLASS}__data-source-container`}>
           <div className="bx--row">{renderDataSourceCards()}</div>
         </div>
+
+        {/* Raw Data Link */}
         <a className={`${BLOCK_CLASS}__raw-data-link`} href={`./data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
+
+        {/* DataSource Modal open when click on DataSource Card */}
         {selectedDataSource && <Modal
           size={'lg'}
           open={open}
@@ -269,6 +276,7 @@ export default function MainPage() {
     </> : <Loading />
 
   )
+
 }
 
 
