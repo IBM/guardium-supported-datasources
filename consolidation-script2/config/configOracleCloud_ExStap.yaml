@@ -1,6 +1,6 @@
-full_csv_path: data/input/OracleCloud_ExStap.csv
-output_csv_path: data/output/csv/OracleCloud_ExStap.csv
-output_json_path: data/output/json/OracleCloud_ExStap.json
+full_csv_path: consolidation-script2/data/input/OracleCloud_ExStap.csv
+output_csv_path: consolidation-script2/data/output/csv/OracleCloud_ExStap.csv
+output_json_path: src/data/consolidated_csvs/OracleCloud_ExStap.json
 compat_header:
   -  GDP_Type
   -  Guardium_Version

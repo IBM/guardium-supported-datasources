@@ -1,52 +1,4 @@
 {
-    "IBM DB2 Warehouse": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "IBM DB2 Warehouse"
-            ],
-            "DataSource_Version": [
-                "10.1",
-                "10.5",
-                "11.1",
-                "11.5",
-                "9.7"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
-        }
-    ],
-    "Elasticsearch": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": ""
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -113,6 +65,28 @@
             "Notes": ""
         }
     ],
+    "Elasticsearch": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ],
     "DB2": [
         {
             "GDP_Type": [
@@ -137,6 +111,32 @@
             "VA_supported": "Yes",
             "Classification_supported": "Yes",
             "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+        }
+    ],
+    "IBM DB2 Warehouse": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "IBM DB2 Warehouse"
+            ],
+            "DataSource_Version": [
+                "10.1",
+                "10.5",
+                "11.1",
+                "11.5",
+                "9.7"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
         }
     ]
 }
