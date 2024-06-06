@@ -207,3 +207,10 @@
   align-content: stretch;
 }
 
+
+.links_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 6px;
+}

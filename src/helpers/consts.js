@@ -111,6 +111,10 @@ export const TABLETYPE1 = {
       featureKey: "Protocol",
   
     },
+    {
+      featureName: "Notes",
+      featureKey: "Notes",
+    }
   ],
   }
   ;
@@ -187,6 +191,11 @@ export  const TABLETYPE2 = {
         getReadableString: (str) => {return str}
     
       },
+      {
+        featureName: "Notes",
+        featureKey: "Notes",
+        getReadableString: (str) => {return str}
+      }
   ]
   };
   

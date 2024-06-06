@@ -6,8 +6,17 @@ from typing import List
 def read_csv_file(file_path) -> List[List[str]]:
     """ Reads CSV file given path"""
     data = []
-    with open(file_path, 'r', encoding="utf-8", newline='') as file:
+    with open(file_path, 'r', encoding="utf-8-sig", newline='') as file:
         reader = csv.reader(file)
+        for row in reader:
+            data.append(row)
+    return data
+
+def read_csv_file_dict_reader(file_path):
+    """ Reads CSV file given path using dict reader"""
+    data = []
+    with open(file_path, 'r', encoding="utf-8-sig", newline='') as file:
+        reader = csv.DictReader(file)
         for row in reader:
             data.append(row)
     return data
@@ -16,7 +25,7 @@ def read_csv_for_uniq_val(file_path:str,db_name:str,header_number:int) -> List[L
     """ Reads CSV file given path, 
     will only return rows with a certain value in a certain column """
     data = []
-    with open(file_path,encoding="utf-8") as f:
+    with open(file_path,encoding="utf-8-sig") as f:
         reader = csv.reader(f)
         # Iterate through each row
         for row in reader:
@@ -28,7 +37,7 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
     """ Gets all unique values from a certain column from csv file without the header"""
     is_header = True
     dbs = set()
-    with open(file_path,encoding="utf-8") as f:
+    with open(file_path,encoding="utf-8-sig") as f:
         reader = csv.reader(f)
         # Iterate through each row
         for row in reader:
@@ -43,7 +52,7 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
 def write_csv_to_file(file_path:str,data:List[List[str]]):
     """ Writes a 2D List into CSV file given path """
     # Open the CSV file in write mode
-    with open(file_path, mode='w',encoding="utf-8", newline='') as file:
+    with open(file_path, mode='w',encoding="utf-8-sig", newline='') as file:
         # Create a CSV writer
         writer = csv.writer(file)
 

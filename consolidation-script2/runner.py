@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 path_to_csv = f"{os.getcwd()}/{args.config_file}"
 # Load the YAML configuration file based on the provided path
-with open(path_to_csv, 'r',encoding='utf-8') as config_file:
+with open(path_to_csv, 'r',encoding='utf-8-sig') as config_file:
     config = yaml.safe_load(config_file)
 
 
@@ -27,5 +27,4 @@ PARTITION_HEADER = config["partition_header"]
 
 FULL_KEY = VERSION_HEADERS + FEATURE_HEADERS
 
-
-consolidate(OUTPUT_JSON_PATH,OUTPUT_CSV_PATH, FULL_CSV_PATH, VERSION_HEADERS, FULL_KEY, PARTITION_HEADER)
+consolidate(OUTPUT_JSON_PATH,OUTPUT_CSV_PATH, FULL_CSV_PATH, VERSION_HEADERS, FULL_KEY, PARTITION_HEADER, FEATURE_HEADERS)

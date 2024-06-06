@@ -2,7 +2,7 @@
 // Clicking on a datasource will open up a modal with compatibility information
 // for that datasource
 
-import { Dropdown, Search, Modal, Loading} from '@carbon/ibm-security';
+import { Dropdown, Search, Modal, Loading, Button} from '@carbon/ibm-security';
 import { useEffect, useState, useCallback } from 'react';
 import Fuse from 'fuse.js';
 import React from 'react';
@@ -243,6 +243,15 @@ export default function MainPage() {
       <div
         className={`${BLOCK_CLASS}__main-content`}
         id="add-datasource-tearsheet-content">
+
+
+      <div className='links_div'>
+      <a className={`${BLOCK_CLASS}__raw-data-link`} href={`./data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
+
+      <a className={`${BLOCK_CLASS}__raw-data-link`} href="https://github.com/AhmedMujtabaIBM/guardium-supported-datasources-v2/issues/new"  target="_blank" rel="noopener noreferrer">Report An Issue</a>
+      
+      </div>
+
           {/* Search Box */}
         {dataSourceSearchInput()}
 
@@ -257,8 +266,6 @@ export default function MainPage() {
           <div className="bx--row">{renderDataSourceCards()}</div>
         </div>
 
-        {/* Raw Data Link */}
-        <a className={`${BLOCK_CLASS}__raw-data-link`} href={`./data/connections.json`} target="_blank" rel="noopener noreferrer">Raw Data</a>
 
         {/* DataSource Modal open when click on DataSource Card */}
         {selectedDataSource && <Modal
