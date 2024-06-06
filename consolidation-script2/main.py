@@ -2,7 +2,7 @@ from Helpers.helpers import find_ranges,get_uniq_vals_for_each_column,combinatio
 from Helpers.combination import Combination
 from typing import List
 from Helpers.helpers import group_data_by_feature,remove_duplicates_2d,write_dict_to_json_file
-from Helpers.csv_helpers import read_csv_for_uniq_val,read_csv_get_unique_vals_in_column,write_csv_to_file,append_as_csv,append_as_json
+from Helpers.csv_helpers import read_csv_for_uniq_val,read_csv_get_unique_vals_in_column,write_csv_to_file,append_as_csv,append_as_json,read_csv_file_dict_reader
 
 #TODO: MAJOR Cleanup
 # example data
@@ -26,7 +26,7 @@ example = [
 ]
 
 
-def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, full_key, partition_header_number):
+def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, full_key, partition_header_number, feature_key):
     #Instantiate output variables
     output_csv = []
     output_csv.append(full_key)
@@ -65,11 +65,44 @@ def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, ful
 
     write_csv_to_file(output_csv_path,output_csv)
     write_dict_to_json_file(output_json_path,output_json)
+    # _test(output_json_path,output_csv_path, full_csv_path, header_key, feature_key)
 
 
+def _test(output_json_path,output_csv_path, full_csv_path, header_key, feature_key):
+    # Open full_csv_path using Dict Reader
+    input_data = read_csv_file_dict_reader(full_csv_path)
+    print(f"input_data:{input_data[:5]}")
+    
+    compressed_data = read_csv_file_dict_reader(output_csv_path)
+    print(f"compresssed_data:{compressed_data[:5]}")
+    
+    for input_row in input_data:
+        matched = 0
+        for compressed_row in compressed_data:
+            # Check if header_key values match
+            if (header_values_match(input_row,compressed_row,header_key)):   
+                # if yes, then feature_key values must also match
+                if (feature_values_match(input_row,compressed_row,feature_key)):
+                    print(f"input_row:{input_row} \n compressed_row:{compressed_row} \n\n")
+                    matched +=1
+                else:
+                    print(f"BIG ERROR: \n input_row:{input_row} \n compressed_row:{compressed_row} \n\n")
+                    exit()
+        # print(f"matched:{matched}")
+        # assert(matched == 1)
+            
+def header_values_match(input_row,compressed_row,header_key):
+    for header in header_key:
+        if not (input_row[header] in tuple(eval(compressed_row[header]))):
+            return False
+        
+    return True
 
-#TODO: TESTING
-
+def feature_values_match(input_row,compressed_row, feature_key):
+    for feature in feature_key:
+        if not (input_row[feature] == compressed_row[feature]):
+            return False
+    return True
 
 def consolidate_per_feature(compat_data:List[str],key_:List[str]) -> List[str]:
     

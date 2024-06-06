@@ -142,7 +142,7 @@ def write_dict_to_json_file(file_path,data_dict):
         data_dict (dict): The dictionary to write.
         file_path (str): The path to the file where the JSON data will be written.
     """
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8-sig') as file:
         json.dump(data_dict, file, ensure_ascii=False, indent=4)
 
 

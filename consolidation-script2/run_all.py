@@ -16,7 +16,7 @@ for file_name in os.listdir(path_to_dir):
     path_to_csv = os.path.join(path_to_dir,file_name)
     
     # Load the YAML configuration file based on the provided path
-    with open(path_to_csv, 'r',encoding='utf-8') as config_file:
+    with open(path_to_csv, 'r',encoding='utf-8-sig') as config_file:
         config = yaml.safe_load(config_file)
 
     # Construct variables from config file
@@ -30,4 +30,4 @@ for file_name in os.listdir(path_to_dir):
 
     FULL_KEY = VERSION_HEADERS + FEATURE_HEADERS
 
-    consolidate(OUTPUT_JSON_PATH,OUTPUT_CSV_PATH, FULL_CSV_PATH, VERSION_HEADERS, FULL_KEY, PARTITION_HEADER)
+    consolidate(OUTPUT_JSON_PATH,OUTPUT_CSV_PATH, FULL_CSV_PATH, VERSION_HEADERS, FULL_KEY, PARTITION_HEADER, FEATURE_HEADERS)

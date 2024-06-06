@@ -7,6 +7,7 @@ import { splitIntoPairs } from '../helpers/helpers';
 export default function ExpandingTableRow({key,data,opened,tableType}) {
   const [expanded, setExpanded] = useState(false);
   const [currentData, setCurrentData] = useState(data);
+  const [notesToolTipOpen,setNotesToolTipOpen] = useState(false);
 
   useEffect(() => {
     setCurrentData(data)
@@ -37,6 +38,23 @@ export default function ExpandingTableRow({key,data,opened,tableType}) {
                       {featureName}
                     </td>
           <td class="top" >{<a style={{"color":'blue',"textDecoration":'underline'}}  target="_blank" href={featureValue}>Link</a>}</td>
+          </>
+        )
+      case "Notes":
+        return (
+          <>
+          <td id="heading" class="top" style={{"whiteSpace":"normal","color":'blue',"textDecoration":'underline','cursor':'pointer'}}
+          onClick={() => setNotesToolTipOpen(!notesToolTipOpen) }>
+                      {" "}
+                      {featureName}
+                </td>
+
+          {notesToolTipOpen && (
+            <span class="tooltiptext">
+              {featureValue}
+            </span>
+          )}
+
           </>
         )
       default:
