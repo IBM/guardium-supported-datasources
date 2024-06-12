@@ -121,15 +121,15 @@ def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
 
     return unique_list
 
-def group_data_by_feature(data:List[List[str]],get_feature:Callable[[List[str]],str],get_compat:Callable[[List[str]],List[str]]) -> Dict[str,List[str]]:
+def group_data_by_feature(data:List[List[str]],get_features:Callable[[List[str]],str],get_versions:Callable[[List[str]],List[str]]) -> Dict[str,List[str]]:
     """
         Splits a row into compat values and feature values.
         Returns a dict with feature as key, and list of corresponding compats as value.
     """
     ret = {}
     for row in data:
-        feature = get_feature(row)
-        compat = get_compat(row)
+        feature = get_features(row)
+        compat = get_versions(row)
         ret.setdefault(feature, []).append(compat)
 
     return ret

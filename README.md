@@ -16,7 +16,8 @@ This guide provides step-by-step instructions for maintaining the compatibility 
 
 ## Project Requirements
 Before beginning the maintenance process, ensure that your system meets the following requirements:
-- **npm**: Version 10.24.1
+- **NPM**: Version 8.19.2
+- **Node**: Version 16.18.1
 - **Python**: Version 3.11.4
 
 
@@ -84,7 +85,7 @@ After updating the CSV files, running the consolidation script and checking your
 
 3. **Verify the deployment**:
    - Check your GitHub repository to confirm that the `gh-pages` branch has received the updates.
-   - Visit your GitHub Pages URL to see the changes in action.
+   - Visit your GitHub Pages URL to see the changes in action (This can take upto 30 mins to come into effect).
 
 Following these steps will make your updates live
 

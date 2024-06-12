@@ -7,22 +7,22 @@ from Helpers.csv_helpers import read_csv_for_uniq_val,read_csv_get_unique_vals_i
 #TODO: MAJOR Cleanup
 # example data
 example = [
-    ['11.0','Cassandra', 'Cassandra 3.11.10', 'Ubuntu', 'Ubuntu 21.04'],
-    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 7'],
-    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8'],
-    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8'],
-    ['11.0','Cassandra', 'Cassandra 3.11.10', 'Windows', 'Windows 10'],
-    ['11.0','Cassandra', 'Cassandra 4.0', 'Windows', 'Windows 10'],
-    ["11.1",'DB2', 'DB2 11.5.7', 'SUSE', '15'],
-    ['11.1','MariaDB', 'MariaDB 10.5', 'macOS', 'macOS 11.0'],
-    ['11.1','MariaDB', 'MariaDB 10.6', 'Ubuntu', 'Ubuntu 22.04'],
-    ['11.1','MongoDB', 'MongoDB 4.0', 'CentOS', 'CentOS 8'],
-    ['11.1','MongoDB', 'MongoDB 4.2', 'CentOS', 'CentOS 6'],
-    ['11.2','MongoDB', 'MongoDB 4.2', 'Windows', 'Windows 10'],
-    ['11.2','MongoDB', 'MongoDB 4.4', 'CentOS', 'CentOS 7'],
-    ['11.3','MongoDB', 'MongoDB 4.4', 'CentOS', 'CentOS 7'],
-    ["11.3",'MongoDB', 'MongoDB 4.6', 'CentOS', 'CentOS 8'],
-    ["11.3",'Redis', 'Redis 7.2', 'Debian', 'Debian 11'],
+    ['11.0','Cassandra', 'Cassandra 3.11.10', 'Ubuntu', 'Ubuntu 21.04', "Feature A"],
+    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 7', "Feature A"],
+    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8', "Feature A"],
+    ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8', "Feature A"],
+    ['11.0','Cassandra', 'Cassandra 3.11.10', 'Windows', 'Windows 10', "Feature A"],
+    ['11.0','Cassandra', 'Cassandra 4.0', 'Windows', 'Windows 10', "Feature A"],
+    ["11.1",'DB2', 'DB2 11.5.7', 'SUSE', '15', "Feature A"],
+    ['11.1','MariaDB', 'MariaDB 10.5', 'macOS', 'macOS 11.0', "Feature A"],
+    ['11.1','MariaDB', 'MariaDB 10.6', 'Ubuntu', 'Ubuntu 22.04', "Feature A"],
+    ['11.1','MongoDB', 'MongoDB 4.0', 'CentOS', 'CentOS 8', "Feature A"],
+    ['11.1','MongoDB', 'MongoDB 4.2', 'CentOS', 'CentOS 6', "Feature A"],
+    ['11.2','MongoDB', 'MongoDB 4.2', 'Windows', 'Windows 10', "Feature A"],
+    ['11.2','MongoDB', 'MongoDB 4.4', 'CentOS', 'CentOS 7', "Feature A"],
+    ['11.3','MongoDB', 'MongoDB 4.4', 'CentOS', 'CentOS 7', "Feature A"],
+    ["11.3",'MongoDB', 'MongoDB 4.6', 'CentOS', 'CentOS 8', "Feature A"],
+    ["11.3",'Redis', 'Redis 7.2', 'Debian', 'Debian 11', "Feature A"],
 ]
 
 
@@ -32,7 +32,7 @@ def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, ful
     output_csv.append(full_key)
     output_json = {}
 
-    # Get unique values in a column
+    # Get unique values in a column (eg. unique database names in database column)
     # (This will be used to partition the tabular data
     # before compression for efficiency)
     uniq_vals = read_csv_get_unique_vals_in_column(full_csv_path,partition_header_number)
@@ -45,12 +45,18 @@ def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, ful
         data = read_csv_for_uniq_val(full_csv_path,uniq_val,partition_header_number)
         
         
-        # Group each row of data if they have the same features
+        # Note: 
+            # - 'feature values' refers to cell values that refer to availability of a certain feature
+            # - 'version values' refer to cell values that refer to versions of OS,Database, or Guardium
+        # Group rows of data based on their feature values
+        # The 'get_features' function combines the feature values of each row into a single string, acting as a unique identifier for a grouping
+        # The 'get_versions' function extracts the version values from each row to store version information within the group
         grouped_data = group_data_by_feature(data
-                                             ,get_feature=lambda x: "|+|".join(x[len(header_key):]) # Convert list of features into a string
-                                             ,get_compat=lambda x:x[0:len(header_key)])
+                                             ,get_features=lambda x: "|+|".join(x[len(header_key):]) # Combine feature values into a unique string identifier
+                                             ,get_versions=lambda x:x[0:len(header_key)]) # Extract header key values
         
-        # Loop thru grouped_data such that each group represents rows with same features
+        # Loop thru grouped_data dictionary such that each key represents a set of a features
+        # Each value of grouped_data dictionary is a list of versions values
         for data_key,_ in grouped_data.items():
             feature_list = data_key.split('|+|') # Convert back into list
             assert(len(feature_list) == (len(full_key)-len(header_key)))
@@ -104,7 +110,9 @@ def feature_values_match(input_row,compressed_row, feature_key):
             return False
     return True
 
-def consolidate_per_feature(compat_data:List[str],key_:List[str]) -> List[str]:
+# Compat_Data is a 2d list of version values of multiple rows
+# This function finds a compressed/consolidated representation of by allowing each cell to represent a range of version values (e.g "Guardium 11.0 - Guardium 11.5")
+def consolidate_per_feature(compat_data:List[List[str]],key_:List[str]) -> List[str]:
     
     # Remove duplicate rows if any
     compat_data = remove_duplicates_2d(compat_data)
@@ -124,7 +132,7 @@ def consolidate_per_feature(compat_data:List[str],key_:List[str]) -> List[str]:
     for _,x in enumerate(y):
         combinations_list.append(Combination(x))
 
-    # Check if each row of data is compatible with any possible combination
+    # Check if each row of compat_data is compatible with any possible combination
     for _,row in enumerate(compat_data):
         for _,combo in enumerate(combinations_list):
             if combo.combo_allows_row(row):
