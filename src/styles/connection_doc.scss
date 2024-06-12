@@ -10,10 +10,6 @@
 }
 
 @include component('connections-doc') {
-    .exp--action-set__action-button--ghost {
-        max-width: none;
-    }
-
     .bx--col-lg-2 {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
@@ -85,13 +81,6 @@
         display: flex !important;
     }
 
-    button.exp--action-set__action-button.bx--btn.bx--btn--xl.bx--btn--primary.bx--btn--disabled.bx--btn--expressive {
-        margin-left: auto !important;
-    }
-
-    button.exp--action-set__action-button.bx--btn.bx--btn--xl.bx--btn--primary.bx--btn--expressive {
-        margin-left: auto !important;
-    }
 
     &__data_sources_panel {
         height: 80vh;
@@ -154,7 +143,6 @@
     }
 
     &__raw-data-link {
-        position: absolute;
         right: 2rem;
         top: 0.5rem;
         color: $text-02;

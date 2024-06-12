@@ -1,0 +1,15 @@
+output_csv_path: consolidation-script2/data/output/csv/Azure_AzEvHub.csv
+output_json_path: src/data/consolidated_csvs/Azure_AzEvHub.json
+full_csv_path: consolidation-script2/data/input/Azure_AzEvHub.csv
+compat_header:
+  -  GDP_Type
+  -  Guardium_Version
+  -  DataSource
+  -  DataSource_Version
+feature_header:
+  -  VA_supported
+  -  Classification_supported
+  -  Notes
+  -  Download_URL
+  -  Readme_URL
+partition_header: 2

@@ -1,0 +1,7 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('DB2'),"('10.1', '10.5', '11.1', '11.5', '9.7')",Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,
+('GI GI SaaS'),('GI SaaS'),('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('IBM DB2 Warehouse'),"('10.1', '10.5', '11.1', '11.5', '9.7')",,,Native encryption (DATA_ENCRYPT) not supported.
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Elasticsearch'),('All versions'),,,

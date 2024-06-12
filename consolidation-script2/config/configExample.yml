@@ -1,0 +1,12 @@
+output_csv_path: consolidation-script2/data/output/csv/example.csv
+output_json_path: src/data/consolidated_csvs/example.json
+full_csv_path: consolidation-script2/data/input/example.csv
+compat_header:
+  -  GuardiumVersion
+  -  DatabaseName
+  -  DatabaseVersion
+  -  OSName
+  - OSVersion
+feature_header:
+  -  Feature
+partition_header: 3

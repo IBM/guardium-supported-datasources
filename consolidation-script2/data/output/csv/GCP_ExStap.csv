@@ -1,0 +1,10 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Google Cloud BigQuery'),('All versions'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Google Cloud SQL'),('All versions'),,yes,Classification via ISDC. Available for Google Kubernetes Engine (GKE).,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Snowflake'),('All versions'),yes,,,,
+('GI'),"('GI 3.2.6', 'GI 3.3.0')",('Snowflake'),('All versions'),yes,,,,
+('GI GI SaaS'),('GI SaaS'),('Snowflake'),('All versions'),yes,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+('GI GI SaaS'),('GI SaaS'),('MongoDB Atlas'),"('4.2', '4.4', '5', '6')",,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Google Cloud PostgreSQL'),"('10', '11', '12', '9')",,yes,Classification via ISDC,,

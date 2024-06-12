@@ -1,0 +1,2994 @@
+{
+  "supported_databases": [
+    {
+      "database_name": "Amazon Aurora MySQL",
+      "supported_since": "2.0.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "2.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon Aurora PostgreSQL",
+      "supported_since": "2.0.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "2.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon DynamoDB",
+      "supported_since": "3.1.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "2019.11.21"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon ElastiCache for Redis",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon Redshift",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP and ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.0.40182"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md"
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon RDS for MySQL",
+      "supported_since": "3.1.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "5.7+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                5.6,
+                5.7,
+                8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon RDS for Oracle",
+      "supported_since": "3.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                12.1,
+                "19c",
+                "21c"
+              ],
+              "notes": "Oracle ASO (native network encryption) is not supported."
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                18,
+                19
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon RDS for MariaDB",
+      "supported_since": "3.2.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                10.4,
+                10.5,
+                10.6,
+                10.7,
+                10.8
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon RDS for PostgreSQL",
+      "supported_since": "3.1.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "10.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon RDS for Microsoft SQL Server",
+      "supported_since": "Planned for 3.3",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ],
+              "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "14.0.x"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Amazon S3",
+      "supported_since": "3.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.3.0",
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "latest"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Cassandra Apache",
+      "supported_since": "Planned for 3.3",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "va_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Cassandra / Datastax 6.0",
+                "Cassandra / Datastax 6.8",
+                "Cassandra 3.0",
+                "Cassandra 3.11",
+                "Cassandra 3.5"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Aster",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                6.2
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "AWS Fargate",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "database_name": "Azure Cassandra",
+      "supported_since": "2.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Azure Cosmos Gremlin",
+      "supported_since": "2.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "database_name": "Azure Cosmos SQL",
+      "supported_since": "2.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Azure Cosmos Table",
+      "supported_since": "2.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Azure Database for PostgreSQL",
+      "supported_since": "Planned for 3.3",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "11.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Azure SQL",
+      "supported_since": "2.0.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ],
+              "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
+            },
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "12.0.2000.8+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Azure Synapse Analytics",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ],
+              "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
+            },
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "latest"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Cloudera",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Cloudera 2.6",
+                "Cloudera 5.12",
+                "Cloudera 5.3",
+                "Cloudera 5.8",
+                "Cloudera 6.2",
+                "Cloudera 6.3",
+                "Cloudera 7.0"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "CockroachDB",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.3.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "CockroachDB 20.1",
+                "CockroachDB 20.2"
+              ],
+              "supported_operating_systems": [
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Couch",
+      "supported_since": "3.2.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Couch 2.1",
+                "Couch 2.3",
+                "Couch 3"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Couchbase",
+      "supported_since": "3.1.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Couchbase 6",
+                "Couchbase 6.5",
+                "Couchbase 6.6"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "DocumentDB",
+      "supported_since": "3.2.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
+            },{
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Elasticsearch",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Elasticsearch 7.3"
+              ],
+              "supported_operating_systems": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "IBM Cloud (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud Apache Solr",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "8.6.0"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud BigQuery",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                2
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud Firestore",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                1
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud PostgreSQL",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                13,
+                14
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud MySQL",
+      "supported_since": "0.0.0",
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                8
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium-3.0.3.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud Spanner",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": 11,
+      "environments_supported": [
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.0.39300"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Google Cloud SQL",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+  
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ],
+              "notes": "Available for Google Kubernetes Engine (GKE)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Greenplum",
+      "supported_since": "3.2.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+  
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Greenplum 4.3",
+                "Greenplum 5.15",
+                "Greenplum 5.17",
+                "Greenplum 5.19",
+                "Greenplum 5.7",
+                "Greenplum 6",
+                "Greenplum 6.10",
+                "Greenplum 6.7",
+                "Greenplum 6.9"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "HDFS",
+      "supported_since": "3.1.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "3.1+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Hortonworks",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Hortonworks 2.5",
+                "Hortonworks 2.6",
+                "Hortonworks 3.1"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "IBM DB2 for z/OS",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "IBM DB2 for z/OS 11",
+                "IBM DB2 for z/OS 12"
+              ],
+              "supported_operating_systems": [
+                "z/OS 2.1",
+                "z/OS 2.2",
+                "z/OS 2.3",
+                "z/OS 2.4"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Datasets for z/OS",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Datasets for z/OS 2.1",
+                "Datasets for z/OS 2.2",
+                "Datasets for z/OS 2.3",
+                "Datasets for z/OS 2.4"
+              ],
+              "supported_operating_systems": [
+                "z/OS 2.1",
+                "z/OS 2.2",
+                "z/OS 2.3",
+                "z/OS 2.4"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "DB2",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "IBM Cloud (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                9.7,
+                10.1,
+                10.5,
+                11.1,
+                11.5
+              ],
+              "notes": "Native encryption (DATA_ENCRYPT) not supported."
+            }
+          ]
+        },
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "DB2 10.1",
+                "DB2 10.5",
+                "DB2 11.1",
+                "DB2 11.5",
+                "DB2 7.1",
+                "DB2 7.2",
+                "DB2 7.3",
+                "DB2 9.7"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "Debian 10",
+                "Debian 9.3",
+                "Debian 9.4",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "IBM i 6.1",
+                "IBM i 7.1",
+                "IBM i 7.2",
+                "IBM i 7.3",
+                "IBM i 7.4",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 20.04",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Zlinux Red Hat 4",
+                "Zlinux Red Hat 5",
+                "Zlinux Red Hat 6",
+                "Zlinux Red Hat 7",
+                "Zlinux Red Hat 7.1",
+                "Zlinux Red Hat 7.2",
+                "Zlinux Red Hat 7.3",
+                "Zlinux Red Hat 7.4",
+                "Zlinux Red Hat 7.5",
+                "Zlinux Red Hat 7.6",
+                "Zlinux Red Hat 7.7",
+                "Zlinux Red Hat 7.8",
+                "Zlinux Red Hat 7.9",
+                "Zlinux Red Hat 8",
+                "Zlinux Suse 11 (32 bit & 64 bit)",
+                "Zlinux Suse 12 (64 bit)",
+                "Zlinux Suse 15 (64 bit)",
+                "Zlinux Ubuntu 18.0"
+              ]
+            },
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                9.7,
+                10.1,
+                10.5,
+                11.1,
+                11.5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "IBM DB2 Warehouse",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "IBM Cloud (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                9.7,
+                10.1,
+                10.5,
+                11.1,
+                11.5
+              ],
+              "notes": "Native encryption (DATA_ENCRYPT) not supported."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "DB2 Purescale",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "DB2 Purescale 10.1",
+                "DB2 Purescale 10.5",
+                "DB2 Purescale 11",
+                "DB2 Purescale 9.7",
+                "DB2 Purescale 9.8",
+                "DB2 Purescale 10.1",
+                "DB2 Purescale 10.5",
+                "DB2 Purescale 11",
+                "DB2 Purescale 11.5",
+                "DB2 Purescale 9.7",
+                "DB2 Purescale 9.8"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "Debian 10",
+                "Debian 9.3",
+                "Debian 9.4",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 20.04",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Zlinux Red Hat 4",
+                "Zlinux Red Hat 5",
+                "Zlinux Red Hat 6",
+                "Zlinux Red Hat 7",
+                "Zlinux Red Hat 7.1",
+                "Zlinux Red Hat 7.2",
+                "Zlinux Red Hat 7.3",
+                "Zlinux Red Hat 7.4",
+                "Zlinux Red Hat 7.5",
+                "Zlinux Red Hat 7.6",
+                "Zlinux Red Hat 7.7",
+                "Zlinux Red Hat 7.8",
+                "Zlinux Red Hat 7.9",
+                "Zlinux Red Hat 8",
+                "Zlinux Suse 11 (32 bit & 64 bit)",
+                "Zlinux Suse 12 (64 bit)",
+                "Zlinux Suse 15 (64 bit)",
+                "Zlinux Ubuntu 18.0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "IMS for z/OS",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "IMS for z/OS 13",
+                "IMS for z/OS 14",
+                "IMS for z/OS 15"
+              ],
+              "supported_operating_systems": [
+                "z/OS 2.1",
+                "z/OS 2.2",
+                "z/OS 2.3",
+                "z/OS 2.4"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Informix",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Informix 11.7",
+                "Informix 12.1",
+                "Informix 14.1"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "Debian 10",
+                "Debian 9.3",
+                "Debian 9.4",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 18.04",
+                "Ubuntu 20.04",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Zlinux Red Hat 4",
+                "Zlinux Red Hat 5",
+                "Zlinux Red Hat 6",
+                "Zlinux Red Hat 7",
+                "Zlinux Red Hat 7.1",
+                "Zlinux Red Hat 7.2",
+                "Zlinux Red Hat 7.3",
+                "Zlinux Red Hat 7.4",
+                "Zlinux Red Hat 7.5",
+                "Zlinux Red Hat 7.6",
+                "Zlinux Red Hat 7.7",
+                "Zlinux Red Hat 7.8",
+                "Zlinux Red Hat 7.9",
+                "Zlinux Red Hat 8",
+                "Zlinux Suse 11 (32 bit & 64 bit)",
+                "Zlinux Suse 12 (64 bit)",
+                "Zlinux Suse 15 (64 bit)",
+                "Zlinux Ubuntu 18.0",
+                "Zlinux Ubuntu 18.04"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Netezza",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Netezza 6.02",
+                "Netezza 7",
+                "Netezza 7.1",
+                "Netezza 7.2"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MariaDB",
+      "supported_since": "3.2.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "MariaDB 10.1",
+                "MariaDB 10.3",
+                "MariaDB 10.4",
+                "MariaDB 10.5",
+                "MariaDB 5.5",
+                "MariaDB 5.6"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MS SQL Server",
+      "supported_since": "Planned for 3.3",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP and ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "14.0.x"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
+            },
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "MS SQL Server 2012",
+                "MS SQL Server 2014",
+                "MS SQL Server 2016",
+                "MS SQL Server 2017",
+                "MS SQL Server 2019"
+              ],
+              "supported_operating_systems": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MongoDB",
+      "supported_since": "3.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP and ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                4.2,
+                4.4,
+                5,
+                6
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.2",
+                "4.4"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            },
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1",
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        },
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Azure Event Hubs",
+              "supported_versions": [
+                "14.0+"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MongoDB Atlas",
+      "supported_since": "3.0.0",
+      "gdp_supported_since": "11.0.0",
+      "saas_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                4.2,
+                4.4,
+                5,
+                6
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.2",
+                "4.4"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            }
+          ]
+        },
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                4.2,
+                4.4,
+                5,
+                6
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.2",
+                "4.4"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            }
+          ]
+        },
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                4.2,
+                4.4,
+                5,
+                6
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.2",
+                "4.4"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            }
+          ]
+        },
+        {
+          "environment_name": "IBM Cloud (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                4.2,
+                4.4,
+                5,
+                6
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "4.2",
+                "4.4"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MySQL",
+      "supported_since": "3.0.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "5.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
+            },
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "MySQL 5.7",
+                "MySQL 8.0"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Debian 10",
+                "Debian 9.3",
+                "Debian 9.4",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 20.04",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Neo4j",
+      "supported_since": "Planned for 3.3",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Neo4j 3.5",
+                "Neo4j 4.0"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Neptune",
+      "supported_since": "3.2.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.1+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Oracle",
+      "supported_since": "Planned for future release",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP and ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Oracle 11gR2",
+                "Oracle 12.1",
+                "Oracle 12.2",
+                "Oracle 18c",
+                "Oracle 19c"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Zlinux Red Hat 4",
+                "Zlinux Red Hat 5",
+                "Zlinux Red Hat 6",
+                "Zlinux Red Hat 7",
+                "Zlinux Red Hat 7.1",
+                "Zlinux Red Hat 7.2",
+                "Zlinux Red Hat 7.3",
+                "Zlinux Red Hat 7.4",
+                "Zlinux Red Hat 7.5",
+                "Zlinux Red Hat 7.6",
+                "Zlinux Red Hat 7.7",
+                "Zlinux Red Hat 7.8",
+                "Zlinux Red Hat 7.9",
+                "Zlinux Red Hat 8",
+                "Zlinux Suse 11 (32 bit & 64 bit)",
+                "Zlinux Suse 12 (64 bit)",
+                "Zlinux Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Oracle Autonomous Database",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "Oracle Cloud (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                12.1,
+                "19c",
+                "21c"
+              ],
+              "notes": "Oracle ASO (native network encryption) is not supported."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Oracle Exadata",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Oracle Exadata 11gR2",
+                "Oracle Exadata 12.1",
+                "Oracle Exadata 12.2",
+                "Oracle Exadata 18c",
+                "Oracle Exadata 19c"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Redhat Oracle UEK",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Oracle RAC",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Oracle RAC 11gR2",
+                "Oracle RAC 12.1",
+                "Oracle RAC 12.2",
+                "Oracle RAC 18c",
+                "Oracle RAC 19c"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "PostgreSQL",
+      "supported_since": "Planned for 3.3",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "classification_supported": true,
+      "notes": "Classification via GDP and ISDC",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "EDB 12",
+                "EDB 14",
+                "FEP 14"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/PostgreFB/postgres-offline-plugins-7.5.2.zip",
+              "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md"
+            },
+            {
+              "method_key": "STAP"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "database_name": "Redis",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": 11.1,
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Redis 5.0",
+                "Redis 6.0"
+              ],
+              "supported_operating_systems": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "SAP HANA",
+      "supported_since": "3.1.0",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "SAP HANA 1",
+                "SAP HANA 2",
+                "SAP HANA 2.0 SPS 03",
+                "SAP HANA 2.0 SPS 04",
+                "SAP HANA 2.0 SPS 05"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Sailfish",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Sailfish 1.0"
+              ],
+              "supported_operating_systems": [
+                "Red Hat 7.6 PPC64LE"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "MemSQL",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "MemSQL 5.5",
+                "MemSQL 6",
+                "MemSQL 6.5",
+                "MemSQL 6.7",
+                "MemSQL 6.8",
+                "MemSQL 7.0",
+                "MemSQL 7.1",
+                "MemSQL 7.3"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Debian 9.3",
+                "Debian 9.4",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Snowflake",
+      "supported_since": "3.2.6",
+      "saas_supported": true,
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "environments_supported": [
+        {
+          "environment_name": "AWS (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+              "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+            }
+          ]
+        },
+        {
+          "environment_name": "Azure (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+              "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+            }
+          ]
+        },
+        {
+          "environment_name": "GCP (Database as a Service)",
+          "methods_supported": [
+            {
+              "method_key": "External STAP",
+              "supported_versions": [
+                "All versions"
+              ]
+            },
+            {
+              "method_key": "Universal Connector",
+              "supported_versions": [
+                "1.0+"
+              ],
+              "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+              "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Sybase ASE",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Sybase ASE 15.7",
+                "Sybase ASE 16",
+                "Sybase ASE 16.0"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "HP-UX 11.11 PA-RISC",
+                "HP-UX 11.21 PA-RISC",
+                "HP-UX 11.23 PA-RISC, 11.23 IA-64",
+                "HP-UX 11.31 PA-RISC, 11.31 IA-64",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Solaris 10",
+                "Solaris 11.1",
+                "Solaris 11.2",
+                "Solaris 11.3",
+                "Solaris 11.4",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Sybase IQ",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Sybase IQ 16",
+                "Sybase IQ 16.1"
+              ],
+              "supported_operating_systems": [
+                "AIX 6.1",
+                "AIX 7.1",
+                "AIX 7.2",
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 4",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Teradata",
+      "supported_since": "Planned for future release",
+      "gdp_supported_since": "11.0.0",
+      "va_supported": true,
+      "classification_supported": true,
+      "notes": "Classification via GDP",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Teradata 15",
+                "Teradata 15.1",
+                "Teradata 16.1",
+                "Teradata 16.2",
+                "Teradata 17.0"
+              ],
+              "supported_operating_systems": [
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "database_name": "Vertica",
+      "supported_since": "0.0.0",
+      "gdp_supported_since": "11.0.0",
+      "environments_supported": [
+        {
+          "environment_name": "On-premise or IaaS",
+          "methods_supported": [
+            {
+              "method_key": "STAP",
+              "supported_versions": [
+                "Vertica 10",
+                "Vertica 7.2",
+                "Vertica 8",
+                "Vertica 9",
+                "Vertica 9.2",
+                "Vertica 9.3"
+              ],
+              "supported_operating_systems": [
+                "CentOS 6x",
+                "CentOS 7x",
+                "Red Hat 5",
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8",
+                "Suse 11 (32 bit & 64 bit)",
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "methods": {
+    "Amazon Kinesis": {
+      "method_name": "Amazon Kinesis",
+      "method_info": [
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Beginner"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Simple to implement",
+            "Eliminates technical and administrative burdens of agent-based monitoring."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "Lack of segregation of duties: database administrators can disable native audit logging.",
+            "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+            "Limited visibility: native audit logging is normally limited to access and exception events. It does not capture data points such as result sets (what is returned from the server back to the client) and local sessions.",
+            "Lack of proactive protections, such as no inline blocking or redaction."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "Enable native audit logging on the database that you want to monitor. Native audit logs are pushed as a database activity stream over Amazon Kinesis. Guardium uses intermittent API polling to fetch the Amazon Kinesis data activity stream."
+          ]
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            {
+              "title": "Authentication",
+              "content": [
+                {
+                  "title": "Using security-credentials:",
+                  "content": [
+                    "AWS access key ID",
+                    "AWS Secret access key"
+                  ]
+                },
+                {
+                  "title": "Using IAM-Role:",
+                  "content": [
+                    "AWS access key ID",
+                    "AWS Secret access key",
+                    "Role ARN"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Configuration",
+              "content": [
+                "Stream Name",
+                "Region",
+                "Cluster Resource ID",
+                "Cluster Group Name",
+                "Database DNS Endpoint",
+                "Database Type"
+              ]
+            },
+            {
+              "title": "Optional (if using Blocking response action with Guardium Insights)",
+              "content": [
+                "Database",
+                "Username",
+                "Password"
+              ]
+            }
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "string",
+          "content": [
+            {
+              "title": "[Enabling native audit logging on AWS databases]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-amazon-aws-setup"
+            }
+          ]
+        }
+      ]
+    },
+    "External STAP": {
+      "method_name": "External S-TAP",
+      "method_info": [
+        {
+          "accordian_title": "Detailed support information",
+          "type": "string",
+          "content": [
+            {
+              "title": "[IBM Support: IBM Guardium System Requirements and Supported Platforms]",
+              "link": "https://www.ibm.com/support/pages/ibm-guardium-system-requirements-and-supported-platforms"
+            }
+          ]
+        },
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Advanced"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Comprehensive visibility - including local database sessions.",
+            "Enforces separation of duties.",
+            "Supports in-line blocking and redaction.",
+            "Viewing encrypted sessions does not require access to certificates and connections termination."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "Installing and maintaining External S-TAPs requires coordination with other teams and owners including: database server administrators, database administrators, and application owners."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "External S-TAP is a component of Guardium that can intercept traffic for cloud and on-premises database services without installing an inspection agent on the database server. The External S-TAP observes all session traffic to and from the database and makes a copy of that session traffic - sending it to a Guardium collector for processing and analytics."
+          ],
+          "title": "[View more information]",
+          "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=external-s-tap"
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            "Knowledge of the database type and version.",
+            "Knowledge of Docker and/or Kubernetes."
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "string",
+          "content": [
+            {
+              "title": "[External S-TAP Guide]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=tap-external-s-requirements"
+            }
+          ]
+        }
+      ]
+    },
+    "STAP": {
+      "method_name": "Agent (S-TAP)",
+      "method_info": [
+        {
+          "accordian_title": "Detailed support information",
+          "type": "string",
+          "content": [
+            {
+              "title": "[Security Learning Academy: Supported Platforms for Guardium]",
+              "link": "https://www.securitylearningacademy.com/course/view.php?id=4013"
+            }
+          ]
+        },
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Advanced"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Comprehensive visibility - including local database sessions.",
+            "Enforces separation of duties.",
+            "Supports in-line blocking and redaction.",
+            "Viewing encrypted sessions does not require access to certificates and connections termination."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "Installing and maintaining agents requires coordination with other teams and owners including: database server administrators, database administrators, and application owners.",
+            "Agent-based infrastructure is sensitive to changes in the underlying database and operating system.  The agent and inspection engines must be kept up-to-date to deal with these changes.",
+            "S-TAPs can be managed standalone or with Guardium Installation Manager (GIM)."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "A lightweight agent (an S-TAP) is installed at the operating system level. The agent observes all session traffic to and from the database and makes a copy of that session traffic - sending it either to a Guardium collector or directly to Guardium Insights for processing and analytics."
+          ],
+          "title": "[View more information]",
+          "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide"
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            "Knowledge of the operating system on the database server (Windows, AIX, Solaris, HP-UX, Linux, etc).",
+            "Knowledge of the database type and version."
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "string",
+          "content": [
+            {
+              "title": "[Linux-Unix S-TAP Guide]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=linux-unix-s-tap-users-guide"
+            },
+            {
+              "title": "[Windows S-TAP Guide]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=windows-s-tap-users-guide"
+            }
+          ]
+        }
+      ]
+    },
+    "Azure Event Hubs": {
+      "method_name": "Azure Event Hubs",
+      "method_info": [
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Beginner"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Simple to implement.",
+            "Eliminates technical and administrative burdens of agent-based monitoring."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "Lack of segregation of duties: database administrators can disable native audit logging.",
+            "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+            "Limited visibility: native audit logging is normally limited to access and exception events. It does not capture data points such as result sets (what is returned from the server back to the client) and local sessions.",
+            "Lack of proactive protections: no in-line blocking, redaction and more."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "Enable native audit logging on the database that you want to monitor. Native audit logs are pushed as an Event Hub stream over Azure Event Hubs. Guardium uses intermittent API polling to fetch the Event Hub stream."
+          ]
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            {
+              "title": "Authentication",
+              "content": [
+                "Shared access policy name",
+                "Shared access policy key"
+              ]
+            },
+            {
+              "title": "Configuration",
+              "content": [
+                "Event Hub Name",
+                "Namespace",
+                "Database Type",
+                "Port",
+                "Cluster Resource ID",
+                "Cluster Group Name",
+                "Database DNS Endpoint",
+                "Storage Connection String"
+              ]
+            },
+            {
+              "title": "Optional (if using Blocking response action with Guardium Insights)",
+              "content": [
+                "Database",
+                "Username",
+                "Password"
+              ]
+            }
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "string",
+          "content": [
+            {
+              "title": "[Enabling native audit logging on Azure databases]",
+              "link": "https://www.ibm.com/docs/en/guardium/11.5?topic=protection-cloud-database-service-azure-setup"
+            }
+          ]
+        }
+      ]
+    },
+    "Universal Connector": {
+      "method_name": "Universal Connector",
+      "method_info": [
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Intermediate"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Eliminates technical and administrative burdens of agent-based monitoring.",
+            "Extremely flexible - can be used to monitor a variety of data sources - including structured and unstructured data."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "May require some familiarity with data ingestion components like Elastic Filebeat and Input/Filter plugins.",
+            "Lack of segregation of duties: database administrators can disable native audit logging.",
+            "Database performance: Native audit logging can impact database performance - especially if native audit logs are written within the database itself.",
+            "Limited visibility: Native audit logging is normally limited to access and exception events and does not capture data points like result sets (what is returned from the server back to the client) and local sessions.",
+            "Lack of proactive protections: no in-line blocking, redaction and more."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "Data source events are either pushed or pulled into Guardium by using a Universal Connector pipeline. The Universal Connector pipeline maps the events into a format that Guardium understands."
+          ]
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            "Knowledge of what methods will be used for accessing the data source events (pulling via APIs, JDBC; pushing via Filebeat).",
+            "Authentication and configuration settings for the data ingestion method you will use."
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "string",
+          "content": [
+            {
+              "title": "[Learn More]",
+              "link": "https://github.com/IBM/universal-connectors#available-universal-connector-plug-ins"
+            },
+            {
+              "title": "[Download]",
+              "link": "https://github.com/IBM/universal-connectors/releases"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "products": [
+    "All",
+    "Guardium Data Protection",
+    "Guardium Insights (Software)",
+    "Guardium Insights SaaS"
+  ]
+}

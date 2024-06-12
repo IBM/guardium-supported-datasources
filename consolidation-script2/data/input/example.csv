@@ -1,0 +1,22 @@
+GuardiumVersion,DatabaseName,DatabaseVersion,OSName,OSVersion,Feature
+11.0,Cassandra,Cassandra 3.11.10,Ubuntu,Ubuntu 21.04,A
+11.0,Cassandra,Cassandra 3.11.10,CentOS,CentOS 7,A
+11.0,Cassandra,Cassandra 3.11.10,CentOS,CentOS 8,A
+11.0,Cassandra,Cassandra 3.11.10,CentOS,CentOS 8,A
+11.0,Cassandra,Cassandra 3.11.10,Windows,Windows 10,A
+11.0,Cassandra,Cassandra 4.0,Windows,Windows 10,B
+11.1,DB2,DB2 11.5.7,SUSE,15,C
+11.1,MariaDB,MariaDB 10.5,macOS,macOS 11.0,C
+11.1,MariaDB,MariaDB 10.6,Ubuntu,Ubuntu 22.04,C
+11.1,MongoDB,MongoDB 4.0,CentOS,CentOS 6,B
+11.1,MongoDB,MongoDB 4.0,CentOS,CentOS 7,B
+11.1,MongoDB,MongoDB 4.0,CentOS,CentOS 8,B
+11.2,MongoDB,MongoDB 4.2,CentOS,CentOS 6,B
+11.2,MongoDB,MongoDB 4.2,CentOS,CentOS 7,B
+11.2,MongoDB,MongoDB 4.2,CentOS,CentOS 8,B
+11.2,MongoDB,MongoDB 4.4,CentOS,CentOS 6,B
+11.2,MongoDB,MongoDB 4.4,CentOS,CentOS 7,B
+11.2,MongoDB,MongoDB 4.4,CentOS,CentOS 8,B
+11.3,MongoDB,MongoDB 4.6,CentOS,CentOS 8,B
+11.4,MongoDB,MongoDB 4.6,Windows,Windows 10,B
+11.3,Redis,Redis 7.2,Debian,Debian 11,A

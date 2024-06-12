@@ -1,0 +1,94 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for PostgreSQL'),('9'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+('GI'),('GI 3.2.0'),('Amazon RDS for PostgreSQL'),('11'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for PostgreSQL'),('10'),yes,yes,Classification via GDP,,https://github.com/infoinsights/guardium-snowflake-uc-filter
+('GI'),('GI 3.2.0'),('Amazon RDS for PostgreSQL'),('12'),yes,yes,Classification via GDP,,https://github.com/infoinsights/guardium-snowflake-uc-filter
+('GI'),('GI 3.3.0'),('Amazon RDS for PostgreSQL'),"('10', '11', '12')",yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.4.0'),('Amazon RDS for PostgreSQL'),"('12', '9')",yes,yes,Classification via GDP,,
+('GDP'),('GDP 12.0.0'),('Amazon RDS for PostgreSQL'),"('12', '9')",yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.3.0'),('Amazon RDS for PostgreSQL'),('11'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.4.0'),('Amazon RDS for PostgreSQL'),('10'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.5.0'),('Amazon RDS for PostgreSQL'),('11'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 12.0.0'),('Amazon RDS for PostgreSQL'),('10'),yes,yes,Classification via GDP,,
+('GI'),('GI 3.2.0'),('Amazon RDS for PostgreSQL'),('10'),yes,yes,Classification via GDP,,
+('GI'),('GI 3.2.0'),('Amazon RDS for PostgreSQL'),('9'),yes,yes,Classification via GDP,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for PostgreSQL'),('10'),yes,yes,Classification via GDP,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for PostgreSQL'),('12'),yes,yes,Classification via GDP,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for PostgreSQL'),('12'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon RDS for PostgreSQL'),('11'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+('GI'),('GI 3.3.0'),('Amazon RDS for PostgreSQL'),('9'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for PostgreSQL'),('9'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for PostgreSQL'),('11'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('AWS Fargate'),('All versions'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Amazon S3'),('All versions'),,yes,Classification via ISDC,,
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('Amazon S3'),('All versions'),,yes,Classification via ISDC,,
+('GI GI SaaS'),('GI SaaS'),('Amazon S3'),('All versions'),,yes,Classification via ISDC,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon ElastiCache for Redis'),('All versions'),,,,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon ElastiCache for Redis'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Amazon RDS for MySQL'),('5.6'),yes,yes,Classification via GDP,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Amazon RDS for MySQL'),('8'),yes,yes,Classification via GDP,,
+('GI'),('GI 3.2.0'),('Amazon RDS for MySQL'),"('5.7', '8')",yes,yes,Classification via GDP,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for MySQL'),"('5.6', '5.7')",yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.4.0'),('Amazon RDS for MySQL'),('5.7'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 12.0.0'),('Amazon RDS for MySQL'),('5.7'),yes,yes,Classification via GDP,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for MySQL'),('5.7'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
+('GI'),('GI 3.2.0'),('Amazon RDS for MySQL'),('5.6'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
+('GI'),('GI 3.3.0'),('Amazon RDS for MySQL'),"('5.6', '5.7', '8')",yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for MySQL'),('8'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Elasticsearch'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Elasticsearch'),('All versions'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for Microsoft SQL Server'),('All versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+(''),('GI 3.3.0 (planned)'),('Amazon RDS for Microsoft SQL Server'),('All versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for Microsoft SQL Server'),('All versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon RDS for Microsoft SQL Server'),('All versions'),yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon DynamoDB'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
+('GI'),('GI 3.2.0'),('Amazon DynamoDB'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon DynamoDB'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GI'),('GI 3.3.0'),('Amazon DynamoDB'),('All versions'),,,,,
+('GI GI SaaS'),('GI SaaS'),('Amazon DynamoDB'),('All versions'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon Redshift'),('All versions'),yes,yes,Classification via GDP and ISDC,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon Redshift'),('All versions'),yes,yes,Classification via GDP and ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Snowflake'),('All versions'),yes,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Snowflake'),('All versions'),yes,,,,
+('GI GI SaaS'),('GI SaaS'),('Snowflake'),('All versions'),yes,,,,
+('GI'),('GI 3.2.6'),('Snowflake'),('All versions'),yes,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
+('GI'),('GI 3.3.0'),('Snowflake'),('All versions'),yes,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('MongoDB Atlas'),"('4.4', '5', '6')",,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('MongoDB Atlas'),('4.2'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('MongoDB Atlas'),('5'),,,,,
+('GDP'),('GDP 11.3.0'),('MongoDB Atlas'),('6'),,,,,
+('GDP'),('GDP 11.4.0'),('MongoDB Atlas'),('4.4'),,,,,
+('GDP'),('GDP 11.5.0'),('MongoDB Atlas'),('6'),,,,,
+('GDP'),('GDP 12.0.0'),('MongoDB Atlas'),('4.4'),,,,,
+('GI GI SaaS'),('GI SaaS'),('MongoDB Atlas'),('4.4'),,,,,
+('GI GI SaaS'),('GI SaaS'),('MongoDB Atlas'),('6'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('MongoDB Atlas'),('4.4'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('MongoDB Atlas'),('6'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
+('GI'),('GI 3.2.0'),('MongoDB Atlas'),('4.2'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
+('GI'),('GI 3.3.0'),('MongoDB Atlas'),('4.2'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
+('GI GI SaaS'),('GI SaaS'),('MongoDB Atlas'),"('4.2', '5')",,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon Aurora PostgreSQL'),('All versions'),,yes,Classification via ISDC,,
+('GI'),('GI 3.2.0'),('Amazon Aurora PostgreSQL'),('All versions'),,yes,Classification via ISDC,,
+('GI GI SaaS'),('GI SaaS'),('Amazon Aurora PostgreSQL'),('All versions'),,yes,Classification via ISDC,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon Aurora PostgreSQL'),('All versions'),,yes,Classification via ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GI'),('GI 3.3.0'),('Amazon Aurora PostgreSQL'),('All versions'),,yes,Classification via ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for Oracle'),('12.1'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
+('GI'),('GI 3.2.0'),('Amazon RDS for Oracle'),"('12.1', '21c')",yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Amazon RDS for Oracle'),('21c'),yes,yes,Classification via GDP,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for Oracle'),"('12.1', '19c', '21c')",yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.3.0'),('Amazon RDS for Oracle'),('19c'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.4.0'),('Amazon RDS for Oracle'),('12.1'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 11.5.0'),('Amazon RDS for Oracle'),('19c'),yes,yes,Classification via GDP,,
+('GDP'),('GDP 12.0.0'),('Amazon RDS for Oracle'),('12.1'),yes,yes,Classification via GDP,,
+('GI'),('GI 3.2.0'),('Amazon RDS for Oracle'),('19c'),yes,yes,Classification via GDP,,
+('GI'),('GI 3.3.0'),('Amazon RDS for Oracle'),('21c'),yes,yes,Classification via GDP,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon RDS for Oracle'),('19c'),yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
+('GI'),('GI 3.3.0'),('Amazon RDS for Oracle'),"('12.1', '19c')",yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon RDS for MariaDB'),('All versions'),,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon RDS for MariaDB'),('All versions'),,,,,
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('Amazon RDS for MariaDB'),('All versions'),,,,,
+('GI GI SaaS'),('GI SaaS'),('Amazon RDS for MariaDB'),('All versions'),,,,,
+('GDP'),"('GDP 11.3.0', 'GDP 11.5.0')",('Amazon Aurora MySQL'),('All versions'),,yes,Classification via ISDC,,
+('GI'),"('GI 3.2.0', 'GI 3.3.0')",('Amazon Aurora MySQL'),('All versions'),,yes,Classification via ISDC,,
+('GDP'),"('GDP 11.4.0', 'GDP 12.0.0')",('Amazon Aurora MySQL'),('All versions'),,yes,Classification via ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+('GI GI SaaS'),('GI SaaS'),('Amazon Aurora MySQL'),('All versions'),,yes,Classification via ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md

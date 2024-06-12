@@ -1,0 +1,24 @@
+full_csv_path: consolidation-script2/data/input/supported_dbs_mongo.csv
+output_csv_path: consolidation-script2/data/output/csv/supported_dbs_mongo.csv
+output_json_path: consolidation-script2/data/output/json/supported_dbs_mongo.json
+compat_header:
+  - GuardiumVersion
+  - OSName
+  - OSVersion
+  - DatabaseName
+  - DatabaseVersion
+feature_header:
+  -  Network traffic
+  -  Local traffic
+  -  Encrypted traffic
+  -  Shared Memory
+  -  Kerberos
+  -  Blocking
+  -  Redaction
+  -  UID Chain
+  -  Compression
+  -  Query Rewrite
+  -  Instance Discovery
+  -  Protocol
+  -  Notes
+partition_header: 3

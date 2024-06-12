@@ -1,0 +1,15 @@
+output_csv_path: consolidation-script2/data/output/csv/AWS_AmKin.csv
+output_json_path: src/data/consolidated_csvs/AWS_AmKin.json
+full_csv_path: consolidation-script2/data/input/AWS_AmKin.csv
+compat_header:
+  -  GDP_Type
+  -  Guardium_Version
+  -  DataSource
+  -  DataSource_Version
+feature_header:
+  -  VA_supported
+  -  Classification_supported
+  -  Notes
+  -  Download_URL
+  -  Readme_URL
+partition_header: 2
