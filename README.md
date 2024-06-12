@@ -51,13 +51,9 @@ To update the compatibility data, the old CSV files need to be replaced with the
 ## Running Consolidation Scripts
 After replacing the CSV files, a consolidation script must be run to consolidate and integrate the changes.
 
-1. In a different terminal, navigate to the directory where the script is located: `./consolidation-script2`.
+1. Run the consolidation script using Python3:
    ```bash
-   cd consolidation-script2
-   ```
-2. Run the consolidation script using Python3:
-   ```bash
-   python3 run_all.py ./config
+   python3 consolidation-script2/run_all.py ./consolidation-script2/config
    ```
 ## Restarting the Application Locally
 After running the consolidation script, it's necessary to stop and restart the application to ensure that all updates are properly applied and functioning.
