@@ -1,4 +1,4 @@
-﻿GuardiumVersion,OSName,OSVersion,Database,DatabaseVersion,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol,Notes
+﻿GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol,Notes
 11.2,Red Hat,Red Hat 7.3,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,
 11.2,Red Hat,Red Hat 7.2,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,
 11.2,Red Hat,Red Hat 7.1,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,
@@ -102,7 +102,6 @@
 11.2,CentOS,CentOS 6x,Db2,Db2 9.7,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,
 11.2,CentOS,CentOS 7x,Db2,Db2 9.7,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,
 11.2,Red Hat,Red Hat 7.6,Db2 Purescale,Db2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,SSL Encryption supported only using DB2 EXIT Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-11.2,Suse,Suse 11  32bit 64bit,Db2 Purescale,Db2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SLES 11 PPC64 Big Endian system only
 11.2,AIX,AIX 7.2,Db2 Purescale,Db2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
 11.2,AIX,AIX 7.1,Db2 Purescale,Db2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
 11.2,HPUX,HPUX 11.31 PARISC 11.31 IA64,Db2 Purescale,Db2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
@@ -121,7 +120,6 @@
 11.2,CentOS,CentOS 6x,DB2 Purescale,DB2 Purescale 10.1,DB2 Exit KTAP,Teradata Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,
 11.2,CentOS,CentOS 7x,DB2 Purescale,DB2 Purescale 10.1,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,
 11.2,Red Hat,Red Hat 7.6,Db2 Purescale,Db2 Purescale 10.5,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,SSL Encryption supported only using DB2 EXIT Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-11.2,Suse,Suse 11  32bit 64bit,Db2 Purescale,Db2 Purescale 10.5,DB2 Exit KTAP,Teradata Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SLES 11 PPC64 Big Endian system only
 11.2,AIX,AIX 7.2,Db2 Purescale,Db2 Purescale 10.5,DB2 Exit KTAP,Teradata Exit KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
 11.2,AIX,AIX 7.1,Db2 Purescale,Db2 Purescale 10.5,DB2 Exit KTAP,KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
 11.2,HPUX,HPUX 11.31 PARISC 11.31 IA64,Db2 Purescale,Db2 Purescale 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,DB2 Exit KTAP,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,SSL Encryption supported only using DB2 EXIT
