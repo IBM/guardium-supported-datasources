@@ -1,38 +1,20 @@
 ﻿{
-    "Ubuntu": [
-        {
-            "GuardiumVersion": [
-                "11.0"
-            ],
-            "DatabaseName": [
-                "Cassandra"
-            ],
-            "DatabaseVersion": [
-                "Cassandra 3.11.10"
-            ],
-            "OSName": [
-                "Ubuntu"
-            ],
-            "OSVersion": [
-                "Ubuntu 21.04"
-            ],
-            "Feature": "A"
-        },
+    "SUSE": [
         {
             "GuardiumVersion": [
                 "11.1"
             ],
             "DatabaseName": [
-                "MariaDB"
+                "DB2"
             ],
             "DatabaseVersion": [
-                "MariaDB 10.6"
+                "DB2 11.5.7"
             ],
             "OSName": [
-                "Ubuntu"
+                "SUSE"
             ],
             "OSVersion": [
-                "Ubuntu 22.04"
+                "15"
             ],
             "Feature": "C"
         }
@@ -117,26 +99,6 @@
             "Feature": "B"
         }
     ],
-    "Debian": [
-        {
-            "GuardiumVersion": [
-                "11.3"
-            ],
-            "DatabaseName": [
-                "Redis"
-            ],
-            "DatabaseVersion": [
-                "Redis 7.2"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 11"
-            ],
-            "Feature": "A"
-        }
-    ],
     "Windows": [
         {
             "GuardiumVersion": [
@@ -193,6 +155,44 @@
             "Feature": "B"
         }
     ],
+    "Ubuntu": [
+        {
+            "GuardiumVersion": [
+                "11.0"
+            ],
+            "DatabaseName": [
+                "Cassandra"
+            ],
+            "DatabaseVersion": [
+                "Cassandra 3.11.10"
+            ],
+            "OSName": [
+                "Ubuntu"
+            ],
+            "OSVersion": [
+                "Ubuntu 21.04"
+            ],
+            "Feature": "A"
+        },
+        {
+            "GuardiumVersion": [
+                "11.1"
+            ],
+            "DatabaseName": [
+                "MariaDB"
+            ],
+            "DatabaseVersion": [
+                "MariaDB 10.6"
+            ],
+            "OSName": [
+                "Ubuntu"
+            ],
+            "OSVersion": [
+                "Ubuntu 22.04"
+            ],
+            "Feature": "C"
+        }
+    ],
     "macOS": [
         {
             "GuardiumVersion": [
@@ -213,24 +213,24 @@
             "Feature": "C"
         }
     ],
-    "SUSE": [
+    "Debian": [
         {
             "GuardiumVersion": [
-                "11.1"
+                "11.3"
             ],
             "DatabaseName": [
-                "DB2"
+                "Redis"
             ],
             "DatabaseVersion": [
-                "DB2 11.5.7"
+                "Redis 7.2"
             ],
             "OSName": [
-                "SUSE"
+                "Debian"
             ],
             "OSVersion": [
-                "15"
+                "Debian 11"
             ],
-            "Feature": "C"
+            "Feature": "A"
         }
     ]
 }

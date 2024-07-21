@@ -3,6 +3,7 @@ from Helpers.combination import Combination
 from typing import List
 from Helpers.helpers import group_data_by_feature,remove_duplicates_2d,write_dict_to_json_file
 from Helpers.csv_helpers import read_csv_for_uniq_val,read_csv_get_unique_vals_in_column,write_csv_to_file,append_as_csv,append_as_json,read_csv_file_dict_reader
+import re
 
 #TODO: MAJOR Cleanup
 # example data
@@ -71,42 +72,81 @@ def consolidate(output_json_path,output_csv_path, full_csv_path, header_key, ful
 
     write_csv_to_file(output_csv_path,output_csv)
     write_dict_to_json_file(output_json_path,output_json)
-    # _test(output_json_path,output_csv_path, full_csv_path, header_key, feature_key)
+    _test(output_json_path,output_csv_path, full_csv_path, header_key, feature_key)
 
 
 def _test(output_json_path,output_csv_path, full_csv_path, header_key, feature_key):
     # Open full_csv_path using Dict Reader
     input_data = read_csv_file_dict_reader(full_csv_path)
-    print(f"input_data:{input_data[:5]}")
+    # print(f"input_data:{input_data[:5]}")
     
     compressed_data = read_csv_file_dict_reader(output_csv_path)
-    print(f"compresssed_data:{compressed_data[:5]}")
+    # print(f"compresssed_data:{compressed_data[:5]}")
     
     for input_row in input_data:
         matched = 0
         for compressed_row in compressed_data:
             # Check if header_key values match
+            
+            # print("here we go")
+            # pretty_print_row(input_row)
+            
             if (header_values_match(input_row,compressed_row,header_key)):   
                 # if yes, then feature_key values must also match
+                # print("compressed_row \n")
+                # pretty_print_row(compressed_row)
+                
+                # print(f"input_row \n")
+                # pretty_print_row(input_row)
+                
+                # print(f"compressed_row:{compressed_row}\n")
+                # print(f"input_row:{input_row}\n\n")
                 if (feature_values_match(input_row,compressed_row,feature_key)):
-                    print(f"input_row:{input_row} \n compressed_row:{compressed_row} \n\n")
+                    # print(f"input_row:{input_row} \n compressed_row:{compressed_row} \n\n")
                     matched +=1
                 else:
-                    print(f"BIG ERROR: \n input_row:{input_row} \n compressed_row:{compressed_row} \n\n")
-                    exit()
+                    print(f"\n ================================= \n\n")
+                    print(f"BIG ERROR: \n input_row:{input_row} \n\n compressed_row:{compressed_row} \n\n")
+                    
+        
         # print(f"matched:{matched}")
-        # assert(matched == 1)
+        # print("input_row\n")
+        # pretty_print_row(input_row)
+        # print("compressed_row\n")
+        # pretty_print_row(compressed_row)
+        
+        assert(matched == 1)
             
+def pretty_print_row(row):
+    for key in row.keys():
+        print(f"{key}:{row[key]}")
+    print("\n")
+
 def header_values_match(input_row,compressed_row,header_key):
     for header in header_key:
-        if not (input_row[header] in tuple(eval(compressed_row[header]))):
-            return False
+        split_lst = compressed_row[header].split(',')
+        cleaned_lst = [item.replace("'", "").replace('"', "").replace("(","").replace(")","").strip() for item in split_lst]
         
+        # print("here we go")
+        # pretty_print_row(input_row)
+        
+        # pretty_print_row(compressed_row)
+        
+        cleaned_input_row_header = input_row[header].replace("'", "").replace('"', "").replace("(","").replace(")","").strip()
+        
+        # print(f"{header}: the input row: {cleaned_input_row_header}")
+        # print(f"{header}: the tuple: {cleaned_lst}: {type(cleaned_lst)}")
+        
+
+        # print(f"result: {any(cleaned_input_row_header == item for item in cleaned_lst)}")
+        if not (any(cleaned_input_row_header == item for item in cleaned_lst)):
+            return False
+    
     return True
 
 def feature_values_match(input_row,compressed_row, feature_key):
     for feature in feature_key:
-        if not (input_row[feature] == compressed_row[feature]):
+        if not (input_row[feature].strip() == compressed_row[feature].strip()):
             return False
     return True
 
