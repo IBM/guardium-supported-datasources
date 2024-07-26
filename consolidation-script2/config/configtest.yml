@@ -1,4 +1,4 @@
-full_csv_path: consolidation-script2/data/input/supported_dbs_mongo.csv
+input_csv_path: consolidation-script2/data/input/supported_dbs_mongo.csv
 output_csv_path: consolidation-script2/data/output/csv/supported_dbs_mongo.csv
 output_json_path: consolidation-script2/data/output/json/supported_dbs_mongo.json
 compat_header:

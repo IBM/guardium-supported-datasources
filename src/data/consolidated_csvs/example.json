@@ -1,24 +1,4 @@
 ﻿{
-    "SUSE": [
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "DB2"
-            ],
-            "DatabaseVersion": [
-                "DB2 11.5.7"
-            ],
-            "OSName": [
-                "SUSE"
-            ],
-            "OSVersion": [
-                "15"
-            ],
-            "Feature": "C"
-        }
-    ],
     "CentOS": [
         {
             "GuardiumVersion": [
@@ -97,6 +77,26 @@
                 "CentOS 8"
             ],
             "Feature": "B"
+        }
+    ],
+    "Debian": [
+        {
+            "GuardiumVersion": [
+                "11.3"
+            ],
+            "DatabaseName": [
+                "Redis"
+            ],
+            "DatabaseVersion": [
+                "Redis 7.2"
+            ],
+            "OSName": [
+                "Debian"
+            ],
+            "OSVersion": [
+                "Debian 11"
+            ],
+            "Feature": "A"
         }
     ],
     "Windows": [
@@ -193,6 +193,26 @@
             "Feature": "C"
         }
     ],
+    "SUSE": [
+        {
+            "GuardiumVersion": [
+                "11.1"
+            ],
+            "DatabaseName": [
+                "DB2"
+            ],
+            "DatabaseVersion": [
+                "DB2 11.5.7"
+            ],
+            "OSName": [
+                "SUSE"
+            ],
+            "OSVersion": [
+                "15"
+            ],
+            "Feature": "C"
+        }
+    ],
     "macOS": [
         {
             "GuardiumVersion": [
@@ -211,26 +231,6 @@
                 "macOS 11.0"
             ],
             "Feature": "C"
-        }
-    ],
-    "Debian": [
-        {
-            "GuardiumVersion": [
-                "11.3"
-            ],
-            "DatabaseName": [
-                "Redis"
-            ],
-            "DatabaseVersion": [
-                "Redis 7.2"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 11"
-            ],
-            "Feature": "A"
         }
     ]
 }

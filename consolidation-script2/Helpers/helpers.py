@@ -2,6 +2,7 @@
 from itertools import product
 from typing import List,Callable,Dict,Any
 import json
+import logging
 
 def subtract_lists(list_a:List[List[str]], list_b:List[List[str]]) -> List[List[str]]:
     """ Return A - B, if all elements of B are in A """
@@ -124,15 +125,59 @@ def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
 def group_data_by_feature(data:List[List[str]],get_features:Callable[[List[str]],str],get_versions:Callable[[List[str]],List[str]]) -> Dict[str,List[str]]:
     """
         Splits a row into compat values and feature values.
-        Returns a dict with feature as key, and list of corresponding compats as value.
-    """
-    ret = {}
-    for row in data:
-        feature = get_features(row)
-        compat = get_versions(row)
-        ret.setdefault(feature, []).append(compat)
+        Returns a dict with feature set as key,
+        and sets of corresponding versions values as the value 
+        (in the form of a list).
+        
+    Args:
+        data (List[List[str]]): The input data to be grouped.
+        get_features (Callable[[List[str]], str]): Function to extract and combine feature values from a row.
+        get_versions (Callable[[List[str]], List[str]]): Function to extract version values from a row.
 
-    return ret
+    Returns:
+        Dict[str, List[List[str]]]: A dictionary where keys are
+        unique feature combinations and values are lists of version values.
+    
+    Example Usage:
+    =======================
+    data = [
+        ['E001', 'Alice', 'HR', 'Recruiting'],
+        ['E002', 'Bob', 'Engineering', 'Python'],
+        ['E003', 'Charlie', 'HR', 'Payroll'],
+        ['E004', 'Dave', 'Engineering', 'Python'],
+        ['E005', 'Eve', 'Engineering', 'C++'],
+        ['E006', 'Frank', 'HR', 'Recruiting'],
+        ['E007', 'Grace', 'Engineering', 'C++'],
+        ['E008', 'Hank', 'Engineering', 'Java']
+    ]
+
+    grouped_data = group_data_by_feature(
+        data,
+        get_features=lambda x: f"{x[2]}|+|{x[3]}",  # Combines Department and Skills into a unique string identifier
+        get_versions=lambda x: [x[0], x[1]]  # Extracts EmployeeID and Name
+    )
+
+    # Resulting grouped_data:
+    {
+        'HR|+|Recruiting': [['E001', 'Alice'], ['E006', 'Frank']],
+        'Engineering|+|Python': [['E002', 'Bob'], ['E004', 'Dave']],
+        'HR|+|Payroll': [['E003', 'Charlie']],
+        'Engineering|+|C++': [['E005', 'Eve'], ['E007', 'Grace']],
+        'Engineering|+|Java': [['E008', 'Hank']]
+    }
+    """
+    try:
+        grouped_data = {}
+        for row in data:
+            feature = get_features(row)
+            compat = get_versions(row)
+            grouped_data.setdefault(feature, []).append(compat)
+        logging.info("Data successfully grouped by features.")
+        return grouped_data
+    except Exception as e:
+        logging.error("Error grouping data by features: %s", e)
+        raise
+    
 
 def write_dict_to_json_file(file_path,data_dict):
     """
