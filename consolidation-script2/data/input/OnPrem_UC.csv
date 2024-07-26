@@ -1,4 +1,4 @@
-﻿GuardiumVersion,OSName,OSVersion,Database,DatabaseVersion,Network traffic,Instance Discovery,Protocol,Notes
+﻿GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Instance Discovery,Protocol,Notes
 11.3,Red Hat,Red Hat 7.6,MongoDB,MongoDB 4.4,UC,,N/A,"supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
 11.3,Suse,"Suse 11 (32 bit & 64 bit)",MongoDB,MongoDB 4.4,UC,,N/A,"supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
 11.3,Red Hat,Red Hat 7.5,MongoDB,MongoDB 4.4,UC,,N/A,"supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
