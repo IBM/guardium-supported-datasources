@@ -1,5 +1,5 @@
 ﻿{
-    "CentOS": [
+    "Ubuntu": [
         {
             "GuardiumVersion": [
                 "11.0"
@@ -11,72 +11,50 @@
                 "Cassandra 3.11.10"
             ],
             "OSName": [
-                "CentOS"
+                "Ubuntu"
             ],
             "OSVersion": [
-                "CentOS 7",
-                "CentOS 8"
+                "Ubuntu 21.04"
             ],
             "Feature": "A"
-        },
-        {
-            "GuardiumVersion": [
-                "11.2"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "OSName": [
-                "CentOS"
-            ],
-            "OSVersion": [
-                "CentOS 6",
-                "CentOS 7",
-                "CentOS 8"
-            ],
-            "Feature": "B"
         },
         {
             "GuardiumVersion": [
                 "11.1"
             ],
             "DatabaseName": [
-                "MongoDB"
+                "MariaDB"
             ],
             "DatabaseVersion": [
-                "MongoDB 4.0"
+                "MariaDB 10.6"
             ],
             "OSName": [
-                "CentOS"
+                "Ubuntu"
             ],
             "OSVersion": [
-                "CentOS 6",
-                "CentOS 7",
-                "CentOS 8"
+                "Ubuntu 22.04"
             ],
-            "Feature": "B"
-        },
+            "Feature": "C"
+        }
+    ],
+    "macOS": [
         {
             "GuardiumVersion": [
-                "11.3"
+                "11.1"
             ],
             "DatabaseName": [
-                "MongoDB"
+                "MariaDB"
             ],
             "DatabaseVersion": [
-                "MongoDB 4.6"
+                "MariaDB 10.5"
             ],
             "OSName": [
-                "CentOS"
+                "macOS"
             ],
             "OSVersion": [
-                "CentOS 8"
+                "macOS 11.0"
             ],
-            "Feature": "B"
+            "Feature": "C"
         }
     ],
     "Debian": [
@@ -155,44 +133,6 @@
             "Feature": "B"
         }
     ],
-    "Ubuntu": [
-        {
-            "GuardiumVersion": [
-                "11.0"
-            ],
-            "DatabaseName": [
-                "Cassandra"
-            ],
-            "DatabaseVersion": [
-                "Cassandra 3.11.10"
-            ],
-            "OSName": [
-                "Ubuntu"
-            ],
-            "OSVersion": [
-                "Ubuntu 21.04"
-            ],
-            "Feature": "A"
-        },
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "MariaDB"
-            ],
-            "DatabaseVersion": [
-                "MariaDB 10.6"
-            ],
-            "OSName": [
-                "Ubuntu"
-            ],
-            "OSVersion": [
-                "Ubuntu 22.04"
-            ],
-            "Feature": "C"
-        }
-    ],
     "SUSE": [
         {
             "GuardiumVersion": [
@@ -213,24 +153,84 @@
             "Feature": "C"
         }
     ],
-    "macOS": [
+    "CentOS": [
+        {
+            "GuardiumVersion": [
+                "11.0"
+            ],
+            "DatabaseName": [
+                "Cassandra"
+            ],
+            "DatabaseVersion": [
+                "Cassandra 3.11.10"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 7",
+                "CentOS 8"
+            ],
+            "Feature": "A"
+        },
+        {
+            "GuardiumVersion": [
+                "11.2"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6",
+                "CentOS 7",
+                "CentOS 8"
+            ],
+            "Feature": "B"
+        },
         {
             "GuardiumVersion": [
                 "11.1"
             ],
             "DatabaseName": [
-                "MariaDB"
+                "MongoDB"
             ],
             "DatabaseVersion": [
-                "MariaDB 10.5"
+                "MongoDB 4.0"
             ],
             "OSName": [
-                "macOS"
+                "CentOS"
             ],
             "OSVersion": [
-                "macOS 11.0"
+                "CentOS 6",
+                "CentOS 7",
+                "CentOS 8"
             ],
-            "Feature": "C"
+            "Feature": "B"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.6"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 8"
+            ],
+            "Feature": "B"
         }
     ]
 }
