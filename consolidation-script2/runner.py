@@ -1,10 +1,16 @@
+"""
+Entry point to script
+Expects a command line argument string representing path to directory containing config files
+"""
+
+import argparse
+import os
+import sys
+
+import yaml
+
 from main import consolidate
 from Helpers.logging_helpers import setup_logger
-import argparse
-import yaml
-import os
-import logging
-import sys
 
 # Set up logging
 logger = setup_logger(__name__)
@@ -17,7 +23,7 @@ def load_config(file_path):
         logger.info("Configuration file (%s) loaded successfully.",file_path)
         return config
     except FileNotFoundError:
-        logger.error("Configuration file not found: %s\n\n",file_path) 
+        logger.error("Configuration file not found: %s\n\n",file_path)
         sys.exit(1)
     except yaml.YAMLError as e:
         logger.error("Error parsing YAML file : %s\n\n",e)
@@ -34,6 +40,10 @@ def validate_config(config):
     logger.info("Configuration validation passed.")
 
 def main():
+    """
+    Entry Point Function when calling runner.py
+    Expects a command line argument string representing path to directory containing config files
+    """
 
     # Define command-line arguments
     parser = argparse.ArgumentParser(description
@@ -77,9 +87,7 @@ def main():
             logger.error("Error during consolidation: %s\n\n",e)
             sys.exit(1)
 
-    
     logger.info("SCRIPT COMPLETED.")
-    
 
 if __name__ == "__main__":
     main()
