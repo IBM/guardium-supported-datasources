@@ -1,25 +1,29 @@
+"""
+Helper for Testing
+Tests correctness of Input CSV with Compressed Output JSON/CSV
+"""
 from .csv_helpers import read_csv_file_dict_reader
 
 def _test(output_csv_path, input_csv_path, header_key, feature_key, logger):
     # Open input_csv_path using Dict Reader
     input_data = read_csv_file_dict_reader(input_csv_path)
     compressed_data = read_csv_file_dict_reader(output_csv_path)
-    
+
     logger.debug("Starting Test for %s", output_csv_path)
 
     for input_row in input_data:
         matched = 0
         for compressed_row in compressed_data:
             # Check if header_key values match
-            if header_values_match(input_row,compressed_row,header_key):   
+            if header_values_match(input_row,compressed_row,header_key):
                 # if yes, then check if feature_key values also match
                 if feature_values_match(input_row,compressed_row,feature_key):
                     matched +=1
 
         assert matched == 1
-    
+
     logger.info("PASSED test for %s",output_csv_path)
-        
+
 
 def header_values_match(input_row,compressed_row,header_key):
     """
@@ -39,7 +43,14 @@ def header_values_match(input_row,compressed_row,header_key):
         cleaned_lst = [item.replace("'", "").replace('"', "")
                        .replace("(","").replace(")","").strip() for item in split_lst]
 
-        cleaned_input_row_header = input_row[header].replace("'", "").replace('"', "").replace("(","").replace(")","").strip()
+        cleaned_input_row_header = (
+            input_row[header]
+            .replace("'", "")
+            .replace('"', "")
+            .replace("(","")
+            .replace(")","")
+            .strip()
+        )
 
         if not any(cleaned_input_row_header == item for item in cleaned_lst):
             return False

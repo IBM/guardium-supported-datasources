@@ -83,7 +83,7 @@ def main():
             logger.info("Consolidate CSV file saved to %s", output_csv_path)
             logger.info("Consolidate JSON file saved to %s\n\n",output_json_path)
 
-        except Exception as e:
+        except Exception as e: # pylint: disable=broad-except
             logger.error("Error during consolidation: %s\n\n",e)
             sys.exit(1)
 
