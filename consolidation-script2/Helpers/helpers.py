@@ -2,10 +2,19 @@
 from itertools import product
 from typing import List,Callable,Dict,Any
 import json
-import logging
 
-def subtract_lists(list_a:List[List[str]], list_b:List[List[str]]) -> List[List[str]]:
-    """ Return A - B, if all elements of B are in A """
+def remove_if_all_present(list_a:List[List[str]], list_b:List[List[str]]) -> List[List[str]]:
+    """ 
+    Return A - B, if (all elements of B are in A) else return A unchanged
+    
+    Parameters:
+    list_a (List[List[str]]): The main list of lists containing strings.
+    list_b (List[List[str]]): The list of lists containing strings to check against `list_a`.
+
+    Returns:
+    List[List[str]]: A filtered version of `list_a` or the original `list_a` based on the condition.
+    
+    """
     # Check if all elements of list B are in list A
     if all(elem in list_a for elem in list_b):
         # Remove elements of list B from list A
@@ -20,10 +29,15 @@ def product_of_lengths(lists: List[List[str]]) -> int:
     Calculate the product of the lengths of each list in a list of lists.
 
     Args:
-        lists (List[List[Any]]): A list of lists.
+        lists (List[List[str]]): A list of lists containing strings.
 
     Returns:
         int: The product of the lengths of each list.
+    
+    Example:
+        lists = [["apple", "banana", "cherry"], ["dog", "elephant"], ["fish", "goat"]]
+        result = product_of_lengths(lists)
+        # result will be 3 * 2 * 2 = 12
     """
     ret_product = 1
     for lst in lists:
@@ -40,12 +54,12 @@ def combinations(lists:List[List[Any]]) -> List[List[Any]]:
     return [list(comb) for comb in product(*lists)]
 
 
-def find_ranges(ordered_list):
+def find_ranges(ordered_list:List[str]) -> List[List[str]]:
     """ Given an ordered list, return each possible sub-list
     eg. find_ranges([1,2,3,4]) = 
     [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4], [2], [2, 3], [2, 3, 4], [3], [3, 4], [4]]
     """
-    ranges = [] 
+    ranges = []
     for i in range(0,len(ordered_list)+1):
         for j in range(i+1,len(ordered_list)+1):
             ranges.append(ordered_list[i:j])
@@ -53,39 +67,79 @@ def find_ranges(ordered_list):
     return ranges
 
 
-def get_uniq_vals_for_each_column(key_,original_data):
-    for i in original_data:
-        if(len(key_) != len(i)):
-            raise(TypeError(f"{i} must be same length as {key_} "))
-    formatted_data = {}
+def get_uniq_vals_for_each_column(key_:List[str],
+                                  original_data:List[List[str]]) -> Dict[str, List[str]]:
+    """
+    Extracts and sorts unique values for each column from the original data.
+
+    Args:
+        key_ (List[str]): A list of keys corresponding to the columns of the original data.
+        original_data (List[List[str]]): A list of lists containing the tabular data.
+
+    Returns:
+        Dict[str, List[str]]: A dictionary where each key maps
+        to a sorted list of unique values from the original data.
+
+    Raises:
+        TypeError: If any entry in original_data does not have the same length as key_.
     
+    Example:
+        key_ = ['version', 'db', 'db_version', 'os', 'os_version']
+        original_data = [
+            ['11.0', 'Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 7'],
+            ['11.0', 'Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8'],
+            ['11.1', 'MongoDB', 'MongoDB 4.0', 'CentOS', 'CentOS 6']
+        ]
+        result = get_uniq_vals_for_each_column(key_, original_data)
+        # result will be:
+        # {
+        #     'version': ['11.0', '11.1'],
+        #     'db': ['Cassandra', 'MongoDB'],
+        #     'db_version': ['Cassandra 3.11.10', 'MongoDB 4.0'],
+        #     'os': ['CentOS'],
+        #     'os_version': ['CentOS 6', 'CentOS 7', 'CentOS 8']
+        # }
+    """
+    for i in original_data:
+        if len(key_) != len(i):
+            raise TypeError(f"{i} must be same length as {key_} ")
+    formatted_data = {}
+
     for i in key_:
         formatted_data[i] = set()
 
     for entry in original_data:
         for i,x in enumerate(key_):
             formatted_data[x].add(entry[i])
-        # database_name, database_version, os_name, os_version = entry
-        # formatted_data['DatabaseName'].add(database_name)
-        # formatted_data['DatabaseVersion'].add(database_version)
-        # formatted_data['OSName'].add(os_name)
-        # formatted_data['OSVersion'].add(os_version)
     for i in key_:
         formatted_data[i] = sorted(formatted_data[i])
 
     return formatted_data
 
-def is_index_between_range(ordered_list, range_tuple, element):
-    start_index = ordered_list.index(range_tuple[0])
-    end_index = ordered_list.index(range_tuple[1])
-    element_index = ordered_list.index(element)
-    
-    return start_index <= element_index <= end_index
-
 
 def has_duplicates_2d_lst(list_of_lists:List[List[str]]) -> bool:
     """
-    Checks a 2d list for duplicate values
+    Checks a 2D list for duplicate values, ignoring "null" and empty string values.
+
+    Args:
+        list_of_lists (List[List[str]]): A 2D list containing sublists of strings.
+
+    Returns:
+        bool: True if there are duplicate values (excluding "null" and ""), False otherwise.
+
+    Example:
+        lists_with_duplicates = [["apple", "banana", "cherry"], ["dog", "banana"], ["fish", ""]]
+        result_with_duplicates = has_duplicates_2d_lst(lists_with_duplicates)
+        # result_with_duplicates will be True because "banana" is a duplicate
+        
+        lists_with_duplicates = [['apple', 'apple'], ['banana']
+        result_with_duplicates = has_duplicates_2d_lst(lists_with_duplicates)
+        # result_with_duplicates will be True because "apple" is a duplicate
+        
+        lists_without_duplicates = 
+            [["apple", "banana", "cherry"], ["dog", "elephant"], ["fish", ""]]
+        result_without_duplicates = has_duplicates_2d_lst(lists_without_duplicates)
+        # result_without_duplicates will be False because there are no duplicates
     """
     seen = set()
     for sublist in list_of_lists:
@@ -110,6 +164,11 @@ def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
 
     Returns:
         list of list of int: The 2D list without duplicates.
+        
+    Example:
+        input_list = [["apple", "banana"], ["apple", "banana"], ["cherry"], ["apple", "cherry"]]
+        result = remove_duplicates_2d(input_list)
+        # result will be [["apple", "banana"], ["cherry"], ["apple", "cherry"]]
     """
     unique_list = []
     seen = set()
@@ -122,17 +181,24 @@ def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
 
     return unique_list
 
-def group_data_by_feature(data:List[List[str]],get_features:Callable[[List[str]],str],get_versions:Callable[[List[str]],List[str]]) -> Dict[str,List[str]]:
+def group_data_by_feature_availability_set(data:List[List[str]],
+                                           get_features:Callable[[List[str]],str],
+                                           get_versions:Callable[[List[str]],List[str]],
+                                           logger) -> Dict[str,List[str]]:
     """
-        Splits a row into compat values and feature values.
-        Returns a dict with feature set as key,
-        and sets of corresponding versions values as the value 
-        (in the form of a list).
+    Groups rows of data based on specific features and associates them with version values.
+
+    This function processes a list of data rows where each row contains various attributes.
+    It groups the rows by unique combinations of feature values extracted using the provided
+    function, and maps these groups to the corresponding version values, also extracted using
+    a provided function.
         
     Args:
         data (List[List[str]]): The input data to be grouped.
-        get_features (Callable[[List[str]], str]): Function to extract and combine feature values from a row.
-        get_versions (Callable[[List[str]], List[str]]): Function to extract version values from a row.
+        get_features (Callable[[List[str]], str]): 
+                            Function to extract and combine feature values from a row.
+        get_versions (Callable[[List[str]], List[str]]): 
+                            Function to extract version values from a row.
 
     Returns:
         Dict[str, List[List[str]]]: A dictionary where keys are
@@ -153,7 +219,8 @@ def group_data_by_feature(data:List[List[str]],get_features:Callable[[List[str]]
 
     grouped_data = group_data_by_feature(
         data,
-        get_features=lambda x: f"{x[2]}|+|{x[3]}",  # Combines Department and Skills into a unique string identifier
+        get_features=
+            lambda x: f"{x[2]}|+|{x[3]}",  # Combines Dept. and Skills into a uniq identifier
         get_versions=lambda x: [x[0], x[1]]  # Extracts EmployeeID and Name
     )
 
@@ -172,12 +239,12 @@ def group_data_by_feature(data:List[List[str]],get_features:Callable[[List[str]]
             feature = get_features(row)
             compat = get_versions(row)
             grouped_data.setdefault(feature, []).append(compat)
-        logging.info("Data successfully grouped by features.")
+        logger.info("Successfully grouped data by features")
         return grouped_data
     except Exception as e:
-        logging.error("Error grouping data by features: %s", e)
+        logger.error("Error grouping data by features: %s", e)
         raise
-    
+
 
 def write_dict_to_json_file(file_path,data_dict):
     """
@@ -191,22 +258,18 @@ def write_dict_to_json_file(file_path,data_dict):
         json.dump(data_dict, file, ensure_ascii=False, indent=4)
 
 
-
-def concatenate_first_last_elements(input_lst: List[List[str]]) -> List[str]:
+def pretty_print_row(row):
     """
-    Concatenates the first and last elements of each sublist in A. If a sublist
-    has only one element, it converts that element to a string.
+        Pretty print the key-value pairs of a dictionary row.
 
-    Args:
-        A (List[List[Any]]): A list of lists.
+        Args:
+            row (dict): A dictionary containing key-value pairs to be printed.
 
-    Returns:
-        List[str]: A list of strings, each being either the concatenation of the
-                   first and last elements of each sublist in A or the string representation
-                   of the single element in sublists of length 1.
-    """
-    output_lst = [
-        str(sublist[0]) if len(sublist) == 1 else str(sublist[0]) + " - " + str(sublist[-1])
-        for sublist in input_lst if sublist
-    ]
-    return output_lst
+        Example:
+            >>> pretty_print_row({'name': 'John', 'age': 30})
+            name: John
+            age: 30
+        """
+    for key in row.keys():
+        print(f"{key}:{row[key]}")
+    print("\n")

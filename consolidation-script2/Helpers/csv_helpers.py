@@ -2,7 +2,7 @@
 """
 import csv
 from typing import List
-import logging 
+import logging
 
 def read_csv_file(file_path) -> List[List[str]]:
     """ Reads CSV file given path"""
@@ -50,7 +50,7 @@ def read_csv_for_uniq_val(file_path:str,db_name:str,header_number:int) -> List[L
         logging.error("Error reading CSV file %s: %s", file_path, e)
         raise
 
-def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[str]: #TODO: Generalize this
+def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[str]:
     """ 
     Gets all unique values from a certain column from csv file excluding the header
     
@@ -77,7 +77,7 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
     except Exception as e:
         logging.error("Error reading CSV file %s: %s", file_path, e)
         raise
-    
+
 
 def write_csv_to_file(file_path:str,data:List[List[str]]):
     """ Writes a 2D List into CSV file given path """
@@ -90,18 +90,48 @@ def write_csv_to_file(file_path:str,data:List[List[str]]):
         writer.writerows(data)
 
 def append_as_csv(full_key, output_csv, feature_list, xss):
+    """
+    Appends data as CSV rows to the provided output list.
+
+    Args:
+        full_key (list): A list of all column headers/keys for the CSV.
+        output_csv (list): A list that accumulates the CSV rows.
+        feature_list (list): A list of additional features to append to each row.
+        xss (list of lists): A list of lists,
+        where each inner list represents a partial row of data.
+
+    Each row from `xss` is converted to a string, square brackets are replaced with parentheses, 
+    and the result is concatenated with the feature_list. The concatenated row is then appended 
+    to the output_csv.
+    """
     for xs in xss:
         xs_str = [f"{str(x).replace('[','(').replace(']',')')}" for x in xs]
         full_line = xs_str + feature_list
         assert(len(full_line) == len(full_key))
-            
+
         output_csv.append(full_line)
 
 def append_as_json(full_key, output_json, uniq_val, feature_list, xss):
+    """
+    Appends data as JSON objects to the provided output dictionary.
+
+    Args:
+        full_key (list): A list of all keys for the JSON objects.
+        output_json (dict): A dictionary that accumulates JSON objects. 
+                            Each key (uniq_val) points to a list of JSON objects.
+        uniq_val: A unique value that serves as the key in the output_json dictionary.
+        feature_list (list): A list of additional features to append to each JSON object.
+        xss (list of lists): A list of lists,
+        where each inner list represents a set of data to be converted into a JSON object.
+
+    Each row from `xss` is concatenated with the feature_list,
+    and the result is converted into a JSON object with keys from `full_key`.
+    The JSON object is then appended to the list in output_json corresponding to uniq_val.
+    """
     for xs in xss:
         full_line = xs + feature_list
         assert(len(full_line) == len(full_key))
-        
+
         xss_json = {}
         for i,val in enumerate(full_key):
             xss_json[val] = full_line[i]
