@@ -74,6 +74,8 @@ def main():
         # Define the full key
         full_key = version_headers + feature_headers
 
+        #TODO: Validate input csvs + based on specific heuristics
+
         logger.critical("Starting Consolidation for %s",input_csv_path)
         # Call the consolidate function
         try:
@@ -87,6 +89,7 @@ def main():
             logger.error("Error during consolidation: %s\n\n",e)
             sys.exit(1)
 
+    #TODO: Sort the output so that it changes only if there are actual changes
     logger.info("SCRIPT COMPLETED.")
 
 if __name__ == "__main__":
