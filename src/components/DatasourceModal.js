@@ -1,3 +1,6 @@
+
+import { EnvironmentDropDown, MethodDropDown } from './EnvironmentDropDown';
+
 // 
 import { Dropdown, Accordion, OrderedList, ListItem, UnorderedList, Link} from '@carbon/ibm-security';
 import { useEffect, useState } from 'react';
@@ -6,293 +9,139 @@ import '../styles/styles.css'
 import CompatMatrix from './CompatMatrix';
 import {getJSONData} from '../helpers/consts'
 
+import MethodSpecificInfo  from '../components/MethodCollapsibleInfo'
+
 
 const BLOCK_CLASS = `connections-doc`;
 
 
-// Helper function to generate UI
-const generateOrderListItem = (item) => {
-  
-    if (item.title && item.content && Array.isArray(item.content)){
-  
-      return (
-        
-        <ListItem>
-          {item.title}
-        <UnorderedList nested>
-              {item.content.map((nestedItem) => (          
-                generateOrderListItem(nestedItem)
-                  
-              ))}
-        </UnorderedList>     
-        </ListItem>
-      )
-    }
-  
-    if (item){
-      return (<ListItem>{item}</ListItem>)
-  
-    }
-    else {
-      return null
-    }
-  }
-  
-  // Helper function to generate UI
-  const generateAccordianItem = (item) => {
-    switch (item.type.toLowerCase()) {
-      case "string":
-        if ( Array.isArray(item.content)){
-          
-          return (
-            <div class="generatedAccordionItem">
-              <ul>
-  
-              {item.content.map((cntnt) => {
-                
-                return (<li>
-                {cntnt}
-              <br></br>
-                </li>)
-  
-              })}
-              </ul>
-          </div>
-          )
-  
-  
-        }
-  
-        return <div>{item.content}</div>
-      case "orderedlist":
-        return (
-          <UnorderedList>
-            {item.content.map((nestedItem) =>
-            (
-              generateOrderListItem(nestedItem)
-            ))}
-          </UnorderedList>
-        )
-      case "unordered":
-        return (
-          <OrderedList>
-            {item.content.map((nestedItem) =>
-            (
-              generateOrderListItem(nestedItem)
-            ))}
-          </OrderedList>
-        )
-      case "link":
-        return <Link href={item.content.link}>{item.content.title}</Link>
-      default:
-        return null
-    }
-  }
-  
+
 
 //DatasourceModal - Component used in modal for info of datasource
-export function DatasourceModal({ selectedDataSource, connectionData, selectedProduct }) {
-    
-    const [jsonDataForDB, setJsonDataForDB] = React.useState(null)
-    const [selectedEnvironment, _setSelectedEnvironment] = useState(null)
-    const [selectedMethod, _setSelectedMethod] = useState(null)
-    const [tableType, setTableType] = useState(null); 
-    const [toolTipOpen,setToolTipOpen] = useState([false,false,false]);
-  
-    useEffect(() => {
-      setSelectedEnvironment(null)  
-      setJsonDataForDB(null)
+export default function DatasourceModal({ selectedDataSourceData, selectedProduct }) {
+  // Used to populate the main table
+  const [jsonDataForDB, setJsonDataForDB] = React.useState(null);
 
-    }, [selectedDataSource]);
+  // Set from dropdowns, determine what to load for jsonDataForDB
+  const [selectedEnvironmentData, _setSelectedEnvironmentData] = useState(null);
+  const [selectedMethodData, _setSelectedMethodData] = useState(null);
 
-  
-    const setSelectedEnvironment = (environment) => {
-      _setSelectedEnvironment(environment)
-      setSelectedMethod(null);
+  // Used to load different headers for different data for diffreent env/method
+  const [tableType, setTableType] = useState(null);
+
+  // controls tooltip UI
+  const [toolTipOpen, setToolTipOpen] = useState([false, false, false]);
+
+  const [loading, setLoading] = useState(true);
+
+  // TODO: Use this error message somehow
+  const [errorMessage, setErrorMessage] = useState("");
+
+  useEffect(() => {
+    setSelectedEnvironmentData(null);
+    setJsonDataForDB(null);
+  }, [selectedDataSourceData]);
+
+  const setSelectedEnvironmentData = (environment) => {
+    _setSelectedEnvironmentData(environment);
+    setSelectedMethodData(null);
+  };
+
+  const setSelectedMethodData = (method) => {
+    _setSelectedMethodData(method);
+
+    // GetJSON Data for DB based on selected Environment and selected Method
+    if (selectedEnvironmentData !== null && method !== null) {
+      fetchData(selectedEnvironmentData, method);
     }
-  
-    const setSelectedMethod = (method) => {
-      _setSelectedMethod(method)
-    
-      // GetJSON Data for DB based on selected Environment and selected Method
-      if ((selectedEnvironment !== null) && (method !== null)) {
-        const [sample,TABLETYPE] = getJSONData(selectedEnvironment.environment_name,method.method_key)
-        setTableType(TABLETYPE)
-        const newJsonDataForDB = sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null
-        if (newJsonDataForDB == null){
-          throw new Error(`(${selectedDataSource["database_name"]}) does not have ${JSON.stringify(selectedEnvironment.environment_name)} | ${JSON.stringify(method.method_key)} data`);
-        }
-        setJsonDataForDB(sample.hasOwnProperty(selectedDataSource["database_name"]) ?  sample[selectedDataSource["database_name"]] : null)
+  };
+
+  const fetchData = (environment, method) => {
+    setLoading(true);
+    setErrorMessage(""); // Clear any previous error messages
+
+    try {
+      const [jsonData, tableType] = getJSONData(
+        environment.environment_name,
+        method.method_key
+      );
+
+      // Check if jsonData is found
+      if (!jsonData) {
+        setErrorMessage(`Data for ${environment.environment_name} | ${method.method_key} could not be loaded.`);
+        return;
       }
+      // Update the table type state
+      setTableType(tableType);
+
+      // Check if the selected database name exists in the jsonData
+      const newJsonDataForDB = jsonData.hasOwnProperty(
+        selectedDataSourceData["database_name"]
+      )
+        ? jsonData[selectedDataSourceData["database_name"]]
+        : null;
+
+      if (!newJsonDataForDB) {
+        setErrorMessage(
+          `No data available for ${selectedDataSourceData["database_name"]} in ${environment.environment_name} | ${method.method_key}.`
+        );
+        return;
+      }
+      // Update the JSON data state with the relevant data
+      setJsonDataForDB(newJsonDataForDB);
+    } catch (error) {
+      // Handle any errors that occur during data fetching
+      console.error("Error fetching data:", error);
+      setErrorMessage("An error occurred while fetching data." + error);
+    } finally {
+      // Set loading state to false after the operation is complete
+      setLoading(false);
     }
-  
-  
-    return (
-      <div className={`${BLOCK_CLASS}__data_sources_panel`} id='data_sources_panel'>
+  };
 
-        {/* Div Wrapper for everything but the compatibility matrix  */}
-        <div id="non_compat_matix_wrapper">
+  return (
+    <div
+      className={`${BLOCK_CLASS}__data_sources_panel`}
+      id="data_sources_panel"
+    >
+      {/* Div Wrapper for everything but the compatibility matrix/main table  */}
+      <div id="non_compat_matix_wrapper">
+        {/* Title DB Name */}
+        <h2>{selectedDataSourceData.database_name}</h2>
 
-          {/* Title DB Name */}
-          <h2>{selectedDataSource.database_name}</h2>
+        {/* TODO: Can refactor this DropdownEnvironment Dropwdown */}
+        {selectedDataSourceData && (
+          <EnvironmentDropDown
+            selectedEnvironmentData={selectedEnvironmentData}
+            selectedDataSourceData={selectedDataSourceData}
+            setSelectedEnvironmentData={setSelectedEnvironmentData}
+          />
+        )}
 
-          {/* Environment Dropwdown */}
-          {selectedDataSource && (
-            <Dropdown
-              ariaLabel="Environment Dropdown"
-              id="environment-dropdown"
-              selectedItem={selectedEnvironment}
-              items={selectedDataSource.environments_supported}
-              itemToString={(env) => env.environment_name}
-              label="Choose Environment"
-              titleText="Environment"
-              onChange={(item) => {
-                setSelectedEnvironment(item.selectedItem);
-              }}
-            />
-          )}
+        {/*  TODO: Can refactor this Dropdown Method Dropdown */}
+        {selectedEnvironmentData && (
+          <MethodDropDown
+            selectedMethod={selectedMethodData}
+            selectedEnvironment={selectedEnvironmentData}
+            selectedProduct={selectedProduct}
+            setSelectedMethodData={setSelectedMethodData}
+          />
+        )}
 
-          {/* Method Dropdown */}
-          {selectedEnvironment && (
-            <Dropdown
-              ariaLabel="Methods Dropdown"
-              id="methods-dropdown"
-              selectedItem={selectedMethod}
-              items={
-                selectedProduct === "Guardium Insights SaaS" ||
-                selectedProduct === "Guardium Insights (Software)"
-                  ? selectedEnvironment.methods_supported.filter(function (e) {
-                      return (
-                        e.method_key !== "External STAP" &&
-                        e.method_key !== "STAP"
-                      );
-                    })
-                  : selectedEnvironment.methods_supported
-              }
-              itemToString={(env) => env.method_name}
-              label="Choose Method"
-              titleText="Method"
-              onChange={(item) => {
-                setSelectedMethod(item.selectedItem);
-              }}
-            />
-          )}
-
-          {selectedMethod && MethodSpecificInfo()}
-        </div>
-
-        {/* Compatibility Matrix */}
-        {selectedMethod && (
-          
-            <div class="mainTableWrapper">
-            <CompatMatrix
-              tableType={tableType}
-              initialData={jsonDataForDB}
-            />
-            </div>
-          
-        
+        {selectedMethodData && (
+        <MethodSpecificInfo selectedMethodData={selectedMethodData}
+        toolTipOpen={toolTipOpen} setToolTipOpen={setToolTipOpen}/>
         )}
       </div>
-    );
 
-  function MethodSpecificInfo() {
-    return <div>
-      <br></br>
-      <h6> About {selectedMethod.method_name}</h6>
-      <ul>
-        <li
-          onClick={() => setToolTipOpen([
-            !toolTipOpen[0],
-            toolTipOpen[1],
-            toolTipOpen[2],
-          ])}
-          class="tooltip"
-        >
-          {" "}
-          How it works
-          {toolTipOpen[0] && (
-            <span class="tooltiptext">
-              {generateAccordianItem(
-                selectedMethod.method_info.filter(
-                  (section) => section.accordian_title == "How it works" &&
-                    section.content[0] != null
-                )[0]
-              )}
-            </span>
-          )}
-        </li>
-        <br></br>
+      {/* Compatibility Matrix */}
+      {selectedMethodData && (
+        <div class="mainTableWrapper">
+          <CompatMatrix tableType={tableType} initialData={jsonDataForDB} />
+        </div>
+      )}
+    </div>
+  );
 
-        <li
-          onClick={() => setToolTipOpen([
-            toolTipOpen[0],
-            !toolTipOpen[1],
-            toolTipOpen[2],
-          ])}
-          class="tooltip"
-        >
-          {" "}
-          Benefits and Considerations
-          {toolTipOpen[1] && (
-            <span class="tooltiptext">
-              <h6>Skill Level:</h6>{" "}
-              <div>
-                {" "}
-                {generateAccordianItem(
-                  selectedMethod.method_info.filter(
-                    (section) => section.accordian_title == "Skill Level" &&
-                      section.content != null
-                  )[0]
-                )}
-                <br></br>
-              </div>
-              <div>
-                <h6>Benefits: </h6>{" "}
-                {generateAccordianItem(
-                  selectedMethod.method_info.filter(
-                    (section) => section.accordian_title == "Benefits"
-                  )[0]
-                )}
-                <br></br>
-              </div>
-              <h6>Considerations: </h6>{" "}
-              {generateAccordianItem(
-                selectedMethod.method_info.filter(
-                  (section) => section.accordian_title == "Considerations"
-                )[0]
-              )}
-              <br></br>
-            </span>
-          )}
-        </li>
-        <br></br>
-        <li
-          class="tooltip"
-          onClick={() => setToolTipOpen([
-            toolTipOpen[0],
-            toolTipOpen[1],
-            !toolTipOpen[2],
-          ])}
-        >
-          {" "}
-          Getting Started
-          {toolTipOpen[2] && (
-            <span class="tooltiptext">
-              <h6>Information you will need: </h6>
-              <div>
-                {generateAccordianItem(
-                  selectedMethod.method_info.filter(
-                    (section) => section.accordian_title ==
-                      "Information you will need" &&
-                      section.content[0] != null
-                  )[0]
-                )}
-              </div>
-            </span>
-          )}
-        </li>
-      </ul>
-    </div>;
-  }
+
 }

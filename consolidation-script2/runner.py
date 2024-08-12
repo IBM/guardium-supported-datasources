@@ -91,6 +91,7 @@ def main():
 
     #TODO: Sort the output so that it changes only if there are actual changes
     logger.info("SCRIPT COMPLETED.")
+    #TODO: Check against connections.json
 
 if __name__ == "__main__":
     main()
