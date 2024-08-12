@@ -11,17 +11,24 @@ import { isCompatibleWithRange,generateOnesList } from '../helpers/helpers';
 export default function CompatMatrix({initialData,tableType}) {
 
 
-  const [displayData, setDisplayData] = useState(initialData); // Current Display Data
+  // Data used to populate the Compat Matrix/Main Table
+  const [jsonData, setJSONData] = useState(initialData); 
+
+  // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(generateOnesList(tableType.headers.length))
   const [sortPriority,setSortPriority] = useState(0);
-  const [maxHeight, setMaxHeight] = useState(0);
+
+  // Used to set maxWidth of table
   const [maxWidth, setMaxWidth] = useState(0);
-  const [maxTableWidth, setMaxTableWidth] = useState(0)
+
+  // For handling logic of the version slider
   const [GVSliderValue, setGVSliderValue] = React.useState([11.0, 12.0]);
+
+  // For handling logic of the OS dropdown
   const [selectedOS, setSelectedOS] = useState('All');
 
   useEffect(() => {
-    setDisplayData(initialData)  // Reset display data (Why?)
+    setJSONData(initialData)  // Reset display data (Why?)
   },[initialData,sortKey,GVSliderValue,selectedOS]);
 
   // Change sorting of data when clicking on a header
@@ -46,7 +53,7 @@ export default function CompatMatrix({initialData,tableType}) {
 
     var lst = ["All"]
 
-    for (const row of displayData) {
+    for (const row of jsonData) {
       for (const osName of row.OSName) {
         if (!lst.includes(osName)) {
           lst.push(osName)
@@ -61,7 +68,7 @@ export default function CompatMatrix({initialData,tableType}) {
   // Applies applicable sortings + filters on full data for that DB (i.e displayData) and returns it
   function SortedAndFilteredDisplayData() {
 
-    var sortedData = [...displayData];
+    var sortedData = [...jsonData];
 
     // Filter on Guardium Version Range + selected OS (Only for TableType 1)
     if (tableType.id == 1) {
