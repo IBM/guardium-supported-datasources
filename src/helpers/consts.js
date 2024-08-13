@@ -239,3 +239,16 @@ export  const getJSONData = (environment,method) => {
     } 
   
   }
+
+export  const BLOCK_CLASS = `connections-doc`;
+
+export const PRODUCTS = [
+  "All",
+  "Guardium Data Protection",
+  "Guardium Insights (Software)",
+  "Guardium Insights SaaS",
+];
+
+export const GV_RANGE = [11.0, 12.0];
+
+export const DEFAULT_OS_DROPDOWN_VALUE = "All";

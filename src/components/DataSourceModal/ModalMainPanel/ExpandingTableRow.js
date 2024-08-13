@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { splitIntoPairs } from '../helpers/helpers';
+import { splitIntoPairs } from '../../../helpers/helpers';
 
 
 

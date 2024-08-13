@@ -1,6 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default function DataSourceCard({ dataSourceData,setOpen,setSelectedDataSourceData,BLOCK_CLASS }) {
+export default function MainPageCard({
+  dataSourceData,
+  setOpen,
+  setSelectedDataSourceData,
+  BLOCK_CLASS,
+}) {
   return (
     <div className={`bx--col-lg-2`}>
       <div
@@ -18,6 +23,4 @@ export default function DataSourceCard({ dataSourceData,setOpen,setSelectedDataS
       </div>
     </div>
   );
-};
-
-
+}

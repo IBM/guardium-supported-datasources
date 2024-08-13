@@ -24,7 +24,7 @@ export function EnvironmentDropDown({
 
 export function MethodDropDown({
   selectedMethodData,
-  selectedEnvironment,
+  selectedEnvironmentData,
   selectedProduct,
   setSelectedMethodData
 }) {
@@ -37,13 +37,13 @@ export function MethodDropDown({
                 // If SaaS or Insights, remove STAP related methods
                 selectedProduct === "Guardium Insights SaaS" ||
                 selectedProduct === "Guardium Insights (Software)"
-                  ? selectedEnvironment.methods_supported.filter(function (e) {
+                  ? selectedEnvironmentData.methods_supported.filter(function (e) {
                       return (
                         e.method_key !== "External STAP" &&
                         e.method_key !== "STAP"
                       );
                     })
-                  : selectedEnvironment.methods_supported
+                  : selectedEnvironmentData.methods_supported
               }
               itemToString={(method) => method.method_name}
               label="Choose Method"

@@ -9676,28 +9676,6 @@
             "id": 2
         }
     ],
-    "Sailfish": [
-        {
-            "Blocking": "DB2 Exit",
-            "Compression": "",
-            "DB_VERSIONS": "1.0",
-            "Encrypted traffic": "",
-            "GUARDIUM_VERSION": "11",
-            "Instance Discovery": "",
-            "Kerberos": "",
-            "Local traffic": "DB2 Exit",
-            "Network traffic": "",
-            "OS_VERSIONS": [
-                "Red Hat: 7.6 PPC64LE"
-            ],
-            "Protocol": "N/A",
-            "Query Rewrite": "",
-            "Redaction": "",
-            "Shared Memory": "",
-            "UID Chain": "DB2 Exit",
-            "id": 0
-        }
-    ],
     "Snowflake": [
         {
             "Blocking": "",

@@ -227,6 +227,7 @@ def cartesian_decomposition(version_data:List[List[str]],
                 if len(version_data_copy_filtered) != len(version_data_copy):
                     version_data_copy = version_data_copy_filtered
                     combinations_list.remove(combo)
+                    #Check for subcombos
                     final_combos.append(combo)
 
     #Assertion that total number of rows represented by final_combos

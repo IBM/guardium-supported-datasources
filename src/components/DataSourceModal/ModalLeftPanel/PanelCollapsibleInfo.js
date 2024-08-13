@@ -1,9 +1,9 @@
 import React from "react";
-import { generateAccordianItem } from '../helpers/helpers';
-
+import { generateAccordianItem } from '../../../helpers/helpers';
+// TODO: Used react carbon <toggletipitem> here
 // Collapsible Information Related to current Method, logic is handled using toolTop
 // Information is retrieved from connections.json
-export default function MethodSpecificInfo({ selectedMethodData, toolTipOpen,setToolTipOpen, }) {
+export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,setToolTipOpen, }) {
   return (
     <div>
       <br></br>
