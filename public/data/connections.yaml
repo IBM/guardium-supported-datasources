@@ -1708,17 +1708,6 @@ supported_databases:
       - Suse 11 (32 bit & 64 bit)
       - Suse 12 (64 bit)
       - Suse 15 (64 bit)
-- database_name: Sailfish
-  supported_since: 0.0.0
-  gdp_supported_since: 11.0.0
-  environments_supported:
-  - environment_name: On-premise or IaaS
-    methods_supported:
-    - method_key: STAP
-      supported_versions:
-      - Sailfish 1.0
-      supported_operating_systems:
-      - Red Hat 7.6 PPC64LE
 - database_name: MemSQL
   supported_since: 0.0.0
   gdp_supported_since: 11.0.0

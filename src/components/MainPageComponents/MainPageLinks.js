@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
+// import "../styles/styles.css";
 
-
-export default function LinksDiv({ blockClass }) {
+export default function MainPageLinks() {
   return (
     <div className="links_div">
       <a
-        className={`${blockClass}__raw-data-link`}
-        href={process.env.PUBLIC_URL+"/data/connections.json"}
+        className={`raw-data-link`}
+        href={process.env.PUBLIC_URL + "/data/connections.json"}
         target="_blank"
         rel="noopener noreferrer"
       >
         Raw Data
       </a>
       <a
-        className={`${blockClass}__raw-data-link`}
+        className={`raw-data-link`}
         href="https://github.com/AhmedMujtabaIBM/guardium-supported-datasources-v2/issues/new"
         target="_blank"
         rel="noopener noreferrer"
@@ -23,4 +23,3 @@ export default function LinksDiv({ blockClass }) {
     </div>
   );
 }
-
