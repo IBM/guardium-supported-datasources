@@ -195,7 +195,6 @@ def cartesian_decomposition(version_data:List[List[str]],
     # Generate all possible relevant ranges (ordered subsets)
     # per each column using uniq vals (Can blow up computationally)
     # eg. find_ranges([1,2,3]) = [[1],[2],[3],[1,2],[2,3],[1,2,3]]
-    
     all_ranges = []
     for x in key_:
         ranges = find_relevant_ranges(list(uniq_column_vals_version_data[x]),list(uniq_column_vals_part_data[x]))
@@ -233,7 +232,7 @@ def cartesian_decomposition(version_data:List[List[str]],
             if combo.combo_allows_row(row):
                 combo.add_row(row) # Store all compatible rows for each combo
     logger.debug("Referenced all data rows with all possible combinations")
-    # TODO: Not guaranteed to be optimal
+    # Not guaranteed 
 
     # Sort combination from higher to lower capacity
     combinations_list = sorted(combinations_list, key=lambda x: -x.capacity)

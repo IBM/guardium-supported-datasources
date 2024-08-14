@@ -36,6 +36,55 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
     setSortPriority(ind);
   }
 
+  // Applies applicable sortings + filters on full data for that DB (i.e displayData) and returns it
+  function SortedAndFilteredDisplayData() {
+    var sortedData = [...jsonData];
+
+    // TODO: Instead of only filtering,manipulated to remove filtered values (specifically on for GV)
+    // TODO: Fix sort, how can u sort between 2 ranges?
+
+    // Filter on Guardium Version Range + selected OS (Only for TableType 1)
+    if (tableType.id == 1) {
+      const lowerBound = GVSliderValue[0];
+      const upperBound = GVSliderValue[1];
+      sortedData = sortedData.filter((row) =>
+        isCompatibleWithRange(row.GuardiumVersion, lowerBound, upperBound)
+      );
+
+      if (selectedOS != "All") {
+        sortedData = sortedData.filter((row) =>
+          row.OSName.includes(selectedOS)
+        );
+      }
+    }
+    if (sortedData.length == 0) {
+      return [];
+    }
+
+    // Apply sorting to data based on sort key (based on headers clicked)
+    for (let i = 0; i < sortKey.length; i++) {
+      if (sortKey[i] != 0) {
+        if (sortKey[i] == 1) {
+          sortedData = sortedData.sort(tableType.headers[i].sorta);
+        }
+        if (sortKey[i] == -1) {
+          sortedData = sortedData.sort(tableType.headers[i].sortd);
+        }
+      }
+    }
+    // Ensure that the header that is clicked is sorted last
+    if (sortKey[sortPriority] == 1) {
+      sortedData = sortedData.sort(tableType.headers[sortPriority].sorta);
+    }
+    if (sortKey[sortPriority] == -1) {
+      sortedData = sortedData.sort(tableType.headers[sortPriority].sortd);
+    }
+
+    return sortedData;
+  }
+
+  
+
   return (
     <div style={{ width: "max-content" }}>
       <br></br>
