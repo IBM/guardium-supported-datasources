@@ -16,7 +16,7 @@ from Helpers.csv_helpers import (
     read_csv_for_uniq_val,
     read_csv_get_unique_vals_in_column,
     write_csv_to_file,
-    append_as_csv,append_as_json)
+    transform_and_append_as_csv,transform_and_append_as_json)
 
 
 
@@ -34,7 +34,7 @@ def consolidate(output_json_path,
 
     This function partitions the data based on unique values in a specified column,
     groups rows together that have the same feature availability values, 
-    and consolidates rows that have the same features.
+    and finds a compressed representation for these rows.
     
     The consolidated data is then saved in JSON and CSV formats.
 
@@ -42,15 +42,15 @@ def consolidate(output_json_path,
         output_json_path (str): The file path where the output JSON will be saved.
         output_csv_path (str): The file path where the output CSV will be saved.
         input_csv_path (str): The file path of the input CSV containing the full data.
-        header_key (list): List of header keys to identify unique groups in the data.
+        version_key (list): List of version header names.
         full_key (list): List of all keys/headers in the CSV.
-        feature_key (list): List of feature keys to match values against.
+        feature_key (list): List of feature header names
         partition_header_number (int): The column index used for partitioning the data.
         
 
     Example:
         >>> consolidate('output.json', 'output.csv', 'data.csv', ['id', 'name'],
-                                ['id', 'name', 'feature1', 'feature2'], 2, ['feature1', 'feature2'])
+                                ['id', 'name', 'feature1', 'feature2'], ['feature1', 'feature2'], 1)
     
     Note:
         - 'feature availability values' refer to cell values
@@ -78,9 +78,10 @@ def consolidate(output_json_path,
         data = read_csv_for_uniq_val(input_csv_path,uniq_val,partition_header_number)
         logger.debug("Partitioned Data for %s",uniq_val)
 
-
+        #TODO: CONSTRAINT-version values must come first
         # Group rows of data based on their feature availability values,
-        # Returns a dict with a string key (representing feature values) and,
+        # Returns Dict[str, List[List[str]]]
+        # A dict with a string key (representing one rows' feature values) and,
         # Lists of lists of strings (representing version values from multiple rows) as values
         # Therefore, each list of strings
         # concatenated with the corresponding key, recreates the original row
@@ -95,26 +96,26 @@ def consolidate(output_json_path,
 
 
         # Loop thru grouped_data dictionary
-        # Each key represents a set of a feature availabilities
-        # Each value is a list a list of versions values
+        # Each key represents one rows' feature values
+        # Each value represents version values from multiple rows
         for set_of_feature_availability,_ in grouped_data.items():
 
-            # Convert back into list
+            # Convert one rows' feature values back into list
             feature_availability_list = set_of_feature_availability.split('|+|')
             assert(len(feature_availability_list) == (len(full_key)-len(version_key)))
 
             logger.info(
                 "Performing Cartesian Decomposition for Uniq Val: %s and Feature Set: %s",
                 uniq_val ,feature_availability_list)
-            # Consolidate/Compress rows of data that have same feature
+            # Returns a consolidate/compressed representation of the version values from multiple rows
             consolidated_version_rows = cartesian_decomposition(
                                                         grouped_data[set_of_feature_availability],
                                                         version_key,logger,input_csv_path)
 
             # Append consolidated information as json and csv
-            append_as_json(full_key, output_json, uniq_val,
+            transform_and_append_as_json(full_key, output_json, uniq_val,
                            feature_availability_list, consolidated_version_rows)
-            append_as_csv(full_key, output_csv,
+            transform_and_append_as_csv(full_key, output_csv,
                           feature_availability_list, consolidated_version_rows)
 
 
@@ -133,17 +134,18 @@ def cartesian_decomposition(version_data:List[List[str]],
 
     This function finds a compressed/consolidated representation of multiple rows 
     by allowing each cell to represent an
-    ordered lists of version values (e.g ["Guardium 11.0", "Guardium 11.1"])
+    ordered lists of version values (e.g [["Guardium 11.0",a,b,c]
+                                          ["Guardium 11.1",a,b,c]] = [("Guardium 11.0", "Guardium 11.1"),a,b,c])
     
     The original data can be reconstructed by taking the Cartesian product within each sub-list
 
     Args:
         compat_data (List[List[str]]): Compat_Data is a 2d list
         of version values of multiple rows that have the same features
-        key_ (List[str]): List of header values
+        key_ (List[str]): List of header names
 
     Returns:
-        List[List[List[str]]]: _description_
+        List[List[List[str]]]: a compressed/consolidated representation of version_data
         
     Example Usage:
         compat_data = [
@@ -160,11 +162,11 @@ def cartesian_decomposition(version_data:List[List[str]],
         ["11.1",'DB2', 'DB2 11.5.7', 'SUSE', '15'],
         ]
         
-        header_key = [
+        feature_key = [
         "Guardium_Version","DB_Name", "DB_Version", "OS_Name", "OS_Version" 
         ]
         
-        cartesian_decomposition(compat_data=compat_data,key_=header_key) returns 
+        cartesian_decomposition(compat_data=compat_data,key_=feature_key) returns 
         [
         [['11.1'], ['MongoDB'], ['MongoDB 4.0', 'MongoDB 4.2', 'MongoDB 4.4', 'MongoDB 4.6', 'MongoDB 4.7', 'MongoDB 4.8'], ['CentOS'], ['CentOS 6']], # pylint: disable=C0301
         [['11.0'], ['Cassandra'], ['Cassandra 3.11.10'], ['CentOS'], ['CentOS 7', 'CentOS 8']],
@@ -189,13 +191,25 @@ def cartesian_decomposition(version_data:List[List[str]],
 
     # Generate all possible ranges (ordered subsets)
     # per each column using uniq vals (Can blow up computationally)
+    # eg. find_ranges([1,2,3]) = [[1],[2],[3],[1,2],[2,3],[1,2,3]]
     all_ranges = []
     for x in key_:
         ranges = find_ranges(list(uniq_column_vals_compat_data[x]))
         all_ranges.append(ranges)
     logger.debug("Generated all possible ordered set of uniq vals of each column")
 
-    # Generate all possible combinations using ranges for each column (Can blow up computationally)
+    # Generate all possible combinations using ranges from each column
+    # Take cartesian product of each list of ranges
+    # combinations([ [[1],[2],[3],[1,2],[2,3],[1,2,3]] , [["a"],["b"],["a","b"]] ]) =
+    #     [
+    #         [[1], ['a']],       [[1], ['b']],       [[1], ['a', 'b']],
+    #         [[2], ['a']],       [[2], ['b']],       [[2], ['a', 'b']],
+    #         [[3], ['a']],       [[3], ['b']],       [[3], ['a', 'b']],
+    #         [[1, 2], ['a']],    [[1, 2], ['b']],    [[1, 2], ['a', 'b']],
+    #         [[2, 3], ['a']],    [[2, 3], ['b']],    [[2, 3], ['a', 'b']],
+    #         [[1, 2, 3], ['a']], [[1, 2, 3], ['b']], [[1, 2, 3], ['a', 'b']]
+    #                                                                         ]
+    # (Can blow up computationally)
     # Save each combination as a Combination Object
     combinations_list = []
     y = combinations(all_ranges)
@@ -207,9 +221,12 @@ def cartesian_decomposition(version_data:List[List[str]],
     for _,row in enumerate(version_data):
         for _,combo in enumerate(combinations_list):
             # Check if row is compatible with combo (Cartesian product of combo includes row)
+            # i.e row [1,a] is compatible with combo([[1], ['a', 'b']])
+            # but row [1,a] is not compatible with combo([[2, 3], ['a', 'b']])
             if combo.combo_allows_row(row):
-                combo.add_row(row)
+                combo.add_row(row) # Store all compatible rows for each combo
     logger.debug("Referenced all data rows with all possible combinations")
+    # Not guaranteed 
 
     # Sort combination from higher to lower capacity
     combinations_list = sorted(combinations_list, key=lambda x: -x.capacity)
@@ -220,6 +237,8 @@ def cartesian_decomposition(version_data:List[List[str]],
 
     # Loop thru each full capped combination and remove those lines from compat_data_copy,
     # that can be represented by that combination
+    # Continue till you have a list of combination that can
+    # represent all lines/rows in compat_data
     while len(version_data_copy) != 0:
         for _,combo in enumerate(combinations_list):
             if combo.is_full_cap():

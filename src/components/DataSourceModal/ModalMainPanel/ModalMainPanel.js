@@ -46,6 +46,9 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   function SortedAndFilteredDisplayData() {
     var sortedData = [...jsonData];
 
+    // TODO: Instead of only filtering,manipulated to remove filtered values (specifically on for GV)
+    // TODO: Fix sort, how can u sort between 2 ranges?
+
     // Filter on Guardium Version Range + selected OS (Only for TableType 1)
     if (tableType.id == 1) {
       const lowerBound = GVSliderValue[0];

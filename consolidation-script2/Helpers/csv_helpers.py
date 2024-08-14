@@ -89,7 +89,7 @@ def write_csv_to_file(file_path:str,data:List[List[str]]):
         # Write the 2D list to the CSV file
         writer.writerows(data)
 
-def append_as_csv(full_key, output_csv, feature_list, xss):
+def transform_and_append_as_csv(full_key, output_csv, feature_list, xss):
     """
     Appends data as CSV rows to the provided output list.
 
@@ -111,7 +111,7 @@ def append_as_csv(full_key, output_csv, feature_list, xss):
 
         output_csv.append(full_line)
 
-def append_as_json(full_key, output_json, uniq_val, feature_list, xss):
+def transform_and_append_as_json(full_key, output_json, uniq_val, feature_list, xss):
     """
     Appends data as JSON objects to the provided output dictionary.
 

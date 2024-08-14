@@ -1,6 +1,6 @@
 # Guardium Data Sources Maintenance Guide
-
-Data source documentation
+TODO: Mention the github repo/team permissions needed (write access to repo, push access to gh-pages branch, collaborator or member role)
+This guide provides step-by-step instructions for maintaining the compatibility information for Guardium data sources. It is intended for use by Quality Assurance (QA) teams to ensure the accuracy and up-to-date status of the data.
 
 ## To make changes to the data sources
 

@@ -103,7 +103,6 @@ export default function MainPage() {
           </div>
         </div>
 
-        {/* TODO: Can refactor this <Modal> DataSource Modal open when click on DataSource Card */}
         {selectedDataSourceData && (
           
             <DatasourceModal
