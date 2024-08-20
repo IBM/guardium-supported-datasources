@@ -1,0 +1,106 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "rules": {
+        "react/prop-types": "off",
+        "react/jsx-no-target-blank": "off",
+        "semi": "off",
+        "no-prototype-builtins": "off",
+        "react/no-unknown-property": [
+            "error",
+            {
+                "ignore": [
+                    "class"
+                ]
+            }
+        ],
+        "react/jsx-key": "off",
+        "no-unused-vars": "off",
+        "react/react-in-jsx-scope": "off"
+    },
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "fragment": "Fragment",
+            "version": "detect",
+            "defaultVersion": "17.0.2",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": [
+            "forbidExtraProps",
+            {
+                "property": "freeze",
+                "object": "Object"
+            },
+            {
+                "property": "myFavoriteWrapper"
+            },
+            {
+                "property": "forbidExtraProps",
+                "exact": true
+            }
+        ],
+        "componentWrapperFunctions": [
+            "observer",
+            {
+                "property": "styled"
+            },
+            {
+                "property": "observer",
+                "object": "Mobx"
+            },
+            {
+                "property": "observer",
+                "object": "<pragma>"
+            }
+        ],
+        "formComponents": [
+            "CustomForm",
+            {
+                "name": "SimpleForm",
+                "formAttribute": "endpoint"
+            },
+            {
+                "name": "Form",
+                "formAttribute": [
+                    "registerEndpoint",
+                    "loginEndpoint"
+                ]
+            }
+        ],
+        "linkComponents": [
+            "Hyperlink",
+            {
+                "name": "MyLink",
+                "linkAttribute": "to"
+            },
+            {
+                "name": "Link",
+                "linkAttribute": [
+                    "to",
+                    "href"
+                ]
+            }
+        ]
+    }
+}

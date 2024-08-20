@@ -1,11 +1,23 @@
+// Wrapper for the MainPage component
 import './styles/connection_doc.scss';
-import Connection from './Connection';
+import MainPage from './components/MainPage';
 import './styles/globals.scss';
+import React from 'react';
+import { version } from 'react';
 
-function App() {
-  return (
-    <Connection />
-  );
+
+
+class App extends React.Component {
+
+
+  render() {
+    
+    return (
+      <main>
+        <MainPage/>
+      </main>
+    );
+  }
 }
 
 export default App;

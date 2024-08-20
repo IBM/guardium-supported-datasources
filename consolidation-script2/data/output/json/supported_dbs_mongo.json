@@ -1,0 +1,662 @@
+﻿{
+    "MongoDB": [
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4",
+                "MongoDB 4.1"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 8"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.1",
+                "11.2"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 8"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 11 PPC64 (Big Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1",
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "",
+            "Local traffic": "S-TAP",
+            "Encrypted traffic": "",
+            "Shared Memory": "N/A",
+            "Kerberos": "",
+            "Blocking": "S-TAP",
+            "Redaction": "S-TAP",
+            "UID Chain": "N/A",
+            "Compression": "N/A",
+            "Query Rewrite": "",
+            "Instance Discovery": "S-TAP",
+            "Protocol": "TCP",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "",
+            "Local traffic": "S-TAP",
+            "Encrypted traffic": "",
+            "Shared Memory": "N/A",
+            "Kerberos": "",
+            "Blocking": "S-TAP",
+            "Redaction": "S-TAP",
+            "UID Chain": "N/A",
+            "Compression": "N/A",
+            "Query Rewrite": "",
+            "Instance Discovery": "S-TAP",
+            "Protocol": "TCP",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4"
+            ],
+            "Network traffic": "",
+            "Local traffic": "S-TAP",
+            "Encrypted traffic": "",
+            "Shared Memory": "N/A",
+            "Kerberos": "",
+            "Blocking": "S-TAP",
+            "Redaction": "S-TAP",
+            "UID Chain": "N/A",
+            "Compression": "N/A",
+            "Query Rewrite": "",
+            "Instance Discovery": "S-TAP",
+            "Protocol": "TCP, NMP",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2",
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 3.2",
+                "MongoDB 3.4",
+                "MongoDB 3.6",
+                "MongoDB 4",
+                "MongoDB 4.1"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.0",
+                "11.1",
+                "11.2"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2"
+            ],
+            "Network traffic": "K-TAP",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "K-TAP,UC",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "K-TAP,UC",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "K-TAP,UC",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "K-TAP,UC",
+            "Local traffic": "K-TAP",
+            "Encrypted traffic": "A-TAP",
+            "Shared Memory": "",
+            "Kerberos": "",
+            "Blocking": "K-TAP, A-TAP (A-TAP with Linux 2.6.36 and higher only)",
+            "Redaction": "K-TAP",
+            "UID Chain": "K-TAP, A-TAP (A-TAP only when configured for real IPs)",
+            "Compression": "K-TAP",
+            "Query Rewrite": "",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": ""
+        }
+    ]
+}

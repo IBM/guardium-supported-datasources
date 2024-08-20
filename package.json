@@ -1,12 +1,19 @@
 {
-  "name": "guardium-supported-datasources",
-  "homepage": "https://ibm.github.io/guardium-supported-datasources/",
+  "name": "guardium-supported-datasources-v2",
+  "homepage": "https://ibm.github.io/guardium-supported-datasources-v2/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@carbon/ibm-cloud-cognitive": "^1.8.0",
     "@carbon/ibm-security": "^2.11.1",
     "@carbon/icons-react": "^10.46.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material/web": "^1.1.1",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/material": "^5.14.9",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
@@ -14,25 +21,23 @@
     "carbon-components-react": "^7.53.0",
     "fuse.js": "^6.5.3",
     "js-yaml": "^4.1.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-expand-animated": "^1.0.2",
+    "react-scripts": "^5.0.1",
     "sass": "^1.49.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node src/convert.js && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "deploy": "gh-pages -d build",
+    "consol": "rm ./src/data/consolidated_csvs/OnPrem_UC.json && python3 ./consolidation-script2/runner.py ./consolidation-script2/config/configOnPrem_UC.yaml",
+    "consol_deploy_true": "rm -rf ./src/data/consolidated_csvs/* && python3 ./consolidation-script2/run_all.py ./consolidation-script2/config && gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -47,6 +52,11 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "gh-pages": "^6.1.1",
+    "globals": "^15.9.0",
+    "jshint": "^2.13.6"
   }
 }

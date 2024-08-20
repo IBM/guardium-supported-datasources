@@ -1,0 +1,2 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),"('GDP 11.3.0', 'GDP 11.4.0', 'GDP 11.5.0', 'GDP 12.0.0')",('Oracle Autonomous Database'),"('12.1', '19c', '21c')",,,Oracle ASO (native network encryption) is not supported.,,
