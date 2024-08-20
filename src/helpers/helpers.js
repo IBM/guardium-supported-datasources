@@ -5,6 +5,7 @@ import {
   UnorderedList,
   Link,
 } from "@carbon/ibm-security";
+import React from 'react';
 
 export function isNumber(str) {
   return !isNaN(parseFloat(str)) && isFinite(str);
