@@ -1,6 +1,6 @@
 {
-  "name": "guardium-supported-datasources-v2",
-  "homepage": "https://ibm.github.io/guardium-supported-datasources-v2/",
+  "name": "guardium-supported-datasources",
+  "homepage": "https://ibm.github.io/guardium-supported-datasources/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --force",
     "consol": "rm ./src/data/consolidated_csvs/OnPrem_UC.json && python3 ./consolidation-script2/runner.py ./consolidation-script2/config/configOnPrem_UC.yaml",
     "consol_deploy_true": "rm -rf ./src/data/consolidated_csvs/* && python3 ./consolidation-script2/run_all.py ./consolidation-script2/config && gh-pages -d build"
   },
