@@ -1,106 +1,68 @@
 {
     "env": {
-        "browser": true,
-        "node": true,
-        "es2021": true
+      "browser": true,
+      "es2021": true,
+      "node": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:react-hooks/recommended"
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 12,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
     },
     "plugins": [
-        "react",
-        "react-hooks"
+      "react",
+      "@typescript-eslint",
+      "prettier"
     ],
     "rules": {
-        "react/prop-types": "off",
-        "react/jsx-no-target-blank": "off",
-        "semi": "off",
-        "no-prototype-builtins": "off",
-        "react/no-unknown-property": [
-            "error",
-            {
-                "ignore": [
-                    "class"
-                ]
-            }
-        ],
-        "react/jsx-key": "off",
-        "no-unused-vars": "off",
-        "react/react-in-jsx-scope": "off"
+      "no-console": "warn", // Warns when console logs are used
+      "no-debugger": "error", // Prevents the use of debugger
+      "no-unused-vars": "error", // Prevents unused variables
+      "no-implicit-globals": "error", // Disallows global variables
+      "eqeqeq": ["error", "always"], // Enforces strict equality checks
+      "curly": ["error", "all"], // Enforces consistent use of curly braces for all control statements
+      "quotes": ["error", "single", { "avoidEscape": true }], // Enforces single quotes for strings
+      "semi": ["error", "always"], // Enforces semicolons at the end of statements
+      "prettier/prettier": "error", // Ensures code formatting follows Prettier configuration
+      "react/jsx-uses-react": "off", // Turns off the rule if using React 17+
+      "react/react-in-jsx-scope": "off", // Turns off the rule if using React 17+
+      "react/prop-types": "off", // Disables prop-types rule if using TypeScript
+      "@typescript-eslint/no-explicit-any": "error", // Disallows usage of the `any` type in TypeScript
+      "@typescript-eslint/explicit-function-return-type": "warn", // Warns when function return type is not explicitly set
+      "@typescript-eslint/no-unused-vars": "error", // Prevents unused variables in TypeScript
+      "@typescript-eslint/no-non-null-assertion": "error", // Disallows non-null assertions
+      "@typescript-eslint/consistent-type-definitions": ["error", "interface"], // Enforces using interfaces over types for object types
+      "@typescript-eslint/no-empty-function": "warn", // Warns on empty functions
+      "@typescript-eslint/no-inferrable-types": "error", // Disallows explicit type declarations that can be inferred
+      "import/order": ["error", {
+        "groups": [["builtin", "external"], "internal", ["parent", "sibling", "index"]],
+        "newlines-between": "always"
+      }], // Enforces a strict import order
+      "import/no-default-export": "error", // Disallows default exports
+      "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/*.test.ts", "**/*.spec.ts"] }], // Prevents unnecessary dependencies
+      "array-callback-return": "error", // Ensures that array methods like .map have a return statement
+      "no-else-return": "error", // Disallows return in else statements when if block has a return
+      "prefer-const": "error", // Enforces the use of const when variables are not reassigned
+      "no-var": "error", // Disallows var, enforcing let or const
+      "no-shadow": "error", // Prevents variable declarations from shadowing variables declared in the outer scope
+      "no-duplicate-imports": "error", // Disallows duplicate imports
+      "no-undef-init": "error", // Disallows initializing variables to undefined
+      "consistent-return": "error", // Enforces consistent return statements in functions
+      "dot-notation": ["error", { "allowKeywords": true }] // Encourages the use of dot notation whenever possible
     },
     "settings": {
-        "react": {
-            "createClass": "createReactClass",
-            "pragma": "React",
-            "fragment": "Fragment",
-            "version": "detect",
-            "defaultVersion": "17.0.2",
-            "flowVersion": "0.53"
-        },
-        "propWrapperFunctions": [
-            "forbidExtraProps",
-            {
-                "property": "freeze",
-                "object": "Object"
-            },
-            {
-                "property": "myFavoriteWrapper"
-            },
-            {
-                "property": "forbidExtraProps",
-                "exact": true
-            }
-        ],
-        "componentWrapperFunctions": [
-            "observer",
-            {
-                "property": "styled"
-            },
-            {
-                "property": "observer",
-                "object": "Mobx"
-            },
-            {
-                "property": "observer",
-                "object": "<pragma>"
-            }
-        ],
-        "formComponents": [
-            "CustomForm",
-            {
-                "name": "SimpleForm",
-                "formAttribute": "endpoint"
-            },
-            {
-                "name": "Form",
-                "formAttribute": [
-                    "registerEndpoint",
-                    "loginEndpoint"
-                ]
-            }
-        ],
-        "linkComponents": [
-            "Hyperlink",
-            {
-                "name": "MyLink",
-                "linkAttribute": "to"
-            },
-            {
-                "name": "Link",
-                "linkAttribute": [
-                    "to",
-                    "href"
-                ]
-            }
-        ]
+      "react": {
+        "version": "detect"
+      }
     }
-}
+  }
+  
