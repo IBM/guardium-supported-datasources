@@ -22,7 +22,7 @@ export default function ModalTableHeaders({
             {
               <ArrowDropDownIcon
                 id={
-                  sortKey[id] != -0
+                  sortKey[id] != 0
                     ? "rotate" + (sortKey[id] != -1)
                     : "rotatemed"
                 }
