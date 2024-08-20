@@ -3018,7 +3018,7 @@
         {
           "accordian_title": "Considerations",
           "type": "string",
-          "content": [
+          "content": [ 
             "Installing and maintaining agents requires coordination with other teams and owners including: database server administrators, database administrators, and application owners.",
             "Agent-based infrastructure is sensitive to changes in the underlying database and operating system.  The agent and inspection engines must be kept up-to-date to deal with these changes.",
             "S-TAPs can be managed standalone or with Guardium Installation Manager (GIM)."
