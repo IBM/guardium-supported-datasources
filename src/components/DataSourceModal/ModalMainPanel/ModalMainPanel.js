@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import OSDropDown from "./OSDropdown";
 import VersionSlider from "./VersionSlider";
 import {
-  generateOnesList,
+  generateOnesListOfLengthN,
 } from "../../../helpers/helpers";
 import { DEFAULT_GV_RANGE, DEFAULT_OS_DROPDOWN_VALUE, TableTypePropType } from "../../../helpers/consts";
 import PropTypes from "prop-types";
@@ -15,7 +15,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   
   // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(
-    generateOnesList(tableType.headers.length)
+    generateOnesListOfLengthN(tableType.headers.length)
   );
   const [sortPriority, setSortPriority] = useState(0);
 

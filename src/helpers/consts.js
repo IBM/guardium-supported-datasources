@@ -1,4 +1,4 @@
-import {isNumber,getRangeStringFromList,splitStringsCompare,splitStrings,numericalListCompare} from './helpers'
+import {isNumber,getRangeStringFromList,compareOrderedLists,splitStringIntoArray,numericalListCompare} from './helpers'
 import PropTypes from "prop-types";
 
 

@@ -1,9 +1,8 @@
 // Main/Landing Page of the application. Displays list of available of data sources in a grid.
 // Clicking on a datasource will open up a modal with compatibility information
 // for that datasource
-
-import {  Loading } from "@carbon/ibm-security";
 import React, { useState } from "react";
+import { Loading } from "@carbon/ibm-security";
 
 import {
   handleSearchBar,
@@ -16,22 +15,15 @@ import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
 import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
 import MainPageLinks from "./MainPageComponents/MainPageLinks";
 import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
-
 import "./../styles/connection_doc.scss";
+import DatabaseMethodData from "../data/connections.json";
 
-// Import 'supported_databases' and 'methods' from the connections.json file
-const { supported_databases, methods } = require(`../data/connections.json`);
-
-// Map over each 'database' in 'supported_databases' to create a new array 'fullConnectionData'
-const fullConnectionData = transformDatabaseData(
-  supported_databases,
-  methods
-);
-
+// Map over each "database" in "supported_databases" to create a new array "fullConnectionData"
+const { supported_databases, methods } = DatabaseMethodData;
+const fullConnectionData = transformDatabaseData(supported_databases, methods);
 
 // Main Page Component
-export default function MainPage() {
-
+export function MainPage() {
   //connectionData - Data loaded from json for current display, fullConnectionData filtered based on product filter
   const [connectionData, setConnectionData] = useState(fullConnectionData);
 
@@ -51,10 +43,10 @@ export default function MainPage() {
     value = value ?? searchValue; // Set to current value if unchanged
     selected = selected ?? selectedProduct; // Set to current value if unchanged
 
-    let searchedConnectionData = handleSearchBar(value, fullConnectionData);
-    let filteredConnectionData = handleProductFilter(
+    const searchedConnectionData = handleSearchBar(value, fullConnectionData);
+    const filteredConnectionData = handleProductFilter(
       selected,
-      searchedConnectionData
+      searchedConnectionData,
     );
 
     // Change Main Page Data based on Filter results
@@ -64,10 +56,10 @@ export default function MainPage() {
   return connectionData ? (
     <>
       {/* Main Container when Loaded */}
-      <div className={`MainPageWrapper`}>
+      <div className={"MainPageWrapper"}>
         <MainPageLinks />
 
-        <div className={`mainPageTopHolder`}>
+        <div className={"mainPageTopHolder"}>
           {/* Search Box */}
           <MainPageSearchBar
             searchValue={searchValue}
@@ -85,10 +77,10 @@ export default function MainPage() {
         </div>
 
         {/* Divider */}
-        <hr className={`mainPageDivider`} />
+        <hr className={"mainPageDivider"} />
 
         {/* All DataSource Cards within Container */}
-        <div className={`mainPageCardsContainer`}>
+        <div className={"mainPageCardsContainer"}>
           <div className="bx--row">
             {connectionData.map((dataSourceData) => (
               <MainPageCard
@@ -103,15 +95,12 @@ export default function MainPage() {
         </div>
 
         {selectedDataSourceData && (
-          
-            <DatasourceModal
-              selectedDataSourceData={selectedDataSourceData}
-              selectedProduct={selectedProduct}
-              setOpen={setOpen}
-              open={open}
-              
-            />
-          
+          <DatasourceModal
+            selectedDataSourceData={selectedDataSourceData}
+            selectedProduct={selectedProduct}
+            setOpen={setOpen}
+            open={open}
+          />
         )}
       </div>
     </>
