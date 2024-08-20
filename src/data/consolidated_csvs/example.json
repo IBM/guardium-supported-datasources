@@ -1,104 +1,4 @@
 ﻿{
-    "Debian": [
-        {
-            "GuardiumVersion": [
-                "11.3"
-            ],
-            "DatabaseName": [
-                "Redis"
-            ],
-            "DatabaseVersion": [
-                "Redis 7.2"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 11"
-            ],
-            "Feature": "A"
-        }
-    ],
-    "Windows": [
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "DB2"
-            ],
-            "DatabaseVersion": [
-                "DB2 11.5.7"
-            ],
-            "OSName": [
-                "SUSE"
-            ],
-            "OSVersion": [
-                "15"
-            ],
-            "Feature": "C"
-        }
-    ],
-    "Debian": [
-        {
-            "GuardiumVersion": [
-                "11.3"
-            ],
-            "DatabaseName": [
-                "Redis"
-            ],
-            "DatabaseVersion": [
-                "Redis 7.2"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 11"
-            ],
-            "Feature": "A"
-        }
-    ],
-    "macOS": [
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "MariaDB"
-            ],
-            "DatabaseVersion": [
-                "MariaDB 10.5"
-            ],
-            "OSName": [
-                "macOS"
-            ],
-            "OSVersion": [
-                "macOS 11.0"
-            ],
-            "Feature": "C"
-        }
-    ],
-    "SUSE": [
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "DB2"
-            ],
-            "DatabaseVersion": [
-                "DB2 11.5.7"
-            ],
-            "OSName": [
-                "SUSE"
-            ],
-            "OSVersion": [
-                "15"
-            ],
-            "Feature": "C"
-        }
-    ],
     "Ubuntu": [
         {
             "GuardiumVersion": [
@@ -135,6 +35,46 @@
                 "Ubuntu 22.04"
             ],
             "Feature": "C"
+        }
+    ],
+    "SUSE": [
+        {
+            "GuardiumVersion": [
+                "11.1"
+            ],
+            "DatabaseName": [
+                "DB2"
+            ],
+            "DatabaseVersion": [
+                "DB2 11.5.7"
+            ],
+            "OSName": [
+                "SUSE"
+            ],
+            "OSVersion": [
+                "15"
+            ],
+            "Feature": "C"
+        }
+    ],
+    "Debian": [
+        {
+            "GuardiumVersion": [
+                "11.3"
+            ],
+            "DatabaseName": [
+                "Redis"
+            ],
+            "DatabaseVersion": [
+                "Redis 7.2"
+            ],
+            "OSName": [
+                "Debian"
+            ],
+            "OSVersion": [
+                "Debian 11"
+            ],
+            "Feature": "A"
         }
     ],
     "CentOS": [
