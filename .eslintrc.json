@@ -21,15 +21,20 @@
         "react-hooks"
     ],
     "rules": {
-        "semi": "error",
-        "no-unused-vars": "warn",
         "react/prop-types": "off",
         "react/jsx-no-target-blank": "off",
         "semi": "off",
-        "react/no-unknown-property": ["error", { "ignore": ["class"] }],
+        "react/no-unknown-property": [
+            "error",
+            {
+                "ignore": [
+                    "class"
+                ]
+            }
+        ],
         "react/jsx-key": "off",
         "no-unused-vars": "off",
-        "react/react-in-jsx-scope": "off",
+        "react/react-in-jsx-scope": "off"
     },
     "settings": {
         "react": {
