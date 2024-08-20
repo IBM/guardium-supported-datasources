@@ -1,5 +1,6 @@
 import React from "react";
 import { Dropdown } from "@carbon/ibm-security";
+import PropTypes from "prop-types";
 
 export default function MainPageDropdown({
   handleSearchAndFilter,
@@ -26,3 +27,10 @@ export default function MainPageDropdown({
     </div>
   );
 }
+
+MainPageDropdown.propTypes = {
+  handleSearchAndFilter: PropTypes.func.isRequired,
+  selectedProduct: PropTypes.string.isRequired, 
+  setSelectedProduct: PropTypes.func.isRequired,
+  PRODUCTS: PropTypes.arrayOf(PropTypes.string).isRequired, 
+};

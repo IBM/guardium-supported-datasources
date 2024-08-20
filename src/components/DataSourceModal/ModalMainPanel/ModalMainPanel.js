@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from "react";
+import { ModalTable } from "./ModalTable/ModalTable";
+import React, { useState } from "react";
 
-import ModalTableHeaders from "./ModalTableHeaders";
 import OSDropDown from "./OSDropdown";
 import VersionSlider from "./VersionSlider";
-import ExpandingTableRow from "./ExpandingTableRow";
 import {
-  isCompatibleWithRange,
   generateOnesList,
 } from "../../../helpers/helpers";
-import { GV_RANGE,DEFAULT_OS_DROPDOWN_VALUE } from "../../../helpers/consts";
+import { DEFAULT_GV_RANGE, DEFAULT_OS_DROPDOWN_VALUE, TableTypePropType } from "../../../helpers/consts";
+import PropTypes from "prop-types";
+
 
 // Compatibility Matrix/Table component
 export default function ModalMainPanel({ jsonDataForDB, tableType }) {
-  // Data used to populate the Compat Matrix/Main Table
-  const [jsonData, setJSONData] = useState(jsonDataForDB);
-
+  
   // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(
     generateOnesList(tableType.headers.length)
@@ -22,14 +20,10 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   const [sortPriority, setSortPriority] = useState(0);
 
   // For handling logic of the version slider
-  const [GVSliderValue, setGVSliderValue] = React.useState(GV_RANGE);
+  const [GVSliderValue, setGVSliderValue] = React.useState(DEFAULT_GV_RANGE);
 
   // For handling logic of the OS dropdown
   const [selectedOS, setSelectedOS] = useState(DEFAULT_OS_DROPDOWN_VALUE);
-
-  useEffect(() => {
-    setJSONData(jsonDataForDB);
-  }, [jsonDataForDB]);
 
   // Change sorting of data when clicking on a header
   function changeSortKeyOnClick(ind) {
@@ -42,55 +36,6 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
     setSortPriority(ind);
   }
 
-  // Applies applicable sortings + filters on full data for that DB (i.e displayData) and returns it
-  function SortedAndFilteredDisplayData() {
-    var sortedData = [...jsonData];
-
-    // TODO: Instead of only filtering,manipulated to remove filtered values (specifically on for GV)
-    // TODO: Fix sort, how can u sort between 2 ranges?
-
-    // Filter on Guardium Version Range + selected OS (Only for TableType 1)
-    if (tableType.id == 1) {
-      const lowerBound = GVSliderValue[0];
-      const upperBound = GVSliderValue[1];
-      sortedData = sortedData.filter((row) =>
-        isCompatibleWithRange(row.GuardiumVersion, lowerBound, upperBound)
-      );
-
-      if (selectedOS != "All") {
-        sortedData = sortedData.filter((row) =>
-          row.OSName.includes(selectedOS)
-        );
-      }
-    }
-    if (sortedData.length == 0) {
-      return [];
-    }
-
-    // Apply sorting to data based on sort key (based on headers clicked)
-    for (let i = 0; i < sortKey.length; i++) {
-      if (sortKey[i] != 0) {
-        if (sortKey[i] == 1) {
-          sortedData = sortedData.sort(tableType.headers[i].sorta);
-        }
-        if (sortKey[i] == -1) {
-          sortedData = sortedData.sort(tableType.headers[i].sortd);
-        }
-      }
-    }
-    // Ensure that the header that is clicked is sorted last
-    if (sortKey[sortPriority] == 1) {
-      sortedData = sortedData.sort(tableType.headers[sortPriority].sorta);
-    }
-    if (sortKey[sortPriority] == -1) {
-      sortedData = sortedData.sort(tableType.headers[sortPriority].sortd);
-    }
-
-    return sortedData;
-  }
-
-  
-
   return (
     <div style={{ width: "max-content" }}>
       <br></br>
@@ -101,7 +46,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
 
       {/* Slider + Filter (Only for Table Type 1) */}
       {tableType.id == 1 ? (
-        <div>
+        <div className="tableType1Components">
           <VersionSlider
             GVSliderValue={GVSliderValue}
             setGVSliderValue={setGVSliderValue}
@@ -111,37 +56,74 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
 
           <OSDropDown
             selectedOS={selectedOS}
-            getUniqueOSNames={() => {return (["All", ...new Set(jsonData.flatMap(row => row.OSName))])}}
+            getUniqueOSNames={() => {
+              return [
+                "All",
+                ...new Set(jsonDataForDB.flatMap((row) => row.OSName)),
+              ];
+            }}
             setSelectedOS={setSelectedOS}
-            setGVSliderValue={setGVSliderValue}
-            GVSliderValue={GVSliderValue}
           />
         </div>
       ) : null}
       <br></br>
 
       {/* Wrapper for the main compat table */}
-      <div className="mainTableWrapper">
-        <table class="maintable">
-          <ModalTableHeaders
-            changeSortKeyOnClick={changeSortKeyOnClick}
-            tableType={tableType}
-            sortKey={sortKey}
-          />
-
-          {/* Each row of data (sorted and filtered) mapped to an Expanding Table Row within <table> */}
-          <tbody>
-            {SortedAndFilteredDisplayData().map((row, index) => (
-              <ExpandingTableRow
-                key={index}
-                data={row}
-                opened={false}
-                tableType={tableType}
-              />
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <ModalTable
+        jsonDataForDB={jsonDataForDB}
+        changeSortKeyOnClick={changeSortKeyOnClick}
+        tableType={tableType}
+        sortKey={sortKey}
+        GVSliderValue={GVSliderValue}
+        selectedOS={selectedOS}
+        sortPriority={sortPriority}
+      />
     </div>
   );
 }
+
+// Define the two possible types for jsonDataForDB
+const JsonDataType1 = PropTypes.shape({
+  GuardiumVersion: PropTypes.arrayOf(PropTypes.string), // Optional field
+  OSName: PropTypes.arrayOf(PropTypes.string), // Optional field
+  OSVersion: PropTypes.arrayOf(PropTypes.string),
+  DatabaseName: PropTypes.arrayOf(PropTypes.string),
+  DatabaseVersion: PropTypes.arrayOf(PropTypes.string), // Optional field
+  'Network traffic': PropTypes.string.isRequired,
+  'Local traffic': PropTypes.string.isRequired,
+  'Encrypted traffic': PropTypes.string.isRequired,
+  'Shared Memory': PropTypes.string.isRequired,
+  Kerberos: PropTypes.string.isRequired,
+  Blocking: PropTypes.string.isRequired,
+  Redaction: PropTypes.string.isRequired,
+  'UID Chain': PropTypes.string.isRequired,
+  Compression: PropTypes.string.isRequired,
+  'Query Rewrite': PropTypes.string.isRequired,
+  'Instance Discovery': PropTypes.string.isRequired,
+  Protocol: PropTypes.string.isRequired,
+  Notes: PropTypes.string.isRequired,
+
+  // Add other fields specific to this type
+});
+
+const JsonDataType2 = PropTypes.shape({
+  GDP_Type: PropTypes.arrayOf(PropTypes.string).isRequired,
+  Guardium_Version: PropTypes.arrayOf(PropTypes.string).isRequired,
+  DataSource: PropTypes.arrayOf(PropTypes.string).isRequired,
+  Database_Version: PropTypes.arrayOf(PropTypes.string).isRequired,
+  VA_supported: PropTypes.string.isRequired,
+  Classification_supported: PropTypes.string.isRequired,
+  Notes: PropTypes.string.isRequired,
+  Download_URL: PropTypes.string.isRequired,
+  Readme_URL: PropTypes.string.isRequired,
+});
+
+
+// PropTypes validation
+ModalMainPanel.propTypes = { 
+  jsonDataForDB: PropTypes.oneOfType([
+    PropTypes.arrayOf(JsonDataType1),
+    PropTypes.arrayOf(JsonDataType2),
+  ]).isRequired, // Array of objects representing the database data
+  tableType: TableTypePropType.isRequired,
+};

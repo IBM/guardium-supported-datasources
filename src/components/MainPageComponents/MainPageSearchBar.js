@@ -1,6 +1,6 @@
 import React from "react";
 import { Search } from "@carbon/ibm-security";
-// import "./../styles/styles.css";
+import PropTypes from "prop-types";
 
 export default function MainPageSearchBar({
   searchValue,
@@ -27,3 +27,10 @@ export default function MainPageSearchBar({
 
   return <Search className={`mainPageSearchBar`} {...searchColumnProps} />;
 }
+
+
+MainPageSearchBar.propTypes = {
+  searchValue: PropTypes.string.isRequired, 
+  setSearchValue: PropTypes.func.isRequired,
+  handleSearchAndFilter: PropTypes.func.isRequired,
+};

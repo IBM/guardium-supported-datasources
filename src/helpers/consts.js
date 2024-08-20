@@ -1,4 +1,6 @@
 import {isNumber,getRangeStringFromList,splitStringsCompare,splitStrings,numericalListCompare} from './helpers'
+import PropTypes from "prop-types";
+
 
 export const TABLETYPE1 = {
     id: 1,
@@ -198,6 +200,30 @@ export  const TABLETYPE2 = {
       }
   ]
   };
+
+// Define the PropTypes for a single header
+const TableTypeHeaderPropType = PropTypes.shape({
+  id: PropTypes.number.isRequired, // Unique identifier for the header
+  headerName: PropTypes.string.isRequired, // Display name of the header
+  headerKey: PropTypes.string.isRequired, // Key to access the corresponding data in rows
+  sorta: PropTypes.func.isRequired, // Function for ascending sort
+  sortd: PropTypes.func.isRequired, // Function for descending sort
+  getReadableString: PropTypes.func.isRequired, // Function to format data into a readable string
+});
+
+// Define the PropTypes for a single feature
+const TableTypeFeaturePropType = PropTypes.shape({
+  featureName: PropTypes.string.isRequired, // Display name of the feature
+  featureKey: PropTypes.string.isRequired, // Key to access the corresponding data in rows
+});
+
+// Define the PropTypes for tableType
+export const TableTypePropType = PropTypes.shape({
+  id: PropTypes.number.isRequired, // Numeric identifier for table type
+  headers: PropTypes.arrayOf(TableTypeHeaderPropType).isRequired, // Array of header objects
+  features: PropTypes.arrayOf(TableTypeFeaturePropType).isRequired, // Array of feature objects
+});
+
   
 export  const getJSONData = (environment,method) => {
     let key = `${environment}|${method}`
@@ -249,6 +275,6 @@ export const PRODUCTS = [
   "Guardium Insights SaaS",
 ];
 
-export const GV_RANGE = [11.0, 12.0];
+export const DEFAULT_GV_RANGE = [11.0, 12.0];
 
 export const DEFAULT_OS_DROPDOWN_VALUE = "All";

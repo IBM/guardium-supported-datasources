@@ -58,6 +58,30 @@
     padding: 0px;
   }
 
+  .VersionSliderDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .VersionSliderHeader {
+    white-space: nowrap;
+  }
+  
+  .VersionSlider{
+    width: 50%;
+  }
+
+  .OSDropdownDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .OSDropdown{
+    min-width: 150px;
+    justify-content: center;
+  }
+
+
 
   /* -----------------------------------------------------------
     /* Set additional styling options for the columns */
@@ -131,26 +155,27 @@
             padding-left: 0px;
             
         }
-    
-        
-        td#heading.top{
-            padding-top: 10px; 
-            
+        #notesheading{
+          white-space: normal;
+          text-decoration: underline;
+          cursor: pointer;
+          font-weight: bold;
         }
+
         td.top{
             padding-top: 10px !important;
             overflow: hidden;
+            max-width: 270px;
             
     
         }
-    
-        td#heading.bottom{
-            padding-bottom: 10px; 
+
+        a.tablelink {
+          text-decoration: underline;
+          cursor: pointer;
         }
     
-        td.bottom{
-            padding-bottom: 10px !important;
-        }
+        
     
         td.uk-background-muted {
             background-color: #E3E3E3 !important;
@@ -214,7 +239,8 @@
           }
     
           .dataheadercell{
-            padding: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
             padding-left: 30px;
             padding-right: 30px;
             font-weight: bold;

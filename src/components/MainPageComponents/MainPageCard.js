@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function MainPageCard({
   dataSourceData,
@@ -24,3 +25,14 @@ export default function MainPageCard({
     </div>
   );
 }
+
+// PropTypes validation
+MainPageCard.propTypes = {
+  dataSourceData: PropTypes.shape({
+    database_name: PropTypes.string.isRequired, 
+  }).isRequired,
+  setOpen: PropTypes.func.isRequired,
+  setSelectedDataSourceData: PropTypes.func.isRequired,
+  BLOCK_CLASS: PropTypes.string.isRequired,
+};
+

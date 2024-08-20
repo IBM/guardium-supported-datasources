@@ -71,7 +71,7 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud BigQuery": [
+    "Google Cloud PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -83,14 +83,17 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Google Cloud BigQuery"
+                "Google Cloud PostgreSQL"
             ],
             "DataSource_Version": [
-                "All versions"
+                "9",
+                "10",
+                "11",
+                "12"
             ],
             "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -182,7 +185,7 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud PostgreSQL": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -194,17 +197,14 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Google Cloud PostgreSQL"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "10",
-                "11",
-                "12",
-                "9"
+                "All versions"
             ],
             "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }

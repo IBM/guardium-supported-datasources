@@ -1,29 +1,19 @@
 import React from "react";
-import Slider from '@mui/material/Slider';
+import Slider from "@mui/material/Slider";
 
-export default function VersionSlider({
-  GVSliderValue,
-  setGVSliderValue,
-}) {
+export default function VersionSlider({ GVSliderValue, setGVSliderValue }) {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-      }}
+      className="VersionSliderDiv"
     >
       <p
-        style={{
-          whiteSpace: "nowrap",
-        }}
+        className="VersionSliderHeader"
       >
         Guardium Version
       </p>
 
       <Slider
-        style={{
-          width: "50%",
-        }}
+        className="VersionSlider"
         label="Guardium Version Change"
         size="small"
         value={GVSliderValue}

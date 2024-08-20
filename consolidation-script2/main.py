@@ -6,7 +6,7 @@ from typing import List
 from Helpers.combination import Combination
 from Helpers.testing import _test
 from Helpers.helpers import (
-    find_ranges,
+    find_relevant_ranges,
     get_uniq_vals_for_each_column,
     combinations,remove_if_all_present)
 from Helpers.helpers import (
@@ -76,6 +76,7 @@ def consolidate(output_json_path,
 
         # Partition data (Get subsection of all rows with uniq_val in the partition_header_number)
         data = read_csv_for_uniq_val(input_csv_path,uniq_val,partition_header_number)
+        data = remove_duplicates_2d(data)
         logger.debug("Partitioned Data for %s",uniq_val)
 
         #TODO: CONSTRAINT-version values must come first
@@ -110,7 +111,7 @@ def consolidate(output_json_path,
             # Returns a consolidate/compressed representation of the version values from multiple rows
             consolidated_version_rows = cartesian_decomposition(
                                                         grouped_data[set_of_feature_availability],
-                                                        version_key,logger,input_csv_path)
+                                                        version_key,logger,input_csv_path, data)
 
             # Append consolidated information as json and csv
             transform_and_append_as_json(full_key, output_json, uniq_val,
@@ -127,7 +128,7 @@ def consolidate(output_json_path,
 
 
 def cartesian_decomposition(version_data:List[List[str]],
-                            key_:List[str],logger,input_csv_path) -> List[List[List[str]]]:
+                            key_:List[str],logger,input_csv_path,partitioned_data) -> List[List[List[str]]]:
     # pylint: disable=C0301
     """
     Performs Cartesian Product Decomposition on the given tabular data.
@@ -178,26 +179,32 @@ def cartesian_decomposition(version_data:List[List[str]],
     """
     # pylint: enable=C0301
 
-
     # Remove duplicate rows if any
     version_data = remove_duplicates_2d(version_data)
     logger.debug("Removed duplicate lines")
 
     # Getting all uniq vals per each column from data
-    uniq_column_vals_compat_data = get_uniq_vals_for_each_column(key_,version_data)
-    logger.debug("Stored all uniq vals in each column")
+    uniq_column_vals_part_data = get_uniq_vals_for_each_column(key_,partitioned_data)
+    logger.debug("Stored all uniq vals in each column from part. data")
     # Returns a dict, where key is the column name,
     # and value is a list of unique vals in that column
+    
+    uniq_column_vals_version_data = get_uniq_vals_for_each_column(key_,version_data)
+    logger.debug("Stored all uniq vals in each column from version data")
 
-    # Generate all possible ranges (ordered subsets)
+    # Generate all possible relevant ranges (ordered subsets)
     # per each column using uniq vals (Can blow up computationally)
     # eg. find_ranges([1,2,3]) = [[1],[2],[3],[1,2],[2,3],[1,2,3]]
+    
     all_ranges = []
     for x in key_:
-        ranges = find_ranges(list(uniq_column_vals_compat_data[x]))
+        ranges = find_relevant_ranges(list(uniq_column_vals_version_data[x]),list(uniq_column_vals_part_data[x]))
         all_ranges.append(ranges)
     logger.debug("Generated all possible ordered set of uniq vals of each column")
-
+    
+    
+    
+    
     # Generate all possible combinations using ranges from each column
     # Take cartesian product of each list of ranges
     # combinations([ [[1],[2],[3],[1,2],[2,3],[1,2,3]] , [["a"],["b"],["a","b"]] ]) =
@@ -226,7 +233,7 @@ def cartesian_decomposition(version_data:List[List[str]],
             if combo.combo_allows_row(row):
                 combo.add_row(row) # Store all compatible rows for each combo
     logger.debug("Referenced all data rows with all possible combinations")
-    # Not guaranteed 
+    # TODO: Not guaranteed to be optimal
 
     # Sort combination from higher to lower capacity
     combinations_list = sorted(combinations_list, key=lambda x: -x.capacity)

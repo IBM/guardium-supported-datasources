@@ -89,6 +89,9 @@ class Combination:
 
     def combo_allows_row(self, row: List[str]) -> bool:
         """Check if combination allows a row. Combination can only rows that match it's key
+        # Check if row is compatible with combo (Cartesian product of combo includes row)
+            # i.e row [1,a] is compatible with combo([[1], ['a', 'b']])
+            # but row [1,a] is not compatible with combo([[2, 3], ['a', 'b']])
 
         Args:
             row (List[str]): Represents a row from a csv file

@@ -5,23 +5,14 @@ export default function OSDropDown({
   selectedOS,
   getUniqueOSNames,
   setSelectedOS,
-  setGVSliderValue,
-  GVSliderValue,
 }) {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-      }}
+      className="OSDropdownDiv"
     >
       <p>Operating System </p>
       <Dropdown
-        style={{
-          minWidth: "150px",
-          justifyContent: "center",
-          justify: "contents",
-        }}
+        className="OSDropdown"
         ariaLabel="OS Dropdown"
         id="os-dropdown"
         selectedItem={selectedOS}
@@ -29,7 +20,6 @@ export default function OSDropDown({
         label="Select an OS"
         onChange={(item) => {
           setSelectedOS(item.selectedItem);
-          setGVSliderValue(GVSliderValue);
         }}
       />
     </div>

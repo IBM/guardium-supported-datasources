@@ -2,7 +2,7 @@
 // Clicking on a datasource will open up a modal with compatibility information
 // for that datasource
 
-import { Modal, Loading } from "@carbon/ibm-security";
+import {  Loading } from "@carbon/ibm-security";
 import React, { useState } from "react";
 
 import {
@@ -16,19 +16,18 @@ import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
 import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
 import MainPageLinks from "./MainPageComponents/MainPageLinks";
 import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
-// import "./../styles/styles.css";
+
 import "./../styles/connection_doc.scss";
 
 // Import 'supported_databases' and 'methods' from the connections.json file
 const { supported_databases, methods } = require(`../data/connections.json`);
 
-// Map over each 'database' in 'supported_databases' to create a new array 'supportedDabases_with_methodinfo'
-const supportedDabases_with_methodinfo = transformDatabaseData(
+// Map over each 'database' in 'supported_databases' to create a new array 'fullConnectionData'
+const fullConnectionData = transformDatabaseData(
   supported_databases,
   methods
 );
 
-const fullConnectionData = supportedDabases_with_methodinfo;
 
 // Main Page Component
 export default function MainPage() {

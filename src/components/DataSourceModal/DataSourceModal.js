@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
+import PropTypes from "prop-types";
 import { Loading, Modal } from "@carbon/ibm-security";
 
 import { EnvironmentDropDown, MethodDropDown } from "./ModalLeftPanel/PanelDropDowns";
@@ -66,13 +67,17 @@ export default function DatasourceModal({
         setErrorMessage(
           `Data for ${environment.environment_name} | ${method.method_key} could not be loaded.`
         );
+        // Set error states
+        setJsonDataForDB(null);
+        setTableType(0);
         return;
       }
 
       // Check if the selected database name exists in the jsonData
-      const newJsonDataForDB = jsonData.hasOwnProperty(
+      const newJsonDataForDB = Object.prototype.hasOwnProperty.call(
+        jsonData,
         selectedDataSourceData["database_name"]
-      )
+      )      
         ? jsonData[selectedDataSourceData["database_name"]]
         : null;
 
@@ -80,6 +85,9 @@ export default function DatasourceModal({
         setErrorMessage(
           `No data available for ${selectedDataSourceData["database_name"]} in ${environment.environment_name} | ${method.method_key}.`
         );
+        // Set error states
+        setJsonDataForDB(null);
+        setTableType(0);
         return;
       }
       // Update the JSON data state with the relevant data
@@ -90,6 +98,9 @@ export default function DatasourceModal({
       // Handle any errors that occur during data fetching
       console.error("Error fetching data:", error);
       setErrorMessage("An error occurred while fetching data." + error);
+      // Set error states
+      setJsonDataForDB(null);
+      setTableType(0);
     } finally {
       // Set loading state to false after the operation is complete
       setLoading(false);
@@ -109,6 +120,7 @@ export default function DatasourceModal({
       }}
     >
       <div className={`${BLOCK_CLASS}__inside_modal_wrapper`}>
+        
         {/* Div Wrapper for left panel  */}
         <div className={`${BLOCK_CLASS}__modal_left_panel`}>
           
@@ -139,12 +151,11 @@ export default function DatasourceModal({
                 setToolTipOpen={setToolTipOpen}
               />
             )}
-          
+
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>
-          {/* Compatibility Matrix */}
-          {(selectedMethodData && tableType && jsonDataForDB) ? (
+          {(selectedMethodData && tableType!=0 && jsonDataForDB) ? (
             <ModalMainPanel
               tableType={tableType}
               jsonDataForDB={jsonDataForDB}
@@ -157,3 +168,14 @@ export default function DatasourceModal({
     </Modal>
   );
 }
+
+
+// PropTypes validation
+DatasourceModal.propTypes = {
+  selectedDataSourceData: PropTypes.shape({
+    database_name: PropTypes.string.isRequired,
+  }).isRequired, // Object with a database_name string field
+  selectedProduct: PropTypes.string, 
+  setOpen: PropTypes.func.isRequired, 
+  open: PropTypes.bool.isRequired,
+};

@@ -1,7 +1,47 @@
 """ Just a collection of helper functions """
 from itertools import product
+from functools import cmp_to_key
 from typing import List,Callable,Dict,Any
 import json
+import re
+
+def is_sublist(lst, sublst):
+    lst_str = ''.join(lst)
+    sublst_str = ''.join(sublst)
+    return (sublst_str in lst_str or lst_str in sublst_str)
+
+
+def split_string(s):
+    return [float(x) if re.match(r'^[+-]?\d+(\.\d+)?$', x) else x 
+            for x in re.split(r'(\d+\.?\d*)', s) if x]
+
+def compare_lists(lista, listb):
+    min_len = min(len(lista), len(listb))
+    
+    for i in range(min_len):
+        a, b = lista[i], listb[i]
+        
+        # If both are numbers, compare numerically
+        if isinstance(a, (int, float)) and isinstance(b, (int, float)):
+            if a != b:
+                return -1 if a < b else 1
+            
+        # If one is a number and the other is a string, treat string as smaller
+        elif isinstance(a, (int, float)) and isinstance(b, str):
+            return 1  # Numbers come after strings
+        
+        elif isinstance(a, str) and isinstance(b, (int, float)):
+            return -1  # Strings come before numbers
+        
+        # If both are strings, compare alphabetically
+        else:
+            if a != b:
+                return -1 if a < b else 1
+    
+    # If all elements compared are equal, the longer list is considered larger
+    return len(lista) - len(listb)
+
+
 
 def remove_if_all_present(list_a:List[List[str]], list_b:List[List[str]]) -> List[List[str]]:
     """ 
@@ -54,15 +94,51 @@ def combinations(lists:List[List[Any]]) -> List[List[Any]]:
     return [list(comb) for comb in product(*lists)]
 
 
-def find_ranges(ordered_list:List[str]) -> List[List[str]]:
+def find_ranges(search_space:List[str]) -> List[List[str]]:
     """ Given an ordered list, return each possible sub-list
     eg. find_ranges([1,2,3,4]) = 
     [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4], [2], [2, 3], [2, 3, 4], [3], [3, 4], [4]]
     """
     ranges = []
-    for i in range(0,len(ordered_list)+1):
-        for j in range(i+1,len(ordered_list)+1):
-            ranges.append(ordered_list[i:j])
+    for i in range(0,len(search_space)+1):
+        for j in range(i+1,len(search_space)+1):
+            ranges.append(search_space[i:j])
+
+    return ranges
+
+def find_relevant_ranges(search_space:List[str],relevant_list:List[str]) -> List[List[str]]:
+    """
+    Find all sublists of `search_space` that are sublists of `relevant_list`.
+
+    This function iterates over all possible sublists of `search_space` and checks if 
+    they are sublists of `relevant_list`. If a sublist matches, it is added to the 
+    result list.
+
+    Args:
+        search_space (List[int]): The list from which sublists are generated.
+        relevant_list (List[int]): The list against which sublists are checked.
+
+    Returns:
+        List[List[int]]: A list of sublists from `search_space` that are also sublists 
+        of `relevant_list`.
+
+    Examples:
+        >>> search_space = [1, 2, 3, 4, 5]
+        >>> relevant_list = [2, 3, 4]
+        >>> find_relevant_ranges(search_space, relevant_list)
+        [[2], [2, 3], [2, 3, 4], [3], [3, 4], [4]]
+
+        >>> search_space = [1, 3, 5]
+        >>> relevant_list = [1, 2, 3, 4, 5]
+        >>> find_relevant_ranges(search_space, relevant_list)
+        [[1], [3], [5]]
+    """
+
+    ranges = []
+    for i in range(0,len(search_space)+1):
+        for j in range(i+1,len(search_space)+1):
+            if (is_sublist(search_space[i:j],relevant_list)):
+                ranges.append(search_space[i:j])
 
     return ranges
 
@@ -101,8 +177,8 @@ def get_uniq_vals_for_each_column(key_:List[str],
         # }
     """
     for i in original_data:
-        if len(key_) != len(i):
-            raise TypeError(f"{i} must be same length as {key_} ")
+        if len(key_) > len(i):
+            raise TypeError(f"{i} must be greater length than {key_} ")
     formatted_data = {}
 
     for i in key_:
@@ -112,7 +188,11 @@ def get_uniq_vals_for_each_column(key_:List[str],
         for i,x in enumerate(key_):
             formatted_data[x].add(entry[i])
     for i in key_:
-        formatted_data[i] = sorted(formatted_data[i])
+        formatted_data[i] = sorted(
+        formatted_data[i],
+        key=cmp_to_key(lambda x, y: compare_lists(split_string(x), split_string(y)))
+        )
+        
 
     return formatted_data
 

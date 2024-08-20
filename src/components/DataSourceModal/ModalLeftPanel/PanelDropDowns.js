@@ -1,5 +1,6 @@
 import React from "react";
 import { Dropdown } from "@carbon/ibm-security";
+import PropTypes from "prop-types";
 
 export function EnvironmentDropDown({
   selectedEnvironmentData,
@@ -19,7 +20,27 @@ export function EnvironmentDropDown({
         setSelectedEnvironmentData(item.selectedItem);
       }}
     />
-  )
+  );
+}
+
+EnvironmentDropDown.propTypes = {
+  selectedEnvironmentData: PropTypes.shape({
+    environment_name: PropTypes.string.isRequired,
+    methods_supported: PropTypes.arrayOf(
+      PropTypes.shape({
+        method_name: PropTypes.string.isRequired,
+        method_key: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  }), // Object representing the selected environment data
+  selectedDataSourceData: PropTypes.shape({
+    environments_supported: PropTypes.arrayOf(
+      PropTypes.shape({
+        environment_name: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  }).isRequired, // Object with environments_supported array
+  setSelectedEnvironmentData: PropTypes.func.isRequired, // Function to update selected environment data
 };
 
 export function MethodDropDown({
@@ -52,5 +73,22 @@ export function MethodDropDown({
                 setSelectedMethodData(item.selectedItem);
               }}
             />
-  )
+  );
+}
+
+MethodDropDown.propTypes = {
+  selectedMethodData: PropTypes.shape({
+    method_name: PropTypes.string.isRequired,
+  }), // Object representing the selected method data
+  selectedEnvironmentData: PropTypes.shape({
+    environment_name: PropTypes.string.isRequired,
+    methods_supported: PropTypes.arrayOf(
+      PropTypes.shape({
+        method_name: PropTypes.string.isRequired,
+        method_key: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  }).isRequired, // Object with methods_supported array
+  selectedProduct: PropTypes.string.isRequired, // String representing the selected product
+  setSelectedMethodData: PropTypes.func.isRequired, // Function to update selected method data
 };

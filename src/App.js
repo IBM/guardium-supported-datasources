@@ -3,13 +3,15 @@ import './styles/connection_doc.scss';
 import MainPage from './components/MainPage';
 import './styles/globals.scss';
 import React from 'react';
+import { version } from 'react';
+
 
 
 class App extends React.Component {
-   
+
 
   render() {
-
+    
     return (
       <main>
         <MainPage/>
