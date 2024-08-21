@@ -111,7 +111,7 @@ export function isCompatibleWithRange(lst, rangea, rangeb) {
 // const result = filterNumbersInRange(numbers, lowerBound, upperBound);
 // Output: [5, 8, 12, 15]
 export function filterNumbersInRange(item, lowerBound, upperBound) {
-  if (!item.hasOwnProperty('GuardiumVersion') ||  !Array.isArray(item.GuardiumVersion)) {
+  if (!Object.prototype.hasOwnProperty.call(item, 'GuardiumVersion') ||  !Array.isArray(item.GuardiumVersion)) {
     console.error("GuardiumVersion is not an array:", item.GuardiumVersion);
     return { ...item, GuardiumVersion: [] };
   }
@@ -225,13 +225,13 @@ export const generateAccordianItem = (item) => {
     case "string":
       if (Array.isArray(item.content)) {
         return (
-          <div class="generatedAccordionItem">
+          <div className="generatedAccordionItem">
             <ul>
-              {item.content.map((cntnt) => {
+              {item.content.map((cntnt,index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     {cntnt}
-                    <br></br>
+                    <br> </br>
                   </li>
                 );
               })}

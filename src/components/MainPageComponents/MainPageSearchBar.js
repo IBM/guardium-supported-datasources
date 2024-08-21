@@ -20,17 +20,16 @@ export default function MainPageSearchBar({
       setSearchValue((event.target && event.target.value) || "");
       handleSearchAndFilter(
         (event.target && event.target.value) || "",
-        undefined
+        undefined,
       );
     },
   };
 
-  return <Search className={`mainPageSearchBar`} {...searchColumnProps} />;
+  return <Search className="mainPageSearchBar" {...searchColumnProps} />;
 }
 
-
 MainPageSearchBar.propTypes = {
-  searchValue: PropTypes.string.isRequired, 
+  searchValue: PropTypes.string.isRequired,
   setSearchValue: PropTypes.func.isRequired,
   handleSearchAndFilter: PropTypes.func.isRequired,
 };

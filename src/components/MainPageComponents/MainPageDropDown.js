@@ -9,19 +9,19 @@ export default function MainPageDropdown({
   PRODUCTS,
 }) {
   return (
-    <div className={`mainPageDropdown`}>
-      <div className={`mainPageDropdownBox`}>
+    <div className="mainPageDropdown">
+      <div className="mainPageDropdownBox">
         <Dropdown
           ariaLabel="Products Dropdown"
           id="products-dropdown"
-          selectedItem={selectedProduct}
-          items={PRODUCTS}
           itemToString={(env) => env}
+          items={PRODUCTS}
           label="Select a product"
           onChange={(item) => {
             setSelectedProduct(item.selectedItem);
             handleSearchAndFilter(undefined, item.selectedItem);
           }}
+          selectedItem={selectedProduct}
         />
       </div>
     </div>
@@ -30,7 +30,7 @@ export default function MainPageDropdown({
 
 MainPageDropdown.propTypes = {
   handleSearchAndFilter: PropTypes.func.isRequired,
-  selectedProduct: PropTypes.string.isRequired, 
+  selectedProduct: PropTypes.string.isRequired,
   setSelectedProduct: PropTypes.func.isRequired,
-  PRODUCTS: PropTypes.arrayOf(PropTypes.string).isRequired, 
+  PRODUCTS: PropTypes.arrayOf(PropTypes.string).isRequired,
 };

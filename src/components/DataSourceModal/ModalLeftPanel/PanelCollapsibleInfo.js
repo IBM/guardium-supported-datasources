@@ -1,14 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { generateAccordianItem } from '../../../helpers/helpers';
+import { generateAccordianItem } from "../../../helpers/helpers";
 // TODO: Used react carbon <toggletipitem> here
+// TODO: Split into 3 tooltips
+
 // Collapsible Information Related to current Method, logic is handled using toolTop
 // Information is retrieved from connections.json
-export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,setToolTipOpen, }) {
-  
+export default function PanelCollapsibleInfo({
+  selectedMethodData,
+  toolTipOpen,
+  setToolTipOpen,
+}) {
   return (
     <div>
-      <br></br>
+      <br> </br>
       <h6> About {selectedMethodData.method_name}</h6>
       <ul>
         <li
@@ -19,7 +24,7 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
         >
           {" "}
           How it works
-          {toolTipOpen[0] && (
+          {toolTipOpen[0] ? (
             <span className="tooltiptext">
               {generateAccordianItem(
                 selectedMethodData.method_info.filter(
@@ -29,9 +34,9 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
                 )[0]
               )}
             </span>
-          )}
+          ) : null}
         </li>
-        <br></br>
+        <br> </br>
 
         <li
           onClick={() =>
@@ -41,7 +46,7 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
         >
           {" "}
           Benefits and Considerations
-          {toolTipOpen[1] && (
+          {toolTipOpen[1] ? (
             <span className="tooltiptext">
               <h6>Skill Level:</h6>{" "}
               <div>
@@ -53,7 +58,7 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
                       section.content != null
                   )[0]
                 )}
-                <br></br>
+                <br> </br>
               </div>
               <div>
                 <h6>Benefits: </h6>{" "}
@@ -62,7 +67,7 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
                     (section) => section.accordian_title == "Benefits"
                   )[0]
                 )}
-                <br></br>
+                <br> </br>
               </div>
               <h6>Considerations: </h6>{" "}
               {generateAccordianItem(
@@ -70,11 +75,11 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
                   (section) => section.accordian_title == "Considerations"
                 )[0]
               )}
-              <br></br>
+              <br> </br>
             </span>
-          )}
+          ) : null}
         </li>
-        <br></br>
+        <br> </br>
         <li
           className="tooltip"
           onClick={() =>
@@ -83,7 +88,7 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
         >
           {" "}
           Getting Started
-          {toolTipOpen[2] && (
+          {toolTipOpen[2] ? (
             <span className="tooltiptext">
               <h6>Information you will need: </h6>
               <div>
@@ -96,17 +101,16 @@ export default function PanelCollapsibleInfo({ selectedMethodData, toolTipOpen,s
                 )}
               </div>
             </span>
-          )}
+          ) : null}
         </li>
       </ul>
     </div>
   );
 }
 
-
 // PropTypes validation
 PanelCollapsibleInfo.propTypes = {
-  selectedMethodData:  PropTypes.shape({
+  selectedMethodData: PropTypes.shape({
     method_name: PropTypes.string.isRequired,
     method_info: PropTypes.arrayOf(
       PropTypes.shape({

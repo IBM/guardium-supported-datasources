@@ -7,9 +7,7 @@ export default function OSDropDown({
   setSelectedOS,
 }) {
   return (
-    <div
-      className="OSDropdownDiv"
-    >
+    <div className="OSDropdownDiv">
       <p>Operating System </p>
       <Dropdown
         className="OSDropdown"

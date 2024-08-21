@@ -51,14 +51,14 @@ export function ModalTable({
   }
 
   return <div className="mainTableWrapper">
-        <table class="maintable">
+        <table className="maintable">
           <ModalTableHeaders changeSortKeyOnClick={changeSortKeyOnClick} tableType={tableType} sortKey={sortKey} />
 
           {
         /* Each row of data (sorted and filtered) mapped to an Expanding Table Row within <table> */
       }
           <tbody>
-            {SortedAndFilteredDisplayData().map((row, index) => <ExpandingTableRow key={index} data={row} opened={false} tableType={tableType} />)}
+            {SortedAndFilteredDisplayData().map((row, index) => <ExpandingTableRow key={index} data={row} tableType={tableType} />)}
           </tbody>
         </table>
       </div>;
