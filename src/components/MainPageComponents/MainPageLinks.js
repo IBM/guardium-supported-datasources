@@ -14,7 +14,7 @@ export default function MainPageLinks() {
       </a>
       <a
         className={`raw-data-link`}
-        href="https://google.com"
+        href="https://github.com/IBM/guardium-supported-datasources/issues/new"
         target="_blank"
         rel="noopener noreferrer"
       >
