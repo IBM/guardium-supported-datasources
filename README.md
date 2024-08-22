@@ -1,5 +1,8 @@
 # Guardium Data Sources Maintenance Guide
 
+<!-- TODO: Add information for repo access/permissions -->
+<!-- Make a different branch -->
+
 This guide provides step-by-step instructions for maintaining the compatibility information for Guardium data sources. It is intended for use by Quality Assurance (QA) teams to ensure the accuracy and up-to-date status of the data.
 
 ## Table of Contents
@@ -20,6 +23,7 @@ Before beginning the maintenance process, ensure that your system meets the foll
 - **NPM**: Version 8.19.2
 - **Node**: Version 16.18.1
 - **Python**: Version 3.11.4
+- **Repository Access**: Ensure that you have **write access** to the repository. If you do not have the necessary permissions, please contact Devan to request access.
 
 ## Cloning the Repository
 
@@ -29,7 +33,11 @@ Before making any updates or changes, ensure that you have the most current vers
 2. **Navigate to the directory** where you want to clone the repository.
 3. **Clone the repository** using the following git command:
    ```bash
-   git clone https://github.com/AhmedMujtabaIBM/guardium-supported-datasources-v2.git
+   git clone https://github.com/IBM/guardium-supported-datasources.git
+   ```
+4. **Create a new branch from the main branch**:
+   ```bash
+   git checkout -b your-branch-name
    ```
 
 ## Starting the Application Locally
@@ -42,7 +50,7 @@ Start the application locally to verify that all functionalities are working cor
    ```
 2. **Start the project locally**:
    ```bash
-   npm start
+   npm run start
    ```
 
 ## Replacing CSV Files
@@ -58,7 +66,7 @@ After replacing the CSV files, a consolidation script must be run to consolidate
 
 1. Run the consolidation script using Python3:
    ```bash
-   python3 consolidation-script2/run_all.py ./consolidation-script2/config
+   python3 consolidation-script2/runner.py ./consolidation-script2/config
    ```
 
 ## Restarting the Application Locally
@@ -73,15 +81,41 @@ After running the consolidation script, it's necessary to stop and restart the a
    ```bash
    npm start
    ```
+   <!-- TODO: Change to deploy (from main) after PR is merged -->
 
 ## Deploying the Application to GitHub Pages
 
-After updating the CSV files, running the consolidation script and checking your changes, the next step is to deploy the updated content to GitHub Pages. This step ensures that all changes are reflected on your live website.
+After updating the CSV files, running the consolidation script, and verifying your changes, you need to push your changes to a new branch and create a Pull Request (PR) to merge them into main. Once the PR is merged, you can update your local main branch and deploy the changes to GitHub Pages.
 
 ### Steps:
 
-1. **Navigate to the root directory** of your GitHub project where your GitHub Pages content is managed.
-2. **Deploy the updates** by running the following command in your terminal:
+1. **Commit your changes and push them to the new branch**:
+
+   ```bash
+   git add .
+   git commit -m "describe your changes here"
+   git push origin your-branch name
+   ```
+
+2. **Create a Pull Request**:
+
+   - Go to your repository on GitHub.
+   - Navigate to the "Pull Requests" tab and click "New Pull Request."
+   - Select your branch and compare it with main.
+   - Submit the PR for review.
+
+3. **Merge the PR**:
+
+   - Once the PR is approved, merge into main
+
+4. **Update your local main branch**:
+
+   ```bash
+   git checkout main
+   git pull origin main
+   ```
+
+5. **Deploy the updates** by running the following command in your terminal:
 
    ```bash
    npm run deploy
@@ -89,32 +123,6 @@ After updating the CSV files, running the consolidation script and checking your
 
    This command will push the changes to the `gh-pages` branch of your GitHub repository, updating the live site.
 
-3. **Verify the deployment**:
+6. **Verify the deployment**:
    - Check your GitHub repository to confirm that the `gh-pages` branch has received the updates.
    - Visit your GitHub Pages URL to see the changes in action (This can take upto 30 mins to come into effect).
-
-Following these steps will make your updates live
-
-## Pushing Changes back to Main Branch
-
-After deploying your updates to GitHub Pages, it's important to ensure that all changes are also committed and pushed to the main branch of your GitHub repository. This keeps your repository's main branch up-to-date with the latest changes.
-
-### Steps:
-
-1. **Navigate to your project's root directory** in your terminal.
-2. **Add all changed files to the staging area**:
-   ```bash
-   git add .
-   ```
-3. **Commit the changes**:
-   ```bash
-   git commit -m "Updated data and deployed changes"
-   ```
-   Replace `"Updated data and deployed changes"` with a more descriptive message if necessary.
-4. **Push the changes** to the main branch:
-   ```bash
-   git push origin main
-   ```
-   Ensure you are pushing to the correct branch that your team uses for ongoing development (often called `main` or `master`).
-
-By following these steps, you ensure that all changes are safely stored in your repository and accessible to other team members or for future reference.
