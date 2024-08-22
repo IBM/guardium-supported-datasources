@@ -81,6 +81,9 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
 
 def write_csv_to_file(file_path:str,data:List[List[str]]):
     """ Writes a 2D List into CSV file given path """
+    # sort data first
+    data = sorted(data, key=lambda x: ''.join(x))
+
     # Open the CSV file in write mode
     with open(file_path, mode='w',encoding="utf-8-sig", newline='') as file:
         # Create a CSV writer

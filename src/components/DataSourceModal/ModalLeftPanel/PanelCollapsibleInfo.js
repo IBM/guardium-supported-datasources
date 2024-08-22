@@ -11,12 +11,6 @@ export default function PanelCollapsibleInfo({
   toolTipOpen,
   setToolTipOpen,
 }) {
-  const x = selectedMethodData.method_info.filter(
-    (section) =>
-      section.accordian_title == "Setup Instructions" &&
-      section.content[0] != null
-  )
-  console.log("print" + JSON.stringify(x))
   return (
     <div>
       <br />

@@ -23,30 +23,6 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Google Cloud SQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -178,6 +154,30 @@
             "VA_supported": "yes",
             "Classification_supported": "",
             "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud SQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Google Cloud SQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
             "Download_URL": "",
             "Readme_URL": ""
         }
