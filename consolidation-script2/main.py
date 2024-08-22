@@ -119,11 +119,12 @@ def consolidate(output_json_path,
             transform_and_append_as_csv(full_key, output_csv,
                           feature_availability_list, consolidated_version_rows)
 
+    write_csv_to_file(output_csv_path,output_csv)
+    write_dict_to_json_file(output_json_path,output_json)
 
     _test(output_csv_path, input_csv_path, version_key, feature_key,logger)
 
-    write_csv_to_file(output_csv_path,output_csv)
-    write_dict_to_json_file(output_json_path,output_json)
+    
 
 
 

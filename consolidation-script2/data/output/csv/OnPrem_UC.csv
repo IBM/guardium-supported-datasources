@@ -1,4 +1,5 @@
-﻿('11.3'),('Red Hat'),('Red Hat 5'),('MySQL'),('MySQL 8.0'),UC,Yes,N/A,"Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
+﻿GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Instance Discovery,Protocol,Notes
+('11.3'),('Red Hat'),('Red Hat 5'),('MySQL'),('MySQL 8.0'),UC,Yes,N/A,"Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
 "('11.3', '11.4')",('AWS'),(''),('Amazon S3'),(''),UC,,,
 "('11.3', '11.4')",('CentOS'),"('CentOS 6x', 'CentOS 7x')",('MongoDB'),"('MongoDB 4.2', 'MongoDB 4.4')",UC,,N/A,
 "('11.3', '11.4')",('CentOS'),"('CentOS 6x', 'CentOS 7x')",('MySQL'),('MySQL 8.0'),UC,Yes,N/A,MySQL Community Server is supported
@@ -18,4 +19,3 @@
 ('11.4'),('Red Hat'),(''),('HDFS'),('HDFS 3.1'),UC,,,
 ('11.4'),('Windows Server'),"('Windows Server 2012', 'Windows Server 2012 R2')",('MS SQL Server'),('MS SQL Server 2017'),UC,S-TAP,"TCP, NMP","Both Force Encryption"" and ""Always Encrypted"" are supported.The ""Always Encryption"" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
 ('11.4'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019')",('MS SQL Server'),('MS SQL Server 2017'),UC,STAP,"TCP, NMP","Both Force Encryption"" and ""Always Encrypted"" are supported.The ""Always Encryption"" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
-GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Instance Discovery,Protocol,Notes

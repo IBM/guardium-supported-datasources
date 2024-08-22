@@ -1,4 +1,24 @@
 ﻿{
+    "SUSE": [
+        {
+            "GuardiumVersion": [
+                "11.1"
+            ],
+            "DatabaseName": [
+                "DB2"
+            ],
+            "DatabaseVersion": [
+                "DB2 11.5.7"
+            ],
+            "OSName": [
+                "SUSE"
+            ],
+            "OSVersion": [
+                "15"
+            ],
+            "Feature": "C"
+        }
+    ],
     "Debian": [
         {
             "GuardiumVersion": [
@@ -17,6 +37,62 @@
                 "Debian 11"
             ],
             "Feature": "A"
+        }
+    ],
+    "Windows": [
+        {
+            "GuardiumVersion": [
+                "11.0"
+            ],
+            "DatabaseName": [
+                "Cassandra"
+            ],
+            "DatabaseVersion": [
+                "Cassandra 3.11.10"
+            ],
+            "OSName": [
+                "Windows"
+            ],
+            "OSVersion": [
+                "Windows 10"
+            ],
+            "Feature": "A"
+        },
+        {
+            "GuardiumVersion": [
+                "11.0"
+            ],
+            "DatabaseName": [
+                "Cassandra"
+            ],
+            "DatabaseVersion": [
+                "Cassandra 4.0"
+            ],
+            "OSName": [
+                "Windows"
+            ],
+            "OSVersion": [
+                "Windows 10"
+            ],
+            "Feature": "B"
+        },
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.6"
+            ],
+            "OSName": [
+                "Windows"
+            ],
+            "OSVersion": [
+                "Windows 10"
+            ],
+            "Feature": "B"
         }
     ],
     "CentOS": [
@@ -135,82 +211,6 @@
                 "Ubuntu 22.04"
             ],
             "Feature": "C"
-        }
-    ],
-    "SUSE": [
-        {
-            "GuardiumVersion": [
-                "11.1"
-            ],
-            "DatabaseName": [
-                "DB2"
-            ],
-            "DatabaseVersion": [
-                "DB2 11.5.7"
-            ],
-            "OSName": [
-                "SUSE"
-            ],
-            "OSVersion": [
-                "15"
-            ],
-            "Feature": "C"
-        }
-    ],
-    "Windows": [
-        {
-            "GuardiumVersion": [
-                "11.0"
-            ],
-            "DatabaseName": [
-                "Cassandra"
-            ],
-            "DatabaseVersion": [
-                "Cassandra 3.11.10"
-            ],
-            "OSName": [
-                "Windows"
-            ],
-            "OSVersion": [
-                "Windows 10"
-            ],
-            "Feature": "A"
-        },
-        {
-            "GuardiumVersion": [
-                "11.0"
-            ],
-            "DatabaseName": [
-                "Cassandra"
-            ],
-            "DatabaseVersion": [
-                "Cassandra 4.0"
-            ],
-            "OSName": [
-                "Windows"
-            ],
-            "OSVersion": [
-                "Windows 10"
-            ],
-            "Feature": "B"
-        },
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.6"
-            ],
-            "OSName": [
-                "Windows"
-            ],
-            "OSVersion": [
-                "Windows 10"
-            ],
-            "Feature": "B"
         }
     ],
     "macOS": [
