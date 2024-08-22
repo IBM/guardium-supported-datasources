@@ -17,7 +17,7 @@ export default function ModalTableHeaders({
             onClick={() => changeSortKeyOnClick(id)}
           >
             {headerName}
-            <br> </br>
+            <br />
 
             {/* Orienation of arrow depends on current sort key for that column */}
             <ArrowDropDownIcon

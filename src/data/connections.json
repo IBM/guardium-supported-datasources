@@ -13,17 +13,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "2.0+"
-              ],
+              "supported_versions": ["2.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -42,15 +38,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "2.0+"
-              ],
+              "supported_versions": ["2.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
             }
@@ -69,17 +61,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "2019.11.21"
-              ],
+              "supported_versions": ["2019.11.21"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -95,9 +83,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -116,17 +102,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.0.40182"
-              ],
+              "supported_versions": ["1.0.40182"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-redshift-aws-guardium/S3OverRedshiftPackage/logstash-filter-redshift_guardium_connector.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md"
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -146,19 +128,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "5.7+"
-              ],
+              "supported_versions": ["5.7+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverCloudwatchLogsPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                5.6,
-                5.7,
-                8
-              ]
+              "supported_versions": [5.6, 5.7, 8]
             }
           ]
         }
@@ -178,19 +154,12 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                12.1,
-                "19c",
-                "21c"
-              ],
+              "supported_versions": [12.1, "19c", "21c"],
               "notes": "Oracle ASO (native network encryption) is not supported."
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                18,
-                19
-              ],
+              "supported_versions": [18, 19],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
             }
@@ -209,19 +178,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                10.4,
-                10.5,
-                10.6,
-                10.7,
-                10.8
-              ],
+              "supported_versions": [10.4, 10.5, 10.6, 10.7, 10.8],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
             }
@@ -243,18 +204,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                9,
-                10,
-                11,
-                12
-              ]
+              "supported_versions": [9, 10, 11, 12]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "10.0+"
-              ],
+              "supported_versions": ["10.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
             }
@@ -276,16 +230,12 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ],
+              "supported_versions": ["All versions"],
               "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "14.0.x"
-              ],
+              "supported_versions": ["14.0.x"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
             }
@@ -306,15 +256,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "latest"
-              ],
+              "supported_versions": ["latest"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
             }
@@ -375,9 +321,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                6.2
-              ],
+              "supported_versions": [6.2],
               "supported_operating_systems": [
                 "CentOS 6x",
                 "CentOS 7x",
@@ -411,15 +355,13 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
       ]
     },
-    
+
     {
       "database_name": "Azure Cassandra",
       "supported_since": "2.0.0",
@@ -431,9 +373,7 @@
           "methods_supported": [
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             }
           ]
         },
@@ -442,9 +382,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -461,9 +399,7 @@
           "methods_supported": [
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             }
           ]
         },
@@ -472,13 +408,10 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
-        
       ]
     },
     {
@@ -492,9 +425,7 @@
           "methods_supported": [
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             }
           ]
         },
@@ -503,9 +434,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -522,9 +451,7 @@
           "methods_supported": [
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             }
           ]
         },
@@ -533,9 +460,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -552,9 +477,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "11.0+"
-              ],
+              "supported_versions": ["11.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-postgresql-guardium/AzurePostgresqlOverAzureEventHub/azurepostgresql/azure-postgresql-offline-plugins-7.5.2.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
             }
@@ -576,22 +499,16 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ],
+              "supported_versions": ["All versions"],
               "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
             },
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "12.0.2000.8+"
-              ],
+              "supported_versions": ["12.0.2000.8+"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-azure-sql-guardium/AzureSQLOverJdbcPackage/AzureSQL/Azure-SQL-Offline-Package.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
             }
@@ -602,9 +519,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -620,16 +535,12 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ],
+              "supported_versions": ["All versions"],
               "notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption)."
             },
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "latest"
-              ]
+              "supported_versions": ["latest"]
             }
           ]
         },
@@ -638,9 +549,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -697,10 +606,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "CockroachDB 20.1",
-                "CockroachDB 20.2"
-              ],
+              "supported_versions": ["CockroachDB 20.1", "CockroachDB 20.2"],
               "supported_operating_systems": [
                 "Red Hat 5",
                 "Red Hat 6",
@@ -732,11 +638,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "Couch 2.1",
-                "Couch 2.3",
-                "Couch 3"
-              ],
+              "supported_versions": ["Couch 2.1", "Couch 2.3", "Couch 3"],
               "supported_operating_systems": [
                 "CentOS 6x",
                 "CentOS 7x",
@@ -814,16 +716,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.0+"
-              ],
+              "supported_versions": ["4.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
-            },{
+            },
+            {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -839,9 +738,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "Elasticsearch 7.3"
-              ],
+              "supported_versions": ["Elasticsearch 7.3"],
               "supported_operating_systems": [
                 "Red Hat 6",
                 "Red Hat 7",
@@ -865,9 +762,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         },
@@ -876,9 +771,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -894,9 +787,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "8.6.0"
-              ],
+              "supported_versions": ["8.6.0"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
             }
@@ -914,17 +805,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                2
-              ],
+              "supported_versions": [2],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/BigQueryOverPubSubPackage/guardium_logstash-offline-plugins-ps-bigQuery.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             }
           ]
         }
@@ -940,9 +827,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                1
-              ],
+              "supported_versions": [1],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
             }
@@ -962,19 +847,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                9,
-                10,
-                11,
-                12
-              ]
+              "supported_versions": [9, 10, 11, 12]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                13,
-                14
-              ],
+              "supported_versions": [13, 14],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
             }
@@ -994,9 +871,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                8
-              ],
+              "supported_versions": [8],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-offline-plugins-filter-pubsub-mysql-guardium-3.0.3.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
             }
@@ -1014,9 +889,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.0.39300"
-              ],
+              "supported_versions": ["1.0.39300"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/SpannerOverPubSubPackage/guardium_logstash-offline-plugins-gcp-pubsub-spanner.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
             }
@@ -1031,15 +904,12 @@
       "classification_supported": true,
       "notes": "Classification via ISDC",
       "environments_supported": [
-  
         {
           "environment_name": "GCP (Database as a Service)",
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ],
+              "supported_versions": ["All versions"],
               "notes": "Available for Google Kubernetes Engine (GKE)."
             }
           ]
@@ -1055,7 +925,6 @@
         {
           "environment_name": "On-premise or IaaS",
           "methods_supported": [
-  
             {
               "method_key": "STAP",
               "supported_versions": [
@@ -1103,9 +972,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "3.1+"
-              ],
+              "supported_versions": ["3.1+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/HdfsOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
             }
@@ -1217,13 +1084,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                9.7,
-                10.1,
-                10.5,
-                11.1,
-                11.5
-              ],
+              "supported_versions": [9.7, 10.1, 10.5, 11.1, 11.5],
               "notes": "Native encryption (DATA_ENCRYPT) not supported."
             }
           ]
@@ -1313,13 +1174,7 @@
             },
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                9.7,
-                10.1,
-                10.5,
-                11.1,
-                11.5
-              ]
+              "supported_versions": [9.7, 10.1, 10.5, 11.1, 11.5]
             }
           ]
         }
@@ -1335,13 +1190,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                9.7,
-                10.1,
-                10.5,
-                11.1,
-                11.5
-              ],
+              "supported_versions": [9.7, 10.1, 10.5, 11.1, 11.5],
               "notes": "Native encryption (DATA_ENCRYPT) not supported."
             }
           ]
@@ -1660,9 +1509,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "14.0.x"
-              ],
+              "supported_versions": ["14.0.x"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
             },
@@ -1700,19 +1547,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                4.2,
-                4.4,
-                5,
-                6
-              ]
+              "supported_versions": [4.2, 4.4, 5, 6]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.2",
-                "4.4"
-              ],
+              "supported_versions": ["4.2", "4.4"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             },
@@ -1758,9 +1597,7 @@
           "methods_supported": [
             {
               "method_key": "Azure Event Hubs",
-              "supported_versions": [
-                "14.0+"
-              ]
+              "supported_versions": ["14.0+"]
             }
           ]
         }
@@ -1777,19 +1614,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                4.2,
-                4.4,
-                5,
-                6
-              ]
+              "supported_versions": [4.2, 4.4, 5, 6]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.2",
-                "4.4"
-              ],
+              "supported_versions": ["4.2", "4.4"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             }
@@ -1800,19 +1629,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                4.2,
-                4.4,
-                5,
-                6
-              ]
+              "supported_versions": [4.2, 4.4, 5, 6]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.2",
-                "4.4"
-              ],
+              "supported_versions": ["4.2", "4.4"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             }
@@ -1823,19 +1644,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                4.2,
-                4.4,
-                5,
-                6
-              ]
+              "supported_versions": [4.2, 4.4, 5, 6]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.2",
-                "4.4"
-              ],
+              "supported_versions": ["4.2", "4.4"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             }
@@ -1846,19 +1659,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                4.2,
-                4.4,
-                5,
-                6
-              ]
+              "supported_versions": [4.2, 4.4, 5, 6]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "4.2",
-                "4.4"
-              ],
+              "supported_versions": ["4.2", "4.4"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
             }
@@ -1879,18 +1684,13 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "5.0+"
-              ],
+              "supported_versions": ["5.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MysqlOverFilebeatPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
             },
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "MySQL 5.7",
-                "MySQL 8.0"
-              ],
+              "supported_versions": ["MySQL 5.7", "MySQL 8.0"],
               "supported_operating_systems": [
                 "CentOS 6x",
                 "CentOS 7x",
@@ -1940,10 +1740,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "Neo4j 3.5",
-                "Neo4j 4.0"
-              ],
+              "supported_versions": ["Neo4j 3.5", "Neo4j 4.0"],
               "supported_operating_systems": [
                 "CentOS 6x",
                 "CentOS 7x",
@@ -1975,9 +1772,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.1+"
-              ],
+              "supported_versions": ["1.1+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/NeptuneOverCloudWatchPackage.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md"
             }
@@ -2074,11 +1869,7 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                12.1,
-                "19c",
-                "21c"
-              ],
+              "supported_versions": [12.1, "19c", "21c"],
               "notes": "Oracle ASO (native network encryption) is not supported."
             }
           ]
@@ -2213,11 +2004,7 @@
           "methods_supported": [
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "EDB 12",
-                "EDB 14",
-                "FEP 14"
-              ],
+              "supported_versions": ["EDB 12", "EDB 14", "FEP 14"],
               "download_url": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/PostgreFB/postgres-offline-plugins-7.5.2.zip",
               "readme_url": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/README.md"
             },
@@ -2239,10 +2026,7 @@
           "methods_supported": [
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "Redis 5.0",
-                "Redis 6.0"
-              ],
+              "supported_versions": ["Redis 5.0", "Redis 6.0"],
               "supported_operating_systems": [
                 "Red Hat 6",
                 "Red Hat 7",
@@ -2365,15 +2149,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.0+"
-              ],
+              "supported_versions": ["1.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
               "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
             }
@@ -2384,15 +2164,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.0+"
-              ],
+              "supported_versions": ["1.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
               "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
             }
@@ -2403,15 +2179,11 @@
           "methods_supported": [
             {
               "method_key": "External STAP",
-              "supported_versions": [
-                "All versions"
-              ]
+              "supported_versions": ["All versions"]
             },
             {
               "method_key": "Universal Connector",
-              "supported_versions": [
-                "1.0+"
-              ],
+              "supported_versions": ["1.0+"],
               "download_url": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
               "readme_url": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
             }
@@ -2490,13 +2262,9 @@
         {
           "environment_name": "On-premise or IaaS",
           "methods_supported": [
-
             {
               "method_key": "STAP",
-              "supported_versions": [
-                "Sybase IQ 16",
-                "Sybase IQ 16.1"
-              ],
+              "supported_versions": ["Sybase IQ 16", "Sybase IQ 16.1"],
               "supported_operating_systems": [
                 "AIX 6.1",
                 "AIX 7.1",
@@ -2537,7 +2305,6 @@
         {
           "environment_name": "On-premise or IaaS",
           "methods_supported": [
-            
             {
               "method_key": "STAP",
               "supported_versions": [
@@ -2644,10 +2411,7 @@
               "content": [
                 {
                   "title": "Using security-credentials:",
-                  "content": [
-                    "AWS access key ID",
-                    "AWS Secret access key"
-                  ]
+                  "content": ["AWS access key ID", "AWS Secret access key"]
                 },
                 {
                   "title": "Using IAM-Role:",
@@ -2672,11 +2436,7 @@
             },
             {
               "title": "Optional (if using Blocking response action with Guardium Insights)",
-              "content": [
-                "Database",
-                "Username",
-                "Password"
-              ]
+              "content": ["Database", "Username", "Password"]
             }
           ]
         },
@@ -2885,11 +2645,7 @@
             },
             {
               "title": "Optional (if using Blocking response action with Guardium Insights)",
-              "content": [
-                "Database",
-                "Username",
-                "Password"
-              ]
+              "content": ["Database", "Username", "Password"]
             }
           ]
         },
@@ -2949,7 +2705,7 @@
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Learn More]",

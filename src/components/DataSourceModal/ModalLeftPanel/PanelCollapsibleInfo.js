@@ -11,9 +11,15 @@ export default function PanelCollapsibleInfo({
   toolTipOpen,
   setToolTipOpen,
 }) {
+  const x = selectedMethodData.method_info.filter(
+    (section) =>
+      section.accordian_title == "Setup Instructions" &&
+      section.content[0] != null
+  )
+  console.log("print" + JSON.stringify(x))
   return (
     <div>
-      <br> </br>
+      <br />
       <h6> About {selectedMethodData.method_name}</h6>
       <ul>
         <li
@@ -36,7 +42,7 @@ export default function PanelCollapsibleInfo({
             </span>
           ) : null}
         </li>
-        <br> </br>
+        <br />
 
         <li
           onClick={() =>
@@ -58,7 +64,7 @@ export default function PanelCollapsibleInfo({
                       section.content != null
                   )[0]
                 )}
-                <br> </br>
+                <br />
               </div>
               <div>
                 <h6>Benefits: </h6>{" "}
@@ -67,7 +73,7 @@ export default function PanelCollapsibleInfo({
                     (section) => section.accordian_title == "Benefits"
                   )[0]
                 )}
-                <br> </br>
+                <br />
               </div>
               <h6>Considerations: </h6>{" "}
               {generateAccordianItem(
@@ -75,11 +81,11 @@ export default function PanelCollapsibleInfo({
                   (section) => section.accordian_title == "Considerations"
                 )[0]
               )}
-              <br> </br>
+              <br />
             </span>
           ) : null}
         </li>
-        <br> </br>
+        <br />
         <li
           className="tooltip"
           onClick={() =>
@@ -99,6 +105,14 @@ export default function PanelCollapsibleInfo({
                       section.content[0] != null
                   )[0]
                 )}
+                <br />
+                {generateAccordianItem(
+                selectedMethodData.method_info.filter(
+                  (section) =>
+                    section.accordian_title == "Setup Instructions" &&
+                    section.content[0] != null
+                )[0]
+              )}
               </div>
             </span>
           ) : null}

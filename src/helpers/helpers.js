@@ -5,7 +5,7 @@ import {
   UnorderedList,
   Link,
 } from "@carbon/ibm-security";
-import React from 'react';
+import React from "react";
 
 export function isNumber(str) {
   return !isNaN(parseFloat(str)) && isFinite(str);
@@ -75,13 +75,13 @@ export function numericalListCompare(stra1, strb1, stra2, strb2) {
   const matches1 = cleanStr1.match(/-?\d+(\.\d+)?/g);
   const matches2 = cleanStr2.match(/-?\d+(\.\d+)?/g);
 
-  const sum = numbers => {
+  const sum = (numbers) => {
     let total = 0;
     for (const num of numbers) {
       total += num;
     }
     return total;
-  }
+  };
 
   const num1 = sum(matches1 ? matches1.map(Number) : []);
   const num2 = sum(matches2 ? matches2.map(Number) : []);
@@ -111,7 +111,10 @@ export function isCompatibleWithRange(lst, rangea, rangeb) {
 // const result = filterNumbersInRange(numbers, lowerBound, upperBound);
 // Output: [5, 8, 12, 15]
 export function filterNumbersInRange(item, lowerBound, upperBound) {
-  if (!Object.prototype.hasOwnProperty.call(item, 'GuardiumVersion') ||  !Array.isArray(item.GuardiumVersion)) {
+  if (
+    !Object.prototype.hasOwnProperty.call(item, "GuardiumVersion") ||
+    !Array.isArray(item.GuardiumVersion)
+  ) {
     console.error("GuardiumVersion is not an array:", item.GuardiumVersion);
     return { ...item, GuardiumVersion: [] };
   }
@@ -134,17 +137,17 @@ export function FiltersForTableType1(GVSliderValue, sortedData, selectedOS) {
   const [lowerBound, upperBound] = GVSliderValue;
   // Don't display filtered out Guardium Versions
   sortedData = sortedData
-    .map(item => {
+    .map((item) => {
       const filteredItem = filterNumbersInRange(item, lowerBound, upperBound);
       return filteredItem;
     })
-    .filter(item => item !== null); // Remove null entries
-
+    .filter((item) => item !== null); // Remove null entries
 
   if (selectedOS != "All") {
     sortedData = sortedData.filter((row) => {
-      const osCheck = row?.OSName &&
-       row.OSName.every(os => typeof os === 'string') &&
+      const osCheck =
+        row?.OSName &&
+        row.OSName.every((os) => typeof os === "string") &&
         row.OSName.includes(selectedOS);
       return osCheck;
     });
@@ -152,8 +155,6 @@ export function FiltersForTableType1(GVSliderValue, sortedData, selectedOS) {
 
   return sortedData;
 }
-
-
 
 export function generateOnesList(length) {
   return Array.from({ length }, () => 0);
@@ -227,11 +228,11 @@ export const generateAccordianItem = (item) => {
         return (
           <div className="generatedAccordionItem">
             <ul>
-              {item.content.map((cntnt,index) => {
+              {item.content.map((cntnt, index) => {
                 return (
                   <li key={index}>
                     {cntnt}
-                    <br> </br>
+                    <br />
                   </li>
                 );
               })}
@@ -254,9 +255,17 @@ export const generateAccordianItem = (item) => {
         </OrderedList>
       );
     case "link":
-      return <Link href={item.content.link}>{item.content.title}</Link>;
+      return (
+        <>
+          {item.content.map((link, ind) => (
+            <Link key={ind} href={link.link}>
+              {" "}
+              {link.title}{" "}
+            </Link>
+          ))}
+        </>
+      );
     default:
       return null;
   }
 };
-
