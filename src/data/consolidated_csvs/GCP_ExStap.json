@@ -1,5 +1,5 @@
 ﻿{
-    "Snowflake": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,53 +11,38 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "yes",
+            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
-        },
+        }
+    ],
+    "Google Cloud SQL": [
         {
             "GDP_Type": [
-                "GI"
+                "GDP"
             ],
             "Guardium_Version": [
-                "GI 3.2.6",
-                "GI 3.3.0"
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Google Cloud SQL"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Snowflake"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -72,6 +57,28 @@
                 "GDP 11.4.0",
                 "GDP 11.5.0",
                 "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.2",
+                "4.4",
+                "5",
+                "6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
             ],
             "DataSource": [
                 "MongoDB Atlas"
@@ -110,31 +117,9 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.2",
-                "4.4",
-                "5",
-                "6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
         }
     ],
-    "Google Cloud BigQuery": [
+    "Snowflake": [
         {
             "GDP_Type": [
                 "GDP"
@@ -146,12 +131,51 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Google Cloud BigQuery"
+                "Snowflake"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.6",
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -181,30 +205,6 @@
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Google Cloud SQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Google Cloud SQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
             "Download_URL": "",
             "Readme_URL": ""
         }

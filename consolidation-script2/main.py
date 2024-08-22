@@ -264,4 +264,9 @@ def cartesian_decomposition(version_data:List[List[str]],
         "Found %s combinations representing %s rows in %s",
         len(final_combos), len(version_data),input_csv_path)
 
-    return [final_combo.key for final_combo in final_combos]
+    ret = [final_combo.key for final_combo in final_combos]
+    
+    # Sorting the array by joining inner lists to strings
+    sorted_final_combos = sorted(ret, key=lambda x: ''.join(map(str, x)))
+
+    return sorted_final_combos

@@ -1,5 +1,5 @@
 ﻿{
-    "Amazon RDS for PostgreSQL": [
+    "DocumentDB": [
         {
             "GDP_Type": [
                 "GDP"
@@ -8,15 +8,34 @@
                 "GDP 11.3.0"
             ],
             "DataSource": [
-                "Amazon RDS for PostgreSQL"
+                "DocumentDB"
             ],
             "DataSource_Version": [
-                "10.0+"
+                "4.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5.0"
+            ],
+            "DataSource": [
+                "DocumentDB"
+            ],
+            "DataSource_Version": [
+                "4.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         },
         {
@@ -27,34 +46,34 @@
                 "GDP 11.4.0"
             ],
             "DataSource": [
-                "Amazon RDS for PostgreSQL"
+                "DocumentDB"
             ],
             "DataSource_Version": [
-                "10.0+"
+                "4.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": ""
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDP"
             ],
             "Guardium_Version": [
-                "GI 3.3.0"
+                "GDP 12.0.0"
             ],
             "DataSource": [
-                "Amazon RDS for PostgreSQL"
+                "DocumentDB"
             ],
             "DataSource_Version": [
-                "10.0+"
+                "4.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
             "Readme_URL": ""
         },
         {
@@ -65,76 +84,39 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Amazon RDS for PostgreSQL"
+                "DocumentDB"
             ],
             "DataSource_Version": [
-                "10.0+"
+                "4.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
             "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "10.0+"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "10.0+"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
         },
         {
             "GDP_Type": [
                 "GI"
             ],
             "Guardium_Version": [
-                "GI 3.2.0"
+                "GI 3.2.0",
+                "GI 3.3.0"
             ],
             "DataSource": [
-                "Amazon RDS for PostgreSQL"
+                "DocumentDB"
             ],
             "DataSource_Version": [
-                "10.0+"
+                "4.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
+            "Readme_URL": ""
         }
     ],
-    "Amazon Redshift": [
+    "Amazon Aurora MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -143,16 +125,16 @@
                 "GDP 11.3.0"
             ],
             "DataSource": [
-                "Amazon Redshift"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0.40182"
+                "2.0+"
             ],
-            "VA_supported": "yes",
+            "VA_supported": "",
             "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -162,77 +144,53 @@
                 "GDP 11.4.0"
             ],
             "DataSource": [
-                "Amazon Redshift"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0.40182"
+                "2.0+"
             ],
-            "VA_supported": "yes",
+            "VA_supported": "",
             "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
         },
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Amazon Redshift"
-            ],
-            "DataSource_Version": [
-                "1.0.40182"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Snowflake": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
                 "GDP 11.5.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0+"
+                "2.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
-            "Readme_URL": ""
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDP"
             ],
             "Guardium_Version": [
-                "GI 3.3.0"
+                "GDP 12.0.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0+"
+                "2.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
             "Readme_URL": ""
         },
         {
@@ -243,54 +201,36 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Snowflake"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0+"
+                "2.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
             "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Snowflake"
-            ],
-            "DataSource_Version": [
-                "1.0+"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
         },
         {
             "GDP_Type": [
                 "GI"
             ],
             "Guardium_Version": [
-                "GI 3.2.6"
+                "GI 3.2.0",
+                "GI 3.3.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "1.0+"
+                "2.0+"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Readme_URL": ""
         }
     ],
     "MongoDB Atlas": [
@@ -307,6 +247,63 @@
             "DataSource_Version": [
                 "4.2",
                 "4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "MongoDB Atlas"
+            ],
+            "DataSource_Version": [
+                "4.2"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -336,44 +333,6 @@
         },
         {
             "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
                 "GI"
             ],
             "Guardium_Version": [
@@ -384,25 +343,6 @@
             ],
             "DataSource_Version": [
                 "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/MongodbOverFilebeatPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.2"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -570,67 +510,6 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Amazon RDS for MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.4",
-                "10.5",
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.8"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.5",
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
@@ -660,6 +539,26 @@
             ],
             "DataSource_Version": [
                 "10.7"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.8"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -726,16 +625,18 @@
         },
         {
             "GDP_Type": [
-                "GI"
+                "GI GI SaaS"
             ],
             "Guardium_Version": [
-                "GI 3.3.0"
+                "GI SaaS"
             ],
             "DataSource": [
                 "Amazon RDS for MariaDB"
             ],
             "DataSource_Version": [
-                "10.7"
+                "10.4",
+                "10.5",
+                "10.6"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -755,6 +656,45 @@
             ],
             "DataSource_Version": [
                 "10.8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.5",
+                "10.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.7"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -824,13 +764,13 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 12.0.0"
+                "GDP 11.4.0"
             ],
             "DataSource": [
                 "Amazon RDS for MariaDB"
             ],
             "DataSource_Version": [
-                "10.8"
+                "10.7"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -843,13 +783,13 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0"
+                "GDP 12.0.0"
             ],
             "DataSource": [
                 "Amazon RDS for MariaDB"
             ],
             "DataSource_Version": [
-                "10.7"
+                "10.8"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -1010,204 +950,6 @@
             "Notes": "",
             "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mariadb-aws-guardium/MariaDBOverCloudWatchPackage/MariaDB/logstash-filter-awsmariadb_guardium_filter.zip",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/README.md"
-        }
-    ],
-    "Amazon DynamoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Amazon DynamoDB"
-            ],
-            "DataSource_Version": [
-                "2019.11.21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0"
-            ],
-            "DataSource": [
-                "Amazon DynamoDB"
-            ],
-            "DataSource_Version": [
-                "2019.11.21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Amazon DynamoDB"
-            ],
-            "DataSource_Version": [
-                "2019.11.21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Amazon DynamoDB"
-            ],
-            "DataSource_Version": [
-                "2019.11.21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
-        }
-    ],
-    "DocumentDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5.0"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "DocumentDB"
-            ],
-            "DataSource_Version": [
-                "4.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DocumentDBOverCloudwatchPackage.zip",
-            "Readme_URL": ""
         }
     ],
     "Neptune": [
@@ -1345,69 +1087,27 @@
             "Readme_URL": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
         }
     ],
-    "Amazon RDS for Microsoft SQL Server": [
+    "Amazon RDS for Oracle": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
                 "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 11.4.0"
             ],
             "DataSource": [
-                "Amazon RDS for Microsoft SQL Server"
+                "Amazon RDS for Oracle"
             ],
             "DataSource_Version": [
-                "14.0.x"
+                "18"
             ],
             "VA_supported": "yes",
             "Classification_supported": "yes",
             "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
             "Readme_URL": ""
         },
-        {
-            "GDP_Type": [
-                ""
-            ],
-            "Guardium_Version": [
-                "3.3.0 (planned)"
-            ],
-            "DataSource": [
-                "Amazon RDS for Microsoft SQL Server"
-            ],
-            "DataSource_Version": [
-                "14.0.x"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Amazon RDS for Microsoft SQL Server"
-            ],
-            "DataSource_Version": [
-                "14.0.x"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
-        }
-    ],
-    "Amazon RDS for Oracle": [
         {
             "GDP_Type": [
                 "GDP"
@@ -1434,8 +1134,26 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0"
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for Oracle"
+            ],
+            "DataSource_Version": [
+                "18"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
             ],
             "DataSource": [
                 "Amazon RDS for Oracle"
@@ -1471,48 +1189,10 @@
         },
         {
             "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "18"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
                 "GI"
             ],
             "Guardium_Version": [
                 "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "18"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
             ],
             "DataSource": [
                 "Amazon RDS for Oracle"
@@ -1603,7 +1283,88 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
         }
     ],
-    "Amazon S3": [
+    "Amazon DynamoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "2019.11.21"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "2019.11.21"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "2019.11.21"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "2019.11.21"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/DynamodbOverCloudwatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
+        }
+    ],
+    "Amazon Redshift": [
         {
             "GDP_Type": [
                 "GDP"
@@ -1612,34 +1373,15 @@
                 "GDP 11.3.0"
             ],
             "DataSource": [
-                "Amazon S3"
+                "Amazon Redshift"
             ],
             "DataSource_Version": [
-                "latest"
+                "1.0.40182"
             ],
-            "VA_supported": "",
+            "VA_supported": "yes",
             "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5.0"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         },
         {
@@ -1650,191 +1392,36 @@
                 "GDP 11.4.0"
             ],
             "DataSource": [
-                "Amazon S3"
+                "Amazon Redshift"
             ],
             "DataSource_Version": [
-                "latest"
+                "1.0.40182"
             ],
-            "VA_supported": "",
+            "VA_supported": "yes",
             "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": ""
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md"
         },
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
-        }
-    ],
-    "Amazon Aurora PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0"
-            ],
-            "DataSource": [
-                "Amazon Aurora PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "2.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
                 "GDP 11.5.0",
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "Amazon Redshift"
             ],
             "DataSource_Version": [
-                "2.0+"
+                "1.0.40182"
             ],
-            "VA_supported": "",
+            "VA_supported": "yes",
             "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
             "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Amazon Aurora PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "2.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0"
-            ],
-            "DataSource": [
-                "Amazon Aurora PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "2.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Amazon Aurora PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "2.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         }
     ],
     "Amazon RDS for MySQL": [
@@ -1936,7 +1523,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
         }
     ],
-    "Amazon Aurora MySQL": [
+    "Amazon S3": [
         {
             "GDP_Type": [
                 "GDP"
@@ -1945,35 +1532,16 @@
                 "GDP 11.3.0"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon S3"
             ],
             "DataSource_Version": [
-                "2.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0"
-            ],
-            "DataSource": [
-                "Amazon Aurora MySQL"
-            ],
-            "DataSource_Version": [
-                "2.0+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -1983,35 +1551,34 @@
                 "GDP 11.5.0"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon S3"
             ],
             "DataSource_Version": [
-                "2.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDP"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
+                "GDP 11.4.0"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon S3"
             ],
             "DataSource_Version": [
-                "2.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
             "Readme_URL": ""
         },
         {
@@ -2022,15 +1589,95 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon S3"
             ],
             "DataSource_Version": [
-                "2.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0"
+            ],
+            "DataSource": [
+                "Amazon S3"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Amazon S3"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Amazon S3"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/S3OverCloudwatchLogsPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "1.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
             "Readme_URL": ""
         },
         {
@@ -2041,7 +1688,282 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "1.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "1.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "1.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.6"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "1.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.4.1/SnowflakeOverJbdcPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
+        }
+    ],
+    "Amazon RDS for Microsoft SQL Server": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for Microsoft SQL Server"
+            ],
+            "DataSource_Version": [
+                "14.0.x"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                ""
+            ],
+            "Guardium_Version": [
+                "3.3.0 (planned)"
+            ],
+            "DataSource": [
+                "Amazon RDS for Microsoft SQL Server"
+            ],
+            "DataSource_Version": [
+                "14.0.x"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Amazon RDS for Microsoft SQL Server"
+            ],
+            "DataSource_Version": [
+                "14.0.x"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md"
+        }
+    ],
+    "Amazon RDS for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "10.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md"
+        }
+    ],
+    "Amazon Aurora PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
             ],
             "DataSource_Version": [
                 "2.0+"
@@ -2049,8 +1971,86 @@
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-aurora-mysql-guardium/AuroraMysqlOverCloudwatchPackage/AuroraMysql/Aurora-Mysql-offlinePlugin.zip",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/infoinsights/guardium-snowflake-uc-filter"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "2.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
             "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "2.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "2.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "2.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.2.0/PostgresOverCloudWatchPackage.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md"
         }
     ]
 }

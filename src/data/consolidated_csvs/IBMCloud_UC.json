@@ -25,11 +25,10 @@
         },
         {
             "GDP_Type": [
-                "GI"
+                "GI GI SaaS"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
+                "GI SaaS"
             ],
             "DataSource": [
                 "MongoDB Atlas"
@@ -46,10 +45,11 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GI"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GI 3.2.0",
+                "GI 3.3.0"
             ],
             "DataSource": [
                 "MongoDB Atlas"

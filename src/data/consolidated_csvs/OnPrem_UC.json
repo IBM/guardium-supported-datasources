@@ -1,27 +1,4 @@
 ﻿{
-    "Snowflake": [
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "Snowflake"
-            ],
-            "DatabaseVersion": [
-                ""
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
     "PostgreSQL": [
         {
             "GuardiumVersion": [
@@ -53,138 +30,7 @@
             "Notes": ""
         }
     ],
-    "Amazon S3": [
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "Amazon S3"
-            ],
-            "DatabaseVersion": [
-                ""
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "MongoDB": [
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Red Hat"
-            ],
-            "OSVersion": [
-                "Red Hat 6",
-                "Red Hat 7",
-                "Red Hat 7.1",
-                "Red Hat 7.2",
-                "Red Hat 7.3",
-                "Red Hat 7.4",
-                "Red Hat 7.5",
-                "Red Hat 7.6",
-                "Red Hat 7.7",
-                "Red Hat 7.8",
-                "Red Hat 7.9",
-                "Red Hat 8"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 11 (32 bit & 64 bit)"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 12 (64 bit)",
-                "Suse 15 (64 bit)"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "CentOS"
-            ],
-            "OSVersion": [
-                "CentOS 6x",
-                "CentOS 7x"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": ""
-        }
-    ],
-    "DynamoDB": [
+    "Snowflake": [
         {
             "GuardiumVersion": [
                 "11.4"
@@ -196,7 +42,7 @@
                 ""
             ],
             "DatabaseName": [
-                "DynamoDB"
+                "Snowflake"
             ],
             "DatabaseVersion": [
                 ""
@@ -313,13 +159,10 @@
                 "11.4"
             ],
             "OSName": [
-                "Ubuntu"
+                "Debian"
             ],
             "OSVersion": [
-                "Ubuntu 14.04",
-                "Ubuntu 16.04",
-                "Ubuntu 18.0",
-                "Ubuntu 20.04"
+                "Debian 10"
             ],
             "DatabaseName": [
                 "MySQL"
@@ -361,10 +204,13 @@
                 "11.4"
             ],
             "OSName": [
-                "Debian"
+                "Ubuntu"
             ],
             "OSVersion": [
-                "Debian 10"
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 20.04"
             ],
             "DatabaseName": [
                 "MySQL"
@@ -399,6 +245,136 @@
             "Instance Discovery": "Yes",
             "Protocol": "N/A",
             "Notes": "MySQL Community Server is supported"
+        }
+    ],
+    "MongoDB": [
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": ""
+        }
+    ],
+    "HDFS": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "HDFS"
+            ],
+            "DatabaseVersion": [
+                "HDFS 3.1"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
         }
     ],
     "MS SQL Server": [
@@ -468,22 +444,46 @@
             "Notes": ""
         }
     ],
-    "HDFS": [
+    "Amazon S3": [
         {
             "GuardiumVersion": [
+                "11.3",
                 "11.4"
             ],
             "OSName": [
-                "Red Hat"
+                "AWS"
             ],
             "OSVersion": [
                 ""
             ],
             "DatabaseName": [
-                "HDFS"
+                "Amazon S3"
             ],
             "DatabaseVersion": [
-                "HDFS 3.1"
+                ""
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
+    "DynamoDB": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "DynamoDB"
+            ],
+            "DatabaseVersion": [
+                ""
             ],
             "Network traffic": "UC",
             "Instance Discovery": "",
