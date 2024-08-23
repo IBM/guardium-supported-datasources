@@ -1,6 +1,6 @@
 input_csv_path: consolidation-script2/data/input/OnPrem_UC.csv
 output_csv_path: consolidation-script2/data/output/csv/OnPrem_UC.csv
-output_json_path: src/data/consolidated_csvs/OnPrem_UC.json
+output_json_path: src/data/consolidated_jsons/OnPrem_UC.json
 environment_name: On-premise or IaaS
 method_name: Universal Connector
 compat_header:

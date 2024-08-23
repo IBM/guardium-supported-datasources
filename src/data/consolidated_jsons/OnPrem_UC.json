@@ -77,27 +77,198 @@
             "Notes": ""
         }
     ],
-    "HDFS": [
+    "MySQL": [
         {
             "GuardiumVersion": [
+                "11.3",
                 "11.4"
             ],
             "OSName": [
                 "Red Hat"
             ],
             "OSVersion": [
-                ""
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
             ],
             "DatabaseName": [
-                "HDFS"
+                "MySQL"
             ],
             "DatabaseVersion": [
-                "HDFS 3.1"
+                "MySQL 8.0"
             ],
             "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": "Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                "Red Hat 5"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": "Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 11 (32 bit & 64 bit)"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": "SLES 11 PPC64 (Big Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": "SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Ubuntu"
+            ],
+            "OSVersion": [
+                "Ubuntu 14.04",
+                "Ubuntu 16.04",
+                "Ubuntu 18.0",
+                "Ubuntu 20.04"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
             "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Debian"
+            ],
+            "OSVersion": [
+                "Debian 9.3",
+                "Debian 9.4"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Debian"
+            ],
+            "OSVersion": [
+                "Debian 10"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": ""
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MySQL"
+            ],
+            "DatabaseVersion": [
+                "MySQL 8.0"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "Yes",
+            "Protocol": "N/A",
+            "Notes": "MySQL Community Server is supported"
         }
     ],
     "MongoDB": [
@@ -207,6 +378,52 @@
             "Notes": ""
         }
     ],
+    "DynamoDB": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "DynamoDB"
+            ],
+            "DatabaseVersion": [
+                ""
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
+    "HDFS": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Red Hat"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "HDFS"
+            ],
+            "DatabaseVersion": [
+                "HDFS 3.1"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
     "MS SQL Server": [
         {
             "GuardiumVersion": [
@@ -272,223 +489,6 @@
             "Instance Discovery": "",
             "Protocol": "",
             "Notes": ""
-        }
-    ],
-    "DynamoDB": [
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "DynamoDB"
-            ],
-            "DatabaseVersion": [
-                ""
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "MySQL": [
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Red Hat"
-            ],
-            "OSVersion": [
-                "Red Hat 6",
-                "Red Hat 7",
-                "Red Hat 7.1",
-                "Red Hat 7.2",
-                "Red Hat 7.3",
-                "Red Hat 7.4",
-                "Red Hat 7.5",
-                "Red Hat 7.6",
-                "Red Hat 7.7",
-                "Red Hat 7.8",
-                "Red Hat 7.9",
-                "Red Hat 8"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": "Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3"
-            ],
-            "OSName": [
-                "Red Hat"
-            ],
-            "OSVersion": [
-                "Red Hat 5"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": "Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE), MySQL Community Server is supported"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 11 (32 bit & 64 bit)"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": "SLES 11 PPC64 (Big Endian system only)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 12 (64 bit)",
-                "Suse 15 (64 bit)"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": "SLES 12 PPC64LE (Little Endian system only)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 10"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": ""
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Debian"
-            ],
-            "OSVersion": [
-                "Debian 9.3",
-                "Debian 9.4"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": ""
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Ubuntu"
-            ],
-            "OSVersion": [
-                "Ubuntu 14.04",
-                "Ubuntu 16.04",
-                "Ubuntu 18.0",
-                "Ubuntu 20.04"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": ""
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "CentOS"
-            ],
-            "OSVersion": [
-                "CentOS 6x",
-                "CentOS 7x"
-            ],
-            "DatabaseName": [
-                "MySQL"
-            ],
-            "DatabaseVersion": [
-                "MySQL 8.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "Yes",
-            "Protocol": "N/A",
-            "Notes": "MySQL Community Server is supported"
         }
     ]
 }

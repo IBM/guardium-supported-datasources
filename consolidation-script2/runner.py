@@ -61,6 +61,7 @@ def main():
     "supported_databases": []
     }
 
+
     for file_name in os.listdir(path_to_dir):
 
         # Construct the full path to the configuration file

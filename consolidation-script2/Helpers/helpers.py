@@ -6,38 +6,139 @@ import json
 import re
 
 def is_sublist(lst, sublst):
-    lst_str = ''.join(lst)
-    sublst_str = ''.join(sublst)
+    """
+    Determines whether one list is a sublist of the other
+    by joining elements with a unique delimiter.
+
+    This function checks if the concatenated string of elements in `sublst`,
+    joined by '|||', is a substring of the concatenated string of elements in `lst`,
+    joined by the same delimiter, or vice versa.
+
+    Args:
+        lst (list): The main list to check.
+        sublst (list): The sublist to check within the main list.
+
+    Returns:
+        bool: True if `sublst` is a sublist of `lst`,
+        or if `lst` is a sublist of `sublst`. False otherwise.
+
+    Examples:
+        >>> is_sublist(['a', 'b', 'c'], ['b', 'c'])
+        True
+
+        >>> is_sublist(['a', 'b', 'c'], ['c', 'd'])
+        False
+
+        >>> is_sublist(['12', '34'], ['12'])
+        True
+
+        >>> is_sublist(['a', 'b'], ['a', 'b', 'c'])
+        True
+        
+        >>> is_sublist(['a', 'b'], ['ab'])
+        False  # Because 'ab' would not match 'a|||b' with the delimiter
+    """
+    lst_str = '|||'.join(lst)
+    sublst_str = '|||'.join(sublst)
     return (sublst_str in lst_str or lst_str in sublst_str)
 
 
 def split_string(s):
-    return [float(x) if re.match(r'^[+-]?\d+(\.\d+)?$', x) else x 
+    """
+    Splits a string into a list of numbers (as floats) and non-numeric substrings.
+
+    The function splits the input string `s` by numbers, converting numeric substrings
+    to floats and leaving non-numeric substrings as they are.
+
+    Args:
+        s (str): The input string to be split.
+
+    Returns:
+        List[Union[float, str]]: A list containing floats (for numeric substrings) and strings.
+
+    Examples:
+        >>> split_string("abc123def4.56ghi")
+        ['abc', 123.0, 'def', 4.56, 'ghi']
+
+        >>> split_string("42 is the answer to life")
+        [42.0, ' is the answer to life']
+
+        >>> split_string("no numbers here")
+        ['no numbers here']
+
+        >>> split_string("100")
+        [100.0]
+
+        >>> split_string("temperature is -273.15 degrees")
+        ['temperature is ', -273.15, ' degrees']
+    """
+    return [float(x) if re.match(r'^[+-]?\d+(\.\d+)?$', x) else x
             for x in re.split(r'(\d+\.?\d*)', s) if x]
 
 def compare_lists(lista, listb):
+    """
+    Compares two lists element by element.
+
+    The comparison is done based on the following rules:
+    1. If both elements are numbers (int or float), they are compared numerically.
+    2. If one element is a number and the other is a string, the string is considered smaller.
+    3. If both elements are strings, they are compared alphabetically.
+    4. If all compared elements are equal, the list with more elements is considered larger.
+
+    Args:
+        lista (list): The first list to compare.
+        listb (list): The second list to compare.
+
+    Returns:
+        int: 
+            - Returns -1 if `lista` is considered smaller than `listb`.
+            - Returns 1 if `lista` is considered larger than `listb`.
+            - Returns 0 if both lists are considered equal.
+
+    Examples:
+        >>> compare_lists([1, 2, 3], [1, 2, 4])
+        -1
+        
+        >>> compare_lists([1, 3, 2], [1, 2, 4])
+        1
+        
+        >>> compare_lists([1, 'apple', 3], [1, 2, 3])
+        -1
+        
+        >>> compare_lists([1, 2, 3], [1, 2, 3, 4])
+        -1
+        
+        >>> compare_lists(['banana', 'apple'], ['banana', 'apple'])
+        0
+        
+        >>> compare_lists(['apple', 2], ['apple', 'banana'])
+        1
+
+        >>> compare_lists(['apple', 'banana'], ['apple', 2])
+        -1
+    """
     min_len = min(len(lista), len(listb))
-    
+
     for i in range(min_len):
         a, b = lista[i], listb[i]
-        
+
         # If both are numbers, compare numerically
         if isinstance(a, (int, float)) and isinstance(b, (int, float)):
             if a != b:
                 return -1 if a < b else 1
-            
+
         # If one is a number and the other is a string, treat string as smaller
         elif isinstance(a, (int, float)) and isinstance(b, str):
             return 1  # Numbers come after strings
-        
+
         elif isinstance(a, str) and isinstance(b, (int, float)):
             return -1  # Strings come before numbers
-        
+
         # If both are strings, compare alphabetically
         else:
             if a != b:
                 return -1 if a < b else 1
-    
+
     # If all elements compared are equal, the longer list is considered larger
     return len(lista) - len(listb)
 
@@ -137,7 +238,7 @@ def find_relevant_ranges(search_space:List[str],relevant_list:List[str]) -> List
     ranges = []
     for i in range(0,len(search_space)+1):
         for j in range(i+1,len(search_space)+1):
-            if (is_sublist(search_space[i:j],relevant_list)):
+            if is_sublist(search_space[i:j],relevant_list):
                 ranges.append(search_space[i:j])
 
     return ranges
@@ -192,7 +293,6 @@ def get_uniq_vals_for_each_column(key_:List[str],
         formatted_data[i],
         key=cmp_to_key(lambda x, y: compare_lists(split_string(x), split_string(y)))
         )
-        
 
     return formatted_data
 
@@ -261,7 +361,7 @@ def remove_duplicates_2d(input_list:List[List[str]]) -> List[List[str]]:
 
     return unique_list
 
-def group_data_by_feature_availability_set(data:List[List[str]],
+def group_data_by_feature_set(data:List[List[str]],
                                            get_features:Callable[[List[str]],str],
                                            get_versions:Callable[[List[str]],List[str]],
                                            logger) -> Dict[str,List[str]]:
@@ -356,14 +456,75 @@ def pretty_print_row(row):
 
 
 def add_supported_database(json_data, database_name, environment_name, method_name):
+    """
+    Adds a supported method to a database environment in the provided JSON data structure.
+
+    This function checks if the specified database and environment exist in the JSON data.
+    If they don't, it creates them. Then, it adds the method to the environment's list
+    of supported methods if it hasn't been added already.
+
+    Args:
+        json_data (dict): The JSON-like dictionary that holds database support information.
+        database_name (str): The name of the database to which the method is to be added.
+        environment_name (str): The name of the environment (e.g., "AWS", "On-Premise").
+        method_name (str): The name of the method to be added to the environment.
+
+    Returns:
+        None: The function modifies the input `json_data` in place.
+
+    Examples:
+        >>> json_data = {"supported_databases": []}
+        >>> add_supported_database(json_data, "Amazon Aurora MySQL",
+                "AWS (Database as a Service)", "Universal Connector")
+        >>> add_supported_database(json_data, "Amazon Aurora MySQL",
+                "AWS (Database as a Service)", "External STAP")
+        >>> add_supported_database(json_data, "Amazon DynamoDB",
+                "AWS (Database as a Service)", "Universal Connector")
+        >>> print(json.dumps(json_data, indent=2))
+        {
+          "supported_databases": [
+            {
+              "database_name": "Amazon Aurora MySQL",
+              "environments_supported": [
+                {
+                  "environment_name": "AWS (Database as a Service)",
+                  "methods_supported": [
+                    {"method_key": "Universal Connector"},
+                    {"method_key": "External STAP"}
+                  ]
+                }
+              ]
+            },
+            {
+              "database_name": "Amazon DynamoDB",
+              "environments_supported": [
+                {
+                  "environment_name": "AWS (Database as a Service)",
+                  "methods_supported": [
+                    {"method_key": "Universal Connector"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+
+        >>> add_supported_database(json_data, "Amazon Aurora MySQL",
+            "AWS (Database as a Service)", "Universal Connector")
+        # No change, as "Universal Connector" already exists
+         for "Amazon Aurora MySQL" in "AWS (Database as a Service)"
+    """
+
     # Find the database if it exists, or create it
-    db = next((db for db in json_data["supported_databases"] if db["database_name"] == database_name), None)
+    db = next((db for db in json_data["supported_databases"]
+               if db["database_name"] == database_name), None)
     if not db:
         db = {"database_name": database_name, "environments_supported": []}
         json_data["supported_databases"].append(db)
 
     # Find the environment if it exists, or create it
-    env = next((env for env in db["environments_supported"] if env["environment_name"] == environment_name), None)
+    env = next((env for env in db["environments_supported"]
+                if env["environment_name"] == environment_name), None)
     if not env:
         env = {"environment_name": environment_name, "methods_supported": []}
         db["environments_supported"].append(env)

@@ -162,10 +162,10 @@ def validate_csv_headers(file_path: str, required_headers: List[str]) -> bool:
             headers = next(reader, None)  # Read the first row
             if headers is None:
                 raise ValueError("CSV file does not contain a header row.")
-            
+
             # Check if all required headers are present in the file's headers
             missing_headers = [header for header in required_headers if header not in headers]
-            
+
             if missing_headers:
                 print(f"Missing required headers: {missing_headers}")
                 print(f"Actual Headers: {headers}")

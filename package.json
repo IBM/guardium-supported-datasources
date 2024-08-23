@@ -24,8 +24,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --force",
-    "consol": "rm ./src/data/consolidated_csvs/OnPrem_UC.json && python3 ./consolidation-script2/runner.py ./consolidation-script2/config/configOnPrem_UC.yaml",
-    "consol_deploy_true": "rm -rf ./src/data/consolidated_csvs/* && python3 ./consolidation-script2/run_all.py ./consolidation-script2/config && gh-pages -d build"
+    "consol": "rm ./src/data/consolidated_jsons/OnPrem_UC.json && python3 ./consolidation-script2/runner.py ./consolidation-script2/config/configOnPrem_UC.yaml",
+    "consol_deploy_true": "rm -rf ./src/data/consolidated_jsons/* && python3 ./consolidation-script2/run_all.py ./consolidation-script2/config && gh-pages -d build"
   },
   "browserslist": {
     "production": [

@@ -1,5 +1,5 @@
 output_csv_path: consolidation-script2/data/output/csv/GCP_UC.csv
-output_json_path: src/data/consolidated_csvs/GCP_UC.json
+output_json_path: src/data/consolidated_jsons/GCP_UC.json
 input_csv_path: consolidation-script2/data/input/GCP_UC.csv
 environment_name: GCP (Database as a Service)
 method_name: Universal Connector

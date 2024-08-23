@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { generateAccordianItem } from "../../../helpers/helpers";
 
-// TODO: Used react carbon <toggletipitem> here
 // TODO: Split into 3 tooltips
 
 // Collapsible Information Related to current Method, logic is handled using toolTop

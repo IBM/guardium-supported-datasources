@@ -98,14 +98,14 @@ export default function MainPage() {
           </div>
         </div>
 
-        {selectedDataSourceData && (
+        {selectedDataSourceData ? (
           <DatasourceModal
             open={open}
             selectedDataSourceData={selectedDataSourceData}
             selectedProduct={selectedProduct}
             setOpen={setOpen}
           />
-        )}
+        ): null}
       </div>
     </>
   ) : (
