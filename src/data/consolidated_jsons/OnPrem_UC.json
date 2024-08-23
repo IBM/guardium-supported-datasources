@@ -1,5 +1,49 @@
 ﻿{
-    "Snowflake": [
+    "MS SQL Server": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "DatabaseName": [
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "STAP",
+            "Protocol": "TCP, NMP",
+            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+        },
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "DatabaseName": [
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "S-TAP",
+            "Protocol": "TCP, NMP",
+            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+        },
         {
             "GuardiumVersion": [
                 "11.4"
@@ -11,7 +55,54 @@
                 ""
             ],
             "DatabaseName": [
-                "Snowflake"
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
+    "Amazon S3": [
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "Amazon S3"
+            ],
+            "DatabaseVersion": [
+                ""
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
+    "DynamoDB": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "DynamoDB"
             ],
             "DatabaseVersion": [
                 ""
@@ -46,160 +137,6 @@
                 "PostgreSQL 12.3",
                 "PostgreSQL 12.7",
                 "PostgreSQL 13.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "Amazon S3": [
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "Amazon S3"
-            ],
-            "DatabaseVersion": [
-                ""
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "MongoDB": [
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Red Hat"
-            ],
-            "OSVersion": [
-                "Red Hat 6",
-                "Red Hat 7",
-                "Red Hat 7.1",
-                "Red Hat 7.2",
-                "Red Hat 7.3",
-                "Red Hat 7.4",
-                "Red Hat 7.5",
-                "Red Hat 7.6",
-                "Red Hat 7.7",
-                "Red Hat 7.8",
-                "Red Hat 7.9",
-                "Red Hat 8"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 11 (32 bit & 64 bit)"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "Suse"
-            ],
-            "OSVersion": [
-                "Suse 12 (64 bit)",
-                "Suse 15 (64 bit)"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
-        },
-        {
-            "GuardiumVersion": [
-                "11.3",
-                "11.4"
-            ],
-            "OSName": [
-                "CentOS"
-            ],
-            "OSVersion": [
-                "CentOS 6x",
-                "CentOS 7x"
-            ],
-            "DatabaseName": [
-                "MongoDB"
-            ],
-            "DatabaseVersion": [
-                "MongoDB 4.2",
-                "MongoDB 4.4"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "N/A",
-            "Notes": ""
-        }
-    ],
-    "DynamoDB": [
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "DynamoDB"
-            ],
-            "DatabaseVersion": [
-                ""
             ],
             "Network traffic": "UC",
             "Instance Discovery": "",
@@ -401,51 +338,114 @@
             "Notes": "MySQL Community Server is supported"
         }
     ],
-    "MS SQL Server": [
+    "MongoDB": [
         {
             "GuardiumVersion": [
+                "11.3",
                 "11.4"
             ],
             "OSName": [
-                "Windows Server"
+                "Red Hat"
             ],
             "OSVersion": [
-                "Windows Server 2016",
-                "Windows Server 2019"
+                "Red Hat 6",
+                "Red Hat 7",
+                "Red Hat 7.1",
+                "Red Hat 7.2",
+                "Red Hat 7.3",
+                "Red Hat 7.4",
+                "Red Hat 7.5",
+                "Red Hat 7.6",
+                "Red Hat 7.7",
+                "Red Hat 7.8",
+                "Red Hat 7.9",
+                "Red Hat 8"
             ],
             "DatabaseName": [
-                "MS SQL Server"
+                "MongoDB"
             ],
             "DatabaseVersion": [
-                "MS SQL Server 2017"
+                "MongoDB 4.2",
+                "MongoDB 4.4"
             ],
             "Network traffic": "UC",
-            "Instance Discovery": "STAP",
-            "Protocol": "TCP, NMP",
-            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); Little endian and Big endian supported on Power 8 (RHEL 7.x-7.6 PPC64LE)"
         },
         {
             "GuardiumVersion": [
+                "11.3",
                 "11.4"
             ],
             "OSName": [
-                "Windows Server"
+                "Suse"
             ],
             "OSVersion": [
-                "Windows Server 2012",
-                "Windows Server 2012 R2"
+                "Suse 11 (32 bit & 64 bit)"
             ],
             "DatabaseName": [
-                "MS SQL Server"
+                "MongoDB"
             ],
             "DatabaseVersion": [
-                "MS SQL Server 2017"
+                "MongoDB 4.2",
+                "MongoDB 4.4"
             ],
             "Network traffic": "UC",
-            "Instance Discovery": "S-TAP",
-            "Protocol": "TCP, NMP",
-            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0)"
         },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "Suse"
+            ],
+            "OSVersion": [
+                "Suse 12 (64 bit)",
+                "Suse 15 (64 bit)"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": "supported: MongoDB mgo client (version 2) 3.2.1, 3.4.2, 3.6, 4.0; MongoDB Compass client (versions 1.14, 1.15, 1.16 (3.6, 4.0); SLES 12 PPC64LE (Little Endian system only)"
+        },
+        {
+            "GuardiumVersion": [
+                "11.3",
+                "11.4"
+            ],
+            "OSName": [
+                "CentOS"
+            ],
+            "OSVersion": [
+                "CentOS 6x",
+                "CentOS 7x"
+            ],
+            "DatabaseName": [
+                "MongoDB"
+            ],
+            "DatabaseVersion": [
+                "MongoDB 4.2",
+                "MongoDB 4.4"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "N/A",
+            "Notes": ""
+        }
+    ],
+    "Snowflake": [
         {
             "GuardiumVersion": [
                 "11.4"
@@ -457,10 +457,10 @@
                 ""
             ],
             "DatabaseName": [
-                "MS SQL Server"
+                "Snowflake"
             ],
             "DatabaseVersion": [
-                "MS SQL Server 2017"
+                ""
             ],
             "Network traffic": "UC",
             "Instance Discovery": "",

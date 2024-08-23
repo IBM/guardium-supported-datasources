@@ -1,6 +1,8 @@
 input_csv_path: consolidation-script2/data/input/OnPrem_Stap.csv
 output_csv_path: consolidation-script2/data/output/csv/OnPrem_Stap.csv
-output_json_path: src/data/consolidated_csvs/OnPrem_Stap.json
+output_json_path: src/data/consolidated_jsons/OnPrem_Stap.json
+environment_name: On-premise or IaaS
+method_name: STAP
 compat_header:
   - GuardiumVersion
   - OSName
@@ -8,17 +10,17 @@ compat_header:
   - DatabaseName
   - DatabaseVersion
 feature_header:
-  -  Network traffic
-  -  Local traffic
-  -  Encrypted traffic
-  -  Shared Memory
-  -  Kerberos
-  -  Blocking
-  -  Redaction
-  -  UID Chain
-  -  Compression
-  -  Query Rewrite
-  -  Instance Discovery
-  -  Protocol
-  -  Notes
+  - Network traffic
+  - Local traffic
+  - Encrypted traffic
+  - Shared Memory
+  - Kerberos
+  - Blocking
+  - Redaction
+  - UID Chain
+  - Compression
+  - Query Rewrite
+  - Instance Discovery
+  - Protocol
+  - Notes
 partition_header: 3

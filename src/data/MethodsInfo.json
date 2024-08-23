@@ -1,4 +1,5 @@
-{"methods" : {
+{
+  "methods": {
     "Amazon Kinesis": {
       "method_name": "Amazon Kinesis",
       "method_info": [
@@ -41,10 +42,7 @@
               "content": [
                 {
                   "title": "Using security-credentials:",
-                  "content": [
-                    "AWS access key ID",
-                    "AWS Secret access key"
-                  ]
+                  "content": ["AWS access key ID", "AWS Secret access key"]
                 },
                 {
                   "title": "Using IAM-Role:",
@@ -69,17 +67,13 @@
             },
             {
               "title": "Optional (if using Blocking response action with Guardium Insights)",
-              "content": [
-                "Database",
-                "Username",
-                "Password"
-              ]
+              "content": ["Database", "Username", "Password"]
             }
           ]
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Enabling native audit logging on AWS databases]",
@@ -94,7 +88,7 @@
       "method_info": [
         {
           "accordian_title": "Detailed support information",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[IBM Support: IBM Guardium System Requirements and Supported Platforms]",
@@ -143,7 +137,7 @@
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[External S-TAP Guide]",
@@ -158,7 +152,7 @@
       "method_info": [
         {
           "accordian_title": "Detailed support information",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Security Learning Academy: Supported Platforms for Guardium]",
@@ -209,7 +203,7 @@
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Linux-Unix S-TAP Guide]",
@@ -282,17 +276,13 @@
             },
             {
               "title": "Optional (if using Blocking response action with Guardium Insights)",
-              "content": [
-                "Database",
-                "Username",
-                "Password"
-              ]
+              "content": ["Database", "Username", "Password"]
             }
           ]
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Enabling native audit logging on Azure databases]",
@@ -315,7 +305,7 @@
           "type": "string",
           "content": [
             "Eliminates technical and administrative burdens of agent-based monitoring.",
-            "Extremely flexible - can be used to monitor a variety of data sources - including structured and unstructured data."
+            "Extremely flexible - can be used to monitor a variety of DataSources - including structured and unstructured data."
           ]
         },
         {
@@ -333,20 +323,20 @@
           "accordian_title": "How it works",
           "type": "string",
           "content": [
-            "Data source events are either pushed or pulled into Guardium by using a Universal Connector pipeline. The Universal Connector pipeline maps the events into a format that Guardium understands."
+            "DataSource events are either pushed or pulled into Guardium by using a Universal Connector pipeline. The Universal Connector pipeline maps the events into a format that Guardium understands."
           ]
         },
         {
           "accordian_title": "Information you will need",
           "type": "orderedlist",
           "content": [
-            "Knowledge of what methods will be used for accessing the data source events (pulling via APIs, JDBC; pushing via Filebeat).",
+            "Knowledge of what methods will be used for accessing the DataSource events (pulling via APIs, JDBC; pushing via Filebeat).",
             "Authentication and configuration settings for the data ingestion method you will use."
           ]
         },
         {
           "accordian_title": "Setup Instructions",
-          "type": "string",
+          "type": "link",
           "content": [
             {
               "title": "[Learn More]",

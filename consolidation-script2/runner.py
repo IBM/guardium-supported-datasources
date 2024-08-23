@@ -9,8 +9,10 @@ import sys
 
 import yaml
 
-from main import consolidate
+from main import consolidate, append_to_summary_json
 from Helpers.logging_helpers import setup_logger
+from Helpers.helpers import write_dict_to_json_file
+from Helpers.csv_helpers import validate_csv_headers
 
 # Set up logging
 logger = setup_logger(__name__)
@@ -32,7 +34,8 @@ def load_config(file_path):
 def validate_config(config):
     """Validate the loaded configuration to ensure all required fields are present."""
     required_keys = ['output_json_path', 'output_csv_path'
-                     , 'input_csv_path', 'compat_header', 'feature_header', 'partition_header']
+                     , 'input_csv_path', 'compat_header', 'feature_header'
+                     , 'partition_header', 'environment_name', 'method_name']
     for key in required_keys:
         if key not in config:
             logger.error("Missing required configuration key: %s\n\n",key)
@@ -54,6 +57,11 @@ def main():
     args = parser.parse_args()
     path_to_dir = os.path.join(os.getcwd(),args.config_dir)
 
+    summary_data = {
+    "supported_databases": []
+    }
+
+
     for file_name in os.listdir(path_to_dir):
 
         # Construct the full path to the configuration file
@@ -70,29 +78,31 @@ def main():
         version_headers = config['compat_header']
         feature_headers = config['feature_header']
         partition_header = config["partition_header"]
+        environment_name = config["environment_name"]
+        method_name = config["method_name"]
 
         # Define the full key
         full_key = version_headers + feature_headers
 
-        #TODO: Validate input csvs + based on specific heuristics
+        # Validate input csv file
+        assert validate_csv_headers(input_csv_path,full_key)
 
         logger.critical("Starting Consolidation for %s",input_csv_path)
         # Call the consolidate function
-        try:
-            consolidate(output_json_path, output_csv_path, input_csv_path,
-                        version_headers, full_key, feature_headers,partition_header,logger)
-            logger.info("Consolidation completed successfully for %s",input_csv_path)
-            logger.info("Consolidate CSV file saved to %s", output_csv_path)
-            logger.info("Consolidate JSON file saved to %s\n\n",output_json_path)
 
-        except Exception as e: # pylint: disable=broad-except
-            logger.error("Error during consolidation: %s\n\n",e)
-            sys.exit(1)
+        consolidate(output_json_path, output_csv_path, input_csv_path,
+                    version_headers, full_key, feature_headers,partition_header,
+                    logger)
+        append_to_summary_json(input_csv_path, environment_name,
+                                    method_name, partition_header,summary_data)
 
-    #TODO: Sort the output so that it changes only if there are actual changes
+        logger.info("Consolidation completed successfully for %s",input_csv_path)
+        logger.info("Consolidate CSV file saved to %s", output_csv_path)
+        logger.info("Consolidate JSON file saved to %s\n\n",output_json_path)
+
+
+    write_dict_to_json_file("src/data/summary.json",summary_data)
     logger.info("SCRIPT COMPLETED.")
-    #TODO: Check against connections.json
-    
 
 if __name__ == "__main__":
     main()

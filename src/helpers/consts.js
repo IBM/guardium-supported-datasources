@@ -1,4 +1,4 @@
-import {isNumber,getRangeStringFromList,splitStringsCompare,splitStrings,numericalListCompare} from './helpers'
+import {getRangeStringFromList,numericalListCompare} from './helpers'
 import PropTypes from "prop-types";
 
 
@@ -230,33 +230,33 @@ export  const getJSONData = (environment,method) => {
     console.log(`This is the key: ${key}`)
     switch (key){
       case "AWS (Database as a Service)|Amazon Kinesis":
-        return [require(`../data/consolidated_csvs/AWS_AmKin.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/AWS_AmKin.json`),TABLETYPE2]
       case "AWS (Database as a Service)|External STAP":
-        return [require(`../data/consolidated_csvs/AWS_ExStap.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/AWS_ExStap.json`),TABLETYPE2]
       case "AWS (Database as a Service)|Universal Connector":
-        return [require(`../data/consolidated_csvs/AWS_UC.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/AWS_UC.json`),TABLETYPE2]
       case "Azure (Database as a Service)|Azure Event Hubs":
-        return [require(`../data/consolidated_csvs/Azure_AzEvHub.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/Azure_AzEvHub.json`),TABLETYPE2]
       case "Azure (Database as a Service)|External STAP":
-        return [require(`../data/consolidated_csvs/Azure_ExStap.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/Azure_ExStap.json`),TABLETYPE2]
       case "Azure (Database as a Service)|Universal Connector":
-        return [require(`../data/consolidated_csvs/Azure_UC.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/Azure_UC.json`),TABLETYPE2]
       case "GCP (Database as a Service)|External STAP":
-        return [require(`../data/consolidated_csvs/GCP_ExStap.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/GCP_ExStap.json`),TABLETYPE2]
       case "GCP (Database as a Service)|Universal Connector":
-        return [require(`../data/consolidated_csvs/GCP_UC.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/GCP_UC.json`),TABLETYPE2]
       case "IBM Cloud (Database as a Service)|External STAP":
-        return [require(`../data/consolidated_csvs/IBMCloud_ExStap.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/IBMCloud_ExStap.json`),TABLETYPE2]
       case "IBM Cloud (Database as a Service)|Universal Connector":
-        return [require(`../data/consolidated_csvs/IBMCloud_UC.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/IBMCloud_UC.json`),TABLETYPE2]
       case "On-premise or IaaS|STAP":
-        return [require(`../data/consolidated_csvs/OnPrem_Stap.json`),TABLETYPE1]
+        return [require(`../data/consolidated_jsons/OnPrem_Stap.json`),TABLETYPE1]
       case "On-premise or IaaS|External STAP": //TODO:What is this??
-        return [require(`../data/consolidated_csvs/OnPrem_Stap.json`),TABLETYPE1] 
+        return [require(`../data/consolidated_jsons/OnPrem_Stap.json`),TABLETYPE1] 
       case "On-premise or IaaS|Universal Connector":
-        return [require(`../data/consolidated_csvs/OnPrem_UC.json`),TABLETYPE1]
+        return [require(`../data/consolidated_jsons/OnPrem_UC.json`),TABLETYPE1]
       case "Oracle Cloud (Database as a Service)|External STAP":
-        return [require(`../data/consolidated_csvs/OracleCloud_ExStap.json`),TABLETYPE2]
+        return [require(`../data/consolidated_jsons/OracleCloud_ExStap.json`),TABLETYPE2]
   
       default:
         console.log(`This is the error key: ${key}`)
@@ -271,8 +271,7 @@ export  const BLOCK_CLASS = `connections-doc`;
 export const PRODUCTS = [
   "All",
   "Guardium Data Protection",
-  "Guardium Insights (Software)",
-  "Guardium Insights SaaS",
+  "Guardium Insights",
 ];
 
 export const DEFAULT_GV_RANGE = [11.0, 12.0];

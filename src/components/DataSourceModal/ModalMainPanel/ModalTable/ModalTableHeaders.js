@@ -7,27 +7,24 @@ export default function ModalTableHeaders({
   sortKey,
 }) {
   return (
-    <thead class="matrixheader">
+    <thead className="matrixheader">
       <tr>
-        <th></th>
+        <th> </th>
         {tableType.headers.map(({ id, headerName }) => (
           <th
-            class="dataheadercell"
+            key={id}
+            className="dataheadercell"
             onClick={() => changeSortKeyOnClick(id)}
           >
             {headerName}
-            <br></br>
+            <br />
 
             {/* Orienation of arrow depends on current sort key for that column */}
-            {
-              <ArrowDropDownIcon
-                id={
-                  sortKey[id] != 0
-                    ? "rotate" + (sortKey[id] != -1)
-                    : "rotatemed"
-                }
-              />
-            }
+            <ArrowDropDownIcon
+              id={
+                sortKey[id] != 0 ? "rotate" + (sortKey[id] != -1) : "rotatemed"
+              }
+            />
 
             <br />
           </th>

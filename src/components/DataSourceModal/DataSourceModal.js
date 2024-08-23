@@ -3,11 +3,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Loading, Modal } from "@carbon/ibm-security";
 
-import { EnvironmentDropDown, MethodDropDown } from "./ModalLeftPanel/PanelDropDowns";
+import {
+  EnvironmentDropDown,
+  MethodDropDown,
+} from "./ModalLeftPanel/PanelDropDowns";
 import ModalMainPanel from "./ModalMainPanel/ModalMainPanel";
 import PanelCollapsibleInfo from "./ModalLeftPanel/PanelCollapsibleInfo";
-import { getJSONData,BLOCK_CLASS } from "../../helpers/consts";
-
+import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({
@@ -31,7 +33,6 @@ export default function DatasourceModal({
   // controls tooltip UI
   const [toolTipOpen, setToolTipOpen] = useState([false, false, false]);
 
-
   const setSelectedEnvironmentData = (environment) => {
     _setSelectedEnvironmentData(environment);
     setSelectedMethodData(null);
@@ -44,7 +45,6 @@ export default function DatasourceModal({
     if (selectedEnvironmentData && method) {
       fetchData(selectedEnvironmentData, method);
     }
-
   };
 
   useEffect(() => {
@@ -77,7 +77,7 @@ export default function DatasourceModal({
       const newJsonDataForDB = Object.prototype.hasOwnProperty.call(
         jsonData,
         selectedDataSourceData["database_name"]
-      )      
+      )
         ? jsonData[selectedDataSourceData["database_name"]]
         : null;
 
@@ -111,7 +111,7 @@ export default function DatasourceModal({
     <Loading />
   ) : (
     <Modal
-      size={"lg"}
+      size="lg"
       open={open}
       hasScrollingContent={false}
       passiveModal={true}
@@ -120,62 +120,58 @@ export default function DatasourceModal({
       }}
     >
       <div className={`${BLOCK_CLASS}__inside_modal_wrapper`}>
-        
         {/* Div Wrapper for left panel  */}
         <div className={`${BLOCK_CLASS}__modal_left_panel`}>
-          
-            {/* Title DB Name */}
-            <h2>{selectedDataSourceData.database_name}</h2>
+          {/* Title DB Name */}
+          <h2>{selectedDataSourceData.database_name}</h2>
 
-            {selectedDataSourceData && (
-              <EnvironmentDropDown
-                selectedEnvironmentData={selectedEnvironmentData}
-                selectedDataSourceData={selectedDataSourceData}
-                setSelectedEnvironmentData={setSelectedEnvironmentData}
-              />
-            )}
+          {selectedDataSourceData ? (
+            <EnvironmentDropDown
+              selectedEnvironmentData={selectedEnvironmentData}
+              selectedDataSourceData={selectedDataSourceData}
+              setSelectedEnvironmentData={setSelectedEnvironmentData}
+            />
+          ) : null}
 
-            {selectedEnvironmentData && (
-              <MethodDropDown
-                selectedMethodData={selectedMethodData}
-                selectedEnvironmentData={selectedEnvironmentData}
-                selectedProduct={selectedProduct}
-                setSelectedMethodData={setSelectedMethodData}
-              />
-            )}
+          {selectedEnvironmentData ? (
+            <MethodDropDown
+              selectedMethodData={selectedMethodData}
+              selectedEnvironmentData={selectedEnvironmentData}
+              selectedProduct={selectedProduct}
+              setSelectedMethodData={setSelectedMethodData}
+            />
+          ) : null}
 
-            {selectedMethodData && (
-              <PanelCollapsibleInfo
-                selectedMethodData={selectedMethodData}
-                toolTipOpen={toolTipOpen}
-                setToolTipOpen={setToolTipOpen}
-              />
-            )}
-
+          {selectedMethodData ? (
+            <PanelCollapsibleInfo
+              selectedMethodData={selectedMethodData}
+              toolTipOpen={toolTipOpen}
+              setToolTipOpen={setToolTipOpen}
+            />
+          ) : null}
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>
-          {(selectedMethodData && tableType!=0 && jsonDataForDB) ? (
+          {selectedMethodData && tableType != 0 && jsonDataForDB ? (
             <ModalMainPanel
               tableType={tableType}
               jsonDataForDB={jsonDataForDB}
             />
-          ):
-          (errorMessage!=="" && <p>Error: {errorMessage}</p>)
-          }
+          ) : (
+            errorMessage !== "" && <p>Error: {errorMessage}</p>
+          )}
         </div>
       </div>
     </Modal>
   );
 }
 
-
 // PropTypes validation
 DatasourceModal.propTypes = {
   selectedDataSourceData: PropTypes.shape({
     database_name: PropTypes.string.isRequired,
   }).isRequired, // Object with a database_name string field
-  selectedProduct: PropTypes.string, 
-  setOpen: PropTypes.func.isRequired, 
+  selectedProduct: PropTypes.string,
+  setOpen: PropTypes.func.isRequired,
   open: PropTypes.bool.isRequired,
 };

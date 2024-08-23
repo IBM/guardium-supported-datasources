@@ -1,459 +1,423 @@
-@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
-@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
-@import 'carbon-components/scss/globals/scss/typography.scss';
-@import 'carbon-components/scss/globals/scss/vars.scss';
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
 
-@mixin component ($block) {
-    .#{$block} {
-        @content;
-    }
+@mixin component($block) {
+  .#{$block} {
+    @content;
+  }
 }
-.MainPageWrapper{
+.MainPageWrapper {
+  padding: 2rem;
+  padding-top: 0rem;
+}
+
+.raw-data-link {
+  right: 2rem;
+  top: 0.5rem;
+  color: #333333;
+  padding-bottom: 1rem;
+  padding-top: 0.25rem;
+}
+
+.raw-data-link:hover {
+  color: #9e9e9e;
+}
+
+.mainPageSearchBar {
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.mainPageTopHolder {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.mainPageDivider {
+  margin: 0;
+  padding: 0;
+  border-color: black;
+}
+
+.mainPageCardsContainer {
+  margin-top: 1rem;
+}
+
+#products-dropdown {
+  min-height: 50px;
+  max-height: 50px;
+  min-width: 300px;
+}
+
+.bx--modal-header {
+  padding: 0px;
+}
+
+.VersionSliderDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.VersionSliderHeader {
+  white-space: nowrap;
+}
+
+.VersionSlider {
+  width: 50%;
+}
+
+.OSDropdownDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OSDropdown {
+  min-width: 150px;
+  justify-content: center;
+}
+
+/* -----------------------------------------------------------
+    /* Set additional styling options for the columns */
+.column {
+  float: left;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+  width: 100%;
+}
+
+.middle {
+  background-color: blueviolet;
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+}
+
+.row {
+  background-color: aqua;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#specifics {
+  border-collapse: collapse;
+  table-layout: fixed;
+  height: min-content;
+  border: 0.1px solid #ddd;
+  padding-top: 5px;
+  text-align-last: left;
+}
+
+#specifics tr {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 0.1px solid #ddd;
+  font-size: x-small;
+  height: min-content;
+}
+#specifics td {
+  background-color: #e3e3e3;
+  color: #555555;
+
+  border: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: 0.1px solid #e0e0e0;
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+#heading {
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+  padding-left: 0px;
+}
+#notesheading {
+  white-space: normal;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+td.top {
+  padding-top: 10px !important;
+  overflow: hidden;
+  max-width: 270px;
+}
+
+a.tablelink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+td.uk-background-muted {
+  background-color: #e3e3e3 !important;
+}
+
+#rotatetrue {
+  transform: rotate(180deg);
+}
+
+#rotatefalse {
+  transform: rotate(0deg);
+}
+
+#rotatemed {
+  transform: rotate(270deg);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  background-color: #f4f4f4;
+
+  text-align: left;
+  border-radius: 3px;
+  padding: 20px;
+  padding-top: 10px;
+  min-width: 500px;
+  border: 0.2px gray solid;
+  box-shadow: black;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 2;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#tooltiptrue {
+  font-weight: 700;
+}
+
+.matrixheader {
+  background-color: #dfdfdf;
+  text-align: center;
+}
+
+.datacell {
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.dataheadercell {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.expandable {
+  text-align-last: center;
+}
+
+.tablerow {
+  border-top: 0.5px solid gray;
+  text-align: center;
+}
+
+.tablerow:hover {
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.oslist {
+  white-space: nowrap;
+}
+
+#specifics-container {
+  padding-left: 12%;
+}
+.bx--accordion__title {
+  font-weight: bold !important;
+}
+
+.maintable {
+  width: 100%;
+}
+
+.mainTableWrapper {
+  height: 100%;
+  overflow: auto;
+}
+
+.links_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 6px;
+}
+
+.bx--modal-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white;
+}
+
+.bx--modal-header {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@include component("connections-doc") {
+  .bx--col-lg-2 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  &__open.bx--btn--ghost {
+    max-width: none;
+  }
+
+  &__main-content {
     padding: 2rem;
-    padding-top: 0rem;
-  } 
-  
-  .raw-data-link {
+  }
+
+  &__non_table_wrapper {
+    background-color: #f4f4f4;
+    padding: 30px;
+  }
+
+  &__data-source-card {
+    background-color: $ui-01;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    &:hover {
+      cursor: pointer;
+      background-color: $hover-ui;
+    }
+  }
+
+  &__data-source-card--disabled {
+    background-color: $ui-03;
+    &:hover {
+      cursor: not-allowed;
+      background-color: $ui-03;
+    }
+  }
+
+  &__data-source-card-title {
+    margin-left: 1rem;
+    font-size: carbon--type-scale(3);
+  }
+
+  &__data-source-card-version {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .exp--action-set {
+    display: flex !important;
+  }
+
+  &__modal_left_panel {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 30px;
+
+    .bx--accordion {
+      overflow: auto;
+    }
+  }
+
+  &__inside_modal_wrapper {
+    display: flex;
+    background-color: white;
+  }
+
+  &__modal_main_panel_wrapper {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  &__header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__version-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+  }
+
+  &__version-dropdown-box {
+    min-width: 250px;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+  }
+
+  &__list-item-title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    font-weight: bold;
+    min-width: 100px;
+    margin: 0.5rem 0 0rem 0.3rem;
+    font-size: carbon--type-scale(2);
+  }
+
+  &__list-item-text {
+    top: 0.5rem;
+    bottom: 0.5rem;
+    font-weight: normal;
+    min-width: 100px;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    font-size: carbon--type-scale(2);
+  }
+
+  &__list-item-tag {
+    top: 0.5rem;
+    bottom: 0.5rem;
+    font-weight: normal;
+    min-width: 100px;
+    margin: 0.5rem 0 0.5rem 0rem;
+    font-size: carbon--type-scale(2);
+  }
+
+  &__raw-data-link {
     right: 2rem;
     top: 0.5rem;
-    color: #333333;
-    padding-bottom: 1rem;
-    padding-top: 0.25rem;
-  }
-  
-  
-  .raw-data-link:hover {
-    color: #9E9E9E;
-  }
-  
-  .mainPageSearchBar {
-    min-height: 50px;
-    max-height: 50px;
-  }
-  
-  .mainPageTopHolder{
-    display: flex;
-    gap: 2rem;
-    padding-bottom: 1rem;
-  
-  }
-  
-  .mainPageDivider {
-    margin: 0;
-    padding: 0;
-    border-color: black;
-  }
-  
-  .mainPageCardsContainer {
-    margin-top: 1rem;
-  }
-  
-  #products-dropdown {
-    min-height: 50px;
-    max-height: 50px;
-    min-width: 300px;  
+    color: $text-02;
+    &:hover {
+      color: $text-01;
+    }
   }
 
-  .bx--modal-header{
-    padding: 0px;
+  &__os-list-item {
+    white-space: pre;
   }
-
-  .VersionSliderDiv{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .VersionSliderHeader {
-    white-space: nowrap;
-  }
-  
-  .VersionSlider{
-    width: 50%;
-  }
-
-  .OSDropdownDiv{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .OSDropdown{
-    min-width: 150px;
-    justify-content: center;
-  }
-
-
-
-  /* -----------------------------------------------------------
-    /* Set additional styling options for the columns */
-    .column {
-        float: left;
-        }
-    
-        /* Set width length for the left, right and middle columns */
-        .left {
-        width: 100%;
-        }
-    
-        .middle {
-            background-color: blueviolet;
-        width: 100%;
-        }
-        
-        .right {
-        width: 100%;
-        }
-        
-        .row {
-            background-color: aqua;
-        }
-    
-        .row:after {
-        content: "";
-        display: table;
-        clear: both;
-        }
-    
-        #specifics {
-            border-collapse:collapse;
-            table-layout:fixed;
-            height: min-content;
-            border: 0.1px solid #ddd;
-            padding-top:5px;
-            text-align-last: left;
-        }
-    
-        #specifics tr{
-            padding-left: 20px;
-            padding-right: 20px; 
-            padding-top: 2px;
-            padding-bottom: 2px;
-            border: 0.1px solid #ddd;
-            font-size: x-small;
-            height: min-content;
-            
-            
-            
-            
-        }
-        #specifics td{
-            background-color: #E3E3E3;
-            color: #555555;
-            
-            border: 0px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            border-top: 0.1px solid #e0e0e0;
-            padding-left: 30px;
-            padding-right: 0px;
-
-        }
-    
-        #heading {
-            overflow: hidden;
-            white-space: nowrap;
-            font-weight: bold;
-            padding-left: 0px;
-            
-        }
-        #notesheading{
-          white-space: normal;
-          text-decoration: underline;
-          cursor: pointer;
-          font-weight: bold;
-        }
-
-        td.top{
-            padding-top: 10px !important;
-            overflow: hidden;
-            max-width: 270px;
-            
-    
-        }
-
-        a.tablelink {
-          text-decoration: underline;
-          cursor: pointer;
-        }
-    
-        
-    
-        td.uk-background-muted {
-            background-color: #E3E3E3 !important;
-        }
-    
-        #rotatetrue {
-            transform: rotate(180deg);
-        }
-    
-        #rotatefalse {
-          transform: rotate(0deg);
-        }
-    
-        #rotatemed {
-          transform: rotate(270deg);
-        }
-    
-    
-    
-        
-    
-        .tooltip {
-            position: relative;
-            display: inline-block;
-            border-bottom: 1px dotted black;
-            cursor: pointer;
-          }
-          
-          .tooltip .tooltiptext {
-            visibility: visible;
-            background-color: #F4F4F4;
-            
-            text-align: left;
-            border-radius: 3px;
-            padding: 20px;
-            padding-top: 10px;
-            min-width: 500px;
-            border: 0.2px gray solid;
-            box-shadow: black;
-            /* Position the tooltip */
-            position: absolute;
-            z-index: 2;
-          }
-    
-        
-          .tooltip:hover .tooltiptext {
-            visibility: visible;
-          }
-    
-          .matrixheader {
-            background-color: #DFDFDF;
-            text-align: center;
-    
-          }
-    
-          .datacell {
-            padding: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-            vertical-align: middle;
-          }
-    
-          .dataheadercell{
-            padding-top: 20px;
-            padding-bottom: 10px;
-            padding-left: 30px;
-            padding-right: 30px;
-            font-weight: bold;
-            cursor: pointer;
-          }
-    
-          .expandable {
-            text-align-last: center;
-          }
-    
-          .tablerow {
-            border-top: 0.5px solid gray;
-            text-align: center;
-            
-          }
-    
-          .tablerow:hover {
-            background-color: #DFDFDF;
-            cursor: pointer;
-          }
-    
-          .oslist {
-            white-space: nowrap;
-          }
-    
-          #specifics-container {
-            padding-left: 12%;
-    
-          }
-          .bx--accordion__title {
-            font-weight: bold !important;
-          }
-    
-    
-    .maintable{
-      width: 100%
-    }
-
-    .mainTableWrapper{
-        height: 100%;
-        overflow: auto;
-    }
-    
-    
-    
-    
-    .links_div {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-bottom: 6px;
-    }
-
-    .bx--modal-content{
-        padding: 0 !important;
-        margin: 0 !important;
-        background-color: white;
-    }
-
-    .bx--modal-header{
-        padding: 0 !important;;
-        margin: 0 !important;
-    }
-
-
-@include component('connections-doc') {
-    
-      
-
-      
-    .bx--col-lg-2 {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-    }
-
-    &__open.bx--btn--ghost {
-        max-width: none;
-    }
-
-    &__main-content {
-        padding: 2rem;
-    }
-
-    &__non_table_wrapper{
-        background-color:#F4F4F4;
-        padding: 30px;
-    }
-
-
-    &__data-source-card {
-        background-color: $ui-01;
-        display: flex;
-        align-items: center;
-        height: 4rem;
-        margin-bottom: 1rem;
-        position: relative;
-        &:hover {
-            cursor: pointer;
-            background-color: $hover-ui;
-        }
-    }
-
-    &__data-source-card--disabled {
-        background-color: $ui-03;
-        &:hover {
-            cursor: not-allowed;
-            background-color: $ui-03;
-        }
-    }
-
-    &__data-source-card-title {
-        margin-left: 1rem;
-        font-size: carbon--type-scale(3);
-    }
-
-    &__data-source-card-version {
-        position: absolute;
-        top: 0.5rem;
-        right: 0.5rem;
-        font-size: 0.8rem;
-    }
-
-    .exp--action-set {
-        display: flex !important;
-    }
-
-
-    &__modal_left_panel {
-        min-height: 80vh;
-        display: flex;
-        flex-direction: column;
-        background-color:#F4F4F4;
-        padding: 30px;
-        
-        .bx--accordion {
-            overflow: auto;
-        }
-        
-        
-    }
-
-    &__inside_modal_wrapper{
-        display: flex;
-        background-color: white;
-        
-    }
-
-    &__modal_main_panel_wrapper{
-        width: 50%;
-        padding-left: 20px;
-    }
-
-    &__header-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-
-    &__version-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-width: 300px;
-    }
-
-    &__version-dropdown-box {
-        min-width: 250px;
-        margin: 0.5rem 0 0.5rem 0.5rem;
-
-    }
-
-    &__list-item-title {
-        padding-top: 1em;
-        padding-bottom: 0.5em;
-        top: 0.5rem;
-        bottom: 0.5rem;
-        font-weight: bold;
-        min-width: 100px;
-        margin: 0.5rem 0 0.0rem 0.3rem;
-        font-size: carbon--type-scale(2);
-
-    }
-
-    &__list-item-text {
-        top: 0.5rem;
-        bottom: 0.5rem;
-        font-weight: normal;
-        min-width: 100px;
-        margin: 0.5rem 0 0.5rem 0.5rem;
-        font-size: carbon--type-scale(2);
-
-    }
-
-    &__list-item-tag {
-        top: 0.5rem;
-        bottom: 0.5rem;
-        font-weight: normal;
-        min-width: 100px;
-        margin: 0.5rem 0 0.5rem 0.0rem;
-        font-size: carbon--type-scale(2);
-
-    }
-
-    &__raw-data-link {
-        right: 2rem;
-        top: 0.5rem;
-        color: $text-02;
-        &:hover {
-            color: $text-01;
-        }
-    }
-
-    &__os-list-item {
-        white-space: pre;
-    }
 }

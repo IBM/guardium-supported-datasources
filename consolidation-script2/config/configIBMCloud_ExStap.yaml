@@ -1,13 +1,15 @@
 output_csv_path: consolidation-script2/data/output/csv/IBMCloud_ExStap.csv
-output_json_path: src/data/consolidated_csvs/IBMCloud_ExStap.json
+output_json_path: src/data/consolidated_jsons/IBMCloud_ExStap.json
 input_csv_path: consolidation-script2/data/input/IBMCloud_ExStap.csv
+environment_name: IBM Cloud (Database as a Service)
+method_name: External STAP
 compat_header:
-  -  GDP_Type
-  -  Guardium_Version
-  -  DataSource
-  -  DataSource_Version
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
 feature_header:
-  -  VA_supported
-  -  Classification_supported
-  -  Notes
+  - VA_supported
+  - Classification_supported
+  - Notes
 partition_header: 2

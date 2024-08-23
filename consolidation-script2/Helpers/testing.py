@@ -5,7 +5,7 @@ Tests correctness of Input CSV with Compressed Output JSON/CSV
 from .csv_helpers import read_csv_file_dict_reader
 
 def _test(output_csv_path, input_csv_path, header_key, feature_key, logger):
-    
+
     # Open input_csv_path using Dict Reader
     input_data = read_csv_file_dict_reader(input_csv_path)
     compressed_data = read_csv_file_dict_reader(output_csv_path)
@@ -20,8 +20,8 @@ def _test(output_csv_path, input_csv_path, header_key, feature_key, logger):
                 # if yes, then check if feature_key values also match
                 if feature_values_match(input_row,compressed_row,feature_key):
                     matched +=1
-        
-        if (matched != 1):
+
+        if matched != 1:
             logger.error("Error during correctness check")
         assert matched == 1
 

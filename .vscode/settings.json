@@ -1,4 +1,6 @@
 {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
     "eslint.timeBudget.onFixes": {
         "warn": 3000,
         "error": 6000

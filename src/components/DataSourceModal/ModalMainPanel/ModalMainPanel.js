@@ -38,11 +38,11 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
 
   return (
     <div style={{ width: "max-content" }}>
-      <br></br>
+      <br />
 
       <h5>Detailed Support Information</h5>
-      <br></br>
-      <br></br>
+      <br />
+      <br />
 
       {/* Slider + Filter (Only for Table Type 1) */}
       {tableType.id == 1 ? (
@@ -52,7 +52,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
             setGVSliderValue={setGVSliderValue}
           />
 
-          <br></br>
+          <br />
 
           <OSDropDown
             selectedOS={selectedOS}
@@ -66,7 +66,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
           />
         </div>
       ) : null}
-      <br></br>
+      <br />
 
       {/* Wrapper for the main compat table */}
       <ModalTable

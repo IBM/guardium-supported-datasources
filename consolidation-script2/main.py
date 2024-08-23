@@ -10,8 +10,9 @@ from Helpers.helpers import (
     get_uniq_vals_for_each_column,
     combinations,remove_if_all_present)
 from Helpers.helpers import (
-    group_data_by_feature_availability_set,
-    remove_duplicates_2d,write_dict_to_json_file)
+    group_data_by_feature_set,
+    remove_duplicates_2d,write_dict_to_json_file,
+    add_supported_database)
 from Helpers.csv_helpers import (
     read_csv_for_uniq_val,
     read_csv_get_unique_vals_in_column,
@@ -33,7 +34,7 @@ def consolidate(output_json_path,
         outputting the results to both a JSON and a CSV file.
 
     This function partitions the data based on unique values in a specified column,
-    groups rows together that have the same feature availability values, 
+    groups rows together that have the same feature  values, 
     and finds a compressed representation for these rows.
     
     The consolidated data is then saved in JSON and CSV formats.
@@ -53,7 +54,7 @@ def consolidate(output_json_path,
                                 ['id', 'name', 'feature1', 'feature2'], ['feature1', 'feature2'], 1)
     
     Note:
-        - 'feature availability values' refer to cell values
+        - 'feature values' refer to cell values
         in a row indicating the availability of a certain feature.
         - 'version values' refer to cell values
         in a row indicating versions of OS, Database, or Guardium etc.
@@ -75,60 +76,64 @@ def consolidate(output_json_path,
         output_json[uniq_val] = [] # Will store consolidated data for specific uniq_val
 
         # Partition data (Get subsection of all rows with uniq_val in the partition_header_number)
-        data = read_csv_for_uniq_val(input_csv_path,uniq_val,partition_header_number)
-        data = remove_duplicates_2d(data)
+        partitioned_data = read_csv_for_uniq_val(input_csv_path,uniq_val,partition_header_number)
+        partitioned_data = remove_duplicates_2d(partitioned_data)
         logger.debug("Partitioned Data for %s",uniq_val)
 
-        #TODO: CONSTRAINT-version values must come first
-        # Group rows of data based on their feature availability values,
+
+        # Group rows of data based on their feature values,
         # Returns Dict[str, List[List[str]]]
         # A dict with a string key (representing one rows' feature values) and,
         # Lists of lists of strings (representing version values from multiple rows) as values
         # Therefore, each list of strings
         # concatenated with the corresponding key, recreates the original row
-        grouped_data = group_data_by_feature_availability_set(data
+        # CONSTRAINT: version values must come first
+        grouped_partitioned_data = group_data_by_feature_set(partitioned_data
                                 ,get_features=lambda x: "|+|".join(x[len(version_key):])
                                 # Combine feature values into a unique string identifier
                                 ,get_versions=lambda x:x[0:len(version_key)]
                                 ,logger=logger) # Extract header key values
-        # The 'get_features' function combines the feature availability values of each row
+        # The 'get_features' function combines the feature  values of each row
         # into a single string, acting as a unique identifier for a grouping.
         # The 'get_versions' function extracts the version values from each row.
 
 
-        # Loop thru grouped_data dictionary
+        # Loop thru grouped_partitioned_data dictionary
         # Each key represents one rows' feature values
         # Each value represents version values from multiple rows
-        for set_of_feature_availability,_ in grouped_data.items():
+        for set_of_feature,set_of_versions in grouped_partitioned_data.items():
 
             # Convert one rows' feature values back into list
-            feature_availability_list = set_of_feature_availability.split('|+|')
-            assert(len(feature_availability_list) == (len(full_key)-len(version_key)))
+            feature_list = set_of_feature.split('|+|')
+            assert(len(feature_list) == (len(full_key)-len(version_key)))
 
             logger.info(
                 "Performing Cartesian Decomposition for Uniq Val: %s and Feature Set: %s",
-                uniq_val ,feature_availability_list)
-            # Returns a consolidate/compressed representation of the version values from multiple rows
+                uniq_val ,feature_list)
+            # Returns a consolidate/compressed representation
+            # of the version values from multiple rows
             consolidated_version_rows = cartesian_decomposition(
-                                                        grouped_data[set_of_feature_availability],
-                                                        version_key,logger,input_csv_path, data)
+                                                        set_of_versions,
+                                                        version_key,logger,
+                                                        input_csv_path, partitioned_data)
 
             # Append consolidated information as json and csv
             transform_and_append_as_json(full_key, output_json, uniq_val,
-                           feature_availability_list, consolidated_version_rows)
+                           feature_list, consolidated_version_rows)
             transform_and_append_as_csv(full_key, output_csv,
-                          feature_availability_list, consolidated_version_rows)
-
-
-    _test(output_csv_path, input_csv_path, version_key, feature_key,logger)
+                          feature_list, consolidated_version_rows)
 
     write_csv_to_file(output_csv_path,output_csv)
     write_dict_to_json_file(output_json_path,output_json)
 
+    _test(output_csv_path, input_csv_path, version_key, feature_key,logger)
+
+
 
 
 def cartesian_decomposition(version_data:List[List[str]],
-                            key_:List[str],logger,input_csv_path,partitioned_data) -> List[List[List[str]]]:
+                            key_:List[str],logger
+                            ,input_csv_path,partitioned_data) -> List[List[List[str]]]:
     # pylint: disable=C0301
     """
     Performs Cartesian Product Decomposition on the given tabular data.
@@ -141,7 +146,7 @@ def cartesian_decomposition(version_data:List[List[str]],
     The original data can be reconstructed by taking the Cartesian product within each sub-list
 
     Args:
-        compat_data (List[List[str]]): Compat_Data is a 2d list
+        version_data (List[List[str]]): version_data is a 2d list
         of version values of multiple rows that have the same features
         key_ (List[str]): List of header names
 
@@ -149,7 +154,7 @@ def cartesian_decomposition(version_data:List[List[str]],
         List[List[List[str]]]: a compressed/consolidated representation of version_data
         
     Example Usage:
-        compat_data = [
+        version_data = [
 
         ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 7'],
         ['11.0','Cassandra', 'Cassandra 3.11.10', 'CentOS', 'CentOS 8'],
@@ -167,7 +172,7 @@ def cartesian_decomposition(version_data:List[List[str]],
         "Guardium_Version","DB_Name", "DB_Version", "OS_Name", "OS_Version" 
         ]
         
-        cartesian_decomposition(compat_data=compat_data,key_=feature_key) returns 
+        cartesian_decomposition(version_data=version_data,key_=feature_key) returns 
         [
         [['11.1'], ['MongoDB'], ['MongoDB 4.0', 'MongoDB 4.2', 'MongoDB 4.4', 'MongoDB 4.6', 'MongoDB 4.7', 'MongoDB 4.8'], ['CentOS'], ['CentOS 6']], # pylint: disable=C0301
         [['11.0'], ['Cassandra'], ['Cassandra 3.11.10'], ['CentOS'], ['CentOS 7', 'CentOS 8']],
@@ -183,27 +188,26 @@ def cartesian_decomposition(version_data:List[List[str]],
     version_data = remove_duplicates_2d(version_data)
     logger.debug("Removed duplicate lines")
 
-    # Getting all uniq vals per each column from data
+    # Getting all uniq vals per each column from partitioned data
     uniq_column_vals_part_data = get_uniq_vals_for_each_column(key_,partitioned_data)
     logger.debug("Stored all uniq vals in each column from part. data")
     # Returns a dict, where key is the column name,
     # and value is a list of unique vals in that column
-    
+
+    # Getting all uniq vals per each column from version data
     uniq_column_vals_version_data = get_uniq_vals_for_each_column(key_,version_data)
     logger.debug("Stored all uniq vals in each column from version data")
 
     # Generate all possible relevant ranges (ordered subsets)
     # per each column using uniq vals (Can blow up computationally)
     # eg. find_ranges([1,2,3]) = [[1],[2],[3],[1,2],[2,3],[1,2,3]]
-    
+
     all_ranges = []
     for x in key_:
-        ranges = find_relevant_ranges(list(uniq_column_vals_version_data[x]),list(uniq_column_vals_part_data[x]))
+        ranges = find_relevant_ranges(list(uniq_column_vals_version_data[x])
+                                      ,list(uniq_column_vals_part_data[x]))
         all_ranges.append(ranges)
     logger.debug("Generated all possible ordered set of uniq vals of each column")
-    
-    
-    
     
     # Generate all possible combinations using ranges from each column
     # Take cartesian product of each list of ranges
@@ -224,7 +228,7 @@ def cartesian_decomposition(version_data:List[List[str]],
         combinations_list.append(Combination(x))
     logger.debug("Generated all possible combinations of uniq val ordered sets of each column")
 
-    # Check if each row of compat_data is compatible with any possible combination
+    # Check if each row of version_data is compatible with any possible combination
     for _,row in enumerate(version_data):
         for _,combo in enumerate(combinations_list):
             # Check if row is compatible with combo (Cartesian product of combo includes row)
@@ -233,19 +237,19 @@ def cartesian_decomposition(version_data:List[List[str]],
             if combo.combo_allows_row(row):
                 combo.add_row(row) # Store all compatible rows for each combo
     logger.debug("Referenced all data rows with all possible combinations")
-    # TODO: Not guaranteed to be optimal
+    # Not guaranteed to be optimal
 
     # Sort combination from higher to lower capacity
     combinations_list = sorted(combinations_list, key=lambda x: -x.capacity)
     version_data_copy = version_data
 
-    # This will represent those combinations which represent all rows of data
+    # This will represent those combinations which represent exactly all rows of data
     final_combos = []
 
-    # Loop thru each full capped combination and remove those lines from compat_data_copy,
+    # Loop thru each full capped combination and remove those lines from version_data_copy,
     # that can be represented by that combination
     # Continue till you have a list of combination that can
-    # represent all lines/rows in compat_data
+    # represent all lines/rows in version_data
     while len(version_data_copy) != 0:
         for _,combo in enumerate(combinations_list):
             if combo.is_full_cap():
@@ -265,3 +269,21 @@ def cartesian_decomposition(version_data:List[List[str]],
         len(final_combos), len(version_data),input_csv_path)
 
     return [final_combo.key for final_combo in final_combos]
+
+def append_to_summary_json(input_csv_path, environment_name,
+                                method_name, partition_header_number, current_connections_data):
+    """Construct a summary JSON document
+
+    Args:
+        input_csv_path (str): File name of csv to read
+        environment_name (str): Environment name corresponding to this file
+        method_name (str): Method name corresponding to this file
+        partition_header_number (_type_): The column index used for
+                            partitioning the data i.e the database name index
+        current_connections_data (_type_): Cumulative JSON object to append to
+    """
+    uniq_vals = read_csv_get_unique_vals_in_column(input_csv_path,partition_header_number)
+
+    for uniq_val in uniq_vals:
+        add_supported_database(current_connections_data, uniq_val, environment_name, method_name)
+                                

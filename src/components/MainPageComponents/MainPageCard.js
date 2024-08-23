@@ -8,14 +8,14 @@ export default function MainPageCard({
   BLOCK_CLASS,
 }) {
   return (
-    <div className={`bx--col-lg-2`}>
+    <div className="bx--col-lg-2">
       <div
         className={`${BLOCK_CLASS}__data-source-card`}
-        role="button"
         onClick={() => {
           setOpen(true);
           setSelectedDataSourceData(dataSourceData);
         }}
+        role="button"
         tabIndex={0}
       >
         <div className={`${BLOCK_CLASS}__data-source-card-title`}>
@@ -29,10 +29,9 @@ export default function MainPageCard({
 // PropTypes validation
 MainPageCard.propTypes = {
   dataSourceData: PropTypes.shape({
-    database_name: PropTypes.string.isRequired, 
+    database_name: PropTypes.string.isRequired,
   }).isRequired,
   setOpen: PropTypes.func.isRequired,
   setSelectedDataSourceData: PropTypes.func.isRequired,
   BLOCK_CLASS: PropTypes.string.isRequired,
 };
-

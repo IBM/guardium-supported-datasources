@@ -1,5 +1,5 @@
 ﻿{
-    "Snowflake": [
+    "Azure SQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,14 +11,14 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Azure SQL"
             ],
             "DataSource_Version": [
-                "All versions"
+                "all versions"
             ],
             "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         },
@@ -27,18 +27,18 @@
                 "GI"
             ],
             "Guardium_Version": [
-                "GI 3.2.6",
+                "GI 3.2.0",
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Azure SQL"
             ],
             "DataSource_Version": [
-                "All versions"
+                "all versions"
             ],
             "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         },
@@ -50,14 +50,14 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Snowflake"
+                "Azure SQL"
             ],
             "DataSource_Version": [
-                "All versions"
+                "all versions"
             ],
             "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -134,7 +134,7 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud BigQuery": [
+    "Snowflake": [
         {
             "GDP_Type": [
                 "GDP"
@@ -146,19 +146,58 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Google Cloud BigQuery"
+                "Snowflake"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.6",
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
     ],
-    "Google Cloud PostgreSQL": [
+    "Azure Synapse Analytics": [
         {
             "GDP_Type": [
                 "GDP"
@@ -170,41 +209,14 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Google Cloud PostgreSQL"
+                "Azure Synapse Analytics"
             ],
             "DataSource_Version": [
-                "9",
-                "10",
-                "11",
-                "12"
+                "all versions"
             ],
             "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Google Cloud SQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Google Cloud SQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
+            "Classification_supported": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }

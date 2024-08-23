@@ -81,6 +81,9 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
 
 def write_csv_to_file(file_path:str,data:List[List[str]]):
     """ Writes a 2D List into CSV file given path """
+    # sort data first
+    data = [data[0]] + sorted(data[1:], key=lambda x: ''.join(x))
+
     # Open the CSV file in write mode
     with open(file_path, mode='w',encoding="utf-8-sig", newline='') as file:
         # Create a CSV writer
@@ -136,3 +139,37 @@ def transform_and_append_as_json(full_key, output_json, uniq_val, feature_list, 
         for i,val in enumerate(full_key):
             xss_json[val] = full_line[i]
         output_json[uniq_val].append(xss_json)
+
+def validate_csv_headers(file_path: str, required_headers: List[str]) -> bool:
+    """
+    Validates that the given CSV file contains the specified headers.
+
+    Args:
+        file_path (str): The path to the CSV file.
+        required_headers (List[str]): A list of headers that must be present in the CSV file.
+
+    Returns:
+        bool: True if all required headers are present, False otherwise.
+
+    Raises:
+        FileNotFoundError: If the specified file does not exist.
+        ValueError: If the file does not contain a header row.
+    """
+    # Open the CSV file and read the first row to get the headers
+    try:
+        with open(file_path, mode='r', newline='', encoding='utf-8-sig') as csvfile:
+            reader = csv.reader(csvfile)
+            headers = next(reader, None)  # Read the first row
+            if headers is None:
+                raise ValueError("CSV file does not contain a header row.")
+
+            # Check if all required headers are present in the file's headers
+            missing_headers = [header for header in required_headers if header not in headers]
+
+            if missing_headers:
+                print(f"Missing required headers: {missing_headers}")
+                print(f"Actual Headers: {headers}")
+                return False
+            return True
+    except FileNotFoundError as e:
+        raise FileNotFoundError(f"File not found: {file_path}") from e

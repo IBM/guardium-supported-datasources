@@ -1,5 +1,5 @@
 ﻿{
-    "Snowflake": [
+    "Google Cloud SQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,58 +11,19 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Snowflake"
+                "Google Cloud SQL"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.6",
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Snowflake"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Snowflake"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "",
-            "Notes": "",
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
             "Download_URL": "",
             "Readme_URL": ""
         }
     ],
-    "Azure Synapse Analytics": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -74,19 +35,19 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Synapse Analytics"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "all versions"
+                "All versions"
             ],
             "VA_supported": "",
             "Classification_supported": "",
-            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
     ],
-    "Azure SQL": [
+    "Google Cloud PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -98,53 +59,17 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure SQL"
+                "Google Cloud PostgreSQL"
             ],
             "DataSource_Version": [
-                "all versions"
+                "9",
+                "10",
+                "11",
+                "12"
             ],
-            "VA_supported": "yes",
+            "VA_supported": "",
             "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Notes": "Classification via ISDC",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -215,6 +140,69 @@
                 "6"
             ],
             "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.6",
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "yes",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
