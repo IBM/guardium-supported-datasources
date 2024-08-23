@@ -62,30 +62,6 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Synapse Analytics": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Azure Synapse Analytics"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -217,6 +193,30 @@
             "VA_supported": "yes",
             "Classification_supported": "",
             "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Synapse Analytics": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "Azure Synapse Analytics"
+            ],
+            "DataSource_Version": [
+                "all versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }

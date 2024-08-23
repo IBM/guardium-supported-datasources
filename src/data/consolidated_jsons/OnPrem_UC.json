@@ -1,4 +1,71 @@
 ﻿{
+    "MS SQL Server": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "DatabaseName": [
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "STAP",
+            "Protocol": "TCP, NMP",
+            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+        },
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "Windows Server"
+            ],
+            "OSVersion": [
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "DatabaseName": [
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "S-TAP",
+            "Protocol": "TCP, NMP",
+            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
+        },
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "MS SQL Server"
+            ],
+            "DatabaseVersion": [
+                "MS SQL Server 2017"
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
     "Amazon S3": [
         {
             "GuardiumVersion": [
@@ -13,6 +80,29 @@
             ],
             "DatabaseName": [
                 "Amazon S3"
+            ],
+            "DatabaseVersion": [
+                ""
+            ],
+            "Network traffic": "UC",
+            "Instance Discovery": "",
+            "Protocol": "",
+            "Notes": ""
+        }
+    ],
+    "DynamoDB": [
+        {
+            "GuardiumVersion": [
+                "11.4"
+            ],
+            "OSName": [
+                "AWS"
+            ],
+            "OSVersion": [
+                ""
+            ],
+            "DatabaseName": [
+                "DynamoDB"
             ],
             "DatabaseVersion": [
                 ""
@@ -47,29 +137,6 @@
                 "PostgreSQL 12.3",
                 "PostgreSQL 12.7",
                 "PostgreSQL 13.0"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "Snowflake": [
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "Snowflake"
-            ],
-            "DatabaseVersion": [
-                ""
             ],
             "Network traffic": "UC",
             "Instance Discovery": "",
@@ -378,7 +445,7 @@
             "Notes": ""
         }
     ],
-    "DynamoDB": [
+    "Snowflake": [
         {
             "GuardiumVersion": [
                 "11.4"
@@ -390,7 +457,7 @@
                 ""
             ],
             "DatabaseName": [
-                "DynamoDB"
+                "Snowflake"
             ],
             "DatabaseVersion": [
                 ""
@@ -417,73 +484,6 @@
             ],
             "DatabaseVersion": [
                 "HDFS 3.1"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "",
-            "Protocol": "",
-            "Notes": ""
-        }
-    ],
-    "MS SQL Server": [
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "Windows Server"
-            ],
-            "OSVersion": [
-                "Windows Server 2016",
-                "Windows Server 2019"
-            ],
-            "DatabaseName": [
-                "MS SQL Server"
-            ],
-            "DatabaseVersion": [
-                "MS SQL Server 2017"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "STAP",
-            "Protocol": "TCP, NMP",
-            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
-        },
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "Windows Server"
-            ],
-            "OSVersion": [
-                "Windows Server 2012",
-                "Windows Server 2012 R2"
-            ],
-            "DatabaseName": [
-                "MS SQL Server"
-            ],
-            "DatabaseVersion": [
-                "MS SQL Server 2017"
-            ],
-            "Network traffic": "UC",
-            "Instance Discovery": "S-TAP",
-            "Protocol": "TCP, NMP",
-            "Notes": "Both Force Encryption\" and \"Always Encrypted\" are supported.The \"Always Encryption\" option in MS SQL Server 2016 and 2017 is supported, except for the Redact (scrub) function. For the Redact (scrub) function within MS-SQL Server 2016 or 2017, Guardium can"
-        },
-        {
-            "GuardiumVersion": [
-                "11.4"
-            ],
-            "OSName": [
-                "AWS"
-            ],
-            "OSVersion": [
-                ""
-            ],
-            "DatabaseName": [
-                "MS SQL Server"
-            ],
-            "DatabaseVersion": [
-                "MS SQL Server 2017"
             ],
             "Network traffic": "UC",
             "Instance Discovery": "",

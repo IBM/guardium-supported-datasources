@@ -271,8 +271,7 @@ export  const BLOCK_CLASS = `connections-doc`;
 export const PRODUCTS = [
   "All",
   "Guardium Data Protection",
-  "Guardium Insights (Software)",
-  "Guardium Insights SaaS",
+  "Guardium Insights",
 ];
 
 export const DEFAULT_GV_RANGE = [11.0, 12.0];

@@ -18,16 +18,14 @@ export default function ExpandingTableCell({
             {featureName}
           </td>
           <td className="top">
-            {
-              <a
-                className="tablelink"
-                rel="noopener noreferrer"
-                target="_blank"
-                href={featureValue}
-              >
-                Link
-              </a>
-            }
+            <a
+              className="tablelink"
+              rel="noopener noreferrer"
+              target="_blank"
+              href={featureValue}
+            >
+              Link
+            </a>
           </td>
         </>
       );
@@ -43,7 +41,7 @@ export default function ExpandingTableCell({
             {featureName}
           </td>
 
-          {notesToolTipOpen && <td className="top">{featureValue}</td>}
+          {notesToolTipOpen ? <td className="top">{featureValue}</td> : null}
         </>
       );
     default:
