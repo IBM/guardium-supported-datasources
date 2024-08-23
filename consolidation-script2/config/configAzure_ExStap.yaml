@@ -1,15 +1,17 @@
 output_csv_path: consolidation-script2/data/output/csv/Azure_ExStap.csv
 output_json_path: src/data/consolidated_csvs/Azure_ExStap.json
 input_csv_path: consolidation-script2/data/input/Azure_ExStap.csv
+environment_name: Azure (Database as a Service)
+method_name: External STAP
 compat_header:
-  -  GDP_Type
-  -  Guardium_Version
-  -  DataSource
-  -  DataSource_Version
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
 feature_header:
-  -  VA_supported
-  -  Classification_supported
-  -  Notes
-  -  Download_URL
-  -  Readme_URL
+  - VA_supported
+  - Classification_supported
+  - Notes
+  - Download_URL
+  - Readme_URL
 partition_header: 2

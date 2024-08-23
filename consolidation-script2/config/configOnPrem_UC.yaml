@@ -1,6 +1,8 @@
 input_csv_path: consolidation-script2/data/input/OnPrem_UC.csv
 output_csv_path: consolidation-script2/data/output/csv/OnPrem_UC.csv
 output_json_path: src/data/consolidated_csvs/OnPrem_UC.json
+environment_name: On-premise or IaaS
+method_name: Universal Connector
 compat_header:
   - GuardiumVersion
   - OSName
@@ -8,8 +10,8 @@ compat_header:
   - DatabaseName
   - DatabaseVersion
 feature_header:
-  -  Network traffic
-  -  Instance Discovery
-  -  Protocol
-  -  Notes
+  - Network traffic
+  - Instance Discovery
+  - Protocol
+  - Notes
 partition_header: 3

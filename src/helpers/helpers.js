@@ -256,14 +256,17 @@ export const generateAccordianItem = (item) => {
       );
     case "link":
       return (
-        <>
+        <div>
           {item.content.map((link, ind) => (
+            
+            (link.link && link.title) ? (
             <Link key={ind} href={link.link}>
               {" "}
               {link.title}{" "}
             </Link>
+            ): null
           ))}
-        </>
+        </div>
       );
     default:
       return null;

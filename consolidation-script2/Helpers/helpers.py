@@ -353,3 +353,21 @@ def pretty_print_row(row):
     for key in row.keys():
         print(f"{key}:{row[key]}")
     print("\n")
+
+
+def add_supported_database(json_data, database_name, environment_name, method_name):
+    # Find the database if it exists, or create it
+    db = next((db for db in json_data["supported_databases"] if db["database_name"] == database_name), None)
+    if not db:
+        db = {"database_name": database_name, "environments_supported": []}
+        json_data["supported_databases"].append(db)
+
+    # Find the environment if it exists, or create it
+    env = next((env for env in db["environments_supported"] if env["environment_name"] == environment_name), None)
+    if not env:
+        env = {"environment_name": environment_name, "methods_supported": []}
+        db["environments_supported"].append(env)
+
+    # Add the method if it doesn't already exist
+    if not any(method['method_key'] == method_name for method in env['methods_supported']):
+        env["methods_supported"].append({"method_key": method_name})

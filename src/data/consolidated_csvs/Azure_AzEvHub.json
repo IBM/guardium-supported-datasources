@@ -1,5 +1,5 @@
 ﻿{
-    "Azure Cassandra": [
+    "Azure Cosmos SQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,7 +11,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Cassandra"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -30,7 +30,7 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure Cassandra"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -50,7 +50,7 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Azure Cassandra"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -62,7 +62,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos Table": [
+    "Azure Cosmos Gremlin": [
         {
             "GDP_Type": [
                 "GDP"
@@ -74,7 +74,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Cosmos Table"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -93,7 +93,7 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure Cosmos Table"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -113,7 +113,7 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Azure Cosmos Table"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -188,7 +188,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos Gremlin": [
+    "Azure Cassandra": [
         {
             "GDP_Type": [
                 "GDP"
@@ -200,7 +200,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
                 "latest"
@@ -219,7 +219,7 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
                 "latest"
@@ -239,7 +239,7 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
                 "latest"
@@ -314,7 +314,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos SQL": [
+    "Azure Cosmos Table": [
         {
             "GDP_Type": [
                 "GDP"
@@ -326,7 +326,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Cosmos SQL"
+                "Azure Cosmos Table"
             ],
             "DataSource_Version": [
                 "latest"
@@ -345,7 +345,7 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure Cosmos SQL"
+                "Azure Cosmos Table"
             ],
             "DataSource_Version": [
                 "latest"
@@ -365,7 +365,7 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Azure Cosmos SQL"
+                "Azure Cosmos Table"
             ],
             "DataSource_Version": [
                 "latest"

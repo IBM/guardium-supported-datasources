@@ -1,16 +1,26 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { generateAccordianItem } from "../../../helpers/helpers";
+
 // TODO: Used react carbon <toggletipitem> here
 // TODO: Split into 3 tooltips
 
 // Collapsible Information Related to current Method, logic is handled using toolTop
-// Information is retrieved from connections.json
+// Information is retrieved from summary.json
 export default function PanelCollapsibleInfo({
   selectedMethodData,
   toolTipOpen,
   setToolTipOpen,
 }) {
+  const filteredSections = selectedMethodData.method_info.filter(
+    (section) =>
+      section.accordian_title === "Setup Instructions" &&
+      section.content &&
+      section.content[0] != null
+  );
+  
+
+
   return (
     <div>
       <br />
@@ -21,6 +31,7 @@ export default function PanelCollapsibleInfo({
             setToolTipOpen([!toolTipOpen[0], toolTipOpen[1], toolTipOpen[2]])
           }
           className="tooltip"
+          id={`tooltip${toolTipOpen[0]}`}
         >
           {" "}
           How it works
@@ -43,6 +54,7 @@ export default function PanelCollapsibleInfo({
             setToolTipOpen([toolTipOpen[0], !toolTipOpen[1], toolTipOpen[2]])
           }
           className="tooltip"
+          id={`tooltip${toolTipOpen[1]}`}
         >
           {" "}
           Benefits and Considerations
@@ -85,6 +97,7 @@ export default function PanelCollapsibleInfo({
           onClick={() =>
             setToolTipOpen([toolTipOpen[0], toolTipOpen[1], !toolTipOpen[2]])
           }
+          id={`tooltip${toolTipOpen[2]}`}
         >
           {" "}
           Getting Started
@@ -100,13 +113,9 @@ export default function PanelCollapsibleInfo({
                   )[0]
                 )}
                 <br />
-                {generateAccordianItem(
-                selectedMethodData.method_info.filter(
-                  (section) =>
-                    section.accordian_title == "Setup Instructions" &&
-                    section.content[0] != null
-                )[0]
-              )}
+                {
+                  filteredSections.length > 0 ? generateAccordianItem(filteredSections[0]) : null
+                }
               </div>
             </span>
           ) : null}

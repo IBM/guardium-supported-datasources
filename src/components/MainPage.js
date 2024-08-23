@@ -19,8 +19,9 @@ import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
 
 import "./../styles/connection_doc.scss";
 
-// Import 'supported_databases' and 'methods' from the connections.json file
-const { supported_databases, methods } = require(`../data/connections.json`);
+// Import 'supported_databases' and 'methods' from the corresponding files
+const { supported_databases } = require(`../data/summary.json`);
+const { methods } = require(`../data/MethodsInfo.json`)
 
 // Map over each 'database' in 'supported_databases' to create a new array 'fullConnectionData'
 const fullConnectionData = transformDatabaseData(supported_databases, methods);

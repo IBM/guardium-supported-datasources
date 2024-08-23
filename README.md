@@ -1,8 +1,5 @@
 # Guardium Data Sources Maintenance Guide
 
-<!-- TODO: Add information for repo access/permissions -->
-<!-- Make a different branch -->
-
 This guide provides step-by-step instructions for maintaining the compatibility information for Guardium data sources. It is intended for use by Quality Assurance (QA) teams to ensure the accuracy and up-to-date status of the data.
 
 ## Table of Contents
@@ -81,7 +78,6 @@ After running the consolidation script, it's necessary to stop and restart the a
    ```bash
    npm start
    ```
-   <!-- TODO: Change to deploy (from main) after PR is merged -->
 
 ## Deploying the Application to GitHub Pages
 
