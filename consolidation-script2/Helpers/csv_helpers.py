@@ -3,6 +3,9 @@
 import csv
 from typing import List
 import logging
+import glob
+import re
+import json
 
 def read_csv_file(file_path) -> List[List[str]]:
     """ Reads CSV file given path"""
@@ -173,3 +176,53 @@ def validate_csv_headers(file_path: str, required_headers: List[str]) -> bool:
             return True
     except FileNotFoundError as e:
         raise FileNotFoundError(f"File not found: {file_path}") from e
+
+def get_unique_guardium_versions(directory_path, output_file="src/data/consolidated_jsons/GuardiumVersions.json"):
+    """
+    Parses multiple CSV files in a directory to extract Guardium version information.
+    Handles cases where the first column contains labels like 'GDP' or 'GI',
+    as well as rows where the first column directly contains version numbers.
+    
+    Parameters:
+    directory_path (str): The path to the directory containing the CSV files.
+    output_file (str): The path to the output CSV file to store unique versions.
+    
+    Returns:
+    set: A set containing unique cleaned version strings.
+    """
+    csv_files = glob.glob(f"{directory_path}/*.csv")
+    print(f"Processing {len(csv_files)} files in {directory_path}")
+    
+    guardium_versions = set()
+    
+    for file_path in csv_files:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                # Case 0: Skip empty rows
+                if not row:
+                    continue
+                
+                # Case 1: First column is a guardium type label, e.g., 'GDP' or 'GI'
+                if re.match(r"^'?GI|GDP'?$", row[0]):
+                    # Extract versions from the next column
+                    versions_string = row[1]
+                else:
+                    # Case 2: First column directly contains version information
+                    versions_string = row[0]
+                
+                # Extract versions using regex to handle tuple-like strings
+                versions = re.findall(r"\('([^']+)',? *([^']+)?\)", versions_string)
+                
+                for version_tuple in versions:
+                    for version in version_tuple:
+                        # Clean each version by keeping only digits and decimals
+                        cleaned_version = re.sub(r'[^\d.]', '', version)
+                        if cleaned_version:
+                            # Remove white space
+                            guardium_versions.add(cleaned_version.strip())
+    
+    # Save to json file
+    with open(output_file, 'w', encoding='utf-8') as json_file:
+        json.dump({"GV_RANGE": sorted(guardium_versions)}, json_file, indent=4)    
+    return guardium_versions
