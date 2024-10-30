@@ -1,53 +1,29 @@
 import React from "react";
 import Slider from "@mui/material/Slider";
 
-export default function VersionSlider({ GVSliderValue, setGVSliderValue }) {
-  return (
-    <div
-      className="VersionSliderDiv"
-    >
-      <p
-        className="VersionSliderHeader"
-      >
-        Guardium Version
-      </p>
+// Directly load the JSON data
+const { GV_RANGE: guardiumVersions } = require("../../../data/consolidated_jsons/GuardiumVersions.json");
 
+export default function VersionSlider({ GVSliderValue, setGVSliderValue }) {
+  const minVersion = Number(guardiumVersions[0]);
+  const maxVersion = Number(guardiumVersions[guardiumVersions.length - 1]);
+  const marks = guardiumVersions.map((version) => ({ value: Number(version) }));
+
+  return (
+    <div className="VersionSliderDiv">
+      <p className="VersionSliderHeader">Guardium Version</p>
       <Slider
         className="VersionSlider"
         label="Guardium Version Change"
         size="small"
         value={GVSliderValue}
-        max={12.0}
-        min={11.0}
-        step={null} // Setting step to null to only allow values defined in marks
-        onChange={(event, newGVValue) => {
-          setGVSliderValue(newGVValue);
-        }}
+        max={maxVersion}
+        min={minVersion}
+        step={null}
+        onChange={(event, newGVValue) => setGVSliderValue(newGVValue)}
         valueLabelDisplay="on"
         title="Guardium Version Change"
-        marks={[
-          {
-            value: 11.0,
-          },
-          {
-            value: 11.1,
-          },
-          {
-            value: 11.2,
-          },
-          {
-            value: 11.3,
-          },
-          {
-            value: 11.4,
-          },
-          {
-            value: 11.5,
-          },
-          {
-            value: 12.0,
-          },
-        ]} // Using marks to indicate allowed values
+        marks={marks}
       />
     </div>
   );

@@ -12,7 +12,7 @@ import yaml
 from main import consolidate, append_to_summary_json
 from Helpers.logging_helpers import setup_logger
 from Helpers.helpers import write_dict_to_json_file
-from Helpers.csv_helpers import validate_csv_headers
+from Helpers.csv_helpers import validate_csv_headers, get_unique_guardium_versions
 
 # Set up logging
 logger = setup_logger(__name__)
@@ -102,6 +102,7 @@ def main():
 
 
     write_dict_to_json_file("src/data/summary.json",summary_data)
+    get_unique_guardium_versions("consolidation-script2/data/output/csv") # Get guardium versions dynamically
     logger.info("SCRIPT COMPLETED.")
 
 if __name__ == "__main__":
