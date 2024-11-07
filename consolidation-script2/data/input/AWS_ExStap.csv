@@ -1,4 +1,4 @@
-﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 GDP,GDP 11.3.0,Amazon Aurora MySQL,All versions,,yes,Classification via ISDC,,
 GDP,GDP 11.3.0,Amazon Aurora PostgreSQL,All versions,,yes,Classification via ISDC,,
 GDP,GDP 11.3.0,Amazon DynamoDB,All versions,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
@@ -99,6 +99,25 @@ GDP,GDP 12.0.0,MongoDB Atlas,4.4,,,,,
 GDP,GDP 12.0.0,MongoDB Atlas,5,,,,,
 GDP,GDP 12.0.0,MongoDB Atlas,6,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
 GDP,GDP 12.0.0,Snowflake,All versions,yes,,,,
+GDP,GDP 12.1.0,Amazon RDS for MySQL,5.6,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for MySQL,5.7,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for MySQL,8,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for Oracle,12.1,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for Oracle,19c,yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
+GDP,GDP 12.1.0,Amazon RDS for Oracle,21c,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for PostgreSQL,9,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for PostgreSQL,10,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon RDS for PostgreSQL,11,yes,yes,Classification via GDP,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.1.0,Amazon RDS for PostgreSQL,12,yes,yes,Classification via GDP,,
+GDP,GDP 12.1.0,Amazon Redshift,All versions,yes,yes,Classification via GDP and ISDC,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.1.0,Amazon S3,All versions,,yes,Classification via ISDC,,
+GDP,GDP 12.1.0,AWS Fargate,All versions,,,,,
+GDP,GDP 12.1.0,Elasticsearch,All versions,,,,,
+GDP,GDP 12.1.0,MongoDB Atlas,4.2,,,,,
+GDP,GDP 12.1.0,MongoDB Atlas,4.4,,,,,
+GDP,GDP 12.1.0,MongoDB Atlas,5,,,,,
+GDP,GDP 12.1.0,MongoDB Atlas,6,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/README.md
+GDP,GDP 12.1.0,Snowflake,All versions,yes,,,,
 GI,GI 3.2.0,Amazon Aurora MySQL,All versions,,yes,Classification via ISDC,,
 GI,GI 3.2.0,Amazon Aurora PostgreSQL,All versions,,yes,Classification via ISDC,,
 GI,GI 3.2.0,Amazon DynamoDB,All versions,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md

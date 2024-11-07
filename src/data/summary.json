@@ -1,26 +1,16 @@
 ﻿{
     "supported_databases": [
         {
-            "database_name": "Google Cloud MySQL",
+            "database_name": "Oracle Autonomous Database",
             "environments_supported": [
                 {
-                    "environment_name": "GCP (Database as a Service)",
+                    "environment_name": "Oracle Cloud (Database as a Service)",
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud Firestore",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
+                        },
                         {
-                            "method_key": "Universal Connector"
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -56,7 +46,33 @@
             ]
         },
         {
+            "database_name": "Google Cloud Firebase",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "database_name": "Google Cloud Apache Solr",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud Firestore",
             "environments_supported": [
                 {
                     "environment_name": "GCP (Database as a Service)",
@@ -85,85 +101,24 @@
             ]
         },
         {
-            "database_name": "MongoDB Atlas",
+            "database_name": "Google Cloud MySQL",
             "environments_supported": [
                 {
                     "environment_name": "GCP (Database as a Service)",
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Snowflake",
+            "database_name": "DB2",
             "environments_supported": [
                 {
-                    "environment_name": "GCP (Database as a Service)",
+                    "environment_name": "IBM Cloud (Database as a Service)",
                     "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
                         {
                             "method_key": "External STAP"
                         }
@@ -173,7 +128,7 @@
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "Universal Connector"
+                            "method_key": "STAP"
                         }
                     ]
                 }
@@ -208,6 +163,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
                         }
                     ]
                 },
@@ -222,7 +180,7 @@
             ]
         },
         {
-            "database_name": "DB2",
+            "database_name": "MongoDB Atlas",
             "environments_supported": [
                 {
                     "environment_name": "IBM Cloud (Database as a Service)",
@@ -233,17 +191,33 @@
                     ]
                 },
                 {
-                    "environment_name": "On-premise or IaaS",
+                    "environment_name": "Azure (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "STAP"
+                            "method_key": "External STAP"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "CockroachDB",
+            "database_name": "MySQL",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -256,65 +230,16 @@
             ]
         },
         {
-            "database_name": "Oracle RAC",
+            "database_name": "Neo4j",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
                             "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MariaDB",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
+                        },
                         {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "SAP HANA",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Redis",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Teradata",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
+                            "method_key": "Universal Connector"
                         }
                     ]
                 }
@@ -334,6 +259,35 @@
             ]
         },
         {
+            "database_name": "Vertica",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MariaDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "database_name": "Cassandra Apache",
             "environments_supported": [
                 {
@@ -347,7 +301,78 @@
             ]
         },
         {
-            "database_name": "Oracle Exadata",
+            "database_name": "Informix",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Couchbase",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MemSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Yugabyte",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Redis",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IMS for zOS",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -388,83 +413,10 @@
                             "method_key": "Amazon Kinesis"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "database_name": "Couchbase",
-            "environments_supported": [
+                },
                 {
-                    "environment_name": "On-premise or IaaS",
+                    "environment_name": "IBM Cloud (Database as a Service)",
                     "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Cassandra",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Vertica",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "S3",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Informix",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
                         {
                             "method_key": "Universal Connector"
                         }
@@ -473,7 +425,7 @@
             ]
         },
         {
-            "database_name": "Datasets for zOS",
+            "database_name": "MS SQL Server",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -486,72 +438,7 @@
             ]
         },
         {
-            "database_name": "Neo4j",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MemSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Greenplum",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Oracle",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Netezza",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MS SQL Server Cluster",
+            "database_name": "Db2 Purescale",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -577,6 +464,19 @@
             ]
         },
         {
+            "database_name": "IBM DB2 for zOS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "database_name": "Sybase IQ",
             "environments_supported": [
                 {
@@ -590,7 +490,7 @@
             ]
         },
         {
-            "database_name": "Cassandra  Datastax",
+            "database_name": "MS SQL Server Cluster",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -616,7 +516,33 @@
             ]
         },
         {
-            "database_name": "MS SQL Server",
+            "database_name": "PerconaMySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "CockroachDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "SAP HANA",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -632,29 +558,13 @@
             ]
         },
         {
-            "database_name": "MS SQL Server Always On",
+            "database_name": "Netezza",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
                             "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
                         }
                     ]
                 }
@@ -674,7 +584,23 @@
             ]
         },
         {
-            "database_name": "IBM DB2 for zOS",
+            "database_name": "Teradata",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "OpenSearch",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -687,7 +613,33 @@
             ]
         },
         {
-            "database_name": "Couch",
+            "database_name": "Datasets for zOS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MS SQL Server Always On",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle Exadata",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -713,13 +665,147 @@
             ]
         },
         {
-            "database_name": "IMS for zOS",
+            "database_name": "Oracle RAC",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Couch",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Greenplum",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Cassandra  Datastax",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Cassandra",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Synapse Analytics",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        },
+                        {
+                            "method_key": "Azure Event Hubs"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Amazon Kinesis"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Snowflake",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -753,30 +839,6 @@
             ]
         },
         {
-            "database_name": "Azure Synapse Analytics",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Azure Event Hubs"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Amazon Kinesis"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "database_name": "Amazon RDS for MariaDB",
             "environments_supported": [
                 {
@@ -787,6 +849,19 @@
                         },
                         {
                             "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for Aurora Postgres",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
                         }
                     ]
                 }
@@ -809,47 +884,7 @@
             ]
         },
         {
-            "database_name": "Amazon Redshift",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "database_name": "Amazon S3",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for Oracle",
             "environments_supported": [
                 {
                     "environment_name": "AWS (Database as a Service)",
@@ -881,38 +916,6 @@
             ]
         },
         {
-            "database_name": "Amazon Aurora PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for Microsoft SQL Server",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "database_name": "DocumentDB",
             "environments_supported": [
                 {
@@ -926,7 +929,7 @@
             ]
         },
         {
-            "database_name": "Amazon RDS for PostgreSQL",
+            "database_name": "Amazon RDS for Oracle",
             "environments_supported": [
                 {
                     "environment_name": "AWS (Database as a Service)",
@@ -955,6 +958,48 @@
             ]
         },
         {
+            "database_name": "AmazonRDS for SQL Server",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for Postgres",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon Redshift",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "database_name": "Amazon DynamoDB",
             "environments_supported": [
                 {
@@ -965,6 +1010,45 @@
                         },
                         {
                             "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Apache Solr",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cosmos",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
                         }
                     ]
                 }
@@ -997,7 +1081,7 @@
             ]
         },
         {
-            "database_name": "DynamoDB",
+            "database_name": "ScyllaDB",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
@@ -1023,7 +1107,150 @@
             ]
         },
         {
+            "database_name": "Microsoft SQL Server",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Apache Cassandra",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Fujistu",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Mysql",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "EDB Postgres",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Intersystems IRIS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "CouchDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MySql-Percona",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon Aurora PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "database_name": "Amazon ElastiCache for Redis",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for Microsoft SQL Server",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for PostgreSQL",
             "environments_supported": [
                 {
                     "environment_name": "AWS (Database as a Service)",
@@ -1049,7 +1276,7 @@
             ]
         },
         {
-            "database_name": "Azure Cosmos Gremlin",
+            "database_name": "Azure Cosmos SQL",
             "environments_supported": [
                 {
                     "environment_name": "Azure (Database as a Service)",
@@ -1112,7 +1339,7 @@
             ]
         },
         {
-            "database_name": "Azure Cosmos SQL",
+            "database_name": "Azure Cosmos Gremlin",
             "environments_supported": [
                 {
                     "environment_name": "Azure (Database as a Service)",
@@ -1133,13 +1360,13 @@
             ]
         },
         {
-            "database_name": "Oracle Autonomous Database",
+            "database_name": "PostgresSQL",
             "environments_supported": [
                 {
-                    "environment_name": "Oracle Cloud (Database as a Service)",
+                    "environment_name": "IBM Cloud (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "Universal Connector"
                         }
                     ]
                 }
