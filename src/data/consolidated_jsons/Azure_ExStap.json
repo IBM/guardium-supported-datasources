@@ -1,67 +1,4 @@
 ﻿{
-    "Azure SQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "all versions"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -71,7 +8,8 @@
                 "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
                 "MongoDB Atlas"
@@ -130,6 +68,31 @@
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Synapse Analytics": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Azure Synapse Analytics"
+            ],
+            "DataSource_Version": [
+                "all versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -143,7 +106,8 @@
                 "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
                 "Snowflake"
@@ -197,7 +161,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Synapse Analytics": [
+    "Azure SQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -206,17 +170,57 @@
                 "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
-                "Azure Synapse Analytics"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "all versions"
             ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0",
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "Azure SQL"
+            ],
+            "DataSource_Version": [
+                "all versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Azure SQL"
+            ],
+            "DataSource_Version": [
+                "all versions"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }

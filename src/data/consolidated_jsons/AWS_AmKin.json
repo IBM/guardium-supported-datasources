@@ -1,5 +1,5 @@
 ﻿{
-    "Azure Synapse Analytics": [
+    "Azure Cosmos SQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,31 +11,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Synapse Analytics"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Cosmos Gremlin": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
-            ],
-            "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -55,7 +31,7 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -74,7 +50,7 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure Cosmos Gremlin"
+                "Azure Cosmos SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -212,6 +188,69 @@
             "Readme_URL": ""
         }
     ],
+    "MongoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "14.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.2.0",
+                "GI 3.3.0"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "14.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GI GI SaaS"
+            ],
+            "Guardium_Version": [
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "14.0+"
+            ],
+            "VA_supported": "yes",
+            "Classification_supported": "yes",
+            "Notes": "Classification via GDP and ISDC",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
     "Azure Cosmos Table": [
         {
             "GDP_Type": [
@@ -275,7 +314,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos SQL": [
+    "Azure Synapse Analytics": [
         {
             "GDP_Type": [
                 "GDP"
@@ -287,46 +326,7 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "Azure Cosmos SQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0"
-            ],
-            "DataSource": [
-                "Azure Cosmos SQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure Cosmos SQL"
+                "Azure Synapse Analytics"
             ],
             "DataSource_Version": [
                 "latest"
@@ -338,7 +338,7 @@
             "Readme_URL": ""
         }
     ],
-    "MongoDB": [
+    "Azure Cosmos Gremlin": [
         {
             "GDP_Type": [
                 "GDP"
@@ -350,14 +350,14 @@
                 "GDP 12.0.0"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         },
@@ -370,14 +370,14 @@
                 "GI 3.3.0"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         },
@@ -389,14 +389,14 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos Gremlin"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }

@@ -257,6 +257,8 @@ export  const getJSONData = (environment,method) => {
         return [require(`../data/consolidated_jsons/OnPrem_UC.json`),TABLETYPE1]
       case "Oracle Cloud (Database as a Service)|External STAP":
         return [require(`../data/consolidated_jsons/OracleCloud_ExStap.json`),TABLETYPE2]
+      case "Oracle Cloud (Database as a Service)|Universal Connector":
+        return [require(`../data/consolidated_jsons/OracleCloud_UC.json`),TABLETYPE2]
   
       default:
         console.log(`This is the error key: ${key}`)

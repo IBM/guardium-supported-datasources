@@ -4,14 +4,14 @@ output_json_path: src/data/consolidated_jsons/OnPrem_UC.json
 environment_name: On-premise or IaaS
 method_name: Universal Connector
 compat_header:
-  - GuardiumVersion
-  - OSName
-  - OSVersion
-  - DatabaseName
-  - DatabaseVersion
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
 feature_header:
-  - Network traffic
-  - Instance Discovery
-  - Protocol
+  - VA_supported
+  - Classification_supported
   - Notes
-partition_header: 3
+  - Download_URL
+  - Readme_URL
+partition_header: 2
