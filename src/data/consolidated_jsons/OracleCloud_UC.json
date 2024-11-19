@@ -6,7 +6,8 @@
             ],
             "Guardium_Version": [
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
                 "Oracle Autonomous Database"
@@ -14,6 +15,25 @@
             "DataSource_Version": [
                 "19c",
                 "21c"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "23ai"
             ],
             "VA_supported": "",
             "Classification_supported": "",

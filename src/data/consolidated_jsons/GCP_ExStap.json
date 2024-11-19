@@ -1,29 +1,4 @@
 ﻿{
-    "Google Cloud BigQuery": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -161,7 +136,7 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud PostgreSQL": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -174,17 +149,14 @@
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "Google Cloud PostgreSQL"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "9",
-                "10",
-                "11",
-                "12"
+                "All versions"
             ],
             "VA_supported": "",
-            "Classification_supported": "yes",
-            "Notes": "Classification via ISDC",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -210,6 +182,34 @@
             "VA_supported": "",
             "Classification_supported": "yes",
             "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.3.0",
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Google Cloud PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "yes",
+            "Notes": "Classification via ISDC",
             "Download_URL": "",
             "Readme_URL": ""
         }

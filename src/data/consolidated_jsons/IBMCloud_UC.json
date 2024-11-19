@@ -1,5 +1,5 @@
 ﻿{
-    "PostgresSQL": [
+    "PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -7,13 +7,14 @@
             "Guardium_Version": [
                 "GDP 11.4.0",
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
-                "PostgresSQL"
+                "PostgreSQL"
             ],
             "DataSource_Version": [
-                " v15"
+                "v15"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -30,7 +31,8 @@
             "Guardium_Version": [
                 "GDP 11.4.0",
                 "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 12.0.0",
+                "GDP 12.1.0"
             ],
             "DataSource": [
                 "MongoDB"
