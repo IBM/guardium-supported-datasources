@@ -37,13 +37,12 @@ export default function ExpandingTableCell({
             className="top"
             onClick={() => setNotesToolTipOpen(!notesToolTipOpen)}
           >
-            {" "}
             {featureName}
           </td>
-
-          {notesToolTipOpen ? <td className="top">{featureValue}</td> : null}
+          <td className="top">{featureValue}</td>
         </>
       );
+
     default:
       return (
         <>

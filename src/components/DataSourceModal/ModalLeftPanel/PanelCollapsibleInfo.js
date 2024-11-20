@@ -17,21 +17,17 @@ export default function PanelCollapsibleInfo({
       section.content &&
       section.content[0] != null
   );
-  
 
+  const handleTooltipClick = (index) => {
+    setToolTipOpen(toolTipOpen.map((isOpen, i) => (i === index ? !isOpen : false)));
+  };
 
   return (
     <div>
       <br />
       <h6> About {selectedMethodData.method_name}</h6>
       <ul>
-        <li
-          onClick={() =>
-            setToolTipOpen([!toolTipOpen[0], toolTipOpen[1], toolTipOpen[2]])
-          }
-          className="tooltip"
-          id={`tooltip${toolTipOpen[0]}`}
-        >
+        <li onClick={() => handleTooltipClick(0)} className="tooltip" id={`tooltip${toolTipOpen[0]}`}>
           {" "}
           How it works
           {toolTipOpen[0] ? (
@@ -47,14 +43,7 @@ export default function PanelCollapsibleInfo({
           ) : null}
         </li>
         <br />
-
-        <li
-          onClick={() =>
-            setToolTipOpen([toolTipOpen[0], !toolTipOpen[1], toolTipOpen[2]])
-          }
-          className="tooltip"
-          id={`tooltip${toolTipOpen[1]}`}
-        >
+        <li onClick={() => handleTooltipClick(1)} className="tooltip" id={`tooltip${toolTipOpen[1]}`}>
           {" "}
           Benefits and Considerations
           {toolTipOpen[1] ? (
@@ -91,13 +80,7 @@ export default function PanelCollapsibleInfo({
           ) : null}
         </li>
         <br />
-        <li
-          className="tooltip"
-          onClick={() =>
-            setToolTipOpen([toolTipOpen[0], toolTipOpen[1], !toolTipOpen[2]])
-          }
-          id={`tooltip${toolTipOpen[2]}`}
-        >
+        <li onClick={() => handleTooltipClick(2)} className="tooltip" id={`tooltip${toolTipOpen[2]}`}>
           {" "}
           Getting Started
           {toolTipOpen[2] ? (

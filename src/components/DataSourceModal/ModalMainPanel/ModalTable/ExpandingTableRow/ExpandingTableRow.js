@@ -4,14 +4,14 @@ import { splitIntoPairs } from '../../../../../helpers/helpers';
 import ExpandingTableCell from './ExpandingTableCell';
 
 
-export default function ExpandingTableRow({key,data,tableType}) {
+export default function ExpandingTableRow({ key, data, tableType }) {
   const [expanded, setExpanded] = useState(false);
   const [currentData, setCurrentData] = useState(data);
-  const [notesToolTipOpen,setNotesToolTipOpen] = useState(false);
+  const [notesToolTipOpen, setNotesToolTipOpen] = useState(true);
 
   useEffect(() => {
     setCurrentData(data)
-  }, [data,currentData,key]);
+  }, [data, currentData, key]);
 
   const toggleExpander = () => {
     setExpanded(!expanded)
@@ -24,13 +24,13 @@ export default function ExpandingTableRow({key,data,tableType}) {
   return [
     // NON-EXPANDING/ALWAYS-SHOWING section 
     <tr key="main" onClick={toggleExpander} className="tablerow">
-      
+
       <td className="datacell">
-        {tableType.features.filter(obj => (currentData[obj.featureKey] != "" && currentData[obj.featureKey] != undefined)) != [] ? <KeyboardArrowDownIcon id={"rotate" + expanded} /> : null }
+        {tableType.features.filter(obj => (currentData[obj.featureKey] != "" && currentData[obj.featureKey] != undefined)) != [] ? <KeyboardArrowDownIcon id={"rotate" + expanded} /> : null}
       </td>
-       
-      
- 
+
+
+
       {tableType.headers.map(({ headerKey, getReadableString }) => (
         <td key={headerKey} className="datacell"  >  {getReadableString(currentData[headerKey])}</td>
       ))}
@@ -40,32 +40,32 @@ export default function ExpandingTableRow({key,data,tableType}) {
       <tr className="expandable" key="tr-expander">
         <td className="uk-background-muted" colSpan={6}>
           <div className="inner uk-grid">
-            
+
             {/* Split into pairs so that each row contains two feature infos */}
-              <table id="specifics">
-              
-                {splitIntoPairs(tableType.features.filter(obj => (currentData[obj.featureKey] != "" && currentData[obj.featureKey] != undefined))).map((a) => (
-                  <tr key={a[0].featureName+a[1].featureName}>
-                    
-                    <ExpandingTableCell 
-                                        featureName={a[0].featureName}
-                                         featureKey={a[0].featureKey}
-                                         featureValue={currentData[a[0].featureKey]}
-                                        setNotesToolTipOpen={setNotesToolTipOpen}
-                                        notesToolTipOpen={notesToolTipOpen}/>
-                    
-                    <ExpandingTableCell 
-                                        featureName={a[1].featureName}
-                                         featureKey={a[1].featureKey}
-                                         featureValue={currentData[a[1].featureKey]}
-                                         setNotesToolTipOpen={setNotesToolTipOpen}
-                                        notesToolTipOpen={notesToolTipOpen}/>
-                                        
-                  </tr>
-                ))}
-                
-              </table>
-            
+            <table id="specifics">
+
+              {splitIntoPairs(tableType.features.filter(obj => (currentData[obj.featureKey] != "" && currentData[obj.featureKey] != undefined))).map((a) => (
+                <tr key={a[0].featureName + a[1].featureName}>
+
+                  <ExpandingTableCell
+                    featureName={a[0].featureName}
+                    featureKey={a[0].featureKey}
+                    featureValue={currentData[a[0].featureKey]}
+                    setNotesToolTipOpen={setNotesToolTipOpen}
+                    notesToolTipOpen={notesToolTipOpen} />
+
+                  <ExpandingTableCell
+                    featureName={a[1].featureName}
+                    featureKey={a[1].featureKey}
+                    featureValue={currentData[a[1].featureKey]}
+                    setNotesToolTipOpen={setNotesToolTipOpen}
+                    notesToolTipOpen={notesToolTipOpen} />
+
+                </tr>
+              ))}
+
+            </table>
+
           </div>
         </td>
       </tr>
