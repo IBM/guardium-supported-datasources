@@ -10272,7 +10272,6 @@
 12,Ubuntu,Ubuntu 20.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
 12,Ubuntu,Ubuntu 18.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
 12,Ubuntu,Ubuntu 20.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 12,Ubuntu,Ubuntu 16.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 12,Ubuntu,Ubuntu 20.04,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 12,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
@@ -11012,37 +11011,8 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
 11.4,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 11.4,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -11573,38 +11543,9 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
 12,Suse,Suse 12 64bit,Elasticsearch,Elasticsearch 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 11.5,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 11.5,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -12133,38 +12074,9 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
 12,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 12,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 12,Suse,Suse 15 64bit,Elasticsearch,Elasticsearch 8.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -12689,35 +12601,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -13242,35 +13125,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -13795,35 +13649,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Debian,Debian 10,DB2,Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.4,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
@@ -14348,35 +14173,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -14972,35 +14768,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -15596,35 +15363,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -16220,35 +15958,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -16844,35 +16553,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -17468,35 +17148,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -18091,35 +17742,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -18715,35 +18337,6 @@
 11.5,Red Hat,Red Hat 6,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Suse,Suse 11  32bit 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 11 PPC64 Big Endian system only
 11.5,CentOS,CentOS 6x,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.1,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 10.5,DB2 ExitKTAP,DB2 Exit KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.1,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,DB2,Db2 9.7,DB2 ExitKTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,The versions of DB2 required in order to use DB2 Exit is V97FP10 or higher
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 10.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 11.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-12,Ubuntu,Ubuntu 14.04,Db2 Purescale,Db2 Purescale 9.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL Encryption supported only using DB2 EXIT
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 12.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10
-12,Ubuntu,Ubuntu 14.04,Informix,Informix 14.1,Informix Exit KTAP,Informix Exit KTAP,Informix Exit,Informix Exit ATAP,,Informix Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,Informix Exit KTAP,Informix Exit KTAP,KTAP,,Yes,NA,Informix Exit supported with 12.10 and higher
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-12,Ubuntu,Ubuntu 14.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Zlinux,Zlinux Suse 11  32bit 64bit,DB2,Db2 10.1,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V10.1FP4 or higher For DB2 LUW
 11.5,Zlinux,Zlinux Red Hat 6,DB2,Db2 10.5,DB2 Exit KTAP,DB2 Exit KTAP,DB2 Exit,DB2 Exit ATAP,,DB2 Exit KTAP ATAP ATAP with Linux 2.6.36 and higher only,KTAP,DB2 Exit KTAP,KTAP,KTAP,Yes,NA,The versions of DB2 required in order to capture UID chain using DB2 Exit is V105FP3 or higher Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -18889,7 +18482,7 @@
 12.1,Red Hat,Red Hat 7.9,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
 12.1,Red Hat,Red Hat 8,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
 12.1,Red Hat,Red Hat 9,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
-12.1,Red Hat,Ubntu 20.04,MariaDB,MariaDB 11.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+12.1,Red Hat,Ubuntu 20.04,MariaDB,MariaDB 11.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Red Hat,Red Hat 7,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAPATAP,KTAP,KTAPATAP,,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Red Hat,Red Hat 7.1,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAPATAP,KTAP,KTAPATAP,,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Red Hat,Red Hat 7.2,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAPATAP,KTAP,KTAPATAP,,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
