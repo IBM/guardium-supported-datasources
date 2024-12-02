@@ -1,5 +1,5 @@
 ﻿{
-    "MongoDB Atlas": [
+    "Azure Database for PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,16 +11,16 @@
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "MongoDB Atlas"
+                "Azure Database for PostgreSQL"
             ],
             "DataSource_Version": [
-                "1.0.1"
+                "11"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/logstash-filter-azure_postgresql_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -34,16 +34,87 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "MongoDB Atlas"
+                "Azure Database for PostgreSQL"
             ],
             "DataSource_Version": [
-                "1.0.1"
+                "11"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
+        }
+    ],
+    "Azure SQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Azure SQL"
+            ],
+            "DataSource_Version": [
+                "12.0.2000.8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-azuresql_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GI"
+            ],
+            "Guardium_Version": [
+                "GI 3.3.0",
+                "GI 3.4.0",
+                "GI 3.5.0",
+                "GI 3.6.0",
+                "GI SaaS"
+            ],
+            "DataSource": [
+                "Azure SQL"
+            ],
+            "DataSource_Version": [
+                "12.0.2000.8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
+        }
+    ],
+    "Azure MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Azure MySQL"
+            ],
+            "DataSource_Version": [
+                "8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mysql-azure-guardium/AzureMySQLOverAzureEventHub/guardium_logstash-offline-plugins-azure-mysql.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-azure-guardium/README.md"
         }
     ],
     "Azure Cosmos": [
@@ -164,7 +235,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md"
         }
     ],
-    "Azure MySQL": [
+    "MongoDB Atlas": [
         {
             "GDP_Type": [
                 "GDP"
@@ -176,40 +247,16 @@
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "Azure MySQL"
+                "MongoDB Atlas"
             ],
             "DataSource_Version": [
-                "8"
+                "1.0.1"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mysql-azure-guardium/AzureMySQLOverAzureEventHub/guardium_logstash-offline-plugins-azure-mysql.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-azure-guardium/README.md"
-        }
-    ],
-    "Azure SQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "12.0.2000.8"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-azuresql_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md"
         },
         {
             "GDP_Type": [
@@ -223,63 +270,16 @@
                 "GI SaaS"
             ],
             "DataSource": [
-                "Azure SQL"
+                "MongoDB Atlas"
             ],
             "DataSource_Version": [
-                "12.0.2000.8"
+                "1.0.1"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md"
-        }
-    ],
-    "Azure Database for PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Azure Database for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "11"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/logstash-filter-azure_postgresql_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0",
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure Database for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "11"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-postgresql-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md"
         }
     ]
 }

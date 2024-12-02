@@ -22,7 +22,7 @@
             "Notes": ""
         }
     ],
-    "IBM DB2 Warehouse": [
+    "DB2": [
         {
             "GDP_Type": [
                 "GDP"
@@ -35,7 +35,7 @@
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "IBM DB2 Warehouse"
+                "DB2"
             ],
             "DataSource_Version": [
                 "9.7",
@@ -44,9 +44,9 @@
                 "11.1",
                 "11.5"
             ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
+            "VA_supported": "Yes",
+            "Classification_supported": "Yes",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
         }
     ],
     "MongoDB Atlas": [
@@ -116,7 +116,7 @@
             "Notes": ""
         }
     ],
-    "DB2": [
+    "IBM DB2 Warehouse": [
         {
             "GDP_Type": [
                 "GDP"
@@ -129,7 +129,7 @@
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "DB2"
+                "IBM DB2 Warehouse"
             ],
             "DataSource_Version": [
                 "9.7",
@@ -138,9 +138,9 @@
                 "11.1",
                 "11.5"
             ],
-            "VA_supported": "Yes",
-            "Classification_supported": "Yes",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
         }
     ]
 }
