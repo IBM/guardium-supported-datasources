@@ -1,41 +1,17 @@
 ﻿{
-    "Elasticsearch": [
+    "IBM DB2 Warehouse": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
                 "GDP 12.0.0",
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": ""
-        }
-    ],
-    "DB2": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.3.0",
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "DB2"
+                "IBM DB2 Warehouse"
             ],
             "DataSource_Version": [
                 "9.7",
@@ -44,9 +20,9 @@
                 "11.1",
                 "11.5"
             ],
-            "VA_supported": "Yes",
-            "Classification_supported": "Yes",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
         }
     ],
     "MongoDB Atlas": [
@@ -55,7 +31,6 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
                 "GDP 12.0.0",
@@ -116,20 +91,41 @@
             "Notes": ""
         }
     ],
-    "IBM DB2 Warehouse": [
+    "Elasticsearch": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.3.0",
                 "GDP 11.4.0",
                 "GDP 11.5.0",
                 "GDP 12.0.0",
                 "GDP 12.1.0"
             ],
             "DataSource": [
-                "IBM DB2 Warehouse"
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ],
+    "DB2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "DB2"
             ],
             "DataSource_Version": [
                 "9.7",
@@ -138,9 +134,9 @@
                 "11.1",
                 "11.5"
             ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Native encryption (DATA_ENCRYPT) not supported."
+            "VA_supported": "Yes",
+            "Classification_supported": "Yes",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
         }
     ]
 }
