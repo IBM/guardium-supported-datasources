@@ -25,6 +25,54 @@
             "Notes": "Native encryption (DATA_ENCRYPT) not supported."
         }
     ],
+    "DB2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "DB2"
+            ],
+            "DataSource_Version": [
+                "9.7",
+                "10.1",
+                "10.5",
+                "11.1",
+                "11.5"
+            ],
+            "VA_supported": "Yes",
+            "Classification_supported": "Yes",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+        }
+    ],
+    "Elasticsearch": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.4.0",
+                "GDP 11.5.0",
+                "GDP 12.0.0",
+                "GDP 12.1.0"
+            ],
+            "DataSource": [
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -89,54 +137,6 @@
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": ""
-        }
-    ],
-    "Elasticsearch": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": ""
-        }
-    ],
-    "DB2": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "DB2"
-            ],
-            "DataSource_Version": [
-                "9.7",
-                "10.1",
-                "10.5",
-                "11.1",
-                "11.5"
-            ],
-            "VA_supported": "Yes",
-            "Classification_supported": "Yes",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
         }
     ]
 }
