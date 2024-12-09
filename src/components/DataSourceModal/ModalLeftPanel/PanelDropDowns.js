@@ -56,8 +56,8 @@ export function MethodDropDown({
               selectedItem={selectedMethodData}
               items={
                 // If SaaS or Insights, remove STAP related methods
-                selectedProduct === "Guardium Insights SaaS" ||
-                selectedProduct === "Guardium Insights (Software)"
+                selectedProduct === "Guardium Data Security Center SaaS" ||
+                selectedProduct === "Guardium Data Security Center (Software)"
                   ? selectedEnvironmentData.methods_supported.filter(function (e) {
                       return (
                         e.method_key !== "External STAP" &&
