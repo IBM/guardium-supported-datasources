@@ -11,6 +11,7 @@
     "@mui/icons-material": "^5.14.9",
     "@mui/material": "^5.14.9",
     "carbon-components": "^10.53.0",
+    "export-to-csv": "^1.4.0",
     "fuse.js": "^6.5.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",

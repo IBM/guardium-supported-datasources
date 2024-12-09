@@ -66,7 +66,7 @@ export function handleProductFilter(selected, searchedConnectionData) {
       );
       break;
 
-    case "Guardium Insights":
+    case "Guardium Data Security Center":
       searchedConnectionData = searchedConnectionData.filter((item) =>
         item.environments_supported.some((env) =>
           SAAS_ENVS.includes(env.environment_name)

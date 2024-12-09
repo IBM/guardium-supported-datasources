@@ -4,12 +4,12 @@ import MainPage from "./components/MainPage";
 import "./styles/globals.scss";
 import React from "react";
 
-const App = () => {
+function App()  {
   return (
     <main>
       <MainPage />
     </main>
   );
-};
+}
 
 export default App;
