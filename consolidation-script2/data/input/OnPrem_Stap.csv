@@ -90,8 +90,8 @@
 11.4,Red Hat,Red Hat 7.9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 11.4,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 11.4,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-11.4,CentOS,CentOS 7x,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-11.4,Red Hat,Red Hat 7,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 11.4,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 11.4,Red Hat,Red Hat 7.6,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.4,Red Hat,Red Hat 7.7,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -2616,8 +2616,8 @@
 11.5,Red Hat,Red Hat 7.9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 11.5,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 11.5,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-11.5,CentOS,CentOS 7x,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-11.5,Red Hat,Red Hat 7,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 11.5,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 11.5,Red Hat,Red Hat 7.6,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,Red Hat,Red Hat 7.7,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -5107,8 +5107,8 @@
 12,Red Hat,Red Hat 7.9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 12,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 12,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-12,CentOS,CentOS 7x,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-12,Red Hat,Red Hat 7,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+12,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+12,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 12,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 12,Red Hat,Red Hat 7.6,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 12,Red Hat,Red Hat 7.7,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -7624,8 +7624,8 @@
 12.1,Red Hat,Red Hat 7.9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 12.1,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 12.1,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-12.1,CentOS,CentOS 7x,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-12.1,Red Hat,Red Hat 7,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 12.1,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 12.1,Red Hat,Red Hat 7.6,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 12.1,Red Hat,Red Hat 7.7,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -10484,7 +10484,7 @@
 11.5,CentOS,CentOS 6x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 11.5,Red Hat,Red Hat 6,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 11.5,CentOS,CentOS 6x,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
-11.5,CentOS,CentOS 6x,Cassandra Apache,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
+11.5,CentOS,CentOS 6x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 11.5,CentOS,CentOS 6x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 11.5,Red Hat,Red Hat 6,Cloudera,Cloudera 5.12,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 11.5,CentOS,CentOS 6x,Cloudera,Cloudera 5.12,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
