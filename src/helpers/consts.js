@@ -272,7 +272,7 @@ export const BLOCK_CLASS = `connections-doc`;
 export const PRODUCTS = [
   "All",
   "Guardium Data Protection",
-  "Guardium Insights",
+  "Guardium Data Security Center",
 ];
 
 const { GV_RANGE: guardiumVersions } = require("../data/consolidated_jsons/GuardiumVersions.json");

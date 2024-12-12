@@ -66,7 +66,7 @@
               ]
             },
             {
-              "title": "Optional (if using Blocking response action with Guardium Insights)",
+              "title": "Optional (if using Blocking response action with Guardium Data Security Center)",
               "content": ["Database", "Username", "Password"]
             }
           ]
@@ -188,7 +188,7 @@
           "accordian_title": "How it works",
           "type": "string",
           "content": [
-            "A lightweight agent (an S-TAP) is installed at the operating system level. The agent observes all session traffic to and from the database and makes a copy of that session traffic - sending it either to a Guardium collector or directly to Guardium Insights for processing and analytics."
+            "A lightweight agent (an S-TAP) is installed at the operating system level. The agent observes all session traffic to and from the database and makes a copy of that session traffic - sending it to Guardium for processing and analytics."
           ],
           "title": "[View more information]",
           "link": "https://www.ibm.com/docs/en/gdp/12.x?topic=linux-unix-s-tap-users-guide"
@@ -275,7 +275,7 @@
               ]
             },
             {
-              "title": "Optional (if using Blocking response action with Guardium Insights)",
+              "title": "Optional (if using Blocking response action with Guardium Data Security Center)",
               "content": ["Database", "Username", "Password"]
             }
           ]
