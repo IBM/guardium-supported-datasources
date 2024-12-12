@@ -23,6 +23,11 @@ import "./../styles/connection_doc.scss";
 const { supported_databases } = require(`../data/summary.json`);
 const { methods } = require(`../data/MethodsInfo.json`)
 
+// Sort the supported_databases alphabetically by database_name
+supported_databases.sort((a, b) =>
+  a.database_name.localeCompare(b.database_name)
+);
+
 // Map over each 'database' in 'supported_databases' to create a new array 'fullConnectionData'
 const fullConnectionData = transformDatabaseData(supported_databases, methods);
 
