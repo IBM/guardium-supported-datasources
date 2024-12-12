@@ -39,17 +39,17 @@ GDP,GDP 11.4.0,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connector
 GDP,GDP 11.5.0,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDP,GDP 12.0.0,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDP,GDP 12.1.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
-GI,GI 3.3.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
-GI,GI 3.4.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
-GI,GI 3.5.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
-GI,GI 3.6.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
-GI,GI SaaS,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDSC,GDSC 3.3.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDSC,GDSC 3.4.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDSC,GDSC 3.5.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDSC,GDSC 3.6.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDSC,GDSC SaaS,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDP,GDP 11.4.0,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-snowflake-guardium/SnowflakeOverJbdcPackage/Snowflake/logstash-offline-plugins-7.12.1.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDP,GDP 11.5.0,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-snowflake-guardium/SnowflakeOverJbdcPackage/Snowflake/logstash-offline-plugins-7.12.1.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDP,GDP 12.0.0,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-snowflake-guardium/SnowflakeOverJbdcPackage/Snowflake/logstash-offline-plugins-7.12.1.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDP,GDP 12.1.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
-GI,GI 3.3.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
-GI,GI 3.4.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
-GI,GI 3.5.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
-GI,GI 3.6.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
-GI,GI SaaS,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDSC,GDSC 3.3.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDSC,GDSC 3.4.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDSC,GDSC 3.5.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDSC,GDSC 3.6.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDSC,GDSC SaaS,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
