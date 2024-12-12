@@ -227,45 +227,65 @@ export const generateAccordianItem = (item) => {
       if (Array.isArray(item.content)) {
         return (
           <div className="generatedAccordionItem">
-            <ul>
-              {item.content.map((cntnt, index) => {
-                return (
+            <strong>{item.title}</strong>
+            <div style={{ fontWeight: "normal" }}>
+              <ul>
+                {item.content.map((cntnt, index) => (
                   <li key={index}>
                     {cntnt}
                     <br />
                   </li>
-                );
-              })}
-            </ul>
+                ))}
+              </ul>
+            </div>
           </div>
         );
       }
-
-      return <div>{item.content}</div>;
+      return (
+        <div>
+          <strong>{item.title}</strong>
+          <div style={{ fontWeight: "normal" }}>{item.content}</div>
+        </div>
+      );
     case "orderedlist":
       return (
-        <UnorderedList>
-          {item.content.map((nestedItem) => generateOrderListItem(nestedItem))}
-        </UnorderedList>
+        <div>
+          <strong>{item.title}</strong>
+          <div style={{ fontWeight: "normal" }}>
+            <UnorderedList>
+              {item.content.map((nestedItem) =>
+                generateOrderListItem(nestedItem)
+              )}
+            </UnorderedList>
+          </div>
+        </div>
       );
     case "unordered":
       return (
-        <OrderedList>
-          {item.content.map((nestedItem) => generateOrderListItem(nestedItem))}
-        </OrderedList>
+        <div>
+          <strong>{item.title}</strong>
+          <div style={{ fontWeight: "normal" }}>
+            <OrderedList>
+              {item.content.map((nestedItem) =>
+                generateOrderListItem(nestedItem)
+              )}
+            </OrderedList>
+          </div>
+        </div>
       );
     case "link":
       return (
         <div>
-          {item.content.map((link, ind) => (
-            
-            (link.link && link.title) ? (
-            <Link key={ind} href={link.link}>
-              {" "}
-              {link.title}{" "}
-            </Link>
-            ): null
-          ))}
+          <strong>{item.title}</strong>
+          <div style={{ fontWeight: "normal" }}>
+            {item.content.map((link, ind) =>
+              link.link && link.title ? (
+                <Link key={ind} href={link.link}>
+                  {link.title}
+                </Link>
+              ) : null
+            )}
+          </div>
         </div>
       );
     default:
