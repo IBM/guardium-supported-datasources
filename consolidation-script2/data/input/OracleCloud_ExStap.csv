@@ -2,9 +2,16 @@ GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classificat
 GDP,GDP 11.4.0,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 11.4.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 11.4.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 11.5.0,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 11.5.0,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 11.5.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 11.5.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 11.5.0,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.0.0,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.0.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.0.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.0.0,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP

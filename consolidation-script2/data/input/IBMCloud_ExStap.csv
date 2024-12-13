@@ -14,6 +14,8 @@ GDP,GDP 11.4.0,MongoDB Atlas,4.2,,,
 GDP,GDP 11.4.0,MongoDB Atlas,4.4,,,
 GDP,GDP 11.4.0,MongoDB Atlas,5,,,
 GDP,GDP 11.4.0,MongoDB Atlas,6,,,
+GDP,GDP 11.4.0,IBM Cloud Databases for MongoDB,All Versions,,,
+GDP,GDP 11.4.0,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 11.5.0,Elasticsearch,All versions,,,
 GDP,GDP 11.5.0,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.5.0,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
@@ -29,6 +31,8 @@ GDP,GDP 11.5.0,MongoDB Atlas,4.2,,,
 GDP,GDP 11.5.0,MongoDB Atlas,4.4,,,
 GDP,GDP 11.5.0,MongoDB Atlas,5,,,
 GDP,GDP 11.5.0,MongoDB Atlas,6,,,
+GDP,GDP 11.5.0,IBM Cloud Databases for MongoDB,All Versions,,,
+GDP,GDP 11.5.0,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 12.0.0,Elasticsearch,All versions,,,
 GDP,GDP 12.0.0,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 12.0.0,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
@@ -44,6 +48,8 @@ GDP,GDP 12.0.0,MongoDB Atlas,4.2,,,
 GDP,GDP 12.0.0,MongoDB Atlas,4.4,,,
 GDP,GDP 12.0.0,MongoDB Atlas,5,,,
 GDP,GDP 12.0.0,MongoDB Atlas,6,,,
+GDP,GDP 12.0.0,IBM Cloud Databases for MongoDB,All Versions,,,
+GDP,GDP 12.0.0,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 12.1.0,Elasticsearch,All versions,,,
 GDP,GDP 12.1.0,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 12.1.0,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
@@ -59,3 +65,5 @@ GDP,GDP 12.1.0,MongoDB Atlas,4.2,,,
 GDP,GDP 12.1.0,MongoDB Atlas,4.4,,,
 GDP,GDP 12.1.0,MongoDB Atlas,5,,,
 GDP,GDP 12.1.0,MongoDB Atlas,6,,,
+GDP,GDP 12.1.0,IBM Cloud Databases for MongoDB,All Versions,,,
+GDP,GDP 12.1.0,IBM Cloud Databases for PostgreSQL,All Versions,,,
