@@ -11,10 +11,10 @@ GDP,GDP 12.1.0,Sybase ASE,All versions,,,,,https://github.com/IBM/Guardium_Exter
 GDP,GDP 12.1.0,Sybase IQ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,Redis,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,Netezza,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,MySql,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,MySQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,MemSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,Greenplum,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,DB2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Cockroach,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1.0,CockroachDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1.0,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP

@@ -250,8 +250,8 @@ export const getJSONData = (environment, method) => {
       return [require(`../data/consolidated_jsons/IBMCloud_UC.json`), TABLETYPE2]
     case "On-premise or IaaS|STAP":
       return [require(`../data/consolidated_jsons/OnPrem_Stap.json`), TABLETYPE1]
-    case "On-premise or IaaS|External STAP": //TODO:What is this??
-      return [require(`../data/consolidated_jsons/OnPrem_Stap.json`), TABLETYPE1]
+    case "On-premise or IaaS|External STAP": 
+      return [require(`../data/consolidated_jsons/OnPrem_ExStap.json`), TABLETYPE2]
     case "On-premise or IaaS|Universal Connector":
       return [require(`../data/consolidated_jsons/OnPrem_UC.json`), TABLETYPE2]
     case "Oracle Cloud (Database as a Service)|External STAP":

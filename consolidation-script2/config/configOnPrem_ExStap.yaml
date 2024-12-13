@@ -1,0 +1,17 @@
+output_csv_path: consolidation-script2/data/output/csv/OnPrem_ExStap.csv
+output_json_path: src/data/consolidated_jsons/OnPrem_ExStap.json
+input_csv_path: consolidation-script2/data/input/OnPrem_ExStap.csv
+environment_name: On-premise or IaaS
+method_name: External STAP
+compat_header:
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
+feature_header:
+  - VA_supported
+  - Classification_supported
+  - Notes
+  - Download_URL
+  - Readme_URL
+partition_header: 2
