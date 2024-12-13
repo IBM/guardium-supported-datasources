@@ -137,6 +137,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -150,6 +153,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -239,6 +245,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -263,6 +272,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 },
@@ -287,6 +299,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -313,6 +328,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -342,6 +360,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -355,6 +376,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -381,6 +405,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -394,6 +421,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 },
@@ -402,6 +432,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -415,6 +448,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -441,6 +477,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -499,6 +538,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -528,6 +570,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -560,6 +605,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -599,6 +647,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -628,6 +679,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 },
@@ -660,6 +714,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -692,6 +749,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -708,6 +768,9 @@
                         },
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -734,6 +797,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -747,6 +813,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -773,6 +842,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -786,6 +858,9 @@
                     "methods_supported": [
                         {
                             "method_key": "STAP"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -902,6 +977,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -915,6 +993,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -1014,6 +1095,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -1043,6 +1127,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -1069,6 +1156,9 @@
                     "methods_supported": [
                         {
                             "method_key": "Universal Connector"
+                        },
+                        {
+                            "method_key": "External STAP"
                         }
                     ]
                 }
@@ -1199,7 +1289,8 @@
                     "methods_supported": [
                         {
                             "method_key": "External STAP"
-                        }
+                        },
+                        
                     ]
                 }
             ]
