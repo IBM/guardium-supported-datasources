@@ -124,7 +124,7 @@
           "content": [
             "External S-TAP is a component of Guardium that can intercept traffic for cloud and on-premises database services without installing an inspection agent on the database server. The External S-TAP observes all session traffic to and from the database and makes a copy of that session traffic - sending it to a Guardium collector for processing and analytics."
           ],
-          "title": "[View more information]",
+          "title": "",
           "link": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
         },
         {
