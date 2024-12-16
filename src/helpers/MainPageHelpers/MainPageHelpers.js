@@ -70,7 +70,7 @@ export function handleProductFilter(selected, searchedConnectionData) {
           (env) => env.methods_supported.some(
             (method) => method.gdp_types.some(
               (gdp_type) => gdp_type.gdp_type_key.some(
-                (abhi) => abhi.includes("GDSC")
+                (gdp_type_val) => gdp_type_val.includes("GDSC")
               )
             )
           )
