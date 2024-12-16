@@ -1,20 +1,20 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 12.1.0,Oracle ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Oracle RAC,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Oracle Exadata,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,PostgreSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,EDB Postgres,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,SAP HANA,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Teradata,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Vertica,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Sybase ASE,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Sybase IQ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Redis,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Netezza,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,MySQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,MemSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,Greenplum,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,DB2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,CockroachDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1.0,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle RAC,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle Exadata,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,PostgreSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,EDB Postgres,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,SAP HANA,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Teradata,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Vertica,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Sybase ASE,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Sybase IQ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Redis,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Netezza,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,MySQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,MemSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Greenplum,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,DB2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,CockroachDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP

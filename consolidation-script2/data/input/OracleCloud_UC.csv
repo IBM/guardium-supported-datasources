@@ -1,8 +1,8 @@
 ﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 11.5.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 11.5.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 12.0.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 12.0.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 12.1.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 12.1.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
-GDP,GDP 12.1.0,Oracle Autonomous Database,23ai,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 11.5,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 11.5,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.0,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.0,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.1,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.1,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.1,Oracle Autonomous Database,23ai,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
