@@ -17,7 +17,8 @@ from Helpers.csv_helpers import (
     read_csv_for_uniq_val,
     read_csv_get_unique_vals_in_column,
     write_csv_to_file,
-    transform_and_append_as_csv,transform_and_append_as_json)
+    transform_and_append_as_csv,transform_and_append_as_json,
+    read_csv_file)
 
 
 
@@ -270,7 +271,7 @@ def cartesian_decomposition(version_data:List[List[str]],
 
     return [final_combo.key for final_combo in final_combos]
 
-def append_to_summary_json(input_csv_path, environment_name,
+def append_to_summary_json(input_csv_path, output_csv_path, environment_name,
                                 method_name, partition_header_number, current_connections_data):
     """Construct a summary JSON document
 
@@ -285,5 +286,10 @@ def append_to_summary_json(input_csv_path, environment_name,
     uniq_vals = read_csv_get_unique_vals_in_column(input_csv_path,partition_header_number)
 
     for uniq_val in uniq_vals:
-        add_supported_database(current_connections_data, uniq_val, environment_name, method_name)
+        # For this uniq_val get the gdp_types from CSV file
+        # the partition_header_number is database and index 0 is gdp_type in CSV.
+        data = read_csv_file(output_csv_path)
+        gdp_types = [row[0] for row in data if uniq_val in row[partition_header_number]]
+        gdp_types = list(set(gdp_types))
+        add_supported_database(current_connections_data, uniq_val, environment_name, method_name, gdp_types)
                                 

@@ -455,7 +455,7 @@ def pretty_print_row(row):
     print("\n")
 
 
-def add_supported_database(json_data, database_name, environment_name, method_name):
+def add_supported_database(json_data, database_name, environment_name, method_name, gdp_type):
     """
     Adds a supported method to a database environment in the provided JSON data structure.
 
@@ -529,6 +529,14 @@ def add_supported_database(json_data, database_name, environment_name, method_na
         env = {"environment_name": environment_name, "methods_supported": []}
         db["environments_supported"].append(env)
 
-    # Add the method if it doesn't already exist
-    if not any(method['method_key'] == method_name for method in env['methods_supported']):
-        env["methods_supported"].append({"method_key": method_name})
+    # Find the mehtod if it exist, or create it
+    method = next((method for method in env["methods_supported"]
+                if method["method_key"] == method_name), None)
+    if not method:
+        method = {"method_key": method_name, "gdp_types": []}
+        env["methods_supported"].append(method)
+
+    # Add the gdp_type if it doesn't already exist
+    if not any(gdp_type['gdp_type_key'] == gdp_type for gdp_type in method['gdp_types']):
+         method["gdp_types"].append({"gdp_type_key": gdp_type})
+    

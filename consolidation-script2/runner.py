@@ -80,7 +80,6 @@ def main():
         partition_header = config["partition_header"]
         environment_name = config["environment_name"]
         method_name = config["method_name"]
-
         # Define the full key
         full_key = version_headers + feature_headers
 
@@ -93,7 +92,7 @@ def main():
         consolidate(output_json_path, output_csv_path, input_csv_path,
                     version_headers, full_key, feature_headers,partition_header,
                     logger)
-        append_to_summary_json(input_csv_path, environment_name,
+        append_to_summary_json(input_csv_path, output_csv_path, environment_name,
                                     method_name, partition_header,summary_data)
 
         logger.info("Consolidation completed successfully for %s",input_csv_path)

@@ -81,7 +81,6 @@ def read_csv_get_unique_vals_in_column(file_path:str,header_number:int) -> List[
         logging.error("Error reading CSV file %s: %s", file_path, e)
         raise
 
-
 def write_csv_to_file(file_path:str,data:List[List[str]]):
     """ Writes a 2D List into CSV file given path """
     # sort data first
@@ -202,21 +201,16 @@ def get_unique_guardium_versions(directory_path, output_file="src/data/consolida
                 # Case 0: Skip empty rows
                 if not row:
                     continue
-                
-                # Case 1: First column is a guardium type label, e.g., 'GDP' or 'GI'
-                if re.match(r"^'?GI|GDP'?$", row[0]):
-                    # Extract versions from the next column
-                    versions_string = row[1]
-                else:
-                    # Case 2: First column directly contains version information
-                    versions_string = row[0]
-                
+            
+                #All files have second column as the version column now.
+                versions_string = row[1]
+
                 # Extract versions using regex to handle tuple-like strings
                 versions = re.findall(r"\('([^']+)',? *([^']+)?\)", versions_string)
                 
                 for version_tuple in versions:
                     for version in version_tuple:
-                        # Clean each version by keeping only digits and decimals
+                        # Clean each version by keeping only digits and decimals               
                         cleaned_version = re.sub(r'[^\d.]', '', version)
                         if cleaned_version:
                             # Remove white space
