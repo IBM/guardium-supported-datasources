@@ -1,15 +1,15 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes
 GDP,GDP 11.4,Elasticsearch,All versions,,,
-GDP,GDP 11.4,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,DB2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,DB2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,DB2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM DB2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM DB2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM DB2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM DB2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM DB2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.4,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.4,MongoDB Atlas,4.2,,,
 GDP,GDP 11.4,MongoDB Atlas,4.4,,,
 GDP,GDP 11.4,MongoDB Atlas,5,,,
@@ -17,16 +17,16 @@ GDP,GDP 11.4,MongoDB Atlas,6,,,
 GDP,GDP 11.4,IBM Cloud Databases for MongoDB,All Versions,,,
 GDP,GDP 11.4,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 11.5,Elasticsearch,All versions,,,
-GDP,GDP 11.5,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,DB2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,DB2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,DB2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,IBM DB2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,IBM DB2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,IBM DB2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,IBM DB2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,IBM DB2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 11.5,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.5,MongoDB Atlas,4.2,,,
 GDP,GDP 11.5,MongoDB Atlas,4.4,,,
 GDP,GDP 11.5,MongoDB Atlas,5,,,
@@ -34,16 +34,16 @@ GDP,GDP 11.5,MongoDB Atlas,6,,,
 GDP,GDP 11.5,IBM Cloud Databases for MongoDB,All Versions,,,
 GDP,GDP 11.5,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 12.0,Elasticsearch,All versions,,,
-GDP,GDP 12.0,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,DB2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,DB2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,DB2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,IBM DB2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,IBM DB2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,IBM DB2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,IBM DB2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.0,IBM DB2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.0,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 12.0,MongoDB Atlas,4.2,,,
 GDP,GDP 12.0,MongoDB Atlas,4.4,,,
 GDP,GDP 12.0,MongoDB Atlas,5,,,
@@ -51,16 +51,16 @@ GDP,GDP 12.0,MongoDB Atlas,6,,,
 GDP,GDP 12.0,IBM Cloud Databases for MongoDB,All Versions,,,
 GDP,GDP 12.0,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 12.1,Elasticsearch,All versions,,,
-GDP,GDP 12.1,DB2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,DB2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,DB2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,DB2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,DB2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,IBM DB2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,IBM DB2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,IBM DB2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,IBM DB2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 12.1,IBM DB2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2,9.7,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2,10.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2,10.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2,11.1,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2,11.5,Yes,Yes,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
+GDP,GDP 12.1,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 12.1,MongoDB Atlas,4.2,,,
 GDP,GDP 12.1,MongoDB Atlas,4.4,,,
 GDP,GDP 12.1,MongoDB Atlas,5,,,
