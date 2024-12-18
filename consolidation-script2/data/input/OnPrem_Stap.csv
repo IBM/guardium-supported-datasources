@@ -287,8 +287,8 @@ GDP,11.4,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.1,Double proxy setting,Double
 GDP,11.4,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.4,Red Hat,Red Hat 8,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.4,Red Hat,Red Hat 9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,11.4,zOS,zOS 2.3,Datasets for zOS,Datasets for zOS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
-GDP,11.4,zOS,zOS 2.4,Datasets for zOS,Datasets for zOS 2.4,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,11.4,z/OS,z/OS 2.3,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,11.4,z/OS,z/OS 2.4,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
 GDP,11.4,AIX,AIX 7.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.4,CentOS,CentOS 7x,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Debian,Debian 11,IBM Db2,IBM Db2 10.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -810,16 +810,16 @@ GDP,11.4,Red Hat,Red Hat 7.2,Hortonworks,Hortonworks 3.1,Hortonworks and Apache 
 GDP,11.4,Red Hat,Red Hat 7.3,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 7.4,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 7.5,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,11.4,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,11.4,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.4,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.4,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.4,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.4,zOS,zOS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.4,zOS,zOS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.4,zOS,zOS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.4,zOS,zOS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.4,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,11.4,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,11.4,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.4,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.4,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.4,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.4,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.4,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.4,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.4,z/OS,z/OS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
 GDP,11.4,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,11.4,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Debian,Debian 11,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
@@ -2813,8 +2813,8 @@ GDP,11.5,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.1,Double proxy setting,Double
 GDP,11.5,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 8,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,11.5,zOS,zOS 2.3,Datasets for zOS,Datasets for zOS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
-GDP,11.5,zOS,zOS 2.4,Datasets for zOS,Datasets for zOS 2.4,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,11.5,z/OS,z/OS 2.3,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,11.5,z/OS,z/OS 2.4,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
 GDP,11.5,AIX,AIX 7.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.5,AIX,AIX 7.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.5,CentOS,CentOS 7x,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
@@ -3334,16 +3334,16 @@ GDP,11.5,Red Hat,Red Hat 7.2,Hortonworks,Hortonworks 3.1,Hortonworks and Apache 
 GDP,11.5,Red Hat,Red Hat 7.3,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 7.4,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 7.5,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,11.5,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,11.5,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.5,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.5,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.5,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,11.5,zOS,zOS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.5,zOS,zOS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.5,zOS,zOS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
-GDP,11.5,zOS,zOS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.5,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,11.5,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,11.5,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.5,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.5,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.5,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,11.5,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.5,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.5,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,11.5,z/OS,z/OS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
 GDP,11.5,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,11.5,AIX,AIX 7.3,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,11.5,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only.
@@ -5316,8 +5316,8 @@ GDP,12,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.1,Double proxy setting,Double p
 GDP,12,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12,Red Hat,Red Hat 8,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12,Red Hat,Red Hat 9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,12,zOS,zOS 2.3,Datasets for zOS,Datasets for zOS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
-GDP,12,zOS,zOS 2.4,Datasets for zOS,Datasets for zOS 2.4,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,12,z/OS,z/OS 2.3,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,12,z/OS,z/OS 2.4,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
 GDP,12,AIX,AIX 7.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12,AIX,AIX 7.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12,CentOS,CentOS 7x,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
@@ -5818,16 +5818,16 @@ GDP,12,Red Hat,Red Hat 7.2,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ra
 GDP,12,Red Hat,Red Hat 7.3,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12,Red Hat,Red Hat 7.4,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12,Red Hat,Red Hat 7.5,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,12,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,12,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12,zOS,zOS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12,zOS,zOS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12,zOS,zOS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12,zOS,zOS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,12,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,12,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12,z/OS,z/OS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
 GDP,12,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,12,AIX,AIX 7.3,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,12,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only.
@@ -7850,8 +7850,8 @@ GDP,12.1,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.1,Double proxy setting,Double
 GDP,12.1,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.1,Red Hat,Red Hat 8,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.1,Red Hat,Red Hat 9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,12.1,zOS,zOS 2.3,Datasets for zOS,Datasets for zOS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
-GDP,12.1,zOS,zOS 2.4,Datasets for zOS,Datasets for zOS 2.4,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,12.1,z/OS,z/OS 2.3,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
+GDP,12.1,z/OS,z/OS 2.4,Datasets for z/OS,Datasets for z/OS 2.3,NA,Yes,NA,Yes,,No,No,No,,,,,
 GDP,12.1,AIX,AIX 7.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.1,AIX,AIX 7.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.1,CentOS,CentOS 7x,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
@@ -8362,16 +8362,16 @@ GDP,12.1,Red Hat,Red Hat 7.2,Hortonworks,Hortonworks 3.1,Hortonworks and Apache 
 GDP,12.1,Red Hat,Red Hat 7.3,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 7.4,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 7.5,Hortonworks,Hortonworks 3.1,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,,Hortonworks and Apache Ranger,Hortonworks and Apache Ranger,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,12.1,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
-GDP,12.1,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12.1,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12.1,zOS,zOS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12.1,zOS,zOS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
-GDP,12.1,zOS,zOS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12.1,zOS,zOS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12.1,zOS,zOS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
-GDP,12.1,zOS,zOS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported.,,,,,
+GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,NA,Yes,,Yes,No,ID propagation is supported,,,,,
+GDP,12.1,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12.1,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12.1,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
+GDP,12.1,z/OS,z/OS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,NA,Yes,,Yes,,NA,,,,,
 GDP,12.1,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,12.1,AIX,AIX 7.3,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,12.1,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only.
