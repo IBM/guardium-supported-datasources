@@ -19156,3 +19156,19 @@ GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,N
 GDP,12.1,Ubuntu,Ubuntu 20.04,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Ubuntu,Ubuntu 22.04,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,OCI,Supported OS version deployed on OCI,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,Oracle installed on supported OS version on OCI is supported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
+GDP,12,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12,Red Hat,Red Hat 7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.4,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.5,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.6,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Suse,Suse 15  64bit,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12,Ubuntu,Ubuntu 22.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
