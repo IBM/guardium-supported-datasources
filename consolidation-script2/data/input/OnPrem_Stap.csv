@@ -12301,3 +12301,15 @@ GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KT
 GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 22.04,EDB Postgres,EDB 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 22.04,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86 
+GDP,11.5,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86
+GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
