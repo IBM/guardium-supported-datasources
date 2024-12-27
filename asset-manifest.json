@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/guardium-supported-datasources/static/css/main.1d46a547.css",
-    "main.js": "/guardium-supported-datasources/static/js/main.981563d4.js",
+    "main.js": "/guardium-supported-datasources/static/js/main.0c37e2c3.js",
     "index.html": "/guardium-supported-datasources/index.html",
     "main.1d46a547.css.map": "/guardium-supported-datasources/static/css/main.1d46a547.css.map",
-    "main.981563d4.js.map": "/guardium-supported-datasources/static/js/main.981563d4.js.map"
+    "main.0c37e2c3.js.map": "/guardium-supported-datasources/static/js/main.0c37e2c3.js.map"
   },
   "entrypoints": [
     "static/css/main.1d46a547.css",
-    "static/js/main.981563d4.js"
+    "static/js/main.0c37e2c3.js"
   ]
 }
