@@ -12,58 +12,58 @@ GDP,11.4,Red Hat,Red Hat 7.8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.4,Red Hat,Red Hat 7.9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.4,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.4,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,11.4,CentOS,CentOS 7x,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.1,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.2,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.3,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.4,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.5,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.6,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 7.9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.4,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,11.4,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.4,Red Hat,Red Hat 7.1,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -202,39 +202,39 @@ GDP,11.4,Red Hat,Red Hat 7.8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP
 GDP,11.4,Red Hat,Red Hat 7.9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,11.4,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,11.4,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.4,CentOS,CentOS 7x,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.1,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.2,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.3,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.4,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.5,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.6,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,CentOS,CentOS 7x,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.1,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.2,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.3,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,CentOS,CentOS 7x,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.1,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.2,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.3,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,CentOS,CentOS 7x,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.1,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.2,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.3,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,CentOS,CentOS 7x,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.1,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.2,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7.3,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.1,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.2,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.3,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.4,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.5,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.6,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.1,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.2,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.3,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.1,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.2,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.3,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.1,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.2,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.3,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.1,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.2,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Red Hat,Red Hat 7.3,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,CentOS,CentOS 7x,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.4,Red Hat,Red Hat 7,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.4,Red Hat,Red Hat 7.1,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
@@ -2538,58 +2538,58 @@ GDP,11.5,Red Hat,Red Hat 7.8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.5,Red Hat,Red Hat 7.9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,11.5,CentOS,CentOS 7x,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.1,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.2,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.3,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.4,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.5,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.6,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 7.9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.5,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,11.5,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.5,Red Hat,Red Hat 7.1,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -2728,39 +2728,39 @@ GDP,11.5,Red Hat,Red Hat 7.8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP
 GDP,11.5,Red Hat,Red Hat 7.9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,11.5,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,11.5,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.5,CentOS,CentOS 7x,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.1,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.2,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.3,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.4,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.5,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.6,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,CentOS,CentOS 7x,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.1,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.2,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.3,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,CentOS,CentOS 7x,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.1,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.2,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.3,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,CentOS,CentOS 7x,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.1,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.2,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.3,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,CentOS,CentOS 7x,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.1,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.2,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7.3,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.1,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.2,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.3,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.4,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.5,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.6,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.1,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.2,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.3,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.1,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.2,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.3,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.1,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.2,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.3,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.1,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.2,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7.3,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,CentOS,CentOS 7x,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7.1,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
@@ -5001,58 +5001,58 @@ GDP,12,Red Hat,Red Hat 7.8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Li
 GDP,12,Red Hat,Red Hat 7.9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,12,CentOS,CentOS 7x,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12,Red Hat,Red Hat 7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,CentOS,CentOS 7x,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12,Red Hat,Red Hat 7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,CentOS,CentOS 7x,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12,Red Hat,Red Hat 7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,CentOS,CentOS 7x,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12,Red Hat,Red Hat 7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.1,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.2,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.3,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.4,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.5,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.6,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 7.9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12,Red Hat,Red Hat 9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,12,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12,Red Hat,Red Hat 7.1,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -5203,39 +5203,39 @@ GDP,12,Red Hat,Red Hat 7.8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, 
 GDP,12,Red Hat,Red Hat 7.9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,12,Red Hat,Red Hat 8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,12,Red Hat,Red Hat 9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12,CentOS,CentOS 7x,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12,Red Hat,Red Hat 7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.1,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.2,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.3,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.4,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.5,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.6,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,CentOS,CentOS 7x,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12,Red Hat,Red Hat 7,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.1,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.2,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.3,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,CentOS,CentOS 7x,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12,Red Hat,Red Hat 7,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.1,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.2,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.3,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,CentOS,CentOS 7x,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12,Red Hat,Red Hat 7,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.1,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.2,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.3,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,CentOS,CentOS 7x,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12,Red Hat,Red Hat 7,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.1,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.2,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12,Red Hat,Red Hat 7.3,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.4,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.5,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.6,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,CentOS,CentOS 7x,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12,Red Hat,Red Hat 7,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,CentOS,CentOS 7x,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12,Red Hat,Red Hat 7,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,CentOS,CentOS 7x,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12,Red Hat,Red Hat 7,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,CentOS,CentOS 7x,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12,Red Hat,Red Hat 7,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.1,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.2,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12,Red Hat,Red Hat 7.3,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12,CentOS,CentOS 7x,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12,Red Hat,Red Hat 7,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12,Red Hat,Red Hat 7.1,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
@@ -7490,71 +7490,71 @@ GDP,12.1,Red Hat,Red Hat 7.8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7.9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,12.1,CentOS,CentOS 7x,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.1,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.2,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.3,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.4,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.5,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.6,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.7,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.1,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.2,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.3,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.4,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.5,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.6,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.7,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.1,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.2,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.3,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.4,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.5,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.6,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.7,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.8,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 7.9,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.1,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.2,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.3,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.4,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.5,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.6,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.7,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.8,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 7.9,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.1,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.1,Red Hat,Red Hat 7.1,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -7717,44 +7717,44 @@ GDP,12.1,Red Hat,Red Hat 7.8,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7.9,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
 GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
 GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.4,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.5,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.6,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.7,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 8,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 9,Couch,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,CentOS,CentOS 7x,Couch,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Couch,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.1,Couch,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.2,Couch,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7.3,Couch,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.4,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.5,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.6,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 9,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 2.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 3.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,CouchDB,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,CouchDB,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,CouchDB,Couch 3.3.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,CentOS,CentOS 7x,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.1,Red Hat,Red Hat 7,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.1,Red Hat,Red Hat 7.1,Couchbase,Couchbase 6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
@@ -9408,24 +9408,24 @@ GDP,12.1,Solaris,Solaris 11.3,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,
 GDP,12.1,Solaris,Solaris 11.4,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,With V11.0 Stap. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic Oracle Express XE is not supported
 GDP,12.1,Suse,Suse 12  64bit,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,Suse,Suse 15  64bit,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
-GDP,12.1,CentOS,CentOS 7x,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,MySQL Community Server is supported
-GDP,12.1,Debian,Debian 11,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Debian,Debian 12.0,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.1,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.2,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.3,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.4,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.5,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.6,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.7,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.8,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.9,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 8,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 9,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Suse,Suse 12  64bit,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Suse,Suse 15  64bit,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 16.04,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,CentOS,CentOS 7x,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,MySQL Community Server is supported
+GDP,12.1,Debian,Debian 11,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Debian,Debian 12.0,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.1,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.2,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.3,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.4,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.5,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.6,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.7,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.8,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.9,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 8,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 9,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Suse,Suse 12  64bit,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Suse,Suse 15  64bit,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 16.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,12.1,Debian,Debian 11,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Debian,Debian 12.0,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
@@ -11509,11 +11509,11 @@ GDP,12.1,Red Hat,Red Hat 8,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,
 GDP,12.1,Red Hat,Red Hat 9,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Suse,Suse 12  64bit,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 12 PPC64LE Little Endian system only
 GDP,12.1,Suse,Suse 15  64bit,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,NA,SLES 12 PPC64LE Little Endian system only
-GDP,11.4,Windows Server,Windows Server 2016,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2019,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2022,Couch,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2022,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2022,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2016,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
@@ -11673,13 +11673,13 @@ GDP,11.4,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 15.7,STAP,STAP
 GDP,11.4,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,11.4,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,11.4,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,11.5,Windows Server,Windows Server 2016,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2019,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,Couch,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2016,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2019,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2016,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2016,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
@@ -11841,15 +11841,15 @@ GDP,11.5,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 15.7,STAP,STAP
 GDP,11.5,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,11.5,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,11.5,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12,Windows Server,Windows Server 2016,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2019,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2022,Couch,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2016,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2019,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2022,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2016,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2019,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12,Windows Server,Windows Server 2022,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2016,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2016,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2019,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2016,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2019,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
@@ -12018,16 +12018,16 @@ GDP,12,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,
 GDP,12,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.1,Windows Server,Windows Server 2016,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,Couch,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,Couch,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,Couch,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,Couch,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,Couch,Couch 3.3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3.3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
@@ -12251,8 +12251,8 @@ GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 6.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,N
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 6.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 20.04,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 22.04,PerconaMySQL,Percona MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 20.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 22.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,OCI,Supported OS version deployed on OCI,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,Oracle installed on supported OS version on OCI is supported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
 GDP,12,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
