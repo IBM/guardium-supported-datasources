@@ -9408,24 +9408,24 @@ GDP,12.1,Solaris,Solaris 11.3,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,
 GDP,12.1,Solaris,Solaris 11.4,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,With V11.0 Stap. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic Oracle Express XE is not supported
 GDP,12.1,Suse,Suse 12  64bit,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,Suse,Suse 15  64bit,Oracle RAC,Oracle RAC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,,Yes,NA,SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
-GDP,12.1,CentOS,CentOS 7x,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,MySQL Community Server is supported
-GDP,12.1,Debian,Debian 11,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Debian,Debian 12.0,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.1,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.2,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.3,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.4,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.5,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.6,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.7,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.8,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7.9,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 8,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 9,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Suse,Suse 12  64bit,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Suse,Suse 15  64bit,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 16.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,CentOS,CentOS 7x,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,MySQL Community Server is supported
+GDP,12.1,Debian,Debian 11,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Debian,Debian 12.0,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.1,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.2,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.3,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.4,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.5,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.6,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.7,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.8,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7.9,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 8,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 9,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Suse,Suse 12  64bit,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Suse,Suse 15  64bit,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 16.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,12.1,Debian,Debian 11,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Debian,Debian 12.0,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
@@ -12251,8 +12251,8 @@ GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 6.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,N
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 6.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 20.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 22.04,Percona Server for MySQL,8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 20.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 22.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,OCI,Supported OS version deployed on OCI,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,Oracle installed on supported OS version on OCI is supported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
 GDP,12,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
@@ -12311,5 +12311,84 @@ GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,
 GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,11.5,CentOS,CentOS 7x,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.1,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.2,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.3,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.4,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.5,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.6,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,11.5,Red Hat,Red Hat 9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,CentOS,CentOS 7x,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.1,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.2,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.3,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.4,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.5,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.6,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 7.9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Red Hat,Red Hat 9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
+GDP,12,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,MySQL Community Server is supported
+GDP,12,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,12,Debian,Debian 12,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,12,Red Hat,Red Hat 7,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.1,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.3,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.4,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.5,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.6,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.7,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.8,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 7.9,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 8,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Red Hat,Red Hat 9,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,12,Suse,Suse 12  64bit,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only
+GDP,12,Suse,Suse 15  64bit,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only
+GDP,12,Ubuntu,Ubuntu 16.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,12,Ubuntu,Ubuntu 20.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,12,Ubuntu,Ubuntu 22.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,12,Windows Server,Windows Server 2016,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
+GDP,12,Windows Server,Windows Server 2019,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
+GDP,12,Windows Server,Windows Server 2022,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,MySQL Community Server is supported
+GDP,11.5,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Debian,Debian 12,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Red Hat,Red Hat 7,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.1,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.3,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.4,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.5,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.6,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.7,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.8,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 7.9,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 8,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Red Hat,Red Hat 9,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE MySQL Community Server is supported
+GDP,11.5,Suse,Suse 12  64bit,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only
+GDP,11.5,Suse,Suse 15  64bit,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only
+GDP,11.5,Ubuntu,Ubuntu 16.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Ubuntu,Ubuntu 20.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Windows Server,Windows Server 2016,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,Windows Server,Windows Server 2019,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,Windows Server,Windows Server 2022,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
