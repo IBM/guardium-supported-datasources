@@ -1,18 +1,20 @@
 import { ModalTable } from "./ModalTable/ModalTable";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import OSDropDown from "./OSDropdown";
-import VersionSlider from "./VersionSlider";
+// import VersionSlider from "./VersionSlider";
+import { generateOnesList } from "../../../helpers/helpers";
 import {
-  generateOnesList,
-} from "../../../helpers/helpers";
-import { DEFAULT_GV_RANGE, DEFAULT_OS_DROPDOWN_VALUE, TableTypePropType } from "../../../helpers/consts";
+  // DEFAULT_GV_RANGE,
+  DEFAULT_OS_DROPDOWN_VALUE,
+  TableTypePropType,
+  DEFAULT_GDP_VERSIONS,
+} from "../../../helpers/consts";
 import PropTypes from "prop-types";
-
+import VersionCheckbox from "./VersionCheckbox";
 
 // Compatibility Matrix/Table component
 export default function ModalMainPanel({ jsonDataForDB, tableType }) {
-  
   // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(
     generateOnesList(tableType.headers.length)
@@ -20,10 +22,25 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   const [sortPriority, setSortPriority] = useState(0);
 
   // For handling logic of the version slider
-  const [GVSliderValue, setGVSliderValue] = React.useState(DEFAULT_GV_RANGE);
+  // const [GVSliderValue, setGVSliderValue] = React.useState(DEFAULT_GV_RANGE);
+
+  const [GDPVersions, setGDPVersions] = React.useState(DEFAULT_GDP_VERSIONS);
 
   // For handling logic of the OS dropdown
   const [selectedOS, setSelectedOS] = useState(DEFAULT_OS_DROPDOWN_VALUE);
+
+  function filterSelectedGDPVersion(value, checked) {
+    console.log("filterSelectedGDPVersion:", value, checked);
+    setGDPVersions((prev) =>
+      checked ? [...prev, value] : prev.filter((item) => item !== value)
+    );
+
+    return;
+  }
+
+  useEffect(() => {
+    console.log("Updated GDPVersions:", GDPVersions);
+  }, [GDPVersions]);
 
   // Change sorting of data when clicking on a header
   function changeSortKeyOnClick(ind) {
@@ -47,12 +64,17 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
       {/* Slider + Filter (Only for Table Type 1) */}
       {tableType.id == 1 ? (
         <div className="tableType1Components">
-          <VersionSlider
+          {/* <VersionSlider
             GVSliderValue={GVSliderValue}
             setGVSliderValue={setGVSliderValue}
-          />
+          /> */}
 
           <br />
+          <VersionCheckbox
+            GDPVersions={GDPVersions}
+            filterSelectedGDPVersion={filterSelectedGDPVersion}
+            setGDPVersions={setGDPVersions}
+          />
 
           <OSDropDown
             selectedOS={selectedOS}
@@ -74,7 +96,8 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
         changeSortKeyOnClick={changeSortKeyOnClick}
         tableType={tableType}
         sortKey={sortKey}
-        GVSliderValue={GVSliderValue}
+        // GVSliderValue={GVSliderValue}
+        GDPVersions={GDPVersions}
         selectedOS={selectedOS}
         sortPriority={sortPriority}
       />
@@ -89,17 +112,17 @@ const JsonDataType1 = PropTypes.shape({
   OSVersion: PropTypes.arrayOf(PropTypes.string),
   DatabaseName: PropTypes.arrayOf(PropTypes.string),
   DatabaseVersion: PropTypes.arrayOf(PropTypes.string), // Optional field
-  'Network traffic': PropTypes.string.isRequired,
-  'Local traffic': PropTypes.string.isRequired,
-  'Encrypted traffic': PropTypes.string.isRequired,
-  'Shared Memory': PropTypes.string.isRequired,
+  "Network traffic": PropTypes.string.isRequired,
+  "Local traffic": PropTypes.string.isRequired,
+  "Encrypted traffic": PropTypes.string.isRequired,
+  "Shared Memory": PropTypes.string.isRequired,
   Kerberos: PropTypes.string.isRequired,
   Blocking: PropTypes.string.isRequired,
   Redaction: PropTypes.string.isRequired,
-  'UID Chain': PropTypes.string.isRequired,
+  "UID Chain": PropTypes.string.isRequired,
   Compression: PropTypes.string.isRequired,
-  'Query Rewrite': PropTypes.string.isRequired,
-  'Instance Discovery': PropTypes.string.isRequired,
+  "Query Rewrite": PropTypes.string.isRequired,
+  "Instance Discovery": PropTypes.string.isRequired,
   Protocol: PropTypes.string.isRequired,
   Notes: PropTypes.string.isRequired,
 
@@ -118,9 +141,8 @@ const JsonDataType2 = PropTypes.shape({
   Readme_URL: PropTypes.string.isRequired,
 });
 
-
 // PropTypes validation
-ModalMainPanel.propTypes = { 
+ModalMainPanel.propTypes = {
   jsonDataForDB: PropTypes.oneOfType([
     PropTypes.arrayOf(JsonDataType1),
     PropTypes.arrayOf(JsonDataType2),

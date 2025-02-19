@@ -56,6 +56,12 @@
   padding: 0px;
 }
 
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between checkboxes and labels */
+}
+
 .VersionSliderDiv {
   display: flex;
   justify-content: space-between;

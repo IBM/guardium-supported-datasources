@@ -133,15 +133,24 @@ export function filterNumbersInRange(item, lowerBound, upperBound) {
   };
 }
 
-export function FiltersForTableType1(GVSliderValue, sortedData, selectedOS) {
-  const [lowerBound, upperBound] = GVSliderValue;
-  // Don't display filtered out Guardium Versions
-  sortedData = sortedData
-    .map((item) => {
-      const filteredItem = filterNumbersInRange(item, lowerBound, upperBound);
-      return filteredItem;
-    })
-    .filter((item) => item !== null); // Remove null entries
+// export function FiltersForTableType1(GVSliderValue, sortedData, selectedOS) {
+export function FiltersForTableType1(GDPVersions, sortedData, selectedOS) {
+  // const [lowerBound, upperBound] = GVSliderValue;
+  // // Don't display filtered out Guardium Versions
+  // sortedData = sortedData
+  //   .map((item) => {
+  //     const filteredItem = filterNumbersInRange(item, lowerBound, upperBound);
+  //     return filteredItem;
+  //   })
+  //   .filter((item) => item !== null); // Remove null entries
+
+  sortedData = sortedData.filter((item) => {
+    console.log(item);
+    console.log(GDPVersions);
+    let matched = GDPVersions?.some((gv) => item.GuardiumVersion.includes(gv));
+
+    return matched;
+  });
 
   if (selectedOS != "All") {
     sortedData = sortedData.filter((row) => {
