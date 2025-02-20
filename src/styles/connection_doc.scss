@@ -13,6 +13,25 @@
   padding-top: 0rem;
 }
 
+.MainPageFilters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 150px; // Adjust width as needed
+  }
+}
+
+.version-checkbox-label {
+  display: "block";
+  margin-bottom: "5px";
+}
+
 .raw-data-link {
   right: 2rem;
   top: 0.5rem;
@@ -47,6 +66,12 @@
 }
 
 #products-dropdown {
+  min-height: 50px;
+  max-height: 50px;
+  min-width: 300px;
+}
+
+#methods-dropdown {
   min-height: 50px;
   max-height: 50px;
   min-width: 300px;

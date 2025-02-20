@@ -2,10 +2,8 @@ import { ModalTable } from "./ModalTable/ModalTable";
 import React, { useState, useEffect } from "react";
 
 import OSDropDown from "./OSDropdown";
-// import VersionSlider from "./VersionSlider";
 import { generateOnesList } from "../../../helpers/helpers";
 import {
-  // DEFAULT_GV_RANGE,
   DEFAULT_OS_DROPDOWN_VALUE,
   TableTypePropType,
   DEFAULT_GDP_VERSIONS,
@@ -21,9 +19,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   );
   const [sortPriority, setSortPriority] = useState(0);
 
-  // For handling logic of the version slider
-  // const [GVSliderValue, setGVSliderValue] = React.useState(DEFAULT_GV_RANGE);
-
+  // filter by version selection
   const [GDPVersions, setGDPVersions] = React.useState(DEFAULT_GDP_VERSIONS);
 
   // For handling logic of the OS dropdown
@@ -64,11 +60,6 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
       {/* Slider + Filter (Only for Table Type 1) */}
       {tableType.id == 1 ? (
         <div className="tableType1Components">
-          {/* <VersionSlider
-            GVSliderValue={GVSliderValue}
-            setGVSliderValue={setGVSliderValue}
-          /> */}
-
           <br />
           <VersionCheckbox
             GDPVersions={GDPVersions}

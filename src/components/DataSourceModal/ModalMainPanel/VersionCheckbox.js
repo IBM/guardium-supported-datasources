@@ -12,10 +12,7 @@ export default function VersionCheckbox({
   setGDPVersions,
 }) {
   const handleChange = (event) => {
-    // console.log(GDPVersions);
     const { value, checked } = event.target;
-    // console.log(value, checked);
-
     filterSelectedGDPVersion(value, checked);
   };
 
@@ -24,14 +21,7 @@ export default function VersionCheckbox({
       <p className="VersionSliderHeader">Guardium Version</p>
 
       {DEFAULT_GDP_VERSIONS.map((ver) => (
-        //   <FormControlLabel
-        //     key={ver}
-        //     control={
-        //       <Checkbox value={ver} checked={GDPVersions.includes(ver)} />
-        //     }
-        //     label={ver}
-        //   />
-        <label key={ver} style={{ display: "block", marginBottom: "5px" }}>
+        <label key={ver} className="version-checkbox-label">
           <input
             type="checkbox"
             value={ver}
