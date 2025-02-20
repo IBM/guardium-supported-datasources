@@ -34,6 +34,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
     return;
   }
 
+  // re-render table after selection changed
   useEffect(() => {
     console.log("Updated GDPVersions:", GDPVersions);
   }, [GDPVersions]);
