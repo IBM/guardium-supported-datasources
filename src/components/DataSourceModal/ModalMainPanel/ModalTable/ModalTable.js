@@ -1,27 +1,27 @@
 import React from "react";
 import ModalTableHeaders from "./ModalTableHeaders";
-import {
-    FiltersForTableType1,
-  } from "../../../../helpers/helpers";
-  import ExpandingTableRow from "./ExpandingTableRow/ExpandingTableRow";
+import { FiltersForTableType1 } from "../../../../helpers/helpers";
+import ExpandingTableRow from "./ExpandingTableRow/ExpandingTableRow";
 
 export function ModalTable({
-    jsonDataForDB,
+  jsonDataForDB,
   changeSortKeyOnClick,
   tableType,
   sortKey,
-  GVSliderValue,
+  // GVSliderValue,
+  GDPVersions,
   selectedOS,
-  sortPriority
+  sortPriority,
 }) {
-    // Applies applicable sortings + filters on full data for that DB (i.e displayData) and returns it
+  // Applies applicable sortings + filters on full data for that DB (i.e displayData) and returns it
   function SortedAndFilteredDisplayData() {
     var sortedData = JSON.parse(JSON.stringify(jsonDataForDB));
 
     // Filter out any out-of-range Guardium Version values
     // And Filter for SelectedOS
     if (tableType.id == 1 && Array.isArray(sortedData)) {
-      sortedData = FiltersForTableType1(GVSliderValue, sortedData, selectedOS);
+      // sortedData = FiltersForTableType1(GVSliderValue, sortedData, selectedOS);
+      sortedData = FiltersForTableType1(GDPVersions, sortedData, selectedOS);
     }
     if (sortedData.length == 0) {
       return [];
@@ -38,29 +38,33 @@ export function ModalTable({
 
     // Ensure that the header that is clicked is sorted last
     if (sortPriority !== 0) {
-        const sortFunction =
-          sortKey[sortPriority] === 1
-            ? tableType.headers[sortPriority].sorta
-            : tableType.headers[sortPriority].sortd
-        
-        sortedData = sortedData.sort(sortFunction);
+      const sortFunction =
+        sortKey[sortPriority] === 1
+          ? tableType.headers[sortPriority].sorta
+          : tableType.headers[sortPriority].sortd;
+
+      sortedData = sortedData.sort(sortFunction);
     }
 
-  
     return sortedData;
   }
 
-  return <div className="mainTableWrapper">
-        <table className="maintable">
-          <ModalTableHeaders changeSortKeyOnClick={changeSortKeyOnClick} tableType={tableType} sortKey={sortKey} />
+  return (
+    <div className="mainTableWrapper">
+      <table className="maintable">
+        <ModalTableHeaders
+          changeSortKeyOnClick={changeSortKeyOnClick}
+          tableType={tableType}
+          sortKey={sortKey}
+        />
 
-          {
-        /* Each row of data (sorted and filtered) mapped to an Expanding Table Row within <table> */
-      }
-          <tbody>
-            {SortedAndFilteredDisplayData().map((row, index) => <ExpandingTableRow key={index} data={row} tableType={tableType} />)}
-          </tbody>
-        </table>
-      </div>;
+        {/* Each row of data (sorted and filtered) mapped to an Expanding Table Row within <table> */}
+        <tbody>
+          {SortedAndFilteredDisplayData().map((row, index) => (
+            <ExpandingTableRow key={index} data={row} tableType={tableType} />
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
-  
