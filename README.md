@@ -111,13 +111,18 @@ After updating the CSV files, running the consolidation script, and verifying yo
    git pull origin main
    ```
 
-5. **Build the app** by running the following command in your terminal:
+5. Run the consolidation script using Python3:
+   ```bash
+   python3 consolidation-script2/runner.py ./consolidation-script2/config
+   ```
+
+6. **Build the app** by running the following command in your terminal:
 
    ```bash
    npm run build
    ```
 
-6. **Deploy the updates** by running the following command in your terminal:
+7. **Deploy the updates** by running the following command in your terminal:
 
    ```bash
    npm run deploy
@@ -125,6 +130,6 @@ After updating the CSV files, running the consolidation script, and verifying yo
 
    This command will push the changes to the `gh-pages` branch of your GitHub repository, updating the live site.
 
-7. **Verify the deployment**:
+8. **Verify the deployment**:
    - Check your GitHub repository to confirm that the `gh-pages` branch has received the updates.
    - Visit your GitHub Pages URL to see the changes in action (This can take upto 30 mins to come into effect).
