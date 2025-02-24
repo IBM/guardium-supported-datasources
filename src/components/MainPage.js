@@ -14,7 +14,7 @@ import DatasourceModal from "./DataSourceModal/DataSourceModal";
 import MainPageCard from "./MainPageComponents/MainPageCard";
 import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
 import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
-import MainPageLinks from "./MainPageComponents/MainPageLinks";
+import MainPageHeader from "./MainPageComponents/MainPageHeader";
 import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
 
 import "./../styles/connection_doc.scss";
@@ -66,7 +66,8 @@ export default function MainPage() {
     <>
       {/* Main Container when Loaded */}
       <div className="MainPageWrapper">
-        <MainPageLinks />
+        <MainPageHeader />
+        
 
         <div className="mainPageTopHolder">
           {/* Search Box */}
