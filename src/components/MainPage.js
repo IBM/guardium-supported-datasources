@@ -14,8 +14,6 @@ import DatasourceModal from "./DataSourceModal/DataSourceModal";
 import MainPageCard from "./MainPageComponents/MainPageCard";
 import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
 import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
-// import MainPageLinks from "./MainPageComponents/MainPageLinks";
-// import MainPageTitle from "./MainPageComponents/MainPageTitle";
 import MainPageHeader from "./MainPageComponents/MainPageHeader";
 import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
 
