@@ -27,6 +27,26 @@
   }
 }
 
+.mainPageTopHolder{
+  margin-top: 10px;
+}
+
+.mainPageDropdownBox{
+  display: flex;
+  flex-direction: column;
+  
+}
+.mainPageDropdownLabel{
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.mainPageDropdownLabel span{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .version-checkbox-label {
   display: "block";
   margin-bottom: "5px";
@@ -59,7 +79,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 12px;
+  padding-bottom: 18px;
 
 }
 .mainPageDivider {
