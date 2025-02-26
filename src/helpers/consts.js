@@ -50,8 +50,7 @@ export const TABLETYPE1 = {
         );
       },
       getReadableString: (lsta) => {
-        // return getRangeStringFromList(lsta);
-        return lsta.join(", ");
+        return lsta?.join(", ");
       },
     },
     {
@@ -244,7 +243,7 @@ export const TableTypePropType = PropTypes.shape({
 
 export const getJSONData = (environment, method) => {
   let key = `${environment}|${method}`;
-  console.log(`This is the key: ${key}`);
+  
   switch (key) {
     case "AWS (Database as a Service)|Amazon Kinesis":
       return [require(`../data/consolidated_jsons/AWS_AmKin.json`), TABLETYPE2];
