@@ -30,7 +30,7 @@ Before making any updates or changes, ensure that you have the most current vers
 2. **Navigate to the directory** where you want to clone the repository.
 3. **Clone the repository** using the following git command:
    ```bash
-   git clone https://github.com/IBM/guardium-supported-datasources.git
+   git clone git@github.com:IBM/guardium-supported-datasources.git
    ```
 4. **Create a new branch from the main branch**:
    ```bash
@@ -111,7 +111,7 @@ After updating the CSV files, running the consolidation script, and verifying yo
    git pull origin main
    ```
 
-5. Run the consolidation script using Python3:
+5. **Run the consolidation script using Python3**:
    ```bash
    python3 consolidation-script2/runner.py ./consolidation-script2/config
    ```
