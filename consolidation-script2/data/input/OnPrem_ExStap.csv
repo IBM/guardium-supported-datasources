@@ -12,7 +12,7 @@ GDP,GDP 12.1,Sybase IQ,All versions,,,,,https://github.com/IBM/Guardium_External
 GDP,GDP 12.1,Redis,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Netezza,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MySQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1,MemSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,SingleStore(formerly MemSQL),All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Greenplum,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,IBM Db2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
