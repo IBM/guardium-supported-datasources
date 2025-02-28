@@ -50,8 +50,7 @@ export const TABLETYPE1 = {
         );
       },
       getReadableString: (lsta) => {
-        // return getRangeStringFromList(lsta);
-        return lsta.join(", ");
+        return lsta?.join(", ");
       },
     },
     {
@@ -244,7 +243,7 @@ export const TableTypePropType = PropTypes.shape({
 
 export const getJSONData = (environment, method) => {
   let key = `${environment}|${method}`;
-  console.log(`This is the key: ${key}`);
+  
   switch (key) {
     case "AWS (Database as a Service)|Amazon Kinesis":
       return [require(`../data/consolidated_jsons/AWS_AmKin.json`), TABLETYPE2];
@@ -328,6 +327,22 @@ export const DEFAULT_GV_RANGE = [
   guardiumVersions[0],
   guardiumVersions[guardiumVersions.length - 1],
 ];
+
+const jsonData =  require(`../data/consolidated_jsons/OnPrem_Stap.json`);
+export const UNIQUE_OS_NAMES = ["All",
+  ...new Set(
+      Object.values(jsonData) // Get all arrays from the JSON object
+          .flat() // Flatten the arrays into a single array of objects
+          .flatMap(item => item.OSName).sort() // Extract OSName arrays and flatten them
+  )
+];
+export const AGENT_OS  = Object.fromEntries(
+  Object.entries(jsonData).map(([key, value]) => [
+      key,
+      value.map(item => item.OSName[0]) // Extract the first OSName from each object
+  ])
+);
+
 
 export const DEFAULT_GDP_VERSIONS = guardiumVersions;
 

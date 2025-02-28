@@ -3,25 +3,35 @@
 // for that datasource
 
 import { Loading } from "@carbon/ibm-security";
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import {
   handleSearchBar,
   transformDatabaseData,
   handleProductFilter,
+  handleMethodFilter,
+
 } from "../helpers/MainPageHelpers/MainPageHelpers";
 import DatasourceModal from "./DataSourceModal/DataSourceModal";
 import MainPageCard from "./MainPageComponents/MainPageCard";
 import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
 import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
 import MainPageHeader from "./MainPageComponents/MainPageHeader";
-import { BLOCK_CLASS, PRODUCTS } from "../helpers/consts";
+import { BLOCK_CLASS, PRODUCTS, UNIQUE_OS_NAMES } from "../helpers/consts";
+import MainPageMethodDropdown from "./MainPageComponents/MainPageMethodDropDown";
+import MainPageOSDropdown from "./MainPageComponents/MainPageOSDropDown";
+
 
 import "./../styles/connection_doc.scss";
 
 // Import 'supported_databases' and 'methods' from the corresponding files
 const { supported_databases } = require(`../data/summary.json`);
 const { methods } = require(`../data/MethodsInfo.json`)
+
+const methodArray = [
+  "All",
+  ...Object.values(methods).map((method) => method.method_name),
+];
 
 // Sort the supported_databases alphabetically by database_name
 supported_databases.sort((a, b) =>
@@ -33,6 +43,7 @@ const fullConnectionData = transformDatabaseData(supported_databases, methods);
 
 // Main Page Component
 export default function MainPage() {
+
   //connectionData - Data loaded from json for current display, fullConnectionData filtered based on product filter
   const [connectionData, setConnectionData] = useState(fullConnectionData);
 
@@ -48,43 +59,71 @@ export default function MainPage() {
   //selectedDataSourceData - DataSourceData selected for open modal
   const [selectedDataSourceData, setSelectedDataSourceData] = useState(null);
 
-  function handleSearchAndFilter(value, selected) {
-    value = value ?? searchValue; // Set to current value if unchanged
-    selected = selected ?? selectedProduct; // Set to current value if unchanged
+  const [selectedMethod, setSelectedMethod] = useState("All");
 
-    let searchedConnectionData = handleSearchBar(value, fullConnectionData);
-    let filteredConnectionData = handleProductFilter(
-      selected,
-      searchedConnectionData,
+  const [selectedOS, setSelectedOS] = useState("All");
+
+
+  const handleSearchAndFilter = useCallback(() => {
+    let searchedConnectionData = handleSearchBar(searchValue, fullConnectionData);
+    let filteredConnectionData = handleProductFilter(selectedProduct, searchedConnectionData);
+    filteredConnectionData = handleMethodFilter(selectedProduct, selectedMethod, selectedOS, filteredConnectionData);
+    
+  
+    setConnectionData(prevData => 
+      JSON.stringify(prevData) !== JSON.stringify(filteredConnectionData) ? filteredConnectionData : prevData
     );
+  
+    return filteredConnectionData;
+  }, [searchValue, selectedProduct, selectedMethod, selectedOS]); 
 
-    // Change Main Page Data based on Filter results
-    setConnectionData(filteredConnectionData);
-  }
+  useEffect(() => {
+    handleSearchAndFilter();
+  }, [handleSearchAndFilter]);
+  
 
   return connectionData ? (
     <>
       {/* Main Container when Loaded */}
       <div className="MainPageWrapper">
         <MainPageHeader />
-        
+        {/* Divider */}
+        <hr className="mainPageDivider" />
 
         <div className="mainPageTopHolder">
           {/* Search Box */}
           <MainPageSearchBar
-            handleSearchAndFilter={handleSearchAndFilter}
+            // handleSearchAndFilter={handleSearchAndFilter}
             searchValue={searchValue}
             setSearchValue={setSearchValue}
           />
 
+          
+        </div>
+        
+        <div className="MainPageFilters">
           {/* Filter DropDown */}
           <MainPageDropdown
             PRODUCTS={PRODUCTS}
-            handleSearchAndFilter={handleSearchAndFilter}
+            // handleSearchAndFilter={handleSearchAndFilter}
             selectedProduct={selectedProduct}
             setSelectedProduct={setSelectedProduct}
           />
-        </div>
+           <MainPageMethodDropdown
+            methods={methodArray}
+            selectedMethod={selectedMethod}
+            setSelectedMethod={setSelectedMethod}
+          />
+          {selectedMethod === "Agent (S-TAP)"? 
+          (<MainPageOSDropdown 
+            OSlist={UNIQUE_OS_NAMES} 
+            selectedOS={selectedOS} 
+            setSelectedOS={setSelectedOS}/>):null}
+            
+        
+          </div>
+
+        
 
         {/* Divider */}
         <hr className="mainPageDivider" />

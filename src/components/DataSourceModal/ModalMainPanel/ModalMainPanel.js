@@ -1,5 +1,5 @@
 import { ModalTable } from "./ModalTable/ModalTable";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import OSDropDown from "./OSDropdown";
 import { generateOnesList } from "../../../helpers/helpers";
@@ -26,7 +26,6 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
   const [selectedOS, setSelectedOS] = useState(DEFAULT_OS_DROPDOWN_VALUE);
 
   function filterSelectedGDPVersion(value, checked) {
-    console.log("filterSelectedGDPVersion:", value, checked);
     setGDPVersions((prev) =>
       checked ? [...prev, value] : prev.filter((item) => item !== value)
     );
@@ -34,10 +33,6 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
     return;
   }
 
-  // re-render table after selection changed
-  useEffect(() => {
-    console.log("Updated GDPVersions:", GDPVersions);
-  }, [GDPVersions]);
 
   // Change sorting of data when clicking on a header
   function changeSortKeyOnClick(ind) {

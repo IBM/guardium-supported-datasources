@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 export default function MainPageSearchBar({
   searchValue,
   setSearchValue,
-  handleSearchAndFilter,
 }) {
   const searchColumnProps = {
     id: "search-columns",
@@ -18,10 +17,7 @@ export default function MainPageSearchBar({
     value: searchValue,
     onChange: (event) => {
       setSearchValue((event.target && event.target.value) || "");
-      handleSearchAndFilter(
-        (event.target && event.target.value) || "",
-        undefined,
-      );
+      
     },
   };
 
@@ -31,5 +27,5 @@ export default function MainPageSearchBar({
 MainPageSearchBar.propTypes = {
   searchValue: PropTypes.string.isRequired,
   setSearchValue: PropTypes.func.isRequired,
-  handleSearchAndFilter: PropTypes.func.isRequired,
+  // handleSearchAndFilter: PropTypes.func.isRequired,
 };
