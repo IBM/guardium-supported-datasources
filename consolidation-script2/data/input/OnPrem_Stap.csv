@@ -11463,7 +11463,6 @@ GDP,12.1,Red Hat,Red Hat 7.8,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy s
 GDP,12.1,Red Hat,Red Hat 7.9,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
 GDP,12.1,Red Hat,Red Hat 8,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
 GDP,12.1,Red Hat,Red Hat 9,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,NA,,,,,,
-GDP,12.1,Red Hat,Ubuntu 20.04,MariaDB,MariaDB 11.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 7,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 7.1,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 7.2,Vertica,Vertica 23.3,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",,,KTAP,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
