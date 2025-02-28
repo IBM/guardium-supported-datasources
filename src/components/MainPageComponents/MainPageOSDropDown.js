@@ -3,28 +3,26 @@ import { Dropdown } from "@carbon/ibm-security";
 import DropDownLabel from "./MainPageDropDownLabel";
 // import PropTypes from "prop-types";
 
-export default function MainPageMethodDropdown({
-  methods,
-  selectedMethod,
-  setSelectedMethod,
+export default function MainPageOSDropdown({
+  OSlist=[],
+  selectedOS="",
+  setSelectedOS=()=>{},
 }) {
   return (
-    <div className="mainPageDropdown">
       <div className="mainPageDropdownBox">
-      <DropDownLabel label="By Method" />
-        <Dropdown
-          ariaLabel="Methods Dropdown"
-          id="methods-dropdown"
-          itemToString={(env) => env}
-          items={methods}
-          label="Select a method"
-          initialSelectedItem={selectedMethod}
+      <DropDownLabel label="By OS" />
+        <Dropdown className="main-page-drop-down"
+          ariaLabel="OS Dropdown"
+          id="os-dropdown"
+          itemToString={(os) => os}
+          items={Array.isArray(OSlist) ? OSlist : []}
+          label="Select an OS"
+          initialSelectedItem={selectedOS}
           onChange={(item) => {
-            setSelectedMethod(item.selectedItem);
+            setSelectedOS(item.selectedItem);
           }}
         />
       </div>
-    </div>
   );
 }
 

@@ -328,6 +328,22 @@ export const DEFAULT_GV_RANGE = [
   guardiumVersions[guardiumVersions.length - 1],
 ];
 
+const jsonData =  require(`../data/consolidated_jsons/OnPrem_Stap.json`);
+export const UNIQUE_OS_NAMES = ["All",
+  ...new Set(
+      Object.values(jsonData) // Get all arrays from the JSON object
+          .flat() // Flatten the arrays into a single array of objects
+          .flatMap(item => item.OSName) // Extract OSName arrays and flatten them
+  )
+];
+export const AGENT_OS  = Object.fromEntries(
+  Object.entries(jsonData).map(([key, value]) => [
+      key,
+      value.map(item => item.OSName[0]) // Extract the first OSName from each object
+  ])
+);
+
+
 export const DEFAULT_GDP_VERSIONS = guardiumVersions;
 
 export const DEFAULT_OS_DROPDOWN_VALUE = "All";
