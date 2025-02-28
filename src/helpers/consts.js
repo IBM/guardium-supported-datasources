@@ -333,7 +333,7 @@ export const UNIQUE_OS_NAMES = ["All",
   ...new Set(
       Object.values(jsonData) // Get all arrays from the JSON object
           .flat() // Flatten the arrays into a single array of objects
-          .flatMap(item => item.OSName) // Extract OSName arrays and flatten them
+          .flatMap(item => item.OSName).sort() // Extract OSName arrays and flatten them
   )
 ];
 export const AGENT_OS  = Object.fromEntries(
