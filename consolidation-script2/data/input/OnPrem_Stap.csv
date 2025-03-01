@@ -12269,6 +12269,22 @@ GDP,12.0,Red Hat,Red Hat 8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC 
 GDP,12.0,Red Hat,Red Hat 9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Suse,Suse 15  64bit,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
 GDP,12.0,Ubuntu,Ubuntu 22.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12.1,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12.1,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.1,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.2,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.3,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.4,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.5,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.6,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7.9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Suse,Suse 15  64bit,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
+GDP,12.1,Ubuntu,Ubuntu 22.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
@@ -12312,6 +12328,18 @@ GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86 
+GDP,12.1,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,CentOS,CentOS 7x,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7.1,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
