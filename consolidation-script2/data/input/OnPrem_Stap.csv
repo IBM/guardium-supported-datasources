@@ -12312,6 +12312,18 @@ GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86 
+GDP,12.1,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,NA,supported on x86
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,supported on x86 and Arm64
 GDP,11.5,CentOS,CentOS 7x,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,11.5,Red Hat,Red Hat 7.1,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,NA,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
