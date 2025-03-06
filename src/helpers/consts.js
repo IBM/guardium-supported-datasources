@@ -305,6 +305,11 @@ export const getJSONData = (environment, method) => {
         require(`../data/consolidated_jsons/OracleCloud_UC.json`),
         TABLETYPE2,
       ];
+    case "SAP Cloud (Database as a Service)|External STAP":
+      return [
+        require(`../data/consolidated_jsons/SAPCloud_ExStap.json`),
+        TABLETYPE2,
+      ];
 
     default:
       console.log(`This is the error key: ${key}`);
