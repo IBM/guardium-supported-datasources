@@ -11530,9 +11530,9 @@ GDP,11.4,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 12.1,STAP,
 GDP,11.4,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2019,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2022,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2019,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.4,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
@@ -11698,9 +11698,9 @@ GDP,11.5,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 12.1,STAP,
 GDP,11.5,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2019,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2022,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2019,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.4,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
@@ -11875,9 +11875,9 @@ GDP,12.0,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 12.1,STAP,
 GDP,12.0,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2019,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2022,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2019,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.4,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
@@ -12053,10 +12053,10 @@ GDP,12.1,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 12.1,STAP,
 GDP,12.1,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 3.2,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.4,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
@@ -12502,10 +12502,10 @@ GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 7.15,STA
 GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.10.4,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.6,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,Do not support encryption Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2017,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016 and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
@@ -12546,3 +12546,7 @@ GDP,12.1,Windows Server,Windows Server 2025,EDB Postgres,EDB 15,STAP,STAP,,NA,,S
 GDP,12.1,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.1,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.1,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
+GDP,12.0,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
+GDP,11.5,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
+GDP,11.4,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
