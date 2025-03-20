@@ -12550,3 +12550,20 @@ GDP,12.1,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,
 GDP,12.0,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
 GDP,11.5,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
 GDP,11.4,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
+GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
