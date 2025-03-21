@@ -18,3 +18,4 @@ GDP,GDP 12.1,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S
 GDP,GDP 12.1,IBM Db2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,CockroachDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,MS SQL Server,All versions,,,,All Platforms (Windows or Redhat or Ubuntu or SUSE Linux Enterprise Server or Docker),https://github.com/IBM/Guardium_External_S-TAP
