@@ -11399,23 +11399,6 @@ GDP,12.1,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,
 GDP,12.0,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
 GDP,11.5,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
 GDP,11.4,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,Supported on SPARC only.
-GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-GDP,11.5,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 13.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 13.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 15.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.4,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
 GDP,11.4,Debian,Debian 11,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.4,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -11518,7 +11501,6 @@ GDP,12.1,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.4,STAP,STAP
 GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
