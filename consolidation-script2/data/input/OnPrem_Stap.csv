@@ -4993,20 +4993,20 @@ GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,N
 GDP,12.1,Ubuntu,Ubuntu 20.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,Ubuntu,Ubuntu 22.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,OCI,Supported OS version deployed on OCI,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,RAC configuration is surpported. Oracle installed on supported OS version on OCI is supported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. SLES 12 PPC64LE Little Endian system only. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
-GDP,12.0,CentOS,CentOS 7x,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.0,Debian,Debian 11,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.0,Red Hat,Red Hat 7,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Red Hat,Red Hat 8,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Red Hat,Red Hat 9,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Suse,Suse 15 64bit,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.0,Ubuntu,Ubuntu 22.04,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.1,CentOS,CentOS 7x,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.1,Debian,Debian 11,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.1,Red Hat,Red Hat 7,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 8,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 9,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Suse,Suse 15 64bit,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
-GDP,12.1,Ubuntu,Ubuntu 22.04,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.0,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.0,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.0,Red Hat,Red Hat 7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Red Hat,Red Hat 8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Red Hat,Red Hat 9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Suse,Suse 15 64bit,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.0,Ubuntu,Ubuntu 22.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.1,CentOS,CentOS 7x,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.1,Debian,Debian 11,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.1,Red Hat,Red Hat 7,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 8,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 9,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Suse,Suse 15 64bit,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.1,Ubuntu,Ubuntu 22.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
@@ -5139,7 +5139,7 @@ GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KT
 GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
 GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Ubuntu,Ubuntu 24.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Ubuntu,Ubuntu 24.04,MilvusDB,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
+GDP,12.1,Ubuntu,Ubuntu 24.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
