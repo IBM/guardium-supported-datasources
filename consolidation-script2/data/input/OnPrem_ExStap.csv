@@ -1,7 +1,5 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 12.1,Oracle ,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1,Oracle RAC,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1,Oracle Exadata,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle ,All versions,,,Oracle RAC and Exadata configurations are supported,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,PostgreSQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,EDB Postgres,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,SAP HANA,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
