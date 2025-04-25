@@ -5263,7 +5263,7 @@ GDP,12.1,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 17.4,STAP,STAP
 GDP,12.1,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.1,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
-GDP,12.0,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,12.1,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
