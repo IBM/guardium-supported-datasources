@@ -5562,3 +5562,59 @@ GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,ST
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.3.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.10.4,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.6,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2017,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016 and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2019,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2022,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server Always On,MS SQL Server 2017,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server Always On,MS SQL Server 2019,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server Cluster,MS SQL Server 2017,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
+GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server Cluster,MS SQL Server 2019,STAP,STAP,STAP,NA,STAP,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
+GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 5.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 8.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 8.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,11.5,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
+GDP,11.5,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 12.1,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 12.2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 18c,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 19c,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 21c,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 10,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 11,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 12.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 12.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 13.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 13.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 14.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 15.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 15.2,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 16.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,EDB Postgres,EDB 12,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,EDB Postgres,EDB 15,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,11.5,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,11.5,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
