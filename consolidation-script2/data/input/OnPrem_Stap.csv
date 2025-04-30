@@ -5617,4 +5617,4 @@ GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,NA,NA,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,NA,,STAP Except Db2 Exit,STAP Except Db2 Exit,NA,NA,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,NA,STAP,STAP,STAP,NA,NA,,STAP,TCP
