@@ -3,22 +3,22 @@ GDP,11.4,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.4,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.4,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.4,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
+GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.4,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,11.4,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.4,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -27,8 +27,6 @@ GDP,11.4,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure 
 GDP,11.4,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.4,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.4,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 GDP,11.4,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 GDP,11.4,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -1007,22 +1005,22 @@ GDP,11.5,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.5,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
+GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.5,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,11.5,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.5,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -1031,8 +1029,6 @@ GDP,11.5,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure 
 GDP,11.5,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.5,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,11.5,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 GDP,11.5,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -2024,22 +2020,22 @@ GDP,12.0,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,12.0,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.0,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.0,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
+GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.0,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,12.0,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.0,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -2048,8 +2044,6 @@ GDP,12.0,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure 
 GDP,12.0,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.0,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.0,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 GDP,12.0,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -3000,26 +2994,26 @@ GDP,12.1,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
+GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
+GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1.3,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.1,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.1,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
@@ -3028,8 +3022,6 @@ GDP,12.1,CentOS,CentOS 7x,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure 
 GDP,12.1,Red Hat,Red Hat 7,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.1,Red Hat,Red Hat 8,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
 GDP,12.1,Red Hat,Red Hat 9,Cassandra  Datastax,Cassandra  Datastax 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra Apache 3.11,Audit plugin,Audit plugin,Audit plugin,,,NA,NA,,,,,,
 GDP,12.1,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
