@@ -20,6 +20,7 @@ import MainPageHeader from "./MainPageComponents/MainPageHeader";
 import { BLOCK_CLASS, PRODUCTS, UNIQUE_OS_NAMES } from "../helpers/consts";
 import MainPageMethodDropdown from "./MainPageComponents/MainPageMethodDropDown";
 import MainPageOSDropdown from "./MainPageComponents/MainPageOSDropDown";
+import {useTooltip} from '../context/TooltipContext';
 
 
 import "./../styles/connection_doc.scss";
@@ -56,6 +57,9 @@ export default function MainPage() {
   //open - Open variable for modal when clicking a DataSourceCard
   const [open, setOpen] = useState(false);
 
+  //show/close tooltip
+  const { setOpenTooltipId } = useTooltip();
+
   //selectedDataSourceData - DataSourceData selected for open modal
   const [selectedDataSourceData, setSelectedDataSourceData] = useState(null);
 
@@ -63,6 +67,10 @@ export default function MainPage() {
 
   const [selectedOS, setSelectedOS] = useState("All");
 
+
+  const handleClickAnywhere = () => {
+    setOpenTooltipId(null); // close any tooltip
+  };
 
   const handleSearchAndFilter = useCallback(() => {
     let searchedConnectionData = handleSearchBar(searchValue, fullConnectionData);
@@ -85,7 +93,7 @@ export default function MainPage() {
   return connectionData ? (
     <>
       {/* Main Container when Loaded */}
-      <div className="MainPageWrapper">
+      <div className="MainPageWrapper" onClick={handleClickAnywhere}>
         <MainPageHeader />
         {/* Divider */}
         <hr className="mainPageDivider" />

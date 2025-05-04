@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { generateAccordianItem } from "../../../helpers/helpers";
+import { useTooltip } from '../../../context/TooltipContext';
 
 // TODO: Split into 3 tooltips
 
@@ -8,8 +9,6 @@ import { generateAccordianItem } from "../../../helpers/helpers";
 // Information is retrieved from summary.json
 export default function PanelCollapsibleInfo({
   selectedMethodData,
-  toolTipOpen,
-  setToolTipOpen,
 }) {
   const filteredSections = selectedMethodData.method_info.filter(
     (section) =>
@@ -18,8 +17,11 @@ export default function PanelCollapsibleInfo({
       section.content[0] != null
   );
 
-  const handleTooltipClick = (index) => {
-    setToolTipOpen(toolTipOpen.map((isOpen, i) => (i === index ? !isOpen : false)));
+  const { openTooltipId, setOpenTooltipId } = useTooltip();
+
+  const handleTooltipClick = (id, e) => {
+    e.stopPropagation();
+    setOpenTooltipId(openTooltipId === id ? null : id); // toggle
   };
 
   return (
@@ -27,10 +29,11 @@ export default function PanelCollapsibleInfo({
       <br />
       <h6> About {selectedMethodData.method_name}</h6>
       <ul>
-        <li onClick={() => handleTooltipClick(0)} className="tooltip" id={`tooltip${toolTipOpen[0]}`}>
+        {/* <li onClick={() => handleTooltipClick(0)} className="tooltip" id={`tooltip${toolTipOpen[0]}`}> */}
+        <li onClick={(e) => handleTooltipClick(0, e)} className="tooltip" id={`tooltip-${openTooltipId === 0 ? 'open' : 'closed'}`}>
           {" "}
           How it works
-          {toolTipOpen[0] ? (
+          {openTooltipId === 0 ? (
             <span className="tooltiptext">
               {generateAccordianItem(
                 selectedMethodData.method_info.filter(
@@ -43,10 +46,11 @@ export default function PanelCollapsibleInfo({
           ) : null}
         </li>
         <br />
-        <li onClick={() => handleTooltipClick(1)} className="tooltip" id={`tooltip${toolTipOpen[1]}`}>
+        {/* <li onClick={() => handleTooltipClick(1)} className="tooltip" id={`tooltip${toolTipOpen[1]}`}> */}
+        <li onClick={(e) => handleTooltipClick(1, e)} className="tooltip" id={`tooltip-${openTooltipId === 1 ? 'open' : 'closed'}`}>
           {" "}
           Benefits and Considerations
-          {toolTipOpen[1] ? (
+          {openTooltipId === 1 ? (
             <span className="tooltiptext">
               <h6>Skill Level:</h6>{" "}
               <div>
@@ -80,10 +84,11 @@ export default function PanelCollapsibleInfo({
           ) : null}
         </li>
         <br />
-        <li onClick={() => handleTooltipClick(2)} className="tooltip" id={`tooltip${toolTipOpen[2]}`}>
+        {/* <li onClick={() => handleTooltipClick(2)} className="tooltip" id={`tooltip${toolTipOpen[2]}`}> */}
+        <li onClick={(e) => handleTooltipClick(2, e)} className="tooltip" id={`tooltip-${openTooltipId === 2 ? 'open' : 'closed'}`}>
           {" "}
           Getting Started
-          {toolTipOpen[2] ? (
+          {openTooltipId === 2 ? (
             <span className="tooltiptext">
               <h6>Information you will need: </h6>
               <div>
@@ -126,6 +131,4 @@ PanelCollapsibleInfo.propTypes = {
       })
     ).isRequired,
   }).isRequired, // Object representing the selected method's data
-  toolTipOpen: PropTypes.arrayOf(PropTypes.bool).isRequired, // Array of booleans to manage tooltip state
-  setToolTipOpen: PropTypes.func.isRequired, // Function to update the tooltip state
 };
