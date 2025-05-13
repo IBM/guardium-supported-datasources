@@ -455,7 +455,7 @@ def pretty_print_row(row):
     print("\n")
 
 
-def add_supported_database(json_data, database_name, environment_name, method_name, gdp_type):
+def add_supported_database(json_data, database_name, environment_name, method_name, gdp_type, dbinfo):
     """
     Adds a supported method to a database environment in the provided JSON data structure.
 
@@ -468,6 +468,8 @@ def add_supported_database(json_data, database_name, environment_name, method_na
         database_name (str): The name of the database to which the method is to be added.
         environment_name (str): The name of the environment (e.g., "AWS", "On-Premise").
         method_name (str): The name of the method to be added to the environment.
+        gdp_type (str): The supported GDP types.
+        dbinfo (str): special info for db. 
 
     Returns:
         None: The function modifies the input `json_data` in place.
@@ -485,6 +487,7 @@ def add_supported_database(json_data, database_name, environment_name, method_na
           "supported_databases": [
             {
               "database_name": "Amazon Aurora MySQL",
+              "special_notes": "Notes specific to datasource"
               "environments_supported": [
                 {
                   "environment_name": "AWS (Database as a Service)",
@@ -514,7 +517,6 @@ def add_supported_database(json_data, database_name, environment_name, method_na
         # No change, as "Universal Connector" already exists
          for "Amazon Aurora MySQL" in "AWS (Database as a Service)"
     """
-
     # Find the database if it exists, or create it
     db = next((db for db in json_data["supported_databases"]
                if db["database_name"] == database_name), None)
@@ -533,7 +535,7 @@ def add_supported_database(json_data, database_name, environment_name, method_na
     method = next((method for method in env["methods_supported"]
                 if method["method_key"] == method_name), None)
     if not method:
-        method = {"method_key": method_name, "gdp_types": []}
+        method = {"method_key": method_name, "special_notes": dbinfo, "gdp_types": []}
         env["methods_supported"].append(method)
 
     # Add the gdp_type if it doesn't already exist
