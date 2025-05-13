@@ -1,5 +1,6 @@
 input_csv_path: consolidation-script2/data/input/OnPrem_Stap.csv
 output_csv_path: consolidation-script2/data/output/csv/OnPrem_Stap.csv
+dbinfo_csv_path: consolidation-script2/data/input/OnPrem_Stap_Dbinfo.csv
 output_json_path: src/data/consolidated_jsons/OnPrem_Stap.json
 environment_name: On-premise or IaaS
 method_name: STAP
