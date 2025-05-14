@@ -75,6 +75,7 @@ def main():
         output_json_path = os.path.join(os.getcwd(), config['output_json_path'])
         output_csv_path = os.path.join(os.getcwd(), config['output_csv_path'])
         input_csv_path = os.path.join(os.getcwd(), config['input_csv_path'])
+        dbinfo_csv_path = os.path.join(os.getcwd(), config['dbinfo_csv_path'])
         version_headers = config['compat_header']
         feature_headers = config['feature_header']
         partition_header = config["partition_header"]
@@ -88,12 +89,13 @@ def main():
 
         logger.critical("Starting Consolidation for %s",input_csv_path)
         # Call the consolidate function
-
+    
         consolidate(output_json_path, output_csv_path, input_csv_path,
                     version_headers, full_key, feature_headers,partition_header,
                     logger)
-        append_to_summary_json(input_csv_path, output_csv_path, environment_name,
-                                    method_name, partition_header,summary_data)
+        append_to_summary_json(input_csv_path, output_csv_path, dbinfo_csv_path,
+                                environment_name, method_name, partition_header,
+                                summary_data)
 
         logger.info("Consolidation completed successfully for %s",input_csv_path)
         logger.info("Consolidate CSV file saved to %s", output_csv_path)
