@@ -271,8 +271,9 @@ def cartesian_decomposition(version_data:List[List[str]],
 
     return [final_combo.key for final_combo in final_combos]
 
-def append_to_summary_json(input_csv_path, output_csv_path, environment_name,
-                                method_name, partition_header_number, current_connections_data):
+def append_to_summary_json(input_csv_path, output_csv_path, dbinfo_csv_path,
+                            environment_name, method_name, partition_header_number,
+                            current_connections_data):
     """Construct a summary JSON document
 
     Args:
@@ -291,5 +292,7 @@ def append_to_summary_json(input_csv_path, output_csv_path, environment_name,
         data = read_csv_file(output_csv_path)
         gdp_types = [row[0] for row in data if uniq_val in row[partition_header_number]]
         gdp_types = list(set(gdp_types))
-        add_supported_database(current_connections_data, uniq_val, environment_name, method_name, gdp_types)
+        dbsinfo = read_csv_file(dbinfo_csv_path)
+        dbinfo = [row[1] for row in dbsinfo if uniq_val in row[0]]
+        add_supported_database(current_connections_data, uniq_val, environment_name, method_name, gdp_types, dbinfo)
                                 
