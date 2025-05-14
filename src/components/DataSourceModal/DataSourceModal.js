@@ -92,6 +92,10 @@ export default function DatasourceModal({
       }
       // Update the JSON data state with the relevant data
       setJsonDataForDB(newJsonDataForDB);
+
+      console.log("newJsonDataForDB:", newJsonDataForDB);
+
+      
       // Update the table type state
       setTableType(tableType);
     } catch (error) {
@@ -107,6 +111,8 @@ export default function DatasourceModal({
     }
   };
 
+
+  console.log("selectedDataSourceData:", selectedDataSourceData);
   return loading ? (
     <Loading />
   ) : (
@@ -156,6 +162,7 @@ export default function DatasourceModal({
             <ModalMainPanel
               tableType={tableType}
               jsonDataForDB={jsonDataForDB}
+              special_notes={selectedMethodData.special_notes}
             />
           ) : (
             errorMessage !== "" && <p>Error: {errorMessage}</p>

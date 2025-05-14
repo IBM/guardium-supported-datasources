@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 import VersionCheckbox from "./VersionCheckbox";
 
 // Compatibility Matrix/Table component
-export default function ModalMainPanel({ jsonDataForDB, tableType }) {
+export default function ModalMainPanel({ jsonDataForDB, tableType, special_notes }) {
   // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(
     generateOnesList(tableType.headers.length)
@@ -24,6 +24,10 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
 
   // For handling logic of the OS dropdown
   const [selectedOS, setSelectedOS] = useState(DEFAULT_OS_DROPDOWN_VALUE);
+
+
+
+  const NotesLine = special_notes.length ? (<><div className="notes-line"><strong>Notes:</strong>  {special_notes.join(", ")} </div></>) : null ;
 
   function filterSelectedGDPVersion(value, checked) {
     setGDPVersions((prev) =>
@@ -77,7 +81,9 @@ export default function ModalMainPanel({ jsonDataForDB, tableType }) {
       ) : null}
       <br />
 
+      {NotesLine? NotesLine: null}
       {/* Wrapper for the main compat table */}
+      
       <ModalTable
         jsonDataForDB={jsonDataForDB}
         changeSortKeyOnClick={changeSortKeyOnClick}
@@ -135,4 +141,5 @@ ModalMainPanel.propTypes = {
     PropTypes.arrayOf(JsonDataType2),
   ]).isRequired, // Array of objects representing the database data
   tableType: TableTypePropType.isRequired,
+  special_notes: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
