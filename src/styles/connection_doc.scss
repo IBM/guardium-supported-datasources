@@ -111,6 +111,13 @@
   min-width: 300px;
 }
 
+
+.notes-line {
+  display: inline-block; /* prevents margin collapsing */
+  font-size: 0.875rem; 
+  margin-bottom: 0.5rem;
+}
+
 .bx--modal-header {
   padding: 0px;
 }

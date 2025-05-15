@@ -1,4 +1,5 @@
 input_csv_path: consolidation-script2/data/input/OracleCloud_ExStap.csv
+dbinfo_csv_path: consolidation-script2/data/input/OracleCloud_ExStap_Dbinfo.csv
 output_csv_path: consolidation-script2/data/output/csv/OracleCloud_ExStap.csv
 output_json_path: src/data/consolidated_jsons/OracleCloud_ExStap.json
 environment_name: Oracle Cloud (Database as a Service)

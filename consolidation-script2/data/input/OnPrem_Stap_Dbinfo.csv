@@ -1,0 +1,2 @@
+database_name,special_notes
+"IBM Db2","Blocking and redaction are not supported for Db2 for IBM i."
