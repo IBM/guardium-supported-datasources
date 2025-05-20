@@ -131,8 +131,6 @@ GDP,11.4,Zlinux,Zlinux Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 
 GDP,11.4,Zlinux,Zlinux Ubuntu 18.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.4,AIX,AIX 7.2,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.4,CentOS,CentOS 7x,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
 GDP,11.4,Red Hat,Red Hat 7,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Red Hat,Red Hat 8,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Red Hat,Red Hat 9,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -146,8 +144,6 @@ GDP,11.4,Zlinux,Zlinux Suse 15 64bit,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 
 GDP,11.4,Zlinux,Zlinux Ubuntu 18.04,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,NA,
 GDP,11.4,AIX,AIX 7.2,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.4,CentOS,CentOS 7x,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
 GDP,11.4,Red Hat,Red Hat 7,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Red Hat,Red Hat 8,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Red Hat,Red Hat 9,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -1128,8 +1124,6 @@ GDP,11.5,Zlinux,Zlinux Ubuntu 18.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 E
 GDP,11.5,AIX,AIX 7.2,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.5,AIX,AIX 7.3,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.5,CentOS,CentOS 7x,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 7,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Red Hat,Red Hat 8,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Red Hat,Red Hat 9,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -1144,8 +1138,6 @@ GDP,11.5,Zlinux,Zlinux Ubuntu 18.04,IBM Db2,IBM Db2 11.1,"Db2 Exit, KTAP",KTAP,,
 GDP,11.5,AIX,AIX 7.2,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.5,AIX,AIX 7.3,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,NA,
 GDP,11.5,CentOS,CentOS 7x,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,ATAP with Linux 2.6.36 and higher only.
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 7,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Red Hat,Red Hat 8,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Red Hat,Red Hat 9,IBM Db2,IBM Db2 11.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
