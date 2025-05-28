@@ -5505,8 +5505,6 @@ GDP,12.0,Windows Server,Windows Server 2025,MS SQL Server Cluster,MS SQL Server 
 GDP,12.0,Windows Server,Windows Server 2025,MySQL,MySQL 5.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.0,Windows Server,Windows Server 2025,MySQL,MySQL 8.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.0,Windows Server,Windows Server 2025,MySQL,MySQL 8.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,12.0,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
-GDP,12.0,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
 GDP,12.0,Windows Server,Windows Server 2025,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.0,Windows Server,Windows Server 2025,Oracle,Oracle 12.1,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.0,Windows Server,Windows Server 2025,Oracle,Oracle 12.2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
@@ -5561,8 +5559,6 @@ GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server Cluster,MS SQL Server 
 GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 5.7,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 8.0,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,11.5,Windows Server,Windows Server 2025,MySQL,MySQL 8.3,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,11.5,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
-GDP,11.5,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,NA,NA,NA,NA,STAP,TCP  ,
 GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 12.1,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,11.5,Windows Server,Windows Server 2025,Oracle,Oracle 12.2,STAP,STAP,STAP ASO,NA,,STAP,STAP,NA,NA,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
