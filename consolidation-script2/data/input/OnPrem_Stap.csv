@@ -5070,7 +5070,6 @@ GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KT
 GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,SSL encryption supported PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 24.04,Percona Server for MySQL,Percona Server for MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
-GDP,11.5,Ubuntu,Ubuntu 24.04,MilvusDB Standalone,MilvusDB 2.4.14,KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,NA,Only MilvusDB Standalone supported.
 GDP,11.5,Windows Server,Windows Server 2016,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
 GDP,11.5,Windows Server,Windows Server 2019,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
 GDP,11.5,Windows Server,Windows Server 2022,MySQL,MySQL 8.4,STAP,STAP,,NA,,STAP,STAP,NA,NA,,,TCP NMP BEQ,Shared Memory traffic is not supported by Windows STAP
