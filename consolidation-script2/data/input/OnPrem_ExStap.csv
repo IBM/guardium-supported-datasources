@@ -13,7 +13,7 @@ GDP,GDP 12.1,MySQL,All versions,,,,,https://github.com/IBM/Guardium_External_S-T
 GDP,GDP 12.1,SingleStore(formerly MemSQL),All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Greenplum,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MariaDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.1,IBM Db2,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,IBM Db2,All versions,any clouds,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,CockroachDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,MilvusDB Standalone,All versions,,,,Standalone Mode with  non SSL,https://github.com/IBM/Guardium_External_S-TAP
