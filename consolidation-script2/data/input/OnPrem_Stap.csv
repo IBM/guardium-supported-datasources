@@ -58,9 +58,9 @@ GDP,11.4,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Nav
 GDP,11.4,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.4,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.4,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.4,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
+GDP,11.4,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.4,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,11.4,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.4,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.4,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -1048,9 +1048,9 @@ GDP,11.5,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Nav
 GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,11.5,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.5,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,11.5,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
+GDP,11.5,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,11.5,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,11.5,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,11.5,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -2051,12 +2051,12 @@ GDP,12.0,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Nav
 GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.0,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.0,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.0,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.0,Red Hat,Red Hat 7,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.0,Red Hat,Red Hat 8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.0,Red Hat,Red Hat 9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
+GDP,12.0,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.0,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.0,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.0,Red Hat,Red Hat 7,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.0,Red Hat,Red Hat 8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.0,Red Hat,Red Hat 9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.0,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,12.0,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -3021,15 +3021,15 @@ GDP,12.1,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Nav
 GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
-GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
-GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
-GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,,,,,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 22.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 8,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
+GDP,12.1,Red Hat,Red Hat 9,CockroachDB,CockroachDB 23.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,
 GDP,12.1,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,
 GDP,12.1,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,NA,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -5635,3 +5635,9 @@ GDP,11.4,zLinux,zLinux Red Hat 9,Oracle,Oracle 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,
 GDP,11.5,zLinux,zLinux Red Hat 9,Oracle,Oracle 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.0,zLinux,zLinux Red Hat 9,Oracle,Oracle 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,zLinux,zLinux Red Hat 9,Oracle,Oracle 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,NA,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
+GDP,12.0,RedHat,Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,12.1,RedHat,Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,RedHat,Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,12.0,RedHat,Red Hat 9,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,12.1,RedHat,Red Hat 9,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
+GDP,11.5,RedHat,Red Hat 9,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,NA,PostgreSQL bind variables supported
