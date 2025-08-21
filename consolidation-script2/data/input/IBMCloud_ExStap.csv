@@ -10,10 +10,6 @@ GDP,GDP 11.4,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not suppo
 GDP,GDP 11.4,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.4,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.4,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,MongoDB Atlas,4.2,,,
-GDP,GDP 11.4,MongoDB Atlas,4.4,,,
-GDP,GDP 11.4,MongoDB Atlas,5,,,
-GDP,GDP 11.4,MongoDB Atlas,6,,,
 GDP,GDP 11.4,IBM Cloud Databases for MongoDB,All Versions,,,
 GDP,GDP 11.4,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 11.4,IBM Cloud Databases for MySQL,All Versions,,,
@@ -28,10 +24,6 @@ GDP,GDP 11.5,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not suppo
 GDP,GDP 11.5,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.5,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.5,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.5,MongoDB Atlas,4.2,,,
-GDP,GDP 11.5,MongoDB Atlas,4.4,,,
-GDP,GDP 11.5,MongoDB Atlas,5,,,
-GDP,GDP 11.5,MongoDB Atlas,6,,,
 GDP,GDP 11.5,IBM Cloud Databases for MongoDB,All Versions,,,
 GDP,GDP 11.5,IBM Cloud Databases for PostgreSQL,All Versions,,,
 GDP,GDP 11.5,IBM Cloud Databases for MySQL,All Versions,,,
