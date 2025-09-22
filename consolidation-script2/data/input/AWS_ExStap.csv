@@ -100,3 +100,27 @@ GDP,GDP 12.1,MongoDB Atlas,5,,,,,
 GDP,GDP 12.1,MongoDB Atlas,6,,,,,https://www.ibm.com/docs/en/gdp/11.4?topic=external-s-tap
 GDP,GDP 12.1,Snowflake,All versions,yes,,,,
 GDP,GDP 12.1,IBM Db2,All versions,yes,,,,
+GDP,GDP 12.2,Amazon Aurora MySQL,All versions,,yes,,,
+GDP,GDP 12.2,Amazon Aurora PostgreSQL,All versions,,yes,,,
+GDP,GDP 12.2,Amazon DynamoDB,All versions,,,,,
+GDP,GDP 12.2,Amazon ElastiCache for Redis(Redis OSS),All versions,,,,,
+GDP,GDP 12.2,Amazon ElastiCache for Memcached,All versions,,,,,
+GDP,GDP 12.2,Amazon RDS for MariaDB,All versions,,,,,
+GDP,GDP 12.2,Amazon RDS for SQL Server,All versions,yes,yes,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+GDP,GDP 12.2,Amazon RDS for MySQL,5.6,yes,yes,Classification via GDP,,
+GDP,GDP 12.2,Amazon RDS for MySQL,5.7,yes,yes,Classification via GDP,,
+GDP,GDP 12.2,Amazon RDS for MySQL,8,yes,yes,Classification via GDP,,
+GDP,GDP 12.2,Amazon RDS for Oracle,12.1,yes,yes,Classification via GDP,,
+GDP,GDP 12.2,Amazon RDS for Oracle,19c,yes,yes,Classification via GDP,,
+GDP,GDP 12.2,Amazon RDS for Oracle,21c,yes,yes,Classification via GDP,,https://www.ibm.com/docs/en/gdp/11.4?topic=external-s-tap
+GDP,GDP 12.2,Amazon RDS for PostgreSQL,All versions,yes,yes,Classification via GDP,,https://www.ibm.com/docs/en/gdp/11.4?topic=external-s-tap
+GDP,GDP 12.2,Amazon Redshift,All versions,yes,yes,Classification via GDP,,https://www.ibm.com/docs/en/gdp/11.4?topic=external-s-tap
+GDP,GDP 12.2,Amazon S3,All versions,,yes,,,
+GDP,GDP 12.2,AWS Fargate,All versions,,,,,
+GDP,GDP 12.2,Elasticsearch,All versions,,,,,
+GDP,GDP 12.2,MongoDB Atlas,4.2,,,,,
+GDP,GDP 12.2,MongoDB Atlas,4.4,,,,,
+GDP,GDP 12.2,MongoDB Atlas,5,,,,,
+GDP,GDP 12.2,MongoDB Atlas,6,,,,,https://www.ibm.com/docs/en/gdp/11.4?topic=external-s-tap
+GDP,GDP 12.2,Snowflake,All versions,yes,,,,
+GDP,GDP 12.2,IBM Db2,All versions,yes,,,,
