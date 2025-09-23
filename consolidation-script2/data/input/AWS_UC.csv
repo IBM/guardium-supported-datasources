@@ -42,19 +42,33 @@ GDP,GDP 12.0,Neptune,1.1,,,,https://raw.githubusercontent.com/IBM/universal-conn
 GDP,GDP 12.0,Amazon RDS for SQL Server,14.00.3281.6,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/AWSMSSQL_README.md
 GDP,GDP 12.0,Amazon RDS for Oracle,18,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.1,Amazon Aurora MySQL,2.07.2,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
+GDP,GDP 12.2,Amazon Aurora MySQL,2.07.2,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
 GDP,GDP 12.1,Amazon DynamoDB,,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
+GDP,GDP 12.2,Amazon DynamoDB,,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for MariaDB,10.5.17,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for MariaDB,10.5.17,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for MariaDB,10.6.10,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for MariaDB,10.6.10,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for MySQL,5.7,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for MySQL,5.7,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-aws-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for PostgreSQL,13,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AwsPostgres_README.md
+GDP,GDP 12.2,Amazon RDS for PostgreSQL,13,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AwsPostgres_README.md
 GDP,GDP 12.1,Amazon RDS for PostgreSQL,14,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AwsPostgres_README.md
+GDP,GDP 12.2,Amazon RDS for PostgreSQL,14,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AwsPostgres_README.md
 GDP,GDP 12.1,Amazon Aurora PostgreSQL,13,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AuroraPostgres_README.md
+GDP,GDP 12.2,Amazon Aurora PostgreSQL,13,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-guardium/AuroraPostgres_README.md
 GDP,GDP 12.1,Amazon Redshift,1.0.40182,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md
+GDP,GDP 12.2,Amazon Redshift,1.0.40182,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-redshift-aws-guardium/README.md
 GDP,GDP 12.1,Amazon S3,,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
+GDP,GDP 12.2,Amazon S3,,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-s3-guardium/README.md
 GDP,GDP 12.1,DocumentDB,4,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
+GDP,GDP 12.2,DocumentDB,4,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-documentdb-aws-guardium/README.md
 GDP,GDP 12.1,Neptune,1.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+GDP,GDP 12.2,Neptune,1.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for SQL Server,14.00.3281.6,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/AWSMSSQL_README.md
+GDP,GDP 12.2,Amazon RDS for SQL Server,14.00.3281.6,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/AWSMSSQL_README.md
 GDP,GDP 12.1,Amazon RDS for Oracle,18,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for Oracle,18,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDSC,GDSC 3.3.0,Amazon Aurora MySQL,2.07.2,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-aurora-mysql-guardium/README.md
 GDSC,GDSC 3.3.0,Amazon DynamoDB,,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-dynamodb-guardium/README.md
 GDSC,GDSC 3.3.0,Amazon RDS for MariaDB,10.5.17,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-aws-guardium/README.md
@@ -104,6 +118,7 @@ GDP,GDP 11.4,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connectors/
 GDP,GDP 11.5,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDP,GDP 12.0,MongoDB Atlas,1.0.1,,,,https://github.com/IBM/universal-connectors/releases/download/v1.5.2/logstash-input-mongo_atlas_input.zip,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDP,GDP 12.1,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
+GDP,GDP 12.2,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDSC,GDSC 3.3.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDSC,GDSC 3.4.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
 GDSC,GDSC 3.5.0,MongoDB Atlas,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md
@@ -113,6 +128,7 @@ GDP,GDP 11.4,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-
 GDP,GDP 11.5,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-snowflake-guardium/SnowflakeOverJbdcPackage/Snowflake/logstash-offline-plugins-7.12.1.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDP,GDP 12.0,Snowflake,1.0.1,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-snowflake-guardium/SnowflakeOverJbdcPackage/Snowflake/logstash-offline-plugins-7.12.1.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDP,GDP 12.1,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
+GDP,GDP 12.2,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDSC,GDSC 3.3.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDSC,GDSC 3.4.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
 GDSC,GDSC 3.5.0,Snowflake,1.0.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-snowflake-guardium/README.md
@@ -122,16 +138,20 @@ GDP,GDP 11.4,Amazon RDS for Oracle,19c,,,,https://github.com/IBM/universal-conne
 GDP,GDP 11.5,Amazon RDS for Oracle,19c,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.0,Amazon RDS for Oracle,19c,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for Oracle,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for Oracle,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 11.4,Amazon RDS for Oracle,21,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 11.5,Amazon RDS for Oracle,21,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.0,Amazon RDS for Oracle,21,,,,https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.1,Amazon RDS for Oracle,21,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.2,Amazon RDS for Oracle,21,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 11.4,Neptune,1.4.3,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-neptune-aws-guardium/logstash-filter-neptune_guardium_filter.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDP,GDP 11.5,Neptune,1.4.3,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-neptune-aws-guardium/logstash-filter-neptune_guardium_filter.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDP,GDP 12.0,Neptune,1.4.3,,,,https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-neptune-aws-guardium/logstash-filter-neptune_guardium_filter.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDP,GDP 12.1,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+GDP,GDP 12.2,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC,GDSC 3.3.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC,GDSC 3.4.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC,GDSC 3.5.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC,GDSC 3.6.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC GDSC SaaS,GDSC SaaS,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+GDP,GDP 12.2,Amazon OpenSearch,1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-opensearch-guardium/README.md

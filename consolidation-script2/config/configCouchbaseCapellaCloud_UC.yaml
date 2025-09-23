@@ -1,0 +1,18 @@
+output_csv_path: consolidation-script2/data/output/csv/CouchbaseCapellaCloud_UC.csv
+output_json_path: src/data/consolidated_jsons/CouchbaseCapellaCloud_UC.json
+input_csv_path: consolidation-script2/data/input/CouchbaseCapellaCloud_UC.csv
+dbinfo_csv_path: consolidation-script2/data/input/CouchbaseCapellaCloud_UC_Dbinfo.csv
+environment_name: CouchbaseCapella Cloud (Database as a Service)
+method_name: Universal Connector
+compat_header:
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
+feature_header:
+  - VA_supported
+  - Classification_supported
+  - Notes
+  - Download_URL
+  - Readme_URL
+partition_header: 2

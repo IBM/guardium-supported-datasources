@@ -1,0 +1,2 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+GDP,GDP 12.2,Capella,1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-capella-guardium/README.md
