@@ -135,3 +135,4 @@ GDSC,GDSC 3.4.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/bl
 GDSC,GDSC 3.5.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC,GDSC 3.6.0,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
 GDSC GDSC SaaS,GDSC SaaS,Neptune,1.4.3,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neptune-aws-guardium/README.md
+GDP,GDP 12.2,Amazon OpenSearch,1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-opensearch-guardium/README.md
