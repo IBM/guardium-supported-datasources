@@ -37,3 +37,4 @@ GDP,GDP 12.2,MongoDB,All versions,,,,,https://github.com/IBM/Guardium_External_S
 GDP,GDP 12.2,MilvusDB Standalone,All versions,,,,Standalone Mode with  non SSL,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.2,MS SQL Server,All versions,,,,All Platforms (Windows or Redhat or Ubuntu or SUSE Linux Enterprise Server or Docker),https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.2,MS SQL Server,All versions,,,,All Platforms (Windows or Redhat or Ubuntu or SUSE Linux Enterprise Server or Docker),https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.2,Neo4j,All versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
