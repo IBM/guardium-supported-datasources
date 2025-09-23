@@ -7298,3 +7298,19 @@ GDP,12.2,Ubuntu,Ubuntu 22.04,Yugabyte,Yugabyte 2.20.5,KTAP,KTAP,,,,KTAP,KTAP,KTA
 GDP,12.2,Red Hat,Red Hat 8,TigerGraph,TigerGraph 3.10.1,KTAP,KTAP,,,,,,KTAP,KTAP,,,NA,
 GDP,12.2,Red Hat,Red Hat 9,TigerGraph,TigerGraph 3.10.1,KTAP,KTAP,,,,,,KTAP,KTAP,,,NA,
 GDP,12.2,Red Hat,Red Hat 8,Oceanbase,Oceanbase 4.2.1.11,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,NA,
+GDP,12.2,AIX,AIX 7.2,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP SSL,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,Guardium Client IP and Analyzed Client IP are not supported in Sybase encrypted traffic.Encrypted traffic is not supported with Sybase ASE 16 SP3 or higher.
+GDP,12.2,AIX,AIX 7.3,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP SSL,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,Guardium Client IP and Analyzed Client IP are not supported in Sybase encrypted traffic.Encrypted traffic is not supported with Sybase ASE 16 SP3 or higher.
+GDP,12.2,CentOS,CentOS 7x,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,ATAP with Linux 2.6.36 and higher only
+GDP,12.2,Red Hat,Red Hat 7,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,SSL encryption supported. PostgreSQL bind variables supported. SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Red Hat,Red Hat 8,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,SSL encryption supported. PostgreSQL bind variables supported. SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Red Hat,Red Hat 9,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,SSL encryption supported. PostgreSQL bind variables supported. SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Solaris,Solaris 10,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,
+GDP,12.2,Solaris,Solaris 11.2,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,
+GDP,12.2,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,
+GDP,12.2,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,
+GDP,12.2,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,NA,SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.2,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.2,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.2,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,NA,,STAP,STAP,NA,NA,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
