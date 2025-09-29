@@ -4265,18 +4265,18 @@ GDP,11.4,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,,,STAP,
 GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.4,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 11.7,STAP,STAP,SSL,,,STAP,STAP,,,STAP,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 12.1,STAP,STAP,SSL,,,STAP,STAP,,,STAP,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 14.1,STAP,STAP,SSL,,,STAP,STAP,,,STAP,STAP,TCP,
@@ -4416,18 +4416,18 @@ GDP,11.5,Windows Server,Windows Server 2016,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,
 GDP,11.5,Windows Server,Windows Server 2019,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.5,Windows Server,Windows Server 2016,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2019,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2016,IBM Informix,IBM Informix 11.7,STAP,STAP,SSL,,,STAP,STAP,,,STAP,STAP,TCP,
@@ -4571,18 +4571,18 @@ GDP,12.0,Windows Server,Windows Server 2022,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,
 GDP,12.0,Windows Server,Windows Server 2016,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2019,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.0,Windows Server,Windows Server 2016,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2019,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2022,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -4734,18 +4734,18 @@ GDP,12.1,Windows Server,Windows Server 2016,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,
 GDP,12.1,Windows Server,Windows Server 2019,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,CouchDB,Couch 3.3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.1,Windows Server,Windows Server 2016,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -5114,10 +5114,10 @@ GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,,,STAP,ST
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,CouchDB,Couch 3.3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.10.4,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.6,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -5295,11 +5295,11 @@ GDP,11.5,Windows Server,Windows Server 2022,Elasticsearch,Elasticsearch 8.17,STA
 GDP,11.4,Windows Server,Windows Server 2016,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2019,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.4,Windows Server,Windows Server 2022,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
-GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.4,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.1,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.4,Red Hat,Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
 GDP,11.4,Suse,Suse 15 64bit,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,
 GDP,11.4,zLinux,zLinux Suse 15 64bit,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,
@@ -5480,10 +5480,10 @@ GDP,12.0,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,,,STAP,ST
 GDP,12.0,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,CouchDB,Couch 3.3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.10.4,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.6,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -5528,16 +5528,16 @@ GDP,12.0,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,
 GDP,12.0,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 7.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.10.4,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.6,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -5582,7 +5582,7 @@ GDP,11.5,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,
 GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Oracle Linux,Oracle Linux 8,Oracle ExaCC,Oracle ExaCC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.0,zLinux,zLinux Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
@@ -5666,8 +5666,8 @@ GDP,12.2,Red Hat,Red Hat 8,CouchDB,Couch 3.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Red Hat,Red Hat 9,CouchDB,Couch 3.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Windows Server,Windows Server 2019,CouchDB,Couch 3.4.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,CouchDB,Couch 3.4.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.2,AIX,AIX 7.3,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,,
 GDP,12.2,Red Hat,Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
 GDP,12.2,Suse,Suse 15 64bit,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,
@@ -6118,24 +6118,24 @@ GDP,12.2,IBM i,IBM i 7.2,IBM Db2,IBM Db2 7.2,ITAP,ITAP,ITAP,,,,,,,,,,Support is 
 GDP,12.2,IBM i,IBM i 7.3,IBM Db2,IBM Db2 7.3,ITAP,ITAP,ITAP,,,,,,,,,,Support is provided by the Db2 for i STAP
 GDP,12.2,IBM i,IBM i 7.4,IBM Db2,IBM Db2 7.4,ITAP,ITAP,ITAP,,,,,,,,,,Support is provided by the Db2 for i STAP
 GDP,12.2,IBM i,IBM i 7.5,IBM Db2,IBM Db2 7.5,ITAP,ITAP,ITAP,,,,,,,,,,Support is provided by the Db2 for i STAP
-GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,,,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2016,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2019,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 10.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 11.5,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
+GDP,12.2,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
 GDP,12.2,AIX,AIX 7.3,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",,,Yes,,
 GDP,12.2,Red Hat,Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
 GDP,12.2,Suse,Suse 15 64bit,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,
