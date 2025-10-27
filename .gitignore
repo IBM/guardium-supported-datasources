@@ -22,3 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 *.pyc
+src/chatbot/model/*
+src/chatbot/doc/*
+src/chatbot/tests/output/*
