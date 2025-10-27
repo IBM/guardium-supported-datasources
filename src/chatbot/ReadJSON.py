@@ -118,7 +118,7 @@ def save_to_file(data, output_path):
         print(f"Error saving data to file: {e}")
 def main():
     # Define file paths
-    input_file = "{JSON_DIR}/OnPrem_Stap.json"
+    input_file = f"{JSON_DIR}/OnPrem_Stap.json"
    
     # Read the JSON file
     data = read_json_file(input_file)

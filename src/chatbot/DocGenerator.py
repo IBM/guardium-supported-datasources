@@ -27,7 +27,7 @@ def ensure_directory_exists(directory_path):
     Path(directory_path).mkdir(parents=True, exist_ok=True)
 def stapmain():
     print("STAP Document generation")
-    input_file = "{JSON_DIR}/OnPrem_Stap.json"
+    input_file = f"{JSON_DIR}/OnPrem_Stap.json"
     output_dir = DOC_DIR
     output_filename = "OnPrem_STAP.md"
     
@@ -316,67 +316,67 @@ def NlpWriter(string_list_values,conffilename):
 
 def amazonkinesis():
     print("Amazon Kinesis document generation")
-    input_file = "{JSON_DIR}/AWS_AmKin.json"
+    input_file = f"{JSON_DIR}/AWS_AmKin.json"
     output_filename = "aws_amkin.md"
     awsgeneral(input_file,output_filename,"Amazon Kinesis(AWS)",platform="AWS")
 def amazonexstap():
     print("Amazon Kinesis document generation")
-    input_file = "{JSON_DIR}/AWS_ExStap.json"
+    input_file = f"{JSON_DIR}/AWS_ExStap.json"
     output_filename = "aws_ExStap.md"
     awsgeneral(input_file,output_filename,"External-STAP(AWS)","AWS")
 def awsuc():
     print("Amazon Kinesis document generation")
-    input_file = "{JSON_DIR}/AWS_UC.json"
+    input_file = f"{JSON_DIR}/AWS_UC.json"
     output_filename = "aws_uc.md"
     awsgeneral(input_file,output_filename,"Universal Connector(AWS)","AWS")
 def azureAZEvHub():
     print("Azure Kinesis document generation")
-    input_file = "{JSON_DIR}/Azure_AzEvHub.json"
+    input_file = f"{JSON_DIR}/Azure_AzEvHub.json"
     output_filename = "azure_eventhub.md"
     awsgeneral(input_file,output_filename,"Azure Event hubs","Azure")
 def azure_exstap():
     print("Azure Kinesis document generation")
-    input_file = "{JSON_DIR}/Azure_ExStap.json"
+    input_file = f"{JSON_DIR}/Azure_ExStap.json"
     output_filename = "azure_exstap.md"
     awsgeneral(input_file,output_filename,"External-STAP(Azure)","Azure")
 def azureuc():
     print("Azure Kinesis document generation")
-    input_file = "{JSON_DIR}/Azure_UC.json"
+    input_file = f"{JSON_DIR}/Azure_UC.json"
     output_filename = "azure_uc.md"
     awsgeneral(input_file,output_filename,"Universal Connector(UC)","Azure")
 def gcp_exstap():
     print("GCP  document generation")
-    input_file = "{JSON_DIR}/GCP_ExStap.json"
+    input_file = f"{JSON_DIR}/GCP_ExStap.json"
     output_filename = "gcp_exstap.md"
     awsgeneral(input_file,output_filename,"External-STAP(GCP)","GCP or Google Cloud Platform")
 def gcpuc():
     print("GCP document generation")
-    input_file = "{JSON_DIR}/GCP_UC.json"
+    input_file = f"{JSON_DIR}/GCP_UC.json"
     output_filename = "gcp_uc.md"
     awsgeneral(input_file,output_filename,"Universal Connector(GCP)","GCP or Google Cloud Platform")
 def ibm_exstap():
     print("IBM  document generation")
-    input_file = "{JSON_DIR}/IBMCloud_ExStap.json"
+    input_file = f"{JSON_DIR}/IBMCloud_ExStap.json"
     output_filename = "ibm_exstap.md"
     awsgeneral(input_file,output_filename,"External-STAP(IBM Cloud)","IBM Cloud Platform")
 def ibmuc():
     print("IBM document generation")
-    input_file = "{JSON_DIR}/IBMCloud_UC.json"
+    input_file = f"{JSON_DIR}/IBMCloud_UC.json"
     output_filename = "ibm_uc.md"
     awsgeneral(input_file,output_filename,"Universal Connector(IBM Cloud)","IBM Cloud Platform")
 def oracle_exstap():
     print("Oracle  document generation")
-    input_file = "{JSON_DIR}/OracleCloud_ExStap.json"
+    input_file = f"{JSON_DIR}/OracleCloud_ExStap.json"
     output_filename = "oracle_exstap.md"
     awsgeneral(input_file,output_filename,"External-STAP(Oracle Cloud)","Oracle Cloud Platform")
 def oracleuc():
     print("GCP document generation")
-    input_file = "{JSON_DIR}/OracleCloud_UC.json"
+    input_file = f"{JSON_DIR}/OracleCloud_UC.json"
     output_filename = "oracle_uc.md"
     awsgeneral(input_file,output_filename,"Universal Connector(Oracle Cloud)","Oracle Cloud Platform")
 def onprem_uc():
     print("Onprem UC  document generation")
-    input_file = "{JSON_DIR}/OnPrem_UC.json"
+    input_file = f"{JSON_DIR}/OnPrem_UC.json"
     output_filename = "onprem_uc.md"
     awsgeneral(input_file,output_filename,"Universal_Connector(On Premise)","On Premise")
 def awsgeneral(input_file,output_filename,type,platform):
