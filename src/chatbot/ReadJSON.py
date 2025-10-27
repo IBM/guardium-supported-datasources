@@ -3,7 +3,7 @@ from typing import Any
 
 import json
 import os
-from config import CUSTOM_MODEL,TRAIN_FILE
+from config import CUSTOM_MODEL,TRAIN_FILE,JSON_DIR
 def traverse_json(node, indent=0):
     """
     Recursively traverses a JSON node (dictionary or list) and prints its contents.
@@ -118,7 +118,7 @@ def save_to_file(data, output_path):
         print(f"Error saving data to file: {e}")
 def main():
     # Define file paths
-    input_file = "/Users/vinu/Documents/Data/Security/CustomerFocus/Guardium/guardium-supported-datasources/src/data/consolidated_jsons/OnPrem_Stap.json"
+    input_file = "{JSON_DIR}/OnPrem_Stap.json"
    
     # Read the JSON file
     data = read_json_file(input_file)
