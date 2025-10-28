@@ -1,0 +1,454 @@
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+
+// IBM Carbon colors
+$ibm-blue: #0f62fe;
+$ibm-blue-60: #0353e9;
+$ibm-gray-10: #f4f4f4;
+$ibm-gray-20: #e0e0e0;
+$ibm-gray-70: #525252;
+$ibm-gray-100: #161616;
+
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.chatbot-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $ibm-blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: none;
+  
+  &:hover {
+    background-color: $ibm-blue-60;
+    transform: scale(1.05);
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.chatbot-window {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  width: 750px;
+  height: 750px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+  }
+}
+
+.chatbot-header {
+  background-color: $ibm-blue;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+// Tabs styling
+.chatbot-tabs {
+  display: flex;
+  border-bottom: 1px solid $ibm-gray-20;
+  
+  .tab-button {
+    flex: 1;
+    padding: 12px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: $ibm-gray-70;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: transparent;
+      transition: background-color 0.2s;
+    }
+    
+    &.active {
+      color: $ibm-blue;
+      
+      &:after {
+        background-color: $ibm-blue;
+      }
+    }
+    
+    &:hover:not(.active) {
+      color: $ibm-gray-100;
+      background-color: $ibm-gray-10;
+    }
+  }
+}
+
+.chatbot-messages {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: $ibm-gray-10;
+}
+
+.message {
+  max-width: 80%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  
+  // Add styling for bullet points and paragraphs
+  ul, ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 4px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  // Style for bullet points that use the • character
+  .bullet-point {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    
+    &:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+    }
+  }
+  
+  // Add spacing between sections with • character
+  & > *:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  br {
+    display: block;
+    content: "";
+    margin-top: 8px;
+  }
+  
+  &.bot {
+    align-self: flex-start;
+    background-color: $ibm-gray-20;
+    color: $ibm-gray-100;
+  }
+  
+  &.user {
+    align-self: flex-end;
+    background-color: $ibm-blue;
+    color: white;
+  }
+}
+
+.chatbot-input {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid $ibm-gray-20;
+  
+  input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid $ibm-gray-20;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    
+    &:focus {
+      border-color: $ibm-blue;
+    }
+  }
+  
+  button {
+    background-color: $ibm-blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: $ibm-blue-60;
+    }
+    
+    &:disabled {
+      background-color: $ibm-gray-70;
+      cursor: not-allowed;
+    }
+  }
+  
+  .reset-button {
+    width: 36px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Quick reply buttons
+.quick-replies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.quick-reply-button {
+  background-color: white;
+  border: 1px solid $ibm-blue;
+  color: $ibm-blue;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  
+  &:hover {
+    background-color: $ibm-blue;
+    color: white;
+  }
+}
+
+// Pre-defined questions tab
+.predefined-questions-tab {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background-color: $ibm-gray-10;
+  display: flex;
+  flex-direction: column;
+  
+  .questions-intro {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    color: $ibm-gray-100;
+  }
+  
+  .questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .predefined-question-button {
+    background-color: white;
+    border: 1px solid $ibm-gray-20;
+    color: $ibm-gray-100;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+    letter-spacing: 0.2px;
+    
+    &:hover {
+      background-color: $ibm-blue-60;
+      color: white;
+      border-color: $ibm-blue-60;
+    }
+    
+    // Style for questions that follow a section header
+    &:not(.section-header) {
+      border-top: none;
+      margin-top: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      padding-left: 24px; // Indent questions
+    }
+    
+    // Style for section headers
+    &.section-header {
+      background-color: #f2f2f2;
+      color: #333333;
+      font-weight: 500;
+      border-color: #e8e8e8;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      &:hover {
+        background-color: #e0e0e0;
+        color: #222222;
+      }
+      
+      &:first-child {
+        margin-top: 0;
+      }
+      
+      &.expanded {
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom: 2px solid #d0d0d0;
+      }
+      
+      &.collapsed + .predefined-question-button {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.formatted-content {
+  a {
+    color: #0f62fe;
+    text-decoration: underline;
+    
+    &:hover {
+      text-decoration: none;
+    }
+    
+    // Style for links in bot messages
+    .message.bot & {
+      color: #0353e9;
+    }
+    
+    // Style for links in user messages
+    .message.user & {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Loading indicator
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  background-color: $ibm-gray-20;
+  border-radius: 8px;
+  align-self: flex-start;
+  
+  span {
+    width: 8px;
+    height: 8px;
+    background-color: $ibm-gray-70;
+    border-radius: 50%;
+    animation: typing 1s infinite ease-in-out;
+    
+    &:nth-child(1) {
+      animation-delay: 0s;
+    }
+    
+    &:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    
+    &:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+  }
+}
+
+@keyframes typing {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 480px) {
+  .chatbot-window {
+    width: 90vw;
+    height: 80vh;
+    bottom: 70px;
+    max-width: 700px;
+    max-height: 700px;
+  }
+  
+  .predefined-questions-tab {
+    padding: 12px;
+    
+    .questions-intro {
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+    
+    .predefined-question-button {
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+  }
+}
+
+// Made with Bob

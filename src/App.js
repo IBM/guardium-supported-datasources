@@ -1,15 +1,15 @@
 // Wrapper for the MainPage component
-import "./styles/connection_doc.scss";
 import MainPage from "./components/MainPage";
-import "./styles/globals.scss";
-import React from "react";
 import { TooltipProvider } from "./context/TooltipContext";
+import "./styles/connection_doc.scss";
+import "./styles/globals.scss";
 
 function App() {
   return (
     <TooltipProvider>
       <main>
         <MainPage />
+        <Chatbot />
       </main>
     </TooltipProvider>
   );
