@@ -85,7 +85,8 @@ class ChatbotService {
   async generatePythonResponse(input) {
     try {
       // Use fetch API to call our server endpoint that runs the Python script
-      // Updated port from 3001 to 3002
+      // Port used 3002
+      //Modify localhost to server ip on which you hosting, or actual url like : http://<ip address>:3002/api/ask
       const response = await fetch('http://localhost:3002/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
