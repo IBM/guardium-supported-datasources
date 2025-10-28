@@ -1,4 +1,5 @@
 // Wrapper for the MainPage component
+import Chatbot from "./components/Chatbot/Chatbot";
 import MainPage from "./components/MainPage";
 import { TooltipProvider } from "./context/TooltipContext";
 import "./styles/connection_doc.scss";
