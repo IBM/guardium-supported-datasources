@@ -7314,3 +7314,19 @@ GDP,12.2,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16.1,STAP,STAP
 GDP,12.2,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.1,AIX,AIX 7.2,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP SSL,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,Guardium Client IP and Analyzed Client IP are not supported in Sybase encrypted traffic.Encrypted traffic is not supported with Sybase ASE 16 SP3 or higher.
+GDP,12.1,AIX,AIX 7.3,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP SSL,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,Guardium Client IP and Analyzed Client IP are not supported in Sybase encrypted traffic.Encrypted traffic is not supported with Sybase ASE 16 SP3 or higher.
+GDP,12.1,CentOS,CentOS 7x,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,12.1,Red Hat,Red Hat 7,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,SSL encryption supported. PostgreSQL bind variables supported. SLES 12 PPC64LE Little Endian system only. ATAP with Linux 2.6.36 and higher only.
+GDP,12.1,Red Hat,Red Hat 8,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.1,Red Hat,Red Hat 9,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.1,Solaris,Solaris 10,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Solaris,Solaris 11.2,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
+GDP,12.1,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.1,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.1,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
+GDP,12.1,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
