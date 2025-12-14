@@ -4378,7 +4378,7 @@ GDP,11.4,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 12.3,STAP,STAP
 GDP,11.4,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 12.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 12.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 12.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-GDP,11.4,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 13.0,STAP,STAP,,,,STAP,STAP,,,Yes,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,11.4,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 13.0,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 13.0,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 13.0,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.4,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 13.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
