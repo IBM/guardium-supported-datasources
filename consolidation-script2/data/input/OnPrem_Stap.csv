@@ -3,14 +3,6 @@ GDP,11.4,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,11.4,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.4,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,11.4,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.4,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.4,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.4,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.4,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -918,13 +910,13 @@ GDP,11.4,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only
 GDP,11.4,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,11.4,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,11.4,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
-GDP,11.4,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,11.4,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,11.4,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB User.
 GDP,11.4,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
 GDP,11.4,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
 GDP,11.4,Suse,Suse 12 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,11.4,Suse,Suse 15 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
-GDP,11.4,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,11.4,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,11.4,CentOS,CentOS 7x,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB Username.
 GDP,11.4,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ 16.1 SSL connections do not capture DB Username. ATAP with Linux 2.6.36 and higher only.
 GDP,11.4,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,, Sybase IQ 16.1 SSL connections do not capture DB Username.
@@ -993,14 +985,6 @@ GDP,11.5,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,11.5,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,11.5,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -1931,15 +1915,15 @@ GDP,11.5,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only
 GDP,11.5,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,11.5,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,11.5,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
-GDP,11.5,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,11.5,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,11.5,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,11.5,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,11.5,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ does not support SSL. ATAP with Linux 2.6.36 and higher only.
-GDP,11.5,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
-GDP,11.5,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
+GDP,11.5,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
+GDP,11.5,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,11.5,Suse,Suse 12 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,11.5,Suse,Suse 15 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
-GDP,11.5,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,11.5,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,11.5,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,11.5,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,11.5,CentOS,CentOS 7x,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB Username.
 GDP,11.5,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ 16.1 SSL connections do not capture DB Username. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ 16.1 SSL connections do not capture DB Username.
@@ -1996,14 +1980,6 @@ GDP,12.0,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.0,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.0,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.0,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -2885,15 +2861,15 @@ GDP,12.0,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only
 GDP,12.0,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,12.0,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,12.0,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
-GDP,12.0,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.0,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.0,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.0,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.0,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ does not support SSL. ATAP with Linux 2.6.36 and higher only.
-GDP,12.0,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
-GDP,12.0,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
+GDP,12.0,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
+GDP,12.0,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.0,Suse,Suse 12 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.0,Suse,Suse 15 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
-GDP,12.0,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.0,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.0,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.0,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.0,CentOS,CentOS 7x,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB Username.
 GDP,12.0,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ 16.1 SSL connections do not capture DB Username. ATAP with Linux 2.6.36 and higher only.
 GDP,12.0,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ 16.1 SSL connections do not capture DB Username.
@@ -2962,14 +2938,6 @@ GDP,12.1,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.1,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.1,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -3909,15 +3877,15 @@ GDP,12.1,Solaris,Solaris 11.3,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only
 GDP,12.1,Solaris,Solaris 11.4,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP Sparc only,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,12.1,Suse,Suse 12 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
 GDP,12.1,Suse,Suse 15 64bit,Sybase ASE,Sybase ASE 16,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,
-GDP,12.1,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.1,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.1,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.1,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.1,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ does not support SSL. ATAP with Linux 2.6.36 and higher only.
-GDP,12.1,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
-GDP,12.1,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
+GDP,12.1,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
+GDP,12.1,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.1,Suse,Suse 12 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.1,Suse,Suse 15 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
-GDP,12.1,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.1,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.1,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.1,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.1,CentOS,CentOS 7x,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB Username.
 GDP,12.1,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ 16.1 SSL connections do not capture DB Username. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ 16.1 SSL connections do not capture DB Username.
@@ -5795,14 +5763,6 @@ GDP,12.2,Red Hat,Red Hat 8,Vertica,Vertica 25.2,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,
 GDP,12.2,Red Hat,Red Hat 9,Vertica,Vertica 25.2,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Suse,Suse 12 64bit,Vertica,Vertica 25.2,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Suse,Suse 15 64bit,Vertica,Vertica 25.2,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.2,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.2,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
-GDP,12.2,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 3.11,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,CentOS,CentOS 7x,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.2,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 3.5,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -7210,15 +7170,15 @@ GDP,12.2,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16,STAP,STAP,,
 GDP,12.2,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.2,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.2,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.2,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.2,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.2,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ does not support SSL. ATAP with Linux 2.6.36 and higher only.
-GDP,12.2,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
-GDP,12.2,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ does not support SSL.
+GDP,12.2,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
+GDP,12.2,Red Hat,Red Hat 9,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.2,Suse,Suse 12 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
 GDP,12.2,Suse,Suse 15 64bit,Sybase IQ,Sybase IQ 16,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,
-GDP,12.2,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
-GDP,12.2,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Encrypted traffic is not supported with Sybase IQ 16 SP3 or higher.
+GDP,12.2,AIX,AIX 7.2,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
+GDP,12.2,AIX,AIX 7.3,Sybase IQ,Sybase IQ 16.1,KTAP,,,,,KTAP,KTAP,KTAP,,,Yes,,
 GDP,12.2,CentOS,CentOS 7x,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,ATAP with Linux 2.6.36 and higher only. Sybase IQ 16.1 SSL connections do not capture DB Username.
 GDP,12.2,Red Hat,Red Hat 7,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. Sybase IQ 16.1 SSL connections do not capture DB Username. ATAP with Linux 2.6.36 and higher only.
 GDP,12.2,Red Hat,Red Hat 8,Sybase IQ,Sybase IQ 16.1,KTAP,,ATAP x86_64 only,ATAP Sybase 16.1 does not support DB username,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",,,Yes,,Sybase IQ 16.1 SSL connections do not capture DB Username.
