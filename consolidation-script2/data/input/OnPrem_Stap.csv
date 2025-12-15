@@ -7520,3 +7520,85 @@ GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,S
 GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.4,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,11.4,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.4,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
+GDP,11.4,Red Hat,Red Hat 8,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.4,Red Hat,Red Hat 9,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.4,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.4,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.4,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.4,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
+GDP,11.4,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,11.4,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,11.4,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,11.5,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
+GDP,11.5,Red Hat,Red Hat 8,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.5,Red Hat,Red Hat 9,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.5,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
+GDP,11.5,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,11.5,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,11.5,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,12.0,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
+GDP,12.0,Red Hat,Red Hat 8,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.0,Red Hat,Red Hat 9,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.0,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
+GDP,12.0,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.0,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.0,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,12.1,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Debian,Debian 12.0,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
+GDP,12.1,Red Hat,Red Hat 8,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.1,Red Hat,Red Hat 9,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.1,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
+GDP,12.1,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.1,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.1,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.4,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.0,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.1,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.1,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.1,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.1,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.2,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.2,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.2,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.2,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.2,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
+GDP,12.2,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Debian,Debian 12.0,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
+GDP,12.2,Red Hat,Red Hat 8,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.2,Red Hat,Red Hat 9,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,12.2,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.6,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
+GDP,12.2,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.2,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
+GDP,12.2,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
