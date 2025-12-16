@@ -1,7 +1,4 @@
 ﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 11.4,Amazon Aurora PostgreSQL,latest,,,,,
-GDP,GDP 11.4,Amazon Aurora MySQL,latest,,,,,
-GDP,GDP 11.4,Amazon RDS for Oracle,latest,,,,,
 GDP,GDP 11.5,Amazon Aurora PostgreSQL,latest,,,,,
 GDP,GDP 11.5,Amazon Aurora MySQL,latest,,,,,
 GDP,GDP 11.5,Amazon RDS for Oracle,latest,,,,,

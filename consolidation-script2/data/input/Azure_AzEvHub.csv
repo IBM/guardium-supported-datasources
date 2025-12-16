@@ -1,10 +1,4 @@
 ﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 11.4,Azure Cassandra,latest,,,,,
-GDP,GDP 11.4,Azure Cosmos Gremlin,latest,,,,,
-GDP,GDP 11.4,Azure Cosmos SQL,latest,,,,,
-GDP,GDP 11.4,Azure Cosmos Table,latest,,,,,
-GDP,GDP 11.4,Azure SQL,latest,,,,,
-GDP,GDP 11.4,MongoDB,14.0+,,,,,
 GDP,GDP 11.5,Azure Cassandra,latest,,,,,
 GDP,GDP 11.5,Azure Cosmos Gremlin,latest,,,,,
 GDP,GDP 11.5,Azure Cosmos SQL,latest,,,,,

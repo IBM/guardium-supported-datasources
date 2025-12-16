@@ -1,18 +1,4 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes
-GDP,GDP 11.4,Elasticsearch,All versions,,,
-GDP,GDP 11.4,IBM Db2,9.7,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2,10.1,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2,10.5,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2,11.1,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2,11.5,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2 Warehouse,9.7,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2 Warehouse,10.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2 Warehouse,10.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2 Warehouse,11.1,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Db2 Warehouse,11.5,,,Native encryption (DATA_ENCRYPT) not supported.
-GDP,GDP 11.4,IBM Cloud Databases for MongoDB,All Versions,,,
-GDP,GDP 11.4,IBM Cloud Databases for PostgreSQL,All Versions,,,
-GDP,GDP 11.4,IBM Cloud Databases for MySQL,All Versions,,,
 GDP,GDP 11.5,Elasticsearch,All versions,,,
 GDP,GDP 11.5,IBM Db2,9.7,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
 GDP,GDP 11.5,IBM Db2,10.1,,,Classification via GDP. Native encryption (DATA_ENCRYPT) not supported.
