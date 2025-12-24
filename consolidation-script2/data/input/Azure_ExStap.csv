@@ -1,13 +1,4 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-GDP,GDP 11.4,Azure SQL,all versions,,,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
-GDP,GDP 11.4,Azure Synapse Analytics,all versions,,,SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
-GDP,GDP 11.4,MongoDB Atlas,4.2,,,,,
-GDP,GDP 11.4,MongoDB Atlas,4.4,,,,,
-GDP,GDP 11.4,MongoDB Atlas,5,,,,,
-GDP,GDP 11.4,MongoDB Atlas,6,,,,,
-GDP,GDP 11.4,Snowflake,All versions,,,,,
-GDP,GDP 11.4,Azure MySQL,All versions,,,,,
-GDP,GDP 11.4,Azure Database for PostgreSQL,All versions,,,,,
 GDP,GDP 11.5,Azure SQL,all versions,,,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
 GDP,GDP 11.5,Azure Synapse Analytics,all versions,,,SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
 GDP,GDP 11.5,MongoDB Atlas,4.2,,,,,
