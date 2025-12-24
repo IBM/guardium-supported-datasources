@@ -6433,3 +6433,17 @@ GDP,12.2,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,K
 GDP,12.2,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
+GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 8,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Red Hat,Red Hat 9,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Amazon Linux,Amazon Linux 2,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Amazon Linux,Amazon Linux 2023,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Ubuntu,Ubuntu 16.04,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Ubuntu,Ubuntu 20.04,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Ubuntu,Ubuntu 22.04,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Ubuntu,Ubuntu 24.04,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Debian,Debian 11,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
+GDP,12.2,Debian,Debian 12.0,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
