@@ -64,3 +64,5 @@ GDSC,GDSC SaaS,Google Cloud MySQL,8,,,,,https://github.com/IBM/universal-connect
 GDSC,GDSC SaaS,Google Cloud Firebase,11.2.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firebase-realtime-guardium/README.md
 GDSC,GDSC SaaS,Google Cloud Spanner,1.0.39300,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md
 GDSC,GDSC SaaS,Google Cloud BigTable,v2,,,,,https://github.com/IBM/universal-connectors/tree/main/filter-plugin/logstash-filter-pubsub-bigtable-guardium
+GDP,GDP 12.1,Google Cloud AlloyDB,v1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/README.md
+GDP,GDP 12.2,Google Cloud AlloyDB,v1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/README.md
