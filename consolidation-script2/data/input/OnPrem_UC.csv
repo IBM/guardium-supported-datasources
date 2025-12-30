@@ -209,3 +209,7 @@ GDP,GDP 12.2,Teradata,17.2,,,,,https://github.com/IBM/universal-connectors/blob/
 GDP,GDP 12.2,TrinoDB,1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-trino-guardium/README.md
 GDP,GDP 12.1,Oracle ExaCC,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
 GDP,GDP 12.2,Oracle ExaCC,19c,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md
+GDP,GDP 12.0,SingleStore(formerly MemSQL),8.7.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md
+GDP,GDP 12.1,SingleStore(formerly MemSQL),8.7.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md
+GDP,GDP 12.2,SingleStore(formerly MemSQL),8.7.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md
+GDP,GDP 12.2,Milvus,2.4.4,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-milvus-guardium/README.md
