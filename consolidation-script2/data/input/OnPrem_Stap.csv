@@ -6516,3 +6516,11 @@ GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,ATAP,,,"KTAP, A
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 18.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,ATAP not supported. PostgreSQL bind variables supported
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.5,Windows Server,Windows Server 2022,MS SQL Server Always On,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.0,Windows Server,Windows Server 2022,MS SQL Server Always On,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.1,Windows Server,Windows Server 2022,MS SQL Server Always On,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.2,Windows Server,Windows Server 2022,MS SQL Server Always On,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,11.5,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.0,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.1,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
+GDP,12.2,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
