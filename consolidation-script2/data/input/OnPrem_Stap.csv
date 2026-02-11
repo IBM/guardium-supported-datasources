@@ -2452,12 +2452,6 @@ GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP"
 GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,CentOS,CentOS 7x,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,ATAP with Linux 2.6.36 and higher only
-GDP,12.1,Red Hat,Red Hat 7,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
-GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.1,CentOS,CentOS 7x,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.1,Debian,Debian 11,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.1,Debian,Debian 12.0,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -3580,9 +3574,6 @@ GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 6.0,,STAP,,,STAP,STA
 GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2016,MS SQL Server,MS SQL Server 2014,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server.
 GDP,12.1,Windows Server,Windows Server 2019,MS SQL Server,MS SQL Server 2014,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server.
 GDP,12.1,Windows Server,Windows Server 2016,MS SQL Server,MS SQL Server 2016,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
@@ -3909,8 +3900,7 @@ GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,ST
 GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2017,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016 and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
 GDP,12.1,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2019,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
 GDP,12.1,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
@@ -4070,30 +4060,29 @@ GDP,11.5,Ubuntu,Ubuntu 22.04,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KT
 GDP,11.5,zLinux,zLinux Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
 GDP,12.0,zLinux,zLinux Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
 GDP,12.1,zLinux,zLinux Red Hat 9,IBM Db2,IBM Db2 12.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,
-GDP,11.5,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.1,Red Hat,Red Hat 8,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,Red Hat,Red Hat 9,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,Red Hat,Red Hat 8,Redis,Redis 7.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -4175,7 +4164,7 @@ GDP,12.0,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP
 GDP,12.0,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -4212,8 +4201,8 @@ GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,ST
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2017,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016 and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
 GDP,12.0,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2019,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
 GDP,12.0,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
@@ -4249,7 +4238,6 @@ GDP,12.0,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,CouchDB,Couch 3.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
@@ -4266,8 +4254,8 @@ GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.1,STAP,STAP,,,,ST
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 10.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2017,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",For the Redact scrub function with MSSQL Server 2016 and laterGuardium can parse SQL statements but the encrypted columns cannot be read.
 GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2019,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2019.
 GDP,11.5,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
@@ -4303,7 +4291,6 @@ GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,STAP Except Db2 Exit,STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Oracle Linux,Oracle Linux 8,Oracle ExaCC,Oracle ExaCC 19c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.0,zLinux,zLinux Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.1,zLinux,zLinux Red Hat 8,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
@@ -4358,8 +4345,8 @@ GDP,12.2,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.7,"KTAP, 
 GDP,12.2,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.8,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,supported on x86 and Arm64
 GDP,12.2,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
 GDP,12.1,Suse,Suse 12 64bit,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,Windows Server,Windows Server 2022,Oracle,Oracle 23ai,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP. Oracle Express XE is not supported
@@ -4430,22 +4417,16 @@ GDP,12.2,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.7,STAP,STAP,,,,ST
 GDP,12.2,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,MariaDB,MariaDB 11.5,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.5,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.8,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.8,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.8,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.8,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.0.8,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
+GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.2,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.2,Debian,Debian 12.0,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -5117,12 +5098,6 @@ GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP"
 GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,CentOS,CentOS 7x,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,ATAP with Linux 2.6.36 and higher only
-GDP,12.2,Red Hat,Red Hat 7,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 7.0.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 3.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 3.4,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
@@ -5144,24 +5119,9 @@ GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 6.0,,STAP,,,STAP,STA
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0.5,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.0.5,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,zLinux,zLinux Red Hat 7,MongoDB,MongoDB 5.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 5.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,zLinux,zLinux Red Hat 7,MongoDB,MongoDB 6.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -6195,56 +6155,42 @@ GDP,12.2,Red Hat,Red Hat 9,Yugabyte,Yugabyte 2025.1.0,KTAP,KTAP,,,,KTAP,KTAP,KTA
 GDP,12.2,Suse,Suse 15 64bit,Yugabyte,Yugabyte 2025.1.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 20.04,Yugabyte,Yugabyte 2025.1.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 22.04,Yugabyte,Yugabyte 2025.1.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
-GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.0,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2.1,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2.1,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
 GDP,11.5,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
 GDP,11.5,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,11.5,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -6516,3 +6462,45 @@ GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.2,KTAP,KTAP,ATAP,,,"KTAP, A
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 18.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,ATAP not supported. PostgreSQL bind variables supported
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
 GDP,12.1,Red Hat,Red Hat 10,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported.
+GDP,11.5,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Ubuntu 22,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Ubuntu 22,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Ubuntu 22,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Ubuntu 22,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Ubuntu 22.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Ubuntu 24.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,zLinux,zLinux Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Ubuntu,Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Ubuntu,Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Ubuntu,Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Ubuntu,Ubuntu 22.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,11.5,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.0,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.1,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
+GDP,12.2,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
