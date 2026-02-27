@@ -15,8 +15,8 @@ GDP,GDP 12.0,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardi
 GDP,GDP 12.1,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Oracle Autonomous Database,19c,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Oracle Autonomous Database,21c,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.0,Oracle Autonomous Database,23c,,,,,https://github.com/IBM/Guardium_External_S-TAP
-GDP,GDP 12.0,Oracle Autonomous Database,26ai,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle Autonomous Database,23c,,,,,https://github.com/IBM/Guardium_External_S-TAP
+GDP,GDP 12.1,Oracle Autonomous Database,26ai,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,Oracle Base Database,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.1,IBM Db2,All Versions,,,,,https://github.com/IBM/Guardium_External_S-TAP
 GDP,GDP 12.2,Oracle Autonomous Database,18c,,,,,https://github.com/IBM/Guardium_External_S-TAP
