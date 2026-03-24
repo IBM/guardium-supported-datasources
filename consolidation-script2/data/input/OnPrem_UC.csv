@@ -214,3 +214,5 @@ GDP,GDP 12.1,SingleStore(formerly MemSQL),8.7.1,,,,,https://github.com/IBM/unive
 GDP,GDP 12.2,SingleStore(formerly MemSQL),8.7.1,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md
 GDP,GDP 12.2,Milvus,2.4.4,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-milvus-guardium/README.md
 GDP,GDP 12.2,Sybase ASE,16.0,,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md
+GDP,GDP 12.1,DataStax Enterprise,6.8,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md
+GDP,GDP 12.2,DataStax Enterprise,6.8,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md
