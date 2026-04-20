@@ -5,9 +5,10 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Oracle Autonomous Database"
@@ -21,7 +22,94 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "23c",
+                "26ai"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "23c",
+                "26ai"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "IBM Db2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2"
+            ],
+            "DataSource_Version": [
+                "All Versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Oracle Base Database": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle Base Database"
+            ],
+            "DataSource_Version": [
+                "All Versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
         }
     ]
 }

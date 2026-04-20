@@ -1,41 +1,15 @@
 ﻿{
-    "PostgreSQL": [
+    "IBM Cloud Databases for MongoDB": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0"
             ],
             "DataSource": [
-                "PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "v15"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/IcdPostgresOverKafkaEvent/guardium_logstash-offline-plugin-icd-postgresql.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/README.md"
-        }
-    ],
-    "MongoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "MongoDB"
+                "IBM Cloud Databases for MongoDB"
             ],
             "DataSource_Version": [
                 "4.4"
@@ -45,6 +19,68 @@
             "Notes": "",
             "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.0/logstash-filter-mongodb_guardium_filter.zip",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for MongoDB"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
+        }
+    ],
+    "IBM Cloud Databases for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "v15"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/IcdPostgresOverKafkaEvent/guardium_logstash-offline-plugin-icd-postgresql.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "v15"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/README.md"
         }
     ]
 }

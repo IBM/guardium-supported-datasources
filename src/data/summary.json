@@ -1,765 +1,45 @@
 ﻿{
     "supported_databases": [
         {
-            "database_name": "Oracle Autonomous Database",
-            "environments_supported": [
-                {
-                    "environment_name": "Oracle Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud Spanner",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Snowflake",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MongoDB Atlas",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud MSSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud Apache Solr",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud BigQuery",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud Firebase",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud Firestore",
-            "environments_supported": [
-                {
-                    "environment_name": "GCP (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "IBM DB2 Warehouse",
-            "environments_supported": [
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "DB2",
-            "environments_supported": [
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Elasticsearch",
-            "environments_supported": [
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Teradata",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Informix",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MS SQL Server Always On",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "DB2 Purescale",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MariaDB",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Sybase IQ",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Aster",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "IBM DB2 for zOS",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Redis",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Cloudera",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Oracle Exadata",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Hortonworks",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Neo4j",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "PerconaMySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MemSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Cassandra  Datastax",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "SAP HANA",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Yugabyte",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "database_name": "MS SQL Server",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "STAP"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Couch",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Datasets for zOS",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "CockroachDB",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Cassandra Apache",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MongoDB",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Azure Event Hubs"
-                        }
-                    ]
-                },
-                {
-                    "environment_name": "IBM Cloud (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Oracle",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Couchbase",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Greenplum",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        },
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "OpenSearch",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Sybase ASE",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "MS SQL Server Cluster",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Oracle RAC",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -772,7 +52,531 @@
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "STAP"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Redis",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MongoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Teradata",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Distributed Cloud",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MilvusDB Standalone",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Sybase IQ",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Neo4j",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "SAP HANA",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "SingleStore(formerly MemSQL)",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MariaDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -785,368 +589,156 @@
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "STAP"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Cassandra",
+            "database_name": "IBM Db2",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "IMS for zOS",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure SQL",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "External STAP"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "STAP",
+                            "special_notes": [
+                                "Blocking and redaction are not supported for Db2 for IBM i."
+                            ],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure Synapse Analytics",
-            "environments_supported": [
+                },
                 {
-                    "environment_name": "Azure (Database as a Service)",
+                    "environment_name": "IBM Cloud (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "database_name": "DocumentDB",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Neptune",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for Aurora Postgres",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "AmazonRDS for SQL Server",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for MariaDB",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for Oracle",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Amazon Kinesis"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon S3",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon Aurora MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        },
-                        {
-                            "method_key": "Amazon Kinesis"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon Redshift",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon RDS for Postgres",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Amazon DynamoDB",
-            "environments_supported": [
-                {
-                    "environment_name": "AWS (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        },
-                        {
-                            "method_key": "External STAP"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure MySQL",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure Apache Solr",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure Database for PostgreSQL",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Azure Cosmos",
-            "environments_supported": [
-                {
-                    "environment_name": "Azure (Database as a Service)",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Google Cloud SQL",
-            "environments_supported": [
+                },
                 {
                     "environment_name": "GCP (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Oracle Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Apache Cassandra",
+            "database_name": "CockroachDB",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "HDFS",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
                         {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "ScyllaDB",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "database_name": "Fujistu",
-            "environments_supported": [
-                {
-                    "environment_name": "On-premise or IaaS",
-                    "methods_supported": [
-                        {
-                            "method_key": "Universal Connector"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1159,20 +751,1121 @@
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "Universal Connector"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Intersystems IRIS",
+            "database_name": "Sybase ASE",
             "environments_supported": [
                 {
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "Universal Connector"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Greenplum",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle Autonomous Database",
+            "environments_supported": [
+                {
+                    "environment_name": "Oracle Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud Firebase",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud BigTable",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MongoDB Atlas",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud Firestore",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud Spanner",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud AlloyDB",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud Apache Solr",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Snowflake",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud MSSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud BigQuery",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Elasticsearch",
+            "environments_supported": [
+                {
+                    "environment_name": "IBM Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Cloud Databases for PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "IBM Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Cloud Databases for MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "IBM Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Cloud Databases for MongoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "IBM Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Db2 Warehouse",
+            "environments_supported": [
+                {
+                    "environment_name": "IBM Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Apache Cassandra",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Aster",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "HyperSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "OpenSearch",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "DataStax Enterprise",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Cloudera",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Informix",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Db2 pureScale",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MS SQL Server Always On",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle ExaCC",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Yugabyte",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM Data Sets for z/OS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MarkLogic",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1185,59 +1878,485 @@
                     "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "Universal Connector"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Amazon RDS for PostgreSQL",
+            "database_name": "Percona Server for MySQL",
             "environments_supported": [
                 {
-                    "environment_name": "AWS (Database as a Service)",
+                    "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Amazon RDS for Microsoft SQL Server",
+            "database_name": "IBM Db2 for z/OS",
             "environments_supported": [
                 {
-                    "environment_name": "AWS (Database as a Service)",
+                    "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Amazon ElastiCache for Redis",
+            "database_name": "Couchbase",
             "environments_supported": [
                 {
-                    "environment_name": "AWS (Database as a Service)",
+                    "environment_name": "On-premise or IaaS",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "AWS Fargate",
+            "database_name": "TigerGraph",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "MS SQL Server Cluster",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oceanbase",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Hortonworks",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "IBM IMS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Synapse Analytics",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Database for PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cache for Redis",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure MongoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Managed Redis",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon S3",
             "environments_supported": [
                 {
                     "environment_name": "AWS (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for SQL Server",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1250,49 +2369,722 @@
                     "environment_name": "AWS (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "External STAP"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "method_key": "Amazon Kinesis"
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Amazon Kinesis",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Azure Cosmos Table",
+            "database_name": "DocumentDB",
             "environments_supported": [
                 {
-                    "environment_name": "Azure (Database as a Service)",
+                    "environment_name": "AWS (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Azure Cosmos Gremlin",
+            "database_name": "Teradata VantageCloud Lake",
             "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "environment_name": "Azure (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "database_name": "Azure Cosmos SQL",
+            "database_name": "Amazon DynamoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon Redshift",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon OpenSearch",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for Oracle",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Amazon Kinesis",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for PostgreSQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for MariaDB",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Neptune",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon Aurora MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "Amazon Kinesis",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon RDS for MySQL",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Teradata VantageCloud Enterprise",
             "environments_supported": [
                 {
                     "environment_name": "Azure (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Apache Solr",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')",
+                                        "('GDSC')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Databricks",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cosmos",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Google Cloud SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "GCP (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "TrinoDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "ScyllaDB",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Fujitsu Postgres",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Milvus",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Progressdb",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Intersystems IRIS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "HDFS",
+            "environments_supported": [
+                {
+                    "environment_name": "On-premise or IaaS",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon ElastiCache for Redis(Redis OSS)",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Amazon ElastiCache for Memcached",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "AWS Fargate",
+            "environments_supported": [
+                {
+                    "environment_name": "AWS (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1305,7 +3097,149 @@
                     "environment_name": "Azure (Database as a Service)",
                     "methods_supported": [
                         {
-                            "method_key": "Azure Event Hubs"
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cosmos Table",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cosmos SQL",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Azure Cosmos Gremlin",
+            "environments_supported": [
+                {
+                    "environment_name": "Azure (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Azure Event Hubs",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDSC')",
+                                        "('GDP')",
+                                        "('GDSC GDSC SaaS')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "SAP Rise",
+            "environments_supported": [
+                {
+                    "environment_name": "SAP Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Capella",
+            "environments_supported": [
+                {
+                    "environment_name": "CouchbaseCapella Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "Universal Connector",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "database_name": "Oracle Base Database",
+            "environments_supported": [
+                {
+                    "environment_name": "Oracle Cloud (Database as a Service)",
+                    "methods_supported": [
+                        {
+                            "method_key": "External STAP",
+                            "special_notes": [],
+                            "gdp_types": [
+                                {
+                                    "gdp_type_key": [
+                                        "('GDP')"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
