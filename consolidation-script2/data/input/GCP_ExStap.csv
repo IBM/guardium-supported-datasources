@@ -1,6 +1,6 @@
 GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
 GDP,GDP 11.5,Google Cloud BigQuery,All versions,,,,,
-GDP,GDP 11.5,Google Cloud PostgreSQL,All versions,,,Classification via ISDC,,
+GDP,GDP 11.5,Google Cloud PostgreSQL,All versions in Google Cloud and Google Distributed Cloud,,,Classification via ISDC,,
 GDP,GDP 11.5,Google Cloud SQL,All versions,,,Classification via ISDC. Available for Google Kubernetes Engine (GKE).,,
 GDP,GDP 11.5,MongoDB Atlas,4.2,,,,,
 GDP,GDP 11.5,MongoDB Atlas,4.4,,,,,
