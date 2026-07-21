@@ -225,3 +225,5 @@ GDP,GDP 12.1,EDB Postgres,EDB 15.76,,,,,https://github.com/IBM/universal-connect
 GDP,GDP 12.2,EDB Postgres,EDB 15.76,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md
 GDP,GDP 12.1,AlloyDB Omni,18.1.0,,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md
 GDP,GDP 12.2,AlloyDB Omni,18.1.0,,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md
+GDP,GDP 12.1,Yugabyte,2.25.1.0,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md
+GDP,GDP 12.2,Yugabyte,2.25.1.0,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md
