@@ -69,3 +69,7 @@ GDP,GDP 11.5,Teradata VantageCloud Lake,20.20,,,,https://github.com/IBM/universa
 GDP,GDP 12.0,Teradata VantageCloud Lake,20.20,,,,https://github.com/IBM/universal-connectors/raw/refs/heads/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/logstash-filter-teradatadb_guardium_plugin_filter.zip,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md
 GDP,GDP 12.1,Teradata VantageCloud Lake,20.20,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md
 GDP,GDP 12.2,Teradata VantageCloud Lake,20.20,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md
+GDP,GDP 11.5,Azure SQL Managed Instance,SQL Server 2022,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
+GDP,GDP 12.0,Azure SQL Managed Instance,SQL Server 2022,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
+GDP,GDP 12.1,Azure SQL Managed Instance,SQL Server 2022,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
+GDP,GDP 12.2,Azure SQL Managed Instance,SQL Server 2022,,,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-azure-sql-guardium/README.md
