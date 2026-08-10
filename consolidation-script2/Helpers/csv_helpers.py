@@ -209,9 +209,10 @@ def get_unique_guardium_versions(directory_path, output_file="src/data/consolida
                 versions = re.findall(r"\('([^']+)',? *([^']+)?\)", versions_string)
                 
                 for version_tuple in versions:
-                    for version in version_tuple:
-                        # Clean each version by keeping only digits and decimals               
-                        cleaned_version = re.sub(r'[^\d.]', '', version)
+                    for version in version_tuple:              
+                        # Clean each version by keeping only digits, decimals, and trailing 'x'
+                        # (e.g. "12.x" must be preserved so the UI filter can match it)
+                        cleaned_version = re.sub(r'[^\d.x]', '', version)
                         if cleaned_version:
                             # Remove white space
                             guardium_versions.add(cleaned_version.strip())
