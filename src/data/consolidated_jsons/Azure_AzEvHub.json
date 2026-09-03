@@ -1,81 +1,15 @@
 ﻿{
-    "Azure Cosmos Table": [
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
-            ],
-            "DataSource": [
-                "Azure Cosmos Table"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Azure Cosmos Table"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure Cosmos Table"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "Azure Cosmos Gremlin": [
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
                 "Azure Cosmos Gremlin"
@@ -94,10 +28,10 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Azure Cosmos Gremlin"
@@ -113,10 +47,10 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
                 "Azure Cosmos Gremlin"
@@ -131,27 +65,27 @@
             "Readme_URL": ""
         }
     ],
-    "MongoDB": [
+    "Azure Cassandra": [
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         },
@@ -160,39 +94,39 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cassandra"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP and ISDC",
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -200,14 +134,14 @@
     "Azure Cosmos SQL": [
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
                 "Azure Cosmos SQL"
@@ -226,10 +160,10 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Azure Cosmos SQL"
@@ -245,13 +179,79 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
                 "Azure Cosmos SQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Cosmos Table": [
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Azure Cosmos Table"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure Cosmos Table"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Azure Cosmos Table"
             ],
             "DataSource_Version": [
                 "latest"
@@ -266,83 +266,17 @@
     "Azure SQL": [
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
                 "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GI GI SaaS"
-            ],
-            "Guardium_Version": [
-                "GI SaaS"
-            ],
-            "DataSource": [
-                "Azure SQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "yes",
-            "Classification_supported": "yes",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Cassandra": [
-        {
-            "GDP_Type": [
-                "GI"
-            ],
-            "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.5.0",
-                "GI 3.6.0"
-            ],
-            "DataSource": [
-                "Azure Cassandra"
             ],
             "DataSource_Version": [
                 "latest"
@@ -358,13 +292,13 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cassandra"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -377,13 +311,13 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
-                "Azure Cassandra"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -395,22 +329,64 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Synapse Analytics": [
+    "MongoDB": [
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "14.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Synapse Analytics"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "14.0+"
             ],
             "VA_supported": "",
             "Classification_supported": "",
