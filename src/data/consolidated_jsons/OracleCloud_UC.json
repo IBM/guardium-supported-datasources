@@ -5,9 +5,10 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Oracle Autonomous Database"
@@ -27,7 +28,8 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 12.1.0"
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Oracle Autonomous Database"
