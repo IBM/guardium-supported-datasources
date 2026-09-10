@@ -1,17 +1,17 @@
 ﻿{
-    "Amazon Aurora MySQL": [
+    "Amazon Aurora PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon Aurora PostgreSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -24,16 +24,16 @@
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon Aurora PostgreSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -46,13 +46,13 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon Aurora PostgreSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -64,19 +64,19 @@
             "Readme_URL": ""
         }
     ],
-    "Amazon Aurora PostgreSQL": [
+    "Amazon Aurora MySQL": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -89,16 +89,16 @@
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -111,13 +111,13 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -135,10 +135,10 @@
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.4.0",
-                "GDP 11.5.0",
-                "GDP 12.0.0",
-                "GDP 12.1.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
                 "Amazon RDS for Oracle"
@@ -154,13 +154,13 @@
         },
         {
             "GDP_Type": [
-                "GI"
+                "GDSC"
             ],
             "Guardium_Version": [
-                "GI 3.2.0",
-                "GI 3.3.0",
-                "GI 3.4.0",
-                "GI 3.6.0"
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.6.0"
             ],
             "DataSource": [
                 "Amazon RDS for Oracle"
@@ -176,10 +176,10 @@
         },
         {
             "GDP_Type": [
-                "GI GI SaaS"
+                "GDSC GDSC SaaS"
             ],
             "Guardium_Version": [
-                "GI SaaS"
+                "GDSC SaaS"
             ],
             "DataSource": [
                 "Amazon RDS for Oracle"

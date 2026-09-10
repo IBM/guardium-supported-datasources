@@ -1,0 +1,23 @@
+﻿{
+    "Capella": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Capella"
+            ],
+            "DataSource_Version": [
+                "1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-capella-guardium/README.md"
+        }
+    ]
+}
