@@ -59,6 +59,16 @@
   margin-bottom: "5px";
 }
 
+.va-toggle-filter {
+  display: flex;
+  flex-direction: column;
+
+  // Align the toggle itself to match the label's left padding
+  .bx--toggle-input__label {
+    padding-left: 10px;
+  }
+}
+
 .main-page-data-link {
   right: 2rem;
   top: 0.5rem;
@@ -93,6 +103,12 @@
   margin: 0;
   padding: 0;
   border-color: black;
+}
+
+.mainPageDividerFooter {
+  border-color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mainPageCardsContainer {
@@ -421,6 +437,24 @@ td.uk-background-muted {
 
     .bx--accordion {
       overflow: auto;
+    }
+  }
+
+  &__va-info {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #c6c6c6;
+
+    h6 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.8125rem;
+      color: #525252;
+      line-height: 1.4;
     }
   }
 

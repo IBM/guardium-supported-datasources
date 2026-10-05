@@ -11,6 +11,8 @@ import ModalMainPanel from "./ModalMainPanel/ModalMainPanel";
 import PanelCollapsibleInfo from "./ModalLeftPanel/PanelCollapsibleInfo";
 import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 
+const { datasources: vaDatasources } = require("../../data/VA_datasources.json");
+
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({
   selectedDataSourceData,
@@ -153,6 +155,13 @@ export default function DatasourceModal({
               setToolTipOpen={setToolTipOpen}
             />
           ) : null}
+
+          {vaDatasources[selectedDataSourceData.database_name]?.va_supported && (
+            <div className={`${BLOCK_CLASS}__va-info`}>
+              <h6>Vulnerability Assessment</h6>
+              <p>{vaDatasources[selectedDataSourceData.database_name].va_notes}</p>
+            </div>
+          )}
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>

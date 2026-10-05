@@ -1,5 +1,5 @@
 ﻿{
-    "Amazon OpenSearch": [
+    "Amazon Aurora PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -8,7 +8,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Amazon OpenSearch"
+                "Amazon Aurora PostgreSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -17,70 +17,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OpensearchCloudwatchKafkaConnect.md"
-        }
-    ],
-    "Amazon RDS for MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon RDS for MySQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RDSMySqlCloudwatchKafkaConnect.md"
-        }
-    ],
-    "Amazon S3": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon S3"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AwsS3OverCloudwatchKafkaConnectProfile.md"
-        }
-    ],
-    "Amazon Aurora MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon Aurora MySQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraMySqlCloudwatchKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraPostgresCloudwatchKafkaConnect.md"
         }
     ],
     "Amazon RDS for SQL Server": [
@@ -104,7 +41,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AWSMsSQLJDBCKafkaConnect.md"
         }
     ],
-    "Amazon DynamoDB": [
+    "Amazon RDS for MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -113,7 +50,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Amazon DynamoDB"
+                "Amazon RDS for MySQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -122,91 +59,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/DynamoDBCloudwatchKafkaConnect.md"
-        }
-    ],
-    "Amazon RDS for MariaDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon RDS for MariaDB"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MariaDBCloudwatchKafkaConnect.md"
-        }
-    ],
-    "MongoDB Atlas": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md"
-        }
-    ],
-    "Amazon RDS for Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OracleRDSOverCloudwatchKafkaConnect.md"
-        }
-    ],
-    "Amazon Redshift": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Amazon Redshift"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RedshiftCloudwatchKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RDSMySqlCloudwatchKafkaConnect.md"
         }
     ],
     "Amazon RDS for PostgreSQL": [
@@ -230,7 +83,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/PostgresqlCloudwatchKafkaConnect.md"
         }
     ],
-    "Amazon Aurora PostgreSQL": [
+    "MongoDB Atlas": [
         {
             "GDP_Type": [
                 "GDP"
@@ -239,7 +92,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "MongoDB Atlas"
             ],
             "DataSource_Version": [
                 "latest"
@@ -248,7 +101,133 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraPostgresCloudwatchKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md"
+        }
+    ],
+    "Amazon Redshift": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon Redshift"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RedshiftCloudwatchKafkaConnect.md"
+        }
+    ],
+    "Amazon OpenSearch": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon OpenSearch"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OpensearchCloudwatchKafkaConnect.md"
+        }
+    ],
+    "Amazon S3": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon S3"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AwsS3OverCloudwatchKafkaConnectProfile.md"
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+        }
+    ],
+    "Amazon RDS for Oracle": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon RDS for Oracle"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OracleRDSOverCloudwatchKafkaConnect.md"
+        }
+    ],
+    "Amazon RDS for MariaDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon RDS for MariaDB"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MariaDBCloudwatchKafkaConnect.md"
         }
     ],
     "DocumentDB": [
@@ -272,7 +251,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/DocumentDBCloudwatchKafkaConnect.md"
         }
     ],
-    "Snowflake": [
+    "Amazon Aurora MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -281,7 +260,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Snowflake"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -290,7 +269,28 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraMySqlCloudwatchKafkaConnect.md"
+        }
+    ],
+    "Amazon DynamoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/DynamoDBCloudwatchKafkaConnect.md"
         }
     ]
 }

@@ -1,4 +1,25 @@
 ﻿{
+    "Azure MongoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Azure MongoDB"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -18,27 +39,6 @@
                 "4.4",
                 "5",
                 "6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Managed Redis": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Azure Managed Redis"
-            ],
-            "DataSource_Version": [
-                "All versions"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -71,28 +71,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cache for Redis": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Azure Cache for Redis"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Database for PostgreSQL": [
+    "Snowflake": [
         {
             "GDP_Type": [
                 "GDP"
@@ -104,7 +83,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Database for PostgreSQL"
+                "Snowflake"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -140,19 +119,16 @@
             "Readme_URL": ""
         }
     ],
-    "Snowflake": [
+    "Azure Managed Redis": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Snowflake"
+                "Azure Managed Redis"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -164,16 +140,19 @@
             "Readme_URL": ""
         }
     ],
-    "Azure MongoDB": [
+    "Azure Database for PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 12.0"
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Azure MongoDB"
+                "Azure Database for PostgreSQL"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -205,6 +184,27 @@
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Cache for Redis": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure Cache for Redis"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }

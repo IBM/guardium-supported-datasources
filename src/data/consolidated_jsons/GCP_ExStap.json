@@ -1,31 +1,4 @@
 ﻿{
-    "MongoDB Atlas": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MongoDB Atlas"
-            ],
-            "DataSource_Version": [
-                "4.2",
-                "4.4",
-                "5",
-                "6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "Google Cloud BigQuery": [
         {
             "GDP_Type": [
@@ -50,7 +23,26 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL for MySQL": [
+    "Google Cloud SQL for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions in Google Cloud and Google Distributed Cloud"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
         {
             "GDP_Type": [
                 "GDP"
@@ -61,7 +53,30 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for MySQL"
+                "Google Cloud SQL for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud SQL for SQL Server": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for SQL Server"
             ],
             "DataSource_Version": [
                 "All Versions"
@@ -139,21 +154,25 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL for SQL Server": [
+    "MongoDB Atlas": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
+                "GDP 11.5",
                 "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for SQL Server"
+                "MongoDB Atlas"
             ],
             "DataSource_Version": [
-                "All Versions"
+                "4.2",
+                "4.4",
+                "5",
+                "6"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -184,26 +203,7 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL for PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "All versions in Google Cloud and Google Distributed Cloud"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
+    "Google Cloud SQL for MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -214,10 +214,10 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
+                "Google Cloud SQL for MySQL"
             ],
             "DataSource_Version": [
-                "All versions"
+                "All Versions"
             ],
             "VA_supported": "",
             "Classification_supported": "",

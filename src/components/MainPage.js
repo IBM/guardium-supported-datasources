@@ -2,7 +2,7 @@
 // Clicking on a datasource will open up a modal with compatibility information
 // for that datasource
 
-import { Loading } from "@carbon/ibm-security";
+import { Loading, Toggle } from "@carbon/ibm-security";
 import React, { useState, useEffect, useCallback } from "react";
 
 import {
@@ -20,6 +20,7 @@ import MainPageFooter from "./MainPageComponents/MainPageFooter";
 import { BLOCK_CLASS, UNIQUE_OS_NAMES } from "../helpers/consts";
 import MainPageMethodDropdown from "./MainPageComponents/MainPageMethodDropDown";
 import MainPageOSDropdown from "./MainPageComponents/MainPageOSDropDown";
+import DropDownLabel from "./MainPageComponents/MainPageDropDownLabel";
 import {useTooltip} from '../context/TooltipContext';
 
 
@@ -27,7 +28,8 @@ import "./../styles/connection_doc.scss";
 
 // Import 'supported_databases' and 'methods' from the corresponding files
 const { supported_databases } = require(`../data/summary.json`);
-const { methods } = require(`../data/MethodsInfo.json`)
+const { methods } = require(`../data/MethodsInfo.json`);
+const { datasources: vaDatasources } = require(`../data/VA_datasources.json`);
 
 const methodArray = [
   "All",
@@ -64,6 +66,7 @@ export default function MainPage() {
 
   const [selectedOS, setSelectedOS] = useState("All");
 
+  const [vaOnly, setVaOnly] = useState(false);
 
   const handleClickAnywhere = () => {
     setOpenTooltipId(null); // close any tooltip
@@ -73,14 +76,19 @@ export default function MainPage() {
     let searchedConnectionData = handleSearchBar(searchValue, fullConnectionData);
     let filteredConnectionData = handleProductFilter("All", searchedConnectionData);
     filteredConnectionData = handleMethodFilter("All", selectedMethod, selectedOS, filteredConnectionData);
-    
+
+    if (vaOnly) {
+      filteredConnectionData = filteredConnectionData.filter((item) =>
+        vaDatasources[item.database_name]?.va_supported === true
+      );
+    }
   
     setConnectionData(prevData =>
       JSON.stringify(prevData) !== JSON.stringify(filteredConnectionData) ? filteredConnectionData : prevData
     );
   
     return filteredConnectionData;
-  }, [searchValue, selectedMethod, selectedOS]);
+  }, [searchValue, selectedMethod, selectedOS, vaOnly]);
 
   useEffect(() => {
     handleSearchAndFilter();
@@ -112,18 +120,27 @@ export default function MainPage() {
             selectedMethod={selectedMethod}
             setSelectedMethod={setSelectedMethod}
           />
-          {selectedMethod === "Agent (S-TAP)"? 
-          (<MainPageOSDropdown 
-            OSlist={UNIQUE_OS_NAMES} 
-            selectedOS={selectedOS} 
+          {selectedMethod === "Agent (S-TAP)"?
+          (<MainPageOSDropdown
+            OSlist={UNIQUE_OS_NAMES}
+            selectedOS={selectedOS}
             setSelectedOS={setSelectedOS}/>):null}
-            
-        
+
+          <div className="mainPageDropdown va-toggle-filter">
+            <DropDownLabel label="VA (Vulnerability Assessment) support" />
+            <Toggle
+              id="va-filter-toggle"
+              labelA="Off"
+              labelB="On"
+              toggled={vaOnly}
+              onToggle={(checked) => setVaOnly(checked)}
+            />
           </div>
+        </div>
 
         
 
-        {/* Divider */}
+        {/* Divider — above cards */}
         <hr className="mainPageDivider" />
 
         {/* All DataSource Cards within Container */}
@@ -149,6 +166,8 @@ export default function MainPage() {
             setOpen={setOpen}
           />
         ): null}
+        {/* Divider — above footer */}
+        <hr className="mainPageDivider mainPageDividerFooter" />
         <MainPageFooter />
       </div>
     </>
