@@ -1,0 +1,61 @@
+{
+    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/docs/en/gdp/12.x?topic=classification-system-requirements-data-source-support. Keys must exactly match the database_name values in summary.json. udc_notes holds scope, preview support, and SSL support from that page.",
+    "datasources": {
+        "CockroachDB": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview supported."
+        },
+        "Couchbase": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview not supported."
+        },
+        "IBM Db2": {
+            "udc_supported": true,
+            "udc_notes": "On-premises (Db2 LUW). Sensitive data preview and SSL supported."
+        },
+        "IBM Db2 for z/OS": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview and SSL supported."
+        },
+        "EDB Postgres": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview supported."
+        },
+        "Greenplum": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview supported."
+        },
+        "IBM Informix": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview not supported."
+        },
+        "MariaDB": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview supported."
+        },
+        "MongoDB": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview and SSL supported."
+        },
+        "MS SQL Server": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview supported. SSL supported."
+        },
+        "MySQL": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview and SSL supported."
+        },
+        "Oracle": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview and SSL supported."
+        },
+        "PostgreSQL": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview and SSL supported."
+        },
+        "SAP HANA": {
+            "udc_supported": true,
+            "udc_notes": "On-premises. Sensitive data preview not supported."
+        }
+    }
+}

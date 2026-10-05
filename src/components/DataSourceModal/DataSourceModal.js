@@ -12,6 +12,7 @@ import PanelCollapsibleInfo from "./ModalLeftPanel/PanelCollapsibleInfo";
 import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 
 const { datasources: vaDatasources } = require("../../data/VA_datasources.json");
+const { datasources: udcDatasources } = require("../../data/UDC_datasources.json");
 
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({
@@ -160,6 +161,13 @@ export default function DatasourceModal({
             <div className={`${BLOCK_CLASS}__va-info`}>
               <h6>Vulnerability Assessment</h6>
               <p>{vaDatasources[selectedDataSourceData.database_name].va_notes}</p>
+            </div>
+          )}
+
+          {udcDatasources[selectedDataSourceData.database_name]?.udc_supported && (
+            <div className={`${BLOCK_CLASS}__va-info`}>
+              <h6>Discover &amp; Classify</h6>
+              <p>{udcDatasources[selectedDataSourceData.database_name].udc_notes}</p>
             </div>
           )}
         </div>

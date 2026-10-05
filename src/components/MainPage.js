@@ -30,6 +30,7 @@ import "./../styles/connection_doc.scss";
 const { supported_databases } = require(`../data/summary.json`);
 const { methods } = require(`../data/MethodsInfo.json`);
 const { datasources: vaDatasources } = require(`../data/VA_datasources.json`);
+const { datasources: udcDatasources } = require(`../data/UDC_datasources.json`);
 
 const methodArray = [
   "All",
@@ -67,6 +68,7 @@ export default function MainPage() {
   const [selectedOS, setSelectedOS] = useState("All");
 
   const [vaOnly, setVaOnly] = useState(false);
+  const [udcOnly, setUdcOnly] = useState(false);
 
   const handleClickAnywhere = () => {
     setOpenTooltipId(null); // close any tooltip
@@ -82,13 +84,19 @@ export default function MainPage() {
         vaDatasources[item.database_name]?.va_supported === true
       );
     }
+
+    if (udcOnly) {
+      filteredConnectionData = filteredConnectionData.filter((item) =>
+        udcDatasources[item.database_name]?.udc_supported === true
+      );
+    }
   
     setConnectionData(prevData =>
       JSON.stringify(prevData) !== JSON.stringify(filteredConnectionData) ? filteredConnectionData : prevData
     );
   
     return filteredConnectionData;
-  }, [searchValue, selectedMethod, selectedOS, vaOnly]);
+  }, [searchValue, selectedMethod, selectedOS, vaOnly, udcOnly]);
 
   useEffect(() => {
     handleSearchAndFilter();
@@ -127,13 +135,24 @@ export default function MainPage() {
             setSelectedOS={setSelectedOS}/>):null}
 
           <div className="mainPageDropdown va-toggle-filter">
-            <DropDownLabel label="VA (Vulnerability Assessment) support" />
+            <DropDownLabel label="Vulnerability Assessment support" />
             <Toggle
               id="va-filter-toggle"
               labelA="Off"
               labelB="On"
               toggled={vaOnly}
               onToggle={(checked) => setVaOnly(checked)}
+            />
+          </div>
+
+          <div className="mainPageDropdown va-toggle-filter">
+            <DropDownLabel label="Discover & Classify support" />
+            <Toggle
+              id="udc-filter-toggle"
+              labelA="Off"
+              labelB="On"
+              toggled={udcOnly}
+              onToggle={(checked) => setUdcOnly(checked)}
             />
           </div>
         </div>
