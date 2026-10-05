@@ -1,0 +1,13 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),('GDP 12.1'),('AlloyDB Omni'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md
+('GDP'),('GDP 12.1'),('CockroachDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md
+('GDP'),('GDP 12.1'),('MS SQL Server'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MsSQLOnPremJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('MongoDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoDBSyslogKafkaConnect.md
+('GDP'),('GDP 12.1'),('Neo4j'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/Neo4jSyslogKafkaConnect.md
+('GDP'),('GDP 12.1'),('Oracle'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OuaOverConnectJdbcReadme.md
+('GDP'),('GDP 12.1'),('SAP HANA'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SapHanaJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('Snowflake'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('Sybase ASE'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('Teradata'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/TeradataJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('YugabyteDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md
+('GDP'),('GDP 12.2.4'),('NetApp ONTAP NAS'),('ONTAP 9.10+'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/NetAppOntapKafkaConnect.md

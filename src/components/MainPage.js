@@ -15,9 +15,9 @@ import {
 import DatasourceModal from "./DataSourceModal/DataSourceModal";
 import MainPageCard from "./MainPageComponents/MainPageCard";
 import MainPageSearchBar from "./MainPageComponents/MainPageSearchBar";
-import MainPageDropdown from "./MainPageComponents/MainPageDropDown";
 import MainPageHeader from "./MainPageComponents/MainPageHeader";
-import { BLOCK_CLASS, PRODUCTS, UNIQUE_OS_NAMES } from "../helpers/consts";
+import MainPageFooter from "./MainPageComponents/MainPageFooter";
+import { BLOCK_CLASS, UNIQUE_OS_NAMES } from "../helpers/consts";
 import MainPageMethodDropdown from "./MainPageComponents/MainPageMethodDropDown";
 import MainPageOSDropdown from "./MainPageComponents/MainPageOSDropDown";
 import {useTooltip} from '../context/TooltipContext';
@@ -48,9 +48,6 @@ export default function MainPage() {
   //connectionData - Data loaded from json for current display, fullConnectionData filtered based on product filter
   const [connectionData, setConnectionData] = useState(fullConnectionData);
 
-  // selectedProduct - selected product for filtering datasources
-  const [selectedProduct, setSelectedProduct] = useState("All");
-
   //searchValue - value of searchbar
   const [searchValue, setSearchValue] = useState("");
 
@@ -74,16 +71,16 @@ export default function MainPage() {
 
   const handleSearchAndFilter = useCallback(() => {
     let searchedConnectionData = handleSearchBar(searchValue, fullConnectionData);
-    let filteredConnectionData = handleProductFilter(selectedProduct, searchedConnectionData);
-    filteredConnectionData = handleMethodFilter(selectedProduct, selectedMethod, selectedOS, filteredConnectionData);
+    let filteredConnectionData = handleProductFilter("All", searchedConnectionData);
+    filteredConnectionData = handleMethodFilter("All", selectedMethod, selectedOS, filteredConnectionData);
     
   
-    setConnectionData(prevData => 
+    setConnectionData(prevData =>
       JSON.stringify(prevData) !== JSON.stringify(filteredConnectionData) ? filteredConnectionData : prevData
     );
   
     return filteredConnectionData;
-  }, [searchValue, selectedProduct, selectedMethod, selectedOS]); 
+  }, [searchValue, selectedMethod, selectedOS]);
 
   useEffect(() => {
     handleSearchAndFilter();
@@ -110,14 +107,7 @@ export default function MainPage() {
         </div>
         
         <div className="MainPageFilters">
-          {/* Filter DropDown */}
-          <MainPageDropdown
-            PRODUCTS={PRODUCTS}
-            // handleSearchAndFilter={handleSearchAndFilter}
-            selectedProduct={selectedProduct}
-            setSelectedProduct={setSelectedProduct}
-          />
-           <MainPageMethodDropdown
+          <MainPageMethodDropdown
             methods={methodArray}
             selectedMethod={selectedMethod}
             setSelectedMethod={setSelectedMethod}
@@ -155,10 +145,11 @@ export default function MainPage() {
           <DatasourceModal
             open={open}
             selectedDataSourceData={selectedDataSourceData}
-            selectedProduct={selectedProduct}
+            selectedProduct="All"
             setOpen={setOpen}
           />
         ): null}
+        <MainPageFooter />
       </div>
     </>
   ) : (

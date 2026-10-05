@@ -220,3 +220,33 @@
   justify-content: space-between;
   padding-bottom: 6px;
 }
+
+.main-page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 16px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 12px;
+  color: #6f6f6f;
+}
+
+.main-page-footer-left {
+  text-align: left;
+}
+
+.main-page-footer-right {
+  text-align: right;
+}
+
+.main-page-footer-link {
+  color: #0f62fe;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-page-footer-link:hover {
+  text-decoration: underline;
+}

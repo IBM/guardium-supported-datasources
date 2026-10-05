@@ -137,8 +137,16 @@ export function filterNumbersInRange(item, lowerBound, upperBound) {
 export function FiltersForTableType1(GDPVersions, sortedData, selectedOS) {
 
   sortedData = sortedData.filter((item) => {
-    
-    let matched = GDPVersions?.some((gv) => item.GuardiumVersion.includes(gv));
+    // A row matches if any selected version either:
+    // (a) is an exact match for a version in the row, OR
+    // (b) is a sub-version of a version in the row
+    //     e.g. selecting "12.2.2" should also match rows tagged "12.2"
+    //     because "12.2" means "supported from the 12.2 release line onward"
+    let matched = GDPVersions?.some((gv) =>
+      item.GuardiumVersion.some(
+        (rowGv) => rowGv === gv || gv.startsWith(rowGv + ".")
+      )
+    );
 
     return matched;
   });

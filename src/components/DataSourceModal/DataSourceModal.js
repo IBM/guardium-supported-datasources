@@ -14,7 +14,6 @@ import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({
   selectedDataSourceData,
-  selectedProduct,
   setOpen,
   open,
 }) {
@@ -143,7 +142,6 @@ export default function DatasourceModal({
             <MethodDropDown
               selectedMethodData={selectedMethodData}
               selectedEnvironmentData={selectedEnvironmentData}
-              selectedProduct={selectedProduct}
               setSelectedMethodData={setSelectedMethodData}
             />
           ) : null}
@@ -178,7 +176,6 @@ DatasourceModal.propTypes = {
   selectedDataSourceData: PropTypes.shape({
     database_name: PropTypes.string.isRequired,
   }).isRequired, // Object with a database_name string field
-  selectedProduct: PropTypes.string,
   setOpen: PropTypes.func.isRequired,
   open: PropTypes.bool.isRequired,
 };

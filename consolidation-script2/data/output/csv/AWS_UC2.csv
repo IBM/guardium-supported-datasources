@@ -1,0 +1,15 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),('GDP 12.1'),('Amazon Aurora MySQL'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraMySqlCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon Aurora PostgreSQL'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AuroraPostgresCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon DynamoDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/DynamoDBCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon OpenSearch'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OpensearchCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon RDS for MariaDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MariaDBCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon RDS for MySQL'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RDSMySqlCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon RDS for Oracle'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OracleRDSOverCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon RDS for PostgreSQL'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/PostgresqlCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon RDS for SQL Server'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AWSMsSQLJDBCKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon Redshift'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RedshiftCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('Amazon S3'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AwsS3OverCloudwatchKafkaConnectProfile.md
+('GDP'),('GDP 12.1'),('DocumentDB'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/DocumentDBCloudwatchKafkaConnect.md
+('GDP'),('GDP 12.1'),('MongoDB Atlas'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md
+('GDP'),('GDP 12.1'),('Snowflake'),('latest'),,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md

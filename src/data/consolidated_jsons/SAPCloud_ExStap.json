@@ -1,0 +1,23 @@
+﻿{
+    "SAP Rise": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "SAP Rise"
+            ],
+            "DataSource_Version": [
+                "SAP S/4HANA Cloud Private Edition"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ]
+}
