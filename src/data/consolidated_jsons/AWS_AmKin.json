@@ -1,5 +1,5 @@
 ﻿{
-    "Amazon RDS for SQL Server": [
+    "Amazon Aurora MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,15 +11,37 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon RDS for SQL Server"
+                "Amazon Aurora MySQL"
             ],
             "DataSource_Version": [
-                "2022"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "Datastream only.",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Amazon Aurora MySQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
             "Readme_URL": ""
         }
     ],
@@ -138,7 +160,7 @@
             "Readme_URL": ""
         }
     ],
-    "Amazon Aurora MySQL": [
+    "Amazon RDS for SQL Server": [
         {
             "GDP_Type": [
                 "GDP"
@@ -150,37 +172,15 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon Aurora MySQL"
+                "Amazon RDS for SQL Server"
             ],
             "DataSource_Version": [
-                "latest"
+                "2022"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.2.0",
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Amazon Aurora MySQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
+            "Download_URL": "Datastream only.",
             "Readme_URL": ""
         }
     ]

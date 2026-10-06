@@ -64,7 +64,7 @@
             "Readme_URL": ""
         }
     ],
-    "MongoDB": [
+    "Azure Cosmos DB for Table": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -77,10 +77,10 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos DB for Table"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -98,10 +98,10 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos DB for Table"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -117,10 +117,10 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "MongoDB"
+                "Azure Cosmos DB for Table"
             ],
             "DataSource_Version": [
-                "14.0+"
+                "latest"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -129,7 +129,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos DB for NoSQL": [
+    "Azure SQL": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -142,7 +142,7 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -163,7 +163,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -182,7 +182,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure SQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -259,7 +259,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos DB for Table": [
+    "Azure Cosmos DB for NoSQL": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -272,7 +272,7 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "Azure Cosmos DB for NoSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -293,7 +293,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "Azure Cosmos DB for NoSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -312,7 +312,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "Azure Cosmos DB for NoSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -389,7 +389,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure SQL": [
+    "MongoDB": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -402,10 +402,10 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure SQL"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -423,10 +423,10 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure SQL"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "VA_supported": "",
             "Classification_supported": "",
@@ -442,10 +442,10 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure SQL"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "VA_supported": "",
             "Classification_supported": "",

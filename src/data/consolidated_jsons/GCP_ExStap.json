@@ -1,70 +1,4 @@
 ﻿{
-    "Google Cloud BigQuery": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Google Cloud SQL for PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "All versions in Google Cloud and Google Distributed Cloud"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via ISDC",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
     "Google Cloud SQL for SQL Server": [
         {
             "GDP_Type": [
@@ -130,7 +64,7 @@
             "Readme_URL": ""
         }
     ],
-    "Snowflake": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -142,7 +76,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Snowflake"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -181,6 +115,71 @@
             "Readme_URL": ""
         }
     ],
+    "Google Cloud SQL for MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "All Versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud SQL for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions in Google Cloud and Google Distributed Cloud"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "Classification via ISDC",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
     "IBM Db2": [
         {
             "GDP_Type": [
@@ -203,21 +202,22 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL for MySQL": [
+    "Snowflake": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
+                "GDP 11.5",
                 "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for MySQL"
+                "Snowflake"
             ],
             "DataSource_Version": [
-                "All Versions"
+                "All versions"
             ],
             "VA_supported": "",
             "Classification_supported": "",

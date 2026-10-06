@@ -1,4 +1,4 @@
-GDP_Type,GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol,Notes
+﻿GDP_Type,GuardiumVersion,OSName,OSVersion,DatabaseName,DatabaseVersion,Network traffic,Local traffic,Encrypted traffic,Shared Memory,Kerberos,Blocking,Redaction,UID Chain,Compression,Query Rewrite,Instance Discovery,Protocol,Notes
 GDP,11.5,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,11.5,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,11.5,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
@@ -11,14 +11,14 @@ GDP,11.5,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","K
 GDP,11.5,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,11.5,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,11.5,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,11.5,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,11.5,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,11.5,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,11.5,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,11.5,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,11.5,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,11.5,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,11.5,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,11.5,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,11.5,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,11.5,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,11.5,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,11.5,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
@@ -43,11 +43,11 @@ GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Na
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,CentOS,CentOS 7x,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,11.5,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,11.5,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,11.5,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -94,7 +94,7 @@ GDP,11.5,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,11.5,Solaris,Solaris 10,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,11.5,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
 GDP,11.5,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
-GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
+GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
 GDP,11.5,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -114,7 +114,7 @@ GDP,11.5,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,11.5,Solaris,Solaris 10,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.5,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.5,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
-GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
+GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,11.5,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
@@ -162,7 +162,7 @@ GDP,11.5,Red Hat,Red Hat 9,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP"
 GDP,11.5,Solaris,Solaris 10,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versionof Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,11.5,Solaris,Solaris 11.2,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,11.5,Solaris,Solaris 11.3,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
-GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
+GDP,11.5,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,11.5,Suse,Suse 12 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Suse,Suse 15 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher. ATAP with Linux 2.6.36 and higher only.
 GDP,11.5,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
@@ -293,18 +293,18 @@ GDP,11.5,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local
 GDP,11.5,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,,Yes,,Yes,,,,,,,
 GDP,11.5,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,,Yes,,Yes,,,,,,,
 GDP,11.5,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,,Yes,,Yes,,,,,,,
-GDP,11.5,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes, Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v12, Yes , Yes , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes, Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes, Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes,Yes,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,, Yes, Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,,  Yes	  , Yes ,,,,,,,,,,
-GDP,11.5,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes , Yes ,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v12, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes,Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,, Yes, Yes,,,,,,,,,,
+GDP,11.5,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes, Yes,,,,,,,,,,
 GDP,11.5,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,11.5,AIX,AIX 7.3,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,11.5,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,,ATAP with Linux 2.6.36 and higher only.
@@ -985,14 +985,14 @@ GDP,12.0,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","K
 GDP,12.0,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.0,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.0,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,12.0,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.0,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.0,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.0,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.0,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.0,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.0,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.0,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.0,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.0,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.0,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.0,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.0,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
@@ -1017,11 +1017,11 @@ GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Na
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,CentOS,CentOS 7x,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.0,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.0,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.0,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -1069,7 +1069,7 @@ GDP,12.0,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.0,Solaris,Solaris 10,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.0,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
 GDP,12.0,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
-GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
+GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
 GDP,12.0,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.0,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.0,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -1087,7 +1087,7 @@ GDP,12.0,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.0,Solaris,Solaris 10,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.0,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.0,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
-GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
+GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.0,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.0,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.0,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
@@ -1133,7 +1133,7 @@ GDP,12.0,Red Hat,Red Hat 9,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP"
 GDP,12.0,Solaris,Solaris 10,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versionof Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.0,Solaris,Solaris 11.2,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.0,Solaris,Solaris 11.3,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
-GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
+GDP,12.0,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.0,Suse,Suse 12 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.0,Suse,Suse 15 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.0,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
@@ -1616,8 +1616,8 @@ GDP,12.0,Solaris,Solaris 10,PostgreSQL,PostgreSQL 10,KTAP 9.3 to 9.5,KTAP9.3 to 
 GDP,12.0,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 10,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported
 GDP,12.0,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 10,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported
 GDP,12.0,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 10,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,12.0,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported. 
-GDP,12.0,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported. 
+GDP,12.0,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported.
+GDP,12.0,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 10,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,PostgreSQL bind variables supported.
 GDP,12.0,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.0,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 11,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,ATAP with Linux 2.6.36 and higher only
 GDP,12.0,Debian,Debian 11,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
@@ -1925,18 +1925,18 @@ GDP,12.0,Red Hat,Red Hat 8,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,
 GDP,12.0,Red Hat,Red Hat 9,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.0,Suse,Suse 12 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.0,Suse,Suse 15 64bit,Vertica,Vertica 9.3,KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.0,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes, Yes, Yes,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes , Yes ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v12, Yes , Yes , Yes ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes , Yes , Yes ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version, , Yes, Yes,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,  ,  Yes	  ,  Yes	  ,,,,,,,,,,
-GDP,12.0,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,  , Yes , Yes ,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v12, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v13,Yes,Yes,Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,, Yes, Yes,,,,,,,,,,
+GDP,12.0,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes, Yes,,,,,,,,,,
 GDP,12.1,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.1,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.1,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
@@ -1953,14 +1953,14 @@ GDP,12.1,CentOS,CentOS 7x,Apache Cassandra,Cassandra 4.1.3,"KTAP, Audit Plugin",
 GDP,12.1,Red Hat,Red Hat 7,Apache Cassandra,Cassandra 4.1.3,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE Cassandra Compression supported
 GDP,12.1,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 4.1.3,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.1,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 4.1.3,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,12.1,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.1,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.1,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.1,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.1,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.1,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.1,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.1,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.1,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.1,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.1,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.1,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.1,CentOS,CentOS 7x,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 2.6,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,Yes,,
@@ -1985,11 +1985,11 @@ GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Na
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,CentOS,CentOS 7x,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.1,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.1,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.1,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -2042,7 +2042,7 @@ GDP,12.1,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.1,Solaris,Solaris 10,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.1,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
 GDP,12.1,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
-GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
+GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
 GDP,12.1,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.1,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.1,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -2060,7 +2060,7 @@ GDP,12.1,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.1,Solaris,Solaris 10,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.1,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.1,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
-GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
+GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.1,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.1,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.1,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
@@ -2106,7 +2106,7 @@ GDP,12.1,Red Hat,Red Hat 9,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP"
 GDP,12.1,Solaris,Solaris 10,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versionof Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.1,Solaris,Solaris 11.2,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.1,Solaris,Solaris 11.3,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
-GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
+GDP,12.1,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.1,Suse,Suse 12 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.1,Suse,Suse 15 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.1,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
@@ -2230,24 +2230,24 @@ GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,,Yes,,Yes,,I
 GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 11,Yes,Yes,,Yes,,Yes,,ID propagation is supported.,,,,,
 GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,,Yes,,Yes,,ID propagation is supported,,,,,
 GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 12.0,Yes,Yes,,Yes,,Yes,,ID propagation is supported,,,,,
-GDP,12.1,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes ,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v12, Yes , Yes ,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v12, Yes, Yes,,,,,,,,,,,
 GDP,12.1,z/OS,z/OS 2.3,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,,Yes,,Yes,,ID propagation is supported,,,,,
-GDP,12.1,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes , Yes,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes , Yes ,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes , Yes ,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes, Yes,,,,,,,,,,,
 GDP,12.1,z/OS,z/OS 2.4,IBM Db2 for z/OS,IBM Db2 for z/OS 13,Yes,Yes,,Yes,,Yes,,ID propagation is supported,,,,,
 GDP,12.1,z/OS,z/OS 2.3,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,,Yes,,Yes,,,,,,,
 GDP,12.1,z/OS,z/OS 2.4,IBM IMS,IBM IMS 14,All traffic to IMS is considered local.,yes,,Yes,,Yes,,,,,,,
 GDP,12.1,z/OS,z/OS 2.3,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,,Yes,,Yes,,,,,,,
 GDP,12.1,z/OS,z/OS 2.4,IBM IMS,IBM IMS 15,All traffic to IMS is considered local.,Yes,,Yes,,Yes,,,,,,,
-GDP,12.1,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
 GDP,12.1,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,, Yes,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,,  Yes	  ,,,,,,,,,,,
-GDP,12.1,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes ,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,, Yes,,,,,,,,,,,
+GDP,12.1,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes,,,,,,,,,,,
 GDP,12.1,AIX,AIX 7.2,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.1,AIX,AIX 7.3,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,KTAP,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.1,CentOS,CentOS 7x,IBM Informix,IBM Informix 11.7,KTAP,KTAP,,ATAP,,"KTAP, ATAP",KTAP,KTAP,KTAP,,Yes,,ATAP with Linux 2.6.36 and higher only.
@@ -3604,12 +3604,12 @@ GDP,12.1,Windows Server,Windows Server 2022,MySQL,MySQL 8.0,STAP,STAP,,,,STAP,ST
 GDP,12.1,Windows Server,Windows Server 2016,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.1,Windows Server,Windows Server 2019,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.1,Windows Server,Windows Server 2022,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,12.1,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.1,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2016,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.1,Windows Server,Windows Server 2019,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.1,Windows Server,Windows Server 2022,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
@@ -3674,12 +3674,12 @@ GDP,12.1,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 15.7,STAP,STAP
 GDP,12.1,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.1,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.1,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.0,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.1,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Suse,Suse 12 64bit,Redis,Redis 5.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,Suse,Suse 12 64bit,Redis,Redis 6.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,Suse,Suse 12 64bit,Redis,Redis 7.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -3756,26 +3756,26 @@ GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KT
 GDP,11.5,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 22.04,EDB Postgres,EDB 12,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 22.04,EDB Postgres,EDB 15,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
-GDP,11.5,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,11.5,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,11.5,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,11.5,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,11.5,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.1,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.1,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
 GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.1,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.1,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
@@ -3788,12 +3788,12 @@ GDP,12.0,CentOS,CentOS 7x,Couchbase,Couchbase 7.6,Double proxy setting,Double pr
 GDP,12.0,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.0,Red Hat,Red Hat 8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.0,Red Hat,Red Hat 9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,12.0,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.0,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Debian,Debian 12,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -3897,8 +3897,8 @@ GDP,12.1,Windows Server,Windows Server 2025,MS SQL Server Cluster,MS SQL Server 
 GDP,12.1,Windows Server,Windows Server 2025,MySQL,MySQL 5.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.1,Windows Server,Windows Server 2025,MySQL,MySQL 8.0,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.1,Windows Server,Windows Server 2025,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,12.1,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.1,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.1,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2025,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.1,Windows Server,Windows Server 2025,Oracle,Oracle 12.1,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.1,Windows Server,Windows Server 2025,Oracle,Oracle 12.2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
@@ -3919,7 +3919,7 @@ GDP,12.1,Windows Server,Windows Server 2025,EDB Postgres,EDB 12,STAP,STAP,,,,STA
 GDP,12.1,Windows Server,Windows Server 2025,EDB Postgres,EDB 15,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.1,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.1,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.1,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.1,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,Supported on SPARC only.
 GDP,12.0,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,Supported on SPARC only.
 GDP,11.5,Solaris,Solaris 11.4,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,Supported on SPARC only.
@@ -4067,8 +4067,8 @@ GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STA
 GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.1,Red Hat,Red Hat 8,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,Red Hat,Red Hat 9,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,11.5,Red Hat,Red Hat 8,Redis,Redis 7.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -4136,19 +4136,19 @@ GDP,12.1,Oracle Linux,Oracle Linux 9,Oracle,Oracle 21c,KTAP,KTAP,ATAP ASO SSL,,K
 GDP,12.1,Oracle Linux,Oracle Linux 9,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,Red Hat,Red Hat 8,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.1,Red Hat,Red Hat 9,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Oracle installed on supported OS version on OCI is supported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
-GDP,12.0,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.0,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.0,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.0,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.0,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.3,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.0,Amazon Linux,Amazon Linux 2023,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.0,Ubuntu,Ubuntu 24.04,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -4217,7 +4217,7 @@ GDP,12.0,Windows Server,Windows Server 2025,EDB Postgres,EDB 12,STAP,STAP,,,,STA
 GDP,12.0,Windows Server,Windows Server 2025,EDB Postgres,EDB 15,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.0,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.0,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.0,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.0,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.0,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.0,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -4270,7 +4270,7 @@ GDP,11.5,Windows Server,Windows Server 2025,EDB Postgres,EDB 12,STAP,STAP,,,,STA
 GDP,11.5,Windows Server,Windows Server 2025,EDB Postgres,EDB 15,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.5,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 15.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,11.5,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,11.5,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,11.5,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,11.5,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.7,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,Elasticsearch,Elasticsearch 8.17,STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -4329,8 +4329,8 @@ GDP,12.2,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.7,"KTAP, 
 GDP,12.2,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.8,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,supported on x86 and Arm64
 GDP,12.2,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.1,Suse,Suse 12 64bit,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.1,Suse,Suse 15 64bit,Redis,Redis 7.8,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,Windows Server,Windows Server 2022,Oracle,Oracle 23ai,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP. Oracle Express XE is not supported
@@ -4340,8 +4340,8 @@ GDP,12.2,Red Hat,Red Hat 8,CockroachDB,CockroachDB 25.1.2,KTAP,KTAP,,,,KTAP,KTAP
 GDP,12.2,Red Hat,Red Hat 9,CockroachDB,CockroachDB 25.1.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 8,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.2,Red Hat,Red Hat 9,Couchbase,Couchbase 7.6,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Red Hat,Red Hat 8,CouchDB,Couch 3.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Red Hat,Red Hat 9,CouchDB,Couch 3.4.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Windows Server,Windows Server 2019,CouchDB,Couch 3.4.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
@@ -4408,7 +4408,7 @@ GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.2,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -4429,10 +4429,10 @@ GDP,12.2,CentOS,CentOS 7x,Neo4j,Neo4j 2025.08,Double proxy setting,Double proxy 
 GDP,12.2,Red Hat,Red Hat 7,Neo4j,Neo4j 2025.08,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 8,Neo4j,Neo4j 2025.08,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Neo4j,Neo4j 2025.08,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
-GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.2,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
 GDP,12.2,Debian,Debian 11,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Debian,Debian 12.0,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -4443,7 +4443,7 @@ GDP,12.2,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 t
 GDP,12.2,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,12.2,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported. 
+GDP,12.2,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.2,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.2,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -4483,14 +4483,14 @@ GDP,12.2,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.2,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.2,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.2,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
@@ -4519,11 +4519,11 @@ GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Na
 GDP,12.2,Red Hat,Red Hat 8,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,CentOS,CentOS 7x,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.2,Red Hat,Red Hat 8,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.2,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -4551,10 +4551,10 @@ GDP,12.2,CentOS,CentOS 7x,Couchbase,Couchbase 7.1,Double proxy setting,Double pr
 GDP,12.2,Red Hat,Red Hat 7,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.2,Red Hat,Red Hat 8,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.2,Red Hat,Red Hat 9,Couchbase,Couchbase 7.1,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
-GDP,12.2,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,CentOS,CentOS 7x,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.2,Red Hat,Red Hat 7,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.2,Red Hat,Red Hat 8,CouchDB,Couch 2.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
@@ -4693,7 +4693,7 @@ GDP,12.2,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.2,Solaris,Solaris 10,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.2,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
 GDP,12.2,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
-GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
+GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
 GDP,12.2,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.2,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.2,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -4711,7 +4711,7 @@ GDP,12.2,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.2,Solaris,Solaris 10,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.2,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.2,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
-GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
+GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.2,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.2,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.2,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
@@ -4757,7 +4757,7 @@ GDP,12.2,Red Hat,Red Hat 9,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP"
 GDP,12.2,Solaris,Solaris 10,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versionof Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.2,Solaris,Solaris 11.2,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.2,Solaris,Solaris 11.3,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
-GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
+GDP,12.2,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.2,Suse,Suse 12 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.2,Suse,Suse 15 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.2,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
@@ -5090,8 +5090,8 @@ GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 6.0,,STAP,,,STAP,STA
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.2,zLinux,zLinux Red Hat 7,MongoDB,MongoDB 5.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
 GDP,12.2,zLinux,zLinux Red Hat 8,MongoDB,MongoDB 5.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
@@ -5205,14 +5205,14 @@ GDP,12.2,CentOS,CentOS 7x,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy sett
 GDP,12.2,Red Hat,Red Hat 7,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 8,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Neo4j,Neo4j 5.4,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
-GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.2,CentOS,CentOS 7x,Netezza,Netezza 6.02,KTAP,,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.2,Red Hat,Red Hat 7,Netezza,Netezza 6.02,KTAP,,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.2,Red Hat,Red Hat 8,Netezza,Netezza 6.02,KTAP,,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -5355,8 +5355,8 @@ GDP,12.2,Windows Server,Windows Server 2016,Oracle,Oracle 21c,STAP,STAP,STAP ASO
 GDP,12.2,Windows Server,Windows Server 2019,Oracle,Oracle 21c,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.2,Windows Server,Windows Server 2022,Oracle,Oracle 21c,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.2,Oracle Linux,Oracle Linux 8,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
-GDP,12.2,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.2,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.2,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.2,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
 GDP,12.2,Windows Server,Windows Server 2025,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.2,Windows Server,Windows Server 2025,Oracle,Oracle 12.1,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.2,Windows Server,Windows Server 2025,Oracle,Oracle 12.2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
@@ -5646,10 +5646,10 @@ GDP,12.2,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 9.5,STAP,STAP,
 GDP,12.2,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 9.5,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.2,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 9.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.2,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 9.6,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-GDP,12.2,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.2,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.2,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.2,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
 GDP,12.2,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
@@ -5927,15 +5927,15 @@ GDP,12.2,Windows Server,Windows Server 2016,Sybase ASE,Sybase ASE 16.1,STAP,STAP
 GDP,12.2,Windows Server,Windows Server 2019,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2022,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 GDP,12.2,Windows Server,Windows Server 2025,Sybase ASE,Sybase ASE 16.1,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
-GDP,12.2,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v12, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes ,,,,,,,,,,,,
-GDP,12.2,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes ,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v12, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes,,,,,,,,,,,,
+GDP,12.2,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes,,,,,,,,,,,,
 GDP,12.2,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,,,,,,,,,,,,,
 GDP,12.2,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,,,,,,,,,,,,,
 GDP,12.2,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,,,,,,,,,,,,,
@@ -6127,9 +6127,9 @@ GDP,12.0,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STA
 GDP,12.1,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.1,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,11.5,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.1,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.0,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.0,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,11.5,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2025,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
@@ -6140,7 +6140,7 @@ GDP,12.2,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP
 GDP,12.2,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.2,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
+GDP,12.2,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
 GDP,11.5,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
 GDP,11.5,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,11.5,Red Hat,Red Hat 7,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported. Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE. ATAP with Linux 2.6.36 and higher only.
@@ -6220,7 +6220,7 @@ GDP,11.5,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 t
 GDP,11.5,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,11.5,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,11.5,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,11.5,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported. 
+GDP,11.5,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,11.5,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,11.5,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,11.5,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -6236,7 +6236,7 @@ GDP,12.0,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 t
 GDP,12.0,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.0,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.0,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,12.0,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported. 
+GDP,12.0,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.0,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.0,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.0,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -6252,7 +6252,7 @@ GDP,12.1,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 t
 GDP,12.1,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.1,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.1,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,12.1,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported. 
+GDP,12.1,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.1,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.1,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.1,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -6318,10 +6318,10 @@ GDP,12.2,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,ATAP,,,"KTAP, A
 GDP,12.2,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.2,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
-GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.2,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
 GDP,12.2,Red Hat,Red Hat 8,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 9,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
 GDP,12.2,Amazon Linux,Amazon Linux 2,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
@@ -6490,7 +6490,7 @@ GDP,12.0,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 
 GDP,12.1,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
 GDP,12.2,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
 GDP,12.2,CentOS,CentOS 7x,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.2,Red Hat,Red Hat 7,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.2,Red Hat,Red Hat 8,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.2,CentOS,CentOS 7x,Greenplum,Greenplum 7.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,KTAP,,,,,ATAP Linux 2.6.36 and higher only
@@ -6509,10 +6509,10 @@ GDP,12.2,CentOS,CentOS 7x,Neo4j,Neo4j 2025.10,Double proxy setting,Double proxy 
 GDP,12.2,Red Hat,Red Hat 7,Neo4j,Neo4j 2025.10,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 8,Neo4j,Neo4j 2025.10,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 GDP,12.2,Red Hat,Red Hat 9,Neo4j,Neo4j 2025.10,Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
-GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.2,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.2,Red Hat,Red Hat 7,OpenSearch,OpenSearch 3.4.0,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 8,OpenSearch,OpenSearch 3.4.0,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 9,OpenSearch,OpenSearch 3.4.0,KTAP,KTAP,,,,KTAP,,KTAP,KTAP,,,,
@@ -6525,8 +6525,8 @@ GDP,12.2,Windows Server,Windows Server 2019,MS SQL Server,MS SQL Server 2025,STA
 GDP,12.2,Windows Server,Windows Server 2022,MS SQL Server,MS SQL Server 2025,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
 GDP,12.2,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2025,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
 GDP,12.x,Windows Server,Windows Server 2022,Oracle,Oracle 23ai,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP. Oracle Express XE is not supported
-GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2019,CouchDB,Couch 3.4.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,CouchDB,Couch 3.4.2,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,IBM Db2,IBM Db2 12.1,STAP also with Db2 Exit,"Db2 Exit, STAP",SSL,"STAP,Db2 Exit",,"STAP, Db2 Exit",STAP Except Db2 Exit,,,STAP,STAP,"TCP, SHM",SSL Encryption supported only using Db2 EXIT
@@ -6551,10 +6551,10 @@ GDP,12.x,Windows Server,Windows Server 2016,MySQL,MySQL 8.4,STAP,STAP,,,,STAP,ST
 GDP,12.x,Windows Server,Windows Server 2019,MySQL,MySQL 8.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.x,Windows Server,Windows Server 2022,MySQL,MySQL 8.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.x,Windows Server,Windows Server 2025,MySQL,MySQL 8.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.04,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
@@ -6563,10 +6563,10 @@ GDP,12.x,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 17.2,STAP,STAP
 GDP,12.x,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 17.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 17.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 17.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-GDP,12.x,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2016,CouchDB,Couch 2.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2019,CouchDB,Couch 2.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,CouchDB,Couch 3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
@@ -6706,14 +6706,14 @@ GDP,12.x,Windows Server,Windows Server 2022,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,ST
 GDP,12.x,Windows Server,Windows Server 2025,MySQL,MySQL 5.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.x,Windows Server,Windows Server 2025,MySQL,MySQL 8.0,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
 GDP,12.x,Windows Server,Windows Server 2025,MySQL,MySQL 8.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
-GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 4.4.5,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 5.15,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2016,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.x,Windows Server,Windows Server 2019,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
 GDP,12.x,Windows Server,Windows Server 2022,Oracle,Oracle 11gR2,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP Oracle Express XE is not supported
@@ -6819,16 +6819,16 @@ GDP,12.x,Windows Server,Windows Server 2025,MariaDB,MariaDB 11.4,STAP,STAP,,,,ST
 GDP,12.x,Windows Server,Windows Server 2025,MongoDB,MongoDB 7.0,,STAP,,,STAP,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,MS SQL Server Always On,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
 GDP,12.x,Windows Server,Windows Server 2022,MS SQL Server Cluster,MS SQL Server 2022,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",Force Encryption is supported in MS SQL Server 2022.
-GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
-GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP  ,
+GDP,12.x,Windows Server,Windows Server 2016,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Neo4j,Neo4j 2025.10,STAP,STAP,,,,STAP,,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,Oracle,Oracle 26ai,STAP,STAP,STAP ASO,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",RAC configuration is surpported. Oracle SSL is not supported for Windows STAP. Oracle Express XE is not supported
 GDP,12.x,Windows Server,Windows Server 2019,MS SQL Server,MS SQL Server 2025,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
 GDP,12.x,Windows Server,Windows Server 2022,MS SQL Server,MS SQL Server 2025,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
 GDP,12.x,Windows Server,Windows Server 2025,MS SQL Server,MS SQL Server 2025,STAP,STAP,STAP,,STAP,STAP,STAP,,,STAP,STAP,"TCP, NMP",
-GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 8,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 8,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 8,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 8,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2019,CouchDB,Couch 3.5.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Windows Server,Windows Server 2022,CouchDB,Couch 3.5.1,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.x,Amazon Linux,Amazon Linux 2,Apache Cassandra,Cassandra 4.0.17,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,supported on x86 and Arm64
@@ -6839,8 +6839,8 @@ GDP,12.x,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.7,"KTAP, 
 GDP,12.x,Amazon Linux,Amazon Linux 2023,Apache Cassandra,Cassandra 4.1.8,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,supported on x86 and Arm64
 GDP,12.x,Red Hat,Red Hat 8,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
 GDP,12.x,Red Hat,Red Hat 9,Apache Cassandra,Cassandra 5.0.2,"KTAP, Audit Plugin","KTAP, Audit Plugin",Audit Plugin,,,KTAP,,KTAP,KTAP,,,,
-GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 8,SingleStore (formerly MemSQL),SingleStore 8.7.18,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Red Hat,Red Hat 9,SingleStore (formerly MemSQL),SingleStore 8.7.18,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Red Hat,Red Hat 8,CockroachDB,CockroachDB 25.1.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -6883,7 +6883,7 @@ GDP,12.x,Red Hat,Red Hat 8,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP"
 GDP,12.x,Red Hat,Red Hat 9,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 12 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 15 64bit,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.x,CentOS,CentOS 7x,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Debian,Debian 11,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Debian,Debian 12.0,MySQL,MySQL 8.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -6909,7 +6909,7 @@ GDP,12.x,Solaris,Solaris 10,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 t
 GDP,12.x,Solaris,Solaris 11.2,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Solaris,Solaris 11.3,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Solaris,Solaris 11.4,PostgreSQL,PostgreSQL 17.5,KTAP 9.3 to 9.5,KTAP9.3 to 9.5,ATAP 9.4 9.5,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,Requires V11.0 Stap. PostgreSQL bind variables supported
-GDP,12.x,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported. 
+GDP,12.x,Suse,Suse 12 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.x,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,SSL encryption supported. PostgreSQL bind variables supported.
 GDP,12.x,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -6937,14 +6937,14 @@ GDP,12.x,CentOS,CentOS 7x,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.x,Red Hat,Red Hat 7,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x 7.6 PPC64LE SSL encryption not supported
 GDP,12.x,Red Hat,Red Hat 8,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
 GDP,12.x,Red Hat,Red Hat 9,Aster,Aster 6.20,KTAP,KTAP,,,,KTAP,KTAP,KTAP,,,,,
-GDP,12.x,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
-GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.x,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE SSL supported
+GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.8,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.x,CentOS,CentOS 7x,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 5.1,KTAP,KTAP,,,,,,,,,,,
@@ -6973,11 +6973,11 @@ GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Na
 GDP,12.x,Red Hat,Red Hat 8,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 9,Cloudera,Cloudera 6.3,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,CentOS,CentOS 7x,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.0,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.x,Red Hat,Red Hat 8,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 9,Cloudera,Cloudera 7.0,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,CentOS,CentOS 7x,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.x,Red Hat,Red Hat 8,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 9,Cloudera,Cloudera 7.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 7,CockroachDB,CockroachDB 20.1,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
@@ -7101,7 +7101,7 @@ GDP,12.x,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.x,Solaris,Solaris 10,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.x,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
 GDP,12.x,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication is supported from
-GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
+GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit are V97FP9 V101 V105 or higher The versions of Db2 required in order to capture UID chain using Db2 Exit are V97FP10 V101FP4 V105FP3 or higher For Db2 LUW LDAP authentication
 GDP,12.x,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.x,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
 GDP,12.x,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.1,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V10.1FP4 or higher For Db2 LUW
@@ -7114,7 +7114,7 @@ GDP,12.x,Red Hat,Red Hat 9,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP
 GDP,12.x,Solaris,Solaris 10,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The version of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.x,Solaris,Solaris 11.2,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.x,Solaris,Solaris 11.3,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
-GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
+GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.x,Suse,Suse 12 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.x,Suse,Suse 15 64bit,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
 GDP,12.x,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 10.5,"Db2 Exit, KTAP","Db2 Exit, KTAP",,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher
@@ -7145,7 +7145,7 @@ GDP,12.x,Red Hat,Red Hat 9,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP"
 GDP,12.x,Solaris,Solaris 10,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versionof Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.x,Solaris,Solaris 11.2,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.x,Solaris,Solaris 11.3,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
-GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap.  The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
+GDP,12.x,Solaris,Solaris 11.4,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,Db2 Exit,"Db2 Exit, KTAP",,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,With V11.0 Stap. The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.x,Suse,Suse 12 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.x,Suse,Suse 15 64bit,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,Db2 Exit,,"Db2 Exit, KTAP",KTAP,"Db2 Exit, KTAP",KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
 GDP,12.x,Ubuntu,Ubuntu 16.04,IBM Db2,IBM Db2 9.7,"Db2 Exit, KTAP",KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher
@@ -7392,8 +7392,8 @@ GDP,12.x,Red Hat,Red Hat 8,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP"
 GDP,12.x,Red Hat,Red Hat 9,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 12 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 15 64bit,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.x,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
-GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,,,supported on x86 and Arm64
 GDP,12.x,CentOS,CentOS 7x,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Debian,Debian 11,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 GDP,12.x,Debian,Debian 12.0,MySQL,MySQL 5.7,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
@@ -7550,8 +7550,8 @@ GDP,12.x,Solaris,Solaris 11.4,Oracle,Oracle 21c,KTAP,KTAP,ATAP ASO SSL,,,"KTAP, 
 GDP,12.x,Suse,Suse 12 64bit,Oracle,Oracle 21c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.x,Suse,Suse 15 64bit,Oracle,Oracle 21c,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.x,Oracle Linux,Oracle Linux 8,Oracle,Oracle 23ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
-GDP,12.x,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
-GDP,12.x,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP ",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.x,Amazon Linux,Amazon Linux 2,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
+GDP,12.x,Amazon Linux,Amazon Linux 2023,Oracle,Oracle 19c,KTAP,KTAP,"ATAP, ASO, SSL",,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. supported on x86
 GDP,12.x,Oracle Linux,Oracle Linux 8,Oracle,Oracle 11gR2,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.x,Oracle Linux,Oracle Linux 8,Oracle,Oracle 12.1,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
 GDP,12.x,Oracle Linux,Oracle Linux 8,Oracle,Oracle 12.2,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
@@ -7796,10 +7796,10 @@ GDP,12.x,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 16.0,KTAP,KTAP,,,,KTAP,KTAP,K
 GDP,12.x,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,SSL encryption supported PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.5,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,SSL encryption supported PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 9.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
-GDP,12.x,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.x,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.x,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
-GDP,12.x,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 14.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2023,PostgreSQL,PostgreSQL 15.0,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,Yes,Yes,,supported on x86 and Arm64
 GDP,12.x,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 10,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 11,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 24.04,PostgreSQL,PostgreSQL 12.0,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,PostgreSQL bind variables supported
@@ -8082,7 +8082,7 @@ GDP,12.x,Red Hat,Red Hat 8,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP"
 GDP,12.x,Red Hat,Red Hat 9,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 12 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Suse,Suse 15 64bit,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
-GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP ",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
+GDP,12.x,Amazon Linux,Amazon Linux 2023,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP",KTAP,,Yes,,supported on x86 and Arm64
 GDP,12.x,CentOS,CentOS 7x,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,Yes,Yes,,ATAP with Linux 2.6.36 and higher only
 GDP,12.x,Debian,Debian 11,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Debian,Debian 12.0,PostgreSQL,PostgreSQL 17.6,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
@@ -8114,10 +8114,10 @@ GDP,12.x,Suse,Suse 15 64bit,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,ATAP,,,"KTAP, A
 GDP,12.x,Ubuntu,Ubuntu 16.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 20.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 GDP,12.x,Ubuntu,Ubuntu 22.04,PostgreSQL,PostgreSQL 17.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
-GDP,12.x,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.x,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.x,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
-GDP,12.x,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from  qconsole and curl clients only.
+GDP,12.x,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.x,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.2.0,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.x,Red Hat,Red Hat 8,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
+GDP,12.x,Red Hat,Red Hat 9,MarkLogic,MarkLogic 11.3.2,KTAP,KTAP,,,,,,,,,,,Supports xQuery traffic from qconsole and curl clients only.
 GDP,12.x,Red Hat,Red Hat 8,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
 GDP,12.x,Red Hat,Red Hat 9,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
 GDP,12.x,Amazon Linux,Amazon Linux 2,HyperSQL,HyperSQL 7.4.2,KTAP,KTAP,,,,,,KTAP,KTAP,,,,
@@ -8159,7 +8159,7 @@ GDP,12.x,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 7.0,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATA
 GDP,12.x,Ubuntu,Ubuntu 22.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,Ubuntu,Ubuntu 24.04,MongoDB,MongoDB 8.2,KTAP,KTAP,ATAP,,KTAP,"KTAP, ATAP",KTAP,"KTAP, ATAP (ATAP only when configured for real Ips)",KTAP,,Yes,,supported MongoDB mgo client version 2 3.2.1 3.4.2 3.6 4.0. MongoDB Compass client versions 1.14 1.15 1.16 3.6 4.0.
 GDP,12.x,CentOS,CentOS 7x,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender ,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
+GDP,12.x,Red Hat,Red Hat 7,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Configure Cassandra auditing to log to a FileAppender,,Cloudera Navigator,,,,,,,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
 GDP,12.x,Red Hat,Red Hat 8,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 9,Cloudera,Cloudera 7.3.1,Cloudera Navigator,,Cloudera Navigator,,Cloudera Navigator,,,,,,,,
 GDP,12.x,CentOS,CentOS 7x,Greenplum,Greenplum 7.5,KTAP,KTAP,ATAP,,,"KTAP, ATAP",KTAP,KTAP,,,,,ATAP Linux 2.6.36 and higher only
@@ -8185,26 +8185,26 @@ GDP,12.x,Oracle Linux,Oracle Linux 8,Oracle,Oracle 26ai,KTAP,KTAP,ATAP ASO SSL,,
 GDP,12.x,Oracle Linux,Oracle Linux 9,Oracle,Oracle 26ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.x,Red Hat,Red Hat 8,Oracle,Oracle 26ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC and Exadata configurations are surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported. ATAP with Linux 2.6.36 and higher only.
 GDP,12.x,Red Hat,Red Hat 9,Oracle,Oracle 26ai,KTAP,KTAP,ATAP ASO SSL,,KTAP,"KTAP, ATAP",KTAP,KTAP,,KTAP,Yes,,RAC configuration is surpported. Guardium Client IP and Analyzed Client IP are not supported in Oracle SSL traffic. Oracle Express XE is not supported.
-GDP,12.x,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS  12, Yes , Yes ,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v12, Yes , Yes ,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 2.5, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.1, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.2, IBM Db2 for z/OS , IBM Db2 for z/OS v13, Yes ,Yes,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes , Yes ,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS 12, Yes, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v12, Yes, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 2.5, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.1, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.2, IBM Db2 for z/OS, IBM Db2 for z/OS v13, Yes,Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 2.5,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.1,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.2,IBM IMS,IBM IMS 15, Yes, Yes,,,,,,,,,,,
 GDP,12.x,z/OS,z/OS 2.5, IBM Data Sets, Depends z/OS version,, Yes,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,,  Yes	  ,,,,,,,,,,,
-GDP,12.x,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes ,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.1, IBM Data Sets,Depends z/OS version,, Yes,,,,,,,,,,,
+GDP,12.x,z/OS,z/OS 3.2, IBM Data Sets,Depends z/OS version,, Yes,,,,,,,,,,,
 GDP,12.x,Ubuntu,Ubuntu 22.04,Redis,Redis 7.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.x,Ubuntu,Ubuntu 24.04,Redis,Redis 7.4,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,GDP
-GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 8,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 9,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6.4,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.x,Red Hat,Red Hat 7,Couchbase,Couchbase 7.6.4,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 GDP,12.2,Red Hat,Red Hat 8,Couchbase,Couchbase 7.6.4,Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
@@ -8241,14 +8241,14 @@ GDP,12.2,Red Hat,Red Hat 8,Redis,Redis 7.8.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,
 GDP,12.x,Red Hat,Red Hat 8,Redis,Redis 7.8.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.2,Red Hat,Red Hat 9,Redis,Redis 7.8.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 GDP,12.x,Red Hat,Red Hat 9,Redis,Redis 7.8.2,KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
-GDP,12.2,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.2,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
-GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.6.3,STAP ,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2016,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2019,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2022,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.2,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
+GDP,12.x,Windows Server,Windows Server 2025,Couchbase,Couchbase 7.6.3,STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 GDP,12.2,Windows Server,Windows Server 2016,EDB Postgres,EDB 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2016,EDB Postgres,EDB 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.2,Windows Server,Windows Server 2019,EDB Postgres,EDB 17.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
@@ -8487,12 +8487,12 @@ GDP,12.2,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 18.4,STAP,STAP
 GDP,12.x,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 18.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.2,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 18.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 GDP,12.x,Windows Server,Windows Server 2025,PostgreSQL,PostgreSQL 18.4,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-GDP,12.2,CentOS,CentOS 7x,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,CentOS,CentOS 7x,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 7,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 8,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 8,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.x,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
-GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender ,,Configure Cassandra auditing to log to a FileAppender ,,,,,,,,,,
+GDP,12.2,CentOS,CentOS 7x,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,CentOS,CentOS 7x,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 7,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 7,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 8,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 8,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,

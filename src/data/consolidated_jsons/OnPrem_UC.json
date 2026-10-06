@@ -1,485 +1,4 @@
 ﻿{
-    "Sybase ASE": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Sybase ASE"
-            ],
-            "DataSource_Version": [
-                "16.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md"
-        }
-    ],
-    "Progressdb": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Progressdb"
-            ],
-            "DataSource_Version": [
-                "12.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Progressdb"
-            ],
-            "DataSource_Version": [
-                "12.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md"
-        }
-    ],
-    "MongoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
-        }
-    ],
-    "Percona Server for MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Percona Server for MySQL"
-            ],
-            "DataSource_Version": [
-                "5.7.31-34"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/refs/heads/main/filter-plugin/logstash-filter-mysql-percona-guardium/MysqlPerconaOverFilebeatPackage/MysqlPercona/logstash-filter-mysql_percona_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Percona Server for MySQL"
-            ],
-            "DataSource_Version": [
-                "5.7.31-34"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Percona Server for MySQL"
-            ],
-            "DataSource_Version": [
-                "5.7.31-34"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Percona Server for MySQL"
-            ],
-            "DataSource_Version": [
-                "5.7.31-34"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
-        }
-    ],
-    "Teradata": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Teradata"
-            ],
-            "DataSource_Version": [
-                "16.2",
-                "17.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/refs/heads/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/logstash-filter-teradatadb_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Teradata"
-            ],
-            "DataSource_Version": [
-                "16.2",
-                "17.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md"
-        }
-    ],
-    "EDB Postgres": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "EDB 12"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "EDB 15.76"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "EDB 12"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "EDB 12"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "EDB 12"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
-        }
-    ],
-    "Oracle ExaCC": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Oracle ExaCC"
-            ],
-            "DataSource_Version": [
-                "19c"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
-        }
-    ],
-    "Couchbase": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Couchbase"
-            ],
-            "DataSource_Version": [
-                "6.6.2-9600",
-                "7.2.5-7596",
-                "7.6.1-3200",
-                "7.6.3-4200",
-                "7.6.4-5146"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-couchbasedb_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Couchbase"
-            ],
-            "DataSource_Version": [
-                "6.6.2-9600",
-                "7.2.5-7596",
-                "7.6.1-3200",
-                "7.6.3-4200",
-                "7.6.4-5146"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Couchbase"
-            ],
-            "DataSource_Version": [
-                "6.6.2-9600",
-                "7.2.5-7596",
-                "7.6.1-3200",
-                "7.6.3-4200",
-                "7.6.4-5146"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Couchbase"
-            ],
-            "DataSource_Version": [
-                "6.6.2-9600",
-                "7.2.5-7596",
-                "7.6.1-3200",
-                "7.6.3-4200",
-                "7.6.4-5146"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
-        }
-    ],
     "CockroachDB": [
         {
             "GDP_Type": [
@@ -501,298 +20,6 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cockroachdb-guardium/README.md"
-        }
-    ],
-    "InterSystems IRIS": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "InterSystems IRIS"
-            ],
-            "DataSource_Version": [
-                "2023.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-intersystems-iris-guardium/IntersystemsIrisoverJDBC/guardium_logstash-offline-plugin-intersystemsiris.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-intersystems-iris-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "InterSystems IRIS"
-            ],
-            "DataSource_Version": [
-                "2023.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-intersystems-iris-guardium/README.md"
-        }
-    ],
-    "YugabyteDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "YugabyteDB"
-            ],
-            "DataSource_Version": [
-                "2.14"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-yugabytedb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "YugabyteDB"
-            ],
-            "DataSource_Version": [
-                "2.14",
-                "2.25.1.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "YugabyteDB"
-            ],
-            "DataSource_Version": [
-                "2.14"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "YugabyteDB"
-            ],
-            "DataSource_Version": [
-                "2.14"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
-        }
-    ],
-    "Greenplum": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Greenplum"
-            ],
-            "DataSource_Version": [
-                "6.21.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-greenplumdb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Greenplum"
-            ],
-            "DataSource_Version": [
-                "6.21.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Greenplum"
-            ],
-            "DataSource_Version": [
-                "6.21.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Greenplum"
-            ],
-            "DataSource_Version": [
-                "6.21.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
-        }
-    ],
-    "Neo4j": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Neo4j"
-            ],
-            "DataSource_Version": [
-                "4.4.3"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-neodb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Neo4j"
-            ],
-            "DataSource_Version": [
-                "4.4.3"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Neo4j"
-            ],
-            "DataSource_Version": [
-                "4.4.3"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Neo4j"
-            ],
-            "DataSource_Version": [
-                "4.4.3"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
         }
     ],
     "AlloyDB Omni": [
@@ -900,301 +127,6 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/FEPostgres_README.md"
         }
     ],
-    "Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Oracle"
-            ],
-            "DataSource_Version": [
-                "18",
-                "19c",
-                "21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Oracle"
-            ],
-            "DataSource_Version": [
-                "18",
-                "19c",
-                "21"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
-        }
-    ],
-    "MariaDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-mariadb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "MariaDB"
-            ],
-            "DataSource_Version": [
-                "10.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
-        }
-    ],
-    "MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "MySQL"
-            ],
-            "DataSource_Version": [
-                "8.0.36"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-mysql_filter_guardium.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "MySQL"
-            ],
-            "DataSource_Version": [
-                "8.0.36"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MySQL"
-            ],
-            "DataSource_Version": [
-                "8.0.36"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "MySQL"
-            ],
-            "DataSource_Version": [
-                "8.0.36"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
-        }
-    ],
-    "HDFS": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "HDFS"
-            ],
-            "DataSource_Version": [
-                "3.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-hdfs_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "HDFS"
-            ],
-            "DataSource_Version": [
-                "3.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "HDFS"
-            ],
-            "DataSource_Version": [
-                "3.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "HDFS"
-            ],
-            "DataSource_Version": [
-                "3.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
-        }
-    ],
     "SingleStore (formerly MemSQL)": [
         {
             "GDP_Type": [
@@ -1216,152 +148,6 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md"
-        }
-    ],
-    "TrinoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "TrinoDB"
-            ],
-            "DataSource_Version": [
-                "1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-trino-guardium/README.md"
-        }
-    ],
-    "CouchDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "CouchDB"
-            ],
-            "DataSource_Version": [
-                "3.2.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-couchdb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "CouchDB"
-            ],
-            "DataSource_Version": [
-                "3.2.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "CouchDB"
-            ],
-            "DataSource_Version": [
-                "3.2.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "CouchDB"
-            ],
-            "DataSource_Version": [
-                "3.2.2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
-        }
-    ],
-    "ScyllaDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "ScyllaDB"
-            ],
-            "DataSource_Version": [
-                "2023.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-scylldb-guardium/ScyllaDBOverSyslogPackage/guardium_logstash-offline-plugin-scylladb.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-scylldb-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "ScyllaDB"
-            ],
-            "DataSource_Version": [
-                "2023.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-scylldb-guardium/README.md"
         }
     ],
     "Elasticsearch": [
@@ -1406,26 +192,28 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-elasticsearch-guardium/README.md"
         }
     ],
-    "Apache Cassandra": [
+    "MongoDB": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
                 "GDP 11.5",
-                "GDP 12.0"
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
             ],
             "DataSource": [
-                "Apache Cassandra"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "4.0.1"
+                "4.4"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-cassandra_guardium_plugin_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -1438,16 +226,59 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Apache Cassandra"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "4.0.1"
+                "4.4"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md"
+        }
+    ],
+    "Oracle": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Oracle"
+            ],
+            "DataSource_Version": [
+                "18",
+                "19c",
+                "21"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-oua-guardium/OracleUnifiedAuditPackage/OracleUnifiedAudit/guardium-oua-uc.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -1458,35 +289,18 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Apache Cassandra"
+                "Oracle"
             ],
             "DataSource_Version": [
-                "4.0.1"
+                "18",
+                "19c",
+                "21"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC GDSC SaaS"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Apache Cassandra"
-            ],
-            "DataSource_Version": [
-                "4.0.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
         }
     ],
     "SAP HANA": [
@@ -1572,7 +386,48 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-saphana-guardium/README.md"
         }
     ],
-    "DataStax Enterprise": [
+    "Sybase ASE": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Sybase ASE"
+            ],
+            "DataSource_Version": [
+                "16.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md"
+        }
+    ],
+    "InterSystems IRIS": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "InterSystems IRIS"
+            ],
+            "DataSource_Version": [
+                "2023.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-intersystems-iris-guardium/IntersystemsIrisoverJDBC/guardium_logstash-offline-plugin-intersystemsiris.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-intersystems-iris-guardium/README.md"
+        },
         {
             "GDP_Type": [
                 "GDP"
@@ -1582,19 +437,396 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "DataStax Enterprise"
+                "InterSystems IRIS"
             ],
             "DataSource_Version": [
-                "6.8"
+                "2023.1"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-intersystems-iris-guardium/README.md"
         }
     ],
-    "Milvus": [
+    "HDFS": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "HDFS"
+            ],
+            "DataSource_Version": [
+                "3.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-hdfs_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "HDFS"
+            ],
+            "DataSource_Version": [
+                "3.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "HDFS"
+            ],
+            "DataSource_Version": [
+                "3.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "HDFS"
+            ],
+            "DataSource_Version": [
+                "3.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-hdfs-guardium/README.md"
+        }
+    ],
+    "CouchDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "CouchDB"
+            ],
+            "DataSource_Version": [
+                "3.2.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-couchdb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "CouchDB"
+            ],
+            "DataSource_Version": [
+                "3.2.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "CouchDB"
+            ],
+            "DataSource_Version": [
+                "3.2.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "CouchDB"
+            ],
+            "DataSource_Version": [
+                "3.2.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md"
+        }
+    ],
+    "MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "MySQL"
+            ],
+            "DataSource_Version": [
+                "8.0.36"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-mysql_filter_guardium.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "MySQL"
+            ],
+            "DataSource_Version": [
+                "8.0.36"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MySQL"
+            ],
+            "DataSource_Version": [
+                "8.0.36"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "MySQL"
+            ],
+            "DataSource_Version": [
+                "8.0.36"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-guardium/README.md"
+        }
+    ],
+    "YugabyteDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "YugabyteDB"
+            ],
+            "DataSource_Version": [
+                "2.14"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-yugabytedb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "YugabyteDB"
+            ],
+            "DataSource_Version": [
+                "2.14",
+                "2.25.1.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "YugabyteDB"
+            ],
+            "DataSource_Version": [
+                "2.14"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "YugabyteDB"
+            ],
+            "DataSource_Version": [
+                "2.14"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-yugabyte-guardium/README.md"
+        }
+    ],
+    "Teradata": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Teradata"
+            ],
+            "DataSource_Version": [
+                "16.2",
+                "17.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/refs/heads/main/filter-plugin/logstash-filter-teradatadb-guardium/TeradataOverJdbcPackage/logstash-filter-teradatadb_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Teradata"
+            ],
+            "DataSource_Version": [
+                "16.2",
+                "17.2"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-teradatadb-guardium/README.md"
+        }
+    ],
+    "TrinoDB": [
         {
             "GDP_Type": [
                 "GDP"
@@ -1603,16 +835,287 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Milvus"
+                "TrinoDB"
             ],
             "DataSource_Version": [
-                "2.4.4"
+                "1"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-milvus-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-trino-guardium/README.md"
+        }
+    ],
+    "EDB Postgres": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "EDB 12"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-onPremPostgres-guardium/PostgresOverFilebeatPackage/postgres-offline-plugins-7.5.2.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "EDB 15.76"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "EDB 12"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "EDB 12"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "EDB 12"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremPostgres-guardium/EDBPostgres_README.md"
+        }
+    ],
+    "Percona Server for MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Percona Server for MySQL"
+            ],
+            "DataSource_Version": [
+                "5.7.31-34"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/refs/heads/main/filter-plugin/logstash-filter-mysql-percona-guardium/MysqlPerconaOverFilebeatPackage/MysqlPercona/logstash-filter-mysql_percona_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Percona Server for MySQL"
+            ],
+            "DataSource_Version": [
+                "5.7.31-34"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Percona Server for MySQL"
+            ],
+            "DataSource_Version": [
+                "5.7.31-34"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Percona Server for MySQL"
+            ],
+            "DataSource_Version": [
+                "5.7.31-34"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mysql-percona-guardium/README.md"
+        }
+    ],
+    "MariaDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-mariadb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "MariaDB"
+            ],
+            "DataSource_Version": [
+                "10.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mariadb-guardium/README.md"
         }
     ],
     "MS SQL Server": [
@@ -1696,6 +1199,503 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/ONPREMMSSQL_README.md"
+        }
+    ],
+    "Apache Cassandra": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Apache Cassandra"
+            ],
+            "DataSource_Version": [
+                "4.0.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-cassandra_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Apache Cassandra"
+            ],
+            "DataSource_Version": [
+                "4.0.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Apache Cassandra"
+            ],
+            "DataSource_Version": [
+                "4.0.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Apache Cassandra"
+            ],
+            "DataSource_Version": [
+                "4.0.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+        }
+    ],
+    "Progressdb": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Progressdb"
+            ],
+            "DataSource_Version": [
+                "12.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.ibm.com/Activity-Insights/universal-connectors/raw/master/filter-plugin/logstash-filter-progressdb-guardium/ProgressOverJdbcPackage/logstash-filter-progress_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Progressdb"
+            ],
+            "DataSource_Version": [
+                "12.6"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-progressdb-guardium/README.md"
+        }
+    ],
+    "Greenplum": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Greenplum"
+            ],
+            "DataSource_Version": [
+                "6.21.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-greenplumdb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Greenplum"
+            ],
+            "DataSource_Version": [
+                "6.21.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Greenplum"
+            ],
+            "DataSource_Version": [
+                "6.21.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Greenplum"
+            ],
+            "DataSource_Version": [
+                "6.21.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-onPremGreenplumdb-guardium/README.md"
+        }
+    ],
+    "Oracle ExaCC": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle ExaCC"
+            ],
+            "DataSource_Version": [
+                "19c"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-oua-guardium/README.md"
+        }
+    ],
+    "Milvus": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Milvus"
+            ],
+            "DataSource_Version": [
+                "2.4.4"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-milvus-guardium/README.md"
+        }
+    ],
+    "ScyllaDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "ScyllaDB"
+            ],
+            "DataSource_Version": [
+                "2023.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-scylldb-guardium/ScyllaDBOverSyslogPackage/guardium_logstash-offline-plugin-scylladb.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-scylldb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "ScyllaDB"
+            ],
+            "DataSource_Version": [
+                "2023.1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-scylldb-guardium/README.md"
+        }
+    ],
+    "DataStax Enterprise": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "DataStax Enterprise"
+            ],
+            "DataSource_Version": [
+                "6.8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md"
+        }
+    ],
+    "Couchbase": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Couchbase"
+            ],
+            "DataSource_Version": [
+                "6.6.2-9600",
+                "7.2.5-7596",
+                "7.6.1-3200",
+                "7.6.3-4200",
+                "7.6.4-5146"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-couchbasedb_guardium_plugin_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Couchbase"
+            ],
+            "DataSource_Version": [
+                "6.6.2-9600",
+                "7.2.5-7596",
+                "7.6.1-3200",
+                "7.6.3-4200",
+                "7.6.4-5146"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Couchbase"
+            ],
+            "DataSource_Version": [
+                "6.6.2-9600",
+                "7.2.5-7596",
+                "7.6.1-3200",
+                "7.6.3-4200",
+                "7.6.4-5146"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Couchbase"
+            ],
+            "DataSource_Version": [
+                "6.6.2-9600",
+                "7.2.5-7596",
+                "7.6.1-3200",
+                "7.6.3-4200",
+                "7.6.4-5146"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md"
+        }
+    ],
+    "Neo4j": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Neo4j"
+            ],
+            "DataSource_Version": [
+                "4.4.3"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-neodb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Neo4j"
+            ],
+            "DataSource_Version": [
+                "4.4.3"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Neo4j"
+            ],
+            "DataSource_Version": [
+                "4.4.3"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC GDSC SaaS"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Neo4j"
+            ],
+            "DataSource_Version": [
+                "4.4.3"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-neo4j-guardium/README.md"
         }
     ]
 }

@@ -1,5 +1,5 @@
 ﻿{
-    "Google Cloud BigQuery": [
+    "Google Cloud SQL for SQL Server": [
         {
             "GDP_Type": [
                 "GDP"
@@ -9,16 +9,16 @@
                 "GDP 12.0"
             ],
             "DataSource": [
-                "Google Cloud BigQuery"
+                "Google Cloud SQL for SQL Server"
             ],
             "DataSource_Version": [
-                "v2"
+                "14.00.3281.6"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/guardium_logstash-offline-plugins-ps-bigQuery.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/GCPMSSQL_README.md"
         },
         {
             "GDP_Type": [
@@ -29,96 +29,16 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud BigQuery"
+                "Google Cloud SQL for SQL Server"
             ],
             "DataSource_Version": [
-                "v2"
+                "14.00.3281.6"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "v2"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
-        }
-    ],
-    "Google Cloud Apache Solr": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Google Cloud Apache Solr"
-            ],
-            "DataSource_Version": [
-                "8.6.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud Apache Solr"
-            ],
-            "DataSource_Version": [
-                "8.6.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Google Cloud Apache Solr"
-            ],
-            "DataSource_Version": [
-                "8.6.0"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/GCPMSSQL_README.md"
         }
     ],
     "Google Cloud Bigtable": [
@@ -182,7 +102,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/tree/main/filter-plugin/logstash-filter-pubsub-bigtable-guardium"
         }
     ],
-    "Google Cloud SQL for PostgreSQL": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -192,17 +112,16 @@
                 "GDP 12.0"
             ],
             "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "13",
-                "14"
+                "v2"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
+            "Download_URL": "https://raw.githubusercontent.com/IBM/universal-connectors/refs/heads/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/guardium_logstash-offline-plugins-ps-bigQuery.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -213,101 +132,16 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "13",
-                "14"
+                "v2"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
-        }
-    ],
-    "Google Cloud SQL for SQL Server": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for SQL Server"
-            ],
-            "DataSource_Version": [
-                "14.00.3281.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/mssql-offline-plugins-7.5.2.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/GCPMSSQL_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for SQL Server"
-            ],
-            "DataSource_Version": [
-                "14.00.3281.6"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mssql-guardium/MssqlOverJdbcPackage/GCPMSSQL_README.md"
-        }
-    ],
-    "Google Cloud Spanner": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Google Cloud Spanner"
-            ],
-            "DataSource_Version": [
-                "1.0.39300"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-spanner_db_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud Spanner"
-            ],
-            "DataSource_Version": [
-                "1.0.39300"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -317,77 +151,16 @@
                 "GDSC SaaS"
             ],
             "DataSource": [
-                "Google Cloud Spanner"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
-                "1.0.39300"
+                "v2"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
-        }
-    ],
-    "Google Cloud Firestore": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Google Cloud Firestore"
-            ],
-            "DataSource_Version": [
-                "v1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud Firestore"
-            ],
-            "DataSource_Version": [
-                "v1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Google Cloud Firestore"
-            ],
-            "DataSource_Version": [
-                "v1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-bigquery-guardium/README.md"
         }
     ],
     "MongoDB Atlas": [
@@ -453,6 +226,290 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/input-plugin/logstash-input-mongo-atlas/README.md"
+        }
+    ],
+    "Google Cloud SQL for MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-filter-pubsub-mysql-guardium-7.16.3.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-filter-pubsub-mysql-guardium-8.3.3.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "8"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+        }
+    ],
+    "Google Cloud Firestore": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Google Cloud Firestore"
+            ],
+            "DataSource_Version": [
+                "v1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-firestore-guardium/PubSubFireStorePackage/guardium_logstash-offline-plugins-ps-firestore.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud Firestore"
+            ],
+            "DataSource_Version": [
+                "v1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Google Cloud Firestore"
+            ],
+            "DataSource_Version": [
+                "v1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firestore-guardium/README.md"
+        }
+    ],
+    "Google Cloud Apache Solr": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Google Cloud Apache Solr"
+            ],
+            "DataSource_Version": [
+                "8.6.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/PubSubApacheSolrPackage/guardium_logstash-offline-plugin-pubsub-apache-solr-gcp.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud Apache Solr"
+            ],
+            "DataSource_Version": [
+                "8.6.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Google Cloud Apache Solr"
+            ],
+            "DataSource_Version": [
+                "8.6.0"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-apachesolr-guardium/README.md"
+        }
+    ],
+    "Google Cloud AlloyDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud AlloyDB"
+            ],
+            "DataSource_Version": [
+                "v1"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/README.md"
+        }
+    ],
+    "Google Cloud Spanner": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Google Cloud Spanner"
+            ],
+            "DataSource_Version": [
+                "1.0.39300"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.6/logstash-filter-spanner_db_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud Spanner"
+            ],
+            "DataSource_Version": [
+                "1.0.39300"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC SaaS"
+            ],
+            "DataSource": [
+                "Google Cloud Spanner"
+            ],
+            "DataSource_Version": [
+                "1.0.39300"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-spanner-guardium/README.md"
         }
     ],
     "Snowflake": [
@@ -581,44 +638,27 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-firebase-realtime-guardium/README.md"
         }
     ],
-    "Google Cloud SQL for MySQL": [
+    "Google Cloud SQL for PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 11.5"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for MySQL"
-            ],
-            "DataSource_Version": [
-                "8"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-filter-pubsub-mysql-guardium-7.16.3.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
+                "GDP 11.5",
                 "GDP 12.0"
             ],
             "DataSource": [
-                "Google Cloud SQL for MySQL"
+                "Google Cloud SQL for PostgreSQL"
             ],
             "DataSource_Version": [
-                "8"
+                "13",
+                "14"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/PubSubMySQLPackage/logstash-filter-pubsub-mysql-guardium-8.3.3.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
+            "Download_URL": "https://github.com/IBM/universal-connectors/raw/release-v1.2.0/filter-plugin/logstash-filter-pubsub-postgresql-guardium/PubSubPostgreSQLPackage/logstash-offline-plugins-filter-pubsub-postgresql-guardium.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
         },
         {
             "GDP_Type": [
@@ -629,57 +669,17 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for MySQL"
+                "Google Cloud SQL for PostgreSQL"
             ],
             "DataSource_Version": [
-                "8"
+                "13",
+                "14"
             ],
             "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC SaaS"
-            ],
-            "DataSource": [
-                "Google Cloud SQL for MySQL"
-            ],
-            "DataSource_Version": [
-                "8"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-mysql-guardium/README.md"
-        }
-    ],
-    "Google Cloud AlloyDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud AlloyDB"
-            ],
-            "DataSource_Version": [
-                "v1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/README.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-pubsub-postgresql-guardium/README.md"
         }
     ]
 }

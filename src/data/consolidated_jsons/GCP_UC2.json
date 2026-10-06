@@ -1,46 +1,4 @@
 ﻿{
-    "Google Cloud BigQuery": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/BigqueryPubsubKafkaConnect.md"
-        }
-    ],
-    "Google Cloud Apache Solr": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Google Cloud Apache Solr"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/ApachesolrPubsubkafkaConnect.md"
-        }
-    ],
     "Google Cloud Bigtable": [
         {
             "GDP_Type": [
@@ -62,7 +20,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/BigtablePubsubKafkaConnect.md"
         }
     ],
-    "Google Cloud SQL for PostgreSQL": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
@@ -71,7 +29,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Google Cloud SQL for PostgreSQL"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
                 "latest"
@@ -80,28 +38,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/PostgresqlPubsubKafkaConnect.md"
-        }
-    ],
-    "Google Cloud Spanner": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Google Cloud Spanner"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SpannerPubsubKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/BigqueryPubsubKafkaConnect.md"
         }
     ],
     "MongoDB Atlas": [
@@ -125,7 +62,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md"
         }
     ],
-    "Snowflake": [
+    "Google Cloud Apache Solr": [
         {
             "GDP_Type": [
                 "GDP"
@@ -134,7 +71,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Snowflake"
+                "Google Cloud Apache Solr"
             ],
             "DataSource_Version": [
                 "latest"
@@ -143,7 +80,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/ApachesolrPubsubkafkaConnect.md"
         }
     ],
     "Google Cloud AlloyDB": [
@@ -165,6 +102,69 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBPubsubKafkaConnect.md"
+        }
+    ],
+    "Google Cloud Spanner": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Google Cloud Spanner"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SpannerPubsubKafkaConnect.md"
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+        }
+    ],
+    "Google Cloud SQL for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/PostgresqlPubsubKafkaConnect.md"
         }
     ]
 }

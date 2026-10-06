@@ -1,8 +1,8 @@
 ﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,VA_supported,Classification_supported,Notes,Download_URL,Readme_URL
-('GDP'),('GDP 11.5'),('Amazon Redshift'),('All versions'),,,Classification via GDP ,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0')",('Amazon RDS for Oracle'),('21c'),,,Classification via GDP,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0')",('Amazon RDS for PostgreSQL'),"('9', '10', '11', '12')",,,Classification via GDP,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0')",('Amazon RDS for SQL Server'),('All versions'),,,SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+('GDP'),"('GDP 11.5', 'GDP 12.0')",('Amazon Redshift'),('All versions'),,,Classification via GDP,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0')",('MongoDB Atlas'),('6'),,,,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('AWS Fargate'),('All versions'),,,,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('Amazon Aurora MySQL'),('All versions'),,,,,
@@ -17,10 +17,9 @@
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('Elasticsearch'),('All versions'),,,,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('MongoDB Atlas'),"('4.2', '4.4', '5')",,,,,
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('Snowflake'),('All versions'),,,,,
-('GDP'),('GDP 12.0'),('Amazon Redshift'),('All versions'),,,Classification via GDP,,
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('Amazon RDS for Oracle'),('21c'),,,Classification via GDP,,https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('Amazon RDS for PostgreSQL'),('All versions'),,,Classification via GDP,,https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap
-('GDP'),"('GDP 12.1', 'GDP 12.2')",('Amazon RDS for SQL Server'),('All versions'),,,Classification via GDP.  SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
+('GDP'),"('GDP 12.1', 'GDP 12.2')",('Amazon RDS for SQL Server'),('All versions'),,,Classification via GDP. SSL-enabled encrypted connections are supported (including Force Protocol Encryption).,,
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('Amazon Redshift'),('All versions'),,,Classification via GDP,,https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('IBM Db2'),('All versions'),,,,,
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('MongoDB Atlas'),('6'),,,,,https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap
