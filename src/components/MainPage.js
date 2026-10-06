@@ -108,9 +108,6 @@ export default function MainPage() {
       {/* Main Container when Loaded */}
       <div className="MainPageWrapper" onClick={handleClickAnywhere}>
         <MainPageHeader />
-        {/* Divider */}
-        <hr className="mainPageDivider" />
-
         <div className="mainPageTopHolder">
           {/* Search Box */}
           <MainPageSearchBar

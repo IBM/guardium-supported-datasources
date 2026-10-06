@@ -170,6 +170,7 @@ export default function DatasourceModal({
               <p>{udcDatasources[selectedDataSourceData.database_name].udc_notes}</p>
             </div>
           )}
+
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>
