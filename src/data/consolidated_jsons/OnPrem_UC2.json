@@ -1,5 +1,5 @@
 ﻿{
-    "Sybase ASE": [
+    "YugabyteDB": [
         {
             "GDP_Type": [
                 "GDP"
@@ -8,7 +8,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Sybase ASE"
+                "YugabyteDB"
             ],
             "DataSource_Version": [
                 "latest"
@@ -16,27 +16,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md"
-        }
-    ],
-    "Teradata": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Teradata"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/TeradataJDBCKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md"
         }
     ],
     "SAP HANA": [
@@ -59,7 +39,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SapHanaJDBCKafkaConnect.md"
         }
     ],
-    "CockroachDB": [
+    "MS SQL Server": [
         {
             "GDP_Type": [
                 "GDP"
@@ -68,7 +48,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "CockroachDB"
+                "MS SQL Server"
             ],
             "DataSource_Version": [
                 "latest"
@@ -76,7 +56,47 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MsSQLOnPremJDBCKafkaConnect.md"
+        }
+    ],
+    "AlloyDB Omni": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "AlloyDB Omni"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/mainREADME.md"
+        }
+    ],
+    "Sybase ASE": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Sybase ASE"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md"
         }
     ],
     "MongoDB": [
@@ -99,26 +119,6 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoDBSyslogKafkaConnect.md"
         }
     ],
-    "AlloyDB Omni": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "AlloyDB Omni"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md"
-        }
-    ],
     "NetApp ONTAP NAS": [
         {
             "GDP_Type": [
@@ -137,26 +137,6 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/NetAppOntapKafkaConnect.md"
-        }
-    ],
-    "Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Oracle"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OuaOverConnectJdbcReadme.md"
         }
     ],
     "Neo4j": [
@@ -179,6 +159,26 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/Neo4jSyslogKafkaConnect.md"
         }
     ],
+    "Teradata": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Teradata"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/TeradataJDBCKafkaConnect.md"
+        }
+    ],
     "Snowflake": [
         {
             "GDP_Type": [
@@ -199,7 +199,7 @@
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
         }
     ],
-    "MS SQL Server": [
+    "Oracle": [
         {
             "GDP_Type": [
                 "GDP"
@@ -208,7 +208,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "MS SQL Server"
+                "Oracle"
             ],
             "DataSource_Version": [
                 "latest"
@@ -216,10 +216,10 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MsSQLOnPremJDBCKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OuaOverConnectJdbcReadme.md"
         }
     ],
-    "YugabyteDB": [
+    "CockroachDB": [
         {
             "GDP_Type": [
                 "GDP"
@@ -228,7 +228,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "YugabyteDB"
+                "CockroachDB"
             ],
             "DataSource_Version": [
                 "latest"
@@ -236,7 +236,7 @@
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md"
         }
     ]
 }

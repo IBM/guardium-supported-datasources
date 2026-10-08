@@ -1,15 +1,17 @@
 ﻿{
-    "IBM Db2": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "IBM Db2"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -60,7 +62,7 @@
             "Readme_URL": ""
         }
     ],
-    "MongoDB Atlas": [
+    "Snowflake": [
         {
             "GDP_Type": [
                 "GDP"
@@ -72,13 +74,32 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "MongoDB Atlas"
+                "Snowflake"
             ],
             "DataSource_Version": [
-                "4.2",
-                "4.4",
-                "5",
-                "6"
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud SQL for MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for MySQL"
+            ],
+            "DataSource_Version": [
+                "All Versions"
             ],
             "Classification_supported": "",
             "Notes": "",
@@ -108,21 +129,46 @@
             "Readme_URL": ""
         }
     ],
-    "Google Cloud SQL for MySQL": [
+    "MongoDB Atlas": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
+                "GDP 11.5",
                 "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for MySQL"
+                "MongoDB Atlas"
             ],
             "DataSource_Version": [
-                "All Versions"
+                "4.2",
+                "4.4",
+                "5",
+                "6"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "IBM Db2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2"
+            ],
+            "DataSource_Version": [
+                "All versions"
             ],
             "Classification_supported": "",
             "Notes": "",
@@ -160,52 +206,6 @@
             ],
             "DataSource": [
                 "Google Cloud SQL for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Google Cloud BigQuery": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Snowflake": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Snowflake"
             ],
             "DataSource_Version": [
                 "All versions"

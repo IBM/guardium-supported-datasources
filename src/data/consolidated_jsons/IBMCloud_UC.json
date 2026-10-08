@@ -1,4 +1,44 @@
 ﻿{
+    "IBM Cloud Databases for MongoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for MongoDB"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.0/logstash-filter-mongodb_guardium_filter.zip",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for MongoDB"
+            ],
+            "DataSource_Version": [
+                "4.4"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
+        }
+    ],
     "IBM watsonx over JDBC": [
         {
             "GDP_Type": [
@@ -57,46 +97,6 @@
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/README.md"
-        }
-    ],
-    "IBM Cloud Databases for MongoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "IBM Cloud Databases for MongoDB"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.0/logstash-filter-mongodb_guardium_filter.zip",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "IBM Cloud Databases for MongoDB"
-            ],
-            "DataSource_Version": [
-                "4.4"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/IBMCloudMongoDB_README.md"
         }
     ]
 }

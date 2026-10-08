@@ -1,5 +1,5 @@
 ﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,Classification_supported,Notes,Download_URL,Readme_URL
-('GDP'),('GDP 12.1'),('AlloyDB Omni'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md
+('GDP'),('GDP 12.1'),('AlloyDB Omni'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/mainREADME.md
 ('GDP'),('GDP 12.1'),('CockroachDB'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md
 ('GDP'),('GDP 12.1'),('MS SQL Server'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MsSQLOnPremJDBCKafkaConnect.md
 ('GDP'),('GDP 12.1'),('MongoDB'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoDBSyslogKafkaConnect.md

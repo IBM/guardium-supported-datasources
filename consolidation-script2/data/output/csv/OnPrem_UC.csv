@@ -23,7 +23,7 @@
 ('GDP'),"('GDP 11.5', 'GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('MongoDB'),('4.4'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-mongodb-guardium/README.md
 ('GDP'),"('GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('CockroachDB'),('25.4.1'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cockroachdb-guardium/README.md
 ('GDP'),"('GDP 12.0', 'GDP 12.1', 'GDP 12.2')",('SingleStore (formerly MemSQL)'),('8.7.1'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-singlestore-guardium/README.md
-('GDP'),"('GDP 12.1', 'GDP 12.2')",('AlloyDB Omni'),('18.1.0'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md
+('GDP'),"('GDP 12.1', 'GDP 12.2')",('AlloyDB Omni'),('18.1.0'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/README.md
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('Apache Cassandra'),('4.0.1'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-cassandra-guardium/README.md
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('CouchDB'),('3.2.2'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchdb-guardium/README.md
 ('GDP'),"('GDP 12.1', 'GDP 12.2')",('Couchbase'),"('6.6.2-9600', '7.2.5-7596', '7.6.1-3200', '7.6.3-4200', '7.6.4-5146')",,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-couchbasedb-guardium/README.md

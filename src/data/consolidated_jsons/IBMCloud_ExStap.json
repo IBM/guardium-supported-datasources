@@ -1,5 +1,5 @@
 ﻿{
-    "IBM Db2": [
+    "IBM Cloud Databases for MySQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,74 +11,10 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "IBM Db2"
-            ],
-            "DataSource_Version": [
-                "9.7",
-                "10.1",
-                "10.5",
-                "11.1",
-                "11.5"
-            ],
-            "Classification_supported": "",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "IBM Db2"
-            ],
-            "DataSource_Version": [
-                "9.5"
-            ],
-            "Classification_supported": "",
-            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
-        }
-    ],
-    "IBM Cloud Databases for PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "IBM Cloud Databases for PostgreSQL"
+                "IBM Cloud Databases for MySQL"
             ],
             "DataSource_Version": [
                 "All Versions"
-            ],
-            "Classification_supported": "",
-            "Notes": ""
-        }
-    ],
-    "Elasticsearch": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "All versions"
             ],
             "Classification_supported": "",
             "Notes": ""
@@ -163,7 +99,7 @@
             "Notes": "Native encryption (DATA_ENCRYPT) not supported"
         }
     ],
-    "IBM Cloud Databases for MySQL": [
+    "Elasticsearch": [
         {
             "GDP_Type": [
                 "GDP"
@@ -175,7 +111,71 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "IBM Cloud Databases for MySQL"
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": ""
+        }
+    ],
+    "IBM Db2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2"
+            ],
+            "DataSource_Version": [
+                "9.7",
+                "10.1",
+                "10.5",
+                "11.1",
+                "11.5"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2"
+            ],
+            "DataSource_Version": [
+                "9.5"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP. Native encryption (DATA_ENCRYPT) not supported."
+        }
+    ],
+    "IBM Cloud Databases for PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Cloud Databases for PostgreSQL"
             ],
             "DataSource_Version": [
                 "All Versions"
