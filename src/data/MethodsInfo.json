@@ -1,7 +1,7 @@
 {
   "methods": {
     "Amazon Kinesis": {
-      "method_name": "Amazon Kinesis",
+      "method_name": "Amazon Kinesis (API streaming)",
       "method_info": [
         {
           "accordian_title": "Skill Level",
@@ -218,7 +218,7 @@
       ]
     },
     "Azure Event Hubs": {
-      "method_name": "Azure Event Hubs",
+      "method_name": "Azure Event Hubs (API streaming)",
       "method_info": [
         {
           "accordian_title": "Skill Level",
