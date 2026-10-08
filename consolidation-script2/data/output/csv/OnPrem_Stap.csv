@@ -48,7 +48,7 @@
 ('GDP'),"('11.5', '12.0')",('CentOS'),('CentOS 7x'),('Couchbase'),('Couchbase 7.6'),Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 ('GDP'),"('11.5', '12.0')",('CentOS'),('CentOS 7x'),('Neo4j'),('Neo4j 5.0'),Double proxy setting,Double proxy setting,Double Proxy setting,,,Yes,,,,,,,
 ('GDP'),"('11.5', '12.0')",('CentOS'),('CentOS 7x'),('SingleStore (formerly MemSQL)'),"('5.5', '6.0', '6.5', '6.7', '6.8', '7.0', '7.1')",KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
-('GDP'),"('11.5', '12.0')",('Debian'),('Debian 12'),('MySQL'),('MySQL 8.4'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
+('GDP'),"('11.5', '12.0')",('Debian'),"('Debian 11', 'Debian 12')",('MySQL'),('MySQL 8.4'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 ('GDP'),"('11.5', '12.0')",('Debian'),('Debian 12.0'),('PostgreSQL'),('PostgreSQL 17.5'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,Yes,Yes,,PostgreSQL bind variables supported
 ('GDP'),"('11.5', '12.0')",('Red Hat'),('Red Hat 7'),('Couchbase'),('Couchbase 7.6'),Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 ('GDP'),"('11.5', '12.0')",('Red Hat'),('Red Hat 7'),('MySQL'),('MySQL 8.4'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,Little endian and Big endian supported on Power 8 RHEL 7.x7.6 PPC64LE
@@ -411,7 +411,7 @@
 ('GDP'),('12.x'),('CentOS'),('CentOS 7x'),('Vertica'),"('Vertica 23.3', 'Vertica 24.1', 'Vertica 25.2')",KTAP,KTAP,ATAP,,,KTAP,KTAP,KTAP,,,,,
 ('GDP'),('12.x'),('Debian'),('Debian 11'),('IBM Informix'),('IBM Informix 15.0'),"Informix Exit, KTAP","Informix Exit, KTAP",Informix Exit,Informix Exit,,"Informix Exit, KTAP","Informix Exit, KTAP","Informix Exit, KTAP",KTAP,,Yes,,Informix Exit supported with 12.10 and higher.
 ('GDP'),('12.x'),('Debian'),('Debian 11'),('MilvusDB Standalone'),('MilvusDB 2.6.7'),KTAP ( only gRPC ),KTAP ( only gRPC ),,,,,,,KTAP,,,,Only MilvusDB Standalone supported.
-('GDP'),('12.x'),('Debian'),('Debian 11'),('MySQL'),('MySQL 8.3'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
+('GDP'),('12.x'),('Debian'),('Debian 11'),('MySQL'),"('MySQL 8.3', 'MySQL 8.4')",KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 ('GDP'),('12.x'),('Debian'),"('Debian 11', 'Debian 12.0')",('Percona Server for MySQL'),('Percona Server for MySQL 8.0'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 ('GDP'),('12.x'),('Debian'),('Debian 12.0'),('IBM Informix'),('IBM Informix 11.7'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,,,
 ('GDP'),('12.x'),('Debian'),('Debian 12.0'),('IBM Informix'),"('IBM Informix 12.1', 'IBM Informix 14.1', 'IBM Informix 15.0')","Informix Exit, KTAP","Informix Exit, KTAP",Informix Exit,Informix Exit,,"Informix Exit, KTAP","Informix Exit, KTAP","Informix Exit, KTAP",KTAP,,Yes,,Informix Exit supported with 12.10 and higher.
@@ -568,7 +568,6 @@
 ('GDP'),('12.x'),('z/OS'),('z/OS 3.2'),(' IBM Db2 for z/OS'),(' IBM Db2 for z/OS v12'), Yes, Yes,,,,,,,,,,,
 ('GDP'),"('12.x', '11.5')",('Windows Server'),('Windows Server 2025'),('Couchbase'),('Couchbase 7.1'),STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 ('GDP'),"('12.x', '11.5', '12.0')",('CentOS'),('CentOS 7x'),('MySQL'),('MySQL 8.4'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
-('GDP'),"('12.x', '11.5', '12.0')",('Debian'),('Debian 11'),('MySQL'),('MySQL 8.4'),KTAP,KTAP,,,,KTAP,KTAP,KTAP,KTAP,,Yes,,
 ('GDP'),"('12.x', '11.5', '12.0')",('Red Hat'),"('Red Hat 8', 'Red Hat 9')",('Couchbase'),('Couchbase 7.6'),Double proxy setting,Double proxy setting,Double proxy setting,,,Double proxy setting,,,,,,,"Couchbase does not transmit the ""DB user"" in TCP communications, so Guardium cannot capture it by using double proxy configuration."
 ('GDP'),"('12.x', '11.5', '12.0')",('Red Hat'),"('Red Hat 8', 'Red Hat 9')",('IBM Db2'),('IBM Db2 10.5'),"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,The versions of Db2 required in order to capture UID chain using Db2 Exit is V105FP3 or higher.
 ('GDP'),"('12.x', '11.5', '12.0')",('Red Hat'),"('Red Hat 8', 'Red Hat 9')",('IBM Db2'),('IBM Db2 9.7'),"Db2 Exit, KTAP","Db2 Exit, KTAP",Db2 Exit,"Db2 Exit, ATAP",,"Db2 Exit, KTAP, ATAP",KTAP,"Db2 Exit, KTAP",KTAP,KTAP,Yes,,The versions of Db2 required in order to use Db2 Exit is V97FP10 or higher.

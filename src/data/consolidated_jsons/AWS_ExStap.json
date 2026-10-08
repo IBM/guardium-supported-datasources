@@ -1,4 +1,48 @@
 ﻿{
+    "IBM Db2": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon Aurora PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon Aurora PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
     "Amazon RDS for MySQL": [
         {
             "GDP_Type": [
@@ -18,57 +62,8 @@
                 "5.7",
                 "8"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Amazon DynamoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon DynamoDB"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Amazon ElastiCache for Redis (Redis OSS)": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon ElastiCache for Redis (Redis OSS)"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -91,7 +86,6 @@
                 "11",
                 "12"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via GDP",
             "Download_URL": "",
@@ -111,38 +105,53 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via GDP",
             "Download_URL": "",
             "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
         }
     ],
-    "Amazon Aurora PostgreSQL": [
+    "Amazon Redshift": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
                 "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
+                "GDP 12.0"
             ],
             "DataSource": [
-                "Amazon Aurora PostgreSQL"
+                "Amazon Redshift"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
-            "Notes": "",
+            "Notes": "Classification via GDP",
             "Download_URL": "",
             "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon Redshift"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP",
+            "Download_URL": "",
+            "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
         }
     ],
-    "Amazon S3": [
+    "AWS Fargate": [
         {
             "GDP_Type": [
                 "GDP"
@@ -154,12 +163,11 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon S3"
+                "AWS Fargate"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -185,7 +193,6 @@
                 "4.4",
                 "5"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -205,7 +212,6 @@
             "DataSource_Version": [
                 "6"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -225,230 +231,10 @@
             "DataSource_Version": [
                 "6"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
-        }
-    ],
-    "Amazon Redshift": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Amazon Redshift"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon Redshift"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
-        }
-    ],
-    "AWS Fargate": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "AWS Fargate"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Elasticsearch": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "IBM Db2": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "IBM Db2"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Amazon RDS for Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "12.1",
-                "19c"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "21c"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon RDS for Oracle"
-            ],
-            "DataSource_Version": [
-                "21c"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP",
-            "Download_URL": "",
-            "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
-        }
-    ],
-    "Amazon RDS for SQL Server": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Amazon RDS for SQL Server"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Amazon RDS for SQL Server"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Classification via GDP. SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Download_URL": "",
-            "Readme_URL": ""
         }
     ],
     "Amazon Aurora MySQL": [
@@ -468,14 +254,13 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
     ],
-    "Amazon ElastiCache for Memcached": [
+    "Amazon S3": [
         {
             "GDP_Type": [
                 "GDP"
@@ -487,12 +272,34 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Amazon ElastiCache for Memcached"
+                "Amazon S3"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon ElastiCache for Redis (Redis OSS)": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon ElastiCache for Redis (Redis OSS)"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -516,11 +323,181 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
+        }
+    ],
+    "Elasticsearch": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon DynamoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon DynamoDB"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon ElastiCache for Memcached": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon ElastiCache for Memcached"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon RDS for SQL Server": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for SQL Server"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon RDS for SQL Server"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP. SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Amazon RDS for Oracle": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon RDS for Oracle"
+            ],
+            "DataSource_Version": [
+                "12.1",
+                "19c"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Amazon RDS for Oracle"
+            ],
+            "DataSource_Version": [
+                "21c"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Amazon RDS for Oracle"
+            ],
+            "DataSource_Version": [
+                "21c"
+            ],
+            "Classification_supported": "",
+            "Notes": "Classification via GDP",
+            "Download_URL": "",
+            "Readme_URL": "https://www.ibm.com/docs/en/gdp/12.x?topic=external-s-tap"
         }
     ],
     "Snowflake": [
@@ -540,7 +517,6 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",

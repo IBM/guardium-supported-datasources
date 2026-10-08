@@ -292,11 +292,8 @@ def append_to_summary_json(input_csv_path, output_csv_path, dbinfo_csv_path,
         data = read_csv_file(output_csv_path)
         matching_rows = [row for row in data if uniq_val in row[partition_header_number]]
         gdp_types = list(set(row[0] for row in matching_rows))
-        # VA_supported is column index 4; treat any "yes" on any row as supported
-        va_supported = any(len(row) > 4 and row[4].strip().lower() == "yes"
-                           for row in matching_rows)
         dbsinfo = read_csv_file(dbinfo_csv_path)
         dbinfo = [row[1] for row in dbsinfo if uniq_val in row[0]]
         add_supported_database(current_connections_data, uniq_val, environment_name,
-                               method_name, gdp_types, dbinfo, va_supported)
+                               method_name, gdp_types, dbinfo)
                                 

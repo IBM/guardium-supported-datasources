@@ -37,13 +37,27 @@ const methodArray = [
   ...Object.values(methods).map((method) => method.method_name),
 ];
 
-// Sort the supported_databases alphabetically by database_name
-supported_databases.sort((a, b) =>
-  a.database_name.localeCompare(b.database_name)
-);
+// Inject capability-only entries (VA-only or UDC-only datasources with no monitoring method)
+// into the datasource list so they surface under the VA / Discover & Classify filter toggles.
+const monitoringNames = new Set(supported_databases.map((d) => d.database_name));
+const capabilityOnlySources = [
+  ...Object.entries(vaDatasources),
+  ...Object.entries(udcDatasources),
+]
+  .filter(([name, data]) => data.capability_only === true && !monitoringNames.has(name))
+  .map(([name]) => name);
+const uniqueCapabilityNames = [...new Set(capabilityOnlySources)];
+const capabilityOnlyEntries = uniqueCapabilityNames.map((name) => ({
+  database_name: name,
+  environments_supported: [],
+}));
 
-// Map over each 'database' in 'supported_databases' to create a new array 'fullConnectionData'
-const fullConnectionData = transformDatabaseData(supported_databases, methods);
+// Sort the supported_databases alphabetically by database_name
+const all_databases = [...supported_databases, ...capabilityOnlyEntries];
+all_databases.sort((a, b) => a.database_name.localeCompare(b.database_name));
+
+// Map over each 'database' in 'all_databases' to create a new array 'fullConnectionData'
+const fullConnectionData = transformDatabaseData(all_databases, methods);
 
 // Main Page Component
 export default function MainPage() {

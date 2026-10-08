@@ -1,4 +1,24 @@
 ﻿{
+    "IBM watsonx over JDBC": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2.2"
+            ],
+            "DataSource": [
+                "IBM watsonx over JDBC"
+            ],
+            "DataSource_Version": [
+                "2.3.1"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/WatsonXKafkaConnect.md"
+        }
+    ],
     "IBM Cloud Databases for PostgreSQL": [
         {
             "GDP_Type": [
@@ -14,7 +34,6 @@
             "DataSource_Version": [
                 "v15"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "https://github.com/IBM/universal-connectors/raw/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/IcdPostgresOverKafkaEvent/guardium_logstash-offline-plugin-icd-postgresql.zip",
@@ -34,32 +53,10 @@
             "DataSource_Version": [
                 "v15"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-postgres-ibmcloud-guardium/README.md"
-        }
-    ],
-    "IBM watsonx over JDBC": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2.2"
-            ],
-            "DataSource": [
-                "IBM watsonx over JDBC"
-            ],
-            "DataSource_Version": [
-                "2.3.1"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/WatsonXKafkaConnect.md"
         }
     ],
     "IBM Cloud Databases for MongoDB": [
@@ -77,7 +74,6 @@
             "DataSource_Version": [
                 "4.4"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "https://github.com/IBM/universal-connectors/releases/download/v1.5.0/logstash-filter-mongodb_guardium_filter.zip",
@@ -97,7 +93,6 @@
             "DataSource_Version": [
                 "4.4"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",

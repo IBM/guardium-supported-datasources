@@ -1,71 +1,4 @@
 ﻿{
-    "Oracle Autonomous Database": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Oracle Autonomous Database"
-            ],
-            "DataSource_Version": [
-                "18c",
-                "19c",
-                "21c"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0"
-            ],
-            "DataSource": [
-                "Oracle Autonomous Database"
-            ],
-            "DataSource_Version": [
-                "23c",
-                "26ai"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Oracle Autonomous Database"
-            ],
-            "DataSource_Version": [
-                "23c",
-                "26ai"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
     "IBM Db2": [
         {
             "GDP_Type": [
@@ -81,7 +14,6 @@
             "DataSource_Version": [
                 "All Versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -105,7 +37,70 @@
             "DataSource_Version": [
                 "All Versions"
             ],
-            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Oracle Autonomous Database": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "18c",
+                "19c",
+                "21c"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "23c",
+                "26ai"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "23c",
+                "26ai"
+            ],
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",

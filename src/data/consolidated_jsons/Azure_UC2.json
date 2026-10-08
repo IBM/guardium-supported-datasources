@@ -1,46 +1,4 @@
 ﻿{
-    "Azure Database for PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Azure Database for PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzurePostgreSQLEventHubKafkaConnect.md"
-        }
-    ],
-    "Azure SQL Managed Instance": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Azure SQL Managed Instance"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md"
-        }
-    ],
     "MongoDB Atlas": [
         {
             "GDP_Type": [
@@ -55,14 +13,13 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md"
         }
     ],
-    "Azure SQL": [
+    "Azure Database for PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -71,79 +28,15 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure SQL"
+                "Azure Database for PostgreSQL"
             ],
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md"
-        }
-    ],
-    "Azure Cosmos": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Azure Cosmos"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureCosmosEventHubKafkaConnect.md"
-        }
-    ],
-    "Azure MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Azure MySQL"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMySQLEventHubKafkaConnect.md"
-        }
-    ],
-    "Azure Databricks": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Azure Databricks"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureDatabricksEventHubKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzurePostgreSQLEventHubKafkaConnect.md"
         }
     ],
     "Snowflake": [
@@ -160,11 +53,110 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+        }
+    ],
+    "Azure SQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure SQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md"
+        }
+    ],
+    "Azure SQL Managed Instance": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure SQL Managed Instance"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md"
+        }
+    ],
+    "Azure MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure MySQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMySQLEventHubKafkaConnect.md"
+        }
+    ],
+    "Azure Cosmos": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure Cosmos"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureCosmosEventHubKafkaConnect.md"
+        }
+    ],
+    "Azure Databricks": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure Databricks"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureDatabricksEventHubKafkaConnect.md"
         }
     ]
 }

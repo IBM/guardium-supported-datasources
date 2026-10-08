@@ -1,46 +1,4 @@
 ﻿{
-    "Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "Oracle"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OuaOverConnectJdbcReadme.md"
-        }
-    ],
-    "SAP HANA": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "SAP HANA"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SapHanaJDBCKafkaConnect.md"
-        }
-    ],
     "Sybase ASE": [
         {
             "GDP_Type": [
@@ -55,95 +13,10 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SybaseJDBCKafkaConnect.md"
-        }
-    ],
-    "AlloyDB Omni": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "AlloyDB Omni"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md"
-        }
-    ],
-    "CockroachDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "CockroachDB"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md"
-        }
-    ],
-    "NetApp ONTAP NAS": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2.4"
-            ],
-            "DataSource": [
-                "NetApp ONTAP NAS"
-            ],
-            "DataSource_Version": [
-                "ONTAP 9.10+"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/NetAppOntapKafkaConnect.md"
-        }
-    ],
-    "YugabyteDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "YugabyteDB"
-            ],
-            "DataSource_Version": [
-                "latest"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md"
         }
     ],
     "Teradata": [
@@ -160,14 +33,13 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/TeradataJDBCKafkaConnect.md"
         }
     ],
-    "Snowflake": [
+    "SAP HANA": [
         {
             "GDP_Type": [
                 "GDP"
@@ -176,16 +48,35 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Snowflake"
+                "SAP HANA"
             ],
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SapHanaJDBCKafkaConnect.md"
+        }
+    ],
+    "CockroachDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "CockroachDB"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/CockroachDBSyslogKafkaConnect.md"
         }
     ],
     "MongoDB": [
@@ -202,11 +93,70 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoDBSyslogKafkaConnect.md"
+        }
+    ],
+    "AlloyDB Omni": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "AlloyDB Omni"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AlloyDBOmniSyslogKafkaConnect.md"
+        }
+    ],
+    "NetApp ONTAP NAS": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2.4"
+            ],
+            "DataSource": [
+                "NetApp ONTAP NAS"
+            ],
+            "DataSource_Version": [
+                "ONTAP 9.10+"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/NetAppOntapKafkaConnect.md"
+        }
+    ],
+    "Oracle": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Oracle"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OuaOverConnectJdbcReadme.md"
         }
     ],
     "Neo4j": [
@@ -223,11 +173,30 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/Neo4jSyslogKafkaConnect.md"
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md"
         }
     ],
     "MS SQL Server": [
@@ -244,11 +213,30 @@
             "DataSource_Version": [
                 "latest"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MsSQLOnPremJDBCKafkaConnect.md"
+        }
+    ],
+    "YugabyteDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "YugabyteDB"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md"
         }
     ]
 }

@@ -177,12 +177,6 @@ export const TABLETYPE2 = {
     {
       featureName: "VA Supported",
       featureKey: "VA_supported",
-      sorta: (rowa, rowb) => {
-        return rowa.VA_supported[0].localeCompare(rowb.VA_supported[0]);
-      },
-      sortd: (rowb, rowa) => {
-        return rowa.VA_supported[0].localeCompare(rowb.VA_supported[0]);
-      },
       getReadableString: (str) => {
         return str;
       },

@@ -10,7 +10,6 @@ compat_header:
   - DataSource
   - DataSource_Version
 feature_header:
-  - VA_supported
   - Classification_supported
   - Notes
   - Download_URL

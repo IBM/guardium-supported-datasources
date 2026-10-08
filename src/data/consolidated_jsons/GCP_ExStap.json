@@ -1,21 +1,19 @@
 ﻿{
-    "Google Cloud SQL for SQL Server": [
+    "IBM Db2": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
-                "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Google Cloud SQL for SQL Server"
+                "IBM Db2"
             ],
             "DataSource_Version": [
-                "All Versions"
+                "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -36,7 +34,6 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via ISDC. Available for Google Kubernetes Engine (GKE).",
             "Download_URL": "",
@@ -57,33 +54,8 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Available for Google Kubernetes Engine (GKE).",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Google Cloud BigQuery": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Google Cloud BigQuery"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -108,7 +80,28 @@
                 "5",
                 "6"
             ],
-            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Google Cloud SQL for SQL Server": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Google Cloud SQL for SQL Server"
+            ],
+            "DataSource_Version": [
+                "All Versions"
+            ],
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -131,7 +124,6 @@
             "DataSource_Version": [
                 "All Versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -152,7 +144,6 @@
             "DataSource_Version": [
                 "All versions in Google Cloud and Google Distributed Cloud"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "Classification via ISDC",
             "Download_URL": "",
@@ -173,29 +164,29 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
     ],
-    "IBM Db2": [
+    "Google Cloud BigQuery": [
         {
             "GDP_Type": [
                 "GDP"
             ],
             "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
                 "GDP 12.1",
                 "GDP 12.2"
             ],
             "DataSource": [
-                "IBM Db2"
+                "Google Cloud BigQuery"
             ],
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -219,7 +210,6 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",

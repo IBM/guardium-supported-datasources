@@ -1,5 +1,5 @@
 {
-    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/docs/en/gdp/12.x?topic=classification-system-requirements-data-source-support. Keys must exactly match the database_name values in summary.json. udc_notes holds scope, preview support, and SSL support from that page.",
+    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/docs/en/gdp/12.x?topic=classification-system-requirements-data-source-support. Keys must exactly match the database_name values in summary.json. udc_notes holds scope, preview support, and SSL support from that page. capability_only: true marks datasources with no activity-monitoring entry in any CSV — they are injected into the site's datasource list solely to appear under the Discover & Classify filter.",
     "datasources": {
         "CockroachDB": {
             "udc_supported": true,

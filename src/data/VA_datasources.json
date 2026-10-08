@@ -1,6 +1,15 @@
 {
-    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/support/pages/node/7255260. Keys must exactly match the database_name values in summary.json. va_notes holds version constraints or caveats from that page.",
+    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/support/pages/node/7255260. Keys must exactly match the database_name values in summary.json. va_notes holds version constraints or caveats from that page. capability_only: true marks datasources with no activity-monitoring entry in any CSV — they are injected into the site's datasource list solely to appear under the VA filter.",
     "datasources": {
+        "Aerospike Graph": {
+            "va_supported": true,
+            "va_notes": "Versions 2.4 and above - AWS services",
+            "capability_only": true
+        },
+        "Amazon DocumentDB": {
+            "va_supported": true,
+            "va_notes": "All 5.x versions - AWS services"
+        },
         "Amazon DynamoDB": {
             "va_supported": true,
             "va_notes": "All versions - AWS services"
@@ -22,8 +31,8 @@
             "va_notes": "All versions - AWS services"
         },
         "Amazon Aurora MySQL": {
-            "va_supported": true,
-            "va_notes": "All versions - AWS services"
+            "va_supported": false,
+            "va_notes": ""
         },
         "Amazon Aurora PostgreSQL": {
             "va_supported": true,
@@ -69,6 +78,22 @@
             "va_supported": true,
             "va_notes": "All versions - Azure services"
         },
+        "Amazon RDS for MySQL": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for Oracle": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for PostgreSQL": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for SQL Server": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
         "Cloudera": {
             "va_supported": true,
             "va_notes": "All versions of 5.0, 6.0, 7.0"
@@ -84,6 +109,10 @@
         "Couchbase Capella": {
             "va_supported": true,
             "va_notes": "All versions - Couchbase Services"
+        },
+        "DataStax Enterprise": {
+            "va_supported": true,
+            "va_notes": "5.1, 6.0, 6.7; V12.2.3 and up: 6.8"
         },
         "EDB Postgres": {
             "va_supported": true,

@@ -92,8 +92,19 @@ export default function DatasourceModal({
         setTableType(0);
         return;
       }
+
+      // Augment each row with VA_supported from VA_datasources.json so the
+      // detail table reflects the authoritative VA status without needing it in the CSV.
+      const vaValue = vaDatasources[selectedDataSourceData["database_name"]]?.va_supported
+        ? "Yes"
+        : "";
+      const augmentedJsonDataForDB = newJsonDataForDB.map((row) => ({
+        ...row,
+        VA_supported: vaValue,
+      }));
+
       // Update the JSON data state with the relevant data
-      setJsonDataForDB(newJsonDataForDB);
+      setJsonDataForDB(augmentedJsonDataForDB);
 
       console.log("newJsonDataForDB:", newJsonDataForDB);
 
@@ -133,29 +144,35 @@ export default function DatasourceModal({
           {/* Title DB Name */}
           <h2>{selectedDataSourceData.database_name}</h2>
 
-          {selectedDataSourceData ? (
-            <EnvironmentDropDown
-              selectedEnvironmentData={selectedEnvironmentData}
-              selectedDataSourceData={selectedDataSourceData}
-              setSelectedEnvironmentData={setSelectedEnvironmentData}
-            />
-          ) : null}
+          {selectedDataSourceData?.environments_supported?.length > 0 ? (
+            <>
+              <EnvironmentDropDown
+                selectedEnvironmentData={selectedEnvironmentData}
+                selectedDataSourceData={selectedDataSourceData}
+                setSelectedEnvironmentData={setSelectedEnvironmentData}
+              />
 
-          {selectedEnvironmentData ? (
-            <MethodDropDown
-              selectedMethodData={selectedMethodData}
-              selectedEnvironmentData={selectedEnvironmentData}
-              setSelectedMethodData={setSelectedMethodData}
-            />
-          ) : null}
+              {selectedEnvironmentData ? (
+                <MethodDropDown
+                  selectedMethodData={selectedMethodData}
+                  selectedEnvironmentData={selectedEnvironmentData}
+                  setSelectedMethodData={setSelectedMethodData}
+                />
+              ) : null}
 
-          {selectedMethodData ? (
-            <PanelCollapsibleInfo
-              selectedMethodData={selectedMethodData}
-              toolTipOpen={toolTipOpen}
-              setToolTipOpen={setToolTipOpen}
-            />
-          ) : null}
+              {selectedMethodData ? (
+                <PanelCollapsibleInfo
+                  selectedMethodData={selectedMethodData}
+                  toolTipOpen={toolTipOpen}
+                  setToolTipOpen={setToolTipOpen}
+                />
+              ) : null}
+            </>
+          ) : (
+            <p className="no-monitoring-note">
+              No activity monitoring method available for this datasource.
+            </p>
+          )}
 
           {vaDatasources[selectedDataSourceData.database_name]?.va_supported && (
             <div className={`${BLOCK_CLASS}__va-info`}>

@@ -1,244 +1,4 @@
 ﻿{
-    "Netezza": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Netezza"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "IBM Db2 Warehouse": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "IBM Db2 Warehouse"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "Native encryption (DATA_ENCRYPT) not supported.",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "CockroachDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "CockroachDB"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "SingleStore (formerly MemSQL)": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "SingleStore (formerly MemSQL)"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Elasticsearch": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "6.8"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "Elastic search 6.8 available on IBM cloud.",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Elasticsearch"
-            ],
-            "DataSource_Version": [
-                "7.4"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "Elastic search 7.4 available on AWS.",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "MongoDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Oracle": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Oracle"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "Oracle RAC and Exadata configurations are supported",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "PostgreSQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "PostgreSQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Redis": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Redis"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "SAP HANA": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "SAP HANA"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
     "Sybase ASE": [
         {
             "GDP_Type": [
@@ -254,139 +14,6 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MySQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Teradata": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Teradata"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "EDB Postgres": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "EDB Postgres"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Vertica": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Vertica"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "MilvusDB Standalone": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MilvusDB Standalone"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "Standalone Mode with non SSL",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "MariaDB": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MariaDB"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -408,7 +35,214 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "SAP HANA": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "SAP HANA"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Elasticsearch": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "6.8"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "Elastic search 6.8 available on IBM cloud.",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Elasticsearch"
+            ],
+            "DataSource_Version": [
+                "7.4"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "Elastic search 7.4 available on AWS.",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "SingleStore (formerly MemSQL)": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "SingleStore (formerly MemSQL)"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Netezza": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Netezza"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "PostgreSQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "PostgreSQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "CockroachDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "CockroachDB"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "MongoDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MongoDB"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "MilvusDB Standalone": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MilvusDB Standalone"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "Standalone Mode with non SSL",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Redis": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Redis"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
@@ -430,32 +264,9 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "All Platforms (Windows or Redhat or Ubuntu or SUSE Linux Enterprise Server or Docker). SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
-            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
-        }
-    ],
-    "Greenplum": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Greenplum"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "VA_supported": "",
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
         }
     ],
@@ -474,9 +285,155 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
             "Classification_supported": "",
             "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Teradata": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Teradata"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "MariaDB": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MariaDB"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Vertica": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Vertica"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "IBM Db2 Warehouse": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "IBM Db2 Warehouse"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "Native encryption (DATA_ENCRYPT) not supported.",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "MySQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Greenplum": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Greenplum"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "Oracle": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Oracle"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "Oracle RAC and Exadata configurations are supported",
             "Download_URL": "",
             "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
         }
@@ -495,7 +452,27 @@
             "DataSource_Version": [
                 "All versions"
             ],
-            "VA_supported": "",
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/Guardium_External_S-TAP"
+        }
+    ],
+    "EDB Postgres": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "EDB Postgres"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
             "Classification_supported": "",
             "Notes": "",
             "Download_URL": "",
