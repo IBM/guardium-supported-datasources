@@ -1,0 +1,22 @@
+﻿{
+    "Oracle Autonomous Database": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Oracle Autonomous Database"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": "https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/OracleAutonomousDatabaseKafkaConnect.md"
+        }
+    ]
+}

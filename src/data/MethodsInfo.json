@@ -1,7 +1,7 @@
 {
   "methods": {
     "Amazon Kinesis": {
-      "method_name": "Amazon Kinesis",
+      "method_name": "Amazon Kinesis (API streaming)",
       "method_info": [
         {
           "accordian_title": "Skill Level",
@@ -218,7 +218,7 @@
       ]
     },
     "Azure Event Hubs": {
-      "method_name": "Azure Event Hubs",
+      "method_name": "Azure Event Hubs (API streaming)",
       "method_info": [
         {
           "accordian_title": "Skill Level",
@@ -293,7 +293,7 @@
       ]
     },
     "Universal Connector": {
-      "method_name": "Universal Connector",
+      "method_name": "Universal Connector 1.0",
       "method_info": [
         {
           "accordian_title": "Skill Level",
@@ -345,6 +345,69 @@
             {
               "title": "[Download]",
               "link": "https://github.com/IBM/universal-connectors/releases"
+            }
+          ]
+        }
+      ]
+    },
+    "Universal Connector 2.0": {
+      "method_name": "Universal Connector 2.0",
+      "method_info": [
+        {
+          "accordian_title": "Skill Level",
+          "type": "string",
+          "content": "Intermediate"
+        },
+        {
+          "accordian_title": "Benefits",
+          "type": "string",
+          "content": [
+            "Eliminates technical and administrative burdens of agent-based monitoring.",
+            "Advanced load balancing, high availability, and disaster recovery via Kafka Connect architecture.",
+            "Better suited for high-throughput environments than Universal Connector 1.0."
+          ]
+        },
+        {
+          "accordian_title": "Considerations",
+          "type": "string",
+          "content": [
+            "Requires Guardium Data Protection 12.1 or later.",
+            "Requires dedicated Kafka nodes (minimum 3 for load balancing) configured as a Kafka cluster in Guardium.",
+            "Lack of segregation of duties: database administrators can disable native audit logging.",
+            "Limited visibility: Native audit logging is normally limited to access and exception events.",
+            "Lack of proactive protections: no in-line blocking, redaction and more."
+          ]
+        },
+        {
+          "accordian_title": "How it works",
+          "type": "string",
+          "content": [
+            "Native audit logging is enabled on the database. Events are ingested via a Kafka Connect pipeline: a Source Connector normalizes events into a Kafka topic, and a Sink Connector processes and forwards them to Guardium Collectors for policy enforcement and analytics."
+          ]
+        },
+        {
+          "accordian_title": "Information you will need",
+          "type": "orderedlist",
+          "content": [
+            "Guardium Data Protection 12.1 or later with a configured Kafka cluster (minimum 3 Kafka nodes).",
+            "Authentication and configuration settings for the data source."
+          ]
+        },
+        {
+          "accordian_title": "Setup Instructions",
+          "type": "link",
+          "content": [
+            {
+              "title": "[Learn More about Universal Connector 2.0]",
+              "link": "https://www.ibm.com/docs/en/gdp/12.x?topic=connector-overview#guc_overview__title__9"
+            },
+            {
+              "title": "[Creating Kafka Clusters]",
+              "link": "https://www.ibm.com/docs/en/gdp/12.x?topic=manager-creating-kafka-clusters"
+            },
+            {
+              "title": "[Available Kafka Connect Plug-ins]",
+              "link": "https://github.com/IBM/universal-connectors/tree/main/docs/KafkaBasedUCs"
             }
           ]
         }

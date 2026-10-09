@@ -1,0 +1,17 @@
+input_csv_path: consolidation-script2/data/input/Azure_UC2.csv
+dbinfo_csv_path: consolidation-script2/data/input/Azure_UC2_Dbinfo.csv
+output_csv_path: consolidation-script2/data/output/csv/Azure_UC2.csv
+output_json_path: src/data/consolidated_jsons/Azure_UC2.json
+environment_name: Azure (Database as a Service)
+method_name: Universal Connector 2.0
+compat_header:
+  - GDP_Type
+  - Guardium_Version
+  - DataSource
+  - DataSource_Version
+feature_header:
+  - Classification_supported
+  - Notes
+  - Download_URL
+  - Readme_URL
+partition_header: 2

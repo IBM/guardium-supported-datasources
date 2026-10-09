@@ -1,0 +1,9 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,Classification_supported,Notes,Download_URL,Readme_URL
+('GDP'),('GDP 12.1'),('Google Cloud AlloyDB'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/filter-plugin/logstash-filter-alloydb-guardium/mainREADME.md
+('GDP'),('GDP 12.1'),('Google Cloud Apache Solr'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/ApachesolrPubsubkafkaConnect.md
+('GDP'),('GDP 12.1'),('Google Cloud BigQuery'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/BigqueryPubsubKafkaConnect.md
+('GDP'),('GDP 12.1'),('Google Cloud Bigtable'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/BigtablePubsubKafkaConnect.md
+('GDP'),('GDP 12.1'),('Google Cloud SQL for PostgreSQL'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/PostgresqlPubsubKafkaConnect.md
+('GDP'),('GDP 12.1'),('Google Cloud Spanner'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SpannerPubsubKafkaConnect.md
+('GDP'),('GDP 12.1'),('MongoDB Atlas'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md
+('GDP'),('GDP 12.1'),('Snowflake'),('latest'),,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md

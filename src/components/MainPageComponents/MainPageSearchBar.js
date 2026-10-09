@@ -12,8 +12,8 @@ export default function MainPageSearchBar({
     light: false,
     name: "search-columns",
     defaultValue: "",
-    labelText: "Find a DataSource",
-    placeholder: "Find a DataSource",
+    labelText: "Find a datasource",
+    placeholder: "Find a datasource",
     value: searchValue,
     onChange: (event) => {
       setSearchValue((event.target && event.target.value) || "");

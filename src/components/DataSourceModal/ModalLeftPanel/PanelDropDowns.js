@@ -46,7 +46,6 @@ EnvironmentDropDown.propTypes = {
 export function MethodDropDown({
   selectedMethodData,
   selectedEnvironmentData,
-  selectedProduct,
   setSelectedMethodData
 }) {
   return (
@@ -54,18 +53,7 @@ export function MethodDropDown({
               ariaLabel="Methods Dropdown"
               id="methods-dropdown"
               selectedItem={selectedMethodData}
-              items={
-                // If SaaS or Insights, remove STAP related methods
-                selectedProduct === "Guardium Data Security Center SaaS" ||
-                selectedProduct === "Guardium Data Security Center (Software)"
-                  ? selectedEnvironmentData.methods_supported.filter(function (e) {
-                      return (
-                        e.method_key !== "External STAP" &&
-                        e.method_key !== "STAP"
-                      );
-                    })
-                  : selectedEnvironmentData.methods_supported
-              }
+              items={selectedEnvironmentData.methods_supported}
               itemToString={(method) => method.method_name}
               label="Choose Method"
               titleText="Method"
@@ -89,6 +77,5 @@ MethodDropDown.propTypes = {
       })
     ).isRequired,
   }).isRequired, // Object with methods_supported array
-  selectedProduct: PropTypes.string.isRequired, // String representing the selected product
   setSelectedMethodData: PropTypes.func.isRequired, // Function to update selected method data
 };

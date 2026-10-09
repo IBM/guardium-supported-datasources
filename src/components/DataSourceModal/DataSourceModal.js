@@ -11,10 +11,12 @@ import ModalMainPanel from "./ModalMainPanel/ModalMainPanel";
 import PanelCollapsibleInfo from "./ModalLeftPanel/PanelCollapsibleInfo";
 import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 
+const { datasources: vaDatasources } = require("../../data/VA_datasources.json");
+const { datasources: udcDatasources } = require("../../data/UDC_datasources.json");
+
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({
   selectedDataSourceData,
-  selectedProduct,
   setOpen,
   open,
 }) {
@@ -90,8 +92,19 @@ export default function DatasourceModal({
         setTableType(0);
         return;
       }
+
+      // Augment each row with VA_supported from VA_datasources.json so the
+      // detail table reflects the authoritative VA status without needing it in the CSV.
+      const vaValue = vaDatasources[selectedDataSourceData["database_name"]]?.va_supported
+        ? "Yes"
+        : "";
+      const augmentedJsonDataForDB = newJsonDataForDB.map((row) => ({
+        ...row,
+        VA_supported: vaValue,
+      }));
+
       // Update the JSON data state with the relevant data
-      setJsonDataForDB(newJsonDataForDB);
+      setJsonDataForDB(augmentedJsonDataForDB);
 
       console.log("newJsonDataForDB:", newJsonDataForDB);
 
@@ -131,30 +144,50 @@ export default function DatasourceModal({
           {/* Title DB Name */}
           <h2>{selectedDataSourceData.database_name}</h2>
 
-          {selectedDataSourceData ? (
-            <EnvironmentDropDown
-              selectedEnvironmentData={selectedEnvironmentData}
-              selectedDataSourceData={selectedDataSourceData}
-              setSelectedEnvironmentData={setSelectedEnvironmentData}
-            />
-          ) : null}
+          {selectedDataSourceData?.environments_supported?.length > 0 ? (
+            <>
+              <EnvironmentDropDown
+                selectedEnvironmentData={selectedEnvironmentData}
+                selectedDataSourceData={selectedDataSourceData}
+                setSelectedEnvironmentData={setSelectedEnvironmentData}
+              />
 
-          {selectedEnvironmentData ? (
-            <MethodDropDown
-              selectedMethodData={selectedMethodData}
-              selectedEnvironmentData={selectedEnvironmentData}
-              selectedProduct={selectedProduct}
-              setSelectedMethodData={setSelectedMethodData}
-            />
-          ) : null}
+              {selectedEnvironmentData ? (
+                <MethodDropDown
+                  selectedMethodData={selectedMethodData}
+                  selectedEnvironmentData={selectedEnvironmentData}
+                  setSelectedMethodData={setSelectedMethodData}
+                />
+              ) : null}
 
-          {selectedMethodData ? (
-            <PanelCollapsibleInfo
-              selectedMethodData={selectedMethodData}
-              toolTipOpen={toolTipOpen}
-              setToolTipOpen={setToolTipOpen}
-            />
-          ) : null}
+              {selectedMethodData ? (
+                <PanelCollapsibleInfo
+                  selectedMethodData={selectedMethodData}
+                  toolTipOpen={toolTipOpen}
+                  setToolTipOpen={setToolTipOpen}
+                />
+              ) : null}
+            </>
+          ) : (
+            <p className="no-monitoring-note">
+              No activity monitoring method available for this datasource.
+            </p>
+          )}
+
+          {vaDatasources[selectedDataSourceData.database_name]?.va_supported && (
+            <div className={`${BLOCK_CLASS}__va-info`}>
+              <h6>Vulnerability Assessment</h6>
+              <p>{vaDatasources[selectedDataSourceData.database_name].va_notes}</p>
+            </div>
+          )}
+
+          {udcDatasources[selectedDataSourceData.database_name]?.udc_supported && (
+            <div className={`${BLOCK_CLASS}__va-info`}>
+              <h6>Discover &amp; Classify</h6>
+              <p>{udcDatasources[selectedDataSourceData.database_name].udc_notes}</p>
+            </div>
+          )}
+
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>
@@ -178,7 +211,6 @@ DatasourceModal.propTypes = {
   selectedDataSourceData: PropTypes.shape({
     database_name: PropTypes.string.isRequired,
   }).isRequired, // Object with a database_name string field
-  selectedProduct: PropTypes.string,
   setOpen: PropTypes.func.isRequired,
   open: PropTypes.bool.isRequired,
 };

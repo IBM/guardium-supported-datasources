@@ -290,9 +290,10 @@ def append_to_summary_json(input_csv_path, output_csv_path, dbinfo_csv_path,
         # For this uniq_val get the gdp_types from CSV file
         # the partition_header_number is database and index 0 is gdp_type in CSV.
         data = read_csv_file(output_csv_path)
-        gdp_types = [row[0] for row in data if uniq_val in row[partition_header_number]]
-        gdp_types = list(set(gdp_types))
+        matching_rows = [row for row in data if uniq_val in row[partition_header_number]]
+        gdp_types = list(set(row[0] for row in matching_rows))
         dbsinfo = read_csv_file(dbinfo_csv_path)
         dbinfo = [row[1] for row in dbsinfo if uniq_val in row[0]]
-        add_supported_database(current_connections_data, uniq_val, environment_name, method_name, gdp_types, dbinfo)
+        add_supported_database(current_connections_data, uniq_val, environment_name,
+                               method_name, gdp_types, dbinfo)
                                 

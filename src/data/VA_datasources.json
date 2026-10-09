@@ -1,0 +1,202 @@
+{
+    "_comment": "Hand-maintained. Authoritative source: https://www.ibm.com/support/pages/node/7255260. Keys must exactly match the database_name values in summary.json. va_notes holds version constraints or caveats from that page. capability_only: true marks datasources with no activity-monitoring entry in any CSV — they are injected into the site's datasource list solely to appear under the VA filter.",
+    "datasources": {
+        "Aerospike Graph": {
+            "va_supported": true,
+            "va_notes": "Versions 2.4 and above - AWS services",
+            "capability_only": true
+        },
+        "Amazon DocumentDB": {
+            "va_supported": true,
+            "va_notes": "All 5.x versions - AWS services"
+        },
+        "Amazon DynamoDB": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon ElastiCache for Memcached": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon ElastiCache for Redis (Redis OSS)": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon Neptune": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon Redshift": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon Aurora MySQL": {
+            "va_supported": false,
+            "va_notes": ""
+        },
+        "Amazon Aurora PostgreSQL": {
+            "va_supported": true,
+            "va_notes": "V12.2.1 and up: All Versions - AWS services"
+        },
+        "Apache Cassandra": {
+            "va_supported": true,
+            "va_notes": "3.11, 4.0, 4.1"
+        },
+        "Aster": {
+            "va_supported": true,
+            "va_notes": "6, 6.1"
+        },
+        "Azure Cosmos DB for Cassandra": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Azure Cosmos DB for Gremlin": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Azure Cosmos DB for MongoDB": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Azure Cosmos DB for NoSQL": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Azure Cosmos DB for Table": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Azure MySQL": {
+            "va_supported": true,
+            "va_notes": "V12.2.1 and up: All Versions - Azure Services"
+        },
+        "Azure Database for PostgreSQL": {
+            "va_supported": true,
+            "va_notes": "All Versions - Azure Services"
+        },
+        "Azure SQL": {
+            "va_supported": true,
+            "va_notes": "All versions - Azure services"
+        },
+        "Amazon RDS for MySQL": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for Oracle": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for PostgreSQL": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Amazon RDS for SQL Server": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS services"
+        },
+        "Cloudera": {
+            "va_supported": true,
+            "va_notes": "All versions of 5.0, 6.0, 7.0"
+        },
+        "CockroachDB": {
+            "va_supported": true,
+            "va_notes": "23.2, 24.1 (On-Prem and Amazon EC2)"
+        },
+        "Couchbase": {
+            "va_supported": true,
+            "va_notes": "6.0, 6.5, 6.6, 7.0; V12.2.3 and up: 7.6, 8.0"
+        },
+        "Couchbase Capella": {
+            "va_supported": true,
+            "va_notes": "All versions - Couchbase Services"
+        },
+        "DataStax Enterprise": {
+            "va_supported": true,
+            "va_notes": "5.1, 6.0, 6.7; V12.2.3 and up: 6.8"
+        },
+        "EDB Postgres": {
+            "va_supported": true,
+            "va_notes": "14.6; V12.2.2 and up: 17.5"
+        },
+        "IBM Db2": {
+            "va_supported": true,
+            "va_notes": "9.7, 10.1, 10.5, 11.1, 11.5; V12.2.2 and up: 12.1"
+        },
+        "IBM Db2 for z/OS": {
+            "va_supported": true,
+            "va_notes": "10, 11, 12, 13"
+        },
+        "IBM Informix": {
+            "va_supported": true,
+            "va_notes": "11.50, 11.70, 12.10, 14.10"
+        },
+        "Netezza": {
+            "va_supported": true,
+            "va_notes": "6.0, 6.02, 7.0, 7.1, 7.2"
+        },
+        "MariaDB": {
+            "va_supported": true,
+            "va_notes": "10.4, 10.5, 10.6, 10.7, 10.8"
+        },
+        "MarkLogic": {
+            "va_supported": true,
+            "va_notes": "V12.2.2 and up: 11.3.3, 12.0.0"
+        },
+        "MS SQL Server": {
+            "va_supported": true,
+            "va_notes": "2014, 2016, 2017, 2019, 2022"
+        },
+        "MongoDB": {
+            "va_supported": true,
+            "va_notes": "4.2, 4.4, 4.6, 5.0, 6.0, 7.0"
+        },
+        "MongoDB Atlas": {
+            "va_supported": true,
+            "va_notes": "V12.2.2 and up: 8.0.16"
+        },
+        "Neo4j": {
+            "va_supported": true,
+            "va_notes": "5.x, 5.1x, 5.2x (up to 5.24)"
+        },
+        "Oracle": {
+            "va_supported": true,
+            "va_notes": "12.1, 19c, 21c (includes on-premises and autonomous cloud); V12.2.3 and up: 26ai"
+        },
+        "MySQL": {
+            "va_supported": true,
+            "va_notes": "5.5, 5.6, 5.7, 8.0; V12.2.2 and up: 8.4"
+        },
+        "Percona Server for MySQL": {
+            "va_supported": true,
+            "va_notes": "8.0"
+        },
+        "PostgreSQL": {
+            "va_supported": true,
+            "va_notes": "All versions of 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0"
+        },
+        "SAP HANA": {
+            "va_supported": true,
+            "va_notes": "1.0, 2"
+        },
+        "Sybase ASE": {
+            "va_supported": true,
+            "va_notes": "15.7, 16"
+        },
+        "Sybase IQ": {
+            "va_supported": true,
+            "va_notes": "15.4, 16"
+        },
+        "Snowflake": {
+            "va_supported": true,
+            "va_notes": "All versions of Snowflake services"
+        },
+        "Teradata": {
+            "va_supported": true,
+            "va_notes": "17; V12.2.1 and up: Teradata 20"
+        },
+        "YugabyteDB": {
+            "va_supported": true,
+            "va_notes": "All versions - AWS EC2"
+        }
+    }
+}

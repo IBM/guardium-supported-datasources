@@ -531,11 +531,12 @@ def add_supported_database(json_data, database_name, environment_name, method_na
         env = {"environment_name": environment_name, "methods_supported": []}
         db["environments_supported"].append(env)
 
-    # Find the mehtod if it exist, or create it
+    # Find the method if it exists, or create it
     method = next((method for method in env["methods_supported"]
                 if method["method_key"] == method_name), None)
     if not method:
-        method = {"method_key": method_name, "special_notes": dbinfo, "gdp_types": []}
+        method = {"method_key": method_name, "special_notes": dbinfo,
+                  "gdp_types": []}
         env["methods_supported"].append(method)
 
     # Add the gdp_type if it doesn't already exist

@@ -1,0 +1,6 @@
+{
+    "gdp_release": "12.2.4",
+    "uc_release": "v1.7.3",
+    "last_synced": "2025-10-05",
+    "notes": "S-TAP gaps 12.2.0–12.2.4, IBM DataStax HCD (new), Azure/GCP product naming fixes, AWS/Azure UC entry updates"
+}

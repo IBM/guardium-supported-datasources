@@ -1,0 +1,9 @@
+﻿GDP_Type,Guardium_Version,DataSource,DataSource_Version,Classification_supported,Notes,Download_URL,Readme_URL
+GDP,GDP 12.1,Azure Cosmos,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureCosmosEventHubKafkaConnect.md
+GDP,GDP 12.1,Azure Database for PostgreSQL,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzurePostgreSQLEventHubKafkaConnect.md
+GDP,GDP 12.1,Azure Databricks,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureDatabricksEventHubKafkaConnect.md
+GDP,GDP 12.1,Azure MySQL,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMySQLEventHubKafkaConnect.md
+GDP,GDP 12.1,Azure SQL,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md
+GDP,GDP 12.1,Azure SQL Managed Instance,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/AzureMsSQLJDBCKafkaConnect.md
+GDP,GDP 12.1,MongoDB Atlas,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/MongoAtlasoverMongoAtlasKafkaConnect.md
+GDP,GDP 12.1,Snowflake,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/SnowflakeJDBCKafkaConnect.md

@@ -177,12 +177,6 @@ export const TABLETYPE2 = {
     {
       featureName: "VA Supported",
       featureKey: "VA_supported",
-      sorta: (rowa, rowb) => {
-        return rowa.VA_supported[0].localeCompare(rowb.VA_supported[0]);
-      },
-      sortd: (rowb, rowa) => {
-        return rowa.VA_supported[0].localeCompare(rowb.VA_supported[0]);
-      },
       getReadableString: (str) => {
         return str;
       },
@@ -254,6 +248,8 @@ export const getJSONData = (environment, method) => {
       ];
     case "AWS (Database as a Service)|Universal Connector":
       return [require(`../data/consolidated_jsons/AWS_UC.json`), TABLETYPE2];
+    case "AWS (Database as a Service)|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/AWS_UC2.json`), TABLETYPE2];
     case "Azure (Database as a Service)|Azure Event Hubs":
       return [
         require(`../data/consolidated_jsons/Azure_AzEvHub.json`),
@@ -266,6 +262,8 @@ export const getJSONData = (environment, method) => {
       ];
     case "Azure (Database as a Service)|Universal Connector":
       return [require(`../data/consolidated_jsons/Azure_UC.json`), TABLETYPE2];
+    case "Azure (Database as a Service)|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/Azure_UC2.json`), TABLETYPE2];
     case "GCP (Database as a Service)|External STAP":
       return [
         require(`../data/consolidated_jsons/GCP_ExStap.json`),
@@ -273,6 +271,8 @@ export const getJSONData = (environment, method) => {
       ];
     case "GCP (Database as a Service)|Universal Connector":
       return [require(`../data/consolidated_jsons/GCP_UC.json`), TABLETYPE2];
+    case "GCP (Database as a Service)|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/GCP_UC2.json`), TABLETYPE2];
     case "IBM Cloud (Database as a Service)|External STAP":
       return [
         require(`../data/consolidated_jsons/IBMCloud_ExStap.json`),
@@ -283,6 +283,8 @@ export const getJSONData = (environment, method) => {
         require(`../data/consolidated_jsons/IBMCloud_UC.json`),
         TABLETYPE2,
       ];
+    case "IBM Cloud (Database as a Service)|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/IBMCloud_UC2.json`), TABLETYPE2];
     case "On-premise or IaaS|STAP":
       return [
         require(`../data/consolidated_jsons/OnPrem_Stap.json`),
@@ -295,6 +297,8 @@ export const getJSONData = (environment, method) => {
       ];
     case "On-premise or IaaS|Universal Connector":
       return [require(`../data/consolidated_jsons/OnPrem_UC.json`), TABLETYPE2];
+    case "On-premise or IaaS|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/OnPrem_UC2.json`), TABLETYPE2];
     case "Oracle Cloud (Database as a Service)|External STAP":
       return [
         require(`../data/consolidated_jsons/OracleCloud_ExStap.json`),
@@ -305,6 +309,8 @@ export const getJSONData = (environment, method) => {
         require(`../data/consolidated_jsons/OracleCloud_UC.json`),
         TABLETYPE2,
       ];
+    case "Oracle Cloud (Database as a Service)|Universal Connector 2.0":
+      return [require(`../data/consolidated_jsons/OracleCloud_UC2.json`), TABLETYPE2];
     case "SAP Cloud (Database as a Service)|External STAP":
       return [
         require(`../data/consolidated_jsons/SAPCloud_ExStap.json`),

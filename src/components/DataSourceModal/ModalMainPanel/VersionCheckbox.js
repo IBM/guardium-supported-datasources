@@ -34,9 +34,17 @@ export default function VersionCheckbox({
       <Button
         variant="outlined"
         sx={{ fontSize: "10px", padding: "4px 8px", minWidth: "auto" }}
-        onClick={() => setGDPVersions(DEFAULT_GDP_VERSIONS)}
+        onClick={() =>
+          setGDPVersions(
+            GDPVersions.length === DEFAULT_GDP_VERSIONS.length
+              ? []
+              : DEFAULT_GDP_VERSIONS
+          )
+        }
       >
-        Select all
+        {GDPVersions.length === DEFAULT_GDP_VERSIONS.length
+          ? "Deselect all"
+          : "Select all"}
       </Button>
     </div>
   );

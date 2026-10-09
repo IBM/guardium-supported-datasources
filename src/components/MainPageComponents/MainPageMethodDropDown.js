@@ -11,7 +11,7 @@ export default function MainPageMethodDropdown({
   return (
     <div className="mainPageDropdown">
       <div className="mainPageDropdownBox">
-      <DropDownLabel label="By Method" />
+      <DropDownLabel label="By monitoring method" />
         <Dropdown
           ariaLabel="Methods Dropdown"
           id="methods-dropdown"
