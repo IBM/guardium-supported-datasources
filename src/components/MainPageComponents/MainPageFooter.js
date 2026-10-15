@@ -2,9 +2,12 @@ import React from "react";
 // DataSyncInfo is kept for code-assistant reference: GDP 12.2.4, UC v1.7.3, last synced 2025-10-05
 // const syncInfo = require("../../data/DataSyncInfo.json");
 
-const { supported_databases } = require("../../data/summary.json");
-const { datasources: vaDatasources } = require("../../data/VA_datasources.json");
-const { datasources: udcDatasources } = require("../../data/UDC_datasources.json");
+import summaryData from "../../data/summary.json";
+import vaDatasourcesData from "../../data/VA_datasources.json";
+import udcDatasourcesData from "../../data/UDC_datasources.json";
+const { supported_databases } = summaryData;
+const { datasources: vaDatasources } = vaDatasourcesData;
+const { datasources: udcDatasources } = udcDatasourcesData;
 
 // Include capability-only datasources (VA/UDC-only, no monitoring method) in the export
 const monitoringNames = new Set(supported_databases.map((d) => d.database_name));
