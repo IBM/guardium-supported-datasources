@@ -2,7 +2,7 @@
 // Clicking on a datasource will open up a modal with compatibility information
 // for that datasource
 
-import { Loading, Toggle } from "@carbon/ibm-security";
+import { Loading, Toggle } from "@carbon/react";
 import React, { useState, useEffect, useCallback } from "react";
 
 import {
@@ -179,7 +179,7 @@ export default function MainPage() {
 
         {/* All DataSource Cards within Container */}
         <div className="mainPageCardsContainer">
-          <div className="bx--row">
+          <div className="cards-grid">
             {connectionData.map((dataSourceData) => (
               <MainPageCard
                 BLOCK_CLASS={BLOCK_CLASS}

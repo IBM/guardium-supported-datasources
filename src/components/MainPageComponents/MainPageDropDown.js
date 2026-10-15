@@ -1,5 +1,5 @@
 import React from "react";
-import { Dropdown } from "@carbon/ibm-security";
+import { Dropdown } from "@carbon/react";
 import DropDownLabel from "./MainPageDropDownLabel"
 import PropTypes from "prop-types";
 

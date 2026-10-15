@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "@carbon/ibm-security";
+import { Search } from "@carbon/react";
 import PropTypes from "prop-types";
 
 export default function MainPageSearchBar({

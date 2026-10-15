@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import PropTypes from "prop-types";
-import { Loading, Modal } from "@carbon/ibm-security";
+import { Loading, Modal } from "@carbon/react";
 
 import {
   EnvironmentDropDown,

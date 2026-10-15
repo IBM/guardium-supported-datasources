@@ -8,7 +8,7 @@ export default function MainPageCard({
   BLOCK_CLASS,
 }) {
   return (
-    <div className="bx--col-lg-2">
+    <div className="cards-grid__col">
       <div
         className={`${BLOCK_CLASS}__data-source-card`}
         onClick={() => {
