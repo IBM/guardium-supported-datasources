@@ -8,7 +8,7 @@ export default function MainPageSearchBar({
 }) {
   const searchColumnProps = {
     id: "search-columns",
-    size: "xl",
+    size: "lg",
     light: false,
     name: "search-columns",
     labelText: "Find a datasource",
