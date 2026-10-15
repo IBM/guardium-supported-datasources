@@ -11,7 +11,7 @@
     "@mui/icons-material": "^9.5.0",
     "@mui/material": "^9.5.0",
     "export-to-csv": "^1.4.0",
-    "fuse.js": "^6.5.3",
+    "fuse.js": "^7.0.0",
     "prop-types": "^15.8.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
