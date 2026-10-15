@@ -27,10 +27,14 @@ import {useTooltip} from '../context/TooltipContext';
 import "./../styles/connection_doc.scss";
 
 // Import 'supported_databases' and 'methods' from the corresponding files
-const { supported_databases } = require(`../data/summary.json`);
-const { methods } = require(`../data/MethodsInfo.json`);
-const { datasources: vaDatasources } = require(`../data/VA_datasources.json`);
-const { datasources: udcDatasources } = require(`../data/UDC_datasources.json`);
+import summaryData from "../data/summary.json";
+import methodsData from "../data/MethodsInfo.json";
+import vaDatasourcesData from "../data/VA_datasources.json";
+import udcDatasourcesData from "../data/UDC_datasources.json";
+const { supported_databases } = summaryData;
+const { methods } = methodsData;
+const { datasources: vaDatasources } = vaDatasourcesData;
+const { datasources: udcDatasources } = udcDatasourcesData;
 
 const methodArray = [
   "All",

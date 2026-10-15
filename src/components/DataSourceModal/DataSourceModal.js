@@ -11,8 +11,10 @@ import ModalMainPanel from "./ModalMainPanel/ModalMainPanel";
 import PanelCollapsibleInfo from "./ModalLeftPanel/PanelCollapsibleInfo";
 import { getJSONData, BLOCK_CLASS } from "../../helpers/consts";
 
-const { datasources: vaDatasources } = require("../../data/VA_datasources.json");
-const { datasources: udcDatasources } = require("../../data/UDC_datasources.json");
+import vaDatasourcesData from "../../data/VA_datasources.json";
+import udcDatasourcesData from "../../data/UDC_datasources.json";
+const { datasources: vaDatasources } = vaDatasourcesData;
+const { datasources: udcDatasources } = udcDatasourcesData;
 
 //DatasourceModal - Component used in modal for info of datasource
 export default function DatasourceModal({

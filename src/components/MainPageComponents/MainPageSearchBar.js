@@ -11,7 +11,6 @@ export default function MainPageSearchBar({
     size: "xl",
     light: false,
     name: "search-columns",
-    defaultValue: "",
     labelText: "Find a datasource",
     placeholder: "Find a datasource",
     value: searchValue,
