@@ -1,10 +1,8 @@
-import { createContext, useContext, useState } from 'react';
-import React from "react";
-
+import { createContext, useContext, useState } from "react";
 
 const TooltipContext = createContext();
 
-export function TooltipProvider({ children }){
+export function TooltipProvider({ children }) {
   const [openTooltipId, setOpenTooltipId] = useState(null); // e.g., 'link1', 'link2'
 
   return (

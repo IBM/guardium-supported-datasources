@@ -1,11 +1,7 @@
-import React from "react";
 import { Search } from "@carbon/react";
 import PropTypes from "prop-types";
 
-export default function MainPageSearchBar({
-  searchValue,
-  setSearchValue,
-}) {
+export default function MainPageSearchBar({ searchValue, setSearchValue }) {
   const searchColumnProps = {
     id: "search-columns",
     size: "lg",
@@ -16,7 +12,6 @@ export default function MainPageSearchBar({
     value: searchValue,
     onChange: (event) => {
       setSearchValue((event.target && event.target.value) || "");
-      
     },
   };
 

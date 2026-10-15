@@ -20,11 +20,10 @@ export function transformDatabaseData(supported_databases, methods) {
           // Merge method data with additional information from 'methods' using 'method_key'
           ...methods[method.method_key],
         })),
-      })
+      }),
     ),
   }));
 }
-
 
 export function handleSearchBar(value, fullConnectionData) {
   const fuzzyOptionsOverride = {
@@ -41,102 +40,123 @@ export function handleSearchBar(value, fullConnectionData) {
           "environments_supported.environment_name",
           "environments_supported.methods_supported.method_name",
         ],
-        fuzzyOptionsOverride
+        fuzzyOptionsOverride,
       )
     : fullConnectionData;
   return searchedConnectionData;
 }
 
-export function handleMethodFilter(selectedProduct, selectedMethod, selectedOS, searchedConnectionData){
-  
+export function handleMethodFilter(
+  selectedProduct,
+  selectedMethod,
+  selectedOS,
+  searchedConnectionData,
+) {
   switch (selectedMethod) {
     case "All":
       break;
     case "Agent (S-TAP)":
-      switch (selectedProduct)
-      {
+      switch (selectedProduct) {
         case "All":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
-          item.environments_supported?.some((env) =>
-            env.methods_supported?.some( (method) =>
-              method.method_name === selectedMethod && (AGENT_OS[item.database_name].includes(selectedOS) || selectedOS==="All")           
-              )
-            )
-          )
-          console.log('all products, filter more for: ', selectedOS);
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
+            item.environments_supported?.some((env) =>
+              env.methods_supported?.some(
+                (method) =>
+                  method.method_name === selectedMethod &&
+                  (AGENT_OS[item.database_name].includes(selectedOS) ||
+                    selectedOS === "All"),
+              ),
+            ),
+          );
+          console.log("all products, filter more for: ", selectedOS);
           break;
         case "Guardium Data Protection":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
             item.environments_supported?.some((env) =>
-              env.methods_supported?.some( (method) => {return method.method_name === selectedMethod &&
-                (AGENT_OS[item.database_name].includes(selectedOS) || selectedOS==="All") &&
+              env.methods_supported?.some((method) => {
+                return (
+                  method.method_name === selectedMethod &&
+                  (AGENT_OS[item.database_name].includes(selectedOS) ||
+                    selectedOS === "All") &&
                   method.gdp_types?.some((gdp_type) =>
                     gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                      gdp_type_val.includes("GDP")))}
-                )
-              )
-            )
+                      gdp_type_val.includes("GDP"),
+                    ),
+                  )
+                );
+              }),
+            ),
+          );
           break;
         case "Guardium Data Security Center":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
             item.environments_supported?.some((env) =>
-              env.methods_supported?.some( (method) => {return method.method_name === selectedMethod &&
+              env.methods_supported?.some((method) => {
+                return (
+                  method.method_name === selectedMethod &&
                   method.gdp_types?.some((gdp_type) =>
                     gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                      gdp_type_val.includes("GDSC")))}
-                )
-              )
-            )
+                      gdp_type_val.includes("GDSC"),
+                    ),
+                  )
+                );
+              }),
+            ),
+          );
           break;
-        
       }
       break;
     default:
-      switch (selectedProduct)
-      {
+      switch (selectedProduct) {
         case "All":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
-          item.environments_supported?.some((env) =>
-            env.methods_supported?.some( (method) =>
-              method.method_name === selectedMethod
-              )
-            )
-          )
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
+            item.environments_supported?.some((env) =>
+              env.methods_supported?.some(
+                (method) => method.method_name === selectedMethod,
+              ),
+            ),
+          );
           break;
         case "Guardium Data Protection":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
             item.environments_supported?.some((env) =>
-              env.methods_supported?.some( (method) => {return method.method_name === selectedMethod &&
+              env.methods_supported?.some((method) => {
+                return (
+                  method.method_name === selectedMethod &&
                   method.gdp_types?.some((gdp_type) =>
                     gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                      gdp_type_val.includes("GDP")))}
-                )
-              )
-            )
+                      gdp_type_val.includes("GDP"),
+                    ),
+                  )
+                );
+              }),
+            ),
+          );
           break;
         case "Guardium Data Security Center":
-          searchedConnectionData = searchedConnectionData?.filter( (item) =>
+          searchedConnectionData = searchedConnectionData?.filter((item) =>
             item.environments_supported?.some((env) =>
-              env.methods_supported?.some( (method) => {return method.method_name === selectedMethod &&
+              env.methods_supported?.some((method) => {
+                return (
+                  method.method_name === selectedMethod &&
                   method.gdp_types?.some((gdp_type) =>
                     gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                      gdp_type_val.includes("GDSC")))}
-                )
-              )
-            )
+                      gdp_type_val.includes("GDSC"),
+                    ),
+                  )
+                );
+              }),
+            ),
+          );
           break;
-        
       }
       break;
-  
   }
-  
+
   return searchedConnectionData;
 }
 
-
 export function handleProductFilter(selected, searchedConnectionData) {
-  
   switch (selected) {
     case "All":
       break;
@@ -146,11 +166,11 @@ export function handleProductFilter(selected, searchedConnectionData) {
           env.methods_supported?.some((method) =>
             method.gdp_types?.some((gdp_type) =>
               gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                gdp_type_val.includes("GDP")
-              )
-            )
-          )
-        )
+                gdp_type_val.includes("GDP"),
+              ),
+            ),
+          ),
+        ),
       );
       break;
 
@@ -160,11 +180,11 @@ export function handleProductFilter(selected, searchedConnectionData) {
           env.methods_supported?.some((method) =>
             method.gdp_types?.some((gdp_type) =>
               gdp_type.gdp_type_key?.some((gdp_type_val) =>
-                gdp_type_val.includes("GDSC")
-              )
-            )
-          )
-        )
+                gdp_type_val.includes("GDSC"),
+              ),
+            ),
+          ),
+        ),
       );
       break;
     default:

@@ -1,11 +1,5 @@
 import Fuse from "fuse.js";
-import {
-  OrderedList,
-  ListItem,
-  UnorderedList,
-  Link,
-} from "@carbon/react";
-import React from "react";
+import { OrderedList, ListItem, UnorderedList, Link } from "@carbon/react";
 
 export function isNumber(str) {
   return !isNaN(parseFloat(str)) && isFinite(str);
@@ -120,7 +114,7 @@ export function filterNumbersInRange(item, lowerBound, upperBound) {
   }
 
   const filteredNumbers = item.GuardiumVersion.filter(
-    (number) => number >= lowerBound && number <= upperBound
+    (number) => number >= lowerBound && number <= upperBound,
   );
 
   if (filteredNumbers.length === 0) {
@@ -135,7 +129,6 @@ export function filterNumbersInRange(item, lowerBound, upperBound) {
 
 // export function FiltersForTableType1(GVSliderValue, sortedData, selectedOS) {
 export function FiltersForTableType1(GDPVersions, sortedData, selectedOS) {
-
   sortedData = sortedData.filter((item) => {
     // A row matches if any selected version either:
     // (a) is an exact match for a version in the row, OR
@@ -144,8 +137,8 @@ export function FiltersForTableType1(GDPVersions, sortedData, selectedOS) {
     //     because "12.2" means "supported from the 12.2 release line onward"
     let matched = GDPVersions?.some((gv) =>
       item.GuardiumVersion.some(
-        (rowGv) => rowGv === gv || gv.startsWith(rowGv + ".")
-      )
+        (rowGv) => rowGv === gv || gv.startsWith(rowGv + "."),
+      ),
     );
 
     return matched;
@@ -262,7 +255,7 @@ export const generateAccordianItem = (item) => {
           <div style={{ fontWeight: "normal" }}>
             <UnorderedList>
               {item.content.map((nestedItem) =>
-                generateOrderListItem(nestedItem)
+                generateOrderListItem(nestedItem),
               )}
             </UnorderedList>
           </div>
@@ -275,7 +268,7 @@ export const generateAccordianItem = (item) => {
           <div style={{ fontWeight: "normal" }}>
             <OrderedList>
               {item.content.map((nestedItem) =>
-                generateOrderListItem(nestedItem)
+                generateOrderListItem(nestedItem),
               )}
             </OrderedList>
           </div>
@@ -291,7 +284,7 @@ export const generateAccordianItem = (item) => {
                 <Link key={ind} href={link.link}>
                   {link.title}
                 </Link>
-              ) : null
+              ) : null,
             )}
           </div>
         </div>

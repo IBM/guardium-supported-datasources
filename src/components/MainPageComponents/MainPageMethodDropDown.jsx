@@ -1,4 +1,3 @@
-import React from "react";
 import { Dropdown } from "@carbon/react";
 import DropDownLabel from "./MainPageDropDownLabel";
 // import PropTypes from "prop-types";
@@ -11,7 +10,7 @@ export default function MainPageMethodDropdown({
   return (
     <div className="mainPageDropdown">
       <div className="mainPageDropdownBox">
-      <DropDownLabel label="By monitoring method" />
+        <DropDownLabel label="By monitoring method" />
         <Dropdown
           ariaLabel="Methods Dropdown"
           id="methods-dropdown"

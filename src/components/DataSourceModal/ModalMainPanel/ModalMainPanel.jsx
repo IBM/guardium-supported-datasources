@@ -1,5 +1,5 @@
 import { ModalTable } from "./ModalTable/ModalTable";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import OSDropDown from "./OSDropdown";
 import { generateOnesList } from "../../../helpers/helpers";
@@ -12,31 +12,36 @@ import PropTypes from "prop-types";
 import VersionCheckbox from "./VersionCheckbox";
 
 // Compatibility Matrix/Table component
-export default function ModalMainPanel({ jsonDataForDB, tableType, special_notes }) {
+export default function ModalMainPanel({
+  jsonDataForDB,
+  tableType,
+  special_notes,
+}) {
   // Used to handle logic related to sorting columns of table
   const [sortKey, setSortKey] = useState(
-    generateOnesList(tableType.headers.length)
+    generateOnesList(tableType.headers.length),
   );
   const [sortPriority, setSortPriority] = useState(0);
 
   // filter by version selection
-  const [GDPVersions, setGDPVersions] = React.useState(DEFAULT_GDP_VERSIONS);
+  const [GDPVersions, setGDPVersions] = useState(DEFAULT_GDP_VERSIONS);
 
   // For handling logic of the OS dropdown
   const [selectedOS, setSelectedOS] = useState(DEFAULT_OS_DROPDOWN_VALUE);
 
-
-
-  const NotesLine = special_notes.length ? (<><div className="notes-line"><strong>Notes:</strong>  {special_notes.join(", ")} </div></>) : null ;
+  const NotesLine = special_notes.length ? (
+    <div className="notes-line">
+      <strong>Notes:</strong> {special_notes.join(", ")}{" "}
+    </div>
+  ) : null;
 
   function filterSelectedGDPVersion(value, checked) {
     setGDPVersions((prev) =>
-      checked ? [...prev, value] : prev.filter((item) => item !== value)
+      checked ? [...prev, value] : prev.filter((item) => item !== value),
     );
 
     return;
   }
-
 
   // Change sorting of data when clicking on a header
   function changeSortKeyOnClick(ind) {
@@ -81,9 +86,9 @@ export default function ModalMainPanel({ jsonDataForDB, tableType, special_notes
       ) : null}
       <br />
 
-      {NotesLine? NotesLine: null}
+      {NotesLine ? NotesLine : null}
       {/* Wrapper for the main compat table */}
-      
+
       <ModalTable
         jsonDataForDB={jsonDataForDB}
         changeSortKeyOnClick={changeSortKeyOnClick}

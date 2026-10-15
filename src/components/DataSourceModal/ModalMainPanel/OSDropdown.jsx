@@ -1,4 +1,3 @@
-import React from "react";
 import { Dropdown } from "@carbon/react";
 
 export default function OSDropDown({

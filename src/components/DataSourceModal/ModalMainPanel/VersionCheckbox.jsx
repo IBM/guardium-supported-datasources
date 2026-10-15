@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "@mui/material";
 
 // Directly load the JSON data
@@ -38,7 +37,7 @@ export default function VersionCheckbox({
           setGDPVersions(
             GDPVersions.length === DEFAULT_GDP_VERSIONS.length
               ? []
-              : DEFAULT_GDP_VERSIONS
+              : DEFAULT_GDP_VERSIONS,
           )
         }
       >
