@@ -1,28 +1,28 @@
-import React from "react";
 import { Dropdown } from "@carbon/react";
 import DropDownLabel from "./MainPageDropDownLabel";
 // import PropTypes from "prop-types";
 
 export default function MainPageOSDropdown({
-  OSlist=[],
-  selectedOS="",
-  setSelectedOS=()=>{},
+  OSlist = [],
+  selectedOS = "",
+  setSelectedOS = () => {},
 }) {
   return (
-      <div className="mainPageDropdownBox">
+    <div className="mainPageDropdownBox">
       <DropDownLabel label="By OS" />
-        <Dropdown className="main-page-drop-down"
-          ariaLabel="OS Dropdown"
-          id="os-dropdown"
-          itemToString={(os) => os}
-          items={Array.isArray(OSlist) ? OSlist : []}
-          label="Select an OS"
-          initialSelectedItem={selectedOS}
-          onChange={(item) => {
-            setSelectedOS(item.selectedItem);
-          }}
-        />
-      </div>
+      <Dropdown
+        className="main-page-drop-down"
+        ariaLabel="OS Dropdown"
+        id="os-dropdown"
+        itemToString={(os) => os}
+        items={Array.isArray(OSlist) ? OSlist : []}
+        label="Select an OS"
+        initialSelectedItem={selectedOS}
+        onChange={(item) => {
+          setSelectedOS(item.selectedItem);
+        }}
+      />
+    </div>
   );
 }
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { Dropdown } from "@carbon/react";
 import PropTypes from "prop-types";
 
@@ -30,14 +29,14 @@ EnvironmentDropDown.propTypes = {
       PropTypes.shape({
         method_name: PropTypes.string.isRequired,
         method_key: PropTypes.string.isRequired,
-      })
+      }),
     ).isRequired,
   }), // Object representing the selected environment data
   selectedDataSourceData: PropTypes.shape({
     environments_supported: PropTypes.arrayOf(
       PropTypes.shape({
         environment_name: PropTypes.string.isRequired,
-      })
+      }),
     ).isRequired,
   }).isRequired, // Object with environments_supported array
   setSelectedEnvironmentData: PropTypes.func.isRequired, // Function to update selected environment data
@@ -46,21 +45,21 @@ EnvironmentDropDown.propTypes = {
 export function MethodDropDown({
   selectedMethodData,
   selectedEnvironmentData,
-  setSelectedMethodData
+  setSelectedMethodData,
 }) {
   return (
     <Dropdown
-              ariaLabel="Methods Dropdown"
-              id="methods-dropdown"
-              selectedItem={selectedMethodData}
-              items={selectedEnvironmentData.methods_supported}
-              itemToString={(method) => method.method_name}
-              label="Choose Method"
-              titleText="Method"
-              onChange={(item) => {
-                setSelectedMethodData(item.selectedItem);
-              }}
-            />
+      ariaLabel="Methods Dropdown"
+      id="methods-dropdown"
+      selectedItem={selectedMethodData}
+      items={selectedEnvironmentData.methods_supported}
+      itemToString={(method) => method.method_name}
+      label="Choose Method"
+      titleText="Method"
+      onChange={(item) => {
+        setSelectedMethodData(item.selectedItem);
+      }}
+    />
   );
 }
 
@@ -74,7 +73,7 @@ MethodDropDown.propTypes = {
       PropTypes.shape({
         method_name: PropTypes.string.isRequired,
         method_key: PropTypes.string.isRequired,
-      })
+      }),
     ).isRequired,
   }).isRequired, // Object with methods_supported array
   setSelectedMethodData: PropTypes.func.isRequired, // Function to update selected method data

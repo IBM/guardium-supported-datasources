@@ -39,7 +39,7 @@ export const TABLETYPE1 = {
           rowa.DatabaseVersion[0],
           rowb.DatabaseVersion[0],
           rowa.DatabaseVersion[rowa.DatabaseVersion.length - 1],
-          rowb.DatabaseVersion[rowb.DatabaseVersion.length - 1]
+          rowb.DatabaseVersion[rowb.DatabaseVersion.length - 1],
         );
       },
       sortd: (rowb, rowa) => {
@@ -47,7 +47,7 @@ export const TABLETYPE1 = {
           rowa.DatabaseVersion[0],
           rowb.DatabaseVersion[0],
           rowa.DatabaseVersion[rowa.DatabaseVersion.length - 1],
-          rowb.DatabaseVersion[rowb.DatabaseVersion.length - 1]
+          rowb.DatabaseVersion[rowb.DatabaseVersion.length - 1],
         );
       },
       getReadableString: (lsta) => {
@@ -64,7 +64,7 @@ export const TABLETYPE1 = {
           rowa.GuardiumVersion[0],
           rowb.GuardiumVersion[0],
           rowa.GuardiumVersion[rowa.GuardiumVersion.length - 1],
-          rowb.GuardiumVersion[rowb.GuardiumVersion.length - 1]
+          rowb.GuardiumVersion[rowb.GuardiumVersion.length - 1],
         );
       },
       sortd: (rowb, rowa) => {
@@ -72,7 +72,7 @@ export const TABLETYPE1 = {
           rowa.GuardiumVersion[0],
           rowb.GuardiumVersion[0],
           rowb.GuardiumVersion[rowb.GuardiumVersion.length - 1],
-          rowa.GuardiumVersion[rowa.GuardiumVersion.length - 1]
+          rowa.GuardiumVersion[rowa.GuardiumVersion.length - 1],
         );
       },
       getReadableString: (lsta) => {
@@ -159,7 +159,7 @@ export const TABLETYPE2 = {
           rowa.Guardium_Version[0],
           rowb.Guardium_Version[0],
           rowa.Guardium_Version[rowa.Guardium_Version.length - 1],
-          rowb.Guardium_Version[rowb.Guardium_Version.length - 1]
+          rowb.Guardium_Version[rowb.Guardium_Version.length - 1],
         );
       },
       sortd: (rowb, rowa) => {
@@ -167,7 +167,7 @@ export const TABLETYPE2 = {
           rowa.Guardium_Version[0],
           rowb.Guardium_Version[0],
           rowa.Guardium_Version[rowa.Guardium_Version.length - 1],
-          rowb.Guardium_Version[rowb.Guardium_Version.length - 1]
+          rowb.Guardium_Version[rowb.Guardium_Version.length - 1],
         );
       },
       getReadableString: (lsta) => {
@@ -183,7 +183,7 @@ export const TABLETYPE2 = {
           rowa.DataSource_Version[0],
           rowb.DataSource_Version[0],
           rowa.DataSource_Version[rowa.DataSource_Version.length - 1],
-          rowb.DataSource_Version[rowb.DataSource_Version.length - 1]
+          rowb.DataSource_Version[rowb.DataSource_Version.length - 1],
         );
       },
       sortd: (rowb, rowa) => {
@@ -191,7 +191,7 @@ export const TABLETYPE2 = {
           rowa.DataSource_Version[0],
           rowb.DataSource_Version[0],
           rowa.DataSource_Version[rowa.DataSource_Version.length - 1],
-          rowb.DataSource_Version[rowb.DataSource_Version.length - 1]
+          rowb.DataSource_Version[rowb.DataSource_Version.length - 1],
         );
       },
       getReadableString: (lsta) => {
@@ -335,18 +335,20 @@ export const DEFAULT_GV_RANGE = [
 const { GV_RANGE: _gv } = GuardiumVersions;
 export const DEFAULT_GDP_VERSIONS = _gv;
 
-export const UNIQUE_OS_NAMES = ["All",
+export const UNIQUE_OS_NAMES = [
+  "All",
   ...new Set(
-      Object.values(OnPrem_Stap)
-          .flat()
-          .flatMap(item => item.OSName).sort()
-  )
+    Object.values(OnPrem_Stap)
+      .flat()
+      .flatMap((item) => item.OSName)
+      .sort(),
+  ),
 ];
 export const AGENT_OS = Object.fromEntries(
   Object.entries(OnPrem_Stap).map(([key, value]) => [
-      key,
-      value.map(item => item.OSName[0])
-  ])
+    key,
+    value.map((item) => item.OSName[0]),
+  ]),
 );
 
 export const DEFAULT_OS_DROPDOWN_VALUE = "All";

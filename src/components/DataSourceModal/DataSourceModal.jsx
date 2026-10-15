@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import React from "react";
 import PropTypes from "prop-types";
 import { Loading, Modal } from "@carbon/react";
 
@@ -30,7 +29,7 @@ export default function DatasourceModal({
   const [selectedMethodData, _setSelectedMethodData] = useState(null);
 
   // Used to populate the main table
-  const [jsonDataForDB, setJsonDataForDB] = React.useState(null);
+  const [jsonDataForDB, setJsonDataForDB] = useState(null);
   // Used to load different headers,depends on diffreent env/method
   const [tableType, setTableType] = useState(null);
 
@@ -63,13 +62,13 @@ export default function DatasourceModal({
     try {
       const [jsonData, tableType] = getJSONData(
         environment.environment_name,
-        method.method_key
+        method.method_key,
       );
 
       // Check if jsonData is found
       if (!jsonData) {
         setErrorMessage(
-          `Data for ${environment.environment_name} | ${method.method_key} could not be loaded.`
+          `Data for ${environment.environment_name} | ${method.method_key} could not be loaded.`,
         );
         // Set error states
         setJsonDataForDB(null);
@@ -80,14 +79,14 @@ export default function DatasourceModal({
       // Check if the selected database name exists in the jsonData
       const newJsonDataForDB = Object.prototype.hasOwnProperty.call(
         jsonData,
-        selectedDataSourceData["database_name"]
+        selectedDataSourceData["database_name"],
       )
         ? jsonData[selectedDataSourceData["database_name"]]
         : null;
 
       if (!newJsonDataForDB) {
         setErrorMessage(
-          `No data available for ${selectedDataSourceData["database_name"]} in ${environment.environment_name} | ${method.method_key}.`
+          `No data available for ${selectedDataSourceData["database_name"]} in ${environment.environment_name} | ${method.method_key}.`,
         );
         // Set error states
         setJsonDataForDB(null);
@@ -97,7 +96,8 @@ export default function DatasourceModal({
 
       // Augment each row with VA_supported from VA_datasources.json so the
       // detail table reflects the authoritative VA status without needing it in the CSV.
-      const vaValue = vaDatasources[selectedDataSourceData["database_name"]]?.va_supported
+      const vaValue = vaDatasources[selectedDataSourceData["database_name"]]
+        ?.va_supported
         ? "Yes"
         : "";
       const augmentedJsonDataForDB = newJsonDataForDB.map((row) => ({
@@ -110,7 +110,6 @@ export default function DatasourceModal({
 
       console.log("newJsonDataForDB:", newJsonDataForDB);
 
-      
       // Update the table type state
       setTableType(tableType);
     } catch (error) {
@@ -125,7 +124,6 @@ export default function DatasourceModal({
       setLoading(false);
     }
   };
-
 
   console.log("selectedDataSourceData:", selectedDataSourceData);
   return loading ? (
@@ -176,20 +174,24 @@ export default function DatasourceModal({
             </p>
           )}
 
-          {vaDatasources[selectedDataSourceData.database_name]?.va_supported && (
+          {vaDatasources[selectedDataSourceData.database_name]?.va_supported ? (
             <div className={`${BLOCK_CLASS}__va-info`}>
               <h6>Vulnerability Assessment</h6>
-              <p>{vaDatasources[selectedDataSourceData.database_name].va_notes}</p>
+              <p>
+                {vaDatasources[selectedDataSourceData.database_name].va_notes}
+              </p>
             </div>
-          )}
+          ) : null}
 
-          {udcDatasources[selectedDataSourceData.database_name]?.udc_supported && (
+          {udcDatasources[selectedDataSourceData.database_name]
+            ?.udc_supported ? (
             <div className={`${BLOCK_CLASS}__va-info`}>
               <h6>Discover &amp; Classify</h6>
-              <p>{udcDatasources[selectedDataSourceData.database_name].udc_notes}</p>
+              <p>
+                {udcDatasources[selectedDataSourceData.database_name].udc_notes}
+              </p>
             </div>
-          )}
-
+          ) : null}
         </div>
 
         <div className={`${BLOCK_CLASS}__modal_main_panel_wrapper`}>

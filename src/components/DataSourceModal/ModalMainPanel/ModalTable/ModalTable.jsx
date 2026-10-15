@@ -1,4 +1,3 @@
-import React from "react";
 import ModalTableHeaders from "./ModalTableHeaders";
 import { FiltersForTableType1 } from "../../../../helpers/helpers";
 import ExpandingTableRow from "./ExpandingTableRow/ExpandingTableRow";

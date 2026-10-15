@@ -1,8 +1,6 @@
-import React from "react";
 import { Dropdown } from "@carbon/react";
-import DropDownLabel from "./MainPageDropDownLabel"
+import DropDownLabel from "./MainPageDropDownLabel";
 import PropTypes from "prop-types";
-
 
 export default function MainPageDropdown({
   // handleSearchAndFilter,
@@ -11,21 +9,21 @@ export default function MainPageDropdown({
   PRODUCTS,
 }) {
   return (
-      <div className="mainPageDropdownBox">
-        <DropDownLabel label="By Product" />
-        
-        <Dropdown
-          ariaLabel="Filter by Products Dropdown"
-          id="products-dropdown"
-          itemToString={(env) => env}
-          items={PRODUCTS}
-          label="Select a product"
-          onChange={(item) => {
-            setSelectedProduct(item.selectedItem);
-          }}
-          selectedItem={selectedProduct}
-        />
-      </div>
+    <div className="mainPageDropdownBox">
+      <DropDownLabel label="By Product" />
+
+      <Dropdown
+        ariaLabel="Filter by Products Dropdown"
+        id="products-dropdown"
+        itemToString={(env) => env}
+        items={PRODUCTS}
+        label="Select a product"
+        onChange={(item) => {
+          setSelectedProduct(item.selectedItem);
+        }}
+        selectedItem={selectedProduct}
+      />
+    </div>
   );
 }
 

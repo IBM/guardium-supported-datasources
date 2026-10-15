@@ -10,7 +10,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^9.5.0",
     "@mui/material": "^9.5.0",
-    "export-to-csv": "^1.4.0",
+    "export-to-csv": "^1.5.0",
     "fuse.js": "^7.5.0",
     "prop-types": "^15.8.1",
     "react": "^19.3.1",
@@ -28,6 +28,9 @@
     "consol": "rm ./src/data/consolidated_jsons/OnPrem_UC.json && python3 ./consolidation-script2/runner.py ./consolidation-script2/config/configOnPrem_UC.yaml",
     "consol_deploy_true": "rm -rf ./src/data/consolidated_jsons/* && python3 ./consolidation-script2/run_all.py ./consolidation-script2/config && gh-pages -d build"
   },
+  "overrides": {
+    "braces": "^3.0.3"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -41,15 +44,16 @@
     ]
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@vitejs/plugin-react": "^6.1.2",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.35.0",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.7",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "gh-pages": "^6.1.1",
-    "globals": "^15.9.0",
-    "prettier": "^3.3.3",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
     "vite": "^8.3.4"
   }
 }
