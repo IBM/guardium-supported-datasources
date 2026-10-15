@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "@carbon/ibm-security";
+import { Search } from "@carbon/react";
 import PropTypes from "prop-types";
 
 export default function MainPageSearchBar({
@@ -8,7 +8,7 @@ export default function MainPageSearchBar({
 }) {
   const searchColumnProps = {
     id: "search-columns",
-    size: "xl",
+    size: "lg",
     light: false,
     name: "search-columns",
     labelText: "Find a datasource",

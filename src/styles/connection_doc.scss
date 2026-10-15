@@ -1,7 +1,30 @@
-@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
-@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
-@import "carbon-components/scss/globals/scss/typography.scss";
-@import "carbon-components/scss/globals/scss/vars.scss";
+// Card grid — 6 columns on large screens, responsive down to 1 on mobile.
+// Replicates bx--row + bx--col-lg-2 (2/16 cols each) from Carbon v10 without
+// depending on Carbon's grid classes.
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.cards-grid__col {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: calc(100% / 6);          // 6 columns — matches bx--col-lg-2 (2/16)
+
+  @media (max-width: 1055px) {    // lg breakpoint equivalent
+    width: calc(100% / 4);
+  }
+
+  @media (max-width: 671px) {     // md breakpoint equivalent
+    width: calc(100% / 2);
+  }
+
+  @media (max-width: 319px) {     // sm breakpoint equivalent
+    width: 100%;
+  }
+}
 
 @mixin component($block) {
   .#{$block} {
@@ -82,8 +105,7 @@
 }
 
 .mainPageSearchBar {
-  min-height: 50px;
-  max-height: 50px;
+  width: 100%;
 }
 
 .mainPageTopHolder {
@@ -158,7 +180,8 @@
 
 .OSDropdownDiv {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .OSDropdown {
@@ -348,6 +371,7 @@ td.uk-background-muted {
 }
 
 .mainTableWrapper {
+  width: 100%;
   height: 100%;
   overflow: auto;
 }
@@ -391,7 +415,7 @@ td.uk-background-muted {
   }
 
   &__data-source-card {
-    background-color: $ui-01;
+    background-color: var(--cds-layer);
     display: flex;
     align-items: center;
     height: 4rem;
@@ -399,21 +423,21 @@ td.uk-background-muted {
     position: relative;
     &:hover {
       cursor: pointer;
-      background-color: $hover-ui;
+      background-color: var(--cds-layer-hover);
     }
   }
 
   &__data-source-card--disabled {
-    background-color: $ui-03;
+    background-color: var(--cds-layer-accent);
     &:hover {
       cursor: not-allowed;
-      background-color: $ui-03;
+      background-color: var(--cds-layer-accent);
     }
   }
 
   &__data-source-card-title {
     margin-left: 1rem;
-    font-size: carbon--type-scale(3);
+    font-size: 1rem;
   }
 
   &__data-source-card-version {
@@ -470,7 +494,8 @@ td.uk-background-muted {
   }
 
   &__modal_main_panel_wrapper {
-    width: 50%;
+    flex: 1;
+    min-width: 0;
     padding-left: 20px;
   }
 
@@ -500,7 +525,7 @@ td.uk-background-muted {
     font-weight: bold;
     min-width: 100px;
     margin: 0.5rem 0 0rem 0.3rem;
-    font-size: carbon--type-scale(2);
+    font-size: 0.875rem;
   }
 
   &__list-item-text {
@@ -509,7 +534,7 @@ td.uk-background-muted {
     font-weight: normal;
     min-width: 100px;
     margin: 0.5rem 0 0.5rem 0.5rem;
-    font-size: carbon--type-scale(2);
+    font-size: 0.875rem;
   }
 
   &__list-item-tag {
@@ -518,7 +543,7 @@ td.uk-background-muted {
     font-weight: normal;
     min-width: 100px;
     margin: 0.5rem 0 0.5rem 0rem;
-    font-size: carbon--type-scale(2);
+    font-size: 0.875rem;
   }
 
   // &__main-page-data-link {

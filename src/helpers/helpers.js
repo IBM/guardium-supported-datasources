@@ -4,7 +4,7 @@ import {
   ListItem,
   UnorderedList,
   Link,
-} from "@carbon/ibm-security";
+} from "@carbon/react";
 import React from "react";
 
 export function isNumber(str) {

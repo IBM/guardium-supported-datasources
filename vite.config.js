@@ -39,7 +39,6 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        // Suppress deprecation warnings from the legacy carbon-components SCSS
         quietDeps: true,
         silenceDeprecations: ['legacy-js-api', 'import'],
       },

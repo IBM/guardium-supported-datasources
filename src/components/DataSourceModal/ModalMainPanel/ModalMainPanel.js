@@ -50,7 +50,7 @@ export default function ModalMainPanel({ jsonDataForDB, tableType, special_notes
   }
 
   return (
-    <div style={{ width: "max-content" }}>
+    <div style={{ width: "100%" }}>
       <br />
 
       <h5>Detailed Support Information</h5>
