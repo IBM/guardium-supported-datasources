@@ -11,3 +11,4 @@ GDP,GDP 12.1,Sybase ASE,latest,,,,https://github.com/IBM/universal-connectors/bl
 GDP,GDP 12.1,Teradata,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/TeradataJDBCKafkaConnect.md
 GDP,GDP 12.2.4,NetApp ONTAP NAS,ONTAP 9.10+,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/NetAppOntapKafkaConnect.md
 GDP,GDP 12.1,YugabyteDB,latest,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/YugabyteKafkaConnectREADME.md
+GDP,GDP 12.2.4,Redis,ContainerizedRedis Enterprise 8.2.0-78,,,,https://github.com/IBM/universal-connectors/blob/main/docs/KafkaBasedUCs/RedisSyslogKafkaConnect.md
