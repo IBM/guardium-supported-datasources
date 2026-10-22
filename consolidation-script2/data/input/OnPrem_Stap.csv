@@ -8496,3 +8496,15 @@ GDP,12.x,Red Hat,Red Hat 8,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,C
 GDP,12.2,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.x,Red Hat,Red Hat 9,IBM DataStax Hyper-Converged Database (HCD),HCD 1.0,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
 GDP,12.2,Red Hat,Red Hat 7,DataStax Enterprise,DataStax Enterprise 6.9.9,Configure Cassandra auditing to log to a FileAppender,,Configure Cassandra auditing to log to a FileAppender,,,,,,,,,,
+GDP,12.x,Windows Server,Windows Server 2016,PostgreSQL,PostgreSQL 18.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.x,Windows Server,Windows Server 2019,PostgreSQL,PostgreSQL 18.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.x,Windows Server,Windows Server 2022,PostgreSQL,PostgreSQL 18.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
+GDP,12.x,Windows Server,Windows Server 2016,MongoDB,MongoDB 8.3.3.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MongoDB
+GDP,12.x,Windows Server,Windows Server 2019,MongoDB,MongoDB 8.3.3.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MongoDB
+GDP,12.x,Windows Server,Windows Server 2022,MongoDB,MongoDB 8.3.3.3,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MongoDB
+GDP,12.x,Windows Server,Windows Server 2016,MySQL,MySQL 9.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,12.x,Windows Server,Windows Server 2019,MySQL,MySQL 9.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,12.x,Windows Server,Windows Server 2022,MySQL,MySQL 9.7,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,"TCP, NMP, BEQ",Shared Memory traffic is not supported by Windows STAP
+GDP,12.x,Windows Server,Windows Server 2016,MariaDB,MariaDB 12.3.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MariaDB
+GDP,12.x,Windows Server,Windows Server 2019,MariaDB,MariaDB 12.3.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MariaDB
+GDP,12.x,Windows Server,Windows Server 2022,MariaDB,MariaDB 12.3.2,STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MariaDB
