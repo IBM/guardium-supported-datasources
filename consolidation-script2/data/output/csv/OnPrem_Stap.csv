@@ -526,8 +526,11 @@
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019')",('CouchDB'),"('Couch 3.2', 'Couch 3.3')",STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019')",('EDB Postgres'),('EDB 17.4'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('MariaDB'),('MariaDB 12.0'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,
+('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('MariaDB'),('MariaDB 12.3.2'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MariaDB
+('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('MongoDB'),('MongoDB 8.3.3.3'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for MongoDB
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('Neo4j'),('Neo4j 2025.10'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('Neo4j'),('Neo4j 5.15'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
+('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022')",('PostgreSQL'),"('PostgreSQL 18.3', 'PostgreSQL 18.4')",STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('EDB Postgres'),"('EDB 17.6', 'EDB 18.4')",STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('Elasticsearch'),('Elasticsearch 7.15'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('Elasticsearch'),"('Elasticsearch 8.10.4', 'Elasticsearch 8.15.3')",STAP,STAP,,,,STAP,,,,,STAP,TCP,
@@ -544,7 +547,6 @@
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('Neo4j'),('Neo4j 4.4.5'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('PostgreSQL'),('PostgreSQL 17.2'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('PostgreSQL'),('PostgreSQL 17.6'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
-('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('PostgreSQL'),('PostgreSQL 18.4'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'Windows Server 2025')",('Sybase ASE'),('Sybase ASE 16.1'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support SSL for Sybase ASE
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2019', 'Windows Server 2022')",('CouchDB'),"('Couch 3.4.2', 'Couch 3.5.1')",STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),"('Windows Server 2019', 'Windows Server 2022')",('Couchbase'),"('Couchbase 7.1', 'Couchbase 7.6', 'Couchbase 7.6.3')",STAP,STAP,,,,STAP,STAP,,,,STAP,TCP,
@@ -560,6 +562,7 @@
 ('GDP'),('12.x'),('Windows Server'),('Windows Server 2025'),('MariaDB'),('MariaDB 12.0'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),('Windows Server 2025'),('Neo4j'),('Neo4j 2025.10'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
 ('GDP'),('12.x'),('Windows Server'),('Windows Server 2025'),('Neo4j'),('Neo4j 5.15'),STAP,STAP,,,,STAP,,,,,STAP,TCP,
+('GDP'),('12.x'),('Windows Server'),('Windows Server 2025'),('PostgreSQL'),('PostgreSQL 18.4'),STAP,STAP,,,,STAP,STAP,,,STAP,STAP,TCP,Windows does not support encryption for PostgreSQL
 ('GDP'),('12.x'),('z/OS'),('z/OS 2.5'),(' IBM Data Sets'),(' Depends z/OS version'),, Yes,,,,,,,,,,,
 ('GDP'),('12.x'),('z/OS'),"('z/OS 2.5', 'z/OS 3.1')",(' IBM Db2 for z/OS'),(' IBM Db2 for z/OS 12'), Yes, Yes,,,,,,,,,,,
 ('GDP'),('12.x'),('z/OS'),"('z/OS 2.5', 'z/OS 3.1', 'z/OS 3.2')",(' IBM Db2 for z/OS'),(' IBM Db2 for z/OS v13'), Yes,Yes,,,,,,,,,,,
