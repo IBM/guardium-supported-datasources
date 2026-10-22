@@ -1,5 +1,5 @@
 ﻿{
-    "MongoDB": [
+    "Azure Cosmos DB for MongoDB": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -12,69 +12,7 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "14.0+"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "14.0+"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        },
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "MongoDB"
-            ],
-            "DataSource_Version": [
-                "14.0+"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Cosmos DB for NoSQL": [
-        {
-            "GDP_Type": [
-                "GDSC"
-            ],
-            "Guardium_Version": [
-                "GDSC 3.2.0",
-                "GDSC 3.3.0",
-                "GDSC 3.4.0",
-                "GDSC 3.5.0",
-                "GDSC 3.6.0"
-            ],
-            "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure Cosmos DB for MongoDB"
             ],
             "DataSource_Version": [
                 "latest"
@@ -94,7 +32,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure Cosmos DB for MongoDB"
             ],
             "DataSource_Version": [
                 "latest"
@@ -112,7 +50,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for NoSQL"
+                "Azure Cosmos DB for MongoDB"
             ],
             "DataSource_Version": [
                 "latest"
@@ -185,7 +123,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos DB for Table": [
+    "MongoDB": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -198,10 +136,10 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "Classification_supported": "",
             "Notes": "",
@@ -218,10 +156,10 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "Classification_supported": "",
             "Notes": "",
@@ -236,10 +174,10 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Table"
+                "MongoDB"
             ],
             "DataSource_Version": [
-                "latest"
+                "14.0+"
             ],
             "Classification_supported": "",
             "Notes": "",
@@ -247,7 +185,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos DB for MongoDB": [
+    "Azure Cosmos DB for Gremlin": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -260,7 +198,7 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure Cosmos DB for MongoDB"
+                "Azure Cosmos DB for Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -280,7 +218,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for MongoDB"
+                "Azure Cosmos DB for Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -298,7 +236,7 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for MongoDB"
+                "Azure Cosmos DB for Gremlin"
             ],
             "DataSource_Version": [
                 "latest"
@@ -371,7 +309,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Cosmos DB for Gremlin": [
+    "Azure Cosmos DB for NoSQL": [
         {
             "GDP_Type": [
                 "GDSC"
@@ -384,7 +322,7 @@
                 "GDSC 3.6.0"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Gremlin"
+                "Azure Cosmos DB for NoSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -404,7 +342,7 @@
                 "GDP 12.1"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Gremlin"
+                "Azure Cosmos DB for NoSQL"
             ],
             "DataSource_Version": [
                 "latest"
@@ -422,7 +360,69 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Cosmos DB for Gremlin"
+                "Azure Cosmos DB for NoSQL"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Cosmos DB for Table": [
+        {
+            "GDP_Type": [
+                "GDSC"
+            ],
+            "Guardium_Version": [
+                "GDSC 3.2.0",
+                "GDSC 3.3.0",
+                "GDSC 3.4.0",
+                "GDSC 3.5.0",
+                "GDSC 3.6.0"
+            ],
+            "DataSource": [
+                "Azure Cosmos DB for Table"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1"
+            ],
+            "DataSource": [
+                "Azure Cosmos DB for Table"
+            ],
+            "DataSource_Version": [
+                "latest"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        },
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure Cosmos DB for Table"
             ],
             "DataSource_Version": [
                 "latest"

@@ -1,5 +1,5 @@
 ﻿{
-    "Azure Database for PostgreSQL": [
+    "Azure Synapse Analytics": [
         {
             "GDP_Type": [
                 "GDP"
@@ -11,76 +11,13 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Database for PostgreSQL"
+                "Azure Synapse Analytics"
             ],
             "DataSource_Version": [
-                "All versions"
+                "all versions"
             ],
             "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Managed Redis": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Azure Managed Redis"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure MySQL": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Azure MySQL"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Azure Cache for Redis": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Azure Cache for Redis"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
+            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
             "Download_URL": "",
             "Readme_URL": ""
         }
@@ -95,29 +32,6 @@
             ],
             "DataSource": [
                 "Azure MongoDB"
-            ],
-            "DataSource_Version": [
-                "All versions"
-            ],
-            "Classification_supported": "",
-            "Notes": "",
-            "Download_URL": "",
-            "Readme_URL": ""
-        }
-    ],
-    "Snowflake": [
-        {
-            "GDP_Type": [
-                "GDP"
-            ],
-            "Guardium_Version": [
-                "GDP 11.5",
-                "GDP 12.0",
-                "GDP 12.1",
-                "GDP 12.2"
-            ],
-            "DataSource": [
-                "Snowflake"
             ],
             "DataSource_Version": [
                 "All versions"
@@ -154,6 +68,69 @@
             "Readme_URL": ""
         }
     ],
+    "Azure Managed Redis": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure Managed Redis"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure Cache for Redis": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure Cache for Redis"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Snowflake": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Snowflake"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
     "Azure SQL": [
         {
             "GDP_Type": [
@@ -177,7 +154,7 @@
             "Readme_URL": ""
         }
     ],
-    "Azure Synapse Analytics": [
+    "Azure Database for PostgreSQL": [
         {
             "GDP_Type": [
                 "GDP"
@@ -189,13 +166,36 @@
                 "GDP 12.2"
             ],
             "DataSource": [
-                "Azure Synapse Analytics"
+                "Azure Database for PostgreSQL"
             ],
             "DataSource_Version": [
-                "all versions"
+                "All versions"
             ],
             "Classification_supported": "",
-            "Notes": "SSL-enabled encrypted connections are supported (including Force Protocol Encryption).",
+            "Notes": "",
+            "Download_URL": "",
+            "Readme_URL": ""
+        }
+    ],
+    "Azure MySQL": [
+        {
+            "GDP_Type": [
+                "GDP"
+            ],
+            "Guardium_Version": [
+                "GDP 11.5",
+                "GDP 12.0",
+                "GDP 12.1",
+                "GDP 12.2"
+            ],
+            "DataSource": [
+                "Azure MySQL"
+            ],
+            "DataSource_Version": [
+                "All versions"
+            ],
+            "Classification_supported": "",
+            "Notes": "",
             "Download_URL": "",
             "Readme_URL": ""
         }
